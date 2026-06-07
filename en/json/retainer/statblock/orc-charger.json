@@ -1,0 +1,122 @@
+{
+  "agility": 2,
+  "ev": "-",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1 or ranged 5",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "3 damage",
+          "tier2": "5 damage",
+          "tier3": "7 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "⚔️",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Notched Axe",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "If the charger is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the charger is reduced to 1 Stamina instead."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Relentless",
+      "type": "feature"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Effect:** Until the start of the charger's next turn, the charger and their mentor each have temporary Stamina equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "Self"
+      ],
+      "name": "Blood Oath",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "Self; See below",
+      "effects": [
+        {
+          "effect": "**Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy free strikes, and they can make a melee free strike against any creature they move adjacent to."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "name": "Mow 'Em Down",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "2 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "12 psychic damage",
+          "tier2": "18 psychic damage",
+          "tier3": "24 psychic damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area",
+        "Psionic"
+      ],
+      "name": "Vein Burst",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Orc"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/retainer.statblock/orc-charger",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Orc Charger",
+  "organization": "Retainer",
+  "presence": 0,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "1M",
+  "speed": 8,
+  "stability": 0,
+  "stamina": "21",
+  "type": "statblock"
+}

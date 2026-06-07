@@ -1,0 +1,8 @@
+content: "A reinforced metal shield embedded in the ground acts as cover for the creature controlling it.\n\n- **EV:** 1\n- **Stamina:** 9\n- **Size:** 1M\n\n> \U0001F300 **Deactivate**\n>\n> As a maneuver, a creature adjacent to a pavise shield controlled by another creature can make a **Might test**.\n>\n> - **≤11:** The creature controlling the shield retains control of it and can make an opportunity attack against the creature making the test.\n> - **12-16:** The creature controlling the shield retains control of it.\n> - **17+:** The creature making the test grabs the shield and takes control of it.\n\n> ⭐️ **Controlling the Shield**\n>\n> While a creature has the pavise shield grabbed, they have cover and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.\n>\n> While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a grabbed creature."
+ev: "1"
+level: "1"
+name: Pavise Shield
+scc: mcdm.monsters.v1/dynamic-terrain.fieldworks/pavise-shield
+size: 1M
+stamina: "9"
+type: dynamic-terrain

@@ -1,0 +1,8 @@
+content: "A sturdy wooden tower accessed by interior ladders or stairs provides cover and high ground for attackers.\n\n- **EV:** 8\n- **Stamina:** 50\n- **Size:** 3\n\n> \U0001F300 **Deactivate**\n>\n> The watchtower must be completely destroyed.\n\n> ⭐️ **High Ground and Cover**\n>\n> Creatures who have access to the watchtower's interior ladders or stairs have high ground and cover against creatures outside the watchtower.\n\n> \U0001F300 **Getting Inside**\n>\n> A creature outside and adjacent to the watchtower can gain access to the interior by climbing it as an **Agility test** or breaking into it with a **Might test**.\n>\n> - **≤11:** 1d6 damage; the creature remains outside the watchtower\n> - **12-16:** The creature remains outside the watchtower.\n> - **17+:** The creature gains access to the watchtower.\n\n> ⭐️ **Upgrades**\n>\n> **Ballista Emplacement (+12 EV)** The watchtower is equipped with a field ballista that can be used by creatures in the watchtower. The ballista can't be moved.\n>\n> **Boiling Oil Cauldron (+17 EV)** The watchtower is equipped with a boiling oil cauldron that can be used by creatures in the watchtower.\n>\n> **Spyglass (+2 EV)** Any creature in the watchtower can use the spyglass to search for hidden creatures around the tower, gaining an edge on the Intuition test and increasing the distance at which creatures can be spotted to 15 squares.\n>\n> **Stone Tower (+2 EV)** The watchtower is reinforced with stone and has 75 Stamina.\n>\n> **Iron Tower (+4 EV)** The watchtower is reinforced with stone and iron and has 100 Stamina."
+ev: "8"
+level: "2"
+name: Watchtower
+scc: mcdm.monsters.v1/dynamic-terrain.siege-engines/watchtower
+size: "3"
+stamina: "50"
+type: dynamic-terrain

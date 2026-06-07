@@ -1,0 +1,4 @@
+content: "At the start of any level 7 or higher war dog's turn, you can spend Malice to activate one of the following features.\n\n> ⭐️ **Prior Malice Features (3-7 Malice)**\n>\n> The war dog activates a Malice feature available to war dogs of level 6 or lower.\n\n> \U0001F300 **Alchemical Cloud (7 Malice)**\n>\n> A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.\n>\n> - **≤11:** 8 poison damage; dazed (EoT)\n> - **12-16:** 7 poison damage; weakened (EoT)\n> - **17+:** 4 poison damage"
+name: War Dog Malice (Level 7+ Malice Features)
+scc: mcdm.monsters.v1/monster.war-dogs.3rd-echelon/war-dog-malice-level-7-malice-features
+type: featureblock

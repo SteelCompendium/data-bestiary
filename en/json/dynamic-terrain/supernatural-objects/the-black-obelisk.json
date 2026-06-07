@@ -1,0 +1,10 @@
+{
+  "content": "A foreboding obelisk shaped of dark stone harrows the minds and spirits of those around it.\n\n- **EV:** 20\n- **Stamina:** 100\n- **Size:** 2\n\n\u003e 🌀 **Deactivate**\n\u003e\n\u003e As a maneuver, a creature adjacent to the black obelisk can make a **Reason test**.\n\u003e\n\u003e - **≤11:** The creature accidentally activates the **Your Fears Become Manifest** ability, which gains an edge.\n\u003e - **12-16:** The creature must make another test to deactivate the obelisk. If they obtain this outcome a second time, they accidentally activate **Your Fears Become Manifest**.\n\u003e - **17+:** The obelisk is deactivated until the end of the encounter.\n\n\u003e ❕ **Activate**\n\u003e\n\u003e A new round starts.\n\u003e\n\u003e **Effect:** The **Your Fears Become Manifest** ability.\n\n\u003e ❗️ **Your Fears Become Manifest**\n\u003e\n\u003e | **Area, Magic** |     **Free triggered action** |\n\u003e |-----------------|------------------------------:|\n\u003e | **📏 10 burst** | **🎯 Each enemy in the area** |\n\u003e\n\u003e **Trigger:** A new round starts.\n\u003e\n\u003e **Power Roll + 2:**\n\u003e\n\u003e - **≤11:** P \u003c 1 slowed (EoT)\n\u003e - **12-16:** P \u003c 2 slowed and weakened (EoT)\n\u003e - **17+:** P \u003c 3 frightened, slowed, and weakened (EoT)\n\u003e\n\u003e **Effect:** The target is pushed 2 squares.",
+  "ev": "20",
+  "level": "3",
+  "name": "The Black Obelisk",
+  "scc": "mcdm.monsters.v1/dynamic-terrain.supernatural-objects/the-black-obelisk",
+  "size": "2",
+  "stamina": "100",
+  "type": "dynamic-terrain"
+}

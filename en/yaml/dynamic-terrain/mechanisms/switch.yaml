@@ -1,0 +1,9 @@
+content: "Set into any surface, this mechanism acts as a trigger for another linked mechanism.\n\n- **EV:** 1\n- **Stamina:** 3\n- **Size:** 1T\n- **Link:** A switch is linked to another mechanism that it activates when triggered.\n\n> \U0001F300 **Deactivate**\n>\n> As a maneuver, a creature adjacent to a switch can make an **Agility test**.\n>\n> - **≤11:** The creature triggers the switch.\n> - **12-16:** The switch is deactivated but the creature is slowed (EoT).\n> - **17+:** The switch is deactivated and doesn't trigger.\n\n> ❕ **Activate**\n>\n> A creature adjacent to the switch uses a maneuver to trigger it.\n>\n> **Effect:** The linked mechanism is activated. A switch automatically resets and can be triggered repeatedly.\n\n> ⭐️ **Upgrade**\n>\n> **Concealed (+1 EV)** The switch is hidden."
+ev: "1"
+level: "1"
+link: A switch is linked to another mechanism that it activates when triggered.
+name: Switch
+scc: mcdm.monsters.v1/dynamic-terrain.mechanisms/switch
+size: 1T
+stamina: "3"
+type: dynamic-terrain

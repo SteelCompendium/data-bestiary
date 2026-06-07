@@ -1,0 +1,12 @@
+{
+  "content": "A series of sharp stakes have been placed point-out to protect defenders against charges and other direct attacks.\n\n- **EV:** 2\n- **Stamina:** 3 per square\n- **Size:** One or more squares of difficult terrain\n- **Typical Space:** 4 x 1-square area\n- **Direction:** One side of the stakes is defined as the front.\n\n\u003e 🌀 **Deactivate**\n\u003e\n\u003e Each square of stakes must be individually destroyed.\n\n\u003e ❕ **Activate**\n\u003e\n\u003e A creature enters an area of stakes from the front.\n\u003e\n\u003e **Effect:** The triggering creature takes 2 damage per square of stakes they enter. If they are force moved into an area of stakes, they take an additional 3 damage.\n\n\u003e ⭐️ **Upgrades**\n\u003e\n\u003e **Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns (save ends).\n\u003e\n\u003e **Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects.\n\n\u003e ❗️ **Sticky Stakes**\n\u003e\n\u003e | **Melee, Strike, Weapon** |                **Free triggered action** |\n\u003e |---------------------------|-----------------------------------------:|\n\u003e | **📏 Melee 0**            | **🎯 The triggering creature or object** |\n\u003e\n\u003e **Trigger:** A creature or object enters an area of sticky stakes.\n\u003e\n\u003e **Power Roll + 2:**\n\u003e\n\u003e - **≤11:** No effect.\n\u003e - **12-16:** A \u003c 1 slowed (save ends)\n\u003e - **17+:** A \u003c 2 restrained (save ends)\n\n\u003e ⭐️ **Allied Awareness**\n\u003e\n\u003e Allies of this object ignore the difficult terrain created by the stakes, take no damage from moving through the stakes unless they are force moved, and have cover while in an area of archer's stakes.",
+  "direction": "One side of the stakes is defined as the front.",
+  "ev": "2",
+  "level": "1",
+  "name": "Archer's Stakes",
+  "scc": "mcdm.monsters.v1/dynamic-terrain.fieldworks/archers-stakes",
+  "size": "One or more squares of difficult terrain",
+  "stamina": "3 per square",
+  "type": "dynamic-terrain",
+  "typical_space": "4 x 1-square area"
+}

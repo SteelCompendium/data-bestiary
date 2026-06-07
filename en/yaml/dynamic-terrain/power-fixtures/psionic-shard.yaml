@@ -1,0 +1,8 @@
+content: "A massive humming crystal makes the air around it feel thick.\n\n- **EV:** 7\n- **Stamina:** 40\n- **Size:** 2\n\n> \U0001F300 **Deactivate**\n>\n> The psionic shard must be completely destroyed.\n\n> ⭐️ **Psionic Barrier**\n>\n> A psionic shard is attuned to one side in an encounter. While a psionic shard is intact, any damage dealt to each ally of the shard in the encounter is halved.\n\n> ❗️ **Psionic Pulse**\n>\n> | **-**          | **Free triggered action** |\n> |----------------|--------------------------:|\n> | **\U0001F4CF Special** |            **\U0001F3AF Special** |\n>\n> **Trigger:** The shard is destroyed.\n>\n> **Effect:** The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is dazed until the end of their next turn."
+ev: "7"
+level: "5"
+name: Psionic Shard
+scc: mcdm.monsters.v1/dynamic-terrain.power-fixtures/psionic-shard
+size: "2"
+stamina: "40"
+type: dynamic-terrain

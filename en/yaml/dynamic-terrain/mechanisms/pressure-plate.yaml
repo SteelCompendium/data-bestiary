@@ -1,0 +1,10 @@
+content: "This mechanism acts as a trigger for another linked mechanism, and is skillfully hidden from view in the floor.\n\n- **EV:** 2\n- **Stamina:** -\n- **Size:** Any area\n- **Typical Space:** One square, up to a 4 x 4-square area\n- **Link:** A pressure plate is linked to another mechanism that it activates when triggered.\n\n> \U0001F300 **Deactivate**\n>\n> As a maneuver, a creature adjacent to a pressure plate can make an **Agility test**.\n>\n> - **≤11:** The creature triggers the pressure plate.\n> - **12-16:** The pressure plate is deactivated but the creature is slowed (EoT).\n> - **17+:** The pressure plate is deactivated and doesn't trigger.\n\n> ❕ **Activate**\n>\n> The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.\n>\n> **Effect:** The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.\n\n> ⭐️ **Upgrade**\n>\n> **Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.\n\n> ⭐️ **Hidden**\n>\n> The pressure plate is hidden until triggered or detected."
+ev: "2"
+level: "1"
+link: A pressure plate is linked to another mechanism that it activates when triggered.
+name: Pressure Plate
+scc: mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate
+size: Any area
+stamina: '-'
+type: dynamic-terrain
+typical_space: One square, up to a 4 x 4-square area

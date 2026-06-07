@@ -1,0 +1,10 @@
+{
+  "content": "A counterweighted pulley system can be used to quickly ascend to the top of a wall, scaffold, tower, or other structure.\n\n- **EV:** 1\n- **Stamina:** 1\n- **Size:** 1S\n\n\u003e 🌀 **Deactivate**\n\u003e\n\u003e As a maneuver, a creature adjacent to a pulley can make an **Agility test**.\n\u003e\n\u003e - **≤11:** The creature triggers the pulley.\n\u003e - **12-16:** The pulley is deactivated but the creature is slowed (EoT).\n\u003e - **17+:** The pulley is deactivated and doesn't trigger.\n\n\u003e ❕ **Activate**\n\u003e\n\u003e A creature adjacent to the pulley uses a maneuver to release the pulley.\n\u003e\n\u003e **Effect:** The triggering creature is lifted to the top of the structure the pulley is attached to. The pulley must be manually reset.\n\n\u003e ⭐️ **Climbable**\n\u003e\n\u003e A creature adjacent to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.\n\n\u003e ⭐️ **Upgrade**\n\u003e\n\u003e **Looped Chain (+1 EV)** Instead of a rope and pulley, the system uses a counterweighted looped chain. A looped chain automatically resets and can be triggered repeatedly.",
+  "ev": "1",
+  "level": "1",
+  "name": "Pulley",
+  "scc": "mcdm.monsters.v1/dynamic-terrain.mechanisms/pulley",
+  "size": "1S",
+  "stamina": "1",
+  "type": "dynamic-terrain"
+}

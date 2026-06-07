@@ -1,0 +1,8 @@
+content: "This thicket features close-growing vines tipped with sharp thorns.\n\n- **EV:** 1 per 10 x 10 thicket\n- **Stamina:** 3 per square\n- **Size:** One or more squares of difficult terrain\n\n> \U0001F300 **Deactivate**\n>\n> Each square of brambles must be individually destroyed.\n\n> ❕ **Activate**\n>\n> A creature enters a square of brambles without shifting.\n>\n> **Effect:** A creature takes 1 damage per square of brambles they enter.\n\n> ⭐️ **Upgrade**\n>\n> **Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends)."
+ev: 1 per 10 x 10 thicket
+level: "1"
+name: Brambles
+scc: mcdm.monsters.v1/dynamic-terrain.environmental-hazards/brambles
+size: One or more squares of difficult terrain
+stamina: 3 per square
+type: dynamic-terrain

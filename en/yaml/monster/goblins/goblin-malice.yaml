@@ -1,0 +1,4 @@
+content: "At the start of any goblin's turn, you can spend Malice to activate one of the following features.\n\n> ⭐️ **Goblin Mode (3 Malice)**\n>\n> Each goblin in the encounter gains a +2 bonus to speed until the end of the round.\n\n> ❇️ **Tiny Stabs (5 Malice)**\n>\n> Each enemy in the encounter takes 1 damage for each goblin adjacent to them.\n\n> \U0001F300 **Swamp Stink (7 Malice)**\n>\n> The encounter map is covered in a green mist that lasts until the end of the round, and which can't be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a **Might test**.\n>\n> - **≤11:** 5 poison damage; the creature is weakened until the mist disappears.\n> - **12-16:** The creature is weakened until the mist disappears.\n> - **17+:** No effect."
+name: Goblin Malice
+scc: mcdm.monsters.v1/monster.goblins/goblin-malice
+type: featureblock
