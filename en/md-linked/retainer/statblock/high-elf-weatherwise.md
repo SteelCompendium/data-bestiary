@@ -46,7 +46,7 @@ type: statblock
 >
 > At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
 
-######## Level 4 Retainer Advancement Ability
+**Level 4 Retainer Advancement Ability**
 
 > 🔳 **Winter's Breath (Encounter)**
 >
@@ -62,7 +62,7 @@ type: statblock
 >
 > **Effect:** The weatherwise can teleport up to 5 squares before or after using this ability.
 
-######## Level 7 Retainer Advancement Ability
+**Level 7 Retainer Advancement Ability**
 
 > ❇️ **Spring's Rebirth (Encounter)**
 >
@@ -72,7 +72,7 @@ type: statblock
 >
 > **Effect:** Each target can spend a Recovery, and can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
 
-######## Level 10 Retainer Advancement Ability
+**Level 10 Retainer Advancement Ability**
 
 > 🔳 **Autumn's Decay (Encounter)**
 >
