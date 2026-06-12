@@ -37,21 +37,21 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; pull 1
-> - **12-16:** 8 damage; pull 3; M < 1 slowed (save ends)
-> - **17+:** 10 damage; pull 5; M < 2 slowed (save ends)
+> - **≤11:** 5 damage; [pull](../../../movement/forced-movement.md) 1
+> - **12-16:** 8 damage; [pull](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 10 damage; [pull](../../../movement/forced-movement.md) 5; M < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** While slowed this way, a target can't search for hidden creatures.
+> **Effect:** While [slowed](../../../condition/slowed.md) this way, a target can't search for hidden creatures.
 >
-> **3 Malice:** The size of the cube and the potency both increase by 1.
+> **3 [Malice](../../../rule/monster/malice.md):** The size of the cube and the [potency](../../../rule/character/potency.md) both increase by 1.
 
-> 🏹 **The Wode Protects Us (3 Malice)**
+> 🏹 **The Wode Protects Us (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |                 **Maneuver** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self and three allies** |
 >
-> **Effect:** Each target can teleport up to 10 squares to a space that has cover or concealment.
+> **Effect:** Each target can [teleport](../../../movement/teleport.md) up to 10 squares to a space that has cover or concealment.
 
 > ⭐️ **Masking Glamor**
 >

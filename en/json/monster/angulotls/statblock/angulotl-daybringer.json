@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "7 acid damage; A \u003c 1 dazed (save ends)",
-          "tier2": "10 acid damage; A \u003c 2 dazed (save ends)",
-          "tier3": "13 acid damage; A \u003c 3 dazed (save ends)"
+          "tier1": "7 acid damage; A \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "10 acid damage; A \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "13 acid damage; A \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 Stamina and gains a +3 bonus to speed until the end of their turn."
+          "effect": "**Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and gains a +3 bonus to speed until the end of their turn."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
       "distance": "Melee 5",
       "effects": [
         {
-          "effect": "**Trigger:** The target makes a strike against the daybringer or an ally that isn't a critical hit.\n**Effect:** The outcome of the strike's power roll is reduced by one tier.\n**2 Malice:** The target is pulled up to 4 squares after the strike resolves."
+          "effect": "**Trigger:** The target makes a strike against the daybringer or an ally that isn't a critical hit.\n**Effect:** The outcome of the strike's power roll is reduced by one tier.\n**2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares after the strike resolves."
         }
       ],
       "feature_type": "ability",
@@ -62,7 +62,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -93,7 +93,7 @@
       "distance": "8 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target can jump up to 4 squares. Each non-minion target can make a free strike at the end of the jump."
+          "effect": "**Effect:** Each target can jump up to 4 squares. Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the jump."
         }
       ],
       "feature_type": "ability",
@@ -111,7 +111,7 @@
       "distance": "Special",
       "effects": [
         {
-          "effect": "**Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an edge. Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike."
+          "effect": "**Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge). Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike."
         }
       ],
       "feature_type": "ability",
@@ -127,7 +127,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever an adjacent enemy grabs the daybringer or uses a melee ability against them, that enemy takes 3 poison damage."
+          "effect": "Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the daybringer or uses a melee ability against them, that enemy takes 3 poison damage."
         }
       ],
       "feature_type": "trait",

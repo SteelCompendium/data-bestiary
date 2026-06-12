@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "4 damage",
           "tier2": "5 damage",
-          "tier3": "7 damage; prone; A \u003c 2 bleeding (save ends)"
+          "tier3": "7 damage; [prone](scc:mcdm.heroes.v1/condition/prone); A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -26,11 +26,10 @@
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "2 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target shifts up to their speed. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+          "effect": "**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
         }
       ],
       "feature_type": "ability",
@@ -38,7 +37,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Marauder's Cackletongue",
+      "name": "Marauder's Cackletongue (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "Maneuver"
@@ -46,7 +45,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-minion ally within 7 squares of the marauder is reduced to 0 Stamina, the marauder moves up to their speed and can make a melee free strike."
+          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the marauder is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the marauder moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "trait",

@@ -44,11 +44,11 @@ type: statblock
 >
 > - **≤11:** 9 damage
 > - **12-16:** 13 damage
-> - **17+:** 16 damage; I < 3 bleeding (save ends)
+> - **17+:** 16 damage; I < 3 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** The panther can make a free strike against a creature or object adjacent to the target.
+> **Effect:** The panther can make a [free strike](../../../feature/common/main-actions/free-strike.md) against a creature or object [adjacent](../../../rule/combat/adjacent.md) to the target.
 
-> ❇️ **Bladestorm (3 Malice)**
+> ❇️ **Bladestorm (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |               **Main action** |
 > |------------------|------------------------------:|
@@ -57,10 +57,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 corruption damage
-> - **12-16:** 8 corruption damage; I < 2 dazed (save ends)
-> - **17+:** 10 corruption damage; I < 3 dazed (save ends)
+> - **12-16:** 8 corruption damage; I < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 10 corruption damage; I < 3 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** The panther has a double edge on strikes against targets dazed this way.
+> **Effect:** The panther has a double edge on strikes against targets [dazed](../../../condition/dazed.md) this way.
 
 > ⭐️ **Of the Umbra**
 >

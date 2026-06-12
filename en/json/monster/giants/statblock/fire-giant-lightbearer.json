@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "Ranged 6",
       "effects": [
         {
@@ -43,7 +42,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Living Blaze",
+      "name": "Living Blaze (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Two creatures or objects",
       "type": "feature",
       "usage": "Main action"
@@ -52,7 +51,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and teleports in a plume of smoke to swap places with the other target."
+          "effect": "**Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and [teleports](scc:mcdm.heroes.v1/movement/teleport) in a plume of smoke to swap places with the other target."
         }
       ],
       "feature_type": "ability",
@@ -86,7 +85,7 @@
     {
       "effects": [
         {
-          "effect": "Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains Stamina equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore stability."
+          "effect": "Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore [stability](scc:mcdm.heroes.v1/rule.character/stability)."
         }
       ],
       "feature_type": "trait",
@@ -97,7 +96,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever an adjacent enemy grabs the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage."
+          "effect": "Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/condition/grabbed) the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage."
         }
       ],
       "feature_type": "trait",

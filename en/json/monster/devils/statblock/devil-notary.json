@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "3 fire damage",
-          "tier2": "5 fire damage; R \u003c 2 the target takes a bane on their next strike",
-          "tier3": "6 fire damage; R \u003c 3 the target takes a bane on their next strike"
+          "tier2": "5 fire damage; R \u003c 2 the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next strike",
+          "tier3": "6 fire damage; R \u003c 3 the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next strike"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
+          "effect": "If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter."
         }
       ],
       "feature_type": "trait",

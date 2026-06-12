@@ -38,12 +38,12 @@ weaknesses:
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 psychic damage
-> - **12-16:** 5 psychic damage; P < 1 weakened (save ends)
-> - **17+:** 7 psychic damage; P < 2 weakened (save ends)
+> - **12-16:** 5 psychic damage; P < 1 [weakened](../../../../condition/weakened.md) (save ends)
+> - **17+:** 7 psychic damage; P < 2 [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **Effect:** If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.
+> **Effect:** If the target makes a strike while [weakened](../../../../condition/weakened.md) this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.
 
-> 🏹 **Vanish (1 Malice)**
+> 🏹 **Vanish (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |            **Maneuver** |
 > |-------------------|------------------------:|
@@ -53,7 +53,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the bendrak is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the bendrak is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

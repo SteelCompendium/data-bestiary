@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "12 damage",
-          "tier2": "17 damage; A \u003c 3 bleeding (save ends)",
-          "tier3": "21 damage; A \u003c 4 bleeding (save ends)"
+          "tier2": "17 damage; A \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "21 damage; A \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -27,11 +27,10 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The wind sprinter shifts up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets."
+          "effect": "**Effect:** The wind sprinter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets."
         }
       ],
       "feature_type": "ability",
@@ -39,7 +38,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Blizzard Surge",
+      "name": "Blizzard Surge (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Main action"
@@ -48,7 +47,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Effect:** The wind sprinter and the target each shift up to 6 squares while staying adjacent to each other. The target can then jump up to 5 squares and make a free strike."
+          "effect": "**Effect:** The wind sprinter and the target each [shift](scc:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "ability",
@@ -81,7 +80,7 @@
     {
       "effects": [
         {
-          "effect": "The wind sprinter can move through enemies' spaces at their usual speed. The first time on a turn that a wind sprinter enters a creature's space, that creature can choose to fall prone or to take 8 damage."
+          "effect": "The wind sprinter can move through enemies' spaces at their usual speed. The first time on a turn that a wind sprinter enters a creature's space, that creature can choose to fall [prone](scc:mcdm.heroes.v1/condition/prone) or to take 8 damage."
         }
       ],
       "feature_type": "trait",
@@ -92,7 +91,7 @@
     {
       "effects": [
         {
-          "effect": "The wind sprinter is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the wind sprinter can't shift."
+          "effect": "The wind sprinter is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the wind sprinter can't [shift](scc:mcdm.heroes.v1/movement/shifting)."
         }
       ],
       "feature_type": "trait",

@@ -40,20 +40,20 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; M < 0 slowed (save ends)
-> - **12-16:** 7 damage; M < 1 slowed (save ends)
-> - **17+:** 9 damage; M < 2 slowed (save ends)
+> - **≤11:** 5 damage; M < 0 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 7 damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 9 damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** The target is pulled up to 5 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** The target is [pulled](../../../movement/forced-movement.md) up to 5 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
-> 🏹 **Reel Them In (3 Malice)**
+> 🏹 **Reel Them In (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged, Weapon** |           **Maneuver** |
 > |--------------------|-----------------------:|
 > | **📏 Ranged 10**   | **🎯 Three creatures** |
 >
-> **Effect:** The target is pulled up to 8 squares. A restrained or slowed target can be pulled an additional 2 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** The target is [pulled](../../../movement/forced-movement.md) up to 8 squares. A [restrained](../../../condition/restrained.md) or [slowed](../../../condition/slowed.md) target can be pulled an additional 2 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
 > ⭐️ **We Have a Quota!**
 >
-> If a target made slowed by the reel winch is already grabbed or slowed, the grabbed and slowed conditions end and the target is restrained (save ends).
+> If a target made [slowed](../../../condition/slowed.md) by the reel winch is already [grabbed](../../../condition/grabbed.md) or [slowed](../../../condition/slowed.md), the [grabbed](../../../condition/grabbed.md) and [slowed](../../../condition/slowed.md) conditions end and the target is [restrained](../../../condition/restrained.md) (save ends).

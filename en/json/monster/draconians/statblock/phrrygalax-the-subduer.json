@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "10 damage",
-          "tier2": "16 damage; M \u003c 1 bleeding (save ends)",
-          "tier3": "19 damage; M \u003c 2 3 damage, bleeding (save ends)"
+          "tier2": "16 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "19 damage; M \u003c 2 3 damage, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "2 Malice",
       "distance": "1 burst",
       "effects": [
         {
@@ -42,7 +41,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Spinning Spit",
+      "name": "Spinning Spit (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"
@@ -51,7 +50,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Phrrygalax flies up to his speed and lands in an unoccupied space on the ground. Each creature adjacent to where he lands who has A \u003c 2 is knocked prone."
+          "effect": "**Effect:** Phrrygalax [flies](scc:mcdm.heroes.v1/movement/fly) up to his speed and lands in an unoccupied space on the ground. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to where he lands who has A \u003c 2 is knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -65,11 +64,10 @@
       "usage": "Maneuver"
     },
     {
-      "cost": "2 Malice",
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.\n**Effect:** Phrrygalax takes no damage and instead regains the same amount of Stamina. He then swaps his current damage immunity with the triggering damage type."
+          "effect": "**Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.\n**Effect:** Phrrygalax takes no damage and instead regains the same amount of [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). He then swaps his current damage immunity with the triggering damage type."
         }
       ],
       "feature_type": "ability",
@@ -77,7 +75,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Armor of the Ancients",
+      "name": "Armor of the Ancients (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"
@@ -86,7 +84,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.\n**Effect:** Phrrygalax shifts up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage."
+          "effect": "**Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.\n**Effect:** Phrrygalax [shifts](scc:mcdm.heroes.v1/movement/shifting) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage."
         }
       ],
       "feature_type": "ability",

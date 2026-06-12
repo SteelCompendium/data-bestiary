@@ -45,7 +45,7 @@ with_captain: +2 bonus to speed
 
 > ⭐️ **Imposing Energy**
 >
-> Any enemy who starts their turn with two or more orliq adjacent to them is slowed (EoT).
+> Any enemy who starts their turn with two or more orliq [adjacent](../../../../rule/combat/adjacent.md) to them is [slowed](../../../../condition/slowed.md) (EoT).
 
 > ⭐️ **Soulsight**
 >

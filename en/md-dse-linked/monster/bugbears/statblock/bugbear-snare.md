@@ -45,6 +45,6 @@ with_captain: +3 bonus to speed
 >
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
-> - **17+:** 7 damage; A < 3 slowed (save ends)
+> - **17+:** 7 damage; A < 3 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** If the snare started their turn hidden from the target, the target is automatically grabbed. A target grabbed this way or already grabbed by the snare can be vertical pushed up to 4 squares.
+> **Effect:** If the snare started their turn hidden from the target, the target is automatically [grabbed](../../../condition/grabbed.md). A target [grabbed](../../../condition/grabbed.md) this way or already [grabbed](../../../condition/grabbed.md) by the snare can be vertical [pushed](../../../movement/forced-movement.md) up to 4 squares.

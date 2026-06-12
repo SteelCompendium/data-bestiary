@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 1 poison damage
-          tier2: 2 poison damage; the pollywog can shift 1 square
-          tier3: 3 poison damage; the pollywog shifts up to 3 squares
+          tier2: 2 poison damage; the pollywog can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+          tier3: 3 poison damage; the pollywog [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains 4 Stamina and is wet until the end of their next turn.
+        - effect: Any angulotl who can target the pollywog with a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) can eat them as a maneuver. The angulotl regains 4 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and is wet until the end of their next turn.
       feature_type: trait
       icon: ⭐️
       name: Quick Snack

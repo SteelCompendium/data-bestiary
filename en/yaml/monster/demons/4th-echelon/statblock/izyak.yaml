@@ -5,9 +5,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + 5
-          tier1: 9 psychic damage; R < 3 restrained (save ends)
-          tier2: 12 psychic damage; R < 4 restrained (save ends)
-          tier3: 14 psychic damage; R < 5 restrained (save ends)
+          tier1: 9 psychic damage; R < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 12 psychic damage; R < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 14 psychic damage; R < 5 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -18,25 +18,24 @@ features:
       target: One creature
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: 4 cube within 10
+    - distance: 4 cube within 10
       effects:
         - roll: Power Roll + 5
-          tier1: 4 psychic damage; I < 3 dazed (save ends)
-          tier2: 7 psychic damage; I < 4 dazed (save ends)
-          tier3: 9 psychic damage; I < 5 dazed (save ends)
+          tier1: 4 psychic damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 7 psychic damage; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 9 psychic damage; I < 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
         - Area
         - Psionic
         - Ranged
-      name: Ruinous Temptation
+      name: Ruinous Temptation (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each enemy in the area
       type: feature
       usage: Main action
     - effects:
-        - effect: While the izyak is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+        - effect: While the izyak is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

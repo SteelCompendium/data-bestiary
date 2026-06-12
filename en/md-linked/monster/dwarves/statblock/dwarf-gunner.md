@@ -35,21 +35,21 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; push 1
-> - **12-16:** 9 damage; push 3
-> - **17+:** 12 damage; push 5
+> - **≤11:** 6 damage; [push](../../../movement/forced-movement.md) 1
+> - **12-16:** 9 damage; [push](../../../movement/forced-movement.md) 3
+> - **17+:** 12 damage; [push](../../../movement/forced-movement.md) 5
 >
-> **Effect:** If the target is adjacent to an object or a wall after the power roll is resolved, they are restrained until the end of their next turn. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** If the target is [adjacent](../../../rule/combat/adjacent.md) to an object or a wall after the power roll is resolved, they are [restrained](../../../condition/restrained.md) until the end of their next turn. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 >
-> **5 Malice:** If the target is pushed into another creature, the target and the creature are each restrained until the end of their next turn.
+> **5 [Malice](../../../rule/monster/malice.md):** If the target is pushed into another creature, the target and the creature are each [restrained](../../../condition/restrained.md) until the end of their next turn.
 
-> 🏹 **Ensnaring Chains (5 Malice)**
+> 🏹 **Ensnaring Chains (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged, Weapon** |                                     **Maneuver** |
 > |--------------------|-------------------------------------------------:|
-> | **📏 Ranged 10**   | **🎯 One prone, restrained, or slowed creature** |
+> | **📏 Ranged 10**   | **🎯 One [prone](../../../condition/prone.md), [restrained](../../../condition/restrained.md), or [slowed](../../../condition/slowed.md) creature** |
 >
-> **Effect:** The gunner makes a free strike against the target, and the prone, restrained, and slowed conditions on the target end. The target is then restrained (save ends).
+> **Effect:** The gunner makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, and the [prone](../../../condition/prone.md), [restrained](../../../condition/restrained.md), and [slowed](../../../condition/slowed.md) conditions on the target end. The target is then [restrained](../../../condition/restrained.md) (save ends).
 
 > ⭐️ **Split Shot**
 >

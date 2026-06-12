@@ -29,7 +29,7 @@
     {
       "effects": [
         {
-          "effect": "The wodenelg ignores difficult terrain and doesn't provoke oppotunity attacks by moving."
+          "effect": "The wodenelg ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and doesn't provoke oppotunity attacks by moving."
         }
       ],
       "feature_type": "trait",
@@ -38,7 +38,6 @@
       "type": "feature"
     },
     {
-      "cost": "3 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -50,7 +49,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Where I End the Woods Begin",
+      "name": "Where I End the Woods Begin (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Maneuver"

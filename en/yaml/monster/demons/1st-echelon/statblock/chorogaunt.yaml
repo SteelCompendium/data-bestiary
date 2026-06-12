@@ -5,9 +5,9 @@ features:
       distance: 5 burst
       effects:
         - roll: Power Roll + 3
-          tier1: 4 psychic damage; I < 1 slowed (save ends)
-          tier2: 7 psychic damage; I < 2 slowed (save ends)
-          tier3: 10 psychic damage; I < 3 slowed (save ends)
+          tier1: 4 psychic damage; I < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 7 psychic damage; I < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 10 psychic damage; I < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -19,7 +19,7 @@ features:
       usage: Main action
     - distance: 10 burst
       effects:
-        - effect: '**Effect:** The chorogaunt slides each target up to 3 squares, ignoring stability.'
+        - effect: '**Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability).'
       feature_type: ability
       icon: ❇️
       keywords:
@@ -28,8 +28,7 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Maneuver
-    - cost: 3 Malice
-      distance: Self
+    - distance: Self
       effects:
         - effect: |-
             **Trigger:** The chorogaunt is targeted by a strike.
@@ -38,18 +37,18 @@ features:
       icon: ❗️
       keywords:
         - Magic
-      name: I Thrive on Pain
+      name: I Thrive on Pain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self
       type: feature
       usage: Triggered action
     - effects:
-        - effect: At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+        - effect: At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
       feature_type: trait
       icon: ⭐️
       name: End Effect
       type: feature
     - effects:
-        - effect: While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+        - effect: While the chorogaunt is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe
@@ -63,7 +62,7 @@ features:
     - cost: Villain Action 1
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target must choose between taking 5 psychic damage, or being frightened (save ends).'
+        - effect: '**Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends).'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -75,7 +74,7 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains Malice equal to the number of heroes in the encounter.'
+        - effect: '**Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](scc:mcdm.monsters.v1/rule.monster/malice) equal to the number of heroes in the encounter.'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -88,7 +87,7 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts up to their speed, and then uses Agonizing Harmony again.'
+        - effect: '**Effect:** The chorogaunt [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, uses Agonizing Harmony, [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and then uses Agonizing Harmony again.'
       feature_type: ability
       icon: ☠️
       keywords:

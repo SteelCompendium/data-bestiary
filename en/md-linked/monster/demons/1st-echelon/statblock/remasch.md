@@ -38,23 +38,23 @@ weaknesses:
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; the remasch can teleport up to 2 squares
-> - **12-16:** 6 damage; the remasch can teleport up to 3 squares
-> - **17+:** 8 damage; the remasch can teleport up to 5 squares
+> - **≤11:** 5 damage; the remasch can [teleport](../../../../movement/teleport.md) up to 2 squares
+> - **12-16:** 6 damage; the remasch can [teleport](../../../../movement/teleport.md) up to 3 squares
+> - **17+:** 8 damage; the remasch can [teleport](../../../../movement/teleport.md) up to 5 squares
 >
-> **5 Malice:** The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch's destination.
+> **5 [Malice](../../../../rule/monster/malice.md):** The remasch takes an [adjacent](../../../../rule/combat/adjacent.md) creature with them when they [teleport](../../../../movement/teleport.md). The creature appears in an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the remasch's destination.
 
-> 👤 **Grasping Shadow (3 Malice)**
+> 👤 **Grasping Shadow (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic**   | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The remasch can teleport up to 2 squares and uses Abyssal Strike.
+> **Effect:** The remasch can [teleport](../../../../movement/teleport.md) up to 2 squares and uses Abyssal Strike.
 
 > ⭐️ **Lethe**
 >
-> While the remasch is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the remasch is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

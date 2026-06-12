@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "3 damage",
           "tier2": "5 damage",
-          "tier3": "7 damage; grabbed or prone"
+          "tier3": "7 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Any non-minion ally deals 1 extra damage for each recruit adjacent to them."
+          "effect": "Any non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally deals 1 extra damage for each recruit [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them."
         }
       ],
       "feature_type": "trait",
@@ -39,7 +39,7 @@
     {
       "effects": [
         {
-          "effect": "When the recruit is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the recruit takes 2 fire damage."
+          "effect": "When the recruit is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the recruit takes 2 fire damage."
         }
       ],
       "feature_type": "trait",

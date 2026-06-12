@@ -37,11 +37,11 @@ type: statblock
 >
 > - **≤11:** 5 corruption damage
 > - **12-16:** 6 corruption damage
-> - **17+:** 8 corruption damage; M < 2 slowed (save ends)
+> - **17+:** 8 corruption damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** This ability gains an edge against any target not at full Stamina.
+> **Effect:** This ability gains an edge against any target not at full [Stamina](../../../rule/health/stamina.md).
 
-> ❇️ **Archer's Cackletongue (2 Malice)**
+> ❇️ **Archer's Cackletongue (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |                          **Maneuver** |
 > |----------------|--------------------------------------:|
@@ -51,8 +51,8 @@ type: statblock
 
 > ⭐️ **Distant Death Frenzy**
 >
-> Whenever a non-minion ally within 5 squares of the abyssal archer is reduced to 0 Stamina, the abyssal archer can make a ranged free strike.
+> Whenever a non-[minion](../../../rule/organization/minion.md) ally within 5 squares of the abyssal archer is reduced to 0 [Stamina](../../../rule/health/stamina.md), the abyssal archer can make a ranged [free strike](../../../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Bloodscent**
 >
-> The abyssal archer doesn't need line of effect to use their abilities against any creature who isn't at full Stamina, as long as a size 1 opening exists between the archer and the target.
+> The abyssal archer doesn't need line of effect to use their abilities against any creature who isn't at full [Stamina](../../../rule/health/stamina.md), as long as a size 1 opening exists between the archer and the target.

@@ -41,8 +41,8 @@ with_captain: +2 bonus to Stamina
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 damage; push 1
-> - **12-16:** 2 damage; push 2
-> - **17+:** 3 damage; push 4
+> - **≤11:** 1 damage; [push](../../../movement/forced-movement.md) 1
+> - **12-16:** 2 damage; [push](../../../movement/forced-movement.md) 2
+> - **17+:** 3 damage; [push](../../../movement/forced-movement.md) 4
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.

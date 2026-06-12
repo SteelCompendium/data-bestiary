@@ -22,7 +22,7 @@ features:
       effects:
         - effect: |-
             **Effect:** Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge.
-            **2 Malice:** Strikes made against targets no longer gain an edge.
+            **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Strikes made against targets no longer gain an edge.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -32,7 +32,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: The underboss doesn't provoke opportunity attacks by moving.
+        - effect: The underboss doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
       feature_type: trait
       icon: ⭐️
       name: Crafty

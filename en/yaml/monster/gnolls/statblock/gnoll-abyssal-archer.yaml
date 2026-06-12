@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 5 corruption damage
           tier2: 6 corruption damage
-          tier3: 8 corruption damage; M < 2 slowed (save ends)
+          tier3: 8 corruption damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -18,26 +18,25 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 2 Malice
-      distance: 2 burst
+    - distance: 2 burst
       effects:
         - effect: '**Effect:** Until the end of their next turn, each target gains an edge on their next strike. If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Archer's Cackletongue
+      name: Archer's Cackletongue (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self and each ally in the area
       type: feature
       usage: Maneuver
     - effects:
-        - effect: Whenever a non-minion ally within 5 squares of the abyssal archer is reduced to 0 Stamina, the abyssal archer can make a ranged free strike.
+        - effect: Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the abyssal archer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the abyssal archer can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
       feature_type: trait
       icon: ⭐️
       name: Distant Death Frenzy
       type: feature
     - effects:
-        - effect: The abyssal archer doesn't need line of effect to use their abilities against any creature who isn't at full Stamina, as long as a size 1 opening exists between the archer and the target.
+        - effect: The abyssal archer doesn't need line of effect to use their abilities against any creature who isn't at full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), as long as a size 1 opening exists between the archer and the target.
       feature_type: trait
       icon: ⭐️
       name: Bloodscent

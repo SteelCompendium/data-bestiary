@@ -39,9 +39,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 poison damage; M < 1 slowed (save ends)
-> - **12-16:** 15 poison damage; M < 2 slowed (save ends)
-> - **17+:** 18 poison damage; M < 3 slowed (save ends)
+> - **≤11:** 10 poison damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 15 poison damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 18 poison damage; M < 3 [slowed](../../../condition/slowed.md) (save ends)
 
 > 🏹 **Experimental Treasure**
 >
@@ -51,15 +51,15 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** The targets regains 10 Stamina.
-> - **12-16:** 12 corruption damage; A < 2 weakened (save ends)
-> - **17+:** 12 lightning damage; A < 2 bleeding (save ends)
+> - **≤11:** The targets regains 10 [Stamina](../../../rule/health/stamina.md).
+> - **12-16:** 12 corruption damage; A < 2 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 12 lightning damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 >
 > **Effect:** The first time in an encounter that Aeolyxria makes a power roll for this ability, she can subsequently use the outcome of that roll instead of rolling whenever she uses this ability until the end of the encounter.
 >
-> **2+ Malice:** The ability targets one additional target for each 2 Malice spent.
+> **2+ [Malice](../../../rule/monster/malice.md):** The ability targets one additional target for each 2 [Malice](../../../rule/monster/malice.md) spent.
 
-> 🔳 **Elevate (2 Malice)**
+> 🔳 **Elevate (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Ranged**       |   **Maneuver** |
 > |------------------------|---------------:|
@@ -67,7 +67,7 @@ type: statblock
 >
 > **Effect:** The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
 >
-> **1+ Malice:** Aeolyxria creates an additional pillar for each Malice spent.
+> **1+ [Malice](../../../rule/monster/malice.md):** Aeolyxria creates an additional pillar for each [Malice](../../../rule/monster/malice.md) spent.
 
 > ❗️ **Blood For Blood**
 >
@@ -75,14 +75,14 @@ type: statblock
 > |--------------------|---------------------:|
 > | **📏 Ranged 5**    |  **🎯 One creature** |
 >
-> **Trigger:** An ally is made bleeding by the target.
+> **Trigger:** An ally is made [bleeding](../../../condition/bleeding.md) by the target.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 poison damage; A < 2 bleeding (save ends)
-> - **12-16:** 12 poison damage; A < 3 bleeding (save ends)
-> - **17+:** 15 poison damage; bleeding (save ends)
+> - **≤11:** 7 poison damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 12 poison damage; A < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 15 poison damage; [bleeding](../../../condition/bleeding.md) (save ends)
 
 > ⭐️ **That's Our Opening!**
 >
-> The Director gains 1 Malice whenever Aeolyxria imposes a condition on an enemy.
+> The Director gains 1 [Malice](../../../rule/monster/malice.md) whenever Aeolyxria imposes a condition on an enemy.

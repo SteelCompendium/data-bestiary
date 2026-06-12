@@ -31,7 +31,7 @@ weaknesses:
 
 > ⭐️ **Absorb Soul**
 >
-> Whenever any demon is reduced to 0 Stamina within 10 squares of Aurumvas, the Director gains 1 Malice. Aurumvas loses this trait while he is dazed.
+> Whenever any demon is reduced to 0 [Stamina](../../../../rule/health/stamina.md) within 10 squares of Aurumvas, the Director gains 1 [Malice](../../../../rule/monster/malice.md). Aurumvas loses this trait while he is [dazed](../../../../condition/dazed.md).
 
 > 🗡 **Greedy Hands (Signature Ability)**
 >
@@ -41,13 +41,13 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 corruption damage; R < 4 weakened (save ends)
-> - **12-16:** 20 corruption damage; R < 5 weakened (save ends)
-> - **17+:** 24 corruption damage; R < 6 weakened (save ends)
+> - **≤11:** 15 corruption damage; R < 4 [weakened](../../../../condition/weakened.md) (save ends)
+> - **12-16:** 20 corruption damage; R < 5 [weakened](../../../../condition/weakened.md) (save ends)
+> - **17+:** 24 corruption damage; R < 6 [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **2 Malice:** Aurumvas regains Stamina equal to the damage dealt.
+> **2 [Malice](../../../../rule/monster/malice.md):** Aurumvas regains [Stamina](../../../../rule/health/stamina.md) equal to the damage dealt.
 
-> 🏹 **Covetous Bolts (3 Malice)**
+> 🏹 **Covetous Bolts (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged, Strike** |      **Main action** |
 > |---------------------------|---------------------:|
@@ -55,23 +55,23 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 psychic damage; P < 4 dazed (save ends)
-> - **12-16:** 20 psychic damage; P < 5 dazed (save ends)
-> - **17+:** 24 psychic damage; P < 6 dazed (save ends)
+> - **≤11:** 15 psychic damage; P < 4 [dazed](../../../../condition/dazed.md) (save ends)
+> - **12-16:** 20 psychic damage; P < 5 [dazed](../../../../condition/dazed.md) (save ends)
+> - **17+:** 24 psychic damage; P < 6 [dazed](../../../../condition/dazed.md) (save ends)
 >
-> **2 Malice:** While dazed this way, a target can't gain Heroic Resources.
+> **2 [Malice](../../../../rule/monster/malice.md):** While [dazed](../../../../condition/dazed.md) this way, a target can't gain [Heroic Resources](../../../../rule/resource/heroic-resource.md).
 
-> 🏹 **Greed Is Good (2 Malice)**
+> 🏹 **Greed Is Good (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
-> **Effect:** Aurumvas chooses a supernatural treasure or an item made of gold and teleports to an unoccupied space adjacent to that object, then ends one effect on him that can be ended by a saving throw.
+> **Effect:** Aurumvas chooses a supernatural treasure or an item made of gold and [teleports](../../../../movement/teleport.md) to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to that object, then ends one effect on him that can be ended by a [saving throw](../../../../rule/general/saving-throw.md).
 
 > ⭐️ **More... More...**
 >
-> While Aurumvas is winded, he has a double edge on strikes.
+> While Aurumvas is [winded](../../../../rule/health/winded.md), he has a double [edge](../../../../rule/dice/edge.md) on strikes.
 
 > ⭐️ **Soulsight**
 >
@@ -83,7 +83,7 @@ weaknesses:
 > |-----------------|--------------------------------------:|
 > | **📏 20 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Aurumvas warps time with his abyssal avarice. Each target can teleport up to their speed and make a free strike.
+> **Effect:** Aurumvas warps time with his abyssal avarice. Each target can [teleport](../../../../movement/teleport.md) up to their speed and make a [free strike](../../../../feature/common/main-actions/free-strike.md).
 
 > ☠️ **Hostile Acquisition (Villain Action 2)**
 >
@@ -91,7 +91,7 @@ weaknesses:
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
-> **Effect:** Aurumvas chooses up to three treasures within distance that he has line of effect to and that aren't artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their Heroic Resource, the Director gains 1 Malice.
+> **Effect:** Aurumvas chooses up to three treasures within distance that he has [line of effect](../../../../rule/combat/line-of-effect.md) to and that aren't artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their [Heroic Resource](../../../../rule/resource/heroic-resource.md), the Director gains 1 [Malice](../../../../rule/monster/malice.md).
 
 > ☠️ **No Matter the Cost (Villain Action 3)**
 >

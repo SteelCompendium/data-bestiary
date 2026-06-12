@@ -5,9 +5,9 @@ features:
       distance: 3 cube within 15
       effects:
         - roll: Power Roll + 2
-          tier1: 1 poison damage; slide 1
-          tier2: 2 poison damage; slide 2
-          tier3: 3 poison damage; slide 3
+          tier1: 1 poison damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 2 poison damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 3 poison damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -20,7 +20,7 @@ features:
       usage: Main action
     - distance: 3 cube within 10
       effects:
-        - effect: '**Effect:** The area is filled with a green haze that lasts until the start of the stinker''s next turn or until the stinker is reduced to 0 Stamina, and which can''t be dispersed by wind. The area is difficult terrain for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved.'
+        - effect: '**Effect:** The area is filled with a green haze that lasts until the start of the stinker''s next turn or until the stinker is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and which can''t be dispersed by wind. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved.'
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -32,7 +32,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: The stinker doesn't provoke opportunity attacks by moving.
+        - effect: The stinker doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
       feature_type: trait
       icon: ⭐️
       name: Crafty

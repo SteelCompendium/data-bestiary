@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "2 damage; M \u003c 0 bleeding (save ends)",
-          "tier2": "3 damage; M \u003c 1 bleeding (save ends)",
-          "tier3": "4 damage; M \u003c 2 bleeding (save ends)"
+          "tier1": "2 damage; M \u003c 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "3 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "4 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -47,12 +47,11 @@
       "usage": "Main Action"
     },
     {
-      "cost": "5 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 corruption damage; P \u003c 0 slowed (save ends)",
+          "tier1": "5 corruption damage; P \u003c 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
           "tier2": "8 corruption damage; P \u003c 1 the target is shapechanged (save ends)",
           "tier3": "11 corruption damage; P \u003c 2 the target is shapechanged (save ends)"
         }
@@ -64,7 +63,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Twist Shape",
+      "name": "Twist Shape (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "One creature",
       "type": "feature",
       "usage": "Main Action"
@@ -73,7 +72,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Special:** The target must be grabbed by the channeler.\n**Effect:** The target is vertical pushed up to 3 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "**Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the channeler.\n**Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way."
         }
       ],
       "feature_type": "ability",
@@ -91,7 +90,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is grabbed by the channeler."
+          "effect": "**Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the channeler."
         }
       ],
       "feature_type": "ability",

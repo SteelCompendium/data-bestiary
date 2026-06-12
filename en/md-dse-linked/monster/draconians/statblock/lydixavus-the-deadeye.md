@@ -45,8 +45,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 cold damage
-> - **12-16:** 16 cold damage; the target takes a bane on their next strike
-> - **17+:** 19 cold damage; the target has a double bane on their next strike
+> - **12-16:** 16 cold damage; the target takes a [bane](../../../rule/dice/bane.md) on their next strike
+> - **17+:** 19 cold damage; the target has a double [bane](../../../rule/dice/bane.md) on their next strike
 
 > 🔳 **Ice Lob**
 >
@@ -56,9 +56,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 cold damage; M < 1 dazed (save ends)
-> - **12-16:** 12 cold damage; M < 2 dazed (save ends)
-> - **17+:** 15 cold damage; M < 3 dazed (save ends)
+> - **≤11:** 7 cold damage; M < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 12 cold damage; M < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 15 cold damage; M < 3 [dazed](../../../condition/dazed.md) (save ends)
 
 > 👤 **Parting Gift**
 >
@@ -66,7 +66,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Lydixavus flies up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object adjacent to the ice mine.
+> **Effect:** Lydixavus [flies](../../../movement/fly.md) up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object [adjacent](../../../rule/combat/adjacent.md) to the ice mine.
 
 > ❗️ **Wasn't Aiming For You**
 >
@@ -74,10 +74,10 @@ type: statblock
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** Lydixavus obtains a tier 1 outcome on their signature ability.
+> **Trigger:** Lydixavus obtains a tier 1 outcome on their [signature ability](../../../rule/combat/signature-ability.md).
 >
-> **Effect:** Lydixavus uses their signature ability again, targeting a creature within 5 squares of the original target.
+> **Effect:** Lydixavus uses their [signature ability](../../../rule/combat/signature-ability.md) again, targeting a creature within 5 squares of the original target.
 
 > ⭐️ **Scorekeeping Scales**
 >
-> Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has line of effect to them as long as a size 1 opening exists between Lydixavus and the target.
+> Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has [line of effect](../../../rule/combat/line-of-effect.md) to them as long as a size 1 opening exists between Lydixavus and the target.

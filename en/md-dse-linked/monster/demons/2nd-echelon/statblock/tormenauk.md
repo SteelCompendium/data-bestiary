@@ -44,11 +44,11 @@ weaknesses:
 >
 > - **≤11:** 7 damage
 > - **12-16:** 9 damage
-> - **17+:** 11 damage; grabbed, and the target takes a bane on the Escape Grab maneuver
+> - **17+:** 11 damage; [grabbed](../../../../condition/grabbed.md), and the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../../feature/common/maneuvers/escape-grab.md) maneuver
 >
-> **Effect:** Any target grabbed this way takes 4 psychic damage at the start of each of the tormenauk's turns.
+> **Effect:** Any target [grabbed](../../../../condition/grabbed.md) this way takes 4 psychic damage at the start of each of the tormenauk's turns.
 
-> ❇️ **Agony Wail (5 Malice)**
+> ❇️ **Agony Wail (5 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
@@ -56,15 +56,15 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 psychic damage; I < 1 dazed (save ends)
-> - **12-16:** 6 psychic damage; I < 2 dazed (save ends)
-> - **17+:** 8 psychic damage; I < 3 dazed (save ends)
+> - **≤11:** 4 psychic damage; I < 1 [dazed](../../../../condition/dazed.md) (save ends)
+> - **12-16:** 6 psychic damage; I < 2 [dazed](../../../../condition/dazed.md) (save ends)
+> - **17+:** 8 psychic damage; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
 >
-> **Effect:** The potency increases by 1 if the target is grabbed by the tormenauk.
+> **Effect:** The [potency](../../../../rule/character/potency.md) increases by 1 if the target is [grabbed](../../../../condition/grabbed.md) by the tormenauk.
 
 > ⭐️ **Lethe**
 >
-> While the tormenauk is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the tormenauk is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

@@ -38,10 +38,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; A < 2 slowed (save ends)
-> - **17+:** 17 damage; A < 3 slowed (save ends)
+> - **12-16:** 14 damage; A < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 17 damage; A < 3 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** If the targets are adjacent to each other, this ability deals an extra 3 damage.
+> **Effect:** If the targets are [adjacent](../../../rule/combat/adjacent.md) to each other, this ability deals an extra 3 damage.
 
 > 🗡 **Writ of Execution**
 >
@@ -51,11 +51,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; M < 1 prone
-> - **12-16:** 11 damage; M < 2 prone and can't stand (save ends)
-> - **17+:** 14 damage; M < 3 prone and can't stand (save ends)
+> - **≤11:** 6 damage; M < 1 [prone](../../../condition/prone.md)
+> - **12-16:** 11 damage; M < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
+> - **17+:** 14 damage; M < 3 [prone](../../../condition/prone.md) and can't stand (save ends)
 >
-> **Effect:** If this ability is used as part of the Charge main action, the legate ignores difficult terrain during the charge. Each creature and object whose space the legate moves through takes the damage from this ability, but not its additional effects.
+> **Effect:** If this ability is used as part of the [Charge](../../../feature/common/main-actions/charge.md) main action, the legate ignores [difficult terrain](../../../movement/difficult-terrain.md) during the charge. Each creature and object whose space the legate moves through takes the damage from this ability, but not its additional effects.
 
 > 🗡 **Law and Order**
 >
@@ -63,9 +63,9 @@ type: statblock
 > |----------------|--------------------:|
 > | **📏 Melee 1** | **🎯 One creature** |
 >
-> **Effect:** The target is taunted by the legate (save ends). The legate can have only one creature taunted at a time.
+> **Effect:** The target is [taunted](../../../condition/taunted.md) by the legate (save ends). The legate can have only one creature [taunted](../../../condition/taunted.md) at a time.
 
-> ❗️ **Devilish Charm (2 Malice)**
+> ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -77,12 +77,12 @@ type: statblock
 >
 > - **≤11:** The legate chooses a new target for the strike.
 > - **12-16:** The legate halves the triggering damage.
-> - **17+:** The target takes a bane on the strike.
+> - **17+:** The target takes a [bane](../../../rule/dice/bane.md) on the strike.
 
 > ⭐️ **Hellish Bailiff**
 >
-> The legate has damage immunity 3 while in one of the Seven Cities of Hell or within 10 squares of a non-minion devil who is of a higher level than them.
+> The legate has damage immunity 3 while in one of the Seven Cities of Hell or within 10 squares of a non-[minion](../../../rule/organization/minion.md) devil who is of a higher level than them.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the legate's true name, the legate loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter.
+> If a creature within 10 squares speaks the legate's true name, the legate loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.

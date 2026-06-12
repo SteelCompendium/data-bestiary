@@ -9,17 +9,17 @@ source: mcdm.monsters.v1
 type: featureblock
 ---
 
-At the start of any dwarf's turn, you can spend Malice to activate one of the following features.
+At the start of any dwarf's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> 👤 **Breaching Charge (3 Malice)**
+> 👤 **Breaching Charge (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> A dwarf can destroy one adjacent object or square of wall for each 3 Malice spent. Each enemy adjacent to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
+> A dwarf can destroy one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) object or square of wall for each 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent. Each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
 
-> ⭐️ **Rappelling Barrage (5 Malice)**
+> ⭐️ **Rappelling Barrage (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a free strike.
+> Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-> 🔳 **Snaring Line (7 Malice)**
+> 🔳 **Snaring Line (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged**      |               **Main action** |
 > |------------------------------|------------------------------:|              
@@ -27,10 +27,10 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 >
 > **Effect:** Each target makes an **Agility test**.
 >
-> - **≤11:** 8 damage; restrained (EoT)
-> - **12-16:** 6 damage; slowed (EoT)
+> - **≤11:** 8 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **12-16:** 6 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
 > - **17+:** No effect.
 >
 > The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; push 1",
-          "tier2": "11 damage; push 2",
-          "tier3": "14 damage; push 3, prone"
+          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a prone size 1 creature's space, preventing the creature from standing up."
+          "effect": "The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a [prone](scc:mcdm.heroes.v1/condition/prone) size 1 creature's space, preventing the creature from standing up."
         }
       ],
       "feature_type": "trait",
@@ -57,7 +57,7 @@
     {
       "effects": [
         {
-          "effect": "While the tusker demon is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the tusker demon is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

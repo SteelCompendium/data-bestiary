@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 2
-          tier1: 5 damage; the remasch can teleport up to 2 squares
-          tier2: 6 damage; the remasch can teleport up to 3 squares
-          tier3: 8 damage; the remasch can teleport up to 5 squares
+          tier1: 5 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares
+          tier2: 6 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares
+          tier3: 8 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -19,20 +19,19 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: Self
+    - distance: Self
       effects:
-        - effect: '**Effect:** The remasch can teleport up to 2 squares and uses Abyssal Strike.'
+        - effect: '**Effect:** The remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - Magic
-      name: Grasping Shadow
+      name: Grasping Shadow (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self
       type: feature
       usage: Maneuver
     - effects:
-        - effect: While the remasch is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+        - effect: While the remasch is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

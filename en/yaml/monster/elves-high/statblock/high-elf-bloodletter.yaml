@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 6 damage
           tier2: 9 damage
-          tier3: 12 damage; R < 2 bleeding (save ends)
+          tier3: 12 damage; R < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -18,16 +18,15 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 2 Malice
-      distance: 1 burst
+    - distance: 1 burst
       effects:
-        - effect: '**Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then shift up to their speed, and can attempt to hide if they end that shift with concealment.'
+        - effect: '**Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and can attempt to hide if they end that shift with concealment.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
         - Magic
-      name: Blood Haze
+      name: Blood Haze (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Special
       type: feature
       usage: Maneuver

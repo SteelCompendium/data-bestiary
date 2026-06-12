@@ -25,7 +25,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "2 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -37,7 +36,7 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Summon Elemental",
+      "name": "Summon Elemental (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Special",
       "type": "feature",
       "usage": "Maneuver"

@@ -43,11 +43,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; pull 2
-> - **12-16:** 6 damage; pull 4
-> - **17+:** 7 damage; pull 6
+> - **≤11:** 4 damage; [pull](../../../movement/forced-movement.md) 2
+> - **12-16:** 6 damage; [pull](../../../movement/forced-movement.md) 4
+> - **17+:** 7 damage; [pull](../../../movement/forced-movement.md) 6
 >
-> **Effect:** The target is wet (save ends). Any ally targeted by this ability ignores the damage, is wet until the end of the encounter, and is pulled up to 6 squares, ignoring stability.
+> **Effect:** The target is wet (save ends). Any ally targeted by this ability ignores the damage, is wet until the end of the encounter, and is [pulled](../../../movement/forced-movement.md) up to 6 squares, ignoring stability.
 
 > 👤 **Hop To It (2 Malice)**
 >
@@ -55,12 +55,12 @@ type: statblock
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >
-> **Effect:** The slink jumps up to 3 squares. If they have cover or concealment when they land, they can attempt to hide.
+> **Effect:** The slink jumps up to 3 squares. If they have [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md) when they land, they can attempt to hide.
 
 > ⭐️ **Adhesive**
 >
-> The slink excretes a sticky residue into their square at the end of each of their turns. Any non-angulotl who enters or leaves the square is stuck, and must use a maneuver to break free or be restrained until the end of their turn. Objects are likewise affected, and a creature must use a maneuver to remove an object from the square.
+> The slink excretes a sticky residue into their square at the end of each of their turns. Any non-angulotl who enters or leaves the square is stuck, and must use a maneuver to break free or be [restrained](../../../condition/restrained.md) until the end of their turn. Objects are likewise affected, and a creature must use a maneuver to remove an object from the square.
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy grabs the slink or uses a melee ability against them, that enemy takes 2 poison damage.
+> Whenever an adjacent enemy [grabs](../../../feature/common/maneuvers/grab.md) the slink or uses a melee ability against them, that enemy takes 2 poison damage.

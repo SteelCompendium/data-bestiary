@@ -44,15 +44,15 @@ weaknesses:
 >
 > - **≤11:** 3 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 bleeding (save ends)
+> - **17+:** 5 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
 
-> 🏹 **Salt Wounds (3 Malice)**
+> 🏹 **Salt Wounds (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged, Strike** |           **Maneuver** |
 > |---------------------------|-----------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures** |
 >
-> **Special:** Each target must be at less than full Stamina.
+> **Special:** Each target must be at less than full [Stamina](../../../../rule/health/stamina.md).
 >
 > **Power Roll + 2:**
 >
@@ -62,7 +62,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the ruinant is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the ruinant is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

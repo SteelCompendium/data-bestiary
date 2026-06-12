@@ -47,12 +47,12 @@ with_captain: +4 bonus to Stamina
 >
 > - **≤11:** 3 damage
 > - **12-16:** 5 damage
-> - **17+:** 7 damage; grabbed or prone
+> - **17+:** 7 damage; [grabbed](../../../condition/grabbed.md) or [prone](../../../condition/prone.md)
 
 > ⭐️ **Tactical Positioning**
 >
-> Any non-minion ally deals 1 extra damage for each recruit adjacent to them.
+> Any non-[minion](../../../rule/organization/minion.md) ally deals 1 extra damage for each recruit [adjacent](../../../rule/combat/adjacent.md) to them.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the recruit is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the recruit takes 2 fire damage.
+> When the recruit is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the recruit takes 2 fire damage.

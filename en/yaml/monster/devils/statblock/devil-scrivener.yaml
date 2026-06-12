@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 3 corruption damage
-          tier2: 5 corruption damage; slowed (EoT)
-          tier3: 6 corruption damage; slowed (EoT)
+          tier2: 5 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier3: 6 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -20,7 +20,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: If a creature within 10 squares speaks the scrivener's true name, the scrivener loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter.
+        - effect: If a creature within 10 squares speaks the scrivener's true name, the scrivener loses their fire immunity and any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter.
       feature_type: trait
       icon: ⭐️
       name: True Name

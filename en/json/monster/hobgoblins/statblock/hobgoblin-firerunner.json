@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "9 fire damage",
           "tier2": "13 fire damage",
-          "tier3": "16 fire damage; A \u003c 3 dazed (EoT)"
+          "tier3": "16 fire damage; A \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -57,7 +57,7 @@
     {
       "effects": [
         {
-          "effect": "The firerunner ignores difficult terrain."
+          "effect": "The firerunner ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",
@@ -68,7 +68,7 @@
     {
       "effects": [
         {
-          "effect": "When the firerunner is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the firerunner takes 3 fire damage."
+          "effect": "When the firerunner is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the firerunner takes 3 fire damage."
         }
       ],
       "feature_type": "trait",

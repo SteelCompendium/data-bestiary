@@ -10,7 +10,7 @@
           "roll": "Power Roll + 4",
           "tier1": "9 cold, fire, or sonic damage",
           "tier2": "11 cold, fire, or sonic damage",
-          "tier3": "13 cold, fire, or sonic damage; M \u003c 4 bleeding, dazed, or slowed (save ends)"
+          "tier3": "13 cold, fire, or sonic damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [dazed](scc:mcdm.heroes.v1/condition/dazed), or [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -38,7 +37,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Pain Absorption",
+      "name": "Pain Absorption (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"
@@ -46,7 +45,7 @@
     {
       "effects": [
         {
-          "effect": "While the chimeron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the chimeron is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

@@ -23,7 +23,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** The moondancer takes damage from a strike.
-            **Effect:** The moondancer can teleport up to 10 squares to a space with concealment created by darkness.
+            **Effect:** The moondancer can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.
       feature_type: ability
       icon: ❗️
       keywords:

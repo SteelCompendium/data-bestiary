@@ -41,9 +41,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 lightning damage; R < 1 dazed (save ends)
-> - **12-16:** 14 lightning damage; R < 2 dazed (save ends)
-> - **17+:** 17 lightning damage; R < 3 dazed (save ends)
+> - **≤11:** 9 lightning damage; R < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 14 lightning damage; R < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 17 lightning damage; R < 3 [dazed](../../../condition/dazed.md) (save ends)
 >
 > **Effect:** Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target.
 
@@ -53,9 +53,9 @@ type: statblock
 > |-----------------|---------------------------------------:|
 > | **📏 10 burst** | **🎯 Each elemental ally in the area** |
 >
-> **Effect:** Each target can move up to their speed or make a free strike. Elemental mote targets can, instead, use their Spark of Life trait.
+> **Effect:** Each target can move up to their speed or make a [free strike](../../../feature/common/main-actions/free-strike.md). Elemental mote targets can, instead, use their Spark of Life trait.
 
-> 🏹 **Summon Elemental (2 Malice)**
+> 🏹 **Summon Elemental (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
@@ -63,7 +63,7 @@ type: statblock
 >
 > **Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.
 >
-> **3 Malice:** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.
+> **3 [Malice](../../../rule/monster/malice.md):** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.
 
 > ❗️ **Enough!**
 >

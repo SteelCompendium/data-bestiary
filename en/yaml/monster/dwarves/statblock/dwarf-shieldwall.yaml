@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 2
-          tier1: 7 damage; slide 1
-          tier2: 10 damage; slide 1
-          tier3: 13 damage; slide 1
+          tier1: 7 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 10 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 13 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -18,22 +18,21 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 1 Malice
-      distance: Self
+    - distance: Self
       effects:
         - effect: |-
-            **Trigger:** A creature makes a strike against an ally adjacent to the shieldwall.
+            **Trigger:** A creature makes a strike against an ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the shieldwall.
             **Effect:** The shieldwall becomes the target of the triggering strike and halves the damage.
       feature_type: ability
       icon: ❗️
       keywords:
         - '-'
-      name: Intercepting Shield
+      name: Intercepting Shield (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self
       type: feature
       usage: Triggered action
     - effects:
-        - effect: Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature taunted until the end of the creature's next turn.
+        - effect: Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature [taunted](scc:mcdm.heroes.v1/condition/taunted) until the end of the creature's next turn.
       feature_type: trait
       icon: ⭐️
       name: Call to the Wall

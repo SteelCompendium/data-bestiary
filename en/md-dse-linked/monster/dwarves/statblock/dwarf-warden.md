@@ -40,13 +40,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 10 damage; push 3
-> - **17+:** 13 damage; push 5; M < 2 restrained (save ends)
+> - **≤11:** 7 damage; [push](../../../movement/forced-movement.md) 1
+> - **12-16:** 10 damage; [push](../../../movement/forced-movement.md) 3
+> - **17+:** 13 damage; [push](../../../movement/forced-movement.md) 5; M < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
-> 🔳 **Concussive Shockwave (5 Malice)**
+> 🔳 **Concussive Shockwave (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Weapon**       |               **Main action** |
 > |------------------------|------------------------------:|
@@ -54,12 +54,12 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; push 2; A < 0 slowed (save ends)
-> - **12-16:** 8 damage; push 2; A < 1 slowed (save ends)
-> - **17+:** 11 damage; push 2; A < 2 slowed (save ends)
+> - **≤11:** 5 damage; [push](../../../movement/forced-movement.md) 2; A < 0 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 8 damage; [push](../../../movement/forced-movement.md) 2; A < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 11 damage; [push](../../../movement/forced-movement.md) 2; A < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
 > ⭐️ **Escort the Prisoners**
 >
-> Whenever the warden moves, they can carry an adjacent restrained enemy as if the enemy were grabbed by them.
+> Whenever the warden moves, they can carry an [adjacent](../../../rule/combat/adjacent.md) [restrained](../../../condition/restrained.md) enemy as if the enemy were [grabbed](../../../condition/grabbed.md) by them.

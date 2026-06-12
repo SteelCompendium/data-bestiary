@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 7 poison damage
           tier2: 11 poison damage
-          tier3: 14 poison damage; M < 2 weakened (save ends)
+          tier3: 14 poison damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -34,24 +34,23 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - cost: 5 Malice
-      distance: Self
+    - distance: Self
       effects:
-        - effect: '**Effect:** The spider shifts up to their speed and uses Leg Blade against each creature who comes adjacent to them during the shift. The spider makes one power roll against all targets.'
+        - effect: '**Effect:** The spider [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Trample
+      name: Trample (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self
       type: feature
       usage: Main action
     - distance: 3 cube within 1
       effects:
         - roll: Power Roll + 2
-          tier1: A < 0 restrained (save ends)
-          tier2: A < 1 restrained (save ends)
-          tier3: A < 2 restrained (save ends)
+          tier1: A < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -65,7 +64,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** The spider or any ally riding the spider takes damage.
-            **Effect:** The damage is halved, and the spider shifts up to 2 squares after the triggering effect resolves.
+            **Effect:** The damage is halved, and the spider [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves.
       feature_type: ability
       icon: ❗️
       keywords:

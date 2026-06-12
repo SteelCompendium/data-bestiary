@@ -39,10 +39,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 psychic damage
-> - **12-16:** 7 psychic damage; I < 1 weakened (save ends)
-> - **17+:** 9 psychic damage; I < 2 weakened (save ends)
+> - **12-16:** 7 psychic damage; I < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 9 psychic damage; I < 2 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **2 Malice:** The potency increases by 1. If the target is weakened this way at the end of the encounter, they can't take a respite activity during their next respite.
+> **2 [Malice](../../../rule/monster/malice.md):** The [potency](../../../rule/character/potency.md) increases by 1. If the target is [weakened](../../../condition/weakened.md) this way at the end of the encounter, they can't take a respite activity during their next respite.
 
 > 🏹 **Recall**
 >
@@ -50,7 +50,7 @@ type: statblock
 > |-------------------|------------------:|
 > | **📏 Ranged 5**   | **🎯 Two allies** |
 >
-> **Effect:** Each target can teleport to an unoccupied space adjacent to the palinode. The palinode and each target then gain 5 temporary Stamina.
+> **Effect:** Each target can [teleport](../../../movement/teleport.md) to an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the palinode. The palinode and each target then gain 5 temporary Stamina.
 
 > ⭐️ **Otherworldly Grace**
 >

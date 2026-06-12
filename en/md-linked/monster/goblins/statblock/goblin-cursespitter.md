@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 corruption damage; I < 0 weakened (save ends)
-> - **12-16:** 4 corruption damage; I < 1 weakened (save ends)
-> - **17+:** 5 corruption damage; I < 2 weakened (save ends)
+> - **≤11:** 3 corruption damage; I < 0 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 4 corruption damage; I < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 5 corruption damage; I < 2 [weakened](../../../condition/weakened.md) (save ends)
 
-> 🏹 **Dizzying Hex (1 Malice)**
+> 🏹 **Dizzying Hex (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged, Strike** |        **Maneuver** |
 > |---------------------------|--------------------:|
@@ -48,10 +48,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 prone
-> - **12-16:** I < 1 prone and can't stand (EoT)
-> - **17+:** Prone; I < 2 can't stand (save ends)
+> - **≤11:** I < 0 [prone](../../../condition/prone.md)
+> - **12-16:** I < 1 [prone](../../../condition/prone.md) and can't stand (EoT)
+> - **17+:** [Prone](../../../condition/prone.md); I < 2 can't stand (save ends)
 
 > ⭐️ **Crafty**
 >
-> The cursespitter doesn't provoke opportunity attacks by moving.
+> The cursespitter doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.

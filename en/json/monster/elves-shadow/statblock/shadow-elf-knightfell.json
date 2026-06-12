@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "8 corruption damage",
-          "tier2": "12 corruption damage; R \u003c 2 taunted (EoT)",
-          "tier3": "15 corruption damage; R \u003c 3 taunted (EoT)"
+          "tier2": "12 corruption damage; R \u003c 2 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)",
+          "tier3": "15 corruption damage; R \u003c 3 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)"
         }
       ],
       "feature_type": "ability",

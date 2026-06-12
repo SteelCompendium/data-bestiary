@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "1 damage; pull 1",
-          "tier2": "2 damage; pull 2",
-          "tier3": "3 damage; pull 4"
+          "tier1": "1 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "2 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "3 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 4"
         }
       ],
       "feature_type": "ability",

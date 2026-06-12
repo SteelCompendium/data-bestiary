@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
           "tier2": "10 damage",
-          "tier3": "13 damage; one target is grabbed"
+          "tier3": "13 damage; one target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -43,11 +43,10 @@
       "usage": "Main Action"
     },
     {
-      "cost": "5 Malice",
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target shifts up to their speed, then can use the Throw maneuver."
+          "effect": "**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can use the Throw maneuver."
         }
       ],
       "feature_type": "ability",
@@ -55,7 +54,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Fall Back!",
+      "name": "Fall Back! (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "Main Action"
@@ -64,7 +63,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Special:** The target must be grabbed by the commander.\n**Effect:** The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "**Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commander.\n**Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way."
         }
       ],
       "feature_type": "ability",
@@ -82,7 +81,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is grabbed by the commander."
+          "effect": "**Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commander."
         }
       ],
       "feature_type": "ability",

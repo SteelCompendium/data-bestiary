@@ -41,21 +41,21 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; M < 1 restrained (save ends)
-> - **12-16:** 12 damage; M < 2 restrained (save ends)
-> - **17+:** 15 damage; M < 3 restrained (save ends)
+> - **≤11:** 8 damage; M < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 12 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 15 damage; M < 3 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The warleader can teleport up to 3 squares between each strike.
+> **Effect:** The warleader can [teleport](../../../movement/teleport.md) up to 3 squares between each strike.
 >
-> **2 Malice:** A target restrained by this ability takes an extra 3 damage.
+> **2 [Malice](../../../rule/monster/malice.md):** A target [restrained](../../../condition/restrained.md) by this ability takes an extra 3 damage.
 
-> ❇️ **Fairness Is a Human Concept (5 Malice)**
+> ❇️ **Fairness Is a Human Concept (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**        |                 **Maneuver** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each non-minion target can make a free strike, then each target shifts up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.
+> **Effect:** Each non-[minion](../../../rule/organization/minion.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md), then each target [shifts](../../../movement/shifting.md) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.
 
 > ❗️ **Wode Sickness**
 >
@@ -65,7 +65,7 @@ type: statblock
 >
 > **Trigger:** An ally ends their turn.
 >
-> **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are bleeding and take a bane on strikes until the end of their turn.
+> **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are [bleeding](../../../condition/bleeding.md) and take a bane on strikes until the end of their turn.
 
 > ⭐️ **End Effect**
 >
@@ -93,7 +93,7 @@ type: statblock
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** The warleader can use Wodeblade. Each target can then make a free strike.
+> **Effect:** The warleader can use Wodeblade. Each target can then make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
 > ☠️ **Is It Now or Is It Then? (Villain Action 3)**
 >

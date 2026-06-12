@@ -19,15 +19,14 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 1 Malice
-      distance: Self
+    - distance: Self
       effects:
         - effect: '**Effect:** The worg moves up to their speed.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Sprint
+      name: Sprint (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self
       type: feature
       usage: Maneuver

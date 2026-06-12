@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "11 damage; M \u003c 2 prone",
-          "tier2": "16 damage; M \u003c 3 prone",
-          "tier3": "19 damage; M \u003c 4 prone"
+          "tier1": "11 damage; M \u003c 2 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier2": "16 damage; M \u003c 3 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "19 damage; M \u003c 4 [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -31,8 +31,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "7 damage",
-          "tier2": "13 damage; M \u003c 3 prone",
-          "tier3": "15 damage; M \u003c 4 prone"
+          "tier2": "13 damage; M \u003c 3 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "15 damage; M \u003c 4 [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally within distance takes damage while Dorzinuuth isn't flying.\n**Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage."
+          "effect": "**Trigger:** An ally within distance takes damage while Dorzinuuth isn't [flying](scc:mcdm.heroes.v1/movement/fly).\n**Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage."
         }
       ],
       "feature_type": "ability",
@@ -77,7 +77,7 @@
     {
       "effects": [
         {
-          "effect": "If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter."
+          "effect": "If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on strikes made against that character until the end of the encounter."
         }
       ],
       "feature_type": "trait",
@@ -88,7 +88,7 @@
     {
       "effects": [
         {
-          "effect": "While Dorzinuuth isn't flying, strikes made against him take a bane."
+          "effect": "While Dorzinuuth isn't [flying](scc:mcdm.heroes.v1/movement/fly), strikes made against him take a [bane](scc:mcdm.heroes.v1/rule.dice/bane)."
         }
       ],
       "feature_type": "trait",
@@ -97,13 +97,12 @@
       "type": "feature"
     },
     {
-      "cost": "Villain Action 1",
       "distance": "5 burst",
       "effects": [
         {
           "roll": "",
-          "tier1": "Frightened (save ends)",
-          "tier2": "Frightened (EoT)",
+          "tier1": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT)",
           "tier3": "No effect."
         }
       ],
@@ -112,17 +111,16 @@
       "keywords": [
         "Area"
       ],
-      "name": "Roaring Gambit",
+      "name": "Roaring Gambit ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
-      "cost": "Villain Action 2",
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target shifts or flies up to their speed and regains 10 Stamina."
+          "effect": "**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) or [flies](scc:mcdm.heroes.v1/movement/fly) up to their speed and regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "ability",
@@ -130,13 +128,12 @@
       "keywords": [
         "Area"
       ],
-      "name": "Wings of Second Wind",
+      "name": "Wings of Second Wind ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "-"
     },
     {
-      "cost": "Villain Action 3",
       "distance": "5 burst",
       "effects": [
         {
@@ -149,7 +146,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Snap, Crackle, Pop",
+      "name": "Snap, Crackle, Pop ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "-"

@@ -43,7 +43,7 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **Effect:** The animal shifts up to 2 squares between strikes.
+> **Effect:** The animal [shifts](../../../movement/shifting.md) up to 2 squares between strikes.
 
 > 👤 **Rush**
 >

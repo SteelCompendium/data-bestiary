@@ -43,12 +43,12 @@ weaknesses:
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage; pull 1
-> - **12-16:** 10 damage; pull 2, grabbed
-> - **17+:** 12 damage; pull 3, grabbed
+> - **12-16:** 10 damage; pull 2, [grabbed](../../../../condition/grabbed.md)
+> - **17+:** 12 damage; pull 3, [grabbed](../../../../condition/grabbed.md)
 >
-> **Effect:** Any target restrained by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.
+> **Effect:** Any target [restrained](../../../../condition/restrained.md) by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.
 
-> ❇️ **Tangled Nest (5 Malice)**
+> ❇️ **Tangled Nest (5 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
@@ -56,13 +56,13 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** A < 2 slowed (save ends)
-> - **12-16:** Slowed (EoT) or A < 3 3 damage and restrained (EoT)
-> - **17+:** Restrained (EoT) or A < 4 3 damage and restrained (save ends)
+> - **≤11:** A < 2 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** [Slowed](../../../../condition/slowed.md) (EoT) or A < 3 3 damage and [restrained](../../../../condition/restrained.md) (EoT)
+> - **17+:** [Restrained](../../../../condition/restrained.md) (EoT) or A < 4 3 damage and [restrained](../../../../condition/restrained.md) (save ends)
 
 > ⭐️ **Lethe**
 >
-> While the styrich is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the styrich is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

@@ -9,20 +9,20 @@ source: mcdm.monsters.v1
 type: featureblock
 ---
 
-At the start of a chimera's turn, you can spend Malice to activate one of the following features.
+At the start of a chimera's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Defensive Snapping (3 Malice)**
+> ⭐️ **Defensive Snapping (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The chimera takes up a defensive stance. Until the start of their next turn, the chimera can make a free strike against each enemy who comes within 2 squares of them.
+> The chimera takes up a defensive stance. Until the start of their next turn, the chimera can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy who comes within 2 squares of them.
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The chimera takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The chimera takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
-> 🔳 **Unstable Terrain (5 Malice)**
+> 🔳 **Unstable Terrain (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The chimera shakes the ground, causing an eruption of loose rocks and debris that creates three size 2 stone objects anywhere on the encounter map. Each creature adjacent to one or more objects when they appear who has A < 2 takes 5 damage.
+> The chimera shakes the ground, causing an eruption of loose rocks and debris that creates three size 2 stone objects anywhere on the encounter map. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more objects when they appear who has A < 2 takes 5 damage.
 
-> 🌀 **Ashen Clouds (7 Malice)**
+> 🌀 **Ashen Clouds (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Until the start of the chimera's next turn, all areas of the encounter map are shrouded in a thick cloud of ash. All creatures and objects on the map have concealment that the chimera ignores. Additionally, each enemy in the cloud who has I < 1 has line of effect only within 3 squares. The potency of this feature increases by 1 each time it's used.
+> Until the start of the chimera's next turn, all areas of the encounter map are shrouded in a thick cloud of ash. All creatures and objects on the map have [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) that the chimera ignores. Additionally, each enemy in the cloud who has I < 1 has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only within 3 squares. The [potency](scc:mcdm.heroes.v1/rule.character/potency) of this feature increases by 1 each time it's used.

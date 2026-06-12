@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 4 psychic damage
-          tier2: 5 psychic damage; P < 1 weakened (save ends)
-          tier3: 7 psychic damage; P < 2 weakened (save ends)
+          tier2: 5 psychic damage; P < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 7 psychic damage; P < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -18,8 +18,7 @@ features:
       target: One creature
       type: feature
       usage: Main action
-    - cost: 1 Malice
-      distance: Ranged 10
+    - distance: Ranged 10
       effects:
         - effect: '**Effect:** The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide.'
       feature_type: ability
@@ -27,12 +26,12 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Vanish
+      name: Vanish (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self or one ally
       type: feature
       usage: Maneuver
     - effects:
-        - effect: While the bendrak is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+        - effect: While the bendrak is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

@@ -44,8 +44,8 @@ with_captain: +2 bonus to speed
 >
 > - **≤11:** 3 damage
 > - **12-16:** 4 damage
-> - **17+:** 6 damage; grabbed
+> - **17+:** 6 damage; [grabbed](../../../condition/grabbed.md)
 
 > ⭐️ **Death Snap**
 >
-> When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying.
+> When the abyssal hyena is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a melee [free strike](../../../feature/common/main-actions/free-strike.md) before dying.

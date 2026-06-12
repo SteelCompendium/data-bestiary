@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "2 corruption damage",
-          "tier2": "4 corruption damage; push 1",
-          "tier3": "6 corruption damage; push 2"
+          "tier2": "4 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier3": "6 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
     {
       "effects": [
         {
-          "effect": "When the lancer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the lancer takes 2 fire damage."
+          "effect": "When the lancer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the lancer takes 2 fire damage."
         }
       ],
       "feature_type": "trait",

@@ -39,11 +39,11 @@ weaknesses:
 >
 > - **≤11:** 9 cold, fire, or sonic damage
 > - **12-16:** 11 cold, fire, or sonic damage
-> - **17+:** 13 cold, fire, or sonic damage; M < 4 bleeding, dazed, or slowed (save ends)
+> - **17+:** 13 cold, fire, or sonic damage; M < 4 [bleeding](../../../../condition/bleeding.md), [dazed](../../../../condition/dazed.md), or [slowed](../../../../condition/slowed.md) (save ends)
 >
 > **Special:** After making the power roll, the chimeron decides what damage type the ability deals and which condition it imposes.
 
-> ❗️ **Pain Absorption (1 Malice)**
+> ❗️ **Pain Absorption (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -55,7 +55,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the chimeron is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the chimeron is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

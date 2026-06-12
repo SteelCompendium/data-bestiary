@@ -34,19 +34,19 @@ type: statblock
 | **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |   
 |       **+3**<br>Might        |  **+4**<br>Agility  |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+5**<br>Presence  |
 
-> ☠️ **Solo Monster**
+> ☠️ **[Solo](../../../rule/organization/solo.md) Monster**
 >
-> **End Effect:** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Deathcount**
 >
-> Several of the dragon's abilities impose a Deathcount on a target. At the end of every turn, a creature with a Deathcount who is within the area of the dragon's Stagnant Wyrmscale Aura has that Deathcount reduced by 1. When a creature's Deathcount hits 0, they die. If multiple Deathcounts are imposed on a creature, they don't stack. Only the lowest Deathcount takes effect. All Deathcounts are lost when the dragon is reduced to 0 Stamina.
+> Several of the dragon's abilities impose a Deathcount on a target. At the end of every turn, a creature with a Deathcount who is within the area of the dragon's Stagnant Wyrmscale Aura has that Deathcount reduced by 1. When a creature's Deathcount hits 0, they die. If multiple Deathcounts are imposed on a creature, they don't stack. Only the lowest Deathcount takes effect. All Deathcounts are lost when the dragon is reduced to 0 [Stamina](../../../rule/health/stamina.md).
 
 > ❇️ **Stagnant Wyrmscale Aura**
 >
-> The dragon's scales create a 4 aura of supernatural stagnancy around them. The area is difficult terrain for enemies, and no creature except the omen dragon can regain Stamina while in the area. Any creature dragonsealed by the omen dragon who starts their turn in the dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
+> The dragon's scales create a 4 aura of supernatural stagnancy around them. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies, and no creature except the omen dragon can regain [Stamina](../../../rule/health/stamina.md) while in the area. Any creature dragonsealed by the omen dragon who starts their turn in the dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
 
 > 🔳 **Corroding Breath (Signature Ability)**
 >
@@ -60,7 +60,7 @@ type: statblock
 > - **12-16:** 14 corruption damage; the target is dragonsealed (save ends)
 > - **17+:** 9 corruption damage
 >
-> Only creatures with souls can be dragonsealed by the omen dragon. A dragonsealed creature appears ghastly and pale, their Presence score is treated as 1 lower for the purpose of resisting potencies, and they can't treat other creatures as allies.
+> Only creatures with souls can be dragonsealed by the omen dragon. A dragonsealed creature appears ghastly and pale, their Presence score is treated as 1 lower for the purpose of resisting [potencies](../../../rule/character/potency.md), and they can't treat other creatures as allies.
 
 > 🗡 **Barbed Tail Swing**
 >
@@ -70,35 +70,35 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 damage; M < 3 bleeding (save ends)
-> - **12-16:** 19 damage; M < 4 bleeding (save ends)
-> - **17+:** 23 damage; M < 5 bleeding (save ends)
+> - **≤11:** 14 damage; M < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 19 damage; M < 4 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 23 damage; M < 5 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **3 Malice:** The potency increases by 2, and each target is also pulled up to 5 squares.
+> **3 [Malice](../../../rule/monster/malice.md):** The [potency](../../../rule/character/potency.md) increases by 2, and each target is also pulled up to 5 squares.
 
 > ⭐️ **Death or Victory**
 >
-> Once per turn, the dragon chooses one creature with a Deathcount within line of effect. That creature can choose to take 1d6 damage and lose a recovery to increase their Deathcount by 5.
+> Once per turn, the dragon chooses one creature with a Deathcount within [line of effect](../../../rule/combat/line-of-effect.md). That creature can choose to take 1d6 damage and lose a [recovery](../../../rule/health/recoveries.md) to increase their Deathcount by 5.
 
-> ❇️ **Detonation (5 Malice)**
+> ❇️ **Detonation (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**        |                  **Maneuver** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains Stamina equal to half the total damage dealt. The target then loses their dragonseal.
+> **Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains [Stamina](../../../rule/health/stamina.md) equal to half the total damage dealt. The target then loses their dragonseal.
 
-> ❗️ **Don't Turn Away (1 Malice)**
+> ❗️ **Don't Turn Away (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
-> **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura trait.
+> **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura [trait](../../../rule/monster/monster-trait.md).
 >
-> **Effect:** The dragon shifts up to their speed, and the Deathcount of each dragonsealed creature who comes adjacent to the dragon during this shift is reduced by 1.
+> **Effect:** The dragon [shifts](../../../movement/shifting.md) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](../../../rule/combat/adjacent.md) to the dragon during this shift is reduced by 1.
 
-> ❗️ **Repent! (2 Malice)**
+> ❗️ **Repent! (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged**      |      **Free triggered action** |
 > |-----------------|-------------------------------:|
@@ -106,9 +106,9 @@ type: statblock
 >
 > **Trigger:** A dragonsealed creature within distance deals damage to the dragon.
 >
-> **Effect:** The target must choose between making a free strike against themself or gaining a Deathcount of 5.
+> **Effect:** The target must choose between making a [free strike](../../../feature/common/main-actions/free-strike.md) against themself or gaining a Deathcount of 5.
 
-> ☠️ **What You Deserve (Villain Action 1)**
+> ☠️ **What You Deserve ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                         **-** | 
 > |-----------------|------------------------------:|
@@ -122,7 +122,7 @@ type: statblock
 >
 > **Effect:** Each target receives a premonition of their imminent death.
 
-> ☠️ **Souls of the Broken (Villain Action 2)**
+> ☠️ **Souls of the Broken ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Magic, Ranged, Strike** |                 **-** |
 > |---------------------------|----------------------:|
@@ -132,11 +132,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** P < 5 frightened (save ends)
+> - **≤11:** P < 5 [frightened](../../../condition/frightened.md) (save ends)
 > - **12-16:** P < 5 the target moves up to their speed toward the dragon
-> - **17+:** P < 5 the target makes a free strike against the nearest ally
+> - **17+:** P < 5 the target makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the nearest ally
 
-> ☠️ **So Long and Goodnight (Villain Action 3)**
+> ☠️ **So Long and Goodnight ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|

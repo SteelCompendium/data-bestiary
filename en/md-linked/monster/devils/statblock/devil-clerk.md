@@ -42,8 +42,8 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 6 damage; push 2
 > - **17+:** 7 damage; push 3
 >
-> **Effect:** Any target adjacent to two or more clerks is taunted until the end of their next turn.
+> **Effect:** Any target [adjacent](../../../rule/combat/adjacent.md) to two or more clerks is [taunted](../../../condition/taunted.md) until the end of their next turn.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter.
+> If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md) until the end of the encounter.

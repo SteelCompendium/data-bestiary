@@ -40,12 +40,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; A < 2 bleeding (save ends)
-> - **17+:** 17 damage; A < 3 bleeding and restrained (save ends)
+> - **12-16:** 14 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 17 damage; A < 3 [bleeding](../../../condition/bleeding.md) and [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** A creature restrained this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects restrained at once.
+> **Effect:** A creature [restrained](../../../condition/restrained.md) this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects [restrained](../../../condition/restrained.md) at once.
 
-> 🗡 **Tail Stinger (3 Malice)**
+> 🗡 **Tail Stinger (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -53,15 +53,15 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 poison damage; M < 1 weakened (save ends)
-> - **12-16:** 16 poison damage; M < 2 weakened (save ends)
-> - **17+:** 20 poison damage; M < 3 weakened (save ends)
+> - **≤11:** 10 poison damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 16 poison damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 20 poison damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **Effect:** A target weakened this way also has damage weakness 3.
+> **Effect:** A target [weakened](../../../condition/weakened.md) this way also has damage weakness 3.
 
 > ⭐️ **Drag Below**
 >
-> The slaughter demon can make a free strike as part of using the Dig maneuver. If the target of the free strike has M < 2, they are grabbed and take a bane on the Escape Grab maneuver.
+> The slaughter demon can make a [free strike](../../../feature/common/main-actions/free-strike.md) as part of using the Dig maneuver. If the target of the [free strike](../../../feature/common/main-actions/free-strike.md) has M < 2, they are [grabbed](../../../condition/grabbed.md) and take a bane on the Escape Grab maneuver.
 
 > ❗️ **Devour Soul**
 >
@@ -79,4 +79,4 @@ type: statblock
 
 > ⭐️ **Lethe**
 >
-> While the slaughter demon is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the slaughter demon is [winded](../../../rule/health/winded.md), they gain an edge on strikes, and any strike made against them gains an edge.

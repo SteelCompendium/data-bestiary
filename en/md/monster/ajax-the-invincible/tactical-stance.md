@@ -12,8 +12,8 @@ At the start of each round, Ajax chooses a new stance from one of the following 
 
 > ⭐️ **Mastermind**
 >
-> Before he uses an ability, Ajax can either shift up to 2 squares, or can cause one creature within line of effect to slide up to 2 squares, ignoring stability.
+> Before he uses an ability, Ajax can either [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares, or can cause one creature within line of effect to [slide](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares, ignoring stability.
 
 > ⭐️ **Vanguard**
 >
-> Ajax has damage immunity 5. Additionally, any enemy who makes a power roll that includes Ajax as a target has a double bane on the roll.
+> Ajax has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5. Additionally, any enemy who makes a power roll that includes Ajax as a target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the roll.

@@ -42,7 +42,7 @@ type: statblock
 >
 > **Effect:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
 
-> 🏹 **Shadow Chains (3 Malice)**
+> 🏹 **Shadow Chains (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged, Strike** |        **Main action** |
 > |---------------------------|-----------------------:|
@@ -50,13 +50,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 corruption damage; A < 0 restrained (save ends)
-> - **12-16:** 4 corruption damage; A < 1 restrained (save ends)
-> - **17+:** 5 corruption damage; A < 2 restrained (save ends)
+> - **≤11:** 2 corruption damage; A < 0 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 4 corruption damage; A < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 5 corruption damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
 
 > ⭐️ **Crafty**
 >
-> The assassin doesn't provoke opportunity attacks by moving.
+> The assassin doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
 
 > ⭐️ **Slip Away**
 >

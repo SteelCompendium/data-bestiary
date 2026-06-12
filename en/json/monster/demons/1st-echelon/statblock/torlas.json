@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "While the torlas is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the torlas is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

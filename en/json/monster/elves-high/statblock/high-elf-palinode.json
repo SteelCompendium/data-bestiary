@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "5 psychic damage",
-          "tier2": "7 psychic damage; I \u003c 1 weakened (save ends)",
-          "tier3": "9 psychic damage; I \u003c 2 weakened (save ends)"
+          "tier2": "7 psychic damage; I \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "9 psychic damage; I \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** Each target can teleport to an unoccupied space adjacent to the palinode. The palinode and each target then gain 5 temporary Stamina."
+          "effect": "**Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the palinode. The palinode and each target then gain 5 temporary Stamina."
         }
       ],
       "feature_type": "ability",

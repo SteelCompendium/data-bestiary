@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "3 damage; slide 2",
-          "tier2": "6 damage; slide 3; A \u003c 3 restrained (save ends)",
-          "tier3": "8 damage; slide 4; A \u003c 4 restrained (save ends)"
+          "tier1": "3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; A \u003c 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -39,7 +39,7 @@
     {
       "effects": [
         {
-          "effect": "The sand stone giant ignores difficult terrain."
+          "effect": "The sand stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",
@@ -50,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "The sand stone giant can burrow through stone, but can't drag other creatures underground when they do so."
+          "effect": "The sand stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so."
         }
       ],
       "feature_type": "trait",

@@ -38,9 +38,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage
-> - **17+:** 13 damage; R < 1 bleeding (save ends); I < 1 frightened (save ends); P < 1 restrained (save ends)
+> - **17+:** 13 damage; R < 1 [bleeding](../../../condition/bleeding.md) (save ends); I < 1 [frightened](../../../condition/frightened.md) (save ends); P < 1 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **5 Malice:** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
+> **5 [Malice](../../../rule/monster/malice.md):** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
 
 > 🗡 **Kiss of Death**
 >

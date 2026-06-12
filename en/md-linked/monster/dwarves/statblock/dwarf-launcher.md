@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; push 1
-> - **12-16:** 6 damage; push 3; M < 1 slowed (save ends)
-> - **17+:** 8 damage; push 3; M < 2 slowed (save ends)
+> - **≤11:** 3 damage; [push](../../../movement/forced-movement.md) 1
+> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 8 damage; [push](../../../movement/forced-movement.md) 3; M < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
-> 🔳 **Sleep Grenade (3 Malice)**
+> 🔳 **Sleep Grenade (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged, Weapon**     |               **Main action** |
 > |------------------------|------------------------------:| 
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 poison damage; I < 0 dazed (save ends)
-> - **12-16:** 6 poison damage; I < 1 dazed (save ends)
-> - **17+:** 8 poison damage; I < 2 dazed (save ends)
+> - **≤11:** 3 poison damage; I < 0 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 6 poison damage; I < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 8 poison damage; I < 2 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** A target dazed this way treats their characteristic scores as 1 lower for the purpose of resisting potencies.
+> **Effect:** A target [dazed](../../../condition/dazed.md) this way treats their characteristic scores as 1 lower for the purpose of resisting [potencies](../../../rule/character/potency.md).
 
 > ⭐️ **Indirect Fire**
 >

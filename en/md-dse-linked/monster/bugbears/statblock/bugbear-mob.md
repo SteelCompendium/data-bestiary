@@ -45,10 +45,10 @@ with_captain: +2 damage bonus to strikes
 >
 > - **≤11:** 3 damage; pull 2
 > - **12-16:** 6 damage; pull 3
-> - **17+:** 7 damage; pull 4, grabbed
+> - **17+:** 7 damage; pull 4, [grabbed](../../../condition/grabbed.md)
 >
-> **Effect:** If the target is pulled into the mob, that forced movement deals damage only at the Director's determination.
+> **Effect:** If the target is pulled into the mob, that [forced movement](../../../movement/forced-movement.md) deals damage only at the Director's determination.
 
 > ⭐️ **Swarm**
 >
-> The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share.
+> The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each creature whose space they share.

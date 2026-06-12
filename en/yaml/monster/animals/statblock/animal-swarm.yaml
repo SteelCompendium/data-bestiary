@@ -19,14 +19,14 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a free strike against each creature whose space they share.
+        - effect: The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.
       feature_type: trait
       icon: ⭐️
       name: Swarm
       type: feature
     - distance: 1 aura
       effects:
-        - effect: '**Effect:** The area is difficult terrain for enemies until the start of the animal swarm''s next turn.'
+        - effect: '**Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the start of the animal swarm''s next turn.'
       feature_type: ability
       icon: ❇️
       keywords:

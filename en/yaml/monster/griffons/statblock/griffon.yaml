@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 2
-          tier1: 7 damage; the griffon can shift 1 square
-          tier2: 10 damage; the griffon shifts up to 2 squares
-          tier3: 13 damage; the griffon shifts up to 3 squares
+          tier1: 7 damage; the griffon can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+          tier2: 10 damage; the griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
+          tier3: 13 damage; the griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -23,8 +23,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 4 damage
-          tier2: 6 damage; A < 1 push 3
-          tier3: 9 damage; A < 2 push 4; prone
+          tier2: 6 damage; A < 1 [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 9 damage; A < 2 [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -34,43 +34,41 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Maneuver
-    - cost: 3 Malice
-      distance: 4 x 2 line within 1
+    - distance: 4 x 2 line within 1
       effects:
         - roll: Power Roll + 2
-          tier1: Push 3; A < 0 the forced movement is vertical
-          tier2: Push 4; A < 1 the forced movement is vertical
-          tier3: Push 5; A < 2 the forced movement is vertical
+          tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
+          tier2: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; A < 1 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
+          tier3: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A < 2 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
       feature_type: ability
       icon: "\U0001F533"
       keywords:
         - Area
-      name: Wing Buffet
+      name: Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each creature or object in the area
       type: feature
       usage: Maneuver
-    - cost: 1 Malice
-      distance: Self
+    - distance: Self
       effects:
         - effect: |-
             **Trigger:** The griffon takes damage.
-            **Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and shifts up to 2 squares.
+            **Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.
       feature_type: ability
       icon: ❗️
       keywords:
         - '-'
-      name: Zephyr Feint
+      name: Zephyr Feint (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Self
       type: feature
       usage: Triggered action
     - effects:
-        - effect: While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver.
+        - effect: While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver.
       feature_type: trait
       icon: ⭐️
       name: Beast of Prey
       type: feature
     - effects:
-        - effect: Any power roll that could knock the griffon or their rider prone takes a bane.
+        - effect: Any power roll that could knock the griffon or their rider [prone](scc:mcdm.heroes.v1/condition/prone) takes a bane.
       feature_type: trait
       icon: ⭐️
       name: Steady

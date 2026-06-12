@@ -28,7 +28,7 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the cryptic can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the cryptic can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The cryptic can take two turns each round. They can't take turns consecutively.
 
@@ -38,7 +38,7 @@ type: statblock
 
 > ⭐️ **Seismic Step**
 >
-> The cryptic ignores difficult terrain. Additionally, they have line of effect to any creature with concealment if that creature is touching the ground.
+> The cryptic ignores [difficult terrain](../../../movement/difficult-terrain.md). Additionally, they have line of effect to any creature with concealment if that creature is touching the ground.
 
 > 🗡 **Sand Slam (Signature Ability)**
 >
@@ -48,11 +48,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; A < 1 slide 2
-> - **12-16:** 12 damage; A < 2 slide 2, prone
-> - **17+:** 15 damage; A < 3 slide 3, prone and can't stand (EoT)
+> - **≤11:** 8 damage; A < 1 [slide](../../../movement/forced-movement.md) 2
+> - **12-16:** 12 damage; A < 2 [slide](../../../movement/forced-movement.md) 2, [prone](../../../condition/prone.md)
+> - **17+:** 15 damage; A < 3 [slide](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md) and can't stand (EoT)
 >
-> **Effect:** If a target made prone this way is already prone, they are instead restrained (EoT).
+> **Effect:** If a target made [prone](../../../condition/prone.md) this way is already [prone](../../../condition/prone.md), they are instead [restrained](../../../condition/restrained.md) (EoT).
 
 > 🔳 **Stone Bone Storm**
 >
@@ -62,9 +62,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 damage; M < 1 push 2
-> - **12-16:** 7 damage; M < 2 prone
-> - **17+:** 10 damage; M < 3 prone
+> - **≤11:** 4 damage; M < 1 [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 7 damage; M < 2 [prone](../../../condition/prone.md)
+> - **17+:** 10 damage; M < 3 [prone](../../../condition/prone.md)
 >
 > **Effect:** The cryptic reforms their body and appears in an unoccupied space in the area.
 
@@ -74,11 +74,11 @@ type: statblock
 > |-----------------|--------------------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object on the ground** |
 >
-> **Effect:** The cryptic slides the target up to 3 squares.
+> **Effect:** The cryptic [slides](../../../movement/forced-movement.md) the target up to 3 squares.
 >
-> **2 Malice:** The ability targets one additional target.
+> **2 [Malice](../../../rule/monster/malice.md):** The ability targets one additional target.
 
-> ❗️ **Dissipate (1 Malice)**
+> ❗️ **Dissipate (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -86,9 +86,9 @@ type: statblock
 >
 > **Trigger:** The cryptic takes damage.
 >
-> **Effect:** The cryptic halves the damage, ignores any nondamaging effects associated with it, and shifts up to 3 squares.
+> **Effect:** The cryptic halves the damage, ignores any nondamaging effects associated with it, and [shifts](../../../movement/shifting.md) up to 3 squares.
 
-> ❗️ **Shatterstone (5 Malice)**
+> ❗️ **Shatterstone (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |          **Triggered action** |
 > |----------------|------------------------------:|
@@ -100,11 +100,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 damage; push 2
-> - **12-16:** 7 damage; push 3, prone
-> - **17+:** 10 damage; push 4, prone
+> - **≤11:** 4 damage; [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 7 damage; [push](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
+> - **17+:** 10 damage; [push](../../../movement/forced-movement.md) 4, [prone](../../../condition/prone.md)
 
-> ☠️ **First Warning Quake (Villain Action 1)**
+> ☠️ **First Warning Quake ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                         **-** |
 > |-----------------|------------------------------:|        
@@ -114,11 +114,11 @@ type: statblock
 >
 > **Effect:** Each target makes a **Might test**.
 >
-> - **≤11:** Prone and can't stand (EoT)
-> - **12-16:** Prone
+> - **≤11:** [Prone](../../../condition/prone.md) and can't stand (EoT)
+> - **12-16:** [Prone](../../../condition/prone.md)
 > - **17+:** No effect
 
-> ☠️ **Final Warning Fissure (Villain Action 2)**
+> ☠️ **Final Warning Fissure ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -126,13 +126,13 @@ type: statblock
 >
 > **Special:** A target must be on the ground.
 >
-> **Effect:** The area drops 2 squares and is difficult terrain. Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test**.
+> **Effect:** The area drops 2 squares and is [difficult terrain](../../../movement/difficult-terrain.md). Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test**.
 >
-> - **≤11:** 9 damage; prone
+> - **≤11:** 9 damage; [prone](../../../condition/prone.md)
 > - **12-16:** 5 damage
 > - **17+:** The target moves to the nearest unoccupied space outside the area.
 
-> ☠️ **No Escape (Villain Action 3)**
+> ☠️ **No Escape ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 > 
 > | **Ranged**       |                           **-** |
 > |------------------|--------------------------------:|
@@ -142,14 +142,14 @@ type: statblock
 > 
 > **Power Roll + 3:**
 > 
-> - **≤11:** 5 damage; prone; M < 1 restrained (save ends)
-> - **12-16:** 9 damage; prone; M < 2 restrained (save ends)
-> - **17+:** 12 damage; prone; M < 3 restrained (save ends)
+> - **≤11:** 5 damage; [prone](../../../condition/prone.md); M < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 9 damage; [prone](../../../condition/prone.md); M < 2 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 12 damage; [prone](../../../condition/prone.md); M < 3 [restrained](../../../condition/restrained.md) (save ends)
 > 
 > The cryptic then makes a second power roll that raises stone pillars from the floor (**📏 Ranged 10** | **🎯 Two creatures or objects on the ground**)
 > 
 > **Power Roll + 3:**
 > 
-> - **≤11:** 2 damage; vertical slide 2
-> - **12-16:** 3 damage; vertical slide 4
-> - **17+:** 4 damage; vertical slide 6; if this movement brings the target into contact with the ceiling, they are restrained (save ends).
+> - **≤11:** 2 damage; vertical [slide](../../../movement/forced-movement.md) 2
+> - **12-16:** 3 damage; vertical [slide](../../../movement/forced-movement.md) 4
+> - **17+:** 4 damage; vertical [slide](../../../movement/forced-movement.md) 6; if this movement brings the target into contact with the ceiling, they are [restrained](../../../condition/restrained.md) (save ends).

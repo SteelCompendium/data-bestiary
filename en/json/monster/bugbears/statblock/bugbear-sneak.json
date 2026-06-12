@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "8 damage; A \u003c 1 grabbed",
-          "tier2": "13 damage; A \u003c 2 grabbed",
-          "tier3": "16 damage; grabbed"
+          "tier1": "8 damage; A \u003c 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "13 damage; A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "16 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "2 burst",
       "effects": [
         {
@@ -41,7 +40,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Shadow Cloak",
+      "name": "Shadow Cloak (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"
@@ -51,9 +50,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; M \u003c 0 bleeding (save ends)",
-          "tier2": "11 damage; M \u003c 1 bleeding (save ends)",
-          "tier3": "14 damage; M \u003c 2 bleeding (save ends)"
+          "tier1": "7 damage; M \u003c 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "11 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "14 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -72,7 +71,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Special:** The target must be grabbed by the sneak.\n**Effect:** The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "**Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the sneak.\n**Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way."
         }
       ],
       "feature_type": "ability",
@@ -90,7 +89,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is grabbed by the sneak."
+          "effect": "**Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the sneak."
         }
       ],
       "feature_type": "ability",
@@ -104,7 +103,6 @@
       "usage": "Free triggered action"
     },
     {
-      "cost": "1 Malice",
       "distance": "Special",
       "effects": [
         {
@@ -116,7 +114,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Clever Trick",
+      "name": "Clever Trick (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "One enemy",
       "type": "feature",
       "usage": "Triggered action"

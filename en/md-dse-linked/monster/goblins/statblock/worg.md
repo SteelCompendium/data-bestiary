@@ -44,7 +44,7 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 
-> 👤 **Sprint (1 Malice)**
+> 👤 **Sprint (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|

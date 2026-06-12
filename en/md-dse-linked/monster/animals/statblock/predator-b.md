@@ -40,8 +40,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; push 1; M < 1 prone
-> - **17+:** 14 damage; push 2; M < 1 prone
+> - **12-16:** 11 damage; [push](../../../movement/forced-movement.md) 1; M < 1 [prone](../../../condition/prone.md)
+> - **17+:** 14 damage; [push](../../../movement/forced-movement.md) 2; M < 1 [prone](../../../condition/prone.md)
 
 > ❇️ **Wild Swing**
 >
@@ -53,7 +53,7 @@ type: statblock
 >
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
-> - **17+:** 8 damage; A < 2 bleeding (save ends)
+> - **17+:** 8 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 
 > ❗️ **Swat**
 >
@@ -63,7 +63,7 @@ type: statblock
 >
 > **Trigger:** A creature or object within distance deals damage to the predator.
 >
-> **Effect:** The target is pushed up to 5 squares.
+> **Effect:** The target is [pushed](../../../movement/forced-movement.md) up to 5 squares.
 
 > ⭐️ **Trample**
 >

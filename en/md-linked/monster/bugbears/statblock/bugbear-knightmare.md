@@ -39,10 +39,10 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 6 corruption damage; P < 3 bleeding (save ends)
-> - **17+:** 8 corruption damage; grabbed; P < 4 bleeding (save ends)
+> - **12-16:** 6 corruption damage; P < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 8 corruption damage; [grabbed](../../../condition/grabbed.md); P < 4 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** A target grabbed this way or already grabbed by the knightmare can be vertical pushed up to 5 squares.
+> **Effect:** A target [grabbed](../../../condition/grabbed.md) this way or already [grabbed](../../../condition/grabbed.md) by the knightmare can be vertical [pushed](../../../movement/forced-movement.md) up to 5 squares.
 
 > ⭐️ **Bu'gathic Inspiration**
 >

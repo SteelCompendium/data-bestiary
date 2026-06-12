@@ -37,7 +37,7 @@ type: statblock
 >
 > - **≤11:** 5 damage
 > - **12-16:** 7 fire damage
-> - **17+:** 9 lightning damage; M < 2 prone
+> - **17+:** 9 lightning damage; M < 2 [prone](../../../condition/prone.md)
 
 > ❇️ **Stomp**
 >
@@ -51,15 +51,15 @@ type: statblock
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** Any target who is prone takes an extra 2 damage.
+> **Effect:** Any target who is [prone](../../../condition/prone.md) takes an extra 2 damage.
 
-> 👤 **Buck (2 Malice)**
+> 👤 **Buck (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       |              **Maneuver** |
 > |-------------|--------------------------:|
 > | **📏 Self** |  **🎯 The horse's rider** |
 >
-> **Effect:** The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.
+> **Effect:** The horse vertical [slides](../../../movement/forced-movement.md) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.
 
 > ⭐️ **Shared Otherworldly Grace**
 >

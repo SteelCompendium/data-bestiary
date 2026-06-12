@@ -5,9 +5,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + 3
-          tier1: 10 poison damage; M < 1 slowed (save ends)
-          tier2: 15 poison damage; M < 2 slowed (save ends)
-          tier3: 18 poison damage; M < 3 slowed (save ends)
+          tier1: 10 poison damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 15 poison damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 18 poison damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -21,9 +21,9 @@ features:
     - distance: Ranged 10
       effects:
         - roll: Power Roll + 3
-          tier1: The targets regains 10 Stamina.
-          tier2: 12 corruption damage; A < 2 weakened (save ends)
-          tier3: 12 lightning damage; A < 2 bleeding (save ends)
+          tier1: The targets regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+          tier2: 12 corruption damage; A < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 12 lightning damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -34,27 +34,26 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - cost: 2 Malice
-      distance: 1 cube within 5
+    - distance: 1 cube within 5
       effects:
         - effect: |-
             **Effect:** The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
-            **1+ Malice:** Aeolyxria creates an additional pillar for each Malice spent.
+            **1+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Aeolyxria creates an additional pillar for each [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
         - Area
         - Ranged
-      name: Elevate
+      name: Elevate (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Special
       type: feature
       usage: Maneuver
     - distance: Ranged 5
       effects:
         - roll: Power Roll + 3
-          tier1: 7 poison damage; A < 2 bleeding (save ends)
-          tier2: 12 poison damage; A < 3 bleeding (save ends)
-          tier3: 15 poison damage; bleeding (save ends)
+          tier1: 7 poison damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 12 poison damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 15 poison damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: ❗️
       keywords:
@@ -65,7 +64,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: The Director gains 1 Malice whenever Aeolyxria imposes a condition on an enemy.
+        - effect: The Director gains 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) whenever Aeolyxria imposes a condition on an enemy.
       feature_type: trait
       icon: ⭐️
       name: That's Our Opening!

@@ -49,16 +49,16 @@ type: statblock
 > - **12-16:** 6 corruption or fire damage
 > - **17+:** 8 corruption or fire damage
 >
-> **2 Malice:** Each target who has P < 2 is weakened (save ends). Any enemy who starts their turn within 3 squares of a target weakened this way and who has P < 2 is weakened (save ends).
+> **2 [Malice](../../../rule/monster/malice.md):** Each target who has P < 2 is [weakened](../../../condition/weakened.md) (save ends). Any enemy who starts their turn within 3 squares of a target [weakened](../../../condition/weakened.md) this way and who has P < 2 is [weakened](../../../condition/weakened.md) (save ends).
 
-> 🏹 **Burning Legion (1 Malice)**
+> 🏹 **Burning Legion (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |           **Maneuver** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >
-> **Effect:** Each target can teleport up to 5 squares. Each creature adjacent to a target at their destination takes 3 fire damage.
+> **Effect:** Each target can [teleport](../../../movement/teleport.md) up to 5 squares. Each creature [adjacent](../../../rule/combat/adjacent.md) to a target at their destination takes 3 fire damage.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the burning witch is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the burning witch takes 3 fire damage.
+> When the burning witch is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the burning witch takes 3 fire damage.

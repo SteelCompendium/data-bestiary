@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "11 corruption damage; P \u003c 2 bleeding (save ends)",
-          "tier2": "16 corruption damage; P \u003c 3 bleeding (save ends)",
-          "tier3": "19 corruption damage; P \u003c 4 bleeding (save ends)"
+          "tier1": "11 corruption damage; P \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "16 corruption damage; P \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "19 corruption damage; P \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -44,11 +44,10 @@
       "usage": "Maneuver"
     },
     {
-      "cost": "3 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** A non-minion hobgoblin within distance takes damage.\n**Effect:** Three hobgoblin recruits manifest from the target's blood into unoccupied spaces adjacent to the target."
+          "effect": "**Trigger:** A non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) hobgoblin within distance takes damage.\n**Effect:** Three hobgoblin recruits manifest from the target's blood into unoccupied spaces [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target."
         }
       ],
       "feature_type": "ability",
@@ -56,7 +55,7 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "An Army From Blood",
+      "name": "An Army From Blood (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "The triggering creature",
       "type": "feature",
       "usage": "Triggered action"
@@ -64,7 +63,7 @@
     {
       "effects": [
         {
-          "effect": "When the bloodlord is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the bloodlord takes 3 fire damage."
+          "effect": "When the bloodlord is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bloodlord takes 3 fire damage."
         }
       ],
       "feature_type": "trait",
@@ -73,6 +72,7 @@
       "type": "feature"
     },
     {
+      "cost": "scc:mcdm.monsters.v1/rule.monster/end-effect",
       "effects": [
         {
           "effect": "At the end of each of their turns, the bloodlord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
@@ -80,15 +80,14 @@
       ],
       "feature_type": "trait",
       "icon": "⭐️",
-      "name": "End Effect",
+      "name": "[End Effect]",
       "type": "feature"
     },
     {
-      "cost": "Villain Action 1",
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target gains 10 temporary Stamina and can move up to their speed. Then each non-minion target can make a free strike."
+          "effect": "**Effect:** Each target gains 10 temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and can move up to their speed. Then each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "ability",
@@ -96,13 +95,12 @@
       "keywords": [
         "Area"
       ],
-      "name": "Advance!",
+      "name": "Advance! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "-"
     },
     {
-      "cost": "Villain Action 2",
       "distance": "3 aura",
       "effects": [
         {
@@ -115,20 +113,19 @@
         "Area",
         "Magic"
       ],
-      "name": "Skulls Abound",
+      "name": "Skulls Abound ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
       "target": "Self",
       "type": "feature",
       "usage": "-"
     },
     {
-      "cost": "Villain Action 3",
       "distance": "5 burst",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "5 fire damage; P \u003c 2 2 fire damage, push 2, prone",
-          "tier2": "5 fire damage; P \u003c 3 7 fire damage, push 3, prone",
-          "tier3": "5 fire damage; P \u003c 4 10 fire damage, push 5, prone"
+          "tier1": "5 fire damage; P \u003c 2 2 fire damage, [push](scc:mcdm.heroes.v1/movement/forced-movement) 2, [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier2": "5 fire damage; P \u003c 3 7 fire damage, [push](scc:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "5 fire damage; P \u003c 4 10 fire damage, [push](scc:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -137,7 +134,7 @@
         "Area",
         "Magic"
       ],
-      "name": "I Am Fire! I Am Death!",
+      "name": "I Am Fire! I Am Death! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"

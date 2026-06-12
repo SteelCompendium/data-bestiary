@@ -40,7 +40,7 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally adjacent to the target can make a free strike against them.
+> **Effect:** One ally [adjacent](../../../rule/combat/adjacent.md) to the target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
 
 > ❇️ **Get Reckless!**
 >
@@ -50,8 +50,8 @@ type: statblock
 >
 > **Effect:** Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge.
 >
-> **2 Malice:** Strikes made against targets no longer gain an edge.
+> **2 [Malice](../../../rule/monster/malice.md):** Strikes made against targets no longer gain an edge.
 
 > ⭐️ **Crafty**
 >
-> The underboss doesn't provoke opportunity attacks by moving.
+> The underboss doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.

@@ -31,13 +31,13 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **End Effect:** At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The chimera can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Volant**
 >
-> When the chimera makes a creature winded or reduces them to 0 Stamina, they can move their speed toward an enemy.
+> When the chimera makes a creature [winded](../../../rule/health/winded.md) or reduces them to 0 [Stamina](../../../rule/health/stamina.md), they can move their speed toward an enemy.
 
 > 🗡 **Bite (Signature Ability)**
 >
@@ -51,9 +51,9 @@ type: statblock
 > - **12-16:** 13 damage
 > - **17+:** 16 damage
 >
-> **Effect:** This strike deals an extra 3 damage if it gains an edge or has a double edge.
+> **Effect:** This strike deals an extra 3 damage if it gains an [edge](../../../rule/dice/edge.md) or has a double edge.
 
-> 🔳 **Dragon's Eruption (5 Malice)**
+> 🔳 **Dragon's Eruption (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -65,7 +65,7 @@ type: statblock
 > - **12-16:** 5 fire damage; A < 2 5 fire damage
 > - **17+:** 7 fire damage; A < 3 7 fire damage
 
-> ❇️ **Roar (5 Malice)**
+> ❇️ **Roar (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -74,8 +74,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 4 psychic damage
-> - **12-16:** 8 psychic damage; I < 2 frightened (save ends)
-> - **17+:** 10 psychic damage; I < 3 frightened (save ends)
+> - **12-16:** 8 psychic damage; I < 2 [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** 10 psychic damage; I < 3 [frightened](../../../condition/frightened.md) (save ends)
 
 > 🗡 **Lion's Toss**
 >
@@ -97,13 +97,13 @@ type: statblock
 >
 > **Trigger:** A creature makes a strike against the chimera and obtains a tier 1 outcome.
 >
-> **Effect:** The chimera shifts up to 5 squares. If they end this shift within distance of the target, make a power roll.
+> **Effect:** The chimera [shifts](../../../movement/shifting.md) up to 5 squares. If they end this shift within distance of the target, make a power roll.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; M < 1 slowed (save ends)
-> - **12-16:** 8 damage; prone; M < 2 slowed (save ends)
-> - **17+:** 10 damage; prone; M < 3 slowed (save ends)
+> - **≤11:** 6 damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 8 damage; [prone](../../../condition/prone.md); M < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 10 damage; [prone](../../../condition/prone.md); M < 3 [slowed](../../../condition/slowed.md) (save ends)
 
 > ☠️ **Overture of Destruction (Villain Action 1)**
 >
@@ -119,7 +119,7 @@ type: statblock
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The chimera uses Dragon's Eruption and Roar without spending Malice.
+> **Effect:** The chimera uses Dragon's Eruption and Roar without spending [Malice](../../../rule/monster/malice.md).
 
 > ☠️ **Chorus of Destruction (Villain Action 3)**
 >
@@ -127,4 +127,4 @@ type: statblock
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The chimera uses Roar, then shifts up to their speed and can make a free strike against each enemy who comes adjacent to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this villain action costs no Malice.
+> **Effect:** The chimera uses Roar, then [shifts](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each enemy who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this [villain action](../../../rule/monster/villain-action.md) costs no [Malice](../../../rule/monster/malice.md).

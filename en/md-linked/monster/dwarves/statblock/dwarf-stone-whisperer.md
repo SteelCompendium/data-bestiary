@@ -36,13 +36,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; slide 1; M < 0 slowed (save ends)
-> - **12-16:** 8 damage; slide 3; M < 1 slowed (save ends)
-> - **17+:** 11 damage; slide 5; M < 2 restrained (save ends)
+> - **≤11:** 5 damage; [slide](../../../movement/forced-movement.md) 1; M < 0 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 8 damage; [slide](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 11 damage; [slide](../../../movement/forced-movement.md) 5; M < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
-> 🔳 **Stone Wave (3 Malice)**
+> 🔳 **Stone Wave (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > |-------------------------|------------------------------:|
@@ -50,11 +50,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; push 2; R < 1 slowed (save ends)
-> - **12-16:** 6 damage; push 3; R < 2 slowed (save ends)
-> - **17+:** 9 damage; push 3; R < 3 slowed (save ends)
+> - **≤11:** 4 damage; [push](../../../movement/forced-movement.md) 2; R < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 3; R < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 9 damage; [push](../../../movement/forced-movement.md) 3; R < 3 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 
 > ⭐️ **Stone Walker**
 >

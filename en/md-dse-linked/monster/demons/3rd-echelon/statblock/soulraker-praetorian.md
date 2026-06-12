@@ -45,24 +45,24 @@ weaknesses:
 >
 > - **≤11:** 7 poison damage; push 2
 > - **12-16:** 10 poison damage; push 2
-> - **17+:** 11 poison damage; push 4; A < 4 grabbed
+> - **17+:** 11 poison damage; push 4; A < 4 [grabbed](../../../../condition/grabbed.md)
 >
-> **Effect:** The praetorian can shift into each square the target leaves.
+> **Effect:** The praetorian can [shift](../../../../movement/shifting.md) into each square the target leaves.
 
-> ❗️ **Stinging Departure (2 Malice)**
+> ❗️ **Stinging Departure (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **-**       |           **Triggered action** |
 > |-------------|-------------------------------:|
 > | **📏 Self** | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature ends the praetorian's grab.
+> **Trigger:** A creature ends the praetorian's [grab](../../../../condition/grabbed.md).
 >
-> **Effect:** The praetorian makes a free strike against the target, breaks off part of their stinger in the target, and shifts up to half their speed. The target is bleeding until they remove the stinger fragment as a free maneuver, taking 6 damage in the process.
+> **Effect:** The praetorian makes a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target, breaks off part of their stinger in the target, and [shifts](../../../../movement/shifting.md) up to half their speed. The target is [bleeding](../../../../condition/bleeding.md) until they remove the stinger fragment as a [free maneuver](../../../../rule/combat/free-maneuver.md), taking 6 damage in the process.
 
 > ⭐️ **Lethe**
 >
-> While the praetorian is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the praetorian is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Praetorian Buzzing**
 >
-> Any creature who starts their turn with two or more praetorians adjacent to them takes 6 sonic damage.
+> Any creature who starts their turn with two or more praetorians [adjacent](../../../../rule/combat/adjacent.md) to them takes 6 sonic damage.

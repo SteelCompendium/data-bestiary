@@ -50,9 +50,9 @@ type: statblock
 >
 > **Effect:** Until the start of the crux's next turn, the target has fire immunity 5.
 >
-> **3 Malice:** Until the end of the encounter, the ground within 3 squares of the target is wreathed in fire. Any enemy who enters that area for the first time in a round or starts their turn there takes 3 fire damage.
+> **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, the ground within 3 squares of the target is wreathed in fire. Any enemy who enters that area for the first time in a round or starts their turn there takes 3 fire damage.
 
-> ❗️ **Flame Jet (1 Malice)**
+> ❗️ **Flame Jet (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic**   | **Triggered action** |
 > |-------------|---------------------:|
@@ -60,8 +60,8 @@ type: statblock
 >
 > **Trigger:** The crux takes damage.
 >
-> **Effect:** The crux ignores any effects associated with the damage and can fly up to their speed. If the crux doesn't end this movement on solid ground, they fall.
+> **Effect:** The crux ignores any effects associated with the damage and can [fly](../../../movement/fly.md) up to their speed. If the crux doesn't end this movement on solid ground, they fall.
 
 > ⭐️ **Fickle and Free**
 >
-> The crux can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+> The crux can't be [restrained](../../../condition/restrained.md), [slowed](../../../condition/slowed.md), or knocked [prone](../../../condition/prone.md), and they ignore [difficult terrain](../../../movement/difficult-terrain.md).

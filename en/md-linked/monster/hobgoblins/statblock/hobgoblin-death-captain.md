@@ -45,7 +45,7 @@ type: statblock
 >
 > **Effect:** The next strike made against the target has a double edge.
 >
-> **3 Malice:** One ally adjacent to the target can use their signature ability.
+> **3 [Malice](../../../rule/monster/malice.md):** One ally [adjacent](../../../rule/combat/adjacent.md) to the target can use their signature ability.
 
 > 🏹 **On My Mark!**
 >
@@ -53,7 +53,7 @@ type: statblock
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >
-> **Effect:** The target moves up to their speed and can make a free strike.
+> **Effect:** The target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Battle Ready**
 >
@@ -61,4 +61,4 @@ type: statblock
 
 > ⭐️ **Infernal Ichor**
 >
-> When the death captain is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the death captain takes 3 fire damage.
+> When the death captain is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the death captain takes 3 fire damage.

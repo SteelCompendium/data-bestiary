@@ -42,11 +42,11 @@ weaknesses:
 > - **12-16:** 8 psychic damage
 > - **17+:** 9 psychic damage
 >
-> **Effect:** The target has corruption weakness 5 (EoT).
+> **Effect:** The target has corruption [weakness](../../../../rule/damage/damage-weakness.md) 5 (EoT).
 >
-> **2 Malice:** If the target has I < 2, they have corruption weakness 5 (save ends).
+> **2 [Malice](../../../../rule/monster/malice.md):** If the target has I < 2, they have corruption [weakness](../../../../rule/damage/damage-weakness.md) 5 (save ends).
 
-> 🔳 **Demonwarp Tears (5 Malice)**
+> 🔳 **Demonwarp Tears (5 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -60,11 +60,11 @@ weaknesses:
 > - **12-16:** 5 psychic damage; A < 2 the target is warped (save ends)
 > - **17+:** 6 psychic damage; A < 3 the target is warped (save ends)
 >
-> **Effect:** While warped, a creature has a double bane on power rolls using any characteristic higher than 0, and has a double edge on power rolls using any characteristic lower than 0.
+> **Effect:** While warped, a creature has a double [bane](../../../../rule/dice/bane.md) on power rolls using any characteristic higher than 0, and has a double [edge](../../../../rule/dice/edge.md) on power rolls using any characteristic lower than 0.
 
 > ⭐️ **Lethe**
 >
-> While the bale eye is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the bale eye is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

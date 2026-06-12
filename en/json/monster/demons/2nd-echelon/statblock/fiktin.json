@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "3 corruption damage",
           "tier2": "6 corruption damage",
-          "tier3": "7 corruption damage; I \u003c 3 dazed (save ends)"
+          "tier3": "7 corruption damage; I \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -25,11 +25,10 @@
       "usage": "Main action"
     },
     {
-      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver."
+          "effect": "**Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver)."
         }
       ],
       "feature_type": "ability",
@@ -37,7 +36,7 @@
       "keywords": [
         "Magic"
       ],
-      "name": "Aggressive Mimicry",
+      "name": "Aggressive Mimicry (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Maneuver"
@@ -45,7 +44,7 @@
     {
       "effects": [
         {
-          "effect": "While the fiktin is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the fiktin is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

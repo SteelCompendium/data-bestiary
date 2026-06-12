@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "9 corruption damage; P \u003c 1 slowed (save ends)",
-          "tier2": "14 corruption damage; P \u003c 2 restrained (save ends)",
-          "tier3": "17 corruption damage; P \u003c 3 restrained (save ends)"
+          "tier1": "9 corruption damage; P \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "14 corruption damage; P \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "17 corruption damage; P \u003c 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -43,7 +42,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Glare of the Old Judgments",
+      "name": "Glare of the Old Judgments (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "One creature",
       "type": "feature",
       "usage": "Main action"
@@ -51,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "When the redglare is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the redglare takes 3 fire damage."
+          "effect": "When the redglare is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the redglare takes 3 fire damage."
         }
       ],
       "feature_type": "trait",

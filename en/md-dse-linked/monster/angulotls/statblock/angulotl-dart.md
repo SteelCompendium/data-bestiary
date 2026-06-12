@@ -48,8 +48,8 @@ with_captain: +4 bonus to ranged distance
 > - **12-16:** 4 poison damage
 > - **17+:** 5 poison damage
 >
-> **Effect:** The dart gains an edge on this ability against any target who has less than full Stamina.
+> **Effect:** The dart gains an [edge](../../../rule/dice/edge.md) on this ability against any target who has less than full [Stamina](../../../rule/health/stamina.md).
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy grabs the dart or uses a melee ability against them, that enemy takes 1 poison damage.
+> Whenever an adjacent enemy [grabs](../../../feature/common/maneuvers/grab.md) the dart or uses a melee ability against them, that enemy takes 1 poison damage.

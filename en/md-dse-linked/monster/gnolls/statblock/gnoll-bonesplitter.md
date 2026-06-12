@@ -40,20 +40,20 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 6 damage; push 2
-> - **17+:** 8 damage; grabbed; M < 2 the target takes a bane on the Escape Grab maneuver
+> - **≤11:** 5 damage; [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 2
+> - **17+:** 8 damage; [grabbed](../../../condition/grabbed.md); M < 2 the target takes a bane on the Escape Grab maneuver
 >
-> **Effect:** While the bonesplitter has a target grabbed, they can't use Three-Tail Flail against another target.
+> **Effect:** While the bonesplitter has a target [grabbed](../../../condition/grabbed.md), they can't use Three-Tail Flail against another target.
 
-> ❇️ **Bonesplitter's Cackletongue (4 Malice)**
+> ❇️ **Bonesplitter's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |                          **Maneuver** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Up to three targets can make a free strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+> **Effect:** Up to three targets can make a [free strike](../../../feature/common/main-actions/free-strike.md). If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 5 squares of the bonesplitter is reduced to 0 Stamina, the bonesplitter moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](../../../rule/organization/minion.md) ally within 5 squares of the bonesplitter is reduced to 0 [Stamina](../../../rule/health/stamina.md), the bonesplitter moves up to their speed and can make a melee [free strike](../../../feature/common/main-actions/free-strike.md).

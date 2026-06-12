@@ -38,9 +38,9 @@ type: statblock
 >
 > - **≤11:** 7 poison damage
 > - **12-16:** 11 poison damage
-> - **17+:** 14 poison damage; M < 2 weakened (save ends)
+> - **17+:** 14 poison damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **2 Malice:** For any tier outcome, if the target has M < 3, they are weakened (save ends).
+> **2 [Malice](../../../rule/monster/malice.md):** For any tier outcome, if the target has M < 3, they are [weakened](../../../condition/weakened.md) (save ends).
 
 > 🗡 **Leg Blade**
 >
@@ -54,13 +54,13 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 
-> 👤 **Trample (5 Malice)**
+> 👤 **Trample (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-** | **Main action** |
 > | --- | ---:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The spider shifts up to their speed and uses Leg Blade against each creature who comes adjacent to them during the shift. The spider makes one power roll against all targets.
+> **Effect:** The spider [shifts](../../../movement/shifting.md) up to their speed and uses Leg Blade against each creature who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. The spider makes one power roll against all targets.
 
 > 🔳 **Web**
 >
@@ -70,11 +70,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** A < 0 restrained (save ends)
-> - **12-16:** A < 1 restrained (save ends)
-> - **17+:** A < 2 restrained (save ends)
+> - **≤11:** A < 0 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** A < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** A < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies.
+> **Effect:** The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies.
 
 > ❗️ **Skitter**
 >
@@ -84,7 +84,7 @@ type: statblock
 >
 > **Trigger:** The spider or any ally riding the spider takes damage.
 >
-> **Effect:** The damage is halved, and the spider shifts up to 2 squares after the triggering effect resolves.
+> **Effect:** The damage is halved, and the spider [shifts](../../../movement/shifting.md) up to 2 squares after the triggering effect resolves.
 
 > ⭐️ **Ride Launcher**
 >

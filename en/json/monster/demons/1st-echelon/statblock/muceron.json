@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "2 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -40,7 +39,7 @@
         "Strike",
         "Weapon"
       ],
-      "name": "Tongue Pull",
+      "name": "Tongue Pull (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Three creatures or objects",
       "type": "feature",
       "usage": "Maneuver"
@@ -48,7 +47,7 @@
     {
       "effects": [
         {
-          "effect": "While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the muceron is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

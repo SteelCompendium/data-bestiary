@@ -41,13 +41,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; M < 2 slowed (save ends)
-> - **12-16:** 17 damage; M < 3 slowed (save ends)
-> - **17+:** 21 damage; M < 4 slowed (save ends)
+> - **≤11:** 12 damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 17 damage; M < 3 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 21 damage; M < 4 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** If a target was already slowed, that condition continues but their speed is 0 until the end of their next turn.
+> **Effect:** If a target was already [slowed](../../../condition/slowed.md), that condition continues but their speed is 0 until the end of their next turn.
 
-> ⚔️ **Forked Knife (3 Malice)**
+> ⚔️ **Forked Knife (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -55,11 +55,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 10 damage; A < 2 restrained (save ends)
-> - **12-16:** 16 damage; A < 3 restrained (save ends)
-> - **17+:** 20 damage; prone; A < 4 restrained (save ends)
+> - **≤11:** 10 damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 16 damage; A < 3 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 20 damage; [prone](../../../condition/prone.md); A < 4 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The knife lands in the target's square, and has 30 Stamina and damage immunity 5. Whenever the knife takes damage, it deals 4 sonic damage to each enemy within 3 squares. The knife lasts until the end of the encounter, and can't be picked up or manipulated.
+> **Effect:** The knife lands in the target's square, and has 30 [Stamina](../../../rule/health/stamina.md) and damage immunity 5. Whenever the knife takes damage, it deals 4 sonic damage to each enemy within 3 squares. The knife lasts until the end of the encounter, and can't be picked up or manipulated.
 
 > 👤 **Cobblestone Shape**
 >
@@ -67,7 +67,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is difficult terrain for enemies. Giants ignore this difficult terrain.
+> **Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Giants ignore this [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ❗️ **Resonate Rune**
 >
@@ -77,7 +77,7 @@ type: statblock
 >
 > **Trigger:** The basalt stone giant takes damage.
 >
-> **Effect:** The target is pushed up to 3 squares, or if they have A < 3, they are pushed up to 6 squares and knocked prone.
+> **Effect:** The target is [pushed](../../../movement/forced-movement.md) up to 3 squares, or if they have A < 3, they are [pushed](../../../movement/forced-movement.md) up to 6 squares and knocked [prone](../../../condition/prone.md).
 
 > ⭐️ **Stonebreaker Flesh**
 >
@@ -85,8 +85,8 @@ type: statblock
 
 > ⭐️ **Stone Steps**
 >
-> The basalt stone giant ignores difficult terrain.
+> The basalt stone giant ignores [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ⭐️ **Stone Swim**
 >
-> The basalt stone giant can burrow through stone, but can't drag other creatures underground when they do so.
+> The basalt stone giant can [burrow](../../../movement/burrow.md) through stone, but can't drag other creatures underground when they do so.

@@ -42,9 +42,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; slide 1
-> - **12-16:** 11 damage; slide 2
-> - **17+:** 14 damage; slide 3
+> - **≤11:** 7 damage; [slide](../../../movement/forced-movement.md) 1
+> - **12-16:** 11 damage; [slide](../../../movement/forced-movement.md) 2
+> - **17+:** 14 damage; [slide](../../../movement/forced-movement.md) 3
 >
 > **Effect:** If a target has P < 2, their stability is reduced to 0 and they move 2 additional squares whenever they are force moved (save ends).
 
@@ -56,9 +56,9 @@ type: statblock
 >
 > **Effect:** Until the start of the essence's next turn, the target has cold immunity 5.
 >
-> **3 Malice:** Until the end of the encounter, the ground within 1 square of the target is a pool of water that is difficult terrain. This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has M < 2 is slowed (save ends).
+> **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, the ground within 1 square of the target is a pool of water that is [difficult terrain](../../../movement/difficult-terrain.md). This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has M < 2 is [slowed](../../../condition/slowed.md) (save ends).
 
-> ❗️ **Sea-Salted Wounds (1 Malice)**
+> ❗️ **Sea-Salted Wounds (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee**      | **Triggered action** |
 > |----------------|---------------------:|
@@ -66,12 +66,12 @@ type: statblock
 >
 > **Trigger:** An ally deals rolled damage to the target.
 >
-> **Effect:** The essence makes a free strike against the target.
+> **Effect:** The essence makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Fickle and Free**
 >
-> The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+> The essence can't be [restrained](../../../condition/restrained.md), [slowed](../../../condition/slowed.md), or knocked [prone](../../../condition/prone.md), and they ignore [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ⭐️ **Water Glide**
 >
-> Whenever the essence starts their turn in a space containing water, they can fly until the end of their turn. While flying, the essence doesn't provoke opportunity attacks.
+> Whenever the essence starts their turn in a space containing water, they can [fly](../../../movement/fly.md) until the end of their turn. While flying, the essence doesn't provoke opportunity attacks.

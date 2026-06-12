@@ -19,13 +19,13 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer adjacent to them.
+        - effect: Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
       feature_type: trait
       icon: ⭐️
       name: Open Furnace
       type: feature
     - effects:
-        - effect: When the brandbearer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the brandbearer takes 2 fire damage.
+        - effect: When the brandbearer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the brandbearer takes 2 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Infernal Ichor

@@ -41,9 +41,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 cold damage; M < 0 push 3
-> - **12-16:** 6 cold damage; M < 1 push 5 or prone
-> - **17+:** 9 cold damage; M < 2 slide 5 or prone
+> - **≤11:** 4 cold damage; M < 0 [push](../../../movement/forced-movement.md) 3
+> - **12-16:** 6 cold damage; M < 1 [push](../../../movement/forced-movement.md) 5 or [prone](../../../condition/prone.md)
+> - **17+:** 9 cold damage; M < 2 [slide](../../../movement/forced-movement.md) 5 or [prone](../../../condition/prone.md)
 
 > 🏹 **Aetherweb**
 >
@@ -53,11 +53,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; R < 0 slowed (save ends)
-> - **12-16:** 8 damage; R < 1 slowed (save ends)
-> - **17+:** 11 damage; R < 2 restrained (save ends)
+> - **≤11:** 5 damage; R < 0 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 8 damage; R < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 11 damage; R < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required).
+> **Effect:** Each enemy within 3 squares of a target suffers the same [potency](../../../rule/character/potency.md) effect as the target unless they are already [adjacent](../../../rule/combat/adjacent.md) to them, or if they immediately [shift](../../../movement/shifting.md) into an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the target (no action required).
 
 > ⭐️ **Otherworldly Grace**
 >

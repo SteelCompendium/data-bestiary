@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage
-> - **17+:** 13 damage; one target is grabbed
+> - **17+:** 13 damage; one target is [grabbed](../../../condition/grabbed.md)
 >
-> **Effect:** One ally within 5 squares of the commander gains an edge on their next strike until the start of the commander's next turn.
+> **Effect:** One ally within 5 squares of the commander gains an [edge](../../../rule/dice/edge.md) on their next strike until the start of the commander's next turn.
 
 > 🏹 **You Next!**
 >
@@ -51,13 +51,13 @@ type: statblock
 >
 > **Effect:** The target moves up to their speed and uses a signature ability.
 
-> ❇️ **Fall Back! (5 Malice)**
+> ❇️ **Fall Back! (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |              **Main Action** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target shifts up to their speed, then can use the Throw maneuver.
+> **Effect:** Each target [shifts](../../../movement/shifting.md) up to their speed, then can use the Throw maneuver.
 
 > 🗡 **Throw**
 >
@@ -65,9 +65,9 @@ type: statblock
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the commander.
+> **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the commander.
 >
-> **Effect:** The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way.
+> **Effect:** The target is vertical [pushed](../../../movement/forced-movement.md) up to 4 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
 
 > ❗️ **Catcher**
 >
@@ -75,9 +75,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is grabbed by the commander.
+> **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the commander.
 
 > ⭐️ **The Commander's Watching**
 >

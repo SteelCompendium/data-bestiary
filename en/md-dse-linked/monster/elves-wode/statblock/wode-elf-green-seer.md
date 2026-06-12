@@ -42,12 +42,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 7 damage; I < 1 restrained (save ends)
-> - **17+:** 9 damage; I < 2 restrained (save ends)
+> - **12-16:** 7 damage; I < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 9 damage; I < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** While restrained this way, a target can't search for hidden creatures.
+> **Effect:** While [restrained](../../../condition/restrained.md) this way, a target can't search for hidden creatures.
 
-> 🏹 **The Natural Cycle (3 Malice)**
+> 🏹 **The Natural Cycle (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged, Strike** |         **Maneuver** |
 > |---------------------------|---------------------:|
@@ -56,10 +56,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; P < 1 weakened (save ends)
-> - **17+:** 6 damage; P < 1 bleeding (save ends); the target has a double bane on strikes (save ends)
+> - **12-16:** 4 damage; P < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 6 damage; P < 1 [bleeding](../../../condition/bleeding.md) (save ends); the target has a double bane on strikes (save ends)
 >
-> **Effect:** While bleeding or weakened this way, a target is covered in lichen.
+> **Effect:** While [bleeding](../../../condition/bleeding.md) or [weakened](../../../condition/weakened.md) this way, a target is covered in lichen.
 
 > ❗️ **Foreseen Punishment**
 >
@@ -69,7 +69,7 @@ type: statblock
 >
 > **Trigger:** A creature uses a triggered action targeting the green seer or an ally within distance.
 >
-> **Effect:** The green seer makes a free strike against the target after the target's triggered action is resolved.
+> **Effect:** The green seer makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target after the target's triggered action is resolved.
 
 > ⭐️ **Masking Glamor**
 >

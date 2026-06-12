@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "3 damage",
           "tier2": "4 damage",
-          "tier3": "5 damage; M \u003c 2 bleeding (save ends)"
+          "tier3": "5 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -43,7 +42,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Salt Wounds",
+      "name": "Salt Wounds (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Three creatures",
       "type": "feature",
       "usage": "Maneuver"
@@ -51,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "While the ruinant is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the ruinant is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

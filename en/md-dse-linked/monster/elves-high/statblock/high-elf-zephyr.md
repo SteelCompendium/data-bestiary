@@ -45,7 +45,7 @@ type: statblock
 > - **12-16:** 7 damage
 > - **17+:** 9 damage
 >
-> **Effect:** On a tier 3 outcome, the zephyr can make a free strike against a creature adjacent to the target. If they do so and that creature and the target both have A < 2, the creature and the target are both prone. On any tier outcome, the zephyr can then shift up to 2 squares.
+> **Effect:** On a tier 3 outcome, the zephyr can make a [free strike](../../../feature/common/main-actions/free-strike.md) against a creature [adjacent](../../../rule/combat/adjacent.md) to the target. If they do so and that creature and the target both have A < 2, the creature and the target are both [prone](../../../condition/prone.md). On any tier outcome, the zephyr can then [shift](../../../movement/shifting.md) up to 2 squares.
 
 > 👤 **Windwalk**
 >
@@ -53,7 +53,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The zephyr flies up to their speed. If they don't end this movment on solid ground, they are prone.
+> **Effect:** The zephyr [flies](../../../movement/fly.md) up to their speed. If they don't end this movment on solid ground, they are [prone](../../../condition/prone.md).
 
 > ⭐️ **Like the Wind**
 >

@@ -43,11 +43,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 fire damage; I < 1 frightened (save ends)
-> - **12-16:** 15 fire damage; I < 1 frightened (save ends)
-> - **17+:** 18 fire damage; I < 1 frightened (save ends)
+> - **≤11:** 10 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** 15 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** 18 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
 >
-> **Effect:** The adjudicator can slide a target frightened by this ability up to 2 squares.
+> **Effect:** The adjudicator can slide a target [frightened](../../../condition/frightened.md) by this ability up to 2 squares.
 
 > 🏹 **Adjudicator's Interdiction**
 >
@@ -57,19 +57,19 @@ type: statblock
 >
 > **Effect:** The target makes a Presence test.
 >
-> - **≤11:** The target is slowed, takes a bane on power rolls, and can't regain Stamina (save ends).
-> - **12-16:** The target is slowed and takes a bane on power rolls (save ends).
-> - **17+:** Slowed (save ends)
+> - **≤11:** The target is [slowed](../../../condition/slowed.md), takes a [bane](../../../rule/dice/bane.md) on power rolls, and can't regain [Stamina](../../../rule/health/stamina.md) (save ends).
+> - **12-16:** The target is [slowed](../../../condition/slowed.md) and takes a [bane](../../../rule/dice/bane.md) on power rolls (save ends).
+> - **17+:** [Slowed](../../../condition/slowed.md) (save ends)
 
 > 🏹 **Quid Pro Quo**
 >
 > | **Magic, Ranged** |                           **Maneuver** |
 > |-------------------|---------------------------------------:|
-> | **📏 Ranged 10**  | **🎯 One ally or frightened creature** |
+> | **📏 Ranged 10**  | **🎯 One ally or [frightened](../../../condition/frightened.md) creature** |
 >
-> **Effect:** The adjudicator and the target teleport to switch places.
+> **Effect:** The adjudicator and the target [teleport](../../../movement/teleport.md) to switch places.
 
-> ❗️ **Devilish Charm (2 Malice)**
+> ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -81,7 +81,7 @@ type: statblock
 >
 > - **≤11:** The adjudicator chooses a new target for the strike.
 > - **12-16:** The adjudicator halves the triggering damage.
-> - **17+:** The target takes a bane on the strike.
+> - **17+:** The target takes a [bane](../../../rule/dice/bane.md) on the strike.
 
 > ⭐️ **Vexatious Litigation**
 >
@@ -89,4 +89,4 @@ type: statblock
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter.
+> If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.

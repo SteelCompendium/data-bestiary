@@ -29,15 +29,15 @@ type: statblock
 | **Poison 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+2**<br>Might      |  **+3**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> ☠️ **Solo Monster**
+> ☠️ **[Solo](../../../rule/organization/solo.md) Monster**
 >
-> **End Effect:** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
 
 > ❇️ **Withering Wyrmscale Aura**
 >
-> The dragon's scales create a 2 aura of withering green magic around them. Any creature other than the dragon who regains Stamina in the area regains only half the expected amount. Any winded creature who enters the area for the first time in a round or starts their turn there takes 1d3 corruption damage.
+> The dragon's scales create a 2 aura of withering green magic around them. Any creature other than the dragon who regains [Stamina](../../../rule/health/stamina.md) in the area regains only half the expected amount. Any [winded](../../../rule/health/winded.md) creature who enters the area for the first time in a round or starts their turn there takes 1d3 corruption damage.
 
 > 🔳 **Virulent Breath (Signature Ability)**
 >
@@ -65,19 +65,19 @@ type: statblock
 > - **12-16:** 12 damage; push 4
 > - **17+:** 15 damage; push 8
 >
-> **2 Malice:** Each target takes an extra 1d3 damage, and if they have A < 2, they are bleeding (save ends).
+> **2 [Malice](../../../rule/monster/malice.md):** Each target takes an extra 1d3 damage, and if they have A < 2, they are [bleeding](../../../condition/bleeding.md) (save ends).
 
 > ⭐️ **Provoking Nettles**
 >
-> Once per turn, the dragon shifts up to 5 squares and can move through enemies' spaces at their usual speed. The first time the dragon moves through an enemy's space during this movement, the enemy takes 3 damage.
+> Once per turn, the dragon [shifts](../../../movement/shifting.md) up to 5 squares and can move through enemies' spaces at their usual speed. The first time the dragon moves through an enemy's space during this movement, the enemy takes 3 damage.
 
-> ❇️ **Investiture of Verdure (5 Malice)**
+> ❇️ **Investiture of Verdure (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**        |                  **Maneuver** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 temporary Stamina for each target pulled.
+> **Effect:** Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 [temporary Stamina](../../../rule/health/temporary-stamina.md) for each target pulled.
 
 > ❗️ **Prickly Situation**
 >
@@ -87,9 +87,9 @@ type: statblock
 >
 > **Trigger:** A dragonsealed creature within distance ends the dragonsealed effect.
 >
-> **Effect:** The target is pulled up to 5 squares toward the dragon, and if they have A < 2, they are restrained until the end of their next turn.
+> **Effect:** The target is pulled up to 5 squares toward the dragon, and if they have A < 2, they are [restrained](../../../condition/restrained.md) until the end of their next turn.
 
-> ❗️ **Thorny Scales (1 Malice)**
+> ❗️ **Thorny Scales (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee**      |      **Free triggered action** |
 > |----------------|-------------------------------:|
@@ -97,9 +97,9 @@ type: statblock
 >
 > **Trigger:** A creature within distance deals damage to the dragon with a melee strike.
 >
-> **Effect:** The dragon makes a free strike against the target, and if the target has M < 2, they are bleeding until the end of their next turn.
+> **Effect:** The dragon makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, and if the target has M < 2, they are [bleeding](../../../condition/bleeding.md) until the end of their next turn.
 
-> ☠️ **Briar Bindings (Villain Action 1)**
+> ☠️ **Briar Bindings ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -107,24 +107,24 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 damage; A < 1 restrained (save ends)
-> - **12-16:** 9 damage; A < 2 restrained (save ends)
-> - **17+:** 12 damage; A < 3 restrained (save ends)
+> - **≤11:** 5 damage; A < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 9 damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 12 damage; A < 3 [restrained](../../../condition/restrained.md) (save ends)
 
-> ☠️ **Thorned Armor (Villain Action 2)**
+> ☠️ **Thorned Armor ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The thorns upon the dragon's scales grow longer and sharper. Until the end of the encounter, any adjacent creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.
+> **Effect:** The thorns upon the dragon's scales grow longer and sharper. Until the end of the encounter, any [adjacent](../../../rule/combat/adjacent.md) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.
 
-> ☠️ **Malign Thicket (Villain Action 3)**
+> ☠️ **Malign Thicket ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **-**          |          **-** |
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature force moved by the dragon takes 1d3 poison damage, and if they have M < 2, they are weakened (save ends).
+> **Effect:** Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature [force moved](../../../movement/forced-movement.md) by the dragon takes 1d3 poison damage, and if they have M < 2, they are [weakened](../../../condition/weakened.md) (save ends).
 >
-> **Special:** If the Thorn Dragon's Domain trait is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
+> **Special:** If the Thorn Dragon's Domain [trait](../../../rule/monster/monster-trait.md) is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.

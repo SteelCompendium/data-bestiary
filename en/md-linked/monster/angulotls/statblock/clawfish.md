@@ -42,9 +42,9 @@ with_captain: Gain an edge on strikes
 >
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; grabbed
+> - **17+:** 5 damage; [grabbed](../../../condition/grabbed.md)
 >
-> **Effect:** Any target grabbed this way takes 2 lightning damage at the start of each of their turns.
+> **Effect:** Any target [grabbed](../../../condition/grabbed.md) this way takes 2 lightning damage at the start of each of their turns.
 
 > ⭐️ **Shocking**
 >

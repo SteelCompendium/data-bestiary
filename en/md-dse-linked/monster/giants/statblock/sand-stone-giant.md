@@ -42,9 +42,9 @@ with_captain: +6 bonus to Stamina
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; slide 2
-> - **12-16:** 6 damage; slide 3; A < 3 restrained (save ends)
-> - **17+:** 8 damage; slide 4; A < 4 restrained (save ends)
+> - **≤11:** 3 damage; [slide](../../../movement/forced-movement.md) 2
+> - **12-16:** 6 damage; [slide](../../../movement/forced-movement.md) 3; A < 3 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 8 damage; [slide](../../../movement/forced-movement.md) 4; A < 4 [restrained](../../../condition/restrained.md) (save ends)
 
 > ⭐️ **Stonebreaker Flesh**
 >
@@ -52,8 +52,8 @@ with_captain: +6 bonus to Stamina
 
 > ⭐️ **Stone Steps**
 >
-> The sand stone giant ignores difficult terrain.
+> The sand stone giant ignores [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ⭐️ **Stone Swim**
 >
-> The sand stone giant can burrow through stone, but can't drag other creatures underground when they do so.
+> The sand stone giant can [burrow](../../../movement/burrow.md) through stone, but can't drag other creatures underground when they do so.

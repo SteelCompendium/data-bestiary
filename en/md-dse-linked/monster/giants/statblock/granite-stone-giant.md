@@ -42,12 +42,12 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 12 damage
-> - **12-16:** 17 damage; R < 3 weakened (save ends)
-> - **17+:** 21 damage; R < 4 weakened (save ends)
+> - **12-16:** 17 damage; R < 3 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 21 damage; R < 4 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **Effect:** If the target is already weakened, they are also bleeding (save ends).
+> **Effect:** If the target is already [weakened](../../../condition/weakened.md), they are also [bleeding](../../../condition/bleeding.md) (save ends).
 
-> ❇️ **Crag Burst (3 Malice)**
+> ❇️ **Crag Burst (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |                          **Main action** |
 > |----------------|-----------------------------------------:|
@@ -55,11 +55,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 damage; push 2
-> - **12-16:** 10 damage; push 4
-> - **17+:** 14 damage; vertical push 4
+> - **≤11:** 6 damage; [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 10 damage; [push](../../../movement/forced-movement.md) 4
+> - **17+:** 14 damage; vertical [push](../../../movement/forced-movement.md) 4
 >
-> **Effect:** The area is difficult terrain. Whenever a creature enters square in the area, they take 3 damage.
+> **Effect:** The area is [difficult terrain](../../../movement/difficult-terrain.md). Whenever a creature enters square in the area, they take 3 damage.
 
 > 👤 **Castle Stone Shape**
 >
@@ -67,7 +67,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares adjacent to the path of their movement.
+> **Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](../../../rule/combat/adjacent.md) to the path of their movement.
 
 > ❗️ **Pillar**
 >
@@ -75,9 +75,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A creature or object within distance moves or shifts away from the granite stone giant.
+> **Trigger:** A creature or object within distance moves or [shifts](../../../movement/shifting.md) away from the granite stone giant.
 >
-> **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical pushed 5 squares.
+> **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](../../../movement/forced-movement.md) 5 squares.
 
 > ⭐️ **Stonebreaker Flesh**
 >
@@ -85,8 +85,8 @@ type: statblock
 
 > ⭐️ **Stone Steps**
 >
-> The granite stone giant ignores difficult terrain.
+> The granite stone giant ignores [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ⭐️ **Stone Swim**
 >
-> The granite stone giant can burrow through stone, but can't drag other creatures underground when they do so.
+> The granite stone giant can [burrow](../../../movement/burrow.md) through stone, but can't drag other creatures underground when they do so.

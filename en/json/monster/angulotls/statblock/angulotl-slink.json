@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "4 damage; pull 2",
-          "tier2": "6 damage; pull 4",
-          "tier3": "7 damage; pull 6"
+          "tier1": "4 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "6 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 4",
+          "tier3": "7 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 6"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The slink jumps up to 3 squares. If they have cover or concealment when they land, they can attempt to hide."
+          "effect": "**Effect:** The slink jumps up to 3 squares. If they have [cover](scc:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) when they land, they can attempt to hide."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "The slink excretes a sticky residue into their square at the end of each of their turns. Any non-angulotl who enters or leaves the square is stuck, and must use a maneuver to break free or be restrained until the end of their turn. Objects are likewise affected, and a creature must use a maneuver to remove an object from the square."
+          "effect": "The slink excretes a sticky residue into their square at the end of each of their turns. Any non-angulotl who enters or leaves the square is stuck, and must use a maneuver to break free or be [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their turn. Objects are likewise affected, and a creature must use a maneuver to remove an object from the square."
         }
       ],
       "feature_type": "trait",
@@ -57,7 +57,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever an adjacent enemy grabs the slink or uses a melee ability against them, that enemy takes 2 poison damage."
+          "effect": "Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the slink or uses a melee ability against them, that enemy takes 2 poison damage."
         }
       ],
       "feature_type": "trait",

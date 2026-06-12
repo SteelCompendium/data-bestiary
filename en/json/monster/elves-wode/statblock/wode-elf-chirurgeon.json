@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "6 damage; push 1",
-          "tier2": "9 damage; push 3",
-          "tier3": "12 damage; push 5"
+          "tier1": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5"
         }
       ],
       "feature_type": "ability",
@@ -28,11 +28,10 @@
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** Each target can teleport up to 10 squares to a space that has cover or concealment."
+          "effect": "**Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space that has cover or concealment."
         }
       ],
       "feature_type": "ability",
@@ -41,7 +40,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "The Wode Protects Us",
+      "name": "The Wode Protects Us (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self and three allies",
       "type": "feature",
       "usage": "Maneuver"

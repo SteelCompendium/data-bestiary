@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 3
           tier1: 9 damage
           tier2: 14 damage
-          tier3: 17 damage; prone
+          tier3: 17 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -18,8 +18,7 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: 1 x 2 line within 1
+    - distance: 1 x 2 line within 1
       effects:
         - roll: Power Roll + 3
           tier1: 6 damage
@@ -31,7 +30,7 @@ features:
         - Area
         - Charge
         - Weapon
-      name: Thunder Rush
+      name: Thunder Rush (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each enemy or object in the area
       type: feature
       usage: Main action
@@ -42,7 +41,7 @@ features:
       name: Wide Guard
       type: feature
     - effects:
-        - effect: When the grandguard is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the grandguard takes 3 fire damage.
+        - effect: When the grandguard is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the grandguard takes 3 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Infernal Ichor

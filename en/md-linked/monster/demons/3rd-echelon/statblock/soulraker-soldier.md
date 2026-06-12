@@ -45,4 +45,4 @@ with_captain: Gain an edge on strikes
 
 > ⭐️ **Abyssal Buzzing**
 >
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
+> Any enemy who starts their turn with two or more soulraker [minions](../../../../rule/organization/minion.md) [adjacent](../../../../rule/combat/adjacent.md) to them takes 3 sonic damage.

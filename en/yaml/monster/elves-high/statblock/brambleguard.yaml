@@ -18,8 +18,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 4 damage
-          tier2: 7 damage; push 3
-          tier3: 10 damage; push 3; A < 2 bleeding (save ends)
+          tier2: 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:

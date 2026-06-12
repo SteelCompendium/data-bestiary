@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "7 poison damage",
           "tier2": "11 poison damage",
-          "tier3": "14 poison damage; M \u003c 2 weakened (save ends)"
+          "tier3": "14 poison damage; M \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -48,11 +48,10 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The spider shifts up to their speed and uses Leg Blade against each creature who comes adjacent to them during the shift. The spider makes one power roll against all targets."
+          "effect": "**Effect:** The spider [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets."
         }
       ],
       "feature_type": "ability",
@@ -60,7 +59,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Trample",
+      "name": "Trample (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Main action"
@@ -70,9 +69,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "A \u003c 0 restrained (save ends)",
-          "tier2": "A \u003c 1 restrained (save ends)",
-          "tier3": "A \u003c 2 restrained (save ends)"
+          "tier1": "A \u003c 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "A \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "A \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -90,7 +89,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The spider or any ally riding the spider takes damage.\n**Effect:** The damage is halved, and the spider shifts up to 2 squares after the triggering effect resolves."
+          "effect": "**Trigger:** The spider or any ally riding the spider takes damage.\n**Effect:** The damage is halved, and the spider [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves."
         }
       ],
       "feature_type": "ability",

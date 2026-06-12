@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "7 damage",
           "tier2": "9 damage",
-          "tier3": "11 damage; grabbed, and the target takes a bane on the Escape Grab maneuver"
+          "tier3": "11 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed), and the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver"
         }
       ],
       "feature_type": "ability",
@@ -26,14 +26,13 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "3 burst",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "4 psychic damage; I \u003c 1 dazed (save ends)",
-          "tier2": "6 psychic damage; I \u003c 2 dazed (save ends)",
-          "tier3": "8 psychic damage; I \u003c 3 dazed (save ends)"
+          "tier1": "4 psychic damage; I \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "6 psychic damage; I \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "8 psychic damage; I \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -42,7 +41,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Agony Wail",
+      "name": "Agony Wail (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"
@@ -50,7 +49,7 @@
     {
       "effects": [
         {
-          "effect": "While the tormenauk is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the tormenauk is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

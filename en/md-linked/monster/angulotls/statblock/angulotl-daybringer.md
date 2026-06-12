@@ -37,13 +37,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 acid damage; A < 1 dazed (save ends)
-> - **12-16:** 10 acid damage; A < 2 dazed (save ends)
-> - **17+:** 13 acid damage; A < 3 dazed (save ends)
+> - **≤11:** 7 acid damage; A < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 10 acid damage; A < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 13 acid damage; A < 3 [dazed](../../../condition/dazed.md) (save ends)
 >
 > **Effect:** The next time the target makes a strike against the daybringer, the target takes 4 acid damage after the strike is resolved.
 >
-> **1 Malice:** The daybringer jumps up to 3 squares before or after using this ability.
+> **1 [Malice](../../../rule/monster/malice.md):** The daybringer jumps up to 3 squares before or after using this ability.
 
 > 👤 **Sun Lamp**
 >
@@ -51,7 +51,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 Stamina and gains a +3 bonus to speed until the end of their turn.
+> **Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 [Stamina](../../../rule/health/stamina.md) and gains a +3 bonus to speed until the end of their turn.
 
 > ❗️ **Tongue Slap**
 >
@@ -63,11 +63,11 @@ type: statblock
 >
 > **Effect:** The outcome of the strike's power roll is reduced by one tier.
 >
-> **2 Malice:** The target is pulled up to 4 squares after the strike resolves.
+> **2 [Malice](../../../rule/monster/malice.md):** The target is [pulled](../../../movement/forced-movement.md) up to 4 squares after the strike resolves.
 
 > ⭐️ **Moisturizing End Effect**
 >
-> At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ☠️ **New Dawn (Villain Action 1)**
 >
@@ -83,7 +83,7 @@ type: statblock
 > |----------------|--------------------------------------:|
 > | **📏 8 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target can jump up to 4 squares. Each non-minion target can make a free strike at the end of the jump.
+> **Effect:** Each target can jump up to 4 squares. Each non-[minion](../../../rule/organization/minion.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md) at the end of the jump.
 
 > ☠️ **It Is Day (Villain Action 3)**
 >
@@ -91,8 +91,8 @@ type: statblock
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an edge. Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike.
+> **Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](../../../rule/dice/edge.md). Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike.
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy grabs the daybringer or uses a melee ability against them, that enemy takes 3 poison damage.
+> Whenever an adjacent enemy [grabs](../../../feature/common/maneuvers/grab.md) the daybringer or uses a melee ability against them, that enemy takes 3 poison damage.

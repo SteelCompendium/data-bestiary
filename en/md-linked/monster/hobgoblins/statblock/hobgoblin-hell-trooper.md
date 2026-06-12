@@ -55,4 +55,4 @@ type: statblock
 
 > ⭐️ **Infernal Ichor**
 >
-> When the trooper is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the trooper takes 3 fire damage.
+> When the trooper is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the trooper takes 3 fire damage.

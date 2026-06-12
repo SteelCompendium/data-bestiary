@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; push 1",
-          "tier2": "11 damage; one target is pushed up to 2 squares; the other target is vertical pushed up to 2 squares",
-          "tier3": "14 damage; one target is pushed up to 2 squares and knocked prone; the other target is vertical pushed up to 3 squares"
+          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "11 damage; one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares; the other target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares",
+          "tier3": "14 damage; one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares and knocked [prone](scc:mcdm.heroes.v1/condition/prone); the other target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares"
         }
       ],
       "feature_type": "ability",
@@ -26,11 +26,10 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The griffon shifts up to their speed along the ground in straight line. Each enemy who comes adjacent to the griffon during this shift can choose to either take 5 damage or be knocked prone."
+          "effect": "**Effect:** The griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed along the ground in straight line. Each enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -38,20 +37,19 @@
       "keywords": [
         "-"
       ],
-      "name": "Bound Ahead",
+      "name": "Bound Ahead (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "5 x 3 line within 1",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "Push 2; M \u003c 0 the forced movement is vertical",
-          "tier2": "Push 4; M \u003c 1 the forced movement is vertical",
-          "tier3": "Push 6; M \u003c 2 the forced movement is vertical"
+          "tier1": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical",
+          "tier2": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 1 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical",
+          "tier3": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 6; M \u003c 2 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical"
         }
       ],
       "feature_type": "ability",
@@ -59,7 +57,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Power Wing Buffet",
+      "name": "Power Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each creature or object in the area",
       "type": "feature",
       "usage": "Maneuver"
@@ -68,7 +66,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** The griffon flies directly above a creature within distance.\n**Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A \u003c 2, they are grabbed or knocked prone."
+          "effect": "**Trigger:** The griffon flies directly above a creature within distance.\n**Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A \u003c 2, they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -84,7 +82,7 @@
     {
       "effects": [
         {
-          "effect": "While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver."
+          "effect": "While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver."
         }
       ],
       "feature_type": "trait",
@@ -95,7 +93,7 @@
     {
       "effects": [
         {
-          "effect": "Any power roll that could knock the griffon prone takes a bane."
+          "effect": "Any power roll that could knock the griffon [prone](scc:mcdm.heroes.v1/condition/prone) takes a bane."
         }
       ],
       "feature_type": "trait",

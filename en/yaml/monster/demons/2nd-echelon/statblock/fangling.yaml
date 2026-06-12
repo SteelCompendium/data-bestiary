@@ -18,30 +18,29 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 2 Malice
-      distance: 8 x 3 line within 1
+    - distance: 8 x 3 line within 1
       effects:
         - roll: Power Roll + 2
-          tier1: 2 damage; pull 1; A < 1 bleeding (save ends)
-          tier2: 3 damage; pull 1; A < 2 bleeding (save ends)
-          tier3: 4 damage; pull 1; A < 3 bleeding (save ends)
+          tier1: 2 damage; pull 1; A < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 3 damage; pull 1; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 4 damage; pull 1; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
         - Area
         - Weapon
-      name: Tumbling Gore
+      name: Tumbling Gore (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each enemy in the area
       type: feature
       usage: Maneuver
     - effects:
-        - effect: Whenever an adjacent enemy grabs the fangling or uses a melee ability against the fangling, they take 2 damage.
+        - effect: Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the fangling or uses a melee ability against the fangling, they take 2 damage.
       feature_type: trait
       icon: ⭐️
       name: Made of Teeth
       type: feature
     - effects:
-        - effect: While the fangling is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+        - effect: While the fangling is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

@@ -18,19 +18,18 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: 2 burst
+    - distance: 2 burst
       effects:
         - roll: Power Roll + 3
           tier1: The target regains 6 Stamina.
           tier2: The target regains 9 Stamina.
-          tier3: The target regains 12 Stamina and the Director gains 3 Malice.
+          tier3: The target regains 12 Stamina and the Director gains 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
         - Magic
-      name: Mourning Till Dusk
+      name: Mourning Till Dusk (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each ally in the area
       type: feature
       usage: Main action

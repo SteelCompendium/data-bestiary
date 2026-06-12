@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 3
-          tier1: 8 damage; M < 1 restrained (save ends)
-          tier2: 12 damage; M < 2 restrained (save ends)
-          tier3: 15 damage; M < 3 restrained (save ends)
+          tier1: 8 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 12 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 15 damage; M < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -19,15 +19,14 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - cost: 5 Malice
-      distance: 10 burst
+    - distance: 10 burst
       effects:
-        - effect: '**Effect:** Each non-minion target can make a free strike, then each target shifts up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader''s turn.'
+        - effect: '**Effect:** Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), then each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader''s turn.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Fairness Is a Human Concept
+      name: Fairness Is a Human Concept (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each ally in the area
       type: feature
       usage: Maneuver
@@ -35,7 +34,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** An ally ends their turn.
-            **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are bleeding and take a bane on strikes until the end of their turn.
+            **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and take a bane on strikes until the end of their turn.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -77,7 +76,7 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** The warleader can use Wodeblade. Each target can then make a free strike.'
+        - effect: '**Effect:** The warleader can use Wodeblade. Each target can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
       feature_type: ability
       icon: ☠️
       keywords:

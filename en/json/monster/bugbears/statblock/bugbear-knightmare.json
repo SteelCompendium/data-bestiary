@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "3 corruption damage",
-          "tier2": "6 corruption damage; P \u003c 3 bleeding (save ends)",
-          "tier3": "8 corruption damage; grabbed; P \u003c 4 bleeding (save ends)"
+          "tier2": "6 corruption damage; P \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "8 corruption damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed); P \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",

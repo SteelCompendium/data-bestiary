@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 5 damage
-          tier2: 7 damage; I < 1 restrained (save ends)
-          tier3: 9 damage; I < 2 restrained (save ends)
+          tier2: 7 damage; I < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 9 damage; I < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -18,20 +18,19 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: Ranged 10
+    - distance: Ranged 10
       effects:
         - roll: Power Roll + 2
           tier1: 2 damage
-          tier2: 4 damage; P < 1 weakened (save ends)
-          tier3: 6 damage; P < 1 bleeding (save ends); the target has a double bane on strikes (save ends)
+          tier2: 4 damage; P < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 6 damage; P < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); the target has a double bane on strikes (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
         - Magic
         - Ranged
         - Strike
-      name: The Natural Cycle
+      name: The Natural Cycle (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Two creatures
       type: feature
       usage: Maneuver
@@ -39,7 +38,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature uses a triggered action targeting the green seer or an ally within distance.
-            **Effect:** The green seer makes a free strike against the target after the target's triggered action is resolved.
+            **Effect:** The green seer makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target after the target's triggered action is resolved.
       feature_type: ability
       icon: ❗️
       keywords:

@@ -41,11 +41,11 @@ type: statblock
 >
 > - **≤11:** 9 damage
 > - **12-16:** 14 damage
-> - **17+:** 17 damage; prone
+> - **17+:** 17 damage; [prone](../../../condition/prone.md)
 >
-> **3 Malice:** Each ally adjacent to a prone target can make a free strike against that target.
+> **3 [Malice](../../../rule/monster/malice.md):** Each ally [adjacent](../../../rule/combat/adjacent.md) to a [prone](../../../condition/prone.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.
 
-> 🔳 **Thunder Rush (3 Malice)**
+> 🔳 **Thunder Rush (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Charge, Weapon**   |                         **Main action** |
 > |----------------------------|----------------------------------------:|
@@ -57,7 +57,7 @@ type: statblock
 > - **12-16:** 11 damage
 > - **17+:** 14 damage
 >
-> **Effect:** Each target is pushed up to 10 squares in the same direction, and the grandguard shifts into the area left behind by the targets.
+> **Effect:** Each target is [pushed](../../../movement/forced-movement.md) up to 10 squares in the same direction, and the grandguard [shifts](../../../movement/shifting.md) into the area left behind by the targets.
 
 > ⭐️ **Wide Guard**
 >
@@ -65,4 +65,4 @@ type: statblock
 
 > ⭐️ **Infernal Ichor**
 >
-> When the grandguard is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the grandguard takes 3 fire damage.
+> When the grandguard is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the grandguard takes 3 fire damage.

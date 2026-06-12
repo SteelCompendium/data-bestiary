@@ -41,9 +41,9 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 poison damage
-> - **12-16:** 6 poison damage; the scout can shift 1 square
-> - **17+:** 7 poison damage; the scout shifts up to 3 squares
+> - **12-16:** 6 poison damage; the scout can [shift](../../../../movement/shifting.md) 1 square
+> - **17+:** 7 poison damage; the scout [shifts](../../../../movement/shifting.md) up to 3 squares
 
 > ⭐️ **Abyssal Buzzing**
 >
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
+> Any enemy who starts their turn with two or more soulraker [minions](../../../../rule/organization/minion.md) [adjacent](../../../../rule/combat/adjacent.md) to them takes 3 sonic damage.

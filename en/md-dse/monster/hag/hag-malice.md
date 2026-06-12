@@ -9,13 +9,13 @@ source: mcdm.monsters.v1
 type: featureblock
 ---
 
-At the start of a hag's turn, you can spend Malice to activate one of the following features.
+At the start of a hag's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-❇️ **Casting Curses and Bodies (3 Malice)**
+❇️ **Casting Curses and Bodies (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 
-The hag utters terrible words that push each enemy within 2 squares of them up to 3 squares.
+The hag utters terrible words that [push](scc:mcdm.heroes.v1/movement/forced-movement) each enemy within 2 squares of them up to 3 squares.
 
-> 🔳 **Hag Wyrd (5 Malice)**
+> 🔳 **Hag Wyrd (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**             |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -23,19 +23,19 @@ The hag utters terrible words that push each enemy within 2 squares of them up t
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 fire damage; R < 1 frightened (save ends)
-> - **12-16:** 8 fire damage; R < 2 frightened (save ends)
-> - **17+:** 11 fire damage; R < 3 frightened (save ends)
+> - **≤11:** 5 fire damage; R < 1 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** 8 fire damage; R < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 11 fire damage; R < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 >
-> **Effect:** After making the power roll, the hag can choose to replace the damage type and condition with lightning damage and dazed, or cold damage and slowed.
+> **Effect:** After making the power roll, the hag can choose to replace the damage type and condition with lightning damage and [dazed](scc:mcdm.heroes.v1/condition/dazed), or cold damage and [slowed](scc:mcdm.heroes.v1/condition/slowed).
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The hag takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The hag takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
-> 🌀 **House Call (10 Malice)**
+> 🌀 **House Call (10 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 Stamina and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 Stamina. In addition to its move action, the house can take only the following main action.
+> The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). In addition to its move action, the house can take only the following main action.
 
 > 🔳 **Kick (Signature Ability)**
 >
@@ -45,6 +45,6 @@ The hag utters terrible words that push each enemy within 2 squares of them up t
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; push 3; M < 1 prone
-> - **12-16:** 10 damage; push 4; M < 2 prone
-> - **17+:** 13 damage; push 5; M < 3 prone
+> - **≤11:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)

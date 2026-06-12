@@ -29,11 +29,11 @@ type: statblock
 
 > ☠️ **Ajax**
 >
-> **Ajax Turns:** Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed.
+> **Ajax Turns:** Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three [triggered actions](../../../rule/combat/triggered-action.md) in a round while he isn't [dazed](../../../condition/dazed.md).
 >
-> **End Effect:** At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> 🗡 **Blade of the Gol King (Signature Ability)**
+> 🗡 **Blade of the Gol King ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Magic, Melee, Strike, Weapon** |                 **Main Action** |
 > |------------------------------------------|--------------------------------:|
@@ -41,13 +41,13 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 16 damage; M < 4 the target loses 1d3 Recoveries
-> - **12-16:** 22 damage; M < 5 the target loses 1d3 Recoveries
-> - **17+:** 26 damage; M < 6 prone and the target loses 1d3 Recoveries
+> - **≤11:** 16 damage; M < 4 the target loses 1d3 [Recoveries](../../../rule/health/recoveries.md)
+> - **12-16:** 22 damage; M < 5 the target loses 1d3 [Recoveries](../../../rule/health/recoveries.md)
+> - **17+:** 26 damage; M < 6 [prone](../../../condition/prone.md) and the target loses 1d3 [Recoveries](../../../rule/health/recoveries.md)
 >
-> **Effect:** Ajax shifts up to 2 squares between striking each target.
+> **Effect:** Ajax [shifts](../../../movement/shifting.md) up to 2 squares between striking each target.
 >
-> **1+ Malice:** Ajax can strike one additional target for each Malice spent.
+> **1+ [Malice](../../../rule/monster/malice.md):** Ajax can strike one additional target for each [Malice](../../../rule/monster/malice.md) spent.
 
 > 🔳 **Decree by the Jade Hand**
 >
@@ -57,13 +57,13 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 11 holy damage; slide 2; P < 4 the target is hexed (save ends)
-> - **12-16:** 17 holy damage; slide 5; P < 5 the target is hexed (save ends)
-> - **17+:** 21 holy damage; slide 8; P < 6 the target is hexed (save ends)
+> - **≤11:** 11 holy damage; [slide](../../../movement/forced-movement.md) 2; P < 4 the target is hexed (save ends)
+> - **12-16:** 17 holy damage; [slide](../../../movement/forced-movement.md) 5; P < 5 the target is hexed (save ends)
+> - **17+:** 21 holy damage; [slide](../../../movement/forced-movement.md) 8; P < 6 the target is hexed (save ends)
 >
 > **Effect:** A hexed target glows green, and each of their heroic abilities has its cost increased by 2.
 >
-> **3 Malice:** The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is difficult terrain. Each flying target who has M < 5 is knocked prone.
+> **3 [Malice](../../../rule/monster/malice.md):** The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is [difficult terrain](../../../movement/difficult-terrain.md). Each flying target who has M < 5 is knocked [prone](../../../condition/prone.md).
 
 > 🏹 **Divine Vine**
 >
@@ -74,10 +74,10 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** No effect.
-> - **12-16:** The target is grabbed.
-> - **17+:** 11 damage; the target is grabbed.
+> - **12-16:** The target is [grabbed](../../../condition/grabbed.md).
+> - **17+:** 11 damage; the target is [grabbed](../../../condition/grabbed.md).
 >
-> **Effect:** If the target is grabbed, Ajax can choose to keep the vine extended, pull the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a grabbed target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).
+> **Effect:** If the target is [grabbed](../../../condition/grabbed.md), Ajax can choose to keep the vine extended, [pull](../../../movement/forced-movement.md) the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a [grabbed](../../../condition/grabbed.md) target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).
 >
 > **Special:** This ability can be replaced with the features of a different treasure Ajax has acquired.
 
@@ -87,11 +87,11 @@ type: statblock
 > |-------------------------|----------------:|
 > | **📏 5 cube within 20** |  **🎯 Special** |
 >
-> **Effect:** Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are dazed (save ends). Any enemy who starts their turn in the area takes 10 fire damage.
+> **Effect:** Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are [dazed](../../../condition/dazed.md) (save ends). Any enemy who starts their turn in the area takes 10 fire damage.
 
 > ⭐️ **I'm Not Done Yet.**
 >
-> Ajax dies only when his Stamina reaches −350. While his Stamina is below 0, Ajax is bleeding, he can choose any two options from his Tactical Stance trait each round, and the Director gains 2 additional Malice per round.
+> Ajax dies only when his [Stamina](../../../rule/health/stamina.md) reaches −350. While his [Stamina](../../../rule/health/stamina.md) is below 0, Ajax is [bleeding](../../../condition/bleeding.md), he can choose any two options from his Tactical Stance trait each round, and the Director gains 2 additional [Malice](../../../rule/monster/malice.md) per round.
 
 > ❗️ **Is This What They Taught You?**
 >
@@ -101,7 +101,7 @@ type: statblock
 >
 > **Trigger:** A creature within distance marks Ajax.
 >
-> **Effect:** The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an edge on power rolls against them, and whenever the target uses a triggered action involving their mark on Ajax, he can make a free strike against them.
+> **Effect:** The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an [edge](../../../rule/dice/edge.md) on power rolls against them, and whenever the target uses a [triggered action](../../../rule/combat/triggered-action.md) involving their mark on Ajax, he can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
 
 > ❗️ **Shieldbreaker Talisman**
 >
@@ -111,7 +111,7 @@ type: statblock
 >
 > **Trigger:** An enemy within distance uses an ability to reduce damage.
 >
-> **Effect:** Ajax makes a free strike against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.
+> **Effect:** Ajax makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.
 
 > ❗️ **Who's Hesitating?**
 >
@@ -121,7 +121,7 @@ type: statblock
 >
 > **Trigger:** A creature uses the Hesitation is Weakness ability.
 >
-> **Effect:** Ajax shifts up to his speed and can make a free strike. If the target has R < 4, this free strike also makes them weakened until the end of their next turn.
+> **Effect:** Ajax [shifts](../../../movement/shifting.md) up to his speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). If the target has R < 4, this free strike also makes them [weakened](../../../condition/weakened.md) until the end of their next turn.
 
 > ❗️ **Your Obsession With Me Betrays You**
 >
@@ -131,7 +131,7 @@ type: statblock
 >
 > **Trigger:** Ajax causes a creature within distance to gain ferocity or wrath.
 >
-> **Effect:** If the target has I < 4, they use a signature ability against a target of Ajax's choice.
+> **Effect:** If the target has I < 4, they use a [signature ability](../../../rule/combat/signature-ability.md) against a target of Ajax's choice.
 
 > ❗️ **You Would Flounder Your Assault? (2 Malice)**
 >
@@ -139,9 +139,9 @@ type: statblock
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** A creature within 10 squares regains Stamina.
+> **Trigger:** A creature within 10 squares regains [Stamina](../../../rule/health/stamina.md).
 >
-> **Effect:** Ajax regains the same amount of Stamina.
+> **Effect:** Ajax regains the same amount of [Stamina](../../../rule/health/stamina.md).
 
 > ☠️ **Phoenix Wing King (Villain Action 1)**
 >
@@ -151,11 +151,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 11 fire damage; A < 4 weakened (save ends)
-> - **12-16:** 17 fire damage; A < 5 weakened (save ends)
-> - **17+:** 21 fire damage; A < 6 weakened (save ends)
+> - **≤11:** 11 fire damage; A < 4 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 17 fire damage; A < 5 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 21 fire damage; A < 6 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **Effect:** Ajax flies at high speed to cut through each target, then appears in an unoccupied space within distance.
+> **Effect:** Ajax [flies](../../../movement/fly.md) at high speed to cut through each target, then appears in an unoccupied space within distance.
 
 > ☠️ **I've Learned Their Tricks (Villain Action 2)**
 >
@@ -163,7 +163,7 @@ type: statblock
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Ajax uses the shadow elf eclipse's technique to reduce each target's surges to 0. Additionally, until the end of the round, Ajax ignores edges and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.
+> **Effect:** Ajax uses the shadow elf eclipse's technique to reduce each target's [surges](../../../rule/resource/surge.md) to 0. Additionally, until the end of the round, Ajax ignores [edges](../../../rule/dice/edge.md) and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.
 >
 > **Special:** This villain action can be replaced with a villain action from a creature any target has previously encountered.
 
@@ -173,4 +173,4 @@ type: statblock
 > |------------------|------------------------------:|
 > | **📏 7 burst**   | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target who has I < 5 is knocked prone and can't stand until Ajax deals damage to them. For each target not knocked prone, Ajax can move up to his speed toward that target and use Blade of the Gol King against them.
+> **Effect:** Each target who has I < 5 is knocked [prone](../../../condition/prone.md) and can't stand until Ajax deals damage to them. For each target not knocked [prone](../../../condition/prone.md), Ajax can move up to his speed toward that target and use Blade of the Gol King against them.

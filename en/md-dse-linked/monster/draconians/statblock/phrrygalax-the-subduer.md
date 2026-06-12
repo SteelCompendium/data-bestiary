@@ -45,10 +45,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 16 damage; M < 1 bleeding (save ends)
-> - **17+:** 19 damage; M < 2 3 damage, bleeding (save ends)
+> - **12-16:** 16 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 19 damage; M < 2 3 damage, [bleeding](../../../condition/bleeding.md) (save ends)
 
-> ❇️ **Spinning Spit (2 Malice)**
+> ❇️ **Spinning Spit (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -66,9 +66,9 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Phrrygalax flies up to his speed and lands in an unoccupied space on the ground. Each creature adjacent to where he lands who has A < 2 is knocked prone.
+> **Effect:** Phrrygalax [flies](../../../movement/fly.md) up to his speed and lands in an unoccupied space on the ground. Each creature [adjacent](../../../rule/combat/adjacent.md) to where he lands who has A < 2 is knocked [prone](../../../condition/prone.md).
 
-> ❗️ **Armor of the Ancients (2 Malice)**
+> ❗️ **Armor of the Ancients (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -76,7 +76,7 @@ type: statblock
 >
 > **Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
 >
-> **Effect:** Phrrygalax takes no damage and instead regains the same amount of Stamina. He then swaps his current damage immunity with the triggering damage type.
+> **Effect:** Phrrygalax takes no damage and instead regains the same amount of [Stamina](../../../rule/health/stamina.md). He then swaps his current damage immunity with the triggering damage type.
 
 > ❗️ **Still Your Tongue!**
 >
@@ -86,7 +86,7 @@ type: statblock
 >
 > **Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.
 >
-> **Effect:** Phrrygalax shifts up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
+> **Effect:** Phrrygalax [shifts](../../../movement/shifting.md) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
 
 > ⭐️ **Oathbreaker's Vengeance**
 >

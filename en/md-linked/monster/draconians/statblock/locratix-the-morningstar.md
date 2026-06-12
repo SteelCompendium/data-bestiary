@@ -40,12 +40,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 1 slowed (save ends)
-> - **17+:** 18 damage; M < 2 slowed (save ends)
+> - **12-16:** 15 damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 18 damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
 > **Effect:** Locratix deals 6 damage to each creature or object in a 2 x 1 line behind the target.
 
-> 🔳 **Acidic Stun (2 Malice)**
+> 🔳 **Acidic Stun (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic**            |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -53,11 +53,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 acid damage; M < 1 dazed (save ends)
-> - **12-16:** 12 acid damage; M < 2 dazed (save ends)
-> - **17+:** 15 acid damage; M < 3 dazed (save ends)
+> - **≤11:** 7 acid damage; M < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 12 acid damage; M < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 15 acid damage; M < 3 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** While dazed this way, a target takes an extra 6 damage from Locratix's abilities.
+> **Effect:** While [dazed](../../../condition/dazed.md) this way, a target takes an extra 6 damage from Locratix's abilities.
 
 > 👤 **Takeoff**
 >
@@ -65,7 +65,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Locratix flies up to her speed. Any creature adjacent to the space on the ground she took off from who has A < 2 is knocked prone.
+> **Effect:** Locratix [flies](../../../movement/fly.md) up to her speed. Any creature [adjacent](../../../rule/combat/adjacent.md) to the space on the ground she took off from who has A < 2 is knocked [prone](../../../condition/prone.md).
 
 > ❗️ **Stay Back!**
 >
@@ -73,7 +73,7 @@ type: statblock
 > |----------------|-------------------------------:|
 > | **📏 Melee 2** | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature within distance moves or is forced moved.
+> **Trigger:** A creature within distance moves or is [force moved](../../../movement/forced-movement.md).
 >
 > **Power Roll + 3:**
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > ⭐️ **Flighty**
 >
-> When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their triggered actions until the start of Locratix's next turn.
+> When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their [triggered actions](../../../rule/combat/triggered-action.md) until the start of Locratix's next turn.
 
 > ⭐️ **Absorbing Scales**
 >

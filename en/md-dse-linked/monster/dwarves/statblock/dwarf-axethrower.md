@@ -43,6 +43,6 @@ with_captain: +2 bonus to Stamina
 >
 > - **≤11:** 1 damage
 > - **12-16:** 2 damage
-> - **17+:** 3 damage; one ally adjacent to the target can make a free strike
+> - **17+:** 3 damage; one ally [adjacent](../../../rule/combat/adjacent.md) to the target can make a [free strike](../../../feature/common/main-actions/free-strike.md)
 >
 > **Effect:** The target can't use triggered actions until the start of the next round.

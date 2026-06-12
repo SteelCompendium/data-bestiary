@@ -45,7 +45,7 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 
-> 🗡 **Bury the Point (2 Malice)**
+> 🗡 **Bury the Point (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -53,10 +53,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; M < 0 bleeding (save ends)
-> - **12-16:** 6 damage; M < 1 bleeding (save ends)
-> - **17+:** 7 damage; M < 2 bleeding (save ends)
+> - **≤11:** 5 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 6 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 7 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 
 > ⭐️ **Crafty**
 >
-> The warrior doesn't provoke opportunity attacks by moving.
+> The warrior doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.

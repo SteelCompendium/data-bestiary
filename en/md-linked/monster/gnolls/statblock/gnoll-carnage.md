@@ -34,13 +34,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; A < 1 bleeding (save ends)
-> - **12-16:** 11 damage; A < 2 bleeding (save ends)
-> - **17+:** 14 damage; A < 3 bleeding and dazed (save ends)
+> - **≤11:** 8 damage; A < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 11 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 14 damage; A < 3 [bleeding](../../../condition/bleeding.md) and [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** An ally targeted by this ability ignores the damage and can make a free strike.
+> **Effect:** An ally targeted by this ability ignores the damage and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
-> ❇️ **Carnage's Cackletongue (4 Malice)**
+> ❇️ **Carnage's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |                          **Maneuver** |
 > |----------------|--------------------------------------:|
@@ -50,17 +50,17 @@ type: statblock
 
 > ⭐️ **Death Rampage**
 >
-> Whenever a non-minion ally within 5 squares of the carnage is reduced to 0 Stamina, the carnage can move up to their speed, then can either make a melee free strike against two creatures or use Shrapnel Whip against one creature.
+> Whenever a non-[minion](../../../rule/organization/minion.md) ally within 5 squares of the carnage is reduced to 0 [Stamina](../../../rule/health/stamina.md), the carnage can move up to their speed, then can either make a melee [free strike](../../../feature/common/main-actions/free-strike.md) against two creatures or use Shrapnel Whip against one creature.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../../../rule/monster/end-effect.md)**
 >
 > At the end of each of their turns, the carnage can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
 > ⭐️ **Endless Hunger**
 >
-> If the carnage is reduced to 0 Stamina while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current Stamina.
+> If the carnage is reduced to 0 [Stamina](../../../rule/health/stamina.md) while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current [Stamina](../../../rule/health/stamina.md).
 
-> ☠️ **Call Up From the Abyss (Villain Action 1)**
+> ☠️ **Call Up From the Abyss ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Magic, Ranged** |          **-** |
 > |-------------------|---------------:|
@@ -68,24 +68,24 @@ type: statblock
 >
 > **Effect:** The carnage summons four abyssal hyenas into unoccupied spaces within distance.
 
-> ☠️ **Edacity (Villain Action 2)**
+> ☠️ **Edacity ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Self and three allies** |
 >
-> **Effect:** Each target moves up to their speed and can make a free strike. Any creature damaged by one of these free strikes who has M < 2 is knocked prone.
+> **Effect:** Each target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Any creature damaged by one of these [free strikes](../../../feature/common/main-actions/free-strike.md) who has M < 2 is knocked [prone](../../../condition/prone.md).
 
-> ☠️ **Deepest Wounds (Villain Action 3)**
+> ☠️ **Deepest Wounds ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                                **-** |
 > |-----------------|-------------------------------------:|
-> | **📏 5 burst**  | **🎯 Each winded enemy in the area** |
+> | **📏 5 burst**  | **🎯 Each [winded](../../../rule/health/winded.md) enemy in the area** |
 >
 > **Effect:** The carnage's eyes and all exposed blood within distance glow bright red. Each target makes a **Presence test**.
 >
-> - **≤11:** The target can't regain Stamina until the end of the encounter.
-> - **12-16:** The target can't regain Stamina (save ends).
+> - **≤11:** The target can't regain [Stamina](../../../rule/health/stamina.md) until the end of the encounter.
+> - **12-16:** The target can't regain [Stamina](../../../rule/health/stamina.md) (save ends).
 > - **17+:** No effect
 >
-> **Effect:** Until the end of the encounter, all gnolls have a double edge on power rolls that target a winded enemy.
+> **Effect:** Until the end of the encounter, all gnolls have a double edge on power rolls that target a [winded](../../../rule/health/winded.md) enemy.

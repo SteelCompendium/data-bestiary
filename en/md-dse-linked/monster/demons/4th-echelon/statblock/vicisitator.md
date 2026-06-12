@@ -44,11 +44,11 @@ weaknesses:
 >
 > - **≤11:** 9 damage
 > - **12-16:** 12 damage
-> - **17+:** 14 damage; I < 5 the target is slowed and weakened (save ends)
+> - **17+:** 14 damage; I < 5 the target is [slowed](../../../../condition/slowed.md) and [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **Special:** The effects of being slowed and weakened this way can't be ignored.
+> **Special:** The effects of being [slowed](../../../../condition/slowed.md) and [weakened](../../../../condition/weakened.md) this way can't be ignored.
 
-> 🔳 **Soul Flay (5 Malice)**
+> 🔳 **Soul Flay (5 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area**                   |                  **Maneuver** |
 > |----------------------------|------------------------------:|                  
@@ -56,15 +56,15 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 4 psychic damage; P < 3 bleeding (save ends)
-> - **12-16:** 7 psychic damage; P < 4 bleeding (save ends)
-> - **17+:** 9 psychic damage; P < 5 bleeding (save ends)
+> - **≤11:** 4 psychic damage; P < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 7 psychic damage; P < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 9 psychic damage; P < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** Any creature who is bleeding from this ability loses 2d6 Stamina instead of 1d6.
+> **Effect:** Any creature who is [bleeding](../../../../condition/bleeding.md) from this ability loses 2d6 [Stamina](../../../../rule/health/stamina.md) instead of 1d6.
 
 > ⭐️ **Lethe**
 >
-> While the vicisitator is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the vicisitator is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

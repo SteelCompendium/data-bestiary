@@ -53,11 +53,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; M < 0 bleeding (save ends)
-> - **12-16:** 3 damage; M < 1 bleeding (save ends)
-> - **17+:** 4 damage; M < 2 bleeding (save ends)
+> - **≤11:** 2 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 3 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 4 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 
-> 🏹 **Twist Shape (5 Malice)**
+> 🏹 **Twist Shape (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged, Strike** |     **Main Action** |
 > |---------------------------|--------------------:|
@@ -65,11 +65,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 corruption damage; P < 0 slowed (save ends)
+> - **≤11:** 5 corruption damage; P < 0 [slowed](../../../condition/slowed.md) (save ends)
 > - **12-16:** 8 corruption damage; P < 1 the target is shapechanged (save ends)
 > - **17+:** 11 corruption damage; P < 2 the target is shapechanged (save ends)
 >
-> **Effect:** A shapechanged creature is slowed and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.
+> **Effect:** A shapechanged creature is [slowed](../../../condition/slowed.md) and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.
 
 > 🗡 **Throw**
 >
@@ -77,9 +77,9 @@ type: statblock
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the channeler.
+> **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the channeler.
 >
-> **Effect:** The target is vertical pushed up to 3 squares. An ally doesn't take damage from being force moved this way.
+> **Effect:** The target is vertical [pushed](../../../movement/forced-movement.md) up to 3 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
 
 > ❗️ **Catcher**
 >
@@ -87,9 +87,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is grabbed by the channeler.
+> **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the channeler.
 
 > ❗️ **Shadow Veil**
 >

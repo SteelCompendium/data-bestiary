@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "1 damage",
           "tier2": "2 damage",
-          "tier3": "3 damage; one ally adjacent to the target can make a free strike"
+          "tier3": "3 damage; one ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)"
         }
       ],
       "feature_type": "ability",

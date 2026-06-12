@@ -44,9 +44,9 @@ type: statblock
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 >
-> **Effect:** One ally within 10 squares of the monarch can make a free strike.
+> **Effect:** One ally within 10 squares of the monarch can make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
-> 🏹 **Get in Here! (1 Malice)**
+> 🏹 **Get in Here! (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
@@ -66,21 +66,21 @@ type: statblock
 
 > ⭐️ **Crafty**
 >
-> The monarch doesn't provoke opportunity attacks by moving.
+> The monarch doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../../../rule/monster/end-effect.md)**
 >
 > At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
-> ☠️ **What Are You Waiting For? (Villain Action 1)**
+> ☠️ **What Are You Waiting For? ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can move up to their speed or make a free strike.
+> **Effect:** Each target can move up to their speed or make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
-> ☠️ **Focus Fire (Villain Action 2)**
+> ☠️ **Focus Fire ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Ranged**       |                      **-** |
 > |------------------|---------------------------:|
@@ -88,10 +88,10 @@ type: statblock
 >
 > **Effect:** Each ally within 10 squares of the target can move up to their speed toward the target.
 
-> ☠️ **Kill! (Villain Action 3)**
+> ☠️ **Kill! ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **-**          |          **-** |
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** Each enemy in the encounter takes 2 damage for each goblin adjacent to them.
+> **Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](../../../rule/combat/adjacent.md) to them.

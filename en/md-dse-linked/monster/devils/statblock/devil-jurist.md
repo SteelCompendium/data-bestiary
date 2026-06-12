@@ -53,7 +53,7 @@ type: statblock
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 >
-> **1+ Malice:** The jurist can target one additional creature or object for each Malice spent.
+> **1+ [Malice](../../../rule/monster/malice.md):** The jurist can target one additional creature or object for each [Malice](../../../rule/monster/malice.md) spent.
 
 > ❇️ **Dismissal with Prejudice**
 >
@@ -67,7 +67,7 @@ type: statblock
 > - **12-16:** 10 damage; slide 3
 > - **17+:** 12 damage; slide 5
 >
-> **Effect:** If the target has M < 2, the forced distance movement gains a +3 bonus.
+> **Effect:** If the target has M < 2, the [forced](../../../movement/forced-movement.md) distance movement gains a +3 bonus.
 
 > 🏹 **Ashes to Ashes**
 >
@@ -77,7 +77,7 @@ type: statblock
 >
 > **Effect:** If the target is burning (see Fire and Brimstone), they take 6 fire damage.
 
-> ❗️ **Devilish Charm (2 Malice)**
+> ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -89,8 +89,8 @@ type: statblock
 >
 > - **≤11:** The jurist chooses a new target for the strike.
 > - **12-16:** The jurist halves the triggering damage.
-> - **17+:** The target takes a bane on the strike.
+> - **17+:** The target takes a [bane](../../../rule/dice/bane.md) on the strike.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter.
+> If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.

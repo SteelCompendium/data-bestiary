@@ -36,19 +36,19 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; one target is pushed up to 2 squares; the other target is vertical pushed up to 2 squares
-> - **17+:** 14 damage; one target is pushed up to 2 squares and knocked prone; the other target is vertical pushed up to 3 squares
+> - **≤11:** 7 damage; [push](../../../movement/forced-movement.md) 1
+> - **12-16:** 11 damage; one target is [pushed](../../../movement/forced-movement.md) up to 2 squares; the other target is vertical [pushed](../../../movement/forced-movement.md) up to 2 squares
+> - **17+:** 14 damage; one target is [pushed](../../../movement/forced-movement.md) up to 2 squares and knocked [prone](../../../condition/prone.md); the other target is vertical [pushed](../../../movement/forced-movement.md) up to 3 squares
 
-> 👤 **Bound Ahead (5 Malice)**
+> 👤 **Bound Ahead (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** The griffon shifts up to their speed along the ground in straight line. Each enemy who comes adjacent to the griffon during this shift can choose to either take 5 damage or be knocked prone.
+> **Effect:** The griffon [shifts](../../../movement/shifting.md) up to their speed along the ground in straight line. Each enemy who comes [adjacent](../../../rule/combat/adjacent.md) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](../../../condition/prone.md).
 
-> 🔳 **Power Wing Buffet (3 Malice)**
+> 🔳 **Power Wing Buffet (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**                   |                               **Maneuver** |
 > |----------------------------|-------------------------------------------:|
@@ -56,9 +56,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** Push 2; M < 0 the forced movement is vertical
-> - **12-16:** Push 4; M < 1 the forced movement is vertical
-> - **17+:** Push 6; M < 2 the forced movement is vertical
+> - **≤11:** [Push](../../../movement/forced-movement.md) 2; M < 0 the [forced movement](../../../movement/forced-movement.md) is vertical
+> - **12-16:** [Push](../../../movement/forced-movement.md) 4; M < 1 the [forced movement](../../../movement/forced-movement.md) is vertical
+> - **17+:** [Push](../../../movement/forced-movement.md) 6; M < 2 the [forced movement](../../../movement/forced-movement.md) is vertical
 
 > ❗️ **Circle and Strike**
 >
@@ -68,15 +68,15 @@ type: statblock
 >
 > **Trigger:** The griffon flies directly above a creature within distance.
 >
-> **Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are grabbed or knocked prone.
+> **Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are [grabbed](../../../condition/grabbed.md) or knocked [prone](../../../condition/prone.md).
 
 > ⭐️ **Beast of Prey**
 >
-> While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver.
+> While [grabbed](../../../condition/grabbed.md) by the griffon, a creature has a double bane on the Escape Grab maneuver.
 
 > ⭐️ **Steady**
 >
-> Any power roll that could knock the griffon prone takes a bane.
+> Any power roll that could knock the griffon [prone](../../../condition/prone.md) takes a bane.
 
 > ⭐️ **Banded Predator**
 >

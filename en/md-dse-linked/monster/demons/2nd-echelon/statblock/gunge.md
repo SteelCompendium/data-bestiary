@@ -42,13 +42,13 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 acid damage; M < 1 slowed (save ends)
-> - **12-16:** 7 acid damage; M < 2 slowed (save ends)
-> - **17+:** 9 acid damage; M < 3 restrained (save ends)
+> - **≤11:** 5 acid damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** 7 acid damage; M < 2 [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 9 acid damage; M < 3 [restrained](../../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area.
+> **Effect:** The ground and any surfaces in the area pool with slime. The slime is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies, and any enemy is [bleeding](../../../../condition/bleeding.md) while in the area.
 
-> ❗️ **Spew Slide (1 Malice)**
+> ❗️ **Spew Slide (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -56,11 +56,11 @@ weaknesses:
 >
 > **Trigger:** The gunge takes damage from a melee strike.
 >
-> **Effect:** The gunge vomits with great force, letting them shift up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is difficult terrain for enemies. Additionally, any enemy is bleeding while in the slime.
+> **Effect:** The gunge vomits with great force, letting them [shift](../../../../movement/shifting.md) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. Additionally, any enemy is [bleeding](../../../../condition/bleeding.md) while in the slime.
 
 > ⭐️ **Lethe**
 >
-> While the gunge is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the gunge is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

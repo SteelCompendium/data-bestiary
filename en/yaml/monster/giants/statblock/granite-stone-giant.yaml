@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 4
           tier1: 12 damage
-          tier2: 17 damage; R < 3 weakened (save ends)
-          tier3: 21 damage; R < 4 weakened (save ends)
+          tier2: 17 damage; R < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 21 damage; R < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -18,24 +18,23 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: 2 burst
+    - distance: 2 burst
       effects:
         - roll: Power Roll + 4
-          tier1: 6 damage; push 2
-          tier2: 10 damage; push 4
-          tier3: 14 damage; vertical push 4
+          tier1: 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+          tier3: 14 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Crag Burst
+      name: Crag Burst (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each enemy and object in the area
       type: feature
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares adjacent to the path of their movement.'
+        - effect: '**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -47,8 +46,8 @@ features:
     - distance: Melee 3
       effects:
         - effect: |-
-            **Trigger:** A creature or object within distance moves or shifts away from the granite stone giant.
-            **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical pushed 5 squares.
+            **Trigger:** A creature or object within distance moves or [shifts](scc:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.
+            **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) 5 squares.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -64,13 +63,13 @@ features:
       name: Stonebreaker Flesh
       type: feature
     - effects:
-        - effect: The granite stone giant ignores difficult terrain.
+        - effect: The granite stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
       feature_type: trait
       icon: ⭐️
       name: Stone Steps
       type: feature
     - effects:
-        - effect: The granite stone giant can burrow through stone, but can't drag other creatures underground when they do so.
+        - effect: The granite stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.
       feature_type: trait
       icon: ⭐️
       name: Stone Swim

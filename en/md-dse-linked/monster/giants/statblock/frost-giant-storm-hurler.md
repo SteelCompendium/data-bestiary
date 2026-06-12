@@ -43,21 +43,21 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 13 cold damage
-> - **12-16:** 18 cold damage; M < 3 bleeding (save ends)
-> - **17+:** 22 cold damage; M < 4 bleeding (save ends)
+> - **12-16:** 18 cold damage; M < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 22 cold damage; M < 4 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** Whenever a creature bleeding this way takes damage from that condition, their speed decreases by 1 (to a minimum of 0) until that condition ends.
+> **Effect:** Whenever a creature [bleeding](../../../condition/bleeding.md) this way takes damage from that condition, their speed decreases by 1 (to a minimum of 0) until that condition ends.
 
-> 🏹 **Flower of Frost (3 Malice)**
+> 🏹 **Flower of Frost (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** | **Main action** |
 > |-------------------|----------------:|
 > | **📏 Ranged 15**  |  **🎯 Special** |
 >
-> **Effect:** The storm hurler throws three size 1L ice javelins into unoccupied squares within distance. Each javelin has 30 Stamina and fire weakness 5. At the start of the storm hurler's next turn, all javelins not destroyed explode in a shower of icicles. Each enemy and object within 3 squares of an exploding javelin makes an **Agility test**.
+> **Effect:** The storm hurler throws three size 1L ice javelins into unoccupied squares within distance. Each javelin has 30 [Stamina](../../../rule/health/stamina.md) and fire weakness 5. At the start of the storm hurler's next turn, all javelins not destroyed explode in a shower of icicles. Each enemy and object within 3 squares of an exploding javelin makes an **Agility test**.
 >
-> - **≤11:** 14 cold damage; push 4; bleeding (save ends)
-> - **12-16:** 11 cold damage; push 2; slowed (save ends)
+> - **≤11:** 14 cold damage; [push](../../../movement/forced-movement.md) 4; [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 11 cold damage; [push](../../../movement/forced-movement.md) 2; [slowed](../../../condition/slowed.md) (save ends)
 > - **17+:** 7 cold damage
 
 > 🗡 **Ice Dance**
@@ -66,7 +66,7 @@ type: statblock
 > |----------------|----------------------:|
 > | **📏 Melee 1** | **🎯 One giant ally** |
 >
-> **Effect:** The storm hurler and the target each shift up to 6 squares while staying adjacent to each other. The target can then jump up to 5 squares and make a free strike.
+> **Effect:** The storm hurler and the target each [shift](../../../movement/shifting.md) up to 6 squares while staying [adjacent](../../../rule/combat/adjacent.md) to each other. The target can then jump up to 5 squares and make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
 > ❗️ **Frozen Retribution**
 >
@@ -80,4 +80,4 @@ type: statblock
 
 > ⭐️ **Kingdom of Isolation**
 >
-> The storm hurler is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the storm hurler can't shift.
+> The storm hurler is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the storm hurler can't [shift](../../../movement/shifting.md).

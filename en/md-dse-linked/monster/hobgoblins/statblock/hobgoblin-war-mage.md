@@ -45,11 +45,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 fire damage; M < 1 weakened (save ends)
-> - **12-16:** 9 fire damage; M < 2 weakened (save ends)
-> - **17+:** 11 fire damage; M < 3 weakened (save ends)
+> - **≤11:** 5 fire damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 9 fire damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 11 fire damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **Effect:** Before using this ability, the war mage can teleport a creature within 10 squares of them up to 2 squares.
+> **Effect:** Before using this ability, the war mage can [teleport](../../../movement/teleport.md) a creature within 10 squares of them up to 2 squares.
 
 > 🏹 **Enchantments of War**
 >
@@ -57,15 +57,15 @@ type: statblock
 > |-------------------|------------------:|
 > | **📏 Ranged 10**  | **🎯 Two allies** |
 >
-> **Effect:** Each target gains 10 temporary Stamina and has a double edge on their next power roll. The war mage can spend any amount of their current Stamina to increase the temporary Stamina each target gains by an equivalent amount.
+> **Effect:** Each target gains 10 temporary [Stamina](../../../rule/health/stamina.md) and has a double edge on their next power roll. The war mage can spend any amount of their current [Stamina](../../../rule/health/stamina.md) to increase the temporary [Stamina](../../../rule/health/stamina.md) each target gains by an equivalent amount.
 
-> 🔳 **Unhallowed Ground (3 Malice)**
+> 🔳 **Unhallowed Ground (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |   **Maneuver** |
 > |-------------------------|---------------:|
 > | **📏 5 cube within 10** | **🎯 Special** |
 >
-> **Effect:** The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is difficult terrain and an enemy in the area has fire weakness 10.
+> **Effect:** The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is [difficult terrain](../../../movement/difficult-terrain.md) and an enemy in the area has fire weakness 10.
 
 > ❗️ **Magic Siphon**
 >
@@ -75,11 +75,11 @@ type: statblock
 >
 > **Trigger:** A creature within distance uses a magic ability.
 >
-> **Effect:** Any damage dealt or Stamina regained from the creature's ability is halved. The war mage regains Stamina equal to the remaining damage dealt or Stamina regained.
+> **Effect:** Any damage dealt or [Stamina](../../../rule/health/stamina.md) regained from the creature's ability is halved. The war mage regains [Stamina](../../../rule/health/stamina.md) equal to the remaining damage dealt or [Stamina](../../../rule/health/stamina.md) regained.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the war mage is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the war mage takes 3 fire damage.
+> When the war mage is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the war mage takes 3 fire damage.
 
 > ⭐️ **Despair, You Who Face Death**
 >

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "8 damage; slide 1",
-          "tier2": "12 damage; slide 3",
-          "tier3": "15 damage; slide 5"
+          "tier1": "8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "15 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5"
         }
       ],
       "feature_type": "ability",
@@ -31,7 +31,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** The target vertical slides up to 5 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.\n**5 Malice:** This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each restrained creature in the area."
+          "effect": "**Effect:** The target vertical [slides](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.\n**5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each [restrained](scc:mcdm.heroes.v1/condition/restrained) creature in the area."
         }
       ],
       "feature_type": "ability",

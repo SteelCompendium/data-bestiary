@@ -31,7 +31,7 @@ weaknesses:
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The ashen hoarder can take two turns each round. They can't take turns consecutively.
 
@@ -43,11 +43,11 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 10 damage; if one target has M < 2 they are bleeding (save ends); if the other target has A < 2 they are grabbed
-> - **12-16:** 15 damage; if one target has M < 3 they are bleeding (save ends); if the other target has A < 3 they are grabbed
-> - **17+:** 18 damage; M < 4 bleeding (save ends); A < 2 grabbed
+> - **≤11:** 10 damage; if one target has M < 2 they are [bleeding](../../../condition/bleeding.md) (save ends); if the other target has A < 2 they are [grabbed](../../../condition/grabbed.md)
+> - **12-16:** 15 damage; if one target has M < 3 they are [bleeding](../../../condition/bleeding.md) (save ends); if the other target has A < 3 they are [grabbed](../../../condition/grabbed.md)
+> - **17+:** 18 damage; M < 4 [bleeding](../../../condition/bleeding.md) (save ends); A < 2 [grabbed](../../../condition/grabbed.md)
 >
-> **Effect:** The ashen hoarder can have up to two size 1 creatures grabbed at a time.                                                                              |  |
+> **Effect:** The ashen hoarder can have up to two size 1 creatures [grabbed](../../../condition/grabbed.md) at a time.                                                                              |  |
 
 > 🔳 **Corpse Bomb**
 >
@@ -57,13 +57,13 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 4 damage; A < 2 weakened (save ends)
-> - **12-16:** 8 damage; A < 3 weakened (save ends)
-> - **17+:** 11 damage; A < 4 weakened (save ends)
+> - **≤11:** 4 damage; A < 2 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 8 damage; A < 3 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 11 damage; A < 4 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **2 Malice:** Any enemy weakened this way is instead slowed and weakened (save ends).
+> **2 [Malice](../../../rule/monster/malice.md):** Any enemy [weakened](../../../condition/weakened.md) this way is instead [slowed](../../../condition/slowed.md) and [weakened](../../../condition/weakened.md) (save ends).
 >
-> **3 Malice:** The ashen hoarder targets a second 4 cube within distance.
+> **3 [Malice](../../../rule/monster/malice.md):** The ashen hoarder targets a second 4 cube within distance.
 
 > 🔳 **Impale (3 Malice)**
 >
@@ -77,7 +77,7 @@ weaknesses:
 > - **12-16:** 11 corruption damage; M < 3 the target is impaled (save ends)
 > - **17+:** 14 corruption damage; M < 4 the target is impaled (save ends)
 >
-> **Effect:** An impaled creature is restrained and bleeding, and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time.
+> **Effect:** An impaled creature is [restrained](../../../condition/restrained.md) and [bleeding](../../../condition/bleeding.md), and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time.
 
 > 👤 **Bone Dozer**
 >
@@ -85,9 +85,9 @@ weaknesses:
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either pushed into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is force moved forward into an obstacle is dazed (save ends).
+> **Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](../../../movement/forced-movement.md) into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is [force moved](../../../movement/forced-movement.md) forward into an obstacle is [dazed](../../../condition/dazed.md) (save ends).
 
-> ❗️ **Armor of Corpses (2 Malice)**
+> ❗️ **Armor of Corpses (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -95,15 +95,15 @@ weaknesses:
 >
 > **Trigger:** The ashen hoarder takes damage.
 >
-> **Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the Malice cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.
+> **Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](../../../rule/monster/malice.md) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.
 
 > ⭐️ **Bladed Body**
 >
-> An adjacent enemy who grabs the ashen hoarder or uses a melee ability against them takes 3 damage.
+> An adjacent enemy who [grabs](../../../feature/common/maneuvers/grab.md) the ashen hoarder or uses a melee ability against them takes 3 damage.
 
 > ⭐️ **Soul Singularity**
 >
-> When the ashen hoarder is reduced to 0 Stamina, they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M < 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered.
+> When the ashen hoarder is reduced to 0 [Stamina](../../../rule/health/stamina.md), they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M < 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered.
 
 > ☠️ **Skeletal Eruption (Villain Action 1)**
 >
@@ -117,7 +117,7 @@ weaknesses:
 > - **12-16:** 11 damage, vertical push 2
 > - **17+:** 14 damage, vertical push 3
 >
-> **Effect:** Each target is force moved straight up, then falls. A target who would normally land prone after falling is instead restrained (save ends).
+> **Effect:** Each target is [force moved](../../../movement/forced-movement.md) straight up, then falls. A target who would normally land [prone](../../../condition/prone.md) after falling is instead [restrained](../../../condition/restrained.md) (save ends).
 
 > ☠️ **Mobile Mine Field (Villain Action 2)**
 >

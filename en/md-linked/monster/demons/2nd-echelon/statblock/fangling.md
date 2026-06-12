@@ -43,7 +43,7 @@ weaknesses:
 >
 > **Effect:** Each enemy adjacent to the fangling takes 2 damage.
 
-> 🔳 **Tumbling Gore (2 Malice)**
+> 🔳 **Tumbling Gore (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Weapon**           |                  **Maneuver** |
 > |----------------------------|------------------------------:|
@@ -51,17 +51,17 @@ weaknesses:
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; pull 1; A < 1 bleeding (save ends)
-> - **12-16:** 3 damage; pull 1; A < 2 bleeding (save ends)
-> - **17+:** 4 damage; pull 1; A < 3 bleeding (save ends)
+> - **≤11:** 2 damage; pull 1; A < 1 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 3 damage; pull 1; A < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 4 damage; pull 1; A < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
 
 > ⭐️ **Made of Teeth**
 >
-> Whenever an adjacent enemy grabs the fangling or uses a melee ability against the fangling, they take 2 damage.
+> Whenever an [adjacent](../../../../rule/combat/adjacent.md) enemy [grabs](../../../../feature/common/maneuvers/grab.md) the fangling or uses a melee ability against the fangling, they take 2 damage.
 
 > ⭐️ **Lethe**
 >
-> While the fangling is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the fangling is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

@@ -38,10 +38,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 13 damage; R < 1 prone and can't stand (save ends)
-> - **17+:** 16 damage; R < 2 prone and can't stand (save ends)
+> - **12-16:** 13 damage; R < 1 [prone](../../../condition/prone.md) and can't stand (save ends)
+> - **17+:** 16 damage; R < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
 >
-> **Effect:** If a target made prone this way is already prone, they are instead restrained (save ends). If the target was also unable to stand, that effect ends when they are no longer restrained this way.
+> **Effect:** If a target made [prone](../../../condition/prone.md) this way is already [prone](../../../condition/prone.md), they are instead [restrained](../../../condition/restrained.md) (save ends). If the target was also unable to stand, that effect ends when they are no longer [restrained](../../../condition/restrained.md) this way.
 
 > 🏹 **Convocation of Verdure**
 >
@@ -51,9 +51,9 @@ type: statblock
 >
 > **Effect:** The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
 >
-> **3 Malice:** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is pulled 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked prone.
+> **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](../../../movement/forced-movement.md) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](../../../condition/prone.md).
 
-> ❗️ **Rose Thorn Lash (1 Malice)**
+> ❗️ **Rose Thorn Lash (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Melee** |                     **Triggered action** |
 > |------------------|-----------------------------------------:|
@@ -61,11 +61,11 @@ type: statblock
 >
 > **Trigger:** A creature or object within distance deals damage to the field.
 >
-> **Effect:** The target takes 6 damage, and if they have A < 2, they are bleeding (save ends).
+> **Effect:** The target takes 6 damage, and if they have A < 2, they are [bleeding](../../../condition/bleeding.md) (save ends).
 
 > ⭐️ **Fickle and Free**
 >
-> The field can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+> The field can't be [restrained](../../../condition/restrained.md), [slowed](../../../condition/slowed.md), or knocked [prone](../../../condition/prone.md), and they ignore [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ⭐️ **Roots Run Deep**
 >

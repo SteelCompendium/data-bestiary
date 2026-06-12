@@ -5,9 +5,9 @@ features:
       distance: 2 cube within 1
       effects:
         - roll: Power Roll + 2
-          tier1: 5 damage; slide 1; M < 0 slowed (save ends)
-          tier2: 8 damage; slide 3; M < 1 slowed (save ends)
-          tier3: 11 damage; slide 5; M < 2 restrained (save ends)
+          tier1: 5 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 11 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -17,20 +17,19 @@ features:
       target: Each creature and object in the area
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: 3 cube within 10
+    - distance: 3 cube within 10
       effects:
         - roll: Power Roll + 2
-          tier1: 4 damage; push 2; R < 1 slowed (save ends)
-          tier2: 6 damage; push 3; R < 2 slowed (save ends)
-          tier3: 9 damage; push 3; R < 3 slowed (save ends)
+          tier1: 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; R < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; R < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
         - Area
         - Magic
         - Ranged
-      name: Stone Wave
+      name: Stone Wave (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Each enemy in the area
       type: feature
       usage: Maneuver

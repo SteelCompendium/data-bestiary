@@ -40,24 +40,24 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; slide 1
-> - **12-16:** 10 damage; slide 1
-> - **17+:** 13 damage; slide 1
+> - **≤11:** 7 damage; [slide](../../../movement/forced-movement.md) 1
+> - **12-16:** 10 damage; [slide](../../../movement/forced-movement.md) 1
+> - **17+:** 13 damage; [slide](../../../movement/forced-movement.md) 1
 >
-> **Effect:** The shieldwall can shift 1 square to remain adjacent to the target. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** The shieldwall can [shift](../../../movement/shifting.md) 1 square to remain [adjacent](../../../rule/combat/adjacent.md) to the target. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
 >
-> **3 Malice:** This ability targets one additional target.
+> **3 [Malice](../../../rule/monster/malice.md):** This ability targets one additional target.
 
-> ❗️ **Intercepting Shield (1 Malice)**
+> ❗️ **Intercepting Shield (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** A creature makes a strike against an ally adjacent to the shieldwall.
+> **Trigger:** A creature makes a strike against an ally [adjacent](../../../rule/combat/adjacent.md) to the shieldwall.
 >
 > **Effect:** The shieldwall becomes the target of the triggering strike and halves the damage.
 
 > ⭐️ **Call to the Wall**
 >
-> Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature taunted until the end of the creature's next turn.
+> Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature [taunted](../../../condition/taunted.md) until the end of the creature's next turn.

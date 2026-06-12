@@ -47,7 +47,7 @@ with_captain: +2 bonus to melee distance
 > - **12-16:** 4 damage; pull 2
 > - **17+:** 5 damage; pull 3
 >
-> **Effect:** If the target is pulled adjacent to the ensnarer, the ensnarer can make a free strike against them.
+> **Effect:** If the target is pulled [adjacent](../../../../rule/combat/adjacent.md) to the ensnarer, the ensnarer can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them.
 
 > ⭐️ **Soulsight**
 >

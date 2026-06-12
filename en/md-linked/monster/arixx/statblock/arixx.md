@@ -29,17 +29,17 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the arixx can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the arixx can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The arixx can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Earthwalk**
 >
-> Difficult terrain composed of earth or loose rock doesn't cost the arixx extra movement.
+> [Difficult terrain](../../../movement/difficult-terrain.md) composed of earth or loose rock doesn't cost the arixx extra movement.
 
 > ⭐️ **Soft Underbelly**
 >
-> A prone creature making a melee strike against the arixx has a double edge on the strike instead of taking a bane.
+> A [prone](../../../condition/prone.md) creature making a melee strike against the arixx has a double [edge](../../../rule/dice/edge.md) on the strike instead of taking a [bane](../../../rule/dice/bane.md).
 
 > 🗡 **Bite (Signature Ability)**
 >
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; grabbed
-> - **12-16:** 13 damage; grabbed
-> - **17+:** 16 damage; grabbed
+> - **≤11:** 9 damage; [grabbed](../../../condition/grabbed.md)
+> - **12-16:** 13 damage; [grabbed](../../../condition/grabbed.md)
+> - **17+:** 16 damage; [grabbed](../../../condition/grabbed.md)
 >
-> **Effect:** A size 1 target grabbed this way takes 3 acid damage at the start of each of their turns.
+> **Effect:** A size 1 target [grabbed](../../../condition/grabbed.md) this way takes 3 acid damage at the start of each of their turns.
 
 > 🗡 **Claw Swing**
 >
@@ -63,11 +63,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 damage; A < 1 grabbed
-> - **12-16:** 8 damage; A < 2 grabbed
-> - **17+:** 11 damage; A < 3 grabbed
+> - **≤11:** 5 damage; A < 1 [grabbed](../../../condition/grabbed.md)
+> - **12-16:** 8 damage; A < 2 [grabbed](../../../condition/grabbed.md)
+> - **17+:** 11 damage; A < 3 [grabbed](../../../condition/grabbed.md)
 >
-> **Effect:** The arixx can vertically slide each grabbed target up to 3 squares.
+> **Effect:** The arixx can vertically [slide](../../../movement/forced-movement.md) each [grabbed](../../../condition/grabbed.md) target up to 3 squares.
 
 > 🏹 **Spitfire**
 >
@@ -79,7 +79,7 @@ type: statblock
 >
 > - **≤11:** 4 acid damage
 > - **12-16:** 6 acid damage
-> - **17+:** 7 acid damage; prone
+> - **17+:** 7 acid damage; [prone](../../../condition/prone.md)
 >
 > **Effect:** The ground beneath each target is covered in burning acid until the end of the encounter. Any enemy who enters an affected space for the first time in a round or starts their turn there takes 2 acid damage.
 
@@ -92,10 +92,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; push 2
-> - **17+:** 7 damage; push 4
+> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 2
+> - **17+:** 7 damage; [push](../../../movement/forced-movement.md) 4
 >
-> **Effect:** The arixx flings rocks and debris to fill the area, and has a double edge on the power roll if they started their turn underground. The area is difficult terrain.
+> **Effect:** The arixx flings rocks and debris to fill the area, and has a double [edge](../../../rule/dice/edge.md) on the power roll if they started their turn underground. The area is [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ❇️ **Dust Cloud**
 >
@@ -103,7 +103,7 @@ type: statblock
 > |----------------|---------------:|
 > | **📏 1 burst** | **🎯 Special** |
 >
-> **Effect:** The arixx kicks up dust to fill the area until the start of their next turn, then moves up to their speed. Any enemy in the area or who targets a creature in the area takes a bane on power rolls.
+> **Effect:** The arixx kicks up dust to fill the area until the start of their next turn, then moves up to their speed. Any enemy in the area or who targets a creature in the area takes a [bane](../../../rule/dice/bane.md) on power rolls.
 
 > ❗️ **Skitter**
 >
@@ -113,7 +113,7 @@ type: statblock
 >
 > **Trigger:** The arixx takes damage.
 >
-> **Effect:** The arixx halves the damage and shifts up to 3 squares after the triggering effect resolves.
+> **Effect:** The arixx halves the damage and [shifts](../../../movement/shifting.md) up to 3 squares after the triggering effect resolves.
 
 > ☠️ **Acid Spew (Villain Action 1)**
 >
@@ -135,7 +135,7 @@ type: statblock
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The arixx shifts up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.
+> **Effect:** The arixx [shifts](../../../movement/shifting.md) up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.
 
 > ☠️ **Acid and Claws (Villain Action 3)**
 >
@@ -145,6 +145,6 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 acid damage; M < 1 weakened (save ends)
-> - **12-16:** 8 acid damage; M < 2 weakened (save ends)
-> - **17+:** 11 acid damage; M < 3 weakened (save ends)
+> - **≤11:** 5 acid damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 8 acid damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 11 acid damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)

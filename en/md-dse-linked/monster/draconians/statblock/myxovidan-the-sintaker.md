@@ -44,11 +44,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 damage; M < 1 weakened (save ends)
-> - **12-16:** 15 damage; M < 2 weakened (save ends)
-> - **17+:** 18 corruption damage; M < 3 weakened (save ends)
+> - **≤11:** 10 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 15 damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 18 corruption damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **2 Malice:** Myxovidan regains Stamina equal to half the damage dealt.
+> **2 [Malice](../../../rule/monster/malice.md):** Myxovidan regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
 
 > ❇️ **Expunging Exhalation**
 >
@@ -68,18 +68,18 @@ type: statblock
 > |-----------------|----------------:|
 > | **📏 Ranged 3** | **🎯 One ally** |
 >
-> **Effect:** Myxovidan and the target shift to swap places.
+> **Effect:** Myxovidan and the target [shift](../../../movement/shifting.md) to swap places.
 
-> ❗️ **Anyone Can Do That (2 Malice)**
+> ❗️ **Anyone Can Do That (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** An adjacent creature damages Myxovidan with a melee ability.
+> **Trigger:** An [adjacent](../../../rule/combat/adjacent.md) creature damages Myxovidan with a melee ability.
 >
-> **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice.
+> **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](../../../rule/monster/malice.md).
 
 > ⭐️ **Stench of Death**
 >
-> Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina.
+> Whenever an enemy regains [Stamina](../../../rule/health/stamina.md) while within 5 squares of Myxovidan, they regain 3 less [Stamina](../../../rule/health/stamina.md).

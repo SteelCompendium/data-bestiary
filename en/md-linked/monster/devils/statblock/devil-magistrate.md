@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 10 damage
 > - **12-16:** 15 damage
-> - **17+:** 18 fire damage; R < 3 dazed (save ends)
+> - **17+:** 18 fire damage; R < 3 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** The magistrate shifts up to 3 squares before or after using this ability, or between each strike.
+> **Effect:** The magistrate [shifts](../../../movement/shifting.md) up to 3 squares before or after using this ability, or between each strike.
 
 > 🗡 **Verdict**
 >
@@ -55,7 +55,7 @@ type: statblock
 > - **12-16:** 17 damage
 > - **17+:** 21 damage
 >
-> **Effect:** This ability has a double edge if the magistrate was hidden from the target, and deals an extra 5 damage if the target is dazed.
+> **Effect:** This ability has a double [edge](../../../rule/dice/edge.md) if the magistrate was hidden from the target, and deals an extra 5 damage if the target is [dazed](../../../condition/dazed.md).
 
 > 👤 **Justice Turns Its Gaze**
 >
@@ -63,9 +63,9 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a free maneuver before the end of the current turn.
+> **Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](../../../rule/combat/free-maneuver.md) before the end of the current turn.
 
-> ❗️ **Devilish Charm (2 Malice)**
+> ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -77,12 +77,12 @@ type: statblock
 >
 > - **≤11:** The magistrate chooses a new target for the strike.
 > - **12-16:** The magistrate halves the triggering damage.
-> - **17+:** The target takes a bane on the strike.
+> - **17+:** The target takes a [bane](../../../rule/dice/bane.md) on the strike.
 
 > ⭐️ **Leading**
 >
-> Whenever the magistrate moves away from an enemy who is adjacent to one of the magistrate's allies, they can shift instead.
+> Whenever the magistrate moves away from an enemy who is [adjacent](../../../rule/combat/adjacent.md) to one of the magistrate's allies, they can [shift](../../../movement/shifting.md) instead.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the magistrate's true name, the magistrate loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter.
+> If a creature within 10 squares speaks the magistrate's true name, the magistrate loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.

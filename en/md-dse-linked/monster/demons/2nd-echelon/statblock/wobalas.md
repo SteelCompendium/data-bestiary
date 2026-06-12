@@ -47,4 +47,4 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 5 psychic damage
 > - **17+:** 7 psychic damage
 >
-> **Effect:** The target takes a bane on their next strike. If the target is winded, they have a double bane on their next strike instead.
+> **Effect:** The target takes a [bane](../../../../rule/dice/bane.md) on their next strike. If the target is [winded](../../../../rule/health/winded.md), they have a double bane on their next strike instead.

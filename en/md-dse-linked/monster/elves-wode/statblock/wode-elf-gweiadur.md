@@ -44,13 +44,13 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; A < 2 restrained (save ends)
+> - **17+:** 14 damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The gweiadur shifts up to 3 squares.
+> **Effect:** The gweiadur [shifts](../../../movement/shifting.md) up to 3 squares.
 >
-> **3 Malice:** If this ability restrains the target, one enemy adjacent to the target is also restrained (save ends).
+> **3 [Malice](../../../rule/monster/malice.md):** If this ability [restrains](../../../condition/restrained.md) the target, one enemy [adjacent](../../../rule/combat/adjacent.md) to the target is also [restrained](../../../condition/restrained.md) (save ends).
 
-> 🔳 **You Activated My Trap! (3 Malice)**
+> 🔳 **You Activated My Trap! (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > |-------------------------|------------------------------:|
@@ -59,8 +59,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage; R < 0 the target is marked (save ends)
-> - **12-16:** 6 damage; R < 1 slowed and the target is marked (save ends)
-> - **17+:** 9 damage; R < 2 slowed and the target is marked (save ends)
+> - **12-16:** 6 damage; R < 1 [slowed](../../../condition/slowed.md) and the target is marked (save ends)
+> - **17+:** 9 damage; R < 2 [slowed](../../../condition/slowed.md) and the target is marked (save ends)
 >
 > **Effect:** Allies gain an edge on abilities against a target marked by any wode elf.
 

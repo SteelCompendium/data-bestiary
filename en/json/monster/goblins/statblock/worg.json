@@ -27,7 +27,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -39,7 +38,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Sprint",
+      "name": "Sprint (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Self",
       "type": "feature",
       "usage": "Maneuver"

@@ -46,9 +46,9 @@ weaknesses:
 > - **12-16:** 7 damage; pull 3
 > - **17+:** 8 damage; pull 4
 >
-> **Effect:** If the target is pulled adjacent to the muceron, the muceron can either make a free strike or use the Grab maneuver against them.
+> **Effect:** If the target is pulled [adjacent](../../../../rule/combat/adjacent.md) to the muceron, the muceron can either make a [free strike](../../../../feature/common/main-actions/free-strike.md) or use the [Grab](../../../../feature/common/maneuvers/grab.md) maneuver against them.
 
-> 🏹 **Tongue Pull (2 Malice)**
+> 🏹 **Tongue Pull (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |                      **Maneuver** |
 > |----------------------------|----------------------------------:|
@@ -58,7 +58,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the muceron is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

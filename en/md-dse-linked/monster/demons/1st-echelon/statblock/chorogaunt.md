@@ -41,11 +41,11 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 psychic damage; I < 1 slowed (save ends)
-> - **12-16:** 7 psychic damage; I < 2 slowed (save ends)
-> - **17+:** 10 psychic damage; I < 3 slowed (save ends)
+> - **≤11:** 4 psychic damage; I < 1 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** 7 psychic damage; I < 2 [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 10 psychic damage; I < 3 [slowed](../../../../condition/slowed.md) (save ends)
 >
-> **Effect:** One ally within 10 squares of the chorogaunt shifts up to their speed.
+> **Effect:** One ally within 10 squares of the chorogaunt [shifts](../../../../movement/shifting.md) up to their speed.
 
 > ❇️ **Chaotic Entrancing Harmony**
 >
@@ -53,9 +53,9 @@ weaknesses:
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The chorogaunt slides each target up to 3 squares, ignoring stability.
+> **Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](../../../../rule/character/stability.md).
 
-> ❗️ **I Thrive on Pain (3 Malice)**
+> ❗️ **I Thrive on Pain (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic**   | **Triggered action** |
 > |-------------|---------------------:|
@@ -67,11 +67,11 @@ weaknesses:
 
 > ⭐️ **End Effect**
 >
-> At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Lethe**
 >
-> While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the chorogaunt is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >
@@ -83,7 +83,7 @@ weaknesses:
 > |------------------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Three enemies** |
 >
-> **Effect:** Each target must choose between taking 5 psychic damage, or being frightened (save ends).
+> **Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](../../../../condition/frightened.md) (save ends).
 
 > ☠️ **Bully the Weak (Villain Action 2)**
 >
@@ -91,7 +91,7 @@ weaknesses:
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
-> **Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains Malice equal to the number of heroes in the encounter.
+> **Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](../../../../rule/monster/malice.md) equal to the number of heroes in the encounter.
 
 > ☠️ **Running Cacophony (Villain Action 3)**
 >
@@ -99,4 +99,4 @@ weaknesses:
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts up to their speed, and then uses Agonizing Harmony again.
+> **Effect:** The chorogaunt [shifts](../../../../movement/shifting.md) up to their speed, uses Agonizing Harmony, [shifts](../../../../movement/shifting.md) up to their speed, and then uses Agonizing Harmony again.

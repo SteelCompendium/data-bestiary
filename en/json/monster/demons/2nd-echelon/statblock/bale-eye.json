@@ -26,7 +26,6 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "4 cube within 5",
       "effects": [
         {
@@ -43,7 +42,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Demonwarp Tears",
+      "name": "Demonwarp Tears (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"
@@ -51,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "While the bale eye is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+          "effect": "While the bale eye is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

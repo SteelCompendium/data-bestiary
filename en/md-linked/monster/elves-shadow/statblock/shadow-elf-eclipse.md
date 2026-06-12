@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; I < 2 bleeding (save ends)
-> - **12-16:** 16 damage; I < 3 bleeding (save ends)
-> - **17+:** 19 damage; I < 4 bleeding (save ends)
+> - **≤11:** 11 damage; I < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 16 damage; I < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 19 damage; I < 4 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **2 Malice:** The potency increases by 1.
+> **2 [Malice](../../../rule/monster/malice.md):** The [potency](../../../rule/character/potency.md) increases by 1.
 
 > 🏹 **Grasping Shadow**
 >
@@ -50,9 +50,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Pull 5; I < 2 slowed (save ends)
-> - **12-16:** Pull 7; I < 3 slowed (save ends)
-> - **17+:** Pull 10; I < 4 slowed (save ends)
+> - **≤11:** [Pull](../../../movement/forced-movement.md) 5; I < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** [Pull](../../../movement/forced-movement.md) 7; I < 3 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** [Pull](../../../movement/forced-movement.md) 10; I < 4 [slowed](../../../condition/slowed.md) (save ends)
 
 > ❗️ **Put It Out!**
 >
@@ -78,7 +78,7 @@ type: statblock
 > |-----------------|---------------:|    
 > | **📏 Ranged 5** | **🎯 Special** |
 >
-> **Effect:** The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then shift up to their speed and make a free strike.
+> **Effect:** The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then [shift](../../../movement/shifting.md) up to their speed and make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
 > ☠️ **Cast Away All Hope (Villain Action 2)**
 >
@@ -86,7 +86,7 @@ type: statblock
 > |-----------------|------------------------------:|    
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target loses all their surges. Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities.
+> **Effect:** Each target loses all their [surges](../../../rule/resource/surge.md). Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities.
 
 > ☠️ **Umbral Hunger (Villain Action 3)**
 >

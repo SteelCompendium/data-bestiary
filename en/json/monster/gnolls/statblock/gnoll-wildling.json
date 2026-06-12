@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "2 damage",
           "tier2": "3 damage",
-          "tier3": "5 damage; the wildling can make a free strike against a creature adjacent to the target"
+          "tier3": "5 damage; the wildling can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-minion ally within 7 squares of the wildling is reduced to 0 Stamina, the wildling can move up to their speed."
+          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the wildling is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the wildling can move up to their speed."
         }
       ],
       "feature_type": "trait",

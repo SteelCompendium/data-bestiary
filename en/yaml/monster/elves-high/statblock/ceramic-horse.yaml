@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 5 damage
           tier2: 7 fire damage
-          tier3: 9 lightning damage; M < 2 prone
+          tier3: 9 lightning damage; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -34,15 +34,14 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Main action
-    - cost: 2 Malice
-      distance: Self
+    - distance: Self
       effects:
-        - effect: '**Effect:** The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.'
+        - effect: '**Effect:** The horse vertical [slides](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Buck
+      name: Buck (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: The horse's rider
       type: feature
       usage: Maneuver

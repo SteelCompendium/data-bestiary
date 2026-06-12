@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "2 damage; push 1",
-          "tier2": "4 damage; push 3",
-          "tier3": "5 damage; push 4"
+          "tier1": "2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The spinecleaver doesn't provoke opportunity attacks by moving."
+          "effect": "The spinecleaver doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
         }
       ],
       "feature_type": "trait",

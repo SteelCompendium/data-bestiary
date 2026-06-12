@@ -44,13 +44,13 @@ type: statblock
 > - **12-16:** 7 damage
 > - **17+:** 9 damage
 >
-> **Effect:** The wodenelg's rider can make a free strike at any point during the charge.
+> **Effect:** The wodenelg's rider can make a [free strike](../../../feature/common/main-actions/free-strike.md) at any point during the charge.
 
 > ⭐️ **Sure-Footed**
 >
-> The wodenelg ignores difficult terrain and doesn't provoke oppotunity attacks by moving.
+> The wodenelg ignores [difficult terrain](../../../movement/difficult-terrain.md) and doesn't provoke oppotunity attacks by moving.
 
-> 👤 **Where I End the Woods Begin (3 Malice)**
+> 👤 **Where I End the Woods Begin (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|

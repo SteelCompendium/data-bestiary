@@ -38,11 +38,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; M < 2 prone
-> - **12-16:** 16 damage; M < 3 prone
-> - **17+:** 19 damage; M < 4 prone
+> - **≤11:** 11 damage; M < 2 [prone](../../../condition/prone.md)
+> - **12-16:** 16 damage; M < 3 [prone](../../../condition/prone.md)
+> - **17+:** 19 damage; M < 4 [prone](../../../condition/prone.md)
 >
-> **2 Malice:** If the target has M < 4, they are also bleeding (save ends).
+> **2 [Malice](../../../rule/monster/malice.md):** If the target has M < 4, they are also [bleeding](../../../condition/bleeding.md) (save ends).
 
 > 🔳 **I'll Cut A Path**
 >
@@ -50,13 +50,13 @@ type: statblock
 > |----------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Before the power roll is made, Dorzinuuth shifts to an unoccupied space adjacent to the end of the line.
+> **Effect:** Before the power roll is made, Dorzinuuth [shifts](../../../movement/shifting.md) to an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the end of the line.
 >
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 13 damage; M < 3 prone
-> - **17+:** 15 damage; M < 4 prone
+> - **12-16:** 13 damage; M < 3 [prone](../../../condition/prone.md)
+> - **17+:** 15 damage; M < 4 [prone](../../../condition/prone.md)
 
 > ❗️ **Watch Your Six!**
 >
@@ -64,7 +64,7 @@ type: statblock
 > |----------------|---------------------:|
 > | **📏 Melee 1** |      **🎯 One ally** |
 >
-> **Trigger:** An ally within distance takes damage while Dorzinuuth isn't flying.
+> **Trigger:** An ally within distance takes damage while Dorzinuuth isn't [flying](../../../movement/fly.md).
 >
 > **Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage.
 
@@ -74,13 +74,13 @@ type: statblock
 
 > ⭐️ **Remember Your Oath**
 >
-> If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter.
+> If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a [bane](../../../rule/dice/bane.md) on strikes made against that character until the end of the encounter.
 
 > ⭐️ **Sheltering Wings**
 >
-> While Dorzinuuth isn't flying, strikes made against him take a bane.
+> While Dorzinuuth isn't [flying](../../../movement/fly.md), strikes made against him take a [bane](../../../rule/dice/bane.md).
 
-> ☠️ **Roaring Gambit (Villain Action 1)**
+> ☠️ **Roaring Gambit ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -88,21 +88,21 @@ type: statblock
 >
 > **Effect:** Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.
 >
-> - **≤11:** Frightened (save ends)
-> - **12-16:** Frightened (EoT)
+> - **≤11:** [Frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** [Frightened](../../../condition/frightened.md) (EoT)
 > - **17+:** No effect.
 >
-> **Effect:** Each ally in the area gains an edge on their next strike.
+> **Effect:** Each ally in the area gains an [edge](../../../rule/dice/edge.md) on their next strike.
 
-> ☠️ **Wings of Second Wind (Villain Action 2)**
+> ☠️ **Wings of Second Wind ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target shifts or flies up to their speed and regains 10 Stamina.
+> **Effect:** Each target [shifts](../../../movement/shifting.md) or [flies](../../../movement/fly.md) up to their speed and regains 10 [Stamina](../../../rule/health/stamina.md).
 
-> ☠️ **Snap, Crackle, Pop (Villain Action 3)**
+> ☠️ **Snap, Crackle, Pop ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                        **-** |
 > |-----------------|-----------------------------:|

@@ -26,14 +26,13 @@
       "usage": "Main action"
     },
     {
-      "cost": "3 Malice",
       "distance": "4 cube within 10",
       "effects": [
         {
           "roll": "Power Roll + 3",
           "tier1": "5 fire damage; A \u003c 1 burning (save ends)",
           "tier2": "9 fire damage; A \u003c 2 burning (save ends)",
-          "tier3": "11 fire damage; prone; A \u003c 3 burning (save ends)"
+          "tier3": "11 fire damage; [prone](scc:mcdm.heroes.v1/condition/prone); A \u003c 3 burning (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -43,7 +42,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Fireball Volley",
+      "name": "Fireball Volley (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each enemy or object in the area",
       "type": "feature",
       "usage": "Main action"
@@ -51,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "The ranged free strike of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage."
+          "effect": "The ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage."
         }
       ],
       "feature_type": "trait",
@@ -62,7 +61,7 @@
     {
       "effects": [
         {
-          "effect": "When the incendiarist is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the incendiarist takes 3 fire damage."
+          "effect": "When the incendiarist is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the incendiarist takes 3 fire damage."
         }
       ],
       "feature_type": "trait",

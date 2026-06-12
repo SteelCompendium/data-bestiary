@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; push 1",
-          "tier2": "10 damage; push 3",
-          "tier3": "13 damage; push 5; M \u003c 2 restrained (save ends)"
+          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; M \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -26,14 +26,13 @@
       "usage": "Main action"
     },
     {
-      "cost": "5 Malice",
       "distance": "3 cube within 1",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 damage; push 2; A \u003c 0 slowed (save ends)",
-          "tier2": "8 damage; push 2; A \u003c 1 slowed (save ends)",
-          "tier3": "11 damage; push 2; A \u003c 2 slowed (save ends)"
+          "tier1": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; A \u003c 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; A \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; A \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -42,7 +41,7 @@
         "Area",
         "Weapon"
       ],
-      "name": "Concussive Shockwave",
+      "name": "Concussive Shockwave (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"
@@ -50,7 +49,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever the warden moves, they can carry an adjacent restrained enemy as if the enemy were grabbed by them."
+          "effect": "Whenever the warden moves, they can carry an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) [restrained](scc:mcdm.heroes.v1/condition/restrained) enemy as if the enemy were [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by them."
         }
       ],
       "feature_type": "trait",

@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
-          "tier2": "11 damage; push 1; M \u003c 1 prone",
-          "tier3": "14 damage; push 2; M \u003c 1 prone"
+          "tier2": "11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; M \u003c 1 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 1 [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -32,7 +32,7 @@
           "roll": "Power Roll + 2",
           "tier1": "3 damage",
           "tier2": "6 damage",
-          "tier3": "8 damage; A \u003c 2 bleeding (save ends)"
+          "tier3": "8 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A creature or object within distance deals damage to the predator.\n**Effect:** The target is pushed up to 5 squares."
+          "effect": "**Trigger:** A creature or object within distance deals damage to the predator.\n**Effect:** The target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares."
         }
       ],
       "feature_type": "ability",

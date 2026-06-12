@@ -43,10 +43,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 5 damage, 4 lightning damage; push 1
-> - **17+:** 5 damage, 7 lightning damage; push 3
+> - **12-16:** 5 damage, 4 lightning damage; [push](../../../movement/forced-movement.md) 1
+> - **17+:** 5 damage, 7 lightning damage; [push](../../../movement/forced-movement.md) 3
 >
-> **Effect:** The essence shifts up to 3 squares before or after using this ability.
+> **Effect:** The essence [shifts](../../../movement/shifting.md) up to 3 squares before or after using this ability.
 
 > 🏹 **Convocation of Squalls**
 >
@@ -56,9 +56,9 @@ type: statblock
 >
 > **Effect:** Until the start of the essence's next turn, the target has lightning immunity 5.
 >
-> **3 Malice:** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is difficult terrain for enemies. Additionally, at the end of each of the target's turns, they can push one creature in the area up to 5 squares.
+> **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Additionally, at the end of each of the target's turns, they can [push](../../../movement/forced-movement.md) one creature in the area up to 5 squares.
 
-> ❗️ **Thunderclap (1 Malice)**
+> ❗️ **Thunderclap (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -70,4 +70,4 @@ type: statblock
 
 > ⭐️ **Fickle and Free**
 >
-> The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+> The essence can't be [restrained](../../../condition/restrained.md), [slowed](../../../condition/slowed.md), or knocked [prone](../../../condition/prone.md), and they ignore [difficult terrain](../../../movement/difficult-terrain.md).

@@ -20,7 +20,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The runner doesn't provoke opportunity attacks by moving.
+        - effect: The runner doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
       feature_type: trait
       icon: ⭐️
       name: Crafty

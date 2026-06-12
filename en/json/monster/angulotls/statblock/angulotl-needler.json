@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever an adjacent enemy grabs the needler or uses a melee ability against them, that enemy takes 2 poison damage."
+          "effect": "Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the needler or uses a melee ability against them, that enemy takes 2 poison damage."
         }
       ],
       "feature_type": "trait",

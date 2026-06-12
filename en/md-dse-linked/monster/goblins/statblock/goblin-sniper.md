@@ -50,4 +50,4 @@ with_captain: +5 bonus to ranged distance
 
 > ⭐️ **Crafty**
 >
-> The sniper doesn't provoke opportunity attacks by moving.
+> The sniper doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.

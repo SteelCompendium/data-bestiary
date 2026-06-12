@@ -18,25 +18,24 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - cost: 3 Malice
-      distance: Ranged 10
+    - distance: Ranged 10
       effects:
         - roll: Power Roll + 2
-          tier1: 2 corruption damage; A < 0 restrained (save ends)
-          tier2: 4 corruption damage; A < 1 restrained (save ends)
-          tier3: 5 corruption damage; A < 2 restrained (save ends)
+          tier1: 2 corruption damage; A < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 4 corruption damage; A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 5 corruption damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
         - Magic
         - Ranged
         - Strike
-      name: Shadow Chains
+      name: Shadow Chains (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
       target: Three creatures
       type: feature
       usage: Main action
     - effects:
-        - effect: The assassin doesn't provoke opportunity attacks by moving.
+        - effect: The assassin doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
       feature_type: trait
       icon: ⭐️
       name: Crafty

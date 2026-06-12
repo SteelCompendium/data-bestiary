@@ -40,13 +40,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 psychic damage; I < 0 the target makes a free strike against a creature of the cackler's choice
-> - **12-16:** 5 psychic damage; I < 1 the target makes a free strike against a creature of the cackler's choice
+> - **≤11:** 4 psychic damage; I < 0 the target makes a [free strike](../../../feature/common/main-actions/free-strike.md) against a creature of the cackler's choice
+> - **12-16:** 5 psychic damage; I < 1 the target makes a [free strike](../../../feature/common/main-actions/free-strike.md) against a creature of the cackler's choice
 > - **17+:** 7 psychic damage; I < 2 the target uses a signature ability against a creature of the cackler's choice
 >
-> **Effect:** An ally targeted by this ability ignores the damage and can make a free strike.
+> **Effect:** An ally targeted by this ability ignores the damage and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
-> ❇️ **Cackler's Cackletongue (4 Malice)**
+> ❇️ **Cackler's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic** |                     **Maneuver** |
 > |-----------------|---------------------------------:|
@@ -54,10 +54,10 @@ type: statblock
 >
 > **Effect:** Each enemy target makes an **Intuition test**. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
 >
-> - **≤11:** Frightened (save ends)
-> - **12-16:** Frightened (EoT)
+> - **≤11:** [Frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** [Frightened](../../../condition/frightened.md) (EoT)
 > - **17+:** No effect
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 5 squares of the cackler is reduced to 0 Stamina, the cackler moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](../../../rule/organization/minion.md) ally within 5 squares of the cackler is reduced to 0 [Stamina](../../../rule/health/stamina.md), the cackler moves up to their speed and can make a melee [free strike](../../../feature/common/main-actions/free-strike.md).

@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 poison damage; slide 1
-> - **12-16:** 2 poison damage; slide 2
-> - **17+:** 3 poison damage; slide 3
+> - **≤11:** 1 poison damage; [slide](../../../movement/forced-movement.md) 1
+> - **12-16:** 2 poison damage; [slide](../../../movement/forced-movement.md) 2
+> - **17+:** 3 poison damage; [slide](../../../movement/forced-movement.md) 3
 >
-> **1+ Malice:** For each Malice spent, one target can be force moved 1 additional square.
+> **1+ [Malice](../../../rule/monster/malice.md):** For each [Malice](../../../rule/monster/malice.md) spent, one target can be [force moved](../../../movement/forced-movement.md) 1 additional square.
 
 > 🔳 **Swamp Gas**
 >
@@ -48,8 +48,8 @@ type: statblock
 > |-------------------------|---------------:|
 > | **📏 3 cube within 10** | **🎯 Special** |
 >
-> **Effect:** The area is filled with a green haze that lasts until the start of the stinker's next turn or until the stinker is reduced to 0 Stamina, and which can't be dispersed by wind. The area is difficult terrain for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved.
+> **Effect:** The area is filled with a green haze that lasts until the start of the stinker's next turn or until the stinker is reduced to 0 [Stamina](../../../rule/health/stamina.md), and which can't be dispersed by wind. The area is [difficult terrain](../../../movement/difficult-terrain.md) for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved.
 
 > ⭐️ **Crafty**
 >
-> The stinker doesn't provoke opportunity attacks by moving.
+> The stinker doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.

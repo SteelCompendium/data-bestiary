@@ -44,8 +44,8 @@ with_captain: Gain an edge on strikes
 > - **12-16:** 7 poison damage
 > - **17+:** 8 poison damage
 >
-> **Effect:** All soulraker demons have concealment from the target until the start of the stinger's next turn.
+> **Effect:** All soulraker demons have [concealment](../../../../rule/combat/concealment.md) from the target until the start of the stinger's next turn.
 
 > ⭐️ **Abyssal Buzzing**
 >
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
+> Any enemy who starts their turn with two or more soulraker [minions](../../../../rule/organization/minion.md) [adjacent](../../../../rule/combat/adjacent.md) to them takes 3 sonic damage.

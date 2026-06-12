@@ -44,11 +44,11 @@ with_captain: +5 bonus to ranged distance
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 fire damage
-> - **12-16:** 5 fire damage; R < 2 the target takes a bane on their next strike
-> - **17+:** 6 fire damage; R < 3 the target takes a bane on their next strike
+> - **12-16:** 5 fire damage; R < 2 the target takes a [bane](../../../rule/dice/bane.md) on their next strike
+> - **17+:** 6 fire damage; R < 3 the target takes a [bane](../../../rule/dice/bane.md) on their next strike
 >
-> **Effect:** One non-minion devil within 5 squares of the notary gains an edge on their next strike.
+> **Effect:** One non-[minion](../../../rule/organization/minion.md) devil within 5 squares of the notary gains an [edge](../../../rule/dice/edge.md) on their next strike.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter.
+> If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md) until the end of the encounter.
