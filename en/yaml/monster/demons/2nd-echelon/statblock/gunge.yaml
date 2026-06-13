@@ -18,7 +18,8 @@ features:
       target: One creature or object in the area
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The gunge takes damage from a melee strike.
@@ -27,7 +28,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Spew Slide (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Spew Slide
       target: Self
       type: feature
       usage: Free triggered action

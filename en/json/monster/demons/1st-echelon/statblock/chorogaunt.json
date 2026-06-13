@@ -42,6 +42,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "3 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -53,7 +54,7 @@
       "keywords": [
         "Magic"
       ],
-      "name": "I Thrive on Pain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "I Thrive on Pain",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"

@@ -44,6 +44,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "1 Malice",
       "distance": "Melee 1",
       "effects": [
         {
@@ -55,7 +56,7 @@
       "keywords": [
         "Melee"
       ],
-      "name": "Sea-Salted Wounds (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Sea-Salted Wounds",
       "target": "One enemy",
       "type": "feature",
       "usage": "Triggered action"

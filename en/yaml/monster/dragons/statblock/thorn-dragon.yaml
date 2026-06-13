@@ -7,7 +7,7 @@ features:
             **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
       feature_type: trait
       icon: ☠️
-      name: '[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster'
+      name: Solo Monster
       type: feature
     - effects:
         - effect: The dragon's scales create a 2 aura of withering green magic around them. Any creature other than the dragon who regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) in the area regains only half the expected amount. Any [winded](scc:mcdm.heroes.v1/rule.health/winded) creature who enters the area for the first time in a round or starts their turn there takes 1d3 corruption damage.
@@ -54,14 +54,15 @@ features:
       icon: ⭐️
       name: Provoking Nettles
       type: feature
-    - distance: 10 burst
+    - cost: 5 Malice
+      distance: 10 burst
       effects:
         - effect: '**Effect:** Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each target pulled.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Investiture of Verdure (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Investiture of Verdure
       target: Each enemy in the area
       type: feature
       usage: Maneuver
@@ -79,7 +80,8 @@ features:
       target: The triggering creature
       type: feature
       usage: Free triggered action
-    - distance: Melee 1
+    - cost: 1 Malice
+      distance: Melee 1
       effects:
         - effect: |-
             **Trigger:** A creature within distance deals damage to the dragon with a melee strike.
@@ -88,11 +90,12 @@ features:
       icon: ❗️
       keywords:
         - Melee
-      name: Thorny Scales (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Thorny Scales
       target: The triggering creature
       type: feature
       usage: Free triggered action
-    - distance: 4 burst
+    - cost: Villain Action 1
+      distance: 4 burst
       effects:
         - roll: Power Roll + 3
           tier1: 5 damage; A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
@@ -103,22 +106,24 @@ features:
       keywords:
         - Area
         - Magic
-      name: Briar Bindings ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: Briar Bindings
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: Self
+    - cost: Villain Action 2
+      distance: Self
       effects:
         - effect: '**Effect:** The thorns upon the dragon''s scales grow longer and sharper. Until the end of the encounter, any [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.'
       feature_type: ability
       icon: ☠️
       keywords:
         - '-'
-      name: Thorned Armor ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Thorned Armor
       target: Self
       type: feature
       usage: '-'
-    - distance: Special
+    - cost: Villain Action 3
+      distance: Special
       effects:
         - effect: |-
             **Effect:** Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature [force moved](scc:mcdm.heroes.v1/movement/forced-movement) by the dragon takes 1d3 poison damage, and if they have M < 2, they are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
@@ -127,7 +132,7 @@ features:
       icon: ☠️
       keywords:
         - '-'
-      name: Malign Thicket ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Malign Thicket
       target: Special
       type: feature
       usage: '-'

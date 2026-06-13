@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Shadow Chains (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Shadow Chains",
       "target": "Three creatures",
       "type": "feature",
       "usage": "Main action"

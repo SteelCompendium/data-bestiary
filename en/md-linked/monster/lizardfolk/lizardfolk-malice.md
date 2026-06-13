@@ -4,9 +4,9 @@ scc: mcdm.monsters.v1/monster.lizardfolk/lizardfolk-malice
 type: featureblock
 ---
 
-At the start of any lizardfolk's turn, you can spend Malice to activate one of the following features.
+At the start of any lizardfolk's turn, you can spend [Malice](../../rule/monster/malice.md) to activate one of the following features.
 
-> 🔳 **Net Trap (3 Malice)**
+> 🔳 **Net Trap (3 [Malice](../../rule/monster/malice.md))**
 >
 >  **Area, Ranged, Weapon** |   **Maneuver** |
 > |--------------------------|---------------:|
@@ -14,20 +14,20 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Effect:** A lizardfolk acting this turn sets up a net trap into the area. The first time an enemy steps into a square with a net trap, they make an **Agility test**. If the creature was unaware of the trap, they take a bane on the test.
 >
-> - **≤11:** Restrained (save ends).
-> - **12-16:** Restrained (Eot).
+> - **≤11:** [Restrained](../../condition/restrained.md) (save ends).
+> - **12-16:** [Restrained](../../condition/restrained.md) (Eot).
 > - **17+:** No effect.
 >
-> **Effect:** Any creature not also restrained by a net trap who is adjacent to a creature restrained by the trap can free them as a maneuver.
+> **Effect:** Any creature not also [restrained](../../condition/restrained.md) by a net trap who is [adjacent](../../rule/combat/adjacent.md) to a creature [restrained](../../condition/restrained.md) by the trap can free them as a maneuver.
 
-> 🔳 **Water Pit (5 Malice)**
+> 🔳 **Water Pit (5 [Malice](../../rule/monster/malice.md))**
 >
-> A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary Stamina, regrows their tail if applicable, and ends one effect on them that can be ended by a saving throw. While adjacent to the pit, any creature who can burrow or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
+> A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary [Stamina](../../rule/health/stamina.md), regrows their tail if applicable, and ends one effect on them that can be ended by a [saving throw](../../rule/general/saving-throw.md). While [adjacent](../../rule/combat/adjacent.md) to the pit, any creature who can [burrow](../../movement/burrow.md) or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
 >
-> - **≤11:** The creature falls into the pit and is knocked prone.
+> - **≤11:** The creature falls into the pit and is knocked [prone](../../condition/prone.md).
 > - **12-16:** The creature fails to empty the pit.
 > - **17+:** The pit empties of water.
 
-> 🌀 **Flood the Shores (7 Malice)**
+> 🌀 **Flood the Shores (7 [Malice](../../rule/monster/malice.md))**
 >
 > Waist-high water floods the entire encounter map. Any lizardfolk submerged in water gains an edge on abilities and doubles their speed while swimming. If there are no open water pits on the encounter map, the water drains away at the end of the round.

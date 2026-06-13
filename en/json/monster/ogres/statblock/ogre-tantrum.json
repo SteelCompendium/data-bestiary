@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "4 damage",
-          "tier2": "7 damage; push 2",
-          "tier3": "8 damage; push 4"
+          "tier2": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4"
         }
       ],
       "feature_type": "ability",

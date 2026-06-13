@@ -20,7 +20,7 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: '**Effect:** The ratcrobat slides the target up to 3 squares, then can shift into any square the target left.'
+        - effect: '**Effect:** The ratcrobat [slides](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, then can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square the target left.'
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -33,7 +33,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** An ally deals damage to the target.
-            **Effect:** The ratcrobat makes a free strike against the target.
+            **Effect:** The ratcrobat makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -44,7 +44,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: The ratcrobat gains an edge on strikes against larger creatures.
+        - effect: The ratcrobat gains an edge on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against larger creatures.
       feature_type: trait
       icon: ⭐️
       name: Gymratstics

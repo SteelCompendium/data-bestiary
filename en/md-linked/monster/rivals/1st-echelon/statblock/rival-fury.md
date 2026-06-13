@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Brutal Impact (Signature Ability)**
+> 🗡 **Brutal Impact ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; push 2
-> - **17+:** 14 damage; push 3
+> - **≤11:** 7 damage; [push](../../../../movement/forced-movement.md) 1
+> - **12-16:** 11 damage; [push](../../../../movement/forced-movement.md) 2
+> - **17+:** 14 damage; [push](../../../../movement/forced-movement.md) 3
 >
-> **2 Malice:** Each target who has M < 1 is slowed (save ends).
+> **2 [Malice](../../../../rule/monster/malice.md):** Each target who has M < 1 is [slowed](../../../../condition/slowed.md) (save ends).
 
-> 🗡 **Let's Tussle (2 Malice)**
+> 🗡 **Let's Tussle (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -49,16 +49,16 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; M < 0 grabbed
-> - **12-16:** 13 damage; M < 1 grabbed
-> - **17+:** 16 damage; M < 2 grabbed
+> - **≤11:** 8 damage; M < 0 [grabbed](../../../../condition/grabbed.md)
+> - **12-16:** 13 damage; M < 1 [grabbed](../../../../condition/grabbed.md)
+> - **17+:** 16 damage; M < 2 [grabbed](../../../../condition/grabbed.md)
 >
-> **Effect:** The target must be the fury's size or smaller. While the target is grabbed this way, the fury gains an edge on strikes against them.
+> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](../../../../condition/grabbed.md) this way, the fury gains an edge on [strikes](../../../../rule/combat/strike.md) against them.
 
 > ⭐️ **Overwhelm**
 >
-> Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can make a free strike against that creature or object.
+> Once per turn, when the fury [force moves](../../../../movement/forced-movement.md) a creature or object, or [shifts](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to a creature or object, they can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against that creature or object.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the fury chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the fury and the creature can add a d3 roll to power rolls they make against each other.

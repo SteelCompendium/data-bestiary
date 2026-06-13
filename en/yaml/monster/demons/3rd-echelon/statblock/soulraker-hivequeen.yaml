@@ -19,18 +19,20 @@ features:
       target: Two creatures
       type: feature
       usage: Main action
-    - distance: 10 burst
+    - cost: 3 Malice
+      distance: 10 burst
       effects:
         - effect: '**Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host''s body as a mature soulraker handmaiden and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Forced Gestation (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Forced Gestation
       target: Each implanted handmaiden parasite in the area
       type: feature
       usage: Maneuver
-    - distance: 5 burst
+    - cost: 2 Malice
+      distance: 5 burst
       effects:
         - effect: |-
             **Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
@@ -40,7 +42,7 @@ features:
       icon: ❗️
       keywords:
         - Area
-      name: For the Queen! (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: For the Queen!
       target: Special
       type: feature
       usage: Triggered action

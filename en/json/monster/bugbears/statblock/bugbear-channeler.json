@@ -47,6 +47,7 @@
       "usage": "Main Action"
     },
     {
+      "cost": "5 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -63,7 +64,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Twist Shape (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Twist Shape",
       "target": "One creature",
       "type": "feature",
       "usage": "Main Action"

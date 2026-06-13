@@ -25,14 +25,15 @@ features:
       icon: ⭐️
       name: Sure-Footed
       type: feature
-    - distance: Self
+    - cost: 3 Malice
+      distance: Self
       effects:
         - effect: '**Effect:** The wodenelg and their rider become invisible until the start of the wodenelg''s next turn.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Where I End the Woods Begin (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Where I End the Woods Begin
       target: Self
       type: feature
       usage: Maneuver

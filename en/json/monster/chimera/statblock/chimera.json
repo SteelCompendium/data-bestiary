@@ -48,6 +48,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "3 cube within 10",
       "effects": [
         {
@@ -64,12 +65,13 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Dragon's Eruption (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Dragon's Eruption",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "5 burst",
       "effects": [
         {
@@ -85,7 +87,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Roar (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Roar",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"

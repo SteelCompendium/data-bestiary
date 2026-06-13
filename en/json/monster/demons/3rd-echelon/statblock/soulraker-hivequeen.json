@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "10 burst",
       "effects": [
         {
@@ -38,12 +39,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Forced Gestation (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Forced Gestation",
       "target": "Each implanted handmaiden parasite in the area",
       "type": "feature",
       "usage": "Maneuver"
     },
     {
+      "cost": "2 Malice",
       "distance": "5 burst",
       "effects": [
         {
@@ -55,7 +57,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "For the Queen! (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "For the Queen!",
       "target": "Special",
       "type": "feature",
       "usage": "Triggered action"

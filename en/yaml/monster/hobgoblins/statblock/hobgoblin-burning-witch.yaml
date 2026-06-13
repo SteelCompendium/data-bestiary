@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Ranged 10
+    - cost: 1 Malice
+      distance: Ranged 10
       effects:
         - effect: '**Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a target at their destination takes 3 fire damage.'
       feature_type: ability
@@ -26,7 +27,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Burning Legion (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Burning Legion
       target: Three creatures
       type: feature
       usage: Maneuver

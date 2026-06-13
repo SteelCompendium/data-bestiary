@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 6 damage
           tier2: 9 damage
-          tier3: 12 damage; M < 2 grabbed and the target takes a bane on the Escape Grab maneuver
+          tier3: 12 damage; M < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,7 +21,7 @@ features:
     - cost: 1 Malice
       distance: Melee 1
       effects:
-        - effect: '**Effect:** The brawler pushes the target up to 5 squares.'
+        - effect: '**Effect:** The brawler [pushes](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares.'
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -31,7 +31,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: The brawler halves the damage from any strike if they have a creature or object grabbed of size 1S or larger. The grabbed creature or object takes the remaining damage.
+        - effect: The brawler halves the damage from any strike if they have a creature or object [grabbed](scc:mcdm.heroes.v1/condition/grabbed) of size 1S or larger. The [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature or object takes the remaining damage.
       feature_type: trait
       icon: ⭐️
       name: Shoot the Hostage

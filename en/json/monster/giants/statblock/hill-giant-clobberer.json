@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Melee 1",
       "effects": [
         {
@@ -43,7 +44,7 @@
         "Strike",
         "Weapon"
       ],
-      "name": "Stomp (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Stomp",
       "target": "One creature or object",
       "type": "feature",
       "usage": "Main action"

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "4 Malice",
       "distance": "2 burst",
       "effects": [
         {
@@ -41,7 +42,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Cackler's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Cackler's Cackletongue",
       "target": "Each creature in the area",
       "type": "feature",
       "usage": "Maneuver"

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -38,7 +39,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "The Wode Protects Us (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "The Wode Protects Us",
       "target": "Self and three allies",
       "type": "feature",
       "usage": "Maneuver"

@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+4**<br>Agility |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **0**<br>Presence   |
 
->  🗡 **Inertial Flow (Signature Ability)**
+>  🗡 **Inertial Flow ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; the null shifts up to 3 squares; A < 2 8 damage
-> - **12-16:** 17 damage; the null shifts up to 4 squares; A < 3 13 damage
-> - **17+:** 21 damage; the null shifts up to 5 squares; A < 4 17 damage
+> - **≤11:** 12 damage; the null [shifts](../../../../movement/shifting.md) up to 3 squares; A < 2 8 damage
+> - **12-16:** 17 damage; the null [shifts](../../../../movement/shifting.md) up to 4 squares; A < 3 13 damage
+> - **17+:** 21 damage; the null [shifts](../../../../movement/shifting.md) up to 5 squares; A < 4 17 damage
 
-> 🗡 **Stun (3 Malice)**
+> 🗡 **Stun (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
 > |------------------------------------|------------------------------:|
@@ -47,14 +47,14 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; R < 2 dazed (save ends)
-> - **12-16:** 17 damage; R < 3 dazed (save ends)
-> - **17+:** 21 damage; R < 4 dazed and restrained (save ends)
+> - **≤11:** 12 damage; R < 2 [dazed](../../../../condition/dazed.md) (save ends)
+> - **12-16:** 17 damage; R < 3 [dazed](../../../../condition/dazed.md) (save ends)
+> - **17+:** 21 damage; R < 4 [dazed](../../../../condition/dazed.md) and [restrained](../../../../condition/restrained.md) (save ends)
 
 > ⭐️ **Force Dampener**
 >
-> The first time each round that the null is targeted by a strike, it takes a bane and the null halves any damage from it.
+> The first time each round that the null is targeted by a [strike](../../../../rule/combat/strike.md), it takes a bane and the null halves any damage from it.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.

@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 2 burst
+    - cost: 3 Malice
+      distance: 2 burst
       effects:
         - roll: Power Roll + 2
           tier1: 2 damage; I < 0 the sneak has concealment from the target (save ends)
@@ -28,7 +29,7 @@ features:
       icon: ❇️
       keywords:
         - Area
-      name: Shadow Cloak (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Shadow Cloak
       target: Each enemy in the area
       type: feature
       usage: Main action
@@ -75,7 +76,8 @@ features:
       target: The triggering creature or object
       type: feature
       usage: Free triggered action
-    - distance: Special
+    - cost: 1 Malice
+      distance: Special
       effects:
         - effect: |-
             **Trigger:** The sneak is targeted by a strike.
@@ -84,7 +86,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Clever Trick (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Clever Trick
       target: One enemy
       type: feature
       usage: Triggered action

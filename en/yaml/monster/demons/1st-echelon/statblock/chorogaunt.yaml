@@ -28,7 +28,8 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 3 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The chorogaunt is targeted by a strike.
@@ -37,7 +38,7 @@ features:
       icon: ❗️
       keywords:
         - Magic
-      name: I Thrive on Pain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: I Thrive on Pain
       target: Self
       type: feature
       usage: Triggered action

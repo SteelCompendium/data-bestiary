@@ -18,7 +18,8 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Main action
-    - distance: 3 cube within 5
+    - cost: 3 Malice
+      distance: 3 cube within 5
       effects:
         - roll: Power Roll + 2
           tier1: 3 poison damage; I < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
@@ -29,7 +30,7 @@ features:
       keywords:
         - Ranged
         - Weapon
-      name: Sleep Grenade (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Sleep Grenade
       target: Each enemy in the area
       type: feature
       usage: Main action

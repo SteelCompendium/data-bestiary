@@ -29,7 +29,7 @@ with_captain: Gain an edge on strikes
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |   **+1**<br>Might    |   **+2**<br>Agility   | **-1**<br>Reason |             **0**<br>Intuition              |  **0**<br>Presence   |
 
-> 🏹 **Eyes-On-Me-Shot (Signature Ability)**
+> 🏹 **Eyes-On-Me-Shot ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -41,7 +41,7 @@ with_captain: Gain an edge on strikes
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally of the redeye within 2 squares of the target shifts up to 2 squares.
+> **Effect:** One ally of the redeye within 2 squares of the target [shifts](../../../movement/shifting.md) up to 2 squares.
 
 > ❗️ **Ready Rodent**
 >
@@ -51,4 +51,4 @@ with_captain: Gain an edge on strikes
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The redeye makes a free strike against the target.
+> **Effect:** The redeye makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.

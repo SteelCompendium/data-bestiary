@@ -43,13 +43,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 acid damage; A < 0 dazed (save ends)
-> - **12-16:** 10 acid damage; A < 1 dazed (save ends)
-> - **17+:** 14 acid damage; A < 2 restrained (save ends)
+> - **≤11:** 7 acid damage; A < 0 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 10 acid damage; A < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 14 acid damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** A size 2 or smaller creature restrained this way is pulled into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer restrained moves to the nearest unoccupied space adjacent to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
+> **Effect:** A size 2 or smaller creature [restrained](../../../condition/restrained.md) this way is [pulled](../../../movement/forced-movement.md) into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer [restrained](../../../condition/restrained.md) moves to the nearest unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
 >
-> **2 Malice:** This ability targets one additional target.
+> **2 [Malice](../../../rule/monster/malice.md):** This ability targets one additional target.
 
 > ❗️ **You Didn't Pay Attention!**
 >
@@ -57,7 +57,7 @@ type: statblock
 > |-------------|------------------------------:|
 > | **📏 Self** | **🎯 One creature or object** |
 >
-> **Trigger:** A creature moves or is force moved adjacent to the brick.
+> **Trigger:** A creature moves or is [force moved](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to the brick.
 >
 > **Effect:** The brick uses Engulf against the triggering creature and has a double edge.
 

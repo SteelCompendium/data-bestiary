@@ -50,4 +50,4 @@ with_captain: +2 bonus to Stamina
 
 > ⭐️ **Reptilian Escape**
 >
-> While the shellguard has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the shellguard has a tail, whenever they are [grabbed](../../../condition/grabbed.md), [prone](../../../condition/prone.md), [slowed](../../../condition/slowed.md), or [weakened](../../../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../../../movement/shifting.md) up to 2 squares.

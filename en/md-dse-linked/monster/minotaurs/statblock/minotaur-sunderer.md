@@ -33,7 +33,7 @@ type: statblock
 |      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Spiked Maul (Signature Ability)**
+> 🗡 **Spiked Maul ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -41,13 +41,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; pull 1
-> - **12-16:** 12 damage; pull 2
-> - **17+:** 15 damage; pull 3
+> - **≤11:** 8 damage; [pull](../../../movement/forced-movement.md) 1
+> - **12-16:** 12 damage; [pull](../../../movement/forced-movement.md) 2
+> - **17+:** 15 damage; [pull](../../../movement/forced-movement.md) 3
 >
-> **Effect:** A target pulled adjacent to the sunderer is automatically grabbed.
+> **Effect:** A target [pulled](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to the sunderer is automatically [grabbed](../../../condition/grabbed.md).
 
-> ❇️ **Fearsome Bay (5 Malice)**
+> ❇️ **Fearsome Bay (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |               **Main action** |
 > |----------------|------------------------------:|
@@ -55,27 +55,27 @@ type: statblock
 >
 > **Power Roll + 2:**
 > 
-> - **≤11:** I < 0 frightened (save ends)
-> - **12-16:** I < 1 frightened (save ends)
-> - **17+:** I < 2 frightened (save ends)
+> - **≤11:** I < 0 [frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** I < 1 [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** I < 2 [frightened](../../../condition/frightened.md) (save ends)
 >
 > **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
 
-> 🗡 **Disemboweling Horns (3 Malice)**
+> 🗡 **Disemboweling Horns (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature** |
 >
-> **Special:** The target must be grabbed by the sunderer.
+> **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the sunderer.
 >
 > **Power Roll + 2:**
 > 
-> - **≤11:** 5 damage; M < 0 bleeding (save ends)
-> - **12-16:** 8 damage; M < 1 bleeding (save ends)
-> - **17+:** 9 damage; M < 2 bleeding (save ends)
+> - **≤11:** 5 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 8 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 9 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** While bleeding this way, the target takes 1d6 damage at the start of each of their turns.
+> **Effect:** While [bleeding](../../../condition/bleeding.md) this way, the target takes 1d6 damage at the start of each of their turns.
 
 > ❗️ **Retaliatory Strike**
 >

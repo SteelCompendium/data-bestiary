@@ -29,7 +29,7 @@ with_captain: +2 bonus to speed
 |      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+3**<br>Might        | **+4**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |   **-1**<br>Presence   |
 
-> 🗡 **Horn Vault (Signature Ability)**
+> 🗡 **Horn Vault ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -38,10 +38,10 @@ with_captain: +2 bonus to speed
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; slide 1
-> - **17+:** 8 damage; slide 3
+> - **12-16:** 6 damage; [slide](../../../movement/forced-movement.md) 1
+> - **17+:** 8 damage; [slide](../../../movement/forced-movement.md) 3
 >
-> **Effect:** A target who is force moved into an obstacle and has M < 3 is bleeding (save ends).
+> **Effect:** A target who is [force moved](../../../movement/forced-movement.md) into an obstacle and has M < 3 is [bleeding](../../../condition/bleeding.md) (save ends).
 
 > ⭐️ **Minotaur Sense**
 >

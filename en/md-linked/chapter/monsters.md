@@ -11609,9 +11609,9 @@ Most humans speak Caelian and one Vaslorian human language.
 
 ###### Human Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.humans/human-malice"}
 
-At the start of any human's turn, you can spend Malice to activate one of the following features.
+At the start of any human's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 🔳 **Alchemical Device (3 Malice)**
+> 🔳 **Alchemical Device (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                             **Maneuver** |
 > |-------------------------|-----------------------------------------:|
@@ -11619,19 +11619,19 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 corruption damage; A < 0 slowed (save ends)
-> - **12-16:** 6 corruption damage; A < 1 slowed (save ends)
-> - **17+:** 9 corruption damage; A < 2 restrained (save ends)
+> - **≤11:** 4 corruption damage; A < 0 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 6 corruption damage; A < 1 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 9 corruption damage; A < 2 [restrained](../condition/restrained.md) (save ends)
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](../rule/organization/minion.md).
 
-> ⭐️ **Exploit Opening (5 Malice)**
+> ⭐️ **Exploit Opening (5 [Malice](../rule/monster/malice.md))**
 >
 > Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
 
-> ⭐️ **Staying Power (7 Malice)**
+> ⭐️ **Staying Power (7 [Malice](../rule/monster/malice.md))**
 >
-> Each non-minion human in the encounter regains Stamina equal to 5 times their level.
+> Each non-[minion](../rule/organization/minion.md) human in the encounter regains [Stamina](../rule/health/stamina.md) equal to 5 times their level.
 
 ###### Human Apprentice Mage {data-scc="mcdm.monsters.v1/monster.humans.statblock/human-apprentice-mage"}
 
@@ -11653,7 +11653,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 3 lightning damage
 > - **17+:** 5 lightning damage
 >
-> **Effect:** If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also slowed (EoT).
+> **Effect:** If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also [slowed](../condition/slowed.md) (EoT).
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11703,7 +11703,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 2 corruption damage
 > - **17+:** 3 corruption damage
 >
-> **Effect:** One creature within 5 squares regains 1 Stamina.
+> **Effect:** One creature within 5 squares regains 1 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11729,7 +11729,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** If the guard is flanked, they can make a free strike against a different target adjacent to them.
+> **Effect:** If the guard is flanked, they can make a [free strike](../feature/common/main-actions/free-strike.md) against a different target [adjacent](../rule/combat/adjacent.md) to them.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11755,7 +11755,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** If this ability is used as part of a charge, the raider can make a ranged free strike before using the ability.
+> **Effect:** If this ability is used as part of a charge, the raider can make a ranged [free strike](../feature/common/main-actions/free-strike.md) before using the ability.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11805,21 +11805,21 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < 2 grabbed and the target takes a bane on the Escape Grab maneuver
+> - **17+:** 12 damage; M < 2 [grabbed](../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver
 >
-> **Effect:** A target who is already grabbed takes an extra 2 damage.
+> **Effect:** A target who is already [grabbed](../condition/grabbed.md) takes an extra 2 damage.
 
-> 🗡 **Throw (1 Malice)**
+> 🗡 **Throw (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee**      |                               **Maneuver** |
 > |----------------|-------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the brawler** |
 >
-> **Effect:** The brawler pushes the target up to 5 squares.
+> **Effect:** The brawler [pushes](../movement/forced-movement.md) the target up to 5 squares.
 
 > ⭐️ **Shoot the Hostage**
 >
-> The brawler halves the damage from any strike if they have a creature or object grabbed of size 1S or larger. The grabbed creature or object takes the remaining damage.
+> The brawler halves the damage from any strike if they have a creature or object [grabbed](../condition/grabbed.md) of size 1S or larger. The [grabbed](../condition/grabbed.md) creature or object takes the remaining damage.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11843,17 +11843,17 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > - **≤11:** 6 corruption damage
 > - **12-16:** 9 corruption damage
-> - **17+:** 12 corruption damage; I < 2 weakened (save ends)
+> - **17+:** 12 corruption damage; I < 2 [weakened](../condition/weakened.md) (save ends)
 >
-> **2 Malice:** The death cultist regains Stamina equal to half the damage dealt.
+> **2 [Malice](../rule/monster/malice.md):** The death cultist regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
-> ❇️ **Rise, My Minions (1 Malice per minion)**
+> ❇️ **Rise, My Minions (1 [Malice](../rule/monster/malice.md) per [minion](../rule/organization/minion.md))**
 >
 > | **Area**       |                        **Maneuver** |
 > |----------------|------------------------------------:|
-> | **📏 5 burst** | **🎯 Each dead minion in the area** |
+> | **📏 5 burst** | **🎯 Each dead [minion](../rule/organization/minion.md) in the area** |
 >
-> **Effect:** Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
+> **Effect:** Each target who died during this encounter revives with full [Stamina](../rule/health/stamina.md). They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11879,15 +11879,15 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 9 damage
 > - **17+:** 12 damage; M < 2 the target has a double bane on their next power roll
 >
-> **Effect:** The target is taunted (EoT).
+> **Effect:** The target is [taunted](../condition/taunted.md) (EoT).
 
 > ⭐️ **I'm Your Enemy**
 >
-> Whenever an adjacent creature the knave has taunted deals damage to a creature other than the knave, the knave can make a free strike against them.
+> Whenever an [adjacent](../rule/combat/adjacent.md) creature the knave has [taunted](../condition/taunted.md) deals damage to a creature other than the knave, the knave can make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
 > ⭐️ **Overwhelm**
 >
-> An enemy who starts their turn adjacent to the knave can't shift.
+> An enemy who starts their turn [adjacent](../rule/combat/adjacent.md) to the knave can't [shift](../movement/shifting.md).
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11913,15 +11913,15 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **2 Malice:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
+> **2 [Malice](../rule/monster/malice.md):** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
 
-> 🌀 **Dagger Storm (5 Malice)**
+> 🌀 **Dagger Storm (5 [Malice](../rule/monster/malice.md))**
 >
 > | **-**    | **Main action** |
 > |----------|----------------:|
 > | **📏 -** |        **🎯 -** |
 >
-> The scoundrel uses Rapier and Dagger against up to three targets. They shift up to 2 squares before or after each strike.
+> The scoundrel uses Rapier and Dagger against up to three targets. They [shift](../movement/shifting.md) up to 2 squares before or after each strike.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -11947,9 +11947,9 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > - **12-16:** 10 lightning damage
 > - **17+:** 13 lightning damage
 >
-> **5 Malice:** The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area.
+> **5 [Malice](../rule/monster/malice.md):** The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area.
 
-> 🔳 **Gust of Wind (3 Malice)**
+> 🔳 **Gust of Wind (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic**        |                             **Maneuver** |
 > |------------------------|-----------------------------------------:|
@@ -11957,9 +11957,9 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** Slide 2; M < 0 slowed (save ends)
-> - **12-16:** Slide 4; M < 1 slowed (save ends)
-> - **17+:** Slide 6; M < 2 slowed (save ends)
+> - **≤11:** [Slide](../movement/forced-movement.md) 2; M < 0 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** [Slide](../movement/forced-movement.md) 4; M < 1 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** [Slide](../movement/forced-movement.md) 6; M < 2 [slowed](../condition/slowed.md) (save ends)
 >
 > **Effect:** The gust of wind disperses gas or vapor and extinguishes any flames, including supernatural effects.
 
@@ -11967,7 +11967,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > Any melee ability targeting the storm mage takes a bane.
 >
-> Additionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares.
+> Additionally, whenever the mage takes damage from an [adjacent](../rule/combat/adjacent.md) enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are [pushed](../movement/forced-movement.md) up to 2 squares.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -12017,13 +12017,13 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; M < 1 slowed (save ends)
-> - **12-16:** 6 damage; M < 2 slowed (save ends)
-> - **17+:** 8 damage; M < 3 slowed (save ends)
+> - **≤11:** 3 damage; M < 1 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 6 damage; M < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 8 damage; M < 3 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** One ally within 10 squares can make a free strike.
+> **Effect:** One ally within 10 squares can make a [free strike](../feature/common/main-actions/free-strike.md).
 >
-> **1 Malice:** One ally within 10 squares can use their signature ability instead.
+> **1 [Malice](../rule/monster/malice.md):** One ally within 10 squares can use their [signature ability](../rule/combat/signature-ability.md) instead.
 
 > 🏹 **You!**
 >
@@ -12033,9 +12033,9 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Effect:** The target is marked until the start of the blackguard's next turn. The blackguard and each of their allies gain an edge on abilities used against targets marked by the blackguard.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -12047,33 +12047,33 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
-> **Trigger:** A creature makes a strike against the blackguard or an ally adjacent to them.
+> **Trigger:** A creature makes a strike against the blackguard or an ally [adjacent](../rule/combat/adjacent.md) to them.
 >
 > **Effect:** The damage is halved.
 
-> ☠️ **Advance! (Villain Action 1)**
+> ☠️ **Advance! ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **-**       |       **-** | 
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The blackguard shifts up to their speed. During or after this movement, they can use their Zweihander Swing twice.
+> **Effect:** The blackguard [shifts](../movement/shifting.md) up to their speed. During or after this movement, they can use their Zweihander Swing twice.
 
-> ☠️ **Back! (Villain Action 2)**
+> ☠️ **Back! ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** The blackguard slides each target up to 5 squares.
+> **Effect:** The blackguard [slides](../movement/forced-movement.md) each target up to 5 squares.
 
-> ☠️ **I Can Throw My Blade and So Should You! (Villain Action 3)**
+> ☠️ **I Can Throw My Blade and So Should You! ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic, Ranged, Weapon** |                         **-** |
 > |---------------------------------|------------------------------:|
 > | **📏 3 cube within 5**          | **🎯 Each enemy in the area** |
 >
-> **Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a free strike against a target (one target per ally).
+> **Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](../feature/common/main-actions/free-strike.md) against a target (one target per ally).
 
 ###### Human Bandit Chief {data-scc="mcdm.monsters.v1/monster.humans.statblock/human-bandit-chief"}
 
@@ -12091,13 +12091,13 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; pull 1
-> - **12-16:** 12 damage; pull 2
-> - **17+:** 15 damage; pull 3
+> - **≤11:** 8 damage; [pull](../movement/forced-movement.md) 1
+> - **12-16:** 12 damage; [pull](../movement/forced-movement.md) 2
+> - **17+:** 15 damage; [pull](../movement/forced-movement.md) 3
 >
-> **Effect:** Any target who is adjacent to the bandit chief after the power roll is resolved takes 3 corruption damage.
+> **Effect:** Any target who is [adjacent](../rule/combat/adjacent.md) to the bandit chief after the power roll is resolved takes 3 corruption damage.
 >
-> **2 Malice:** This ability targets one additional target.
+> **2 [Malice](../rule/monster/malice.md):** This ability targets one additional target.
 
 > 🗡 **Kneel, Peasant!**
 >
@@ -12107,11 +12107,11 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** Push 1; M < 1 prone
-> - **12-16:** Push 2; M < 2 prone
-> - **17+:** Push 4; M < 3 prone
+> - **≤11:** [Push](../movement/forced-movement.md) 1; M < 1 [prone](../condition/prone.md)
+> - **12-16:** [Push](../movement/forced-movement.md) 2; M < 2 [prone](../condition/prone.md)
+> - **17+:** [Push](../movement/forced-movement.md) 4; M < 3 [prone](../condition/prone.md)
 >
-> **2 Malice:** The ability takes the Area keyword, loses the Melee keyword, and is a 1 burst that targets each enemy in the area.
+> **2 [Malice](../rule/monster/malice.md):** The ability takes the Area keyword, loses the Melee keyword, and is a 1 burst that targets each enemy in the area.
 
 > ❗️ **Bloodstones**
 >
@@ -12123,37 +12123,37 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Effect:** The bandit chief takes 5 corruption damage and increases the outcome of the power roll by one tier. This damage can't be reduced in any way.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the bandit chief can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the bandit chief can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Supernatural Insight**
 >
 > The bandit chief ignores concealment if it's granted by a supernatural effect.
 
-> ☠️ **Shoot! (Villain Action 1)**
+> ☠️ **Shoot! ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                                  **-** |
 > |-----------------|---------------------------------------:|
 > | **📏 10 burst** | **🎯 Each artillery ally in the area** |
 >
-> **Effect:** Each target makes a ranged free strike.
+> **Effect:** Each target makes a ranged [free strike](../feature/common/main-actions/free-strike.md).
 
-> ☠️ **Form Up! (Villain Action 2)**
+> ☠️ **Form Up! ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target shifts up to their speed. Additionally, until the end of the encounter, while the bandit chief or any ally is adjacent to a target, they have damage immunity 2.
+> **Effect:** Each target [shifts](../movement/shifting.md) up to their speed. Additionally, until the end of the encounter, while the bandit chief or any ally is [adjacent](../rule/combat/adjacent.md) to a target, they have damage immunity 2.
 
-> ☠️ **Lead From the Front (Villain Action 3)**
+> ☠️ **Lead From the Front ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The bandit chief shifts up to 10 squares regardless of their speed. During or after this movement, they can use their Whip and Magic Longsword against up to four targets. Additionally, one ally adjacent to each target can make a free strike against that target.
+> **Effect:** The bandit chief [shifts](../movement/shifting.md) up to 10 squares regardless of their speed. During or after this movement, they can use their Whip and Magic Longsword against up to four targets. Additionally, one ally [adjacent](../rule/combat/adjacent.md) to each target can make a [free strike](../feature/common/main-actions/free-strike.md) against that target.
 
 ###### Giant Hawk {data-scc="mcdm.monsters.v1/monster.humans.statblock/giant-hawk"}
 
@@ -12173,11 +12173,11 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > - **≤11:** 5 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; grabbed
+> - **17+:** 9 damage; [grabbed](../condition/grabbed.md)
 >
-> **2 Malice:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
+> **2 [Malice](../rule/monster/malice.md):** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
 
-> 👤 **Dive (1 Malice)**
+> 👤 **Dive (1 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
@@ -12187,7 +12187,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 
 > ⭐️ **Mounted Platform**
 >
-> Once per turn when the hawk moves, any creature riding the hawk can make a free strike during or after the movement.
+> Once per turn when the hawk moves, any creature riding the hawk can make a [free strike](../feature/common/main-actions/free-strike.md) during or after the movement.
 
 ## Kingfissure Worm {data-scc="mcdm.monsters.v1/monster.group/kingfissure-worm"}
 
@@ -12219,9 +12219,9 @@ For all their might and vitality, kingfissure worms are primarily ambush hunters
 
 ###### Kingfissure Worm Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.kingfissure-worm/kingfissure-worm-malice"}
 
-At the start of a kingfissure worm's turn or when an action's trigger occurs, you can spend Malice to activate one of the following features.
+At the start of a kingfissure worm's turn or when an action's trigger occurs, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ❗️ **Aftershock (3 Malice)**
+> ❗️ **Aftershock (3 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -12229,17 +12229,17 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Trigger:** A creature deals damage to the kingfissure worm or one of their tongues.
 >
-> **Effect:** Each creature within 5 squares of the kingfissure worm takes 5 damage, and if they have A < 4 they are knocked prone. The kingfissure worm can use this ability only once per round.
+> **Effect:** Each creature within 5 squares of the kingfissure worm takes 5 damage, and if they have A < 4 they are knocked [prone](../condition/prone.md). The kingfissure worm can use this ability only once per round.
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](../rule/monster/malice.md))**
 >
-> The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
-> 👤 **Spontaneous Regeneration (5 Malice)**
+> 👤 **Spontaneous Regeneration (5 [Malice](../rule/monster/malice.md))**
 >
-> The kingfissure worm loses 35 Stamina and regrows one tongue, to a maximum of three tongues. The worm is then dazed until the end of their turn.
+> The kingfissure worm loses 35 [Stamina](../rule/health/stamina.md) and regrows one tongue, to a maximum of three tongues. The worm is then [dazed](../condition/dazed.md) until the end of their turn.
 
-> ❇️ **Megaquake (7 Malice)**
+> ❇️ **Megaquake (7 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                          **Main action** |
 > |------------------|-----------------------------------------:|
@@ -12247,11 +12247,11 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 damage; M < 3 slide 5
-> - **12-16:** 13 damage; M < 4 slide 5
-> - **17+:** 17 damage; M < 5 slide 5
+> - **≤11:** 8 damage; M < 3 [slide](../movement/forced-movement.md) 5
+> - **12-16:** 13 damage; M < 4 [slide](../movement/forced-movement.md) 5
+> - **17+:** 17 damage; M < 5 [slide](../movement/forced-movement.md) 5
 >
-> **Effect:** Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as difficult terrain, and takes 10 damage whenever they are knocked prone.
+> **Effect:** Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as [difficult terrain](../movement/difficult-terrain.md), and takes 10 damage whenever they are knocked [prone](../condition/prone.md).
 
 ###### Kingfissure Worm {data-scc="mcdm.monsters.v1/monster.kingfissure-worm.statblock/kingfissure-worm"}
 
@@ -12263,13 +12263,13 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the kingfissure worm can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of their turns, the kingfissure worm can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The kingfissure worm can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Multiple Tongues**
 >
-> The kingfissure worm has three tongues. Each tongue is a 5 x 1 line within 1 square of the kingfissure worm, has 35 Stamina and psychic immunity all, and can't be force moved. Each tongue enables the kingfissure worm to grab one size 3 or smaller creature or object. A tongue can be targeted by abilities only while it has a target grabbed.
+> The kingfissure worm has three tongues. Each tongue is a 5 x 1 line within 1 square of the kingfissure worm, has 35 [Stamina](../rule/health/stamina.md) and psychic immunity all, and can't be [force moved](../movement/forced-movement.md). Each tongue enables the kingfissure worm to [grab](../condition/grabbed.md) one size 3 or smaller creature or object. A tongue can be targeted by abilities only while it has a target [grabbed](../condition/grabbed.md).
 
 > 🗡 **Tongue Grab (Signature Ability)**
 >
@@ -12279,11 +12279,11 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 damage; M < 3 grabbed
-> - **12-16:** 18 damage; M < 4 grabbed
-> - **17+:** 22 damage; M < 5 grabbed and the target takes a bane on the Escape Grab maneuver
+> - **≤11:** 13 damage; M < 3 [grabbed](../condition/grabbed.md)
+> - **12-16:** 18 damage; M < 4 [grabbed](../condition/grabbed.md)
+> - **17+:** 22 damage; M < 5 [grabbed](../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver
 >
-> **Effect:** The kingfissure worm must have one or more tongues to use this ability. As a maneuver, the kingfissure worm can pull up to two creatures grabbed this way adjacent to them.
+> **Effect:** The kingfissure worm must have one or more tongues to use this ability. As a maneuver, the kingfissure worm can [pull](../movement/forced-movement.md) up to two creatures [grabbed](../condition/grabbed.md) this way [adjacent](../rule/combat/adjacent.md) to them.
 
 > 🗡 **Maw**
 >
@@ -12293,13 +12293,13 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; push 3
-> - **12-16:** 20 damage; push 5, prone
+> - **≤11:** 15 damage; [push](../movement/forced-movement.md) 3
+> - **12-16:** 20 damage; [push](../movement/forced-movement.md) 5, [prone](../condition/prone.md)
 > - **17+:** 25 damage; the target is swallowed (see Swallowed)
 >
-> **2 Malice:** When the kingfissure worm uses the Charge main action, they ignore difficult terrain and automatically destroy mundane size 3 and smaller objects in the path of their charge. The first time the kingfissure worm moves through a creature's space during this charge, that creature takes 8 damage and is pushed up to 3 squares.
+> **2 [Malice](../rule/monster/malice.md):** When the kingfissure worm uses the Charge main action, they ignore [difficult terrain](../movement/difficult-terrain.md) and automatically destroy mundane size 3 and smaller objects in the path of their charge. The first time the kingfissure worm moves through a creature's space during this charge, that creature takes 8 damage and is [pushed](../movement/forced-movement.md) up to 3 squares.
 
-> 🗡 **Consume (2 Malice)**
+> 🗡 **Consume (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee**      |             **Main action** |
 > |----------------|----------------------------:|
@@ -12313,7 +12313,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 5 or ranged 10**       | **🎯 One creature or object** |
 >
-> **Effect:** The kingfissure worm can use this maneuver only while they have a creature or object grabbed. The worm slams the grabbed creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the grabbed creature or object is released.
+> **Effect:** The kingfissure worm can use this maneuver only while they have a creature or object [grabbed](../condition/grabbed.md). The worm slams the [grabbed](../condition/grabbed.md) creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the [grabbed](../condition/grabbed.md) creature or object is released.
 
 > ❗️ **Tearing Recoil**
 >
@@ -12321,9 +12321,9 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 > |-------------|---------------------:|
 > | **📏 Self** |       **🎯 Special** |
 >
-> **Trigger:** A tongue takes damage that doesn't reduce it to 0 Stamina.
+> **Trigger:** A tongue takes damage that doesn't reduce it to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The kingfissure worm deals 5 damage to the creature or object the tongue had grabbed, releases that creature or object, then pulls the damaged tongue back into their mouth.
+> **Effect:** The kingfissure worm deals 5 damage to the creature or object the tongue had [grabbed](../condition/grabbed.md), releases that creature or object, then pulls the damaged tongue back into their mouth.
 
 > ⭐️ **Seismic King**
 >
@@ -12331,17 +12331,17 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ⭐️ **Swallowed**
 >
-> A creature swallowed by the kingfissure worm is restrained and takes 1d6 acid damage at the start of every turn. If the worm takes 25 or more damage in a single round from swallowed creatures, they immediately regurgitate all creatures they have swallowed, who land prone in unoccupied spaces within 3 squares of the kingfissure worm.
+> A creature swallowed by the kingfissure worm is [restrained](../condition/restrained.md) and takes 1d6 acid damage at the start of every turn. If the worm takes 25 or more damage in a single round from swallowed creatures, they immediately regurgitate all creatures they have swallowed, who land [prone](../condition/prone.md) in unoccupied spaces within 3 squares of the kingfissure worm.
 
 > ⭐️ **Titanic Tunneler**
 >
-> The kingfissure worm can burrow through stone. When the worm burrows, they create a stable size 3 tunnel in the squares they move through.
+> The kingfissure worm can [burrow](../movement/burrow.md) through stone. When the worm burrows, they create a stable size 3 tunnel in the squares they move through.
 
 > ⭐️ **Unstoppable Crawler**
 >
-> The kingfissure worm can't be frightened or knocked prone. While the worm is restrained or slowed, they take a −2 penalty to speed instead of suffering those conditions' usual effects on speed.
+> The kingfissure worm can't be [frightened](../condition/frightened.md) or knocked [prone](../condition/prone.md). While the worm is [restrained](../condition/restrained.md) or [slowed](../condition/slowed.md), they take a −2 penalty to speed instead of suffering those conditions' usual effects on speed.
 
-> ☠️ **King's Fissure (Villain Action 1)**
+> ☠️ **King's Fissure ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Weapon**            |                                       **-** |
 > |-----------------------------|--------------------------------------------:|
@@ -12351,19 +12351,19 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Effect:** The area becomes a 10-square-deep fissure in the earth. Each target makes an **Agility test**.
 >
-> - **≤11:** 10 damage; the target falls into the fissure, lands prone, and can't stand (EoT)
-> - **12-16:** 10 damage; the target is knocked prone and left hanging at the edge of the area
-> - **17+:** The target shifts to the nearest unoccupied space outside the area.
+> - **≤11:** 10 damage; the target falls into the fissure, lands [prone](../condition/prone.md), and can't stand (EoT)
+> - **12-16:** 10 damage; the target is knocked [prone](../condition/prone.md) and left hanging at the edge of the area
+> - **17+:** The target [shifts](../movement/shifting.md) to the nearest unoccupied space outside the area.
 
-> ☠️ **Earth Breach (Villain Action 2)**
+> ☠️ **Earth Breach ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Weapon**  |          **-** |
 > |-------------|---------------:|
 > | **📏 Self** | **🎯 Special** |
 >
-> **Effect:** The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked prone. Any creature who is made winded by this damage is swallowed (see Swallowed).
+> **Effect:** The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked [prone](../condition/prone.md). Any creature who is made [winded](../rule/health/winded.md) by this damage is swallowed (see Swallowed).
 
-> ☠️ **Better Out Than In (Villain Action 3)**
+> ☠️ **Better Out Than In ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Weapon** |                                    **-** |
 > |------------------|-----------------------------------------:|
@@ -12371,11 +12371,11 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 acid damage; P < 3 weakened (save ends)
-> - **12-16:** 13 acid damage; P < 4 weakened (save ends)
-> - **17+:** 17 acid damage; P < 5 weakened (save ends)
+> - **≤11:** 8 acid damage; P < 3 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 13 acid damage; P < 4 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 17 acid damage; P < 5 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Each creature swallowed by the worm is regurgitated and automatically subject to the tier 3 outcome, then lands prone in an unoccupied space within 5 squares of the kingfissure worm.
+> **Effect:** Each creature swallowed by the worm is regurgitated and automatically subject to the tier 3 outcome, then lands [prone](../condition/prone.md) in an unoccupied space within 5 squares of the kingfissure worm.
 
 ## Kobolds {data-scc="mcdm.monsters.v1/monster.group/kobolds"}
 
@@ -12417,17 +12417,17 @@ Most kobolds speak Kethaic and can understand Caelian.
 
 ###### Kobold Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.kobolds/kobold-malice"}
 
-At the start of any kobolds's turn, you can spend Malice to activate one of the following features.
+At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Maniple Tactics (3 Malice)**
+> ⭐️ **Maniple Tactics (3 [Malice](../rule/monster/malice.md))**
 >
-> Up to 3 kobolds make a free strike, swaps positions with an adjacent kobold, and then that kobold makes a free strike.
+> Up to 3 kobolds make a [free strike](../feature/common/main-actions/free-strike.md), swaps positions with an [adjacent](../rule/combat/adjacent.md) kobold, and then that kobold makes a [free strike](../feature/common/main-actions/free-strike.md).
 
-> 🌀 **Set the Initiative (5 Malice)**
+> 🌀 **Set the Initiative (5 [Malice](../rule/monster/malice.md))**
 >
 > Two kobolds take their turns in a row.
 
-> ⭐️ **Shield Wall (7 Malice)**
+> ⭐️ **Shield Wall (7 [Malice](../rule/monster/malice.md))**
 >
 > Until the end of the round, all kobolds with Shield? Shield! impose an additional bane on incoming strikes and abilities.
 
@@ -12451,11 +12451,11 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** One ally within 3 squares of the princeps shifts up to 2 squares.
+> **Effect:** One ally within 3 squares of the princeps [shifts](../movement/shifting.md) up to 2 squares.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Sagittarion {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-sagittarion"}
 
@@ -12477,11 +12477,11 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** While adjacent to any ally, the sagittarion gains an edge on this ability.
+> **Effect:** While [adjacent](../rule/combat/adjacent.md) to any ally, the sagittarion gains an edge on this ability.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Tiro {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-tiro"}
 
@@ -12500,14 +12500,14 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 damage
-> - **12-16:** 2 damage; the tiro can shift 1 square
-> - **17+:** 3 damage; the tiro shifts up to 2 squares
+> - **12-16:** 2 damage; the tiro can [shift](../movement/shifting.md) 1 square
+> - **17+:** 3 damage; the tiro [shifts](../movement/shifting.md) up to 2 squares
 >
-> **Effect:** The target can't shift until the start of the tiro's next turn.
+> **Effect:** The target can't [shift](../movement/shifting.md) until the start of the tiro's next turn.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Veles {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-veles"}
 
@@ -12533,7 +12533,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the veles has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the veles has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Adeptus {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-adeptus"}
 
@@ -12573,7 +12573,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Artifex {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-artifex"}
 
@@ -12595,7 +12595,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > - **12-16:** 4 damage; pull 2
 > - **17+:** 5 damage; pull 3
 >
-> **Effect:** If this forced movement triggers a trap that uses a power roll, that roll has a double edge.
+> **Effect:** If this [forced movement](../movement/forced-movement.md) triggers a trap that uses a power roll, that roll has a double edge.
 
 > ⭐️ **Activate Trap**
 >
@@ -12605,11 +12605,11 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Effect:** The trap or terrain object instantly triggers.
 >
-> **3 Malice:** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
+> **3 [Malice](../rule/monster/malice.md):** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the artifex has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the artifex has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Legionary {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-legionary"}
 
@@ -12627,11 +12627,11 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; taunted (EoT)
-> - **12-16:** 4 damage; taunted (EoT)
-> - **17+:** 5 damage; taunted (EoT)
+> - **≤11:** 3 damage; [taunted](../condition/taunted.md) (EoT)
+> - **12-16:** 4 damage; [taunted](../condition/taunted.md) (EoT)
+> - **17+:** 5 damage; [taunted](../condition/taunted.md) (EoT)
 >
-> **3 Malice:** If the legionary is acting as a captain, they and each member of their squad shift up to 2 squares before this ability is used.
+> **3 [Malice](../rule/monster/malice.md):** If the legionary is acting as a [captain](../rule/monster/captain.md), they and each member of their [squad](../rule/monster/squad.md) [shift](../movement/shifting.md) up to 2 squares before this ability is used.
 
 > 🗡 **Shield Bash**
 >
@@ -12641,13 +12641,13 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; push 1; M < 0 prone
-> - **12-16:** 3 damage; push 1; M < 1 prone
-> - **17+:** 4 damage; push 1; M < 2 prone
+> - **≤11:** 2 damage; [push](../movement/forced-movement.md) 1; M < 0 [prone](../condition/prone.md)
+> - **12-16:** 3 damage; [push](../movement/forced-movement.md) 1; M < 1 [prone](../condition/prone.md)
+> - **17+:** 4 damage; [push](../movement/forced-movement.md) 1; M < 2 [prone](../condition/prone.md)
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.
 
 ###### Kobold Signifer {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-signifer"}
 
@@ -12669,25 +12669,25 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally within 10 squares of the signifer can shift up to their speed if they end that shift adjacent to an ally.
+> **Effect:** One ally within 10 squares of the signifer can [shift](../movement/shifting.md) up to their speed if they end that shift [adjacent](../rule/combat/adjacent.md) to an ally.
 >
-> **2+ Malice:** One additional ally can shift for each 2 Malice spent.
+> **2+ [Malice](../rule/monster/malice.md):** One additional ally can [shift](../movement/shifting.md) for each 2 [Malice](../rule/monster/malice.md) spent.
 
-> ❇️ **Glory to the Legion (5 Malice)**
+> ❇️ **Glory to the Legion (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |                 **Maneuver** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target regains 5 Stamina.
+> **Effect:** Each target regains 5 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
 
 > ⭐️ **Upholding High Standards**
 >
-> Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold minion can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.
+> Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold [minion](../rule/organization/minion.md) can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.
 
 ###### Kobold Venator {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/kobold-venator"}
 
@@ -12706,22 +12706,22 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 1 restrained (save ends)
-> - **17+:** 7 damage; M < 2 restrained (save ends)
+> - **12-16:** 6 damage; M < 1 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** 7 damage; M < 2 [restrained](../condition/restrained.md) (save ends)
 >
-> **3 Malice:** The venator lights their net on fire, and a target restrained this way takes 2 fire damage at the start of each of their turns.
+> **3 [Malice](../rule/monster/malice.md):** The venator lights their net on fire, and a target [restrained](../condition/restrained.md) this way takes 2 fire damage at the start of each of their turns.
 
 > ⭐️ **Lost in the Crowd**
 >
-> While the venator is adjacent to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
+> While the venator is [adjacent](../rule/combat/adjacent.md) to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
 
 > ⭐️ **Not What I Seem**
 >
-> The venator starts the encounter disguised as a minion. They have a double edge on their first main action of the encounter, after which they reveal themself.
+> The venator starts the encounter disguised as a [minion](../rule/organization/minion.md). They have a double edge on their first main action of the encounter, after which they reveal themself.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.
 
 ###### Trained Gummy Brick {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/trained-gummy-brick"}
 
@@ -12739,13 +12739,13 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 acid damage; A < 0 dazed (save ends)
-> - **12-16:** 10 acid damage; A < 1 dazed (save ends)
-> - **17+:** 14 acid damage; A < 2 restrained (save ends)
+> - **≤11:** 7 acid damage; A < 0 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 10 acid damage; A < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 14 acid damage; A < 2 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** A size 2 or smaller creature restrained this way is pulled into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer restrained moves to the nearest unoccupied space adjacent to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
+> **Effect:** A size 2 or smaller creature [restrained](../condition/restrained.md) this way is [pulled](../movement/forced-movement.md) into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer [restrained](../condition/restrained.md) moves to the nearest unoccupied space [adjacent](../rule/combat/adjacent.md) to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
 >
-> **2 Malice:** This ability targets one additional target.
+> **2 [Malice](../rule/monster/malice.md):** This ability targets one additional target.
 
 > ❗️ **You Didn't Pay Attention!**
 >
@@ -12753,7 +12753,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > |-------------|------------------------------:|
 > | **📏 Self** | **🎯 One creature or object** |
 >
-> **Trigger:** A creature moves or is force moved adjacent to the brick.
+> **Trigger:** A creature moves or is [force moved](../movement/forced-movement.md) [adjacent](../rule/combat/adjacent.md) to the brick.
 >
 > **Effect:** The brick uses Engulf against the triggering creature and has a double edge.
 
@@ -12777,13 +12777,13 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; M < 1 weakened (save ends)
-> - **12-16:** 10 damage; M < 1 weakened (save ends)
-> - **17+:** 13 damage; M < 1 weakened (save ends)
+> - **≤11:** 7 damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 10 damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 13 damage; M < 1 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Each ally adjacent to a target can make a free strike against that target.
+> **Effect:** Each ally [adjacent](../rule/combat/adjacent.md) to a target can make a [free strike](../feature/common/main-actions/free-strike.md) against that target.
 >
-> **3 Malice:** While weakened this way, a target is also restrained.
+> **3 [Malice](../rule/monster/malice.md):** While [weakened](../condition/weakened.md) this way, a target is also [restrained](../condition/restrained.md).
 
 > 🏹 **Concentrate All Fire on That Hero!**
 >
@@ -12801,39 +12801,39 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.
 >
-> **Effect:** Each target shifts up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
+> **Effect:** Each target [shifts](../movement/shifting.md) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> ☠️ **Firetail Pilum (Villain Action 1)**
+> ☠️ **Firetail Pilum ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **-**          |          **-** |
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** The centurion moves up to their speed, ignoring difficult terrain, and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While weakened by that ability, each target takes 2 fire damage at the start of each of their turns.
+> **Effect:** The centurion moves up to their speed, ignoring [difficult terrain](../movement/difficult-terrain.md), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](../condition/weakened.md) by that ability, each target takes 2 fire damage at the start of each of their turns.
 
-> ☠️ **Boom Pilum! (Villain Action 2)**
+> ☠️ **Boom Pilum! ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Weapon, Ranged** |                         **-** |
 > |--------------------------|------------------------------:|
 > | **📏 5 cube within 10**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then pushed up to 3 squares.
+> **Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](../movement/forced-movement.md) up to 3 squares.
 
-> ☠️ **Are You Not Entertained?! (Villain Action 3)**
+> ☠️ **Are You Not Entertained?! ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area**        |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** A target who has P < 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2.
+> **Effect:** A target who has P < 2 is [taunted](../condition/taunted.md) (save ends). Each ally within distance can make a [free strike](../feature/common/main-actions/free-strike.md). Additionally, until the end of the encounter, the centurion has damage immunity 2.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies.
+> While [adjacent](../rule/combat/adjacent.md) to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies.
 
 ###### Shieldscale Drangolin {data-scc="mcdm.monsters.v1/monster.kobolds.statblock/shieldscale-drangolin"}
 
@@ -12863,9 +12863,9 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > |------------------------|----------------:|
 > | **📏 Self; see below** |     **🎯 Self** |
 >
-> **Effect:** The drangolin shifts up to their speed and uses Fiery Claws against each creature who comes adjacent to them during the shift. The drangolin makes one power roll against all targets.
+> **Effect:** The drangolin [shifts](../movement/shifting.md) up to their speed and uses Fiery Claws against each creature who comes [adjacent](../rule/combat/adjacent.md) to them during the shift. The drangolin makes one power roll against all targets.
 
-> ❇️ **Erupt (3 Malice)**
+> ❇️ **Erupt (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                  **Main action** |
 > |------------------|---------------------------------:|
@@ -12875,17 +12875,17 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; push 1; A < 0 prone
-> - **12-16:** 8 damage; push 3; A < 0 prone
-> - **17+:** 11 damage; push 5; A < 0 prone
+> - **≤11:** 6 damage; [push](../movement/forced-movement.md) 1; A < 0 [prone](../condition/prone.md)
+> - **12-16:** 8 damage; [push](../movement/forced-movement.md) 3; A < 0 [prone](../condition/prone.md)
+> - **17+:** 11 damage; [push](../movement/forced-movement.md) 5; A < 0 [prone](../condition/prone.md)
 
 > ⭐️ **Ashen Cloud**
 >
-> Any ally adjacent to the drangolin has concealment.
+> Any ally [adjacent](../rule/combat/adjacent.md) to the drangolin has concealment.
 
 > ⭐️ **Burrow Bond**
 >
-> When the drangolin burrows, each adjacent size 1S or smaller ally can move with them.
+> When the drangolin burrows, each [adjacent](../rule/combat/adjacent.md) size 1S or smaller ally can move with them.
 
 ## Lightbenders {data-scc="mcdm.monsters.v1/monster.group/lightbenders"}
 
@@ -12905,17 +12905,17 @@ Though lightbenders are typically solitary creatures, they sometimes cross into 
 
 ###### Lightbender Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.lightbenders/lightbender-malice"}
 
-At the start of any lightbender's turn, you can spend Malice to activate one of the following features.
+At the start of any lightbender's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Silent Prowl (3 Malice)**
+> ⭐️ **Silent Prowl (3 [Malice](../rule/monster/malice.md))**
 >
-> Each lightbender acting this turn can teleport up to their speed as a move action and attempt to hide as a free maneuver, all until the start of their next turn.
+> Each lightbender acting this turn can [teleport](../movement/teleport.md) up to their speed as a move action and attempt to hide as a free maneuver, all until the start of their next turn.
 
-> ⭐️ **Duplicate (5 Malice)**
+> ⭐️ **Duplicate (5 [Malice](../rule/monster/malice.md))**
 >
-> Each lightbender acting this turn can create a duplicate lightbender in an unoccupied space adjacent to them. The duplicate is indistinguishable from the lightbender except by supernatural means, has 1 Stamina, and has the lightbender's speed. A duplicate acts on the lightbender's turn but can take only move actions. Once per round before or after using an ability, a lightbender can trade places with any lightbender duplicate.
+> Each lightbender acting this turn can create a duplicate lightbender in an unoccupied space [adjacent](../rule/combat/adjacent.md) to them. The duplicate is indistinguishable from the lightbender except by supernatural means, has 1 [Stamina](../rule/health/stamina.md), and has the lightbender's speed. A duplicate acts on the lightbender's turn but can take only move actions. Once per round before or after using an ability, a lightbender can trade places with any lightbender duplicate.
 
-> ❇️ **Everything the Light Touches (7 Malice)**
+> ❇️ **Everything the Light Touches (7 [Malice](../rule/monster/malice.md))**
 >
 > Each lightbender in the encounter shines radiantly, distorting the senses of any enemy within 5 squares of them. Each affected enemy makes a **Reason test**.
 >
@@ -12954,12 +12954,12 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 > **Power Roll + 2:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 12 damage; M < 1 bleeding (save ends)
-> - **17+:** 15 damage; M < 2 bleeding (save ends)
+> - **12-16:** 12 damage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 15 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** While bleeding this way, the target takes a bane on tests to search for the lightbender while they are hidden.
+> **Effect:** While [bleeding](../condition/bleeding.md) this way, the target takes a bane on tests to search for the lightbender while they are hidden.
 
-> ❇️ **Hypnotic Mane (5 Malice)**
+> ❇️ **Hypnotic Mane (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
@@ -12967,11 +12967,11 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 dazed (save ends)
-> - **12-16:** I < 1 dazed (save ends)
-> - **17+:** I < 2 dazed (save ends)
+> - **≤11:** I < 0 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** I < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** I < 2 [dazed](../condition/dazed.md) (save ends)
 >
-> **Effect:** While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends.
+> **Effect:** While [dazed](../condition/dazed.md) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](../condition/dazed.md) condition ends.
 
 > ❗️ **Stalker's Afterimage**
 >
@@ -12981,11 +12981,11 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > **Trigger:** The lightbender takes damage from a strike.
 >
-> **Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver.
+> **Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../movement/teleport.md) up to 5 squares. If they [teleport](../movement/teleport.md) into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver.
 
 > ⭐️ **Avoidance**
 >
-> Any effect on the lightbender that would be ended by a saving throw instead ends automatically at the end of their next turn.
+> Any effect on the lightbender that would be ended by a [saving throw](../rule/general/saving-throw.md) instead ends automatically at the end of their next turn.
 
 ###### Lightbender Pouncer {data-scc="mcdm.monsters.v1/monster.lightbenders.statblock/lightbender-pouncer"}
 
@@ -13004,10 +13004,10 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; A < 1 prone
-> - **17+:** 14 damage; A < 2 prone
+> - **12-16:** 11 damage; A < 1 [prone](../condition/prone.md)
+> - **17+:** 14 damage; A < 2 [prone](../condition/prone.md)
 >
-> **Effect:** The pouncer can make a free strike against each target they knock prone.
+> **Effect:** The pouncer can make a [free strike](../feature/common/main-actions/free-strike.md) against each target they knock [prone](../condition/prone.md).
 
 > ❇️ **Sparkling Tail Whip**
 >
@@ -13023,7 +13023,7 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > **Effect:** A dazzled target takes a bane on strikes and has line of effect only within 1 square.
 
-> 🔳 **Illusory Feint (5 Malice)**
+> 🔳 **Illusory Feint (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > |-------------------------|------------------------------:|
@@ -13031,11 +13031,11 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 dazed (save ends)
-> - **12-16:** I < 1 dazed (save ends)
-> - **17+:** I < 2 dazed (save ends)
+> - **≤11:** I < 0 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** I < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** I < 2 [dazed](../condition/dazed.md) (save ends)
 >
-> **Effect:** While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends.
+> **Effect:** While [dazed](../condition/dazed.md) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](../condition/dazed.md) condition ends.
 
 > ❗️ **Striking Afterimage**
 >
@@ -13045,11 +13045,11 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > **Trigger:** The pouncer takes damage from a strike.
 >
-> **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
+> **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../movement/teleport.md) up to 5 squares. If they [teleport](../movement/teleport.md) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
 
 > ⭐️ **Avoidance**
 >
-> Any effect on the pouncer that would be ended by a saving throw instead ends automatically at the end of their next turn.
+> Any effect on the pouncer that would be ended by a [saving throw](../rule/general/saving-throw.md) instead ends automatically at the end of their next turn.
 
 ## Lizardfolk {data-scc="mcdm.monsters.v1/monster.group/lizardfolk"}
 
@@ -13088,9 +13088,9 @@ Most lizardfolk speak Caelian and their own dialect of Khamish.
 
 ###### Lizardfolk Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.lizardfolk/lizardfolk-malice"}
 
-At the start of any lizardfolk's turn, you can spend Malice to activate one of the following features.
+At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 🔳 **Net Trap (3 Malice)**
+> 🔳 **Net Trap (3 [Malice](../rule/monster/malice.md))**
 >
 >  **Area, Ranged, Weapon** |   **Maneuver** |
 > |--------------------------|---------------:|
@@ -13098,21 +13098,21 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Effect:** A lizardfolk acting this turn sets up a net trap into the area. The first time an enemy steps into a square with a net trap, they make an **Agility test**. If the creature was unaware of the trap, they take a bane on the test.
 >
-> - **≤11:** Restrained (save ends).
-> - **12-16:** Restrained (Eot).
+> - **≤11:** [Restrained](../condition/restrained.md) (save ends).
+> - **12-16:** [Restrained](../condition/restrained.md) (Eot).
 > - **17+:** No effect.
 >
-> **Effect:** Any creature not also restrained by a net trap who is adjacent to a creature restrained by the trap can free them as a maneuver.
+> **Effect:** Any creature not also [restrained](../condition/restrained.md) by a net trap who is [adjacent](../rule/combat/adjacent.md) to a creature [restrained](../condition/restrained.md) by the trap can free them as a maneuver.
 
-> 🔳 **Water Pit (5 Malice)**
+> 🔳 **Water Pit (5 [Malice](../rule/monster/malice.md))**
 >
-> A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary Stamina, regrows their tail if applicable, and ends one effect on them that can be ended by a saving throw. While adjacent to the pit, any creature who can burrow or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
+> A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary [Stamina](../rule/health/stamina.md), regrows their tail if applicable, and ends one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). While [adjacent](../rule/combat/adjacent.md) to the pit, any creature who can [burrow](../movement/burrow.md) or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
 >
-> - **≤11:** The creature falls into the pit and is knocked prone.
+> - **≤11:** The creature falls into the pit and is knocked [prone](../condition/prone.md).
 > - **12-16:** The creature fails to empty the pit.
 > - **17+:** The pit empties of water.
 
-> 🌀 **Flood the Shores (7 Malice)**
+> 🌀 **Flood the Shores (7 [Malice](../rule/monster/malice.md))**
 >
 > Waist-high water floods the entire encounter map. Any lizardfolk submerged in water gains an edge on abilities and doubles their speed while swimming. If there are no open water pits on the encounter map, the water drains away at the end of the round.
 
@@ -13133,12 +13133,12 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 damage
-> - **12-16:** 2 damage; slide 2
-> - **17+:** 3 damage; slide 2
+> - **12-16:** 2 damage; [slide](../movement/forced-movement.md) 2
+> - **17+:** 3 damage; [slide](../movement/forced-movement.md) 2
 
 > ⭐️ **Reptilian Escape**
 >
-> While the grunt has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the grunt has a tail, whenever they are [grabbed](../condition/grabbed.md), [prone](../condition/prone.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../movement/shifting.md) up to 2 squares.
 
 ###### Lizardfolk Shellguard {data-scc="mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-shellguard"}
 
@@ -13164,7 +13164,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 
 > ⭐️ **Reptilian Escape**
 >
-> While the shellguard has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the shellguard has a tail, whenever they are [grabbed](../condition/grabbed.md), [prone](../condition/prone.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../movement/shifting.md) up to 2 squares.
 
 ###### Lizardfolk Tonguer {data-scc="mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-tonguer"}
 
@@ -13182,15 +13182,15 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; pull 1, or the tonguer can shift 1 square toward the target
-> - **12-16:** 4 damage; pull 2, or the tonguer shifts up to 2 squares toward the target
-> - **17+:** 5 damage; pull 3, or the tonguer shifts up to 3 squares toward the target
+> - **≤11:** 2 damage; [pull](../movement/forced-movement.md) 1, or the tonguer can [shift](../movement/shifting.md) 1 square toward the target
+> - **12-16:** 4 damage; [pull](../movement/forced-movement.md) 2, or the tonguer [shifts](../movement/shifting.md) up to 2 squares toward the target
+> - **17+:** 5 damage; [pull](../movement/forced-movement.md) 3, or the tonguer [shifts](../movement/shifting.md) up to 3 squares toward the target
 >
-> **Effect:** If the forced movement or the shift leaves the target adjacent to the tonguer, the target is also grabbed.
+> **Effect:** If the [forced movement](../movement/forced-movement.md) or the [shift](../movement/shifting.md) leaves the target [adjacent](../rule/combat/adjacent.md) to the tonguer, the target is also [grabbed](../condition/grabbed.md).
 
 > ⭐️ **Reptilian Escape**
 >
-> While the tonguer has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the tonguer has a tail, whenever they are [grabbed](../condition/grabbed.md), [prone](../condition/prone.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../movement/shifting.md) up to 2 squares.
 
 ###### Lizardfolk Bloodeye {data-scc="mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-bloodeye"}
 
@@ -13208,11 +13208,11 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; A < 0 restrained (save ends)
-> - **12-16:** 7 damage; A < 1 restrained (save ends)
-> - **17+:** 9 damage; A < 2 restrained (save ends)
+> - **≤11:** 5 damage; A < 0 [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 7 damage; A < 1 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** 9 damage; A < 2 [restrained](../condition/restrained.md) (save ends)
 
-> 🏹 **Bloodshot (2 Malice)**
+> 🏹 **Bloodshot (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -13226,7 +13226,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 
 > ⭐️ **Reptilian Escape**
 >
-> While the bloodeye has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the bloodeye has a tail, whenever they are [grabbed](../condition/grabbed.md), [prone](../condition/prone.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../movement/shifting.md) up to 2 squares.
 
 ###### Lizardfolk Scaletooth {data-scc="mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-scaletooth"}
 
@@ -13248,9 +13248,9 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 > - **12-16:** 9 damage
 > - **17+:** 12 damage; A < 2 bleeding (save ends)
 >
-> **Effect:** If the scaletooth has the target grabbed, the potency of this ability increases by 1.
+> **Effect:** If the scaletooth has the target [grabbed](../condition/grabbed.md), the [potency](../rule/character/potency.md) of this ability increases by 1.
 
-> 🗡 **Tail Whip (2 Malice)**
+> 🗡 **Tail Whip (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -13258,13 +13258,13 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; slide 1
-> - **12-16:** 8 damage; slide 2; M < 1 grabbed if within 2 squares of the scaletooth
-> - **17+:** 10 damage; slide 3; M < 2 grabbed if within 2 squares of the scaletooth
+> - **≤11:** 5 damage; [slide](../movement/forced-movement.md) 1
+> - **12-16:** 8 damage; [slide](../movement/forced-movement.md) 2; M < 1 [grabbed](../condition/grabbed.md) if within 2 squares of the scaletooth
+> - **17+:** 10 damage; [slide](../movement/forced-movement.md) 3; M < 2 [grabbed](../condition/grabbed.md) if within 2 squares of the scaletooth
 
 > ⭐️ **Reptilian Escape**
 >
-> While the scaletooth has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the scaletooth has a tail, whenever they are [grabbed](../condition/grabbed.md), [prone](../condition/prone.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../movement/shifting.md) up to 2 squares.
 
 ###### Lizardfolk Skyterror {data-scc="mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-skyterror"}
 
@@ -13284,9 +13284,9 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > - **≤11:** 5 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; prone
+> - **17+:** 9 damage; [prone](../condition/prone.md)
 >
-> **Effect:** If the skyterror is flying, they shift up to 4 squares.
+> **Effect:** If the skyterror is [flying](../movement/fly.md), they [shift](../movement/shifting.md) up to 4 squares.
 
 > 🏹 **Poison Blow Dart**
 >
@@ -13296,19 +13296,19 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; M < 0 weakened (save ends)
-> - **12-16:** 5 damage; M < 1 weakened (save ends)
-> - **17+:** 7 damage; M < 2 weakened (save ends)
+> - **≤11:** 3 damage; M < 0 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 5 damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 7 damage; M < 2 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Any creature who ends their turn adjacent to a target weakened this way is weakened until the end of their next turn.
+> **Effect:** Any creature who ends their turn [adjacent](../rule/combat/adjacent.md) to a target [weakened](../condition/weakened.md) this way is [weakened](../condition/weakened.md) until the end of their next turn.
 
 > ⭐️ **Glider**
 >
-> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can fly until the end of their next turn.
+> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can [fly](../movement/fly.md) until the end of their next turn.
 
 > ⭐️ **Reptilian Escape**
 >
-> While the skyterror has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the skyterror has a tail, whenever they are [grabbed](../condition/grabbed.md), [prone](../condition/prone.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../movement/shifting.md) up to 2 squares.
 
 ###### Lizardfolk Deathrex {data-scc="mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-deathrex"}
 
@@ -13326,13 +13326,13 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; pull 1; A < 1 bleeding (save ends)
-> - **12-16:** 10 damage; pull 1; A < 2 bleeding (save ends)
-> - **17+:** 12 damage; pull 2; A < 3 bleeding (save ends)
+> - **≤11:** 7 damage; [pull](../movement/forced-movement.md) 1; A < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 10 damage; [pull](../movement/forced-movement.md) 1; A < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 12 damage; [pull](../movement/forced-movement.md) 2; A < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** One target adjacent to the deathrex is grabbed in the deathrex's mouth.
+> **1 [Malice](../rule/monster/malice.md):** One target [adjacent](../rule/combat/adjacent.md) to the deathrex is [grabbed](../condition/grabbed.md) in the deathrex's mouth.
 
-> 🗡 **Death Roll (3 Malice)**
+> 🗡 **Death Roll (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |                       **Main action** |
 > |---------------------------|--------------------------------------:|
@@ -13340,11 +13340,11 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; M < 1 dazed (save ends)
-> - **12-16:** 12 damage; M < 2 dazed (save ends)
-> - **17+:** 15 damage; M < 3 dazed (save ends)
+> - **≤11:** 8 damage; M < 1 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 12 damage; M < 2 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 15 damage; M < 3 [dazed](../condition/dazed.md) (save ends)
 >
-> **Effect:** The target is no longer grabbed by the deathrex, and the deathrex slides them up to 5 squares.
+> **Effect:** The target is no longer [grabbed](../condition/grabbed.md) by the deathrex, and the deathrex [slides](../movement/forced-movement.md) them up to 5 squares.
 
 > 👤 **Trundle**
 >
@@ -13352,7 +13352,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The deathrex moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.
+> **Effect:** The deathrex moves up to their speed. They can make a [free strike](../feature/common/main-actions/free-strike.md) against each creature who makes an opportunity attack against them during this movement.
 
 > ❗️ **Swat the Fly**
 >
@@ -13360,37 +13360,37 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A creature or object within distance moves or shifts away from the deathrex.
+> **Trigger:** A creature or object within distance moves or [shifts](../movement/shifting.md) away from the deathrex.
 >
-> **Effect:** The deathrex slides the target up to 5 squares.
+> **Effect:** The deathrex [slides](../movement/forced-movement.md) the target up to 5 squares.
 
 > ⭐️ **Rex Reptilian Escape**
 >
-> While the deathrex has a tail, whenever they are affected by an effect that can be ended by a saving throw or that ends at the end of their turn, they can lose their tail to immediately end that effect, then shift up to 2 squares.
+> While the deathrex has a tail, whenever they are affected by an effect that can be ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their turn, they can lose their tail to immediately end that effect, then [shift](../movement/shifting.md) up to 2 squares.
 
-> ☠️ **Snack Attack (Villain Action 1)**
+> ☠️ **Snack Attack ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target moves up to their speed and can make a free strike. Each target gains temporary Stamina equal to the damage they deal.
+> **Effect:** Each target moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md). Each target gains temporary [Stamina](../rule/health/stamina.md) equal to the damage they deal.
 
-> ☠️ **Shed Some Skin (Villain Action 2)**
+> ☠️ **Shed Some Skin ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The deathrex shifts up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 Stamina and no villain actions.
+> **Effect:** The deathrex [shifts](../movement/shifting.md) up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 [Stamina](../rule/health/stamina.md) and no [villain actions](../rule/monster/villain-action.md).
 
-> ☠️ **Thresher Thrasher (Villain Action 3)**
+> ☠️ **Thresher Thrasher ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes adjacent to a target or starts their turn there, the target can make a free strike against them.
+> **Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes [adjacent](../rule/combat/adjacent.md) to a target or starts their turn there, the target can make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
 ## Manticore {data-scc="mcdm.monsters.v1/monster.group/manticore"}
 
@@ -13416,25 +13416,25 @@ Most manticores can mimic Caelian and one language commonly spoken in the region
 
 At the start of any manticore's turn, you can spend Malice to activate one of the following features.
 
-> 🌀 **Uncanny Mimicry (3 Malice)**
+> 🌀 **Uncanny Mimicry (3 [Malice](../rule/monster/malice.md))**
 >
-> The manticore uses their mimicry in an attempt to unnerve one creature within their line of effect. If the target has R < 4, they take a bane on power rolls against the manticore (save ends). Each time this feature is used against the same target during the encounter, its potency decreases by 2.
+> The manticore uses their mimicry in an attempt to unnerve one creature within their line of effect. If the target has R < 4, they take a bane on power rolls against the manticore (save ends). Each time this feature is used against the same target during the encounter, its [potency](../rule/character/potency.md) decreases by 2.
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](../rule/monster/malice.md))**
 >
-> The manticore takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The manticore takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
-> 🌀 **Desperate Howl (5 Malice)**
+> 🌀 **Desperate Howl (5 [Malice](../rule/monster/malice.md))**
 >
 > The manticore lets out an unnerving cry. Each enemy within the manticore's line of effect makes an **Intuition test**.
 >
-> - **≤11:** Frightened (save ends)
-> - **12-16:** Frightened (EoT)
+> - **≤11:** [Frightened](../condition/frightened.md) (save ends)
+> - **12-16:** [Frightened](../condition/frightened.md) (EoT)
 > - **17+:** No effect.
 
-> ❇️ **Barrage of Barbs (7 Malice)**
+> ❇️ **Barrage of Barbs (7 [Malice](../rule/monster/malice.md))**
 >
-> The manticore sprays tail spikes across the ground within 5 squares of them. Each enemy in that area who has A < 3 is bleeding (save ends). Additionally, the area is difficult terrain, and any enemy takes 3 poison damage for each square of the area they enter. An enemy who takes 9 poison damage this way on one turn is weakened until the end of the encounter.
+> The manticore sprays tail spikes across the ground within 5 squares of them. Each enemy in that area who has A < 3 is [bleeding](../condition/bleeding.md) (save ends). Additionally, the area is [difficult terrain](../movement/difficult-terrain.md), and any enemy takes 3 poison damage for each square of the area they enter. An enemy who takes 9 poison damage this way on one turn is [weakened](../condition/weakened.md) until the end of the encounter.
 
 ###### Manticore {data-scc="mcdm.monsters.v1/monster.manticore.statblock/manticore"}
 
@@ -13446,7 +13446,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 
 >☠️ **Solo Monster**
 >
->**End Effect:** At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+>[**End Effect:**](../rule/monster/end-effect.md) At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 >**Solo Turns:** The manticore can take two turns each round. They can't take turns consecutively.
 
@@ -13454,7 +13454,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > Whenever the manticore deals damage to a creature, they don't provoke opportunity attacks from that creature during that turn.
 
-> 🗡 **Carnivorous Bite (Signature Ability)**
+> 🗡 **Carnivorous Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -13462,11 +13462,11 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; A < 2 bleeding (save ends)
-> - **12-16:** 17 damage; A < 3 bleeding (save ends)
-> - **17+:** 21 damage; A < 4 bleeding (save ends)
+> - **≤11:** 12 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 17 damage; A < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 21 damage; A < 4 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** If the target is frightened, this ability gains an edge.
+> **Effect:** If the target is [frightened](../condition/frightened.md), this ability gains an edge.
 
 > 🏹 **Tail Spike**
 >
@@ -13477,10 +13477,10 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 damage; M < 2 4 poison damage
-> - **12-16:** 11 damage; M < 3 4 poison damage, weakened (save ends)
-> - **17+:** 14 damage; M < 4 8 poison damage, weakened (save ends)
+> - **12-16:** 11 damage; M < 3 4 poison damage, [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 14 damage; M < 4 8 poison damage, [weakened](../condition/weakened.md) (save ends)
 >
-> **1 Malice:** While weakened this way, a target takes 1d6 poison damage at the start of each of their turns.
+> **1 [Malice](../rule/monster/malice.md):** While [weakened](../condition/weakened.md) this way, a target takes 1d6 poison damage at the start of each of their turns.
 
 > 🗡 **Harrying Claws**
 >
@@ -13490,11 +13490,11 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Slide 1; A < 2 3 damage
-> - **12-16:** Slide 2; A < 3 5 damage
-> - **17+:** Slide 4; A < 4 7 damage
+> - **≤11:** [Slide](../movement/forced-movement.md) 1; A < 2 3 damage
+> - **12-16:** [Slide](../movement/forced-movement.md) 2; A < 3 5 damage
+> - **17+:** [Slide](../movement/forced-movement.md) 4; A < 4 7 damage
 
-> ❗️ **Reflexive Instinct (2 Malice)**
+> ❗️ **Reflexive Instinct (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged**       |           **Triggered action** |
 > |------------------|-------------------------------:|
@@ -13502,9 +13502,9 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > **Trigger:** A creature within distance deals damage to the manticore.
 >
-> **Effect:** The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target.
+> **Effect:** The manticore [shifts](../movement/shifting.md) up to 5 squares into the air, then can use Tail Spike against the target.
 
-> ☠️ **Trumpeting Howl (Villain Action 1)**
+> ☠️ **Trumpeting Howl ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -13512,25 +13512,25 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)
-> - **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)
-> - **17+:** Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)
+> - **≤11:** [Frightened](../condition/frightened.md) (EoT); if the target has I < 2 they are instead [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** [Frightened](../condition/frightened.md) (EoT); if the target has I < 3 they are instead [frightened](../condition/frightened.md) (save ends)
+> - **17+:** [Frightened](../condition/frightened.md) (EoT); if the target has I < 4 they are instead [dazed](../condition/dazed.md) (save ends)
 
-> ☠️ **Cornered Predator (Villain Action 2)**
+> ☠️ **Cornered Predator ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability.
+> **Effect:** The manticore [shifts](../movement/shifting.md) up to their speed, then can use Tail Spike against each enemy within distance of that ability.
 
-> ☠️ **Debilitating Poison (Villain Action 3)**
+> ☠️ **Debilitating Poison ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.
+> **Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against [weakened](../condition/weakened.md) creatures. Additionally, any creature [weakened](../condition/weakened.md) by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.
 
 ###### Manticore Treasures
 
@@ -13583,7 +13583,7 @@ Medusas can speak any language they knew before they were cursed. Many of them s
 
 At the start of a medusa's turn, you can spend Malice to activate one of the following features.
 
-> 🏹 **Weakening Glare (4 Malice)**
+> 🏹 **Weakening Glare (4 [Malice](../rule/monster/malice.md))**
 >
 > | **- Magic, Ranged, Strike** |     **Main action** |
 > |-----------------------------|--------------------:|
@@ -13591,15 +13591,15 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 damage; weakened (EoT)
-> - **12-16:** 10 damage; weakened (EoT)
-> - **17+:** 12 damage; weakened (save ends)
+> - **≤11:** 6 damage; [weakened](../condition/weakened.md) (EoT)
+> - **12-16:** 10 damage; [weakened](../condition/weakened.md) (EoT)
+> - **17+:** 12 damage; [weakened](../condition/weakened.md) (save ends)
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](../rule/monster/malice.md))**
 >
-> The medusa takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The medusa takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
-> 🏹 **Ssstop and Lisssten (5 Malice)**
+> 🏹 **Ssstop and Lisssten (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |        **Main action** |
 > |-------------------|-----------------------:|
@@ -13611,14 +13611,14 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 > - **12-16:** I < 3 the target is charmed
 > - **17+:** I < 4 the target is charmed
 >
-> **Effect:** At a time of the medusa's choosing, a charmed creature moves up to their speed and makes a free strike against an enemy of the medusa's choice as a free triggered action. The creature is then no longer charmed.
+> **Effect:** At a time of the medusa's choosing, a charmed creature moves up to their speed and makes a [free strike](../feature/common/main-actions/free-strike.md) against an enemy of the medusa's choice as a free triggered action. The creature is then no longer charmed.
 
-> 🔳 **Shatter Victims (7 Malice)**
+> 🔳 **Shatter Victims (7 [Malice](../rule/monster/malice.md))**
 >
-> The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy restrained or slowed by the medusa's Petrify ability has a double bane on the test.
+> The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](../condition/restrained.md) or [slowed](../condition/slowed.md) by the medusa's Petrify ability has a double bane on the test.
 >
-> - **≤11:** 12 damage; vertical push 3; bleeding (save ends)
-> - **12-16:** 10 damage; vertical push 3
+> - **≤11:** 12 damage; vertical [push](../movement/forced-movement.md) 3; [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 10 damage; vertical [push](../movement/forced-movement.md) 3
 > - **17+:** 6 damage
 
 ###### Medusa {data-scc="mcdm.monsters.v1/monster.medusa.statblock/medusa"}
@@ -13631,11 +13631,11 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the medusa can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> [**End Effect:**](../rule/monster/end-effect.md) At the end of each of their turns, the medusa can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The medusa can take two turns each round. They can't take turns consecutively.
 
-> 🗡 **Snake Bites (Signature Ability)**
+> 🗡 **Snake Bites ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -13643,11 +13643,11 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; M < 2 slowed (save ends)
-> - **12-16:** 16 damage; M < 3 slowed (save ends)
-> - **17+:** 19 damage; M < 4 slowed (save ends)
+> - **≤11:** 11 damage; M < 2 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 16 damage; M < 3 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 19 damage; M < 4 [slowed](../condition/slowed.md) (save ends)
 
-> 🏹 **Damning Gaze (Signature Ability)**
+> 🏹 **Damning Gaze ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -13655,13 +13655,13 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; push 3
-> - **12-16:** 16 damage; push 5
-> - **17+:** 19 damage; push 7
+> - **≤11:** 11 damage; [push](../movement/forced-movement.md) 3
+> - **12-16:** 16 damage; [push](../movement/forced-movement.md) 5
+> - **17+:** 19 damage; [push](../movement/forced-movement.md) 7
 >
-> **3 Malice:** The medusa targets two additional creatures or objects.
+> **3 [Malice](../rule/monster/malice.md):** The medusa targets two additional creatures or objects.
 
-> ❇️ **Petrify (5 Malice)**
+> ❇️ **Petrify (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -13669,11 +13669,11 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** M < 2 restrained (save ends)
-> - **12-16:** M < 3 restrained (save ends)
-> - **17+:** Slowed (save ends); or if M < 4 restrained (save ends)
+> - **≤11:** M < 2 [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** M < 3 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** [Slowed](../condition/slowed.md) (save ends); or if M < 4 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** A target with cover reduces the potency by 1, while a slowed target increases the potency by 1. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified.
+> **Effect:** A target with cover reduces the [potency](../rule/character/potency.md) by 1, while a [slowed](../condition/slowed.md) target increases the [potency](../rule/character/potency.md) by 1. A target [restrained](../condition/restrained.md) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](../condition/restrained.md) this way is petrified.
 
 > 👤 **Nimble Escape**
 >
@@ -13681,9 +13681,9 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The medusa shifts up to 3 squares and can attempt to hide even if observed.
+> **Effect:** The medusa [shifts](../movement/shifting.md) up to 3 squares and can attempt to hide even if observed.
 
-> ❗️ **Venomous Spit (2 Malice)**
+> ❗️ **Venomous Spit (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee**      |           **Triggered action** |
 > |----------------|-------------------------------:|
@@ -13699,29 +13699,29 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > ⭐️ **Cunning Edge**
 >
-> The medusa gains an edge on power rolls against any creature who is restrained or slowed by Petrify.
+> The medusa gains an edge on power rolls against any creature who is [restrained](../condition/restrained.md) or [slowed](../condition/slowed.md) by Petrify.
 
 > ⭐️ **Many Peering Eyes**
 >
 > The medusa can't be flanked.
 
-> ☠️ **Mass Petrify (Villain Action 1)**
+> ☠️ **Mass Petrify ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Magic, Ranged** |             **-** |
 > |-------------------|------------------:|
 > | **📏 Ranged 50**  | **🎯 Each enemy** |
 >
-> **Effect:** The medusa can use Petrify against each target without spending Malice. A target who doesn't have cover increases the potency by 1.
+> **Effect:** The medusa can use Petrify against each target without spending [Malice](../rule/monster/malice.md). A target who doesn't have cover increases the [potency](../rule/character/potency.md) by 1.
 
-> ☠️ **Serpent Wings (Villain Action 2)**
+> ☠️ **Serpent Wings ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The medusa temporarily manifests wings and flies up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.
+> **Effect:** The medusa temporarily manifests wings and [flies](../movement/fly.md) up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.
 
-> ☠️ **Stone Puppets (Villain Action 3)**
+> ☠️ **Stone Puppets ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |          **-** |
 > |-----------------|---------------:|
@@ -13729,11 +13729,11 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 8 acid damage; P < 3 weakened (save ends)
-> - **12-16:** 13 acid damage; P < 4 weakened (save ends)
-> - **17+:** 17 acid damage; P < 5 weakened (save ends)
+> - **≤11:** 8 acid damage; P < 3 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 13 acid damage; P < 4 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 17 acid damage; P < 5 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** As a free triggered action, each stone statue and creature restrained or slowed by Petrify within distance moves up to their speed and uses a signature ability that gains an edge, targeting an enemy of the medusa's choice. A stone statue without its own statistics has speed 5 and uses the medusa's free strike.
+> **Effect:** As a free triggered action, each stone statue and creature [restrained](../condition/restrained.md) or [slowed](../condition/slowed.md) by Petrify within distance moves up to their speed and uses a [signature ability](../rule/combat/signature-ability.md) that gains an edge, targeting an enemy of the medusa's choice. A stone statue without its own statistics has speed 5 and uses the medusa's [free strike](../feature/common/main-actions/free-strike.md).
 
 ## Minotaurs {data-scc="mcdm.monsters.v1/monster.group/minotaurs"}
 
@@ -13761,19 +13761,19 @@ Most minotaurs speak their own dialect of Khamish.
 
 At the start of any minotaur's turn, you can spend Malice to activate one of the following features.
 
-> 👤 **Bull Rush (3 Malice)**
+> 👤 **Bull Rush (3 [Malice](../rule/monster/malice.md))**
 >
-> For each 3 Malice spent, one minotaur acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.
+> For each 3 [Malice](../rule/monster/malice.md) spent, one minotaur acting this turn gains a +4 bonus to speed and ignores [difficult terrain](../movement/difficult-terrain.md) until the start of their next turn.
 
-> 👤 **Cut the... Nonsense! (5 Malice)**
+> 👤 **Cut the... Nonsense! (5 [Malice](../rule/monster/malice.md))**
 >
-> One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes adjacent to them, all until the start of their next turn.
+> One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes [adjacent](../rule/combat/adjacent.md) to them, all until the start of their next turn.
 
-> ❇️ **Bullseye (7 Malice)**
+> ❇️ **Bullseye (7 [Malice](../rule/monster/malice.md))**
 >
-> All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is teleported up to 5 squares and makes an **Intuition test**.
+> All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is [teleported](../movement/teleport.md) up to 5 squares and makes an **Intuition test**.
 >
-> - **≤11:** The target has line of effect only within 3 squares and is frightened of all minotaurs (save ends).
+> - **≤11:** The target has line of effect only within 3 squares and is [frightened](../condition/frightened.md) of all minotaurs (save ends).
 > - **12-16:** The target has line of effect only within 3 squares (EoT).
 > - **17+:** No effect.
 
@@ -13785,7 +13785,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 |      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+2**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Flail and Blade (Signature Ability)**
+> 🗡 **Flail and Blade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -13793,13 +13793,13 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; push 2
-> - **17+:** 14 damage; push 3
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 11 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 14 damage; [push](../movement/forced-movement.md) 3
 >
-> **Effect:** The minotaur shifts up to 3 squares.
+> **Effect:** The minotaur [shifts](../movement/shifting.md) up to 3 squares.
 
-> 👤 **Primal Bay (3 Malice)**
+> 👤 **Primal Bay (3 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
@@ -13807,7 +13807,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 >
 > **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver.
 
-> 🗡 **Goring Horns (5 Malice)**
+> 🗡 **Goring Horns (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                  **Maneuver** |
 > |-----------------------------------|------------------------------:|
@@ -13815,11 +13815,11 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; I < 0 dazed (save ends)
-> - **12-16:** 8 damage; I < 1 dazed (save ends)
-> - **17+:** 9 damage; I < 2 dazed (save ends)
+> - **≤11:** 5 damage; I < 0 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 8 damage; I < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 9 damage; I < 2 [dazed](../condition/dazed.md) (save ends)
 >
-> **Effect:** If this ability is used as part of the Charge main action, its potency increases by 1.
+> **Effect:** If this ability is used as part of the Charge main action, its [potency](../rule/character/potency.md) increases by 1.
 
 > ❗️ **Retaliatory Strike**
 >
@@ -13843,7 +13843,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 |      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Spiked Maul (Signature Ability)**
+> 🗡 **Spiked Maul ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -13851,13 +13851,13 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; pull 1
-> - **12-16:** 12 damage; pull 2
-> - **17+:** 15 damage; pull 3
+> - **≤11:** 8 damage; [pull](../movement/forced-movement.md) 1
+> - **12-16:** 12 damage; [pull](../movement/forced-movement.md) 2
+> - **17+:** 15 damage; [pull](../movement/forced-movement.md) 3
 >
-> **Effect:** A target pulled adjacent to the sunderer is automatically grabbed.
+> **Effect:** A target [pulled](../movement/forced-movement.md) [adjacent](../rule/combat/adjacent.md) to the sunderer is automatically [grabbed](../condition/grabbed.md).
 
-> ❇️ **Fearsome Bay (5 Malice)**
+> ❇️ **Fearsome Bay (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |               **Main action** |
 > |----------------|------------------------------:|
@@ -13865,27 +13865,27 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 >
 > **Power Roll + 2:**
 > 
-> - **≤11:** I < 0 frightened (save ends)
-> - **12-16:** I < 1 frightened (save ends)
-> - **17+:** I < 2 frightened (save ends)
+> - **≤11:** I < 0 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** I < 1 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** I < 2 [frightened](../condition/frightened.md) (save ends)
 >
 > **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
 
-> 🗡 **Disemboweling Horns (3 Malice)**
+> 🗡 **Disemboweling Horns (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature** |
 >
-> **Special:** The target must be grabbed by the sunderer.
+> **Special:** The target must be [grabbed](../condition/grabbed.md) by the sunderer.
 >
 > **Power Roll + 2:**
 > 
-> - **≤11:** 5 damage; M < 0 bleeding (save ends)
-> - **12-16:** 8 damage; M < 1 bleeding (save ends)
-> - **17+:** 9 damage; M < 2 bleeding (save ends)
+> - **≤11:** 5 damage; M < 0 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 8 damage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 9 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** While bleeding this way, the target takes 1d6 damage at the start of each of their turns.
+> **Effect:** While [bleeding](../condition/bleeding.md) this way, the target takes 1d6 damage at the start of each of their turns.
 
 > ❗️ **Retaliatory Strike**
 >
@@ -13909,7 +13909,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 |      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+4**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
 
-> ⚔️ **Javelin and Bellow (Signature Ability)**
+> ⚔️ **Javelin and Bellow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-------------------------------------------|-----------------------------------------:|
@@ -13919,7 +13919,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)
+> - **17+:** 9 damage; I < 4 [taunted](../condition/taunted.md) (EoT) or [frightened](../condition/frightened.md) of all minotaurs (save ends)
 
 > ⭐️ **Minotaur Sense**
 >
@@ -13933,7 +13933,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 |      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+3**<br>Might        | **+4**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |   **-1**<br>Presence   |
 
-> 🗡 **Horn Vault (Signature Ability)**
+> 🗡 **Horn Vault ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -13942,10 +13942,10 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; slide 1
-> - **17+:** 8 damage; slide 3
+> - **12-16:** 6 damage; [slide](../movement/forced-movement.md) 1
+> - **17+:** 8 damage; [slide](../movement/forced-movement.md) 3
 >
-> **Effect:** A target who is force moved into an obstacle and has M < 3 is bleeding (save ends).
+> **Effect:** A target who is [force moved](../movement/forced-movement.md) into an obstacle and has M < 3 is [bleeding](../condition/bleeding.md) (save ends).
 
 > ⭐️ **Minotaur Sense**
 >
@@ -13959,7 +13959,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 |          **-**<br>Immunity          | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |           **+5**<br>Might           | **+5**<br>Agility |  **0**<br>Reason  |             **+2**<br>Intuition             |   **-1**<br>Presence   |
 
-> 🗡 **Bull Rush (Signature Ability)**
+> 🗡 **Bull Rush ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -13968,14 +13968,14 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 > **Power Roll + 5:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; prone
-> - **17+:** 9 damage; prone; M < 5 can't stand (save ends)
+> - **12-16:** 7 damage; [prone](../condition/prone.md)
+> - **17+:** 9 damage; [prone](../condition/prone.md); M < 5 can't stand (save ends)
 >
-> **Effect:** If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone.
+> **Effect:** If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked [prone](../condition/prone.md).
 
 > ⭐️ **Swarm**
 >
-> The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share.
+> The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a [free strike](../feature/common/main-actions/free-strike.md) against each creature whose space they share.
 
 ## Ogres {data-scc="mcdm.monsters.v1/monster.group/ogres"}
 
@@ -14009,19 +14009,19 @@ Most ogres speak Caelian and High Kuric.
 
 At the start of any ogre's turn, you can spend Malice to activate one of the following features.
 
-> ❇️ **Shockwave (3 Malice)**
+> ❇️ **Shockwave (3 [Malice](../rule/monster/malice.md))**
 >
 > One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
 >
-> - **≤11:** 5 damage; vertical push 3
-> - **12-16:** 4 damage; vertical push 2
-> - **17+:** Push 1
+> - **≤11:** 5 damage; vertical [push](../movement/forced-movement.md) 3
+> - **12-16:** 4 damage; vertical [push](../movement/forced-movement.md) 2
+> - **17+:** [Push](../movement/forced-movement.md) 1
 
-> 🌀 **Bully (5 Malice)**
+> 🌀 **Bully (5 [Malice](../rule/monster/malice.md))**
 >
-> Each ogre in the encounter shifts up to their speed and can make a free strike. If they can, they gang up on the same target rather than picking different targets.
+> Each ogre in the encounter [shifts](../movement/shifting.md) up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md). If they can, they gang up on the same target rather than picking different targets.
 
-> ⭐️ **Rampage (7 Malice)**
+> ⭐️ **Rampage (7 [Malice](../rule/monster/malice.md))**
 >
 > Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
 
@@ -14033,7 +14033,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  |  **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> 🗡 **Club Swing (Signature Ability)**
+> 🗡 **Club Swing ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -14041,13 +14041,13 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 2
-> - **12-16:** 11 damage; push 4
-> - **17+:** 14 damage; push 6, prone
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 11 damage; [push](../movement/forced-movement.md) 4
+> - **17+:** 14 damage; [push](../movement/forced-movement.md) 6, [prone](../condition/prone.md)
 >
-> **Effect:** Any target who takes damage from this forced movement takes an extra 4 damage.
+> **Effect:** Any target who takes damage from this [forced movement](../movement/forced-movement.md) takes an extra 4 damage.
 
-> 🗡 **Grabby Hand (1 Malice)**
+> 🗡 **Grabby Hand (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |                  **Maneuver** |
 > |---------------------------|------------------------------:|
@@ -14056,24 +14056,24 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; grabbed
-> - **17+:** 14 damage; grabbed
+> - **12-16:** 11 damage; [grabbed](../condition/grabbed.md)
+> - **17+:** 14 damage; [grabbed](../condition/grabbed.md)
 >
-> **Effect:** A target grabbed this way takes a bane on the Escape Grab maneuver.
+> **Effect:** A target [grabbed](../condition/grabbed.md) this way takes a bane on the Escape Grab maneuver.
 
-> 🔳 **People Bowling (3 Malice)**
+> 🔳 **People Bowling (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon**           |                                **Maneuver** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 6 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
-> **Effect:** The goon must have a size 1 creature or object grabbed, which they hurl across the area, ending the grab. The hurled creature or object is targeted by the ability, and lands in the last square of the line or the nearest unoccupied square of the goon's choice.
+> **Effect:** The goon must have a size 1 creature or object [grabbed](../condition/grabbed.md), which they hurl across the area, ending the grab. The hurled creature or object is targeted by the ability, and lands in the last square of the line or the nearest unoccupied square of the goon's choice.
 >
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; prone
+> - **17+:** 12 damage; [prone](../condition/prone.md)
 
 > ❗️ **Swat the Fly**
 >
@@ -14081,13 +14081,13 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A creature or object within distance moves or shifts away from the goon.
+> **Trigger:** A creature or object within distance moves or [shifts](../movement/shifting.md) away from the goon.
 >
-> **Effect:** The goon slides the target up to 5 squares.
+> **Effect:** The goon [slides](../movement/forced-movement.md) the target up to 5 squares.
 
 > ⭐️ **Defiant Anger**
 >
-> While winded, the goon has damage immunity 2.
+> While [winded](../rule/health/winded.md), the goon has damage immunity 2.
 
 ###### Ogre Juggernaut {data-scc="mcdm.monsters.v1/monster.ogres.statblock/ogre-juggernaut"}
 
@@ -14097,7 +14097,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> 🗡 **Pitchfork Catapult (Signature Ability)**
+> 🗡 **Pitchfork Catapult ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -14106,10 +14106,10 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 1 vertical push 2
-> - **17+:** 13 damage; A < 2 vertical slide 3
+> - **12-16:** 10 damage; A < 1 vertical [push](../movement/forced-movement.md) 2
+> - **17+:** 13 damage; A < 2 vertical [slide](../movement/forced-movement.md) 3
 >
-> **1 Malice:** Each target who has M < 1 is bleeding (save ends).
+> **1 [Malice](../rule/monster/malice.md):** Each target who has M < 1 is [bleeding](../condition/bleeding.md) (save ends).
 
 > ❇️ **Earth-Breaking Jump**
 >
@@ -14122,10 +14122,10 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; push 2; M < 1 prone
-> - **17+:** 9 damage; push 4; M < 2 prone
+> - **12-16:** 6 damage; [push](../movement/forced-movement.md) 2; M < 1 [prone](../condition/prone.md)
+> - **17+:** 9 damage; [push](../movement/forced-movement.md) 4; M < 2 [prone](../condition/prone.md)
 
-> ❇️ **Horrible Bellow (2 Malice)**
+> ❇️ **Horrible Bellow (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
@@ -14133,13 +14133,13 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 frightened (save ends)
-> - **12-16:** I < 1 frightened (save ends)
-> - **17+:** I < 2 frightened (save ends)
+> - **≤11:** I < 0 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** I < 1 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** I < 2 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** While a target is frightened this way, any ogre gains an edge on strikes against them.
+> **Effect:** While a target is [frightened](../condition/frightened.md) this way, any ogre gains an edge on strikes against them.
 
-> ❗️ **Hrraaaaaagh! (1 Malice)**
+> ❗️ **Hrraaaaaagh! (1 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -14147,15 +14147,15 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 >
 > **Trigger:** The juggernaut takes damage.
 >
-> **Effect:** The juggernaut moves up to their speed and can make a free strike.
+> **Effect:** The juggernaut moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Destructive Path**
 >
-> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are force moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
+> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are [force moved](../movement/forced-movement.md). They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
 
 > ⭐️ **Defiant Anger**
 >
-> While winded, the juggernaut has damage immunity 2.
+> While [winded](../rule/health/winded.md), the juggernaut has damage immunity 2.
 
 ###### Ogre Lairs
 
@@ -14175,7 +14175,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |  **+5**<br>Might  | **-1**<br>Agility | **-1**<br>Reason  |          **+3**<br>Intuition          |   **-1**<br>Presence   |
 
-> ❇️ **Wild Slam (Signature Ability)**
+> ❇️ **Wild Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Weapon** |                          **Main action** |
 > |------------------|-----------------------------------------:|
@@ -14184,8 +14184,8 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > **Power Roll + 5:**
 >
 > - **≤11:** 3 damage; A < 3 3 damage
-> - **12-16:** 6 damage; push 3; A < 4 4 damage
-> - **17+:** 7 damage; prone; A < 5 5 damage and restrained (save ends)
+> - **12-16:** 6 damage; [push](../movement/forced-movement.md) 3; A < 4 4 damage
+> - **17+:** 7 damage; [prone](../condition/prone.md); A < 5 5 damage and [restrained](../condition/restrained.md) (save ends)
 >
 > **Effect:** The cyclops automatically treats their initial power roll as a 17. They can still roll to determine if they score a critical hit.
 
@@ -14201,7 +14201,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 | **-**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |             **0**<br>Intuition              |  **+2**<br>Presence   |
 
-> 🗡 **Crush Underfoot (Signature Ability)**
+> 🗡 **Crush Underfoot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -14210,14 +14210,14 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; M < 3 prone
-> - **17+:** 8 damage; prone
+> - **12-16:** 7 damage; M < 3 [prone](../condition/prone.md)
+> - **17+:** 8 damage; [prone](../condition/prone.md)
 >
-> **Effect:** A target who is already prone takes an extra 4 damage.
+> **Effect:** A target who is already [prone](../condition/prone.md) takes an extra 4 damage.
 
 > ⭐️ **In My Stead**
 >
-> Whenever the blue blood would make a free strike, an ally within 5 squares can make a free strike instead.
+> Whenever the blue blood would make a [free strike](../feature/common/main-actions/free-strike.md), an ally within 5 squares can make a [free strike](../feature/common/main-actions/free-strike.md) instead.
 
 > ⭐️ **Royal Anger**
 >
@@ -14231,21 +14231,21 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition                |  **-1**<br>Presence   |
 
-> 🏹 **Throw Fit (Signature Ability)**
+> 🏹 **Throw Fit ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >
-> **Effect:** The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object adjacent to the tantrum has A < 3 the tantrum can grab them to use as the projectile for this ability.
+> **Effect:** The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object [adjacent](../rule/combat/adjacent.md) to the tantrum has A < 3 the tantrum can [grab](../condition/grabbed.md) them to use as the projectile for this ability.
 >
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; push 2
-> - **17+:** 8 damage; push 4
+> - **12-16:** 7 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 8 damage; [push](../movement/forced-movement.md) 4
 >
-> A creature or object used as a projectile is vertically pushed 8 (or 13 with a captain), ignoring stability.
+> A creature or object used as a projectile is vertically [pushed](../movement/forced-movement.md) 8 (or 13 with a captain), ignoring stability.
 
 > ⭐️ **Excessive Anger**
 >
@@ -14293,11 +14293,11 @@ Only technology from the upper worlds, particularly products of evolutionary adv
 
 At the start of an olothec's turn, you can spend Malice to activate one of the following features.
 
-> ☠️ **Solo Action (4 Malice)**
+> ☠️ **Solo Action (4 [Malice](../rule/monster/malice.md))**
 >
-> The olothec takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The olothec takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
-> 🗡 **Writhing Envelopment (4 Malice)**
+> 🗡 **Writhing Envelopment (4 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |                                      **Main action** |
 > |---------------------------|-----------------------------------------------------:|
@@ -14305,15 +14305,15 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 psychic damage; A < 2 grabbed
-> - **12-16:** 17 psychic damage; A < 3 grabbed
-> - **17+:** 20 psychic damage; A < 4 grabbed
+> - **≤11:** 11 psychic damage; A < 2 [grabbed](../condition/grabbed.md)
+> - **12-16:** 17 psychic damage; A < 3 [grabbed](../condition/grabbed.md)
+> - **17+:** 20 psychic damage; A < 4 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The olothec can pull a target grabbed this way adjacent to them. While grabbed this way, a target can't make saving throws to end any other effects, and the olothec has a double edge on strikes against them.
+> **Effect:** The olothec can [pull](../movement/forced-movement.md) a target [grabbed](../condition/grabbed.md) this way [adjacent](../rule/combat/adjacent.md) to them. While [grabbed](../condition/grabbed.md) this way, a target can't make [saving throws](../rule/general/saving-throw.md) to end any other effects, and the olothec has a double edge on strikes against them.
 
-> ❇️ **Memory of Chaos (6 Malice)**
+> ❇️ **Memory of Chaos (6 [Malice](../rule/monster/malice.md))**
 >
-> The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is dazed and slowed until the end of their next turn).
+> The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is [dazed](../condition/dazed.md) and [slowed](../condition/slowed.md) until the end of their next turn).
 
 ###### Olothec {data-scc="mcdm.monsters.v1/monster.olothec.statblock/olothec"}
 
@@ -14325,15 +14325,15 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> [**End Effect:**](../rule/monster/end-effect.md) At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The olothec can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Gelatinosis**
 >
-> A creature permanently devolves into a slime servant if they spend 1 continuous minute weakened by Devolving Tentacles, they are reduced to 0 Stamina by the psychic damage from Devolving Tentacles, or they suffer all three transformations from Oozing Transformation.
+> A creature permanently devolves into a slime servant if they spend 1 continuous minute [weakened](../condition/weakened.md) by Devolving Tentacles, they are reduced to 0 [Stamina](../rule/health/stamina.md) by the psychic damage from Devolving Tentacles, or they suffer all three transformations from Oozing Transformation.
 
-> 🗡 **Devolving Tentacles (Signature Ability)**
+> 🗡 **Devolving Tentacles ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -14341,9 +14341,9 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; M < 2 weakened or the target is slimed (save ends)
-> - **12-16:** 17 damage; M < 3 weakened or the target is slimed (save ends)
-> - **17+:** 20 damage; M < 4 weakened and the target is slimed (save ends)
+> - **≤11:** 11 damage; M < 2 [weakened](../condition/weakened.md) or the target is slimed (save ends)
+> - **12-16:** 17 damage; M < 3 [weakened](../condition/weakened.md) or the target is slimed (save ends)
+> - **17+:** 20 damage; M < 4 [weakened](../condition/weakened.md) and the target is slimed (save ends)
 >
 > **Effect:** A slimed target takes 4 psychic damage whenever they make a power roll.
 
@@ -14355,15 +14355,15 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 acid damage; A < 2 push special
-> - **12-16:** 10 acid damage; A < 3 push special
-> - **17+:** 13 acid damage; A < 4 push special and prone
+> - **≤11:** 6 acid damage; A < 2 [push](../movement/forced-movement.md) special
+> - **12-16:** 10 acid damage; A < 3 [push](../movement/forced-movement.md) special
+> - **17+:** 13 acid damage; A < 4 [push](../movement/forced-movement.md) special and [prone](../condition/prone.md)
 >
-> **Effect:** Each creature pushed this way is pushed to an unoccupied space in the area as far as possible from the olothec.
+> **Effect:** Each creature [pushed](../movement/forced-movement.md) this way is pushed to an unoccupied space in the area as far as possible from the olothec.
 >
-> **1 Malice:** The area is difficult terrain. Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked prone.
+> **1 [Malice](../rule/monster/malice.md):** The area is [difficult terrain](../movement/difficult-terrain.md). Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked [prone](../condition/prone.md).
 
-> 🏹 **Oozing Transformation (2 Malice)**
+> 🏹 **Oozing Transformation (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Strike** |     **Main action** |
 > |-----------------------------|--------------------:|
@@ -14379,9 +14379,9 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 >
 > **Head:** The target's head becomes a ball of slime. They can't communicate and have line of effect only within 3 squares.
 >
-> **Legs:** The target's legs become pillars of ooze. They are slowed while on land and can automatically swim at full speed while moving.
+> **Legs:** The target's legs become pillars of ooze. They are [slowed](../condition/slowed.md) while on land and can automatically swim at full speed while moving.
 >
-> **Torso:** The target's arms become gelatinous. They can't benefit from edges or double edges and can't gain or use surges.
+> **Torso:** The target's arms become gelatinous. They can't benefit from edges or double edges and can't gain or use [surges](../rule/resource/surge.md).
 
 > 👤 **Jaunt**
 >
@@ -14389,7 +14389,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The olothec teleports to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.
+> **Effect:** The olothec [teleports](../movement/teleport.md) to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.
 
 > ❗️ **Liquify**
 >
@@ -14403,13 +14403,13 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Primordial Mind**
 >
-> The olothec can't be made frightened or taunted.
+> The olothec can't be made [frightened](../condition/frightened.md) or [taunted](../condition/taunted.md).
 
 > ⭐️ **Slime Sense**
 >
 > A slimed or transformed creature can't have concealment from or be hidden from the olothec.
 
-> ☠️ **Horrifying Form (Villain Action 1)**
+> ☠️ **Horrifying Form ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Psionic, Ranged, Strike** |             **-** |
 > |-----------------------------|------------------:|
@@ -14417,21 +14417,21 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 10 psychic damage; P < 2 frightened (save ends)
-> - **12-16:** 14 psychic damage; P < 3 frightened (save ends)
-> - **17+:** 17 psychic damage; P < 4 frightened (save ends)
+> - **≤11:** 10 psychic damage; P < 2 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 14 psychic damage; P < 3 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 17 psychic damage; P < 4 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** While frightened this way, a target can't make saving throws to end any other effects.
+> **Effect:** While [frightened](../condition/frightened.md) this way, a target can't make [saving throws](../rule/general/saving-throw.md) to end any other effects.
 
-> ☠️ **Psychic Pulse (Villain Action 2)**
+> ☠️ **Psychic Pulse ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Psionic** |                            **-** |
 > |-------------------|---------------------------------:|
 > | **📏 10 burst**   | **🎯 Each creature in the area** |
 >
-> **Effect:** The olothec slides each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are weakened and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.
+> **Effect:** The olothec [slides](../movement/forced-movement.md) each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are [weakened](../condition/weakened.md) and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.
 
-> ☠️ **Return to Perfection (Villain Action 3)**
+> ☠️ **Return to Perfection ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Psionic** |                            **-** |
 > |-------------------|---------------------------------:|
@@ -14449,7 +14449,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 In a long-lost language, the word oruk-"blood fire"-described the glowing appearance of the orc people when they push themselves to their limits. While orcs know one another as kanin ("the people") in their own language, they also use "orc" with great pride, especially when dealing with other folk.
 
-Orc history spans the world and all its ages. They've settled into villages and cities, hot and cold climates, high in the mountains and deep underground. Most orcs live in diverse humanoid societies, though a few live secluded in the tropics. Though they are no more likely to stand in the way of adventurers' than any other folk, orcs who do fill the same roles as other humanoids: mercenaries, bounty hunters, garroters, guards, cultists, and corrupt kings.
+Orc history spans the world and all its ages. They've settled into villages and cities, hot and cold climates, high in the mountains and deep underground. Most orcs live in diverse [Humanoid](../rule/keyword/humanoid.md) societies, though a few live secluded in the tropics. Though they are no more likely to stand in the way of adventurers' than any other folk, orcs who do fill the same roles as other humanoids: mercenaries, bounty hunters, garroters, guards, cultists, and corrupt kings.
 
 #### Relentlessly Tough
 
@@ -14477,27 +14477,27 @@ Most orcs speak Caelian and Kalliak.
 
 ###### Orc Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.orcs/orc-malice"}
 
-At the start of any orc's turn, you can spend Malice to activate one of the following features.
+At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Overwhelming March (3 Malice)**
+> ⭐️ **Overwhelming March (3 [Malice](../rule/monster/malice.md))**
 >
-> Each orc shifts up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
+> Each orc [shifts](../movement/shifting.md) up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
 >
-> - **≤11:** 6 damage; prone
-> - **12-16:** 4 damage; prone
-> - **17+:** Push 2
+> - **≤11:** 6 damage; [prone](../condition/prone.md)
+> - **12-16:** 4 damage; [prone](../condition/prone.md)
+> - **17+:** [Push](../movement/forced-movement.md) 2
 
-> 🔳 **Mohler Trench (5 Malice)**
+> 🔳 **Mohler Trench (5 [Malice](../rule/monster/malice.md))**
 >
-> An orc acting this turn summons 2 **mohlers** out of the ground, who dig a trench that is a 10 x 1 line within 10 squares when they appear. The trench is 2 squares deep and is difficult terrain. The trench can't be created directly underneath creatures.
+> An orc acting this turn summons 2 **mohlers** out of the ground, who dig a trench that is a 10 x 1 line within 10 squares when they appear. The trench is 2 squares deep and is [difficult terrain](../movement/difficult-terrain.md). The trench can't be created directly underneath creatures.
 
-> 🔳 **Mohler Cavity (7 Malice)**
+> 🔳 **Mohler Cavity (7 [Malice](../rule/monster/malice.md))**
 >
-> The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is difficult terrain. Each orc in the area can shift into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
+> The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is [difficult terrain](../movement/difficult-terrain.md). Each orc in the area can [shift](../movement/shifting.md) into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
 >
-> - **≤11:** 4 damage; the target falls; prone and can't stand (EoT)
+> - **≤11:** 4 damage; the target falls; [prone](../condition/prone.md) and can't stand (EoT)
 > - **12-16:** 4 damage; the target falls
-> - **17+:** The target can shift into the nearest unoccupied space outside the pit.
+> - **17+:** The target can [shift](../movement/shifting.md) into the nearest unoccupied space outside the pit.
 
 ###### Mohler {data-scc="mcdm.monsters.v1/monster.orcs.statblock/mohler"}
 
@@ -14507,7 +14507,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **Burrow**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **+0**<br>Might  |   **+2**<br>Agility    | **-4**<br>Reason |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
-> 🗡 **Earth Bump (Signature Ability)**
+> 🗡 **Earth Bump ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -14519,15 +14519,15 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** The distance increases to melee 2. If the mohler is 1 or more squares beneath the target before they use this ability, a target who has M < 1 is also knocked prone.
+> **Effect:** The distance increases to melee 2. If the mohler is 1 or more squares beneath the target before they use this ability, a target who has M < 1 is also knocked [prone](../condition/prone.md).
 
 > ⭐️ **Seismic Sense**
 >
-> The mohler doesn't need line of effect to use abilities against creatures or objects touching the ground.
+> The mohler doesn't need [line of effect](../rule/combat/line-of-effect.md) to use abilities against creatures or objects touching the ground.
 
 > ⭐️ **Ground Grinder**
 >
-> The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler burrows within 1 square below the ground, the ground above where they burrow is difficult terrain.
+> The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler [burrows](../movement/burrow.md) within 1 square below the ground, the ground above where they burrow is [difficult terrain](../movement/difficult-terrain.md).
 
 ###### Orc Blitzer {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-blitzer"}
 
@@ -14537,7 +14537,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
-> 🗡 **Lugged Spear (Signature Ability)**
+> 🗡 **Lugged Spear ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -14549,11 +14549,11 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** A target who starts their next turn adjacent to three or more blitzers takes 3 damage.
+> **Effect:** A target who starts their next turn [adjacent](../rule/combat/adjacent.md) to three or more blitzers takes 3 damage.
 
 > ⭐️ **Bloodfire Bur**
 >
-> If the blitzer is reduced to 0 Stamina, they can make a free strike before dying.
+> If the blitzer is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying.
 
 ###### Orc Bloodspark {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-bloodspark"}
 
@@ -14563,7 +14563,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to forced movement distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **0**<br>Reason  |                    **0**<br>Intuition                    |   **+2**<br>Presence  |
 
-> 🏹 **Explosive Mote (Signature Ability)**
+> 🏹 **Explosive Mote ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -14571,13 +14571,13 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; push 1, or the bloodspark can shift 1 square away from the target
-> - **12-16:** 4 damage; push 2, or the bloodspark shifts up to 2 squares away from the target
-> - **17+:** 5 damage; push 4, or the bloodspark shifts up to 4 squares away from the target
+> - **≤11:** 2 damage; [push](../movement/forced-movement.md) 1, or the bloodspark can [shift](../movement/shifting.md) 1 square away from the target
+> - **12-16:** 4 damage; [push](../movement/forced-movement.md) 2, or the bloodspark [shifts](../movement/shifting.md) up to 2 squares away from the target
+> - **17+:** 5 damage; [push](../movement/forced-movement.md) 4, or the bloodspark [shifts](../movement/shifting.md) up to 4 squares away from the target
 
 > ⭐️ **Bloodfire Bur**
 >
-> If the bloodspark is reduced to 0 Stamina, they can make a free strike before dying.
+> If the bloodspark is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying.
 
 ###### Orc Glorifier {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-glorifier"}
 
@@ -14587,7 +14587,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |  **+2**<br>Presence   |
 
-> ⚔️ **Call to Victory (Signature Ability)**
+> ⚔️ **Call to Victory ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                          **Main action** |
 > |----------------------------------|-----------------------------------------:|
@@ -14596,14 +14596,14 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 sonic damage
-> - **12-16:** 2 sonic damage; P < 1 slowed (save ends)
-> - **17+:** 3 sonic damage; P < 2 slowed (save ends)
+> - **12-16:** 2 sonic damage; P < 1 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 3 sonic damage; P < 2 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** Allies gain an edge on melee strikes against the target until the glorifier and each other glorifier in their squad are killed.
+> **Effect:** Allies gain an edge on melee [strikes](../rule/combat/strike.md) against the target until the glorifier and each other glorifier in their [squad](../rule/monster/squad.md) are killed.
 
 > ⭐️ **Bloodfire Burn**
 >
-> If the glorifier is reduced to 0 Stamina, they can make a free strike before dying.
+> If the glorifier is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying.
 
 ###### Orc Razor {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-razor"}
 
@@ -14613,7 +14613,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🏹 **Boot and Blade (Signature Ability)**
+> 🏹 **Boot and Blade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -14622,14 +14622,14 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; push 3
-> - **17+:** 5 damage; push 3 or prone
+> - **12-16:** 4 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 5 damage; [push](../movement/forced-movement.md) 3 or [prone](../condition/prone.md)
 >
-> **Effect:** The razor gains an edge against any target affected by a condition.
+> **Effect:** The razor gains an edge against any target affected by a [condition](../rule/combat/condition.md).
 
 > ⭐️ **Bloodfire Burn**
 >
-> If the razor is reduced to 0 Stamina, they can make a free strike before dying.
+> If the razor is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying.
 
 ###### Orc Bloodrunner {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-bloodrunner"}
 
@@ -14639,7 +14639,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Shield Bash (Signature Ability)**
+> 🗡 **Shield Bash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -14647,21 +14647,21 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push special
-> - **12-16:** 10 damage; push special
-> - **17+:** 13 damage; push special or prone
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) special
+> - **12-16:** 10 damage; [push](../movement/forced-movement.md) special
+> - **17+:** 13 damage; [push](../movement/forced-movement.md) special or [prone](../condition/prone.md)
 >
-> **Effect:** The forced movement distance is equal to the number of squares the bloodrunner moved on their turn before using this ability. An ally targeted by this ability ignores the damage and can move up to that same distance.
+> **Effect:** The [forced movement](../movement/forced-movement.md) distance is equal to the number of squares the bloodrunner moved on their turn before using this ability. An ally targeted by this ability ignores the damage and can move up to that same distance.
 >
-> **2 Malice:** An ally targeted by this ability can make a free strike after the forced movement is resolved.
+> **2 [Malice](../rule/monster/malice.md):** An ally targeted by this ability can make a [free strike](../feature/common/main-actions/free-strike.md) after the [forced movement](../movement/forced-movement.md) is resolved.
 
 > ⭐️ **Unimpeded**
 >
-> The bloodrunner can end their movement in a prone creature's space. The first time on a turn that a bloodrunner enters any creature's space, that creature takes 3 damage.
+> The bloodrunner can end their movement in a [prone](../condition/prone.md) creature's space. The first time on a turn that a bloodrunner enters any creature's space, that creature takes 3 damage.
 
 > ⭐️ **Relentless**
 >
-> If the bloodrunner is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the bloodrunner is reduced to 1 Stamina instead.
+> If the bloodrunner is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the bloodrunner is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Chainlock {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-chainlock"}
 
@@ -14671,7 +14671,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **+1**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
-> 🗡 **Hook and Chain (Signature Ability)**
+> 🗡 **Hook and Chain ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -14679,13 +14679,13 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; pull 1; M < 0 the target is hooked (save ends)
-> - **12-16:** 7 damage; pull 2; M < 1 the target is hooked (save ends)
-> - **17+:** 9 damage; pull 3; M < 2 the target is hooked (save ends)
+> - **≤11:** 5 damage; [pull](../movement/forced-movement.md) 1; M < 0 the target is hooked (save ends)
+> - **12-16:** 7 damage; [pull](../movement/forced-movement.md) 2; M < 1 the target is hooked (save ends)
+> - **17+:** 9 damage; [pull](../movement/forced-movement.md) 3; M < 2 the target is hooked (save ends)
 >
 > **Effect:** A hooked target can't move more than 3 squares away from the chainlock's position when this ability is used.
 
-> 🏹 **Heavy Crossbolt (3 Malice)**
+> 🏹 **Heavy Crossbolt (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -14693,17 +14693,17 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; A < 0 slowed (save ends)
-> - **12-16:** 7 damage; A < 1 slowed (save ends)
-> - **17+:** 9 damage; prone; A < 2 slowed (save ends)
+> - **≤11:** 5 damage; A < 0 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 7 damage; A < 1 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 9 damage; [prone](../condition/prone.md); A < 2 [slowed](../condition/slowed.md) (save ends)
 
 > ⭐️ **Chain Link**
 >
-> Whenever the chainlock is force moved by a creature's melee ability, the creature is pulled the same distance toward the chainlock after the forced movement is resolved.
+> Whenever the chainlock is [force moved](../movement/forced-movement.md) by a creature's melee ability, the creature is [pulled](../movement/forced-movement.md) the same distance toward the chainlock after the [forced movement](../movement/forced-movement.md) is resolved.
 
 > ⭐️ **Relentless**
 >
-> If the chainlock is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the chainlock is reduced to 1 Stamina instead.
+> If the chainlock is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the chainlock is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Eye of Grole {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-eye-of-grole"}
 
@@ -14715,9 +14715,9 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 
 > ⭐️ **Elemental Affinity**
 >
-> The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's damage immunity and the damage dealt by their abilities.
+> The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's [damage immunity](../rule/damage/damage-immunity.md) and the damage dealt by their abilities.
 
-> 🏹 **Elemental Discharge (Signature Ability)**
+> 🏹 **Elemental Discharge ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -14725,13 +14725,13 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; push 2, or the eye shifts up to 2 squares away from the target
-> - **12-16:** 9 damage; slide 4, or the eye shifts up to 4 squares away from the target
-> - **17+:** 12 damage; slide 6, or the eye shifts up to 6 squares away from the target
+> - **≤11:** 6 damage; [push](../movement/forced-movement.md) 2, or the eye [shifts](../movement/shifting.md) up to 2 squares away from the target
+> - **12-16:** 9 damage; [slide](../movement/forced-movement.md) 4, or the eye [shifts](../movement/shifting.md) up to 4 squares away from the target
+> - **17+:** 12 damage; [slide](../movement/forced-movement.md) 6, or the eye [shifts](../movement/shifting.md) up to 6 squares away from the target
 >
 > **Effect:** This ability deals cold, fire, or lightning damage.
 
-> 🔳 **Power Burst (3 Malice)**
+> 🔳 **Power Burst (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic**            |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -14739,15 +14739,15 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; push 2
-> - **12-16:** 5 damage; push 3
-> - **17+:** 8 damage; push 4, prone
+> - **≤11:** 3 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 5 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 8 damage; [push](../movement/forced-movement.md) 4, [prone](../condition/prone.md)
 >
-> **Effect:** This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has damage weakness 3 to the same damage type (save ends).
+> **Effect:** This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has [damage weakness](../rule/damage/damage-weakness.md) 3 to the same damage type (save ends).
 
 > ⭐️ **Relentless**
 >
-> If the eye is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the eye is reduced to 1 Stamina instead.
+> If the eye is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the eye is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Garotter {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-garotter"}
 
@@ -14757,7 +14757,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Dagger Feint (Signature Ability)**
+> 🗡 **Dagger Feint ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -14765,9 +14765,9 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; the garroter can shift 1 square
-> - **12-16:** 9 damage; the garroter shifts up to 2 squares
-> - **17+:** 12 damage; the garroter shifts up to 3 squares
+> - **≤11:** 6 damage; the garroter can [shift](../movement/shifting.md) 1 square
+> - **12-16:** 9 damage; the garroter [shifts](../movement/shifting.md) up to 2 squares
+> - **17+:** 12 damage; the garroter [shifts](../movement/shifting.md) up to 3 squares
 >
 > **Effect:** If this ability gains an edge or has a double edge, it deals an extra 4 damage.
 
@@ -14780,12 +14780,12 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 9 damage; I < 1 dazed (save ends)
-> - **17+:** 12 damage; grabbed; I < 2 dazed (save ends)
+> - **12-16:** 9 damage; I < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 12 damage; [grabbed](../condition/grabbed.md); I < 2 [dazed](../condition/dazed.md) (save ends)
 >
-> **Effect:** While grabbed this way, a target can't communicate or use magic abilities.
+> **Effect:** While [grabbed](../condition/grabbed.md) this way, a target can't communicate or use magic abilities.
 
-> 👤 **Chroma Cloak (1 Malice)**
+> 👤 **Chroma Cloak (1 [Malice](../rule/monster/malice.md))**
 >
 > | **-**          |        **Maneuver** |
 > |----------------|--------------------:|
@@ -14795,7 +14795,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 
 > ⭐️ **Relentless**
 >
-> If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead.
+> If the garroter is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the garroter is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Godcaller {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-godcaller"}
 
@@ -14805,7 +14805,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Power Chord (Signature Ability)**
+> ⚔️ **Power Chord ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |               **Main action** |
 > |----------------------------------|------------------------------:|
@@ -14815,7 +14815,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > - **≤11:** 5 sonic damage
 > - **12-16:** 7 sonic damage
-> - **17+:** 9 sonic damage; P < 2 weakened (save ends)
+> - **17+:** 9 sonic damage; P < 2 [weakened](../condition/weakened.md) (save ends)
 
 > 🏹 **Cadenza**
 >
@@ -14825,19 +14825,19 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Effect:** The target moves up to their speed and can use a main action.
 >
-> **3 Malice:** The godcaller targets a second ally.
+> **3 [Malice](../rule/monster/malice.md):** The godcaller targets a second ally.
 
-> 🏹 **Rallying Ostinato (2 Malice)**
+> 🏹 **Rallying Ostinato (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |                 **Maneuver** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and three allies** |
 >
-> **Effect:** Each target regains 15 Stamina and ignores difficult terrain until the end of the encounter.
+> **Effect:** Each target regains 15 [Stamina](../rule/health/stamina.md) and ignores [difficult terrain](../movement/difficult-terrain.md) until the end of the encounter.
 
 > ⭐️ **Relentless**
 >
-> If the godcaller is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the godcaller is reduced to 1 Stamina instead.
+> If the godcaller is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the godcaller is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Juggernaut {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-juggernaut"}
 
@@ -14847,7 +14847,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Haymaker Greataxe (Signature Ability)**
+> 🗡 **Haymaker Greataxe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -14856,12 +14856,12 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; prone
-> - **17+:** 14 damage; prone; M < 2 bleeding (save ends)
+> - **12-16:** 11 damage; [prone](../condition/prone.md)
+> - **17+:** 14 damage; [prone](../condition/prone.md); M < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** A target who is already prone takes an extra 6 damage.
+> **Effect:** A target who is already [prone](../condition/prone.md) takes an extra 6 damage.
 
-> ❗️ **Hrraaaaaagh! (1 Malice)**
+> ❗️ **Hrraaaaaagh! (1 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -14869,15 +14869,15 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Trigger:** The juggernaut takes damage.
 >
-> **Effect:** The juggernaut moves up to their speed and can make a free strike.
+> **Effect:** The juggernaut moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Blood in the Water**
 >
-> Whenever the juggernaut willingly moves, they can move 3 additional squares if they end their movement closer to a prone creature.
+> Whenever the juggernaut willingly moves, they can move 3 additional squares if they end their movement closer to a [prone](../condition/prone.md) creature.
 
 > ⭐️ **Relentless**
 >
-> If the juggernaut is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the juggernaut is reduced to 1 Stamina instead.
+> If the juggernaut is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the juggernaut is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Rampart {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-rampart"}
 
@@ -14887,7 +14887,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **My Spear, My Foe (Signature Ability)**
+> 🗡 **My Spear, My Foe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -14896,8 +14896,8 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 9 damage; taunted (EoT)
-> - **17+:** 12 damage; taunted (EoT)
+> - **12-16:** 9 damage; [taunted](../condition/taunted.md) (EoT)
+> - **17+:** 12 damage; [taunted](../condition/taunted.md) (EoT)
 >
 > **Effect:** This ability has a double edge against any target who dealt damage to the rampart this round.
 
@@ -14907,7 +14907,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > |------------------------|----------------:|
 > | **📏 Self; see below** | **🎯 One ally** |
 >
-> **Effect:** The rampart moves or shifts up to their speed adjacent to the target, then can swap places with the target.
+> **Effect:** The rampart moves or [shifts](../movement/shifting.md) up to their speed [adjacent](../rule/combat/adjacent.md) to the target, then can swap places with the target.
 
 > ❗️ **No.**
 >
@@ -14915,13 +14915,13 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** A creature targets an ally adjacent to the rampart with an ability that doesn't also target the rampart.
+> **Trigger:** A creature targets an ally [adjacent](../rule/combat/adjacent.md) to the rampart with an ability that doesn't also target the rampart.
 >
 > **Effect:** The rampart becomes the target of the triggering ability instead.
 
 > ⭐️ **Relentless**
 >
-> If the rampart is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the rampart is reduced to 1 Stamina instead.
+> If the rampart is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the rampart is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Terranova {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-terranova"}
 
@@ -14931,7 +14931,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  |   **+1**<br>Agility    | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Earth Pillar (Signature Ability)**
+> 🏹 **Earth Pillar ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                   **Main action** |
 > |---------------------------|----------------------------------:|
@@ -14939,13 +14939,13 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; A < 0 prone and can't stand (save ends)
-> - **12-16:** 9 damage; A < 1 prone and can't stand (save ends)
-> - **17+:** 12 damage; A < 2 prone and can't stand (save ends)
+> - **≤11:** 6 damage; A < 0 [prone](../condition/prone.md) and can't stand (save ends)
+> - **12-16:** 9 damage; A < 1 [prone](../condition/prone.md) and can't stand (save ends)
+> - **17+:** 12 damage; A < 2 [prone](../condition/prone.md) and can't stand (save ends)
 >
 > **Effect:** Each target must be on the ground, and the ground in each target's space rises 1 square.
 
-> ❇️ **Sinkhole (3 Malice)**
+> ❇️ **Sinkhole (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                          **Main action** |
 > |------------------|-----------------------------------------:|
@@ -14953,19 +14953,19 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; M < 0 restrained (save ends)
-> - **12-16:** 7 damage; M < 1 restrained (save ends)
-> - **17+:** 10 damage; M < 2 restrained (save ends)
+> - **≤11:** 4 damage; M < 0 [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 7 damage; M < 1 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** 10 damage; M < 2 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md).
 
 > ⭐️ **Seismic Step**
 >
-> The terranova ignores difficult terrain. Additionally, they don't need line of effect to use abilities against creatures touching the ground.
+> The terranova ignores [difficult terrain](../movement/difficult-terrain.md). Additionally, they don't need [line of effect](../rule/combat/line-of-effect.md) to use abilities against creatures touching the ground.
 
 > ⭐️ **Relentless**
 >
-> If the terranova is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the terranova is reduced to 1 Stamina instead.
+> If the terranova is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the terranova is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Orc Warleader {data-scc="mcdm.monsters.v1/monster.orcs.statblock/orc-warleader"}
 
@@ -14975,7 +14975,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Go. (Signature Ability)**
+> 🏹 **Go. ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged**       | **Main action** |
 > |------------------|----------------:|
@@ -14983,9 +14983,9 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Effect:** The target moves up to their speed and can use a main action.
 >
-> **1 Malice:** The warleader targets two allies.
+> **1 [Malice](../rule/monster/malice.md):** The warleader targets two allies.
 >
-> **3 Malice:** The warleader targets one ally and a minion squad.
+> **3 [Malice](../rule/monster/malice.md):** The warleader targets one ally and a [minion](../rule/organization/minion.md) [squad](../rule/monster/squad.md).
 
 > 🗡 **Mace Lariat**
 >
@@ -14995,17 +14995,17 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; push 1; M < 1 dazed (save ends)
-> - **12-16:** 10 damage; push 3; M < 2 dazed (save ends)
-> - **17+:** 13 damage; push 5; M < 3 dazed (save ends)
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 1; M < 1 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 10 damage; [push](../movement/forced-movement.md) 3; M < 2 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 13 damage; [push](../movement/forced-movement.md) 5; M < 3 [dazed](../condition/dazed.md) (save ends)
 
-> 🏹 **Lockdown (3 Malice)**
+> 🏹 **Lockdown (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged**                |                 **Maneuver** |
 > |---------------------------|-----------------------------:|
 > | **📏 Self and ranged 10** | **🎯 Self and three allies** |
 >
-> **Effect:** Each target moves up to their speed and can use the Grab maneuver, which gains an edge.
+> **Effect:** Each target moves up to their speed and can use the [Grab](../feature/common/maneuvers/grab.md) maneuver, which gains an edge.
 
 > ❗️ **Courtesy Call**
 >
@@ -15017,41 +15017,41 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Effect:** The target has a double edge on their next power roll before the end of the encounter.
 
-> ☠️ **Close In (Villain Action 1)**
+> ☠️ **Close In ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**       |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target moves up to their speed. Each enemy adjacent to a target after this move makes an Intuition test.
+> **Effect:** Each target moves up to their speed. Each enemy [adjacent](../rule/combat/adjacent.md) to a target after this move makes an Intuition test.
 >
-> - **≤11:** Frightened of the warleader (save ends)
-> - **12-16:** Frightened of the warleader (EoT)
+> - **≤11:** [Frightened](../condition/frightened.md) of the warleader (save ends)
+> - **12-16:** [Frightened](../condition/frightened.md) of the warleader (EoT)
 > - **17+:** No effect
 
-> ☠️ **Familial Reinforcements (Villain Action 2)**
+> ☠️ **Familial Reinforcements ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Ranged**       |       **-** |
 > |------------------|------------:|
 > | **📏 Ranged 10** | **🎯 Self** |
 >
-> **Effect:** The warleader shifts up to their speed, and four orc blitzers appear in unoccupied spaces within distance.
+> **Effect:** The warleader [shifts](../movement/shifting.md) up to their speed, and four orc blitzers appear in unoccupied spaces within distance.
 
-> ☠️ **I'll Do This Myself (Villain Action 3)**
+> ☠️ **I'll Do This Myself ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** Three times in succession, the warleader shifts up to their speed and can use Mace Lariat.
+> **Effect:** Three times in succession, the warleader [shifts](../movement/shifting.md) up to their speed and can use Mace Lariat.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Relentless**
 >
-> If the warleader is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the warleader is reduced to 1 Stamina instead.
+> If the warleader is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../rule/health/stamina.md), the warleader is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 ###### Scyza {data-scc="mcdm.monsters.v1/monster.orcs.statblock/scyza"}
 
@@ -15061,7 +15061,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **-1**<br>Agility |  **-4**<br>Reason  |  **+0**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Clawed Kick (Signature Ability)**
+> 🗡 **Clawed Kick ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -15070,10 +15070,10 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; prone
-> - **17+:** 14 damage; prone
+> - **12-16:** 11 damage; [prone](../condition/prone.md)
+> - **17+:** 14 damage; [prone](../condition/prone.md)
 >
-> **Effect:** The scyza roars, and if the target has I < 2, they are frightened (save ends).
+> **Effect:** The scyza roars, and if the target has I < 2, they are [frightened](../condition/frightened.md) (save ends).
 
 > 🗡 **Whiptail**
 >
@@ -15084,12 +15084,12 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 > **Power Roll + 2:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 13 damage; prone
-> - **17+:** 16 damage; A < 2 bleeding (save ends)
+> - **12-16:** 13 damage; [prone](../condition/prone.md)
+> - **17+:** 16 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** Against a target on top of the scyza, this ability gains an edge, and the target is pushed into an unoccupied adjacent square and knocked prone.
+> **Effect:** Against a target on top of the scyza, this ability gains an edge, and the target is [pushed](../movement/forced-movement.md) into an unoccupied [adjacent](../rule/combat/adjacent.md) square and knocked [prone](../condition/prone.md).
 
-> 🔳 **Crestfall (2 Malice)**
+> 🔳 **Crestfall (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Ranged, Weapon** |               **Main action** |
 > |--------------------------|------------------------------:|
@@ -15097,20 +15097,20 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage, 1 sonic damage; R < 0 dazed (save ends)
-> - **12-16:** 7 damage, 2 sonic damage; R < 1 dazed (save ends)
-> - **17+:** 9 damage, 3 sonic damage; R < 2 dazed (save ends)
+> - **≤11:** 4 damage, 1 sonic damage; R < 0 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 7 damage, 2 sonic damage; R < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 9 damage, 3 sonic damage; R < 2 [dazed](../condition/dazed.md) (save ends)
 
-> ❇️ **Sandstorm (3 Malice)**
+> ❇️ **Sandstorm (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |   **Maneuver** |
 > |----------------|---------------:|
 > | **📏 3 burst** | **🎯 Special** |
 >
-> **Effect:** The scyza kicks up a sandstorm, granting concealment to themself and any ally in the area until the end of the scyza's next turn. Each enemy in the area makes an Intuition test.
+> **Effect:** The scyza kicks up a sandstorm, granting [concealment](../rule/combat/concealment.md) to themself and any ally in the area until the end of the scyza's next turn. Each enemy in the area makes an Intuition test.
 >
-> - **≤11:** 10 damage; prone; slowed (EoT)
-> - **12-16:** 7 damage; slowed (EoT)
+> - **≤11:** 10 damage; [prone](../condition/prone.md); [slowed](../condition/slowed.md) (EoT)
+> - **12-16:** 7 damage; [slowed](../condition/slowed.md) (EoT)
 > - **17+:** 4 damage
 
 > ❗️ **Brace and Break**
@@ -15121,7 +15121,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Trigger:** The scyza or an ally riding the scyza is targeted by an ability.
 >
-> **Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a free strike against them.
+> **Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
 > ⭐️ **Terrible Beast**
 >
@@ -15157,9 +15157,9 @@ Most radenwights speak Caelian and Szetch.
 
 ###### Radenwight Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.radenwights/radenwight-malice"}
 
-At the start of any radenwight's turn, you can spend Malice to activate one of the following features.
+At the start of any radenwight's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 🗡 **Trouser Cut (3 Malice)**
+> 🗡 **Trouser Cut (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -15167,21 +15167,21 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 3
-> - **12-16:** 10 damage; push 3, taunted (EoT)
-> - **17+:** 13 damage; push 5, taunted (EoT)
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 3
+> - **12-16:** 10 damage; [push](../movement/forced-movement.md) 3, [taunted](../condition/taunted.md) (EoT)
+> - **17+:** 13 damage; [push](../movement/forced-movement.md) 5, [taunted](../condition/taunted.md) (EoT)
 >
 > **Effect:** If the target is wearing clothing covering the lower half of their body, they must use a maneuver once to pull that clothing up before they can move.
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](../rule/organization/minion.md).
 
-> ⭐️ **Rat Race (5 Malice)**
+> ⭐️ **Rat Race (5 [Malice](../rule/monster/malice.md))**
 >
-> Each radenwight in the encounter shifts up to their speed. If a radenwight ends this shift adjacent to one or more radenwights, they can make a melee free strike against each enemy adjacent to them.
+> Each radenwight in the encounter [shifts](../movement/shifting.md) up to their speed. If a radenwight ends this shift [adjacent](../rule/combat/adjacent.md) to one or more radenwights, they can make a melee [free strike](../feature/common/main-actions/free-strike.md) against each enemy [adjacent](../rule/combat/adjacent.md) to them.
 
-> 🔳 **Rally the Rodents (7 Malice)**
+> 🔳 **Rally the Rodents (7 [Malice](../rule/monster/malice.md))**
 >
-> A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block line of effect for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 Stamina.
+> A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block [line of effect](../rule/combat/line-of-effect.md) for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 [Stamina](../rule/health/stamina.md).
 >
 > If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map makes an Intuition test.
 >
@@ -15197,7 +15197,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+2**<br>Agility   | **0**<br>Reason  |              **+1**<br>Intuition               |  **0**<br>Presence   |
 
-> ⚔️ **Dagger Dance (Signature Ability)**
+> ⚔️ **Dagger Dance ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                **Main action** |
 > |-----------------------------------|-------------------------------:|
@@ -15219,7 +15219,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The mischiever makes a free strike against the target.
+> **Effect:** The mischiever makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 ###### Radenwight Redeye {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-redeye"}
 
@@ -15229,7 +15229,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |   **+1**<br>Might    |   **+2**<br>Agility   | **-1**<br>Reason |             **0**<br>Intuition              |  **0**<br>Presence   |
 
-> 🏹 **Eyes-On-Me-Shot (Signature Ability)**
+> 🏹 **Eyes-On-Me-Shot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -15241,7 +15241,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally of the redeye within 2 squares of the target shifts up to 2 squares.
+> **Effect:** One ally of the redeye within 2 squares of the target [shifts](../movement/shifting.md) up to 2 squares.
 
 > ❗️ **Ready Rodent**
 >
@@ -15251,7 +15251,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The redeye makes a free strike against the target.
+> **Effect:** The redeye makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 ###### Radenwight Scrapper {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-scrapper"}
 
@@ -15261,7 +15261,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+1**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |  **+2**<br>Presence  |
 
-> 🗡 **Buckler Bash (Signature Ability)**
+> 🗡 **Buckler Bash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -15270,8 +15270,8 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 damage
-> - **12-16:** 2 damage; taunted (EoT)
-> - **17+:** 3 damage; taunted (EoT)
+> - **12-16:** 2 damage; [taunted](../condition/taunted.md) (EoT)
+> - **17+:** 3 damage; [taunted](../condition/taunted.md) (EoT)
 
 > ❗️ **Ready Rodent**
 >
@@ -15281,7 +15281,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The scrapper makes a free strike against the target.
+> **Effect:** The scrapper makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 ###### Radenwight Swiftpaw {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-swiftpaw"}
 
@@ -15291,7 +15291,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **+2**<br>Agility   | **+1**<br>Reason |             **0**<br>Intuition              |  **-1**<br>Presence  |
 
-> 🗡 **Rapier Flunge (Signature Ability)**
+> 🗡 **Rapier Flunge ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -15299,9 +15299,9 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 damage; slide 1, the swiftpaw can shift 1 square
-> - **12-16:** 2 damage; slide 2, the swiftpaw shifts up to 2 squares
-> - **17+:** 3 damage; slide 3, the swiftpaw shifts up to 3 squares
+> - **≤11:** 1 damage; [slide](../movement/forced-movement.md) 1, the swiftpaw can [shift](../movement/shifting.md) 1 square
+> - **12-16:** 2 damage; [slide](../movement/forced-movement.md) 2, the swiftpaw [shifts](../movement/shifting.md) up to 2 squares
+> - **17+:** 3 damage; [slide](../movement/forced-movement.md) 3, the swiftpaw [shifts](../movement/shifting.md) up to 3 squares
 
 > ❗️ **Ready Rodent**
 >
@@ -15311,7 +15311,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The swiftpaw makes a free strike against the target.
+> **Effect:** The swiftpaw makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 ###### Radenwight Bruxer {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-bruxer"}
 
@@ -15321,7 +15321,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+2**<br>Might    |   **+1**<br>Agility   | **-1**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Lockjaw (Signature Ability)**
+> 🗡 **Lockjaw ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -15331,11 +15331,11 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; grabbed
+> - **17+:** 12 damage; [grabbed](../condition/grabbed.md)
 >
-> **Effect:** A target grabbed this way takes 2 damage at the start of each of the bruxer's turns.
+> **Effect:** A target [grabbed](../condition/grabbed.md) this way takes 2 damage at the start of each of the bruxer's turns.
 
-> ❇️ **Flurry of Bites (3 Malice)**
+> ❇️ **Flurry of Bites (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |               **Main action** |
 > |------------------|------------------------------:|
@@ -15343,9 +15343,9 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; A < 0 bleeding (save ends)
-> - **12-16:** 5 damage; A < 1 bleeding (save ends)
-> - **17+:** 8 damage; A < 2 bleeding (save ends)
+> - **≤11:** 3 damage; A < 0 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 5 damage; A < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 8 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
 
 > ❗️ **Ready Rodent**
 >
@@ -15355,11 +15355,11 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The bruxer makes a free strike against the target.
+> **Effect:** The bruxer makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Lockdown**
 >
-> Any enemy who shifts adjacent to the bruxer has that shift end. Additionally, any enemy adjacent to the bruxer can't shift.
+> Any enemy who [shifts](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to the bruxer has that shift end. Additionally, any enemy [adjacent](../rule/combat/adjacent.md) to the bruxer can't [shift](../movement/shifting.md).
 
 ###### Radenwight Piper {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-piper"}
 
@@ -15369,7 +15369,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **0**<br>Agility    |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> ⚔️ **Piercing Trill (Signature Ability)**
+> ⚔️ **Piercing Trill ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |               **Main action** |
 > |----------------------------------|------------------------------:|
@@ -15377,11 +15377,11 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 sonic damage; push 1
-> - **12-16:** 7 sonic damage; push 3
-> - **17+:** 9 sonic damage; push 4
+> - **≤11:** 5 sonic damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 7 sonic damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 9 sonic damage; [push](../movement/forced-movement.md) 4
 >
-> **Effect:** The piper or one ally within distance regains Stamina equal to the damage dealt.
+> **Effect:** The piper or one ally within distance regains [Stamina](../rule/health/stamina.md) equal to the damage dealt.
 
 > ❇️ **Vivace Vivace!**
 >
@@ -15391,7 +15391,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Effect:** Each target who has used their Ready Rodent ability this round regains the use of their triggered action.
 >
-> **2 Malice:** The area increases to a 6 burst.
+> **2 [Malice](../rule/monster/malice.md):** The area increases to a 6 burst.
 
 > ❗️ **Ready Rodent**
 >
@@ -15401,11 +15401,11 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The piper makes a free strike against the target.
+> **Effect:** The piper makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Musical Suggestion**
 >
-> At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability.
+> At the end of the piper's turn, they can [slide](../movement/forced-movement.md) one [adjacent](../rule/combat/adjacent.md) creature up to 2 squares, ignoring stability.
 
 ###### Radenwight Ratcrobat {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-ratcrobat"}
 
@@ -15415,7 +15415,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **En Garde (Signature Ability)**
+> 🗡 **En Garde ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -15427,7 +15427,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 > - **12-16:** 6 damage
 > - **17+:** 8 damage
 >
-> **Effect:** The ratcrobat shifts up to 2 squares after striking the first target, then can shift 1 square after striking the second target.
+> **Effect:** The ratcrobat [shifts](../movement/shifting.md) up to 2 squares after striking the first target, then can [shift](../movement/shifting.md) 1 square after striking the second target.
 
 > 🗡 **Over Here, Thanks**
 >
@@ -15435,7 +15435,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
-> **Effect:** The ratcrobat slides the target up to 3 squares, then can shift into any square the target left.
+> **Effect:** The ratcrobat [slides](../movement/forced-movement.md) the target up to 3 squares, then can [shift](../movement/shifting.md) into any square the target left.
 
 > ❗️ **Ready Rodent**
 >
@@ -15445,11 +15445,11 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The ratcrobat makes a free strike against the target.
+> **Effect:** The ratcrobat makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Gymratstics**
 >
-> The ratcrobat gains an edge on strikes against larger creatures.
+> The ratcrobat gains an edge on [strikes](../rule/combat/strike.md) against larger creatures.
 
 ###### Radenwight Maestro {data-scc="mcdm.monsters.v1/monster.radenwights.statblock/radenwight-maestro"}
 
@@ -15459,7 +15459,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **-2**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
-> ❇️ **Cacophony (Signature Ability)**
+> ❇️ **Cacophony ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -15467,9 +15467,9 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 sonic damage; slide 1, the maestro can shift 1 square
-> - **12-16:** 6 sonic damage; slide 3, the maestro shifts up to 3 squares
-> - **17+:** 8 sonic damage; slide 5, the maestro shifts up to 5 squares
+> - **≤11:** 3 sonic damage; [slide](../movement/forced-movement.md) 1, the maestro can [shift](../movement/shifting.md) 1 square
+> - **12-16:** 6 sonic damage; [slide](../movement/forced-movement.md) 3, the maestro [shifts](../movement/shifting.md) up to 3 squares
+> - **17+:** 8 sonic damage; [slide](../movement/forced-movement.md) 5, the maestro [shifts](../movement/shifting.md) up to 5 squares
 >
 > **Effect:** Each ally within distance can use Ready Rodent as a free triggered action once before the end of the round.
 
@@ -15481,13 +15481,13 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** P < 1 slowed (save ends)
-> - **12-16:** P < 2 slowed (save ends)
-> - **17+:** P < 3 slowed (save ends)
+> - **≤11:** P < 1 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** P < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** P < 3 [slowed](../condition/slowed.md) (save ends)
 >
-> **3 Malice:** Each ally within 3 squares of any target has a +2 bonus to speed until the end of their next turn.
+> **3 [Malice](../rule/monster/malice.md):** Each ally within 3 squares of any target has a +2 bonus to speed until the end of their next turn.
 
-> ❗️ **Ever-Ready Rodent (2 Malice)**
+> ❗️ **Ever-Ready Rodent (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |      **Free triggered action** |
 > |-------------------|-------------------------------:|
@@ -15495,35 +15495,35 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Trigger:** A creature within distance deals damage to an ally or takes damage from an ally.
 >
-> **Effect:** The maestro makes a free strike against the target.
+> **Effect:** The maestro makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the maestro can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the maestro can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> ☠️ **Overture (Villain Action 1)**
+> ☠️ **Overture ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can shift up to their speed or take the Defend action.
+> **Effect:** Each target can [shift](../movement/shifting.md) up to their speed or take the Defend action.
 
-> ☠️ **Solo Act (Villain Action 2)**
+> ☠️ **Solo Act ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Ranged**       |               **-** |
 > |------------------|--------------------:|
 > | **📏 Ranged 15** | **🎯 One creature** |
 >
-> **Effect:** Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to strikes, and has their speed doubled.
+> **Effect:** Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to [strikes](../rule/combat/strike.md), and has their speed doubled.
 
-> ☠️ **Rondo of Rat (Villain Action 3)**
+> ☠️ **Rondo of Rat ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area**        |                             **-** |
 > |-----------------|----------------------------------:|
 > | **📏 10 burst** | **🎯 Each dead ally in the area** |
 >
-> **Effect:** Each target stands, makes a free strike, then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.
+> **Effect:** Each target stands, makes a [free strike](../feature/common/main-actions/free-strike.md), then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.
 
 ## Rivals {data-scc="mcdm.monsters.v1/monster.group/rivals"}
 
@@ -15582,47 +15582,47 @@ Most rivals speak Caelian and two other languages.
 
 ###### Rival Malice (Level 1+ Malice Features) {data-scc="mcdm.monsters.v1/monster.rivals/rival-malice-level-1-malice-features"}
 
-At the start of any rival's turn, you can spend Malice to activate one of the following features.
+At the start of any rival's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Work as One (3 Malice)**
+> ⭐️ **Work as One (3 [Malice](../rule/monster/malice.md))**
 >
-> Until the end of the round, each rival can impose a bane on a strike made against an adjacent rival as a free triggered action.
+> Until the end of the round, each rival can impose a bane on a [strike](../rule/combat/strike.md) made against an [adjacent](../rule/combat/adjacent.md) rival as a free triggered action.
 
-> ⭐️ **We Just Do It Better (3 Malice)**
+> ⭐️ **We Just Do It Better (3 [Malice](../rule/monster/malice.md))**
 >
 > Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a d3 and add it to the power roll.
 
-> 🔳 **Check Out Our Loot (5 Malice)**
+> 🔳 **Check Out Our Loot (5 [Malice](../rule/monster/malice.md))**
 >
-> One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and dazed, poison damage and weakened, or fire damage and frightened.
+> One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](../condition/dazed.md), poison damage and [weakened](../condition/weakened.md), or fire damage and [frightened](../condition/frightened.md).
 >
 > - **≤11:** 11 damage; the condition affects the target (save ends)
 > - **12-16:** 8 damage; the condition affects the target (EoT)
 > - **17+:** 5 damage
 
-> ⭐️ **Calling the Shots (7 Malice)**
+> ⭐️ **Calling the Shots (7 [Malice](../rule/monster/malice.md))**
 >
-> Each rival regains 10 Stamina. Until the end of the round, whenever a rival uses an ability against an enemy, each other rival adjacent to that enemy can make a free strike against them.
+> Each rival regains 10 [Stamina](../rule/health/stamina.md). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](../rule/combat/adjacent.md) to that enemy can make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
-> ⭐️ **Coordinated Takedown (10 Malice)**
+> ⭐️ **Coordinated Takedown (10 [Malice](../rule/monster/malice.md))**
 >
-> Each rival moves up to their speed and uses a main action or maneuver that doesn't cost Malice.
+> Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](../rule/monster/malice.md).
 
 ##### Rival Ancestries Table
 
 | Keyword                              | Size Adjustment | Stability Adjustment | Ancestral Trait                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------|-----------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Devil                                | 1M              | 0                    | **Prehensile Tail:** The rival can't be flanked.                                                                                                                                                                                                                                                                                                |
-| Draconian (for the dragon knight)    | 1M              | +1                   | **Wings:** The rival can fly. While flying, their stability is 0.                                                                                                                                                                                                                                                                               |
-| Dwarf                                | 1M              | +2                   | **Great Fortitude:** The rival can't be made weakened.                                                                                                                                                                                                                                                                                          |
-| High Elf/Wode Elf                    | 1M              | 0                    | **Otherworldly Grace:** At the start of each of their turns, the rival can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.                                                                                                                                                    |
-| Hakaan                               | 1L              | +2                   | **Forceful:** When the rival force moves a creature or object, they can force move them an additional 2 squares.                                                                                                                                                                                                                                |
-| Human                                | 1M              | +1                   | **Determination:** As a maneuver, the rival can end the frightened, slowed, or weakened condition on themself.                                                                                                                                                                                                                                  |
-| Memonek                              | 1M              | -1 (minimum 0)       | **Nonstop:** The rival can't be made slowed.                                                                                                                                                                                                                                                                                                    |
-| Orc                                  | 1M              | +2                   | **Glowing Recovery:** Once per round, the rival can use a maneuver to regain Stamina equal to 5 times their level.                                                                                                                                                                                                                              |
-| Polder                               | 1S              | 0                    | **Nimblestep:** The rival ignores difficult terrain and can move at full speed while sneaking.                                                                                                                                                                                                                                                  |
-| Revenant                             | 1M              | +1                   | **Vengeance Mark:** The rival places a magic sigil on an enemy within 10 squares of them. The rival always knows the direction to that enemy while the sigil is active on them. As a main action, the rival can detonate the sigil, dealing damage to the target equal to the rival's free strike and sliding the target up to 2 squares.       |
-| Time Raider                          | 1M              | 0                    | **Four-Armed Martial Arts:** Whenever the rival uses the Grab or Knockback maneuver, they can target one additional creature.                                                                                                                                                                                                                   |
+| Draconian (for the dragon knight)    | 1M              | +1                   | **Wings:** The rival can [fly](../movement/fly.md). While flying, their stability is 0.                                                                                                                                                                                                                                           |
+| Dwarf                                | 1M              | +2                   | **Great Fortitude:** The rival can't be made [weakened](../condition/weakened.md).                                                                                                                                                                                                                                                 |
+| High Elf/Wode Elf                    | 1M              | 0                    | **Otherworldly Grace:** At the start of each of their turns, the rival can choose one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). That effect instead ends at the end of their turn.                                                                                                    |
+| Hakaan                               | 1L              | +2                   | **Forceful:** When the rival [force moves](../movement/forced-movement.md) a creature or object, they can force move them an additional 2 squares.                                                                                                                                                                                 |
+| Human                                | 1M              | +1                   | **Determination:** As a maneuver, the rival can end the [frightened](../condition/frightened.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md) condition on themself.                                                                                                       |
+| Memonek                              | 1M              | -1 (minimum 0)       | **Nonstop:** The rival can't be made [slowed](../condition/slowed.md).                                                                                                                                                                                                                                                             |
+| Orc                                  | 1M              | +2                   | **Glowing Recovery:** Once per round, the rival can use a maneuver to regain [Stamina](../rule/health/stamina.md) equal to 5 times their level.                                                                                                                                                                                    |
+| Polder                               | 1S              | 0                    | **Nimblestep:** The rival ignores [difficult terrain](../movement/difficult-terrain.md) and can move at full speed while sneaking.                                                                                                                                                                                                 |
+| Revenant                             | 1M              | +1                   | **Vengeance Mark:** The rival places a magic sigil on an enemy within 10 squares of them. The rival always knows the direction to that enemy while the sigil is active on them. As a main action, the rival can detonate the sigil, dealing damage to the target equal to the rival's free strike and [sliding](../movement/forced-movement.md) the target up to 2 squares. |
+| Time Raider                          | 1M              | 0                    | **Four-Armed Martial Arts:** Whenever the rival uses the [Grab](../feature/common/maneuvers/grab.md) or Knockback maneuver, they can target one additional creature.                                                                                                                                                              |
 
 ### Rivals-1st Echelon
 
@@ -15636,7 +15636,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
-> ⚔️ **Thunder of Heavens (Signature Ability)**
+> ⚔️ **Thunder of Heavens ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -15648,23 +15648,23 @@ It's possible that these rivals gained a head start on their adventures and will
 > - **12-16:** 10 holy damage
 > - **17+:** 13 holy damage
 >
-> **Effect:** The conduit or one ally within distance regains Stamina equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
-> 🏹 **Imbue with Might (2 Malice)**
+> 🏹 **Imbue with Might (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |               **Maneuver** |
 > |-------------------|---------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target gains an edge on their next strike.
+> **Effect:** Each target gains an edge on their next [strike](../rule/combat/strike.md).
 
 > ⭐️ **Stalwart Guardian**
 >
-> Strikes made against allies adjacent to the conduit take a bane.
+> [Strikes](../rule/combat/strike.md) made against allies [adjacent](../rule/combat/adjacent.md) to the conduit take a bane.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Elementalist {data-scc="mcdm.monsters.v1/monster.rivals.1st-echelon.statblock/rival-elementalist"}
 
@@ -15674,7 +15674,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+0**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
-> 🏹 **The Writhing Green (Signature Ability)**
+> 🏹 **The Writhing Green ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -15682,11 +15682,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; slide 1
-> - **12-16:** 10 damage; slide 2
-> - **17+:** 13 damage; slide 3
+> - **≤11:** 7 damage; [slide](../movement/forced-movement.md) 1
+> - **12-16:** 10 damage; [slide](../movement/forced-movement.md) 2
+> - **17+:** 13 damage; [slide](../movement/forced-movement.md) 3
 
-> 🔳 **The Earth Devours (3 Malice)**
+> 🔳 **The Earth Devours (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
@@ -15695,10 +15695,10 @@ It's possible that these rivals gained a head start on their adventures and will
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 5 damage; restrained (EoT)
-> - **17+:** 8 damage; restrained (save ends)
+> - **12-16:** 5 damage; [restrained](../condition/restrained.md) (EoT)
+> - **17+:** 8 damage; [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 2.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](../rule/damage/damage-weakness.md) 2.
 
 > ❗️ **Jaws of the Void**
 >
@@ -15708,11 +15708,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 2 squares. Each creature adjacent to the space they leave takes 2 corruption damage.
+> **Effect:** The elementalist can [teleport](../movement/teleport.md) up to 2 squares. Each creature [adjacent](../rule/combat/adjacent.md) to the space they leave takes 2 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Fury {data-scc="mcdm.monsters.v1/monster.rivals.1st-echelon.statblock/rival-fury"}
 
@@ -15722,7 +15722,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Brutal Impact (Signature Ability)**
+> 🗡 **Brutal Impact ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -15730,13 +15730,13 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; push 2
-> - **17+:** 14 damage; push 3
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 11 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 14 damage; [push](../movement/forced-movement.md) 3
 >
-> **2 Malice:** Each target who has M < 1 is slowed (save ends).
+> **2 [Malice](../rule/monster/malice.md):** Each target who has M < 1 is [slowed](../condition/slowed.md) (save ends).
 
-> 🗡 **Let's Tussle (2 Malice)**
+> 🗡 **Let's Tussle (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -15744,19 +15744,19 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; M < 0 grabbed
-> - **12-16:** 13 damage; M < 1 grabbed
-> - **17+:** 16 damage; M < 2 grabbed
+> - **≤11:** 8 damage; M < 0 [grabbed](../condition/grabbed.md)
+> - **12-16:** 13 damage; M < 1 [grabbed](../condition/grabbed.md)
+> - **17+:** 16 damage; M < 2 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The target must be the fury's size or smaller. While the target is grabbed this way, the fury gains an edge on strikes against them.
+> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](../condition/grabbed.md) this way, the fury gains an edge on [strikes](../rule/combat/strike.md) against them.
 
 > ⭐️ **Overwhelm**
 >
-> Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can make a free strike against that creature or object.
+> Once per turn, when the fury [force moves](../movement/forced-movement.md) a creature or object, or [shifts](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to a creature or object, they can make a [free strike](../feature/common/main-actions/free-strike.md) against that creature or object.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the fury chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the fury and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Null {data-scc="mcdm.monsters.v1/monster.rivals.1st-echelon.statblock/rival-null"}
 
@@ -15766,7 +15766,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Nimble Step (Signature Ability)**
+> 🗡 **Nimble Step ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -15774,11 +15774,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; the null shifts up to 2 squares
-> - **12-16:** 10 damage; the null shifts up to 3 squares
-> - **17+:** 13 damage; the null shifts up to 4 squares
+> - **≤11:** 7 damage; the null [shifts](../movement/shifting.md) up to 2 squares
+> - **12-16:** 10 damage; the null [shifts](../movement/shifting.md) up to 3 squares
+> - **17+:** 13 damage; the null [shifts](../movement/shifting.md) up to 4 squares
 
-> 🗡 **Numb (2 Malice)**
+> 🗡 **Numb (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
 > |------------------------------------|------------------------------:|
@@ -15786,17 +15786,17 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; R < 0 slowed (EoT)
-> - **12-16:** 10 damage; R < 1 slowed (EoT)
-> - **17+:** 13 damage; R < 2 dazed and slowed (EoT)
+> - **≤11:** 7 damage; R < 0 [slowed](../condition/slowed.md) (EoT)
+> - **12-16:** 10 damage; R < 1 [slowed](../condition/slowed.md) (EoT)
+> - **17+:** 13 damage; R < 2 [dazed](../condition/dazed.md) and [slowed](../condition/slowed.md) (EoT)
 
 > ⭐️ **Inertial Shield**
 >
-> The first time each round that the null is targeted by a damage-dealing strike, they halve the damage.
+> The first time each round that the null is targeted by a damage-dealing [strike](../rule/combat/strike.md), they halve the damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Shadow {data-scc="mcdm.monsters.v1/monster.rivals.1st-echelon.statblock/rival-shadow"}
 
@@ -15806,7 +15806,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Swift Serration (Signature Ability)**
+> 🗡 **Swift Serration ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -15816,9 +15816,9 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; A < 2 bleeding (save ends)
+> - **17+:** 14 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 5 squares, then can attempt to hide.
+> **1 [Malice](../rule/monster/malice.md):** The shadow can [teleport](../movement/teleport.md) up to 5 squares, then can attempt to hide.
 
 > 👤 **Poison the Blade**
 >
@@ -15826,15 +15826,15 @@ It's possible that these rivals gained a head start on their adventures and will
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next strike, and any potency for that strike increases by 1.
+> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](../rule/combat/strike.md), and any [potency](../rule/character/potency.md) for that strike increases by 1.
 
 > ⭐️ **Exploit Opening**
 >
-> The shadow deals an extra 5 damage to any bleeding target.
+> The shadow deals an extra 5 damage to any [bleeding](../condition/bleeding.md) target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Customizing Rivals
 
@@ -15862,7 +15862,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🏹 **Dual Targeting Shot (Signature Ability)**
+> 🏹 **Dual Targeting Shot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -15874,9 +15874,9 @@ It's possible that these rivals gained a head start on their adventures and will
 > - **12-16:** 11 damage
 > - **17+:** 14 damage
 >
-> **2 Malice:** Two allies within distance can make a free strike against one of the targets.
+> **2 [Malice](../rule/monster/malice.md):** Two allies within distance can make a [free strike](../feature/common/main-actions/free-strike.md) against one of the targets.
 
-> 🏹 **I'll Cover You! (3 Malice)**
+> 🏹 **I'll Cover You! (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -15884,11 +15884,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; M < 0 weakened (save ends)
-> - **12-16:** 13 damage; M < 1 weakened (save ends)
-> - **17+:** 16 damage; M < 2 weakened (save ends)
+> - **≤11:** 8 damage; M < 0 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 13 damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 16 damage; M < 2 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** One ally adjacent to the target regains 5 Stamina.
+> **Effect:** One ally [adjacent](../rule/combat/adjacent.md) to the target regains 5 [Stamina](../rule/health/stamina.md).
 
 > ❗️ **Overwatch**
 >
@@ -15898,11 +15898,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician makes a free strike against the target.
+> **Effect:** At any point during the movement, the tactician makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Talent {data-scc="mcdm.monsters.v1/monster.rivals.1st-echelon.statblock/rival-talent"}
 
@@ -15912,7 +15912,7 @@ It's possible that these rivals gained a head start on their adventures and will
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  | **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Reverberating Blast (Signature Ability)**
+> 🏹 **Reverberating Blast ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -15920,11 +15920,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 psychic damage; M < 0 prone
-> - **12-16:** 10 psychic damage; push 2; M < 1 prone
-> - **17+:** 13 psychic damage; push 3; M < 2 prone
+> - **≤11:** 7 psychic damage; M < 0 [prone](../condition/prone.md)
+> - **12-16:** 10 psychic damage; [push](../movement/forced-movement.md) 2; M < 1 [prone](../condition/prone.md)
+> - **17+:** 13 psychic damage; [push](../movement/forced-movement.md) 3; M < 2 [prone](../condition/prone.md)
 
-> 🏹 **Muddle the Mind (2 Malice)**
+> 🏹 **Muddle the Mind (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -15932,11 +15932,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** R < 0 slowed (save ends)
-> - **12-16:** R < 1 dazed (save ends)
-> - **17+:** R < 2 dazed and slowed (save ends)
+> - **≤11:** R < 0 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** R < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** R < 2 [dazed](../condition/dazed.md) and [slowed](../condition/slowed.md) (save ends)
 
-> ❗️ **Precognitive Shift (1 Malice)**
+> ❗️ **Precognitive Shift (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -15944,11 +15944,11 @@ It's possible that these rivals gained a head start on their adventures and will
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares.
+> **Effect:** The talent halves the damage and [shifts](../movement/shifting.md) up to 2 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
 
 ### Rivals-2nd Echelon
 
@@ -15962,7 +15962,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason   |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> ⚔️ **Raging Tempest (Signature Ability)**
+> ⚔️ **Raging Tempest ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -15970,27 +15970,27 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 holy damage; vertical slide 1
-> - **12-16:** 14 holy damage; vertical slide 2
-> - **17+:** 17 holy damage; vertical slide 3
+> - **≤11:** 9 holy damage; vertical [slide](../movement/forced-movement.md) 1
+> - **12-16:** 14 holy damage; vertical [slide](../movement/forced-movement.md) 2
+> - **17+:** 17 holy damage; vertical [slide](../movement/forced-movement.md) 3
 >
-> **Effect:** The conduit or one ally within distance regains Stamina equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
-> 🏹 **Imbue with Power (3 Malice)**
+> 🏹 **Imbue with Power (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |                **Maneuver** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target has a double edge on their next strike.
+> **Effect:** Each target has a double edge on their next [strike](../rule/combat/strike.md).
 
 > ⭐️ **Stalwart Guardian**
 >
-> Strikes made against allies adjacent to the conduit take a bane.
+> [Strikes](../rule/combat/strike.md) made against allies [adjacent](../rule/combat/adjacent.md) to the conduit take a bane.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Elementalist {data-scc="mcdm.monsters.v1/monster.rivals.2nd-echelon.statblock/rival-elementalist"}
 
@@ -16000,7 +16000,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **The Thriving Wilds (Signature Ability)**
+> 🏹 **The Thriving Wilds ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -16008,11 +16008,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; slide 1; M < 1 3 acid damage
-> - **12-16:** 14 damage; slide 2; M < 2 5 acid damage
-> - **17+:** 17 damage; slide 3; M < 3 7 acid damage
+> - **≤11:** 9 damage; [slide](../movement/forced-movement.md) 1; M < 1 3 acid damage
+> - **12-16:** 14 damage; [slide](../movement/forced-movement.md) 2; M < 2 5 acid damage
+> - **17+:** 17 damage; [slide](../movement/forced-movement.md) 3; M < 3 7 acid damage
 
-> 🔳 **The Depths Hunger (4 Malice)**
+> 🔳 **The Depths Hunger (4 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
@@ -16021,10 +16021,10 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 9 damage; restrained (EoT)
-> - **17+:** 11 damage; restrained (save ends)
+> - **12-16:** 9 damage; [restrained](../condition/restrained.md) (EoT)
+> - **17+:** 11 damage; [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 3.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](../rule/damage/damage-weakness.md) 3.
 
 > ❗️ **Fissures of Darkness**
 >
@@ -16034,11 +16034,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 3 squares. Each creature adjacent to the space they leave takes 3 corruption damage.
+> **Effect:** The elementalist can [teleport](../movement/teleport.md) up to 3 squares. Each creature [adjacent](../rule/combat/adjacent.md) to the space they leave takes 3 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Fury {data-scc="mcdm.monsters.v1/monster.rivals.2nd-echelon.statblock/rival-fury"}
 
@@ -16048,7 +16048,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+2**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Thunderous Slam (Signature Ability)**
+> 🗡 **Thunderous Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16056,13 +16056,13 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 damage; push 2
-> - **12-16:** 15 damage; push 3
-> - **17+:** 18 damage; push 4
+> - **≤11:** 10 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 15 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 18 damage; [push](../movement/forced-movement.md) 4
 >
-> **2 Malice:** Each target who has M < 2 is slowed (save ends).
+> **2 [Malice](../rule/monster/malice.md):** Each target who has M < 2 is [slowed](../condition/slowed.md) (save ends).
 
-> 🗡 **Roughed Up (3 Malice)**
+> 🗡 **Roughed Up (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -16070,19 +16070,19 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 11 damage; M < 1 grabbed
-> - **12-16:** 16 damage; M < 2 grabbed
-> - **17+:** 21 damage; M < 3 grabbed
+> - **≤11:** 11 damage; M < 1 [grabbed](../condition/grabbed.md)
+> - **12-16:** 16 damage; M < 2 [grabbed](../condition/grabbed.md)
+> - **17+:** 21 damage; M < 3 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies gain an edge on strikes against them.
+> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](../condition/grabbed.md) this way, the fury and their allies gain an edge on [strikes](../rule/combat/strike.md) against them.
 
 > ⭐️ **Overpower**
 >
-> Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability against that creature or object.
+> Once per turn, when the fury [force moves](../movement/forced-movement.md) a creature or object, or [shifts](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to a creature or object, they can use a [signature ability](../rule/combat/signature-ability.md) against that creature or object.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the fury chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the fury and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Null {data-scc="mcdm.monsters.v1/monster.rivals.2nd-echelon.statblock/rival-null"}
 
@@ -16092,7 +16092,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Agile Stride (Signature Ability)**
+> 🗡 **Agile Stride ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16100,11 +16100,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; the null shifts up to 3 squares; A < 1 6 damage
-> - **12-16:** 14 damage; the null shifts up to 4 squares; A < 2 11 damage
-> - **17+:** 17 damage; the null shifts up to 5 squares; A < 3 11 damage
+> - **≤11:** 9 damage; the null [shifts](../movement/shifting.md) up to 3 squares; A < 1 6 damage
+> - **12-16:** 14 damage; the null [shifts](../movement/shifting.md) up to 4 squares; A < 2 11 damage
+> - **17+:** 17 damage; the null [shifts](../movement/shifting.md) up to 5 squares; A < 3 11 damage
 
-> 🗡 **Deaden (2 Malice)**
+> 🗡 **Deaden (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
 > |------------------------------------|------------------------------:|
@@ -16112,17 +16112,17 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; R < 1 dazed (EoT)
-> - **12-16:** 14 damage; R < 2 dazed (save ends)
-> - **17+:** 17 damage; R < 3 dazed and restrained (save ends)
+> - **≤11:** 9 damage; R < 1 [dazed](../condition/dazed.md) (EoT)
+> - **12-16:** 14 damage; R < 2 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 17 damage; R < 3 [dazed](../condition/dazed.md) and [restrained](../condition/restrained.md) (save ends)
 
 > ⭐️ **Inertial Shield**
 >
-> The first time each round that the null is targeted by a damage-dealing strike, they halve the damage.
+> The first time each round that the null is targeted by a damage-dealing [strike](../rule/combat/strike.md), they halve the damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Shadow {data-scc="mcdm.monsters.v1/monster.rivals.2nd-echelon.statblock/rival-shadow"}
 
@@ -16132,7 +16132,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+3**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🗡 **Ambuscade (Signature Ability)**
+> 🗡 **Ambuscade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16141,10 +16141,10 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; A < 2 bleeding (save ends)
-> - **17+:** 18 damage; A < 3 bleeding (save ends)
+> - **12-16:** 15 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 18 damage; A < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 6 squares, then can attempt to hide.
+> **1 [Malice](../rule/monster/malice.md):** The shadow can [teleport](../movement/teleport.md) up to 6 squares, then can attempt to hide.
 
 > 👤 **Poison the Blade**
 >
@@ -16152,15 +16152,15 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next strike, and any potency for that strike increases by 1.
+> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](../rule/combat/strike.md), and any [potency](../rule/character/potency.md) for that strike increases by 1.
 
 > ⭐️ **Exploit Opening**
 >
-> The shadow deals an extra 7 damage to any bleeding target.
+> The shadow deals an extra 7 damage to any [bleeding](../condition/bleeding.md) target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Tactician {data-scc="mcdm.monsters.v1/monster.rivals.2nd-echelon.statblock/rival-tactician"}
 
@@ -16170,7 +16170,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Mark Targets (Signature Ability)**
+> 🏹 **Mark Targets ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -16182,9 +16182,9 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 > - **12-16:** 15 damage
 > - **17+:** 18 damage
 >
-> **3 Malice:** Two allies within distance can use a signature ability against the same target.
+> **3 [Malice](../rule/monster/malice.md):** Two allies within distance can use a [signature ability](../rule/combat/signature-ability.md) against the same target.
 
-> 🏹 **Preserve and Protect (3 Malice)**
+> 🏹 **Preserve and Protect (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -16192,11 +16192,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 11 damage; M < 1 weakened (save ends)
-> - **12-16:** 16 damage; M < 2 weakened (save ends)
-> - **17+:** 21 damage; M < 3 weakened (save ends)
+> - **≤11:** 11 damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 16 damage; M < 2 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 21 damage; M < 3 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** One ally adjacent to the target regains 7 Stamina.
+> **Effect:** One ally [adjacent](../rule/combat/adjacent.md) to the target regains 7 [Stamina](../rule/health/stamina.md).
 
 > ❗️ **Take the Opening**
 >
@@ -16206,11 +16206,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician and one ally within distance can each make a free strike against the target.
+> **Effect:** At any point during the movement, the tactician and one ally within distance can each make a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Talent {data-scc="mcdm.monsters.v1/monster.rivals.2nd-echelon.statblock/rival-talent"}
 
@@ -16220,7 +16220,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Overwhelming Rend (Signature Ability)**
+> 🏹 **Overwhelming Rend ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -16228,11 +16228,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 psychic damage; push 2; M < 1 prone
-> - **12-16:** 14 psychic damage; push 3; M < 2 prone
-> - **17+:** 17 psychic damage; push 4; M < 3 prone
+> - **≤11:** 9 psychic damage; [push](../movement/forced-movement.md) 2; M < 1 [prone](../condition/prone.md)
+> - **12-16:** 14 psychic damage; [push](../movement/forced-movement.md) 3; M < 2 [prone](../condition/prone.md)
+> - **17+:** 17 psychic damage; [push](../movement/forced-movement.md) 4; M < 3 [prone](../condition/prone.md)
 
-> 🏹 **Disarrange Thoughts (2 Malice)**
+> 🏹 **Disarrange Thoughts (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -16240,11 +16240,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 psychic damage; R < 1 dazed (save ends)
-> - **12-16:** 6 psychic damage; R < 2 dazed (save ends)
-> - **17+:** 6 psychic damage; R < 3 dazed and slowed (save ends)
+> - **≤11:** 6 psychic damage; R < 1 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 6 psychic damage; R < 2 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 6 psychic damage; R < 3 [dazed](../condition/dazed.md) and [slowed](../condition/slowed.md) (save ends)
 
-> ❗️ **Precognitive Shift (1 Malice)**
+> ❗️ **Precognitive Shift (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -16252,11 +16252,11 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares.
+> **Effect:** The talent halves the damage and [shifts](../movement/shifting.md) up to 2 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
 
 #### The Black Iron Pact
 
@@ -16294,7 +16294,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Celestial Furor (Signature Ability)**
+> ⚔️ **Celestial Furor ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -16302,27 +16302,27 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 holy damage; vertical slide 2
-> - **12-16:** 17 holy damage; vertical slide 3
-> - **17+:** 21 holy damage; vertical slide 4
+> - **≤11:** 12 holy damage; vertical [slide](../movement/forced-movement.md) 2
+> - **12-16:** 17 holy damage; vertical [slide](../movement/forced-movement.md) 3
+> - **17+:** 21 holy damage; vertical [slide](../movement/forced-movement.md) 4
 >
-> **Effect:** The conduit or one ally within distance regains Stamina equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
-> 🏹 **Imbue with Power (3 Malice)**
+> 🏹 **Imbue with Power (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |                **Maneuver** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target has a double edge on their next strike.
+> **Effect:** Each target has a double edge on their next [strike](../rule/combat/strike.md).
 
 > ⭐️ **Unwavering Defender**
 >
-> Damage dealt to any ally adjacent to the conduit is halved.
+> Damage dealt to any ally [adjacent](../rule/combat/adjacent.md) to the conduit is halved.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Elementalist {data-scc="mcdm.monsters.v1/monster.rivals.3rd-echelon.statblock/rival-elementalist"}
 
@@ -16332,7 +16332,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **Verdant Rains (Signature Ability)**
+> 🏹 **Verdant Rains ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -16340,13 +16340,13 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; slide 2; M < 2 4 acid damage
-> - **12-16:** 17 damage; slide 3; M < 3 6 acid damage
-> - **17+:** 21 damage; slide 4; M < 4 8 acid damage
+> - **≤11:** 12 damage; [slide](../movement/forced-movement.md) 2; M < 2 4 acid damage
+> - **12-16:** 17 damage; [slide](../movement/forced-movement.md) 3; M < 3 6 acid damage
+> - **17+:** 21 damage; [slide](../movement/forced-movement.md) 4; M < 4 8 acid damage
 >
-> **Effect:** One ally within distance ends one condition on themself.
+> **Effect:** One ally within distance ends one [condition](../rule/combat/condition.md) on themself.
 
-> 🔳 **The Chasm Engulfs (4 Malice)**
+> 🔳 **The Chasm Engulfs (4 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
@@ -16355,10 +16355,10 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 10 damage; restrained (EoT)
-> - **17+:** 14 damage; restrained (save ends)
+> - **12-16:** 10 damage; [restrained](../condition/restrained.md) (EoT)
+> - **17+:** 14 damage; [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 5.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](../rule/damage/damage-weakness.md) 5.
 
 > ❗️ **Maw of the Abyss**
 >
@@ -16368,11 +16368,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 4 squares. Each creature adjacent to the space they leave or appear in takes 4 corruption damage.
+> **Effect:** The elementalist can [teleport](../movement/teleport.md) up to 4 squares. Each creature [adjacent](../rule/combat/adjacent.md) to the space they leave or appear in takes 4 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Fury {data-scc="mcdm.monsters.v1/monster.rivals.3rd-echelon.statblock/rival-fury"}
 
@@ -16382,7 +16382,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **+3**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Bonebreaker (Signature Ability)**
+> 🗡 **Bonebreaker ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16390,13 +16390,13 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; push 3
-> - **12-16:** 18 damage; push 4
-> - **17+:** 22 damage; push 5
+> - **≤11:** 13 damage; [push](../movement/forced-movement.md) 3
+> - **12-16:** 18 damage; [push](../movement/forced-movement.md) 4
+> - **17+:** 22 damage; [push](../movement/forced-movement.md) 5
 >
-> **3 Malice:** Each target who has M < 3 is bleeding and slowed (save ends).
+> **3 [Malice](../rule/monster/malice.md):** Each target who has M < 3 is [bleeding](../condition/bleeding.md) and [slowed](../condition/slowed.md) (save ends).
 
-> 🗡 **Steelfist (3 Malice)**
+> 🗡 **Steelfist (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -16404,19 +16404,19 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; M < 3 grabbed
-> - **12-16:** 21 damage; M < 4 grabbed
-> - **17+:** 26 damage; M < 5 grabbed
+> - **≤11:** 15 damage; M < 3 [grabbed](../condition/grabbed.md)
+> - **12-16:** 21 damage; M < 4 [grabbed](../condition/grabbed.md)
+> - **17+:** 26 damage; M < 5 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them.
+> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](../condition/grabbed.md) this way, the fury and their allies have a double edge on [strikes](../rule/combat/strike.md) against them.
 
 > ⭐️ **Rout**
 >
-> Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability that gains an edge against that creature or object.
+> Once per turn, when the fury [force moves](../movement/forced-movement.md) a creature or object, or [shifts](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to a creature or object, they can use a [signature ability](../rule/combat/signature-ability.md) that gains an edge against that creature or object.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the fury chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the fury and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Null {data-scc="mcdm.monsters.v1/monster.rivals.3rd-echelon.statblock/rival-null"}
 
@@ -16426,7 +16426,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+4**<br>Agility |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **0**<br>Presence   |
 
->  🗡 **Inertial Flow (Signature Ability)**
+>  🗡 **Inertial Flow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16434,11 +16434,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; the null shifts up to 3 squares; A < 2 8 damage
-> - **12-16:** 17 damage; the null shifts up to 4 squares; A < 3 13 damage
-> - **17+:** 21 damage; the null shifts up to 5 squares; A < 4 17 damage
+> - **≤11:** 12 damage; the null [shifts](../movement/shifting.md) up to 3 squares; A < 2 8 damage
+> - **12-16:** 17 damage; the null [shifts](../movement/shifting.md) up to 4 squares; A < 3 13 damage
+> - **17+:** 21 damage; the null [shifts](../movement/shifting.md) up to 5 squares; A < 4 17 damage
 
-> 🗡 **Stun (3 Malice)**
+> 🗡 **Stun (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
 > |------------------------------------|------------------------------:|
@@ -16446,17 +16446,17 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; R < 2 dazed (save ends)
-> - **12-16:** 17 damage; R < 3 dazed (save ends)
-> - **17+:** 21 damage; R < 4 dazed and restrained (save ends)
+> - **≤11:** 12 damage; R < 2 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 17 damage; R < 3 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 21 damage; R < 4 [dazed](../condition/dazed.md) and [restrained](../condition/restrained.md) (save ends)
 
 > ⭐️ **Force Dampener**
 >
-> The first time each round that the null is targeted by a strike, it takes a bane and the null halves any damage from it.
+> The first time each round that the null is targeted by a [strike](../rule/combat/strike.md), it takes a bane and the null halves any damage from it.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Shadow {data-scc="mcdm.monsters.v1/monster.rivals.3rd-echelon.statblock/rival-shadow"}
 
@@ -16466,7 +16466,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+4**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
-> 🗡 **Assail and Serrate (Signature Ability)**
+> 🗡 **Assail and Serrate ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16474,11 +16474,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; A < 2 bleeding (save ends)
-> - **12-16:** 18 damage; A < 3 bleeding (save ends)
-> - **17+:** 22 damage; A < 4 bleeding and weakened (save ends)
+> - **≤11:** 13 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 18 damage; A < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 22 damage; A < 4 [bleeding](../condition/bleeding.md) and [weakened](../condition/weakened.md) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 7 squares, then can attempt to hide.
+> **1 [Malice](../rule/monster/malice.md):** The shadow can [teleport](../movement/teleport.md) up to 7 squares, then can attempt to hide.
 
 > 👤 **Poison the Blade**
 >
@@ -16486,15 +16486,15 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They have a double edge on their next strike, and any potency for that strike increases by 2.
+> **Effect:** The shadow coats their weapon with poison. They have a double edge on their next [strike](../rule/combat/strike.md), and any [potency](../rule/character/potency.md) for that strike increases by 2.
 
 > ⭐️ **Exploit Weakness**
 >
-> The shadow deals an extra 9 damage to any target affected by a condition.
+> The shadow deals an extra 9 damage to any target affected by a [condition](../rule/combat/condition.md).
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Tactician {data-scc="mcdm.monsters.v1/monster.rivals.3rd-echelon.statblock/rival-tactician"}
 
@@ -16504,7 +16504,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🏹 **Command From the Back (Signature Ability)**
+> 🏹 **Command From the Back ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -16513,12 +16513,12 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 > **Power Roll + 4:**
 >
 > - **≤11:** 13 damage
-> - **12-16:** 18 damage; A < 3 prone
-> - **17+:** 22 damage; A < 4 prone
+> - **12-16:** 18 damage; A < 3 [prone](../condition/prone.md)
+> - **17+:** 22 damage; A < 4 [prone](../condition/prone.md)
 >
-> **4 Malice:** Two allies within distance move up to their speed and can use a signature ability.
+> **4 [Malice](../rule/monster/malice.md):** Two allies within distance move up to their speed and can use a [signature ability](../rule/combat/signature-ability.md).
 
-> 🏹 **Safeguard (3 Malice)**
+> 🏹 **Safeguard (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -16526,11 +16526,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; M < 2 weakened (save ends)
-> - **12-16:** 21 damage; M < 3 weakened (save ends)
-> - **17+:** 26 damage; M < 4 weakened (save ends)
+> - **≤11:** 15 damage; M < 2 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 21 damage; M < 3 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 26 damage; M < 4 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Two allies adjacent to the target each regain 7 Stamina.
+> **Effect:** Two allies [adjacent](../rule/combat/adjacent.md) to the target each regain 7 [Stamina](../rule/health/stamina.md).
 
 > ❗️ **Quickshot**
 >
@@ -16540,11 +16540,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician uses a signature ability against the target.
+> **Effect:** At any point during the movement, the tactician uses a [signature ability](../rule/combat/signature-ability.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Talent {data-scc="mcdm.monsters.v1/monster.rivals.3rd-echelon.statblock/rival-talent"}
 
@@ -16554,7 +16554,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+4**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Control Synapses (Signature Ability)**
+> 🏹 **Control Synapses ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -16566,9 +16566,9 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 > - **12-16:** 17 psychic damage
 > - **17+:** 21 psychic damage
 >
-> **3 Malice:** Each target shifts up to their speed and can make a free strike against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
+> **3 [Malice](../rule/monster/malice.md):** Each target [shifts](../movement/shifting.md) up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
 
-> 🏹 **Disorientate (2 Malice)**
+> 🏹 **Disorientate (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -16576,11 +16576,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 8 psychic damage; R < 2 dazed (save ends)
-> - **12-16:** 8 psychic damage; R < 3 dazed and slowed (save ends)
-> - **17+:** 8 psychic damage; R < 4 dazed and slowed (save ends)
+> - **≤11:** 8 psychic damage; R < 2 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 8 psychic damage; R < 3 [dazed](../condition/dazed.md) and [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 8 psychic damage; R < 4 [dazed](../condition/dazed.md) and [slowed](../condition/slowed.md) (save ends)
 
-> ❗️ **Mind Requital (2 Malice)**
+> ❗️ **Mind Requital (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -16588,11 +16588,11 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
+> **Effect:** The talent halves the damage and [shifts](../movement/shifting.md) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
 
 ### Rivals-4th Echelon
 
@@ -16606,7 +16606,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **+5**<br>Intuition  |  **+3**<br>Presence   |
 
-> ⚔️ **Sunder the Very Skies (Signature Ability)**
+> ⚔️ **Sunder the Very Skies ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -16614,29 +16614,29 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; vertical slide 3; M < 3 5 lightning damage
-> - **12-16:** 20 damage; vertical slide 4; M < 4 7 lightning damage
-> - **17+:** 24 damage; vertical slide 5; M < 5 9 lightning damage
+> - **≤11:** 15 damage; vertical [slide](../movement/forced-movement.md) 3; M < 3 5 lightning damage
+> - **12-16:** 20 damage; vertical [slide](../movement/forced-movement.md) 4; M < 4 7 lightning damage
+> - **17+:** 24 damage; vertical [slide](../movement/forced-movement.md) 5; M < 5 9 lightning damage
 >
-> **Effect:** The conduit or one ally within distance regains Stamina equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 >
-> **2 Malice:** Two additional allies within distance regain the same amount of Stamina.
+> **2 [Malice](../rule/monster/malice.md):** Two additional allies within distance regain the same amount of [Stamina](../rule/health/stamina.md).
 
-> 🏹 **Empyrean Boon (5 Malice)**
+> 🏹 **Empyrean Boon (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |                **Maneuver** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target has a double edge on their next strike, and that strike deals an extra 10 holy damage. Additionally, they can vertical slide each creature targeted by the strike up to 2 squares.
+> **Effect:** Each target has a double edge on their next [strike](../rule/combat/strike.md), and that strike deals an extra 10 holy damage. Additionally, they can vertical [slide](../movement/forced-movement.md) each creature targeted by the strike up to 2 squares.
 
 > ⭐️ **Unwavering Defender**
 >
-> Damage dealt to any ally adjacent to the conduit is halved.
+> Damage dealt to any ally [adjacent](../rule/combat/adjacent.md) to the conduit is halved.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Elementalist {data-scc="mcdm.monsters.v1/monster.rivals.4th-echelon.statblock/rival-elementalist"}
 
@@ -16646,7 +16646,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+3**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence   |
 
-> 🏹 **Viridescent Storm (Signature Ability)**
+> 🏹 **Viridescent Storm ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -16654,19 +16654,19 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; slide 3; M < 3 5 acid damage
-> - **12-16:** 20 damage; slide 4; M < 4 7 acid damage
-> - **17+:** 24 damage; slide 5; M < 5 9 acid damage
+> - **≤11:** 15 damage; [slide](../movement/forced-movement.md) 3; M < 3 5 acid damage
+> - **12-16:** 20 damage; [slide](../movement/forced-movement.md) 4; M < 4 7 acid damage
+> - **17+:** 24 damage; [slide](../movement/forced-movement.md) 5; M < 5 9 acid damage
 >
-> **Effect:** One ally within distance ends all conditions on themself.
+> **Effect:** One ally within distance ends all [conditions](../rule/combat/condition.md) on themself.
 
-> 🔳 **The World Consumes (5 Malice)**
+> 🔳 **The World Consumes (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
 > | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
 >
-> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid weakness 5 and is slowed. Any enemy who ends their turn in the area and has M < 4 is restrained (save ends).
+> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](../rule/damage/damage-weakness.md) 5 and is [slowed](../condition/slowed.md). Any enemy who ends their turn in the area and has M < 4 is [restrained](../condition/restrained.md) (save ends).
 
 > ❗️ **Breach of Nihility**
 >
@@ -16676,11 +16676,11 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 5 squares. Each creature adjacent to the space they leave or appear in takes 5 corruption damage.
+> **Effect:** The elementalist can [teleport](../movement/teleport.md) up to 5 squares. Each creature [adjacent](../rule/combat/adjacent.md) to the space they leave or appear in takes 5 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Fury {data-scc="mcdm.monsters.v1/monster.rivals.4th-echelon.statblock/rival-fury"}
 
@@ -16690,7 +16690,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  | **+4**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **+3**<br>Presence   |
 
-> 🗡 **Seismic Crush (Signature Ability)**
+> 🗡 **Seismic Crush ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16698,13 +16698,13 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; push 4
-> - **12-16:** 21 damage; push 5
-> - **17+:** 25 damage; push 6
+> - **≤11:** 15 damage; [push](../movement/forced-movement.md) 4
+> - **12-16:** 21 damage; [push](../movement/forced-movement.md) 5
+> - **17+:** 25 damage; [push](../movement/forced-movement.md) 6
 >
-> **2 Malice:** Each target who has M < 4 is bleeding and slowed (save ends).
+> **2 [Malice](../rule/monster/malice.md):** Each target who has M < 4 is [bleeding](../condition/bleeding.md) and [slowed](../condition/slowed.md) (save ends).
 
-> 🗡 **Death Grip (4 Malice)**
+> 🗡 **Death Grip (4 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -16712,19 +16712,19 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; M < 3 grabbed
-> - **12-16:** 21 damage; M < 4 grabbed
-> - **17+:** 25 damage; M < 5 grabbed
+> - **≤11:** 15 damage; M < 3 [grabbed](../condition/grabbed.md)
+> - **12-16:** 21 damage; M < 4 [grabbed](../condition/grabbed.md)
+> - **17+:** 25 damage; M < 5 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them.
+> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](../condition/grabbed.md) this way, the fury and their allies have a double edge on [strikes](../rule/combat/strike.md) against them.
 
 > ⭐️ **Devastate**
 >
-> Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability against that creature or object that has a double edge.
+> Once per turn, when the fury [force moves](../movement/forced-movement.md) a creature or object, or [shifts](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to a creature or object, they can use a [signature ability](../rule/combat/signature-ability.md) against that creature or object that has a double edge.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the fury chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the fury and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Null {data-scc="mcdm.monsters.v1/monster.rivals.4th-echelon.statblock/rival-null"}
 
@@ -16734,7 +16734,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+3**<br>Might  | **+5**<br>Agility |  **+4**<br>Reason  |  **+5**<br>Intuition  |   **0**<br>Presence   |
 
-> 🗡 **Kinetic Danse (Signature Ability)**
+> 🗡 **Kinetic Danse ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16742,11 +16742,11 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; the null shifts up to 4 squares; A < 3 10 damage
-> - **12-16:** 20 damage; the null shifts up to 5 squares; A < 4 15 damage
-> - **17+:** 24 damage; the null shifts up to 6 squares; A < 5 19 damage
+> - **≤11:** 15 damage; the null [shifts](../movement/shifting.md) up to 4 squares; A < 3 10 damage
+> - **12-16:** 20 damage; the null [shifts](../movement/shifting.md) up to 5 squares; A < 4 15 damage
+> - **17+:** 24 damage; the null [shifts](../movement/shifting.md) up to 6 squares; A < 5 19 damage
 
-> 🗡 **Incapacitate (5 Malice)**
+> 🗡 **Incapacitate (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                    **Maneuver** |
 > |------------------------------------|--------------------------------:|
@@ -16754,17 +16754,17 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 damage; R < 3 dazed and restrained (save ends)
-> - **12-16:** 17 damage; R < 4 dazed and restrained (save ends)
-> - **17+:** 20 damage; R < 5 dazed and restrained (save ends)
+> - **≤11:** 13 damage; R < 3 [dazed](../condition/dazed.md) and [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 17 damage; R < 4 [dazed](../condition/dazed.md) and [restrained](../condition/restrained.md) (save ends)
+> - **17+:** 20 damage; R < 5 [dazed](../condition/dazed.md) and [restrained](../condition/restrained.md) (save ends)
 
 > ⭐️ **Energy Conservation**
 >
-> The first time each round that the null is targeted by a strike, it takes a bane and the null halves the damage from it. The creature making the strike takes 10 damage.
+> The first time each round that the null is targeted by a [strike](../rule/combat/strike.md), it takes a bane and the null halves the damage from it. The creature making the strike takes 10 damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Shadow {data-scc="mcdm.monsters.v1/monster.rivals.4th-echelon.statblock/rival-shadow"}
 
@@ -16774,7 +16774,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+5**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+4**<br>Presence   |
 
-> 🗡 **A Hush of Ash (Signature Ability)**
+> 🗡 **A Hush of Ash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16782,11 +16782,11 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; A < 3 bleeding (save ends)
-> - **12-16:** 21 damage; A < 4 bleeding (save ends)
-> - **17+:** 25 damage; A < 5 bleeding (save ends)
+> - **≤11:** 15 damage; A < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 21 damage; A < 4 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 25 damage; A < 5 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 10 squares, then can attempt to hide.
+> **1 [Malice](../rule/monster/malice.md):** The shadow can [teleport](../movement/teleport.md) up to 10 squares, then can attempt to hide.
 
 > 👤 **Envenomed Steel**
 >
@@ -16794,15 +16794,15 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They have a double edge on their next strike, any potency for that strike increases by 2, and if the target has M < 4, they are weakened (save ends).
+> **Effect:** The shadow coats their weapon with poison. They have a double edge on their next [strike](../rule/combat/strike.md), any [potency](../rule/character/potency.md) for that strike increases by 2, and if the target has M < 4, they are [weakened](../condition/weakened.md) (save ends).
 
 > ⭐️ **Exploit Weakness**
 >
-> The shadow deals an extra 10 damage to any target affected by a condition.
+> The shadow deals an extra 10 damage to any target affected by a [condition](../rule/combat/condition.md).
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Tactician {data-scc="mcdm.monsters.v1/monster.rivals.4th-echelon.statblock/rival-tactician"}
 
@@ -16812,7 +16812,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  | **+2**<br>Agility |  **+4**<br>Reason  |  **0**<br>Intuition   |   **+3**<br>Presence   |
 
-> 🏹 **Forward Assault (Signature Ability)**
+> 🏹 **Forward Assault ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -16821,12 +16821,12 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; A < 4 prone and can't stand (EoT)
-> - **17+:** 25 damage; prone; A < 5 can't stand (EoT)
+> - **12-16:** 21 damage; A < 4 [prone](../condition/prone.md) and can't stand (EoT)
+> - **17+:** 25 damage; [prone](../condition/prone.md); A < 5 can't stand (EoT)
 >
-> **5 Malice:** Two allies within distance move up to their speed and can use a signature ability that has a double edge.
+> **5 [Malice](../rule/monster/malice.md):** Two allies within distance move up to their speed and can use a [signature ability](../rule/combat/signature-ability.md) that has a double edge.
 
-> 🔳 **Guardian From Afar (3 Malice)**
+> 🔳 **Guardian From Afar (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Ranged, Weapon** |                 **Main action** |
 > |--------------------------|--------------------------------:|
@@ -16834,11 +16834,11 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 damage; M < 3 weakened (save ends)
-> - **12-16:** 16 damage; M < 4 weakened (save ends)
-> - **17+:** 20 damage; M < 5 weakened (save ends)
+> - **≤11:** 10 damage; M < 3 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 16 damage; M < 4 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 20 damage; M < 5 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Each ally in the area regains 10 Stamina.
+> **Effect:** Each ally in the area regains 10 [Stamina](../rule/health/stamina.md).
 
 > ❗️ **Battlefield Control**
 >
@@ -16848,11 +16848,11 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician and one ally within distance can use a signature ability against the target.
+> **Effect:** At any point during the movement, the tactician and one ally within distance can use a [signature ability](../rule/combat/signature-ability.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
 
 ###### Rival Talent {data-scc="mcdm.monsters.v1/monster.rivals.4th-echelon.statblock/rival-talent"}
 
@@ -16862,7 +16862,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+5**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence   |
 
-> 🏹 **Override (Signature Ability)**
+> 🏹 **Override ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -16874,9 +16874,9 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 > - **12-16:** 20 psychic damage
 > - **17+:** 24 psychic damage
 >
-> **4 Malice:** Each target moves up to their speed and can make a free strike against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
+> **4 [Malice](../rule/monster/malice.md):** Each target moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
 
-> 🏹 **Steal Time (3 Malice)**
+> 🏹 **Steal Time (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Chronopathy, Psionic, Ranged** |                  **Maneuver** |
 > |----------------------------------|------------------------------:|
@@ -16884,13 +16884,13 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** R < 3 slowed (save ends)
-> - **12-16:** R < 4 restrained (save ends)
-> - **17+:** R < 5 restrained (save ends)
+> - **≤11:** R < 3 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** R < 4 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** R < 5 [restrained](../condition/restrained.md) (save ends)
 >
 > **Effect:** One ally within distance can use an additional main action on their next turn.
 
-> ❗️ **Psionic Retribution (2 Malice)**
+> ❗️ **Psionic Retribution (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic**            | **Triggered action** |
 > |------------------------|---------------------:|
@@ -16898,11 +16898,11 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is pushed up to 5 squares.
+> **Effect:** The talent halves the damage and [shifts](../movement/shifting.md) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](../movement/forced-movement.md) up to 5 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
 
 ## Shambling Mound {data-scc="mcdm.monsters.v1/monster.group/shambling-mound"}
 

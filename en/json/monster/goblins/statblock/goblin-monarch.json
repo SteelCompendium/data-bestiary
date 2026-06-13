@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "1 Malice",
       "distance": "Ranged 20",
       "effects": [
         {
@@ -38,7 +39,7 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Get in Here! (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Get in Here!",
       "target": "Special",
       "type": "feature",
       "usage": "Maneuver"
@@ -72,7 +73,6 @@
       "type": "feature"
     },
     {
-      "cost": "scc:mcdm.monsters.v1/rule.monster/end-effect",
       "effects": [
         {
           "effect": "At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
@@ -80,10 +80,11 @@
       ],
       "feature_type": "trait",
       "icon": "⭐️",
-      "name": "[End Effect]",
+      "name": "End Effect",
       "type": "feature"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "10 burst",
       "effects": [
         {
@@ -95,12 +96,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "What Are You Waiting For? ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "What Are You Waiting For?",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -112,12 +114,13 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Focus Fire ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Focus Fire",
       "target": "One enemy or object",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "Special",
       "effects": [
         {
@@ -129,7 +132,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Kill! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "Kill!",
       "target": "Special",
       "type": "feature",
       "usage": "-"

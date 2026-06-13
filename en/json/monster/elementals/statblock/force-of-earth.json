@@ -44,6 +44,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -55,7 +56,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Break Armor (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Break Armor",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"

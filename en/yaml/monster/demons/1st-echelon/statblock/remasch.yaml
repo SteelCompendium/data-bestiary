@@ -19,14 +19,15 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 3 Malice
+      distance: Self
       effects:
         - effect: '**Effect:** The remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - Magic
-      name: Grasping Shadow (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Grasping Shadow
       target: Self
       type: feature
       usage: Maneuver

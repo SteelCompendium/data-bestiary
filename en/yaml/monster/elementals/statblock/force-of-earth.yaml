@@ -32,7 +32,8 @@ features:
       target: Self or one elemental
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The force takes damage.
@@ -41,7 +42,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Break Armor (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Break Armor
       target: Self
       type: feature
       usage: Triggered action

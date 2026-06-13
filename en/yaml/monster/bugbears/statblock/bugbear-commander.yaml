@@ -29,14 +29,15 @@ features:
       target: One ally
       type: feature
       usage: Main Action
-    - distance: 5 burst
+    - cost: 5 Malice
+      distance: 5 burst
       effects:
         - effect: '**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can use the Throw maneuver.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Fall Back! (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Fall Back!
       target: Each ally in the area
       type: feature
       usage: Main Action

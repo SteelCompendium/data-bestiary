@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "2 Malice",
       "distance": "Melee 1",
       "effects": [
         {
@@ -43,7 +44,7 @@
         "Strike",
         "Weapon"
       ],
-      "name": "Bury the Point (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Bury the Point",
       "target": "One creature",
       "type": "feature",
       "usage": "Main action"

@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Ranged 6
+    - cost: 3 Malice
+      distance: Ranged 6
       effects:
         - roll: Power Roll + 4
           tier1: 15 fire damage
@@ -30,7 +31,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      name: Living Blaze (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Living Blaze
       target: Two creatures or objects
       type: feature
       usage: Main action

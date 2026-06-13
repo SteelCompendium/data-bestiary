@@ -48,9 +48,9 @@ type: statblock
 > |------------------------|----------------:|
 > | **📏 Self; see below** |     **🎯 Self** |
 >
-> **Effect:** The drangolin shifts up to their speed and uses Fiery Claws against each creature who comes adjacent to them during the shift. The drangolin makes one power roll against all targets.
+> **Effect:** The drangolin [shifts](../../../movement/shifting.md) up to their speed and uses Fiery Claws against each creature who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. The drangolin makes one power roll against all targets.
 
-> ❇️ **Erupt (3 Malice)**
+> ❇️ **Erupt (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                  **Main action** |
 > |------------------|---------------------------------:|
@@ -60,14 +60,14 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; push 1; A < 0 prone
-> - **12-16:** 8 damage; push 3; A < 0 prone
-> - **17+:** 11 damage; push 5; A < 0 prone
+> - **≤11:** 6 damage; [push](../../../movement/forced-movement.md) 1; A < 0 [prone](../../../condition/prone.md)
+> - **12-16:** 8 damage; [push](../../../movement/forced-movement.md) 3; A < 0 [prone](../../../condition/prone.md)
+> - **17+:** 11 damage; [push](../../../movement/forced-movement.md) 5; A < 0 [prone](../../../condition/prone.md)
 
 > ⭐️ **Ashen Cloud**
 >
-> Any ally adjacent to the drangolin has concealment.
+> Any ally [adjacent](../../../rule/combat/adjacent.md) to the drangolin has concealment.
 
 > ⭐️ **Burrow Bond**
 >
-> When the drangolin burrows, each adjacent size 1S or smaller ally can move with them.
+> When the drangolin burrows, each [adjacent](../../../rule/combat/adjacent.md) size 1S or smaller ally can move with them.

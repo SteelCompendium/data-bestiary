@@ -98,6 +98,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "2 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -109,7 +110,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Armor of Corpses (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Armor of Corpses",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"

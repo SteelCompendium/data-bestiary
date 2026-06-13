@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 7 damage
-          tier2: 10 damage; A < 1 vertical push 2
-          tier3: 13 damage; A < 2 vertical slide 3
+          tier2: 10 damage; A < 1 vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 13 damage; A < 2 vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -23,8 +23,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 4 damage
-          tier2: 6 damage; push 2; M < 1 prone
-          tier3: 9 damage; push 4; M < 2 prone
+          tier2: 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier3: 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -38,9 +38,9 @@ features:
       distance: 3 burst
       effects:
         - roll: Power Roll + 2
-          tier1: I < 0 frightened (save ends)
-          tier2: I < 1 frightened (save ends)
-          tier3: I < 2 frightened (save ends)
+          tier1: I < 0 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: I < 1 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -54,7 +54,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** The juggernaut takes damage.
-            **Effect:** The juggernaut moves up to their speed and can make a free strike.
+            **Effect:** The juggernaut moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
       feature_type: ability
       icon: ❗️
       keywords:
@@ -64,13 +64,13 @@ features:
       type: feature
       usage: Free triggered action
     - effects:
-        - effect: The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are force moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
+        - effect: The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are [force moved](scc:mcdm.heroes.v1/movement/forced-movement). They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
       feature_type: trait
       icon: ⭐️
       name: Destructive Path
       type: feature
     - effects:
-        - effect: While winded, the juggernaut has damage immunity 2.
+        - effect: While [winded](scc:mcdm.heroes.v1/rule.health/winded), the juggernaut has damage immunity 2.
       feature_type: trait
       icon: ⭐️
       name: Defiant Anger

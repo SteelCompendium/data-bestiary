@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
-          "tier2": "11 damage; prone",
-          "tier3": "14 damage; prone"
+          "tier2": "11 damage; [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "14 damage; [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -31,8 +31,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "8 damage",
-          "tier2": "13 damage; prone",
-          "tier3": "16 damage; A \u003c 2 bleeding (save ends)"
+          "tier2": "13 damage; [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "16 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -53,9 +53,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "4 damage, 1 sonic damage; R \u003c 0 dazed (save ends)",
-          "tier2": "7 damage, 2 sonic damage; R \u003c 1 dazed (save ends)",
-          "tier3": "9 damage, 3 sonic damage; R \u003c 2 dazed (save ends)"
+          "tier1": "4 damage, 1 sonic damage; R \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "7 damage, 2 sonic damage; R \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "9 damage, 3 sonic damage; R \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -76,8 +76,8 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "10 damage; prone; slowed (EoT)",
-          "tier2": "7 damage; slowed (EoT)",
+          "tier1": "10 damage; [prone](scc:mcdm.heroes.v1/condition/prone); [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier2": "7 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)",
           "tier3": "4 damage"
         }
       ],
@@ -95,7 +95,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The scyza or an ally riding the scyza is targeted by an ability.\n**Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a free strike against them."
+          "effect": "**Trigger:** The scyza or an ally riding the scyza is targeted by an ability.\n**Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
         }
       ],
       "feature_type": "ability",

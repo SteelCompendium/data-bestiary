@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "10 burst",
       "effects": [
         {
@@ -38,7 +39,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Fairness Is a Human Concept (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Fairness Is a Human Concept",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "Maneuver"

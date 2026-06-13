@@ -18,14 +18,15 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 5 burst
+    - cost: 4 Malice
+      distance: 5 burst
       effects:
         - effect: '**Effect:** Each target deals an extra 3 damage with their next strike until the start of the carnage''s next turn. If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Carnage's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Carnage's Cackletongue
       target: Self and each ally in the area
       type: feature
       usage: Maneuver
@@ -35,12 +36,11 @@ features:
       icon: ⭐️
       name: Death Rampage
       type: feature
-    - cost: scc:mcdm.monsters.v1/rule.monster/end-effect
-      effects:
+    - effects:
         - effect: At the end of each of their turns, the carnage can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
       feature_type: trait
       icon: ⭐️
-      name: '[End Effect]'
+      name: End Effect
       type: feature
     - effects:
         - effect: If the carnage is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
@@ -48,7 +48,8 @@ features:
       icon: ⭐️
       name: Endless Hunger
       type: feature
-    - distance: Ranged 10
+    - cost: Villain Action 1
+      distance: Ranged 10
       effects:
         - effect: '**Effect:** The carnage summons four abyssal hyenas into unoccupied spaces within distance.'
       feature_type: ability
@@ -56,22 +57,24 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Call Up From the Abyss ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: Call Up From the Abyss
       target: Special
       type: feature
       usage: '-'
-    - distance: 10 burst
+    - cost: Villain Action 2
+      distance: 10 burst
       effects:
         - effect: '**Effect:** Each target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). Any creature damaged by one of these [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) who has M < 2 is knocked [prone](scc:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: ☠️
       keywords:
         - Area
-      name: Edacity ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Edacity
       target: Self and three allies
       type: feature
       usage: '-'
-    - distance: 5 burst
+    - cost: Villain Action 3
+      distance: 5 burst
       effects:
         - roll: ""
           tier1: The target can't regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) until the end of the encounter.
@@ -82,7 +85,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Deepest Wounds ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Deepest Wounds
       target: Each [winded](scc:mcdm.heroes.v1/rule.health/winded) enemy in the area
       type: feature
       usage: '-'

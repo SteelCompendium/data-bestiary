@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -38,7 +39,7 @@
         "Ranged",
         "Weapon"
       ],
-      "name": "Reel Them In (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Reel Them In",
       "target": "Three creatures",
       "type": "feature",
       "usage": "Maneuver"

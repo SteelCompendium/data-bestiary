@@ -45,17 +45,17 @@ type: statblock
 >
 > - **≤11:** 6 corruption damage
 > - **12-16:** 9 corruption damage
-> - **17+:** 12 corruption damage; I < 2 weakened (save ends)
+> - **17+:** 12 corruption damage; I < 2 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **2 Malice:** The death cultist regains Stamina equal to half the damage dealt.
+> **2 [Malice](../../../rule/monster/malice.md):** The death cultist regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
 
-> ❇️ **Rise, My Minions (1 Malice per minion)**
+> ❇️ **Rise, My Minions (1 [Malice](../../../rule/monster/malice.md) per [minion](../../../rule/organization/minion.md))**
 >
 > | **Area**       |                        **Maneuver** |
 > |----------------|------------------------------------:|
-> | **📏 5 burst** | **🎯 Each dead minion in the area** |
+> | **📏 5 burst** | **🎯 Each dead [minion](../../../rule/organization/minion.md) in the area** |
 >
-> **Effect:** Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
+> **Effect:** Each target who died during this encounter revives with full [Stamina](../../../rule/health/stamina.md). They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
 
 > ⭐️ **Supernatural Insight**
 >

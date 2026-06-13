@@ -32,7 +32,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 3 cube within 10
+    - cost: 5 Malice
+      distance: 3 cube within 10
       effects:
         - roll: Power Roll + 3
           tier1: 3 fire damage; A < 1 3 fire damage
@@ -44,11 +45,12 @@ features:
         - Area
         - Magic
         - Ranged
-      name: Dragon's Eruption (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Dragon's Eruption
       target: Each enemy in the area
       type: feature
       usage: Main action
-    - distance: 5 burst
+    - cost: 5 Malice
+      distance: 5 burst
       effects:
         - roll: Power Roll + 3
           tier1: 4 psychic damage
@@ -59,7 +61,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Roar (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Roar
       target: Each enemy in the area
       type: feature
       usage: Main action

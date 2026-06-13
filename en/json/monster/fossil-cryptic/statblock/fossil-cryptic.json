@@ -96,6 +96,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -107,12 +108,13 @@
       "keywords": [
         "-"
       ],
-      "name": "Dissipate (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Dissipate",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"
     },
     {
+      "cost": "5 Malice",
       "distance": "2 burst",
       "effects": [
         {
@@ -127,12 +129,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Shatterstone (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Shatterstone",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Triggered action"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "10 burst",
       "effects": [
         {
@@ -147,12 +150,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "First Warning Quake ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "First Warning Quake",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "5 burst",
       "effects": [
         {
@@ -167,12 +171,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Final Warning Fissure ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Final Warning Fissure",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -187,7 +192,7 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "No Escape ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "No Escape",
       "target": "Two creatures or objects",
       "type": "feature",
       "usage": "-"

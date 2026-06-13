@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 sonic damage; push 1",
-          "tier2": "7 sonic damage; push 3",
-          "tier3": "9 sonic damage; push 4"
+          "tier1": "5 sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "7 sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "9 sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "3 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target who has used their Ready Rodent ability this round regains the use of their triggered action.\n**2 Malice:** The area increases to a 6 burst."
+          "effect": "**Effect:** Each target who has used their Ready Rodent ability this round regains the use of their triggered action.\n**2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The area increases to a 6 burst."
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The piper makes a free strike against the target."
+          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The piper makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability."
+          "effect": "At the end of the piper's turn, they can [slide](scc:mcdm.heroes.v1/movement/forced-movement) one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature up to 2 squares, ignoring stability."
         }
       ],
       "feature_type": "trait",

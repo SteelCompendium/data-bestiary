@@ -44,6 +44,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "5 cube within 10",
       "effects": [
         {
@@ -57,7 +58,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Unhallowed Ground (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Unhallowed Ground",
       "target": "Special",
       "type": "feature",
       "usage": "Maneuver"

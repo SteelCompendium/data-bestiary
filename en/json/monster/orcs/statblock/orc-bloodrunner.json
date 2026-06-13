@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; push special",
-          "tier2": "10 damage; push special",
-          "tier3": "13 damage; push special or prone"
+          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) special",
+          "tier2": "10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) special",
+          "tier3": "13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) special or [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The bloodrunner can end their movement in a prone creature's space. The first time on a turn that a bloodrunner enters any creature's space, that creature takes 3 damage."
+          "effect": "The bloodrunner can end their movement in a [prone](scc:mcdm.heroes.v1/condition/prone) creature's space. The first time on a turn that a bloodrunner enters any creature's space, that creature takes 3 damage."
         }
       ],
       "feature_type": "trait",
@@ -39,7 +39,7 @@
     {
       "effects": [
         {
-          "effect": "If the bloodrunner is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the bloodrunner is reduced to 1 Stamina instead."
+          "effect": "If the bloodrunner is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the bloodrunner is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead."
         }
       ],
       "feature_type": "trait",

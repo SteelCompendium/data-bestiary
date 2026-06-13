@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; push 1",
-          "tier2": "11 damage; push 2",
-          "tier3": "14 damage; push 3"
+          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3"
         }
       ],
       "feature_type": "ability",
@@ -50,9 +50,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 damage; I \u003c 0 dazed (save ends)",
-          "tier2": "8 damage; I \u003c 1 dazed (save ends)",
-          "tier3": "9 damage; I \u003c 2 dazed (save ends)"
+          "tier1": "5 damage; I \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "8 damage; I \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "9 damage; I \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",

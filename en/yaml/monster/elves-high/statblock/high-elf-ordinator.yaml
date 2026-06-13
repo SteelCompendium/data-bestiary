@@ -30,7 +30,8 @@ features:
       target: Each elemental ally in the area
       type: feature
       usage: Maneuver
-    - distance: Ranged 10
+    - cost: 2 Malice
+      distance: Ranged 10
       effects:
         - effect: |-
             **Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.
@@ -39,7 +40,7 @@ features:
       icon: "\U0001F3F9"
       keywords:
         - Ranged
-      name: Summon Elemental (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Summon Elemental
       target: Special
       type: feature
       usage: Maneuver

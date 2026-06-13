@@ -31,8 +31,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "8 damage",
-          "tier2": "12 damage; M \u003c 1 bleeding (save ends)",
-          "tier3": "15 damage; M \u003c 2 bleeding (save ends)"
+          "tier2": "12 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "15 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -53,9 +53,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "I \u003c 0 dazed (save ends)",
-          "tier2": "I \u003c 1 dazed (save ends)",
-          "tier3": "I \u003c 2 dazed (save ends)"
+          "tier1": "I \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "I \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "I \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -73,7 +73,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The lightbender takes damage from a strike.\n**Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver."
+          "effect": "**Trigger:** The lightbender takes damage from a strike.\n**Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If they [teleport](scc:mcdm.heroes.v1/movement/teleport) into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver."
         }
       ],
       "feature_type": "ability",
@@ -89,7 +89,7 @@
     {
       "effects": [
         {
-          "effect": "Any effect on the lightbender that would be ended by a saving throw instead ends automatically at the end of their next turn."
+          "effect": "Any effect on the lightbender that would be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) instead ends automatically at the end of their next turn."
         }
       ],
       "feature_type": "trait",

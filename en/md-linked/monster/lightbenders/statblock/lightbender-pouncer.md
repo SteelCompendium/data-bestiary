@@ -36,10 +36,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; A < 1 prone
-> - **17+:** 14 damage; A < 2 prone
+> - **12-16:** 11 damage; A < 1 [prone](../../../condition/prone.md)
+> - **17+:** 14 damage; A < 2 [prone](../../../condition/prone.md)
 >
-> **Effect:** The pouncer can make a free strike against each target they knock prone.
+> **Effect:** The pouncer can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each target they knock [prone](../../../condition/prone.md).
 
 > ❇️ **Sparkling Tail Whip**
 >
@@ -55,7 +55,7 @@ type: statblock
 >
 > **Effect:** A dazzled target takes a bane on strikes and has line of effect only within 1 square.
 
-> 🔳 **Illusory Feint (5 Malice)**
+> 🔳 **Illusory Feint (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > |-------------------------|------------------------------:|
@@ -63,11 +63,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 dazed (save ends)
-> - **12-16:** I < 1 dazed (save ends)
-> - **17+:** I < 2 dazed (save ends)
+> - **≤11:** I < 0 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** I < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** I < 2 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends.
+> **Effect:** While [dazed](../../../condition/dazed.md) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](../../../condition/dazed.md) condition ends.
 
 > ❗️ **Striking Afterimage**
 >
@@ -77,8 +77,8 @@ type: statblock
 >
 > **Trigger:** The pouncer takes damage from a strike.
 >
-> **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
+> **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../../../movement/teleport.md) up to 5 squares. If they [teleport](../../../movement/teleport.md) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
 
 > ⭐️ **Avoidance**
 >
-> Any effect on the pouncer that would be ended by a saving throw instead ends automatically at the end of their next turn.
+> Any effect on the pouncer that would be ended by a [saving throw](../../../rule/general/saving-throw.md) instead ends automatically at the end of their next turn.

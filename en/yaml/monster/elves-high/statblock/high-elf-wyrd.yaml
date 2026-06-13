@@ -17,14 +17,15 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Main action
-    - distance: Ranged 5
+    - cost: 2 Malice
+      distance: Ranged 5
       effects:
         - effect: '**Effect:** The wyrd summons two elemental motes or two soot crows into unoccupied spaces within distance.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
         - Ranged
-      name: Summon Elemental (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Summon Elemental
       target: Special
       type: feature
       usage: Maneuver

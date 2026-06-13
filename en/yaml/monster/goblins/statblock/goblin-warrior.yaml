@@ -19,7 +19,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Melee 1
+    - cost: 2 Malice
+      distance: Melee 1
       effects:
         - roll: Power Roll + 2
           tier1: 5 damage; M < 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
@@ -31,7 +32,7 @@ features:
         - Melee
         - Strike
         - Weapon
-      name: Bury the Point (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Bury the Point
       target: One creature
       type: feature
       usage: Main action

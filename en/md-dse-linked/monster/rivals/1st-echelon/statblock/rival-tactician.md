@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🏹 **Dual Targeting Shot (Signature Ability)**
+> 🏹 **Dual Targeting Shot ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -44,9 +44,9 @@ type: statblock
 > - **12-16:** 11 damage
 > - **17+:** 14 damage
 >
-> **2 Malice:** Two allies within distance can make a free strike against one of the targets.
+> **2 [Malice](../../../../rule/monster/malice.md):** Two allies within distance can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against one of the targets.
 
-> 🏹 **I'll Cover You! (3 Malice)**
+> 🏹 **I'll Cover You! (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -54,11 +54,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; M < 0 weakened (save ends)
-> - **12-16:** 13 damage; M < 1 weakened (save ends)
-> - **17+:** 16 damage; M < 2 weakened (save ends)
+> - **≤11:** 8 damage; M < 0 [weakened](../../../../condition/weakened.md) (save ends)
+> - **12-16:** 13 damage; M < 1 [weakened](../../../../condition/weakened.md) (save ends)
+> - **17+:** 16 damage; M < 2 [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **Effect:** One ally adjacent to the target regains 5 Stamina.
+> **Effect:** One ally [adjacent](../../../../rule/combat/adjacent.md) to the target regains 5 [Stamina](../../../../rule/health/stamina.md).
 
 > ❗️ **Overwatch**
 >
@@ -68,8 +68,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician makes a free strike against the target.
+> **Effect:** At any point during the movement, the tactician makes a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

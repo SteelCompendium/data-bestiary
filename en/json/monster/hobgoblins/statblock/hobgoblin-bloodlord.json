@@ -44,6 +44,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -55,7 +56,7 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "An Army From Blood (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "An Army From Blood",
       "target": "The triggering creature",
       "type": "feature",
       "usage": "Triggered action"
@@ -72,7 +73,6 @@
       "type": "feature"
     },
     {
-      "cost": "scc:mcdm.monsters.v1/rule.monster/end-effect",
       "effects": [
         {
           "effect": "At the end of each of their turns, the bloodlord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
@@ -80,10 +80,11 @@
       ],
       "feature_type": "trait",
       "icon": "⭐️",
-      "name": "[End Effect]",
+      "name": "End Effect",
       "type": "feature"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "10 burst",
       "effects": [
         {
@@ -95,12 +96,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Advance! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "Advance!",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "3 aura",
       "effects": [
         {
@@ -113,12 +115,13 @@
         "Area",
         "Magic"
       ],
-      "name": "Skulls Abound ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Skulls Abound",
       "target": "Self",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "5 burst",
       "effects": [
         {
@@ -134,7 +137,7 @@
         "Area",
         "Magic"
       ],
-      "name": "I Am Fire! I Am Death! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "I Am Fire! I Am Death!",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"

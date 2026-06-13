@@ -33,7 +33,7 @@ type: statblock
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **En Garde (Signature Ability)**
+> 🗡 **En Garde ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -45,7 +45,7 @@ type: statblock
 > - **12-16:** 6 damage
 > - **17+:** 8 damage
 >
-> **Effect:** The ratcrobat shifts up to 2 squares after striking the first target, then can shift 1 square after striking the second target.
+> **Effect:** The ratcrobat [shifts](../../../movement/shifting.md) up to 2 squares after striking the first target, then can [shift](../../../movement/shifting.md) 1 square after striking the second target.
 
 > 🗡 **Over Here, Thanks**
 >
@@ -53,7 +53,7 @@ type: statblock
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
-> **Effect:** The ratcrobat slides the target up to 3 squares, then can shift into any square the target left.
+> **Effect:** The ratcrobat [slides](../../../movement/forced-movement.md) the target up to 3 squares, then can [shift](../../../movement/shifting.md) into any square the target left.
 
 > ❗️ **Ready Rodent**
 >
@@ -63,8 +63,8 @@ type: statblock
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The ratcrobat makes a free strike against the target.
+> **Effect:** The ratcrobat makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
 
 > ⭐️ **Gymratstics**
 >
-> The ratcrobat gains an edge on strikes against larger creatures.
+> The ratcrobat gains an edge on [strikes](../../../rule/combat/strike.md) against larger creatures.

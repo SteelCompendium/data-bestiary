@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+3**<br>Might  | **+5**<br>Agility |  **+4**<br>Reason  |  **+5**<br>Intuition  |   **0**<br>Presence   |
 
-> 🗡 **Kinetic Danse (Signature Ability)**
+> 🗡 **Kinetic Danse ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; the null shifts up to 4 squares; A < 3 10 damage
-> - **12-16:** 20 damage; the null shifts up to 5 squares; A < 4 15 damage
-> - **17+:** 24 damage; the null shifts up to 6 squares; A < 5 19 damage
+> - **≤11:** 15 damage; the null [shifts](../../../../movement/shifting.md) up to 4 squares; A < 3 10 damage
+> - **12-16:** 20 damage; the null [shifts](../../../../movement/shifting.md) up to 5 squares; A < 4 15 damage
+> - **17+:** 24 damage; the null [shifts](../../../../movement/shifting.md) up to 6 squares; A < 5 19 damage
 
-> 🗡 **Incapacitate (5 Malice)**
+> 🗡 **Incapacitate (5 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                    **Maneuver** |
 > |------------------------------------|--------------------------------:|
@@ -47,14 +47,14 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 damage; R < 3 dazed and restrained (save ends)
-> - **12-16:** 17 damage; R < 4 dazed and restrained (save ends)
-> - **17+:** 20 damage; R < 5 dazed and restrained (save ends)
+> - **≤11:** 13 damage; R < 3 [dazed](../../../../condition/dazed.md) and [restrained](../../../../condition/restrained.md) (save ends)
+> - **12-16:** 17 damage; R < 4 [dazed](../../../../condition/dazed.md) and [restrained](../../../../condition/restrained.md) (save ends)
+> - **17+:** 20 damage; R < 5 [dazed](../../../../condition/dazed.md) and [restrained](../../../../condition/restrained.md) (save ends)
 
 > ⭐️ **Energy Conservation**
 >
-> The first time each round that the null is targeted by a strike, it takes a bane and the null halves the damage from it. The creature making the strike takes 10 damage.
+> The first time each round that the null is targeted by a [strike](../../../../rule/combat/strike.md), it takes a bane and the null halves the damage from it. The creature making the strike takes 10 damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.

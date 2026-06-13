@@ -36,19 +36,19 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 1 restrained (save ends)
-> - **17+:** 7 damage; M < 2 restrained (save ends)
+> - **12-16:** 6 damage; M < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 7 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **3 Malice:** The venator lights their net on fire, and a target restrained this way takes 2 fire damage at the start of each of their turns.
+> **3 [Malice](../../../rule/monster/malice.md):** The venator lights their net on fire, and a target [restrained](../../../condition/restrained.md) this way takes 2 fire damage at the start of each of their turns.
 
 > ⭐️ **Lost in the Crowd**
 >
-> While the venator is adjacent to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
+> While the venator is [adjacent](../../../rule/combat/adjacent.md) to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
 
 > ⭐️ **Not What I Seem**
 >
-> The venator starts the encounter disguised as a minion. They have a double edge on their first main action of the encounter, after which they reveal themself.
+> The venator starts the encounter disguised as a [minion](../../../rule/organization/minion.md). They have a double edge on their first main action of the encounter, after which they reveal themself.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.

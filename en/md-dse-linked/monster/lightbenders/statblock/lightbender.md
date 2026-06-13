@@ -55,12 +55,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 12 damage; M < 1 bleeding (save ends)
-> - **17+:** 15 damage; M < 2 bleeding (save ends)
+> - **12-16:** 12 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 15 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** While bleeding this way, the target takes a bane on tests to search for the lightbender while they are hidden.
+> **Effect:** While [bleeding](../../../condition/bleeding.md) this way, the target takes a bane on tests to search for the lightbender while they are hidden.
 
-> ❇️ **Hypnotic Mane (5 Malice)**
+> ❇️ **Hypnotic Mane (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
@@ -68,11 +68,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 dazed (save ends)
-> - **12-16:** I < 1 dazed (save ends)
-> - **17+:** I < 2 dazed (save ends)
+> - **≤11:** I < 0 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** I < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** I < 2 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends.
+> **Effect:** While [dazed](../../../condition/dazed.md) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](../../../condition/dazed.md) condition ends.
 
 > ❗️ **Stalker's Afterimage**
 >
@@ -82,8 +82,8 @@ type: statblock
 >
 > **Trigger:** The lightbender takes damage from a strike.
 >
-> **Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver.
+> **Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../../../movement/teleport.md) up to 5 squares. If they [teleport](../../../movement/teleport.md) into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver.
 
 > ⭐️ **Avoidance**
 >
-> Any effect on the lightbender that would be ended by a saving throw instead ends automatically at the end of their next turn.
+> Any effect on the lightbender that would be ended by a [saving throw](../../../rule/general/saving-throw.md) instead ends automatically at the end of their next turn.

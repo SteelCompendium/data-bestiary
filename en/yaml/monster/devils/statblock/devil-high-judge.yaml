@@ -34,7 +34,8 @@ features:
       target: Two creatures
       type: feature
       usage: Maneuver
-    - distance: Ranged 5
+    - cost: 2 Malice
+      distance: Ranged 5
       effects:
         - roll: ""
           tier1: The target is charmed (save ends).
@@ -45,7 +46,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Devilish Suggestion (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Devilish Suggestion
       target: The triggering creature
       type: feature
       usage: Triggered action
@@ -61,7 +62,8 @@ features:
       icon: ⭐️
       name: True Name
       type: feature
-    - distance: 3 burst
+    - cost: Villain Action 1
+      distance: 3 burst
       effects:
         - roll: ""
           tier1: 15 psychic damage; the target is charmed (save ends)
@@ -72,22 +74,24 @@ features:
       keywords:
         - Area
         - Magic
-      name: All Rise ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: All Rise
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: 5 burst
+    - cost: Villain Action 2
+      distance: 5 burst
       effects:
         - effect: '**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature''s speed.'
       feature_type: ability
       icon: ☠️
       keywords:
         - Area
-      name: Heed My Decree ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Heed My Decree
       target: Self and each ally in the area
       type: feature
       usage: '-'
-    - distance: Ranged 12
+    - cost: Villain Action 3
+      distance: Ranged 12
       effects:
         - effect: '**Effect:** If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places. Each ally within 12 squares of the high judge can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge''s choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge''s choice.'
       feature_type: ability
@@ -95,7 +99,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Deceptive Stratagem ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Deceptive Stratagem
       target: One creature
       type: feature
       usage: '-'

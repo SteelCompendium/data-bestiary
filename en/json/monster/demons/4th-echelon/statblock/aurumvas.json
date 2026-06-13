@@ -37,6 +37,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 20",
       "effects": [
         {
@@ -53,12 +54,13 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Covetous Bolts (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Covetous Bolts",
       "target": "Two creatures",
       "type": "feature",
       "usage": "Main action"
     },
     {
+      "cost": "2 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -70,7 +72,7 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Greed Is Good (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Greed Is Good",
       "target": "Special",
       "type": "feature",
       "usage": "Maneuver"

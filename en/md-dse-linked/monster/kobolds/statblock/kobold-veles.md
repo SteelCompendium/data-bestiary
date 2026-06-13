@@ -49,4 +49,4 @@ with_captain: +1 bonus to speed
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the veles has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the veles has stability 1, has cover, and grants cover to allies.

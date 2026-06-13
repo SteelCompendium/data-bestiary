@@ -28,7 +28,7 @@ with_captain: +5 bonus to ranged distance
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |  **+2**<br>Presence   |
 
-> ⚔️ **Call to Victory (Signature Ability)**
+> ⚔️ **Call to Victory ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                          **Main action** |
 > |----------------------------------|-----------------------------------------:|
@@ -37,11 +37,11 @@ with_captain: +5 bonus to ranged distance
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 sonic damage
-> - **12-16:** 2 sonic damage; P < 1 slowed (save ends)
-> - **17+:** 3 sonic damage; P < 2 slowed (save ends)
+> - **12-16:** 2 sonic damage; P < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 3 sonic damage; P < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
-> **Effect:** Allies gain an edge on melee strikes against the target until the glorifier and each other glorifier in their squad are killed.
+> **Effect:** Allies gain an edge on melee [strikes](../../../rule/combat/strike.md) against the target until the glorifier and each other glorifier in their [squad](../../../rule/monster/squad.md) are killed.
 
 > ⭐️ **Bloodfire Burn**
 >
-> If the glorifier is reduced to 0 Stamina, they can make a free strike before dying.
+> If the glorifier is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying.

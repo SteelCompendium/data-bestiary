@@ -60,7 +60,8 @@ features:
       target: Self
       type: feature
       usage: Maneuver
-    - distance: 1 burst
+    - cost: 2 Malice
+      distance: 1 burst
       effects:
         - roll: Power Roll + 3
           tier1: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 the slide is vertical'
@@ -71,11 +72,12 @@ features:
       keywords:
         - Area
         - Magic
-      name: Turned Upside Down (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Turned Upside Down
       target: Each enemy in the area
       type: feature
       usage: Triggered action
-    - distance: 5 burst
+    - cost: Villain Action 1
+      distance: 5 burst
       effects:
         - roll: Power Roll + 3
           tier1: The hag makes the power roll for all pastries.
@@ -86,11 +88,12 @@ features:
       keywords:
         - Area
         - Magic
-      name: Snackies for Sweeties ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: Snackies for Sweeties
       target: Each creature in the area
       type: feature
       usage: '-'
-    - distance: 1 burst
+    - cost: Villain Action 2
+      distance: 1 burst
       effects:
         - effect: '**Effect:** Before using this [villain action](scc:mcdm.monsters.v1/rule.monster/villain-action), the hag [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. They then use Corrosive Claws against each target, [push](scc:mcdm.heroes.v1/movement/forced-movement) each target up to 2 squares, and [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed again.'
       feature_type: ability
@@ -98,11 +101,12 @@ features:
       keywords:
         - Area
         - Weapon
-      name: Predator's Alacrity ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Predator's Alacrity
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: 5 cube within 1
+    - cost: Villain Action 3
+      distance: 5 cube within 1
       effects:
         - roll: Power Roll + 3
           tier1: 6 fire damage; A < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -113,7 +117,7 @@ features:
       keywords:
         - Area
         - Weapon
-      name: Open the Oven ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Open the Oven
       target: Each creature in the area
       type: feature
       usage: '-'

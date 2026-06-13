@@ -42,12 +42,12 @@ with_captain: +1 bonus to strikes
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; pull 1, or the tonguer can shift 1 square toward the target
-> - **12-16:** 4 damage; pull 2, or the tonguer shifts up to 2 squares toward the target
-> - **17+:** 5 damage; pull 3, or the tonguer shifts up to 3 squares toward the target
+> - **≤11:** 2 damage; [pull](../../../movement/forced-movement.md) 1, or the tonguer can [shift](../../../movement/shifting.md) 1 square toward the target
+> - **12-16:** 4 damage; [pull](../../../movement/forced-movement.md) 2, or the tonguer [shifts](../../../movement/shifting.md) up to 2 squares toward the target
+> - **17+:** 5 damage; [pull](../../../movement/forced-movement.md) 3, or the tonguer [shifts](../../../movement/shifting.md) up to 3 squares toward the target
 >
-> **Effect:** If the forced movement or the shift leaves the target adjacent to the tonguer, the target is also grabbed.
+> **Effect:** If the [forced movement](../../../movement/forced-movement.md) or the [shift](../../../movement/shifting.md) leaves the target [adjacent](../../../rule/combat/adjacent.md) to the tonguer, the target is also [grabbed](../../../condition/grabbed.md).
 
 > ⭐️ **Reptilian Escape**
 >
-> While the tonguer has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the tonguer has a tail, whenever they are [grabbed](../../../condition/grabbed.md), [prone](../../../condition/prone.md), [slowed](../../../condition/slowed.md), or [weakened](../../../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../../../movement/shifting.md) up to 2 squares.

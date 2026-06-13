@@ -19,14 +19,15 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 10 burst
+    - cost: 5 Malice
+      distance: 10 burst
       effects:
         - effect: '**Effect:** Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), then each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader''s turn.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Fairness Is a Human Concept (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Fairness Is a Human Concept
       target: Each ally in the area
       type: feature
       usage: Maneuver

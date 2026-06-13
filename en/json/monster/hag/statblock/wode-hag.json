@@ -86,6 +86,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "2 Malice",
       "distance": "1 burst",
       "effects": [
         {
@@ -101,12 +102,13 @@
         "Area",
         "Magic"
       ],
-      "name": "Turned Upside Down (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Turned Upside Down",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Triggered action"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "5 burst",
       "effects": [
         {
@@ -122,12 +124,13 @@
         "Area",
         "Magic"
       ],
-      "name": "Snackies for Sweeties ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "Snackies for Sweeties",
       "target": "Each creature in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "1 burst",
       "effects": [
         {
@@ -140,12 +143,13 @@
         "Area",
         "Weapon"
       ],
-      "name": "Predator's Alacrity ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Predator's Alacrity",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "5 cube within 1",
       "effects": [
         {
@@ -161,7 +165,7 @@
         "Area",
         "Weapon"
       ],
-      "name": "Open the Oven ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "Open the Oven",
       "target": "Each creature in the area",
       "type": "feature",
       "usage": "-"

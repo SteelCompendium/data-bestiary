@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Celestial Furor (Signature Ability)**
+> ⚔️ **Celestial Furor ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -40,24 +40,24 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 holy damage; vertical slide 2
-> - **12-16:** 17 holy damage; vertical slide 3
-> - **17+:** 21 holy damage; vertical slide 4
+> - **≤11:** 12 holy damage; vertical [slide](../../../../movement/forced-movement.md) 2
+> - **12-16:** 17 holy damage; vertical [slide](../../../../movement/forced-movement.md) 3
+> - **17+:** 21 holy damage; vertical [slide](../../../../movement/forced-movement.md) 4
 >
-> **Effect:** The conduit or one ally within distance regains Stamina equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](../../../../rule/health/stamina.md) equal to half the damage dealt.
 
-> 🏹 **Imbue with Power (3 Malice)**
+> 🏹 **Imbue with Power (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |                **Maneuver** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target has a double edge on their next strike.
+> **Effect:** Each target has a double edge on their next [strike](../../../../rule/combat/strike.md).
 
 > ⭐️ **Unwavering Defender**
 >
-> Damage dealt to any ally adjacent to the conduit is halved.
+> Damage dealt to any ally [adjacent](../../../../rule/combat/adjacent.md) to the conduit is halved.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.

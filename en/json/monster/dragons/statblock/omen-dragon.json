@@ -10,7 +10,7 @@
       ],
       "feature_type": "trait",
       "icon": "☠️",
-      "name": "[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster",
+      "name": "Solo Monster",
       "type": "feature"
     },
     {
@@ -93,6 +93,7 @@
       "type": "feature"
     },
     {
+      "cost": "5 Malice",
       "distance": "10 burst",
       "effects": [
         {
@@ -104,12 +105,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Detonation (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Detonation",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"
     },
     {
+      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -121,12 +123,13 @@
       "keywords": [
         "-"
       ],
-      "name": "Don't Turn Away (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Don't Turn Away",
       "target": "Self",
       "type": "feature",
       "usage": "Free triggered action"
     },
     {
+      "cost": "2 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -138,12 +141,13 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Repent! (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Repent!",
       "target": "The triggering creature",
       "type": "feature",
       "usage": "Free triggered action"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "5 burst",
       "effects": [
         {
@@ -159,12 +163,13 @@
         "Area",
         "Magic"
       ],
-      "name": "What You Deserve ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "What You Deserve",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -181,12 +186,13 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Souls of the Broken ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Souls of the Broken",
       "target": "Five creatures",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "6 burst",
       "effects": [
         {
@@ -199,7 +205,7 @@
         "Area",
         "Magic"
       ],
-      "name": "So Long and Goodnight ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "So Long and Goodnight",
       "target": "Each creature in the area",
       "type": "feature",
       "usage": "-"

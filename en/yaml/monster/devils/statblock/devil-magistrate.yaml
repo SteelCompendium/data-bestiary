@@ -45,7 +45,8 @@ features:
       target: Self
       type: feature
       usage: Maneuver
-    - distance: Ranged 5
+    - cost: 2 Malice
+      distance: Ranged 5
       effects:
         - roll: ""
           tier1: The magistrate chooses a new target for the strike.
@@ -56,7 +57,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Devilish Charm (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Devilish Charm
       target: The triggering creature
       type: feature
       usage: Triggered action

@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 4 x 1 line within 10
+    - cost: 2 Malice
+      distance: 4 x 1 line within 10
       effects:
         - roll: Power Roll + 3
           tier1: 5 damage; I < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
@@ -30,7 +31,7 @@ features:
         - Area
         - Ranged
         - Weapon
-      name: Splitbow (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Splitbow
       target: Each enemy in the area
       type: feature
       usage: Main action

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "The Natural Cycle (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "The Natural Cycle",
       "target": "Two creatures",
       "type": "feature",
       "usage": "Maneuver"

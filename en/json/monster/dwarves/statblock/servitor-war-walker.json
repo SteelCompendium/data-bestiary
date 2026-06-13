@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "3 burst",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Area",
         "Weapon"
       ],
-      "name": "Stunning Blast (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Stunning Blast",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"

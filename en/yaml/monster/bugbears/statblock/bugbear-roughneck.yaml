@@ -34,7 +34,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Melee 1
+    - cost: 3 Malice
+      distance: Melee 1
       effects:
         - effect: |-
             **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the roughneck.
@@ -43,7 +44,7 @@ features:
       icon: "\U0001F5E1"
       keywords:
         - Melee
-      name: Drag Through Hell (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Drag Through Hell
       target: One creature or object
       type: feature
       usage: Maneuver

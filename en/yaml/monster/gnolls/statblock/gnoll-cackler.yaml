@@ -18,7 +18,8 @@ features:
       target: One creature
       type: feature
       usage: Main action
-    - distance: 2 burst
+    - cost: 4 Malice
+      distance: 2 burst
       effects:
         - roll: ""
           tier1: '[Frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)'
@@ -29,7 +30,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Cackler's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Cackler's Cackletongue
       target: Each creature in the area
       type: feature
       usage: Maneuver

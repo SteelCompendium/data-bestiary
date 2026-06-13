@@ -65,6 +65,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "2 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -80,7 +81,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Devilish Charm (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Devilish Charm",
       "target": "The triggering creature",
       "type": "feature",
       "usage": "Triggered action"

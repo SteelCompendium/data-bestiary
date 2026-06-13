@@ -48,6 +48,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Melee 1",
       "effects": [
         {
@@ -59,7 +60,7 @@
       "keywords": [
         "Melee"
       ],
-      "name": "Drag Through Hell (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Drag Through Hell",
       "target": "One creature or object",
       "type": "feature",
       "usage": "Maneuver"

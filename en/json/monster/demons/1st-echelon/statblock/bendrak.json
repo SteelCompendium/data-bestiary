@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "1 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -38,7 +39,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Vanish (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Vanish",
       "target": "Self or one ally",
       "type": "feature",
       "usage": "Maneuver"

@@ -33,7 +33,8 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Main Action
-    - distance: Ranged 5
+    - cost: 5 Malice
+      distance: Ranged 5
       effects:
         - roll: Power Roll + 2
           tier1: 5 corruption damage; P < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -45,7 +46,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      name: Twist Shape (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Twist Shape
       target: One creature
       type: feature
       usage: Main Action

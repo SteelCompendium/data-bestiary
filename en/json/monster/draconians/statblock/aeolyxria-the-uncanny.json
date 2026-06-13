@@ -48,6 +48,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "2 Malice",
       "distance": "1 cube within 5",
       "effects": [
         {
@@ -60,7 +61,7 @@
         "Area",
         "Ranged"
       ],
-      "name": "Elevate (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Elevate",
       "target": "Special",
       "type": "feature",
       "usage": "Maneuver"

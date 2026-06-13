@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "4 cube within 5",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Demonwarp Tears (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Demonwarp Tears",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"

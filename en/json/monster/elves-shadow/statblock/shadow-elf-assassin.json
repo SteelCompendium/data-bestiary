@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "2 Malice",
       "distance": "4 x 1 line within 10",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Ranged",
         "Weapon"
       ],
-      "name": "Splitbow (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Splitbow",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"

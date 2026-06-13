@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "Slide 2; M \u003c 0 slowed (save ends)",
-          "tier2": "Slide 4; M \u003c 1 slowed (save ends)",
-          "tier3": "Slide 6; M \u003c 2 slowed (save ends)"
+          "tier1": "[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 6; M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "Any melee ability targeting the storm mage takes a bane.\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R \u003c 1 they are pushed up to 2 squares."
+          "effect": "Any melee ability targeting the storm mage takes a bane.\nAdditionally, whenever the mage takes damage from an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy, the enemy takes 2 lightning damage, and if they have R \u003c 1 they are [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares."
         }
       ],
       "feature_type": "trait",

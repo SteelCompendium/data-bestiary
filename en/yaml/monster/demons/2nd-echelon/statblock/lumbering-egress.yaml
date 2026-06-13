@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 3 burst
+    - cost: 2 Malice
+      distance: 3 burst
       effects:
         - effect: |-
             **Effect:** Four level 1 demon [minions](scc:mcdm.monsters.v1/rule.organization/minion) (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.
@@ -27,11 +28,12 @@ features:
       icon: ❇️
       keywords:
         - Area
-      name: Demonic Egress (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Demonic Egress
       target: Special
       type: feature
       usage: Maneuver
-    - distance: 5 burst
+    - cost: 2 Malice
+      distance: 5 burst
       effects:
         - effect: |-
             **Trigger:** The last ally [minion](scc:mcdm.monsters.v1/rule.organization/minion) on the encounter map dies, or the egress is reduced below 25 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
@@ -41,7 +43,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Abyssal Protectors (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Abyssal Protectors
       target: Special
       type: feature
       usage: Triggered action

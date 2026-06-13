@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Ranged 10
+    - cost: 3 Malice
+      distance: Ranged 10
       effects:
         - effect: '**Effect:** The target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 8 squares. A [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) target can be pulled an additional 2 squares. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn''t end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.'
       feature_type: ability
@@ -26,7 +27,7 @@ features:
       keywords:
         - Ranged
         - Weapon
-      name: Reel Them In (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Reel Them In
       target: Three creatures
       type: feature
       usage: Maneuver

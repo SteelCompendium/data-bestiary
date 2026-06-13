@@ -18,7 +18,8 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Main action
-    - distance: Ranged 5
+    - cost: 3 Malice
+      distance: Ranged 5
       effects:
         - effect: '**Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space that has cover or concealment.'
       feature_type: ability
@@ -26,7 +27,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: The Wode Protects Us (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: The Wode Protects Us
       target: Self and three allies
       type: feature
       usage: Maneuver

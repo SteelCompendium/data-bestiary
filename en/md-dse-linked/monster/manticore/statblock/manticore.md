@@ -34,7 +34,7 @@ type: statblock
 
 >☠️ **Solo Monster**
 >
->**End Effect:** At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+>[**End Effect:**](../../../rule/monster/end-effect.md) At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 >**Solo Turns:** The manticore can take two turns each round. They can't take turns consecutively.
 
@@ -42,7 +42,7 @@ type: statblock
 >
 > Whenever the manticore deals damage to a creature, they don't provoke opportunity attacks from that creature during that turn.
 
-> 🗡 **Carnivorous Bite (Signature Ability)**
+> 🗡 **Carnivorous Bite ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -50,11 +50,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; A < 2 bleeding (save ends)
-> - **12-16:** 17 damage; A < 3 bleeding (save ends)
-> - **17+:** 21 damage; A < 4 bleeding (save ends)
+> - **≤11:** 12 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 17 damage; A < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 21 damage; A < 4 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** If the target is frightened, this ability gains an edge.
+> **Effect:** If the target is [frightened](../../../condition/frightened.md), this ability gains an edge.
 
 > 🏹 **Tail Spike**
 >
@@ -65,10 +65,10 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 damage; M < 2 4 poison damage
-> - **12-16:** 11 damage; M < 3 4 poison damage, weakened (save ends)
-> - **17+:** 14 damage; M < 4 8 poison damage, weakened (save ends)
+> - **12-16:** 11 damage; M < 3 4 poison damage, [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 14 damage; M < 4 8 poison damage, [weakened](../../../condition/weakened.md) (save ends)
 >
-> **1 Malice:** While weakened this way, a target takes 1d6 poison damage at the start of each of their turns.
+> **1 [Malice](../../../rule/monster/malice.md):** While [weakened](../../../condition/weakened.md) this way, a target takes 1d6 poison damage at the start of each of their turns.
 
 > 🗡 **Harrying Claws**
 >
@@ -78,11 +78,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Slide 1; A < 2 3 damage
-> - **12-16:** Slide 2; A < 3 5 damage
-> - **17+:** Slide 4; A < 4 7 damage
+> - **≤11:** [Slide](../../../movement/forced-movement.md) 1; A < 2 3 damage
+> - **12-16:** [Slide](../../../movement/forced-movement.md) 2; A < 3 5 damage
+> - **17+:** [Slide](../../../movement/forced-movement.md) 4; A < 4 7 damage
 
-> ❗️ **Reflexive Instinct (2 Malice)**
+> ❗️ **Reflexive Instinct (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged**       |           **Triggered action** |
 > |------------------|-------------------------------:|
@@ -90,9 +90,9 @@ type: statblock
 >
 > **Trigger:** A creature within distance deals damage to the manticore.
 >
-> **Effect:** The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target.
+> **Effect:** The manticore [shifts](../../../movement/shifting.md) up to 5 squares into the air, then can use Tail Spike against the target.
 
-> ☠️ **Trumpeting Howl (Villain Action 1)**
+> ☠️ **Trumpeting Howl ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -100,22 +100,22 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)
-> - **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)
-> - **17+:** Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)
+> - **≤11:** [Frightened](../../../condition/frightened.md) (EoT); if the target has I < 2 they are instead [frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** [Frightened](../../../condition/frightened.md) (EoT); if the target has I < 3 they are instead [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** [Frightened](../../../condition/frightened.md) (EoT); if the target has I < 4 they are instead [dazed](../../../condition/dazed.md) (save ends)
 
-> ☠️ **Cornered Predator (Villain Action 2)**
+> ☠️ **Cornered Predator ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability.
+> **Effect:** The manticore [shifts](../../../movement/shifting.md) up to their speed, then can use Tail Spike against each enemy within distance of that ability.
 
-> ☠️ **Debilitating Poison (Villain Action 3)**
+> ☠️ **Debilitating Poison ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.
+> **Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against [weakened](../../../condition/weakened.md) creatures. Additionally, any creature [weakened](../../../condition/weakened.md) by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.

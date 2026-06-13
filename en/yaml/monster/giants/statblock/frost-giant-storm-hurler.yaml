@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Ranged 15
+    - cost: 3 Malice
+      distance: Ranged 15
       effects:
         - roll: ""
           tier1: 14 cold damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
@@ -29,7 +30,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Flower of Frost (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Flower of Frost
       target: Special
       type: feature
       usage: Main action

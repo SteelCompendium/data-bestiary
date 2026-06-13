@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **The Thriving Wilds (Signature Ability)**
+> 🏹 **The Thriving Wilds ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; slide 1; M < 1 3 acid damage
-> - **12-16:** 14 damage; slide 2; M < 2 5 acid damage
-> - **17+:** 17 damage; slide 3; M < 3 7 acid damage
+> - **≤11:** 9 damage; [slide](../../../../movement/forced-movement.md) 1; M < 1 3 acid damage
+> - **12-16:** 14 damage; [slide](../../../../movement/forced-movement.md) 2; M < 2 5 acid damage
+> - **17+:** 17 damage; [slide](../../../../movement/forced-movement.md) 3; M < 3 7 acid damage
 
-> 🔳 **The Depths Hunger (4 Malice)**
+> 🔳 **The Depths Hunger (4 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
@@ -48,10 +48,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 9 damage; restrained (EoT)
-> - **17+:** 11 damage; restrained (save ends)
+> - **12-16:** 9 damage; [restrained](../../../../condition/restrained.md) (EoT)
+> - **17+:** 11 damage; [restrained](../../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 3.
+> **Effect:** The area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](../../../../rule/damage/damage-weakness.md) 3.
 
 > ❗️ **Fissures of Darkness**
 >
@@ -61,8 +61,8 @@ type: statblock
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 3 squares. Each creature adjacent to the space they leave takes 3 corruption damage.
+> **Effect:** The elementalist can [teleport](../../../../movement/teleport.md) up to 3 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave takes 3 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.

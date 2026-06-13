@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "4 burst",
       "effects": [
         {
@@ -40,7 +41,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Tangled Nest (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Tangled Nest",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -38,7 +39,7 @@
         "Ranged",
         "Weapon"
       ],
-      "name": "Ensnaring Chains (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Ensnaring Chains",
       "target": "One [prone](scc:mcdm.heroes.v1/condition/prone), [restrained](scc:mcdm.heroes.v1/condition/restrained), or [slowed](scc:mcdm.heroes.v1/condition/slowed) creature",
       "type": "feature",
       "usage": "Maneuver"

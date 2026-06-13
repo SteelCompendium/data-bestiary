@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 5",
       "effects": [
         {
@@ -37,12 +38,13 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Call Abyssal Hyenas (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Call Abyssal Hyenas",
       "target": "Special",
       "type": "feature",
       "usage": "Maneuver"
     },
     {
+      "cost": "4 Malice",
       "distance": "2 burst",
       "effects": [
         {
@@ -54,7 +56,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Summoner's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Summoner's Cackletongue",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "Maneuver"

@@ -18,7 +18,8 @@ features:
       target: Each enemy and object in the area
       type: feature
       usage: Main action
-    - distance: Melee 1
+    - cost: 3 Malice
+      distance: Melee 1
       effects:
         - roll: Power Roll + 4
           tier1: Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 7
@@ -29,7 +30,7 @@ features:
       keywords:
         - Melee
         - Weapon
-      name: Far Flung (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Far Flung
       target: One creature or object
       type: feature
       usage: Main action
@@ -44,7 +45,8 @@ features:
       target: Special
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The marble stone giant takes damage.
@@ -53,7 +55,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Break Armor (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Break Armor
       target: Self
       type: feature
       usage: Triggered action

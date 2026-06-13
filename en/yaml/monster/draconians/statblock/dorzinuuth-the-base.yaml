@@ -64,7 +64,8 @@ features:
       icon: ⭐️
       name: Sheltering Wings
       type: feature
-    - distance: 5 burst
+    - cost: Villain Action 1
+      distance: 5 burst
       effects:
         - roll: ""
           tier1: '[Frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)'
@@ -74,22 +75,24 @@ features:
       icon: ☠️
       keywords:
         - Area
-      name: Roaring Gambit ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: Roaring Gambit
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: 10 burst
+    - cost: Villain Action 2
+      distance: 10 burst
       effects:
         - effect: '**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) or [flies](scc:mcdm.heroes.v1/movement/fly) up to their speed and regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).'
       feature_type: ability
       icon: ☠️
       keywords:
         - Area
-      name: Wings of Second Wind ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Wings of Second Wind
       target: Self and each ally in the area
       type: feature
       usage: '-'
-    - distance: 5 burst
+    - cost: Villain Action 3
+      distance: 5 burst
       effects:
         - effect: '**Effect:** Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage.'
       feature_type: ability
@@ -97,7 +100,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Snap, Crackle, Pop ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Snap, Crackle, Pop
       target: Each ally in the area
       type: feature
       usage: '-'

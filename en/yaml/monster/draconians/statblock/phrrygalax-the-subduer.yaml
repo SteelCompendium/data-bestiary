@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 1 burst
+    - cost: 2 Malice
+      distance: 1 burst
       effects:
         - roll: Power Roll + 3
           tier1: 7 fire damage
@@ -29,7 +30,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Spinning Spit (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Spinning Spit
       target: Each enemy in the area
       type: feature
       usage: Main action
@@ -44,7 +45,8 @@ features:
       target: Self
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 2 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
@@ -53,7 +55,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Armor of the Ancients (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Armor of the Ancients
       target: Self
       type: feature
       usage: Triggered action

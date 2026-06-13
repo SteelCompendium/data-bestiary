@@ -34,7 +34,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 1 cube within 5
+    - cost: 2 Malice
+      distance: 1 cube within 5
       effects:
         - effect: |-
             **Effect:** The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
@@ -44,7 +45,7 @@ features:
       keywords:
         - Area
         - Ranged
-      name: Elevate (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Elevate
       target: Special
       type: feature
       usage: Maneuver

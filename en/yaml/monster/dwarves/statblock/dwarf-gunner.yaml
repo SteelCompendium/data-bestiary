@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Ranged 10
+    - cost: 5 Malice
+      distance: Ranged 10
       effects:
         - effect: '**Effect:** The gunner makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and the [prone](scc:mcdm.heroes.v1/condition/prone), [restrained](scc:mcdm.heroes.v1/condition/restrained), and [slowed](scc:mcdm.heroes.v1/condition/slowed) conditions on the target end. The target is then [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).'
       feature_type: ability
@@ -26,7 +27,7 @@ features:
       keywords:
         - Ranged
         - Weapon
-      name: Ensnaring Chains (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Ensnaring Chains
       target: One [prone](scc:mcdm.heroes.v1/condition/prone), [restrained](scc:mcdm.heroes.v1/condition/restrained), or [slowed](scc:mcdm.heroes.v1/condition/slowed) creature
       type: feature
       usage: Maneuver

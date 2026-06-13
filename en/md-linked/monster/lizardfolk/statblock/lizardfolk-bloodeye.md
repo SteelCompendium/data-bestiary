@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; A < 0 restrained (save ends)
-> - **12-16:** 7 damage; A < 1 restrained (save ends)
-> - **17+:** 9 damage; A < 2 restrained (save ends)
+> - **≤11:** 5 damage; A < 0 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 7 damage; A < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 9 damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
 
-> 🏹 **Bloodshot (2 Malice)**
+> 🏹 **Bloodshot (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -54,4 +54,4 @@ type: statblock
 
 > ⭐️ **Reptilian Escape**
 >
-> While the bloodeye has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the bloodeye has a tail, whenever they are [grabbed](../../../condition/grabbed.md), [prone](../../../condition/prone.md), [slowed](../../../condition/slowed.md), or [weakened](../../../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../../../movement/shifting.md) up to 2 squares.

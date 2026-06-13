@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "2 Malice",
       "distance": "8 x 3 line within 1",
       "effects": [
         {
@@ -41,7 +42,7 @@
         "Area",
         "Weapon"
       ],
-      "name": "Tumbling Gore (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Tumbling Gore",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"

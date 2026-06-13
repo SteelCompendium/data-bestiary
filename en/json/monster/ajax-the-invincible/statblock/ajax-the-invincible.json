@@ -14,6 +14,7 @@
       "type": "feature"
     },
     {
+      "ability_type": "Signature Ability",
       "distance": "Melee 1",
       "effects": [
         {
@@ -32,7 +33,7 @@
         "Strike",
         "Weapon"
       ],
-      "name": "Blade of the Gol King ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))",
+      "name": "Blade of the Gol King",
       "target": "Two creatures or objects",
       "type": "feature",
       "usage": "Main Action"

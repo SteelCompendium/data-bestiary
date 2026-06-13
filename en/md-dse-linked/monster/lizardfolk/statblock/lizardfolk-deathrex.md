@@ -40,13 +40,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; pull 1; A < 1 bleeding (save ends)
-> - **12-16:** 10 damage; pull 1; A < 2 bleeding (save ends)
-> - **17+:** 12 damage; pull 2; A < 3 bleeding (save ends)
+> - **≤11:** 7 damage; [pull](../../../movement/forced-movement.md) 1; A < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **12-16:** 10 damage; [pull](../../../movement/forced-movement.md) 1; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+> - **17+:** 12 damage; [pull](../../../movement/forced-movement.md) 2; A < 3 [bleeding](../../../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** One target adjacent to the deathrex is grabbed in the deathrex's mouth.
+> **1 [Malice](../../../rule/monster/malice.md):** One target [adjacent](../../../rule/combat/adjacent.md) to the deathrex is [grabbed](../../../condition/grabbed.md) in the deathrex's mouth.
 
-> 🗡 **Death Roll (3 Malice)**
+> 🗡 **Death Roll (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |                       **Main action** |
 > |---------------------------|--------------------------------------:|
@@ -54,11 +54,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; M < 1 dazed (save ends)
-> - **12-16:** 12 damage; M < 2 dazed (save ends)
-> - **17+:** 15 damage; M < 3 dazed (save ends)
+> - **≤11:** 8 damage; M < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 12 damage; M < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 15 damage; M < 3 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** The target is no longer grabbed by the deathrex, and the deathrex slides them up to 5 squares.
+> **Effect:** The target is no longer [grabbed](../../../condition/grabbed.md) by the deathrex, and the deathrex [slides](../../../movement/forced-movement.md) them up to 5 squares.
 
 > 👤 **Trundle**
 >
@@ -66,7 +66,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The deathrex moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.
+> **Effect:** The deathrex moves up to their speed. They can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each creature who makes an opportunity attack against them during this movement.
 
 > ❗️ **Swat the Fly**
 >
@@ -74,34 +74,34 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A creature or object within distance moves or shifts away from the deathrex.
+> **Trigger:** A creature or object within distance moves or [shifts](../../../movement/shifting.md) away from the deathrex.
 >
-> **Effect:** The deathrex slides the target up to 5 squares.
+> **Effect:** The deathrex [slides](../../../movement/forced-movement.md) the target up to 5 squares.
 
 > ⭐️ **Rex Reptilian Escape**
 >
-> While the deathrex has a tail, whenever they are affected by an effect that can be ended by a saving throw or that ends at the end of their turn, they can lose their tail to immediately end that effect, then shift up to 2 squares.
+> While the deathrex has a tail, whenever they are affected by an effect that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn, they can lose their tail to immediately end that effect, then [shift](../../../movement/shifting.md) up to 2 squares.
 
-> ☠️ **Snack Attack (Villain Action 1)**
+> ☠️ **Snack Attack ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target moves up to their speed and can make a free strike. Each target gains temporary Stamina equal to the damage they deal.
+> **Effect:** Each target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Each target gains temporary [Stamina](../../../rule/health/stamina.md) equal to the damage they deal.
 
-> ☠️ **Shed Some Skin (Villain Action 2)**
+> ☠️ **Shed Some Skin ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The deathrex shifts up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 Stamina and no villain actions.
+> **Effect:** The deathrex [shifts](../../../movement/shifting.md) up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 [Stamina](../../../rule/health/stamina.md) and no [villain actions](../../../rule/monster/villain-action.md).
 
-> ☠️ **Thresher Thrasher (Villain Action 3)**
+> ☠️ **Thresher Thrasher ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes adjacent to a target or starts their turn there, the target can make a free strike against them.
+> **Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes [adjacent](../../../rule/combat/adjacent.md) to a target or starts their turn there, the target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.

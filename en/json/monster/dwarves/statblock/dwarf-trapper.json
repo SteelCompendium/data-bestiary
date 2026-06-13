@@ -28,6 +28,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "3 cube within 5",
       "effects": [
         {
@@ -44,7 +45,7 @@
         "Ranged",
         "Weapon"
       ],
-      "name": "Steam-Powered Snare (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Steam-Powered Snare",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"

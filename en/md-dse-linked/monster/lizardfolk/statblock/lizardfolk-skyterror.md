@@ -43,9 +43,9 @@ type: statblock
 >
 > - **≤11:** 5 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; prone
+> - **17+:** 9 damage; [prone](../../../condition/prone.md)
 >
-> **Effect:** If the skyterror is flying, they shift up to 4 squares.
+> **Effect:** If the skyterror is [flying](../../../movement/fly.md), they [shift](../../../movement/shifting.md) up to 4 squares.
 
 > 🏹 **Poison Blow Dart**
 >
@@ -55,16 +55,16 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; M < 0 weakened (save ends)
-> - **12-16:** 5 damage; M < 1 weakened (save ends)
-> - **17+:** 7 damage; M < 2 weakened (save ends)
+> - **≤11:** 3 damage; M < 0 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 5 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 7 damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **Effect:** Any creature who ends their turn adjacent to a target weakened this way is weakened until the end of their next turn.
+> **Effect:** Any creature who ends their turn [adjacent](../../../rule/combat/adjacent.md) to a target [weakened](../../../condition/weakened.md) this way is [weakened](../../../condition/weakened.md) until the end of their next turn.
 
 > ⭐️ **Glider**
 >
-> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can fly until the end of their next turn.
+> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can [fly](../../../movement/fly.md) until the end of their next turn.
 
 > ⭐️ **Reptilian Escape**
 >
-> While the skyterror has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the skyterror has a tail, whenever they are [grabbed](../../../condition/grabbed.md), [prone](../../../condition/prone.md), [slowed](../../../condition/slowed.md), or [weakened](../../../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../../../movement/shifting.md) up to 2 squares.

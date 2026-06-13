@@ -97,6 +97,7 @@
       "type": "feature"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "5 burst",
       "effects": [
         {
@@ -111,12 +112,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Roaring Gambit ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "Roaring Gambit",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "10 burst",
       "effects": [
         {
@@ -128,12 +130,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Wings of Second Wind ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Wings of Second Wind",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "5 burst",
       "effects": [
         {
@@ -146,7 +149,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Snap, Crackle, Pop ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "Snap, Crackle, Pop",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "-"

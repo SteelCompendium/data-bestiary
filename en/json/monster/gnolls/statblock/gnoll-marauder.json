@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "2 burst",
       "effects": [
         {
@@ -37,7 +38,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Marauder's Cackletongue (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Marauder's Cackletongue",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "Maneuver"

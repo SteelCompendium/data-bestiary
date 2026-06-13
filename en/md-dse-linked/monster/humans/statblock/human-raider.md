@@ -48,7 +48,7 @@ with_captain: Gain an edge on strikes
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** If this ability is used as part of a charge, the raider can make a ranged free strike before using the ability.
+> **Effect:** If this ability is used as part of a charge, the raider can make a ranged [free strike](../../../feature/common/main-actions/free-strike.md) before using the ability.
 
 > ⭐️ **Supernatural Insight**
 >

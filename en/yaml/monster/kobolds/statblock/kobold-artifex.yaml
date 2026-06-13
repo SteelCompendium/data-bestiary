@@ -22,7 +22,7 @@ features:
       effects:
         - effect: |-
             **Effect:** The trap or terrain object instantly triggers.
-            **3 Malice:** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
+            **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
       feature_type: ability
       icon: ⭐️
       keywords:
@@ -32,7 +32,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: While adjacent to an ally who also has this trait, the artifex has stability 1, has cover, and grants cover to allies.
+        - effect: While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the artifex has stability 1, has cover, and grants cover to allies.
       feature_type: trait
       icon: ⭐️
       name: Shield? Shield!

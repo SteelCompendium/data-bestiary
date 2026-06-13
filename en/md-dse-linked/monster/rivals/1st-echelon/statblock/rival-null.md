@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Nimble Step (Signature Ability)**
+> 🗡 **Nimble Step ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -40,11 +40,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; the null shifts up to 2 squares
-> - **12-16:** 10 damage; the null shifts up to 3 squares
-> - **17+:** 13 damage; the null shifts up to 4 squares
+> - **≤11:** 7 damage; the null [shifts](../../../../movement/shifting.md) up to 2 squares
+> - **12-16:** 10 damage; the null [shifts](../../../../movement/shifting.md) up to 3 squares
+> - **17+:** 13 damage; the null [shifts](../../../../movement/shifting.md) up to 4 squares
 
-> 🗡 **Numb (2 Malice)**
+> 🗡 **Numb (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
 > |------------------------------------|------------------------------:|
@@ -52,14 +52,14 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; R < 0 slowed (EoT)
-> - **12-16:** 10 damage; R < 1 slowed (EoT)
-> - **17+:** 13 damage; R < 2 dazed and slowed (EoT)
+> - **≤11:** 7 damage; R < 0 [slowed](../../../../condition/slowed.md) (EoT)
+> - **12-16:** 10 damage; R < 1 [slowed](../../../../condition/slowed.md) (EoT)
+> - **17+:** 13 damage; R < 2 [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (EoT)
 
 > ⭐️ **Inertial Shield**
 >
-> The first time each round that the null is targeted by a damage-dealing strike, they halve the damage.
+> The first time each round that the null is targeted by a damage-dealing [strike](../../../../rule/combat/strike.md), they halve the damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the null and the creature can add a d3 roll to power rolls they make against each other.

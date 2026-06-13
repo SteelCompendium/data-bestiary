@@ -122,6 +122,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "2 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -133,7 +134,7 @@
       "keywords": [
         "Magic"
       ],
-      "name": "Envious Imitation (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Envious Imitation",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"

@@ -85,7 +85,8 @@ features:
       target: One creature or object
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 2 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** A creature targets the bredbeddle with a ranged strike.
@@ -94,7 +95,7 @@ features:
       icon: ❗️
       keywords:
         - Magic
-      name: Envious Imitation (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Envious Imitation
       target: Self
       type: feature
       usage: Triggered action

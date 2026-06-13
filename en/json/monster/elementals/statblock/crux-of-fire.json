@@ -44,6 +44,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "1 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -55,7 +56,7 @@
       "keywords": [
         "Magic"
       ],
-      "name": "Flame Jet (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Flame Jet",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"

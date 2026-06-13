@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 5 cube within 1
+    - cost: 3 Malice
+      distance: 5 cube within 1
       effects:
         - effect: |-
             **Special:** The blight phage must create the cube beneath themself.
@@ -29,7 +30,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Blight Rain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Blight Rain
       target: Each enemy in the area
       type: feature
       usage: Maneuver

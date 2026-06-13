@@ -44,22 +44,22 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally within 10 squares of the signifer can shift up to their speed if they end that shift adjacent to an ally.
+> **Effect:** One ally within 10 squares of the signifer can [shift](../../../movement/shifting.md) up to their speed if they end that shift [adjacent](../../../rule/combat/adjacent.md) to an ally.
 >
-> **2+ Malice:** One additional ally can shift for each 2 Malice spent.
+> **2+ [Malice](../../../rule/monster/malice.md):** One additional ally can [shift](../../../movement/shifting.md) for each 2 [Malice](../../../rule/monster/malice.md) spent.
 
-> ❇️ **Glory to the Legion (5 Malice)**
+> ❇️ **Glory to the Legion (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |                 **Maneuver** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target regains 5 Stamina.
+> **Effect:** Each target regains 5 [Stamina](../../../rule/health/stamina.md).
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
 
 > ⭐️ **Upholding High Standards**
 >
-> Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold minion can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.
+> Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold [minion](../../../rule/organization/minion.md) can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.

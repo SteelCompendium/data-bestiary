@@ -4,9 +4,9 @@ scc: mcdm.monsters.v1/monster.radenwights/radenwight-malice
 type: featureblock
 ---
 
-At the start of any radenwight's turn, you can spend Malice to activate one of the following features.
+At the start of any radenwight's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> 🗡 **Trouser Cut (3 Malice)**
+> 🗡 **Trouser Cut (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -14,21 +14,21 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 3
-> - **12-16:** 10 damage; push 3, taunted (EoT)
-> - **17+:** 13 damage; push 5, taunted (EoT)
+> - **≤11:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3, [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **17+:** 13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5, [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
 >
 > **Effect:** If the target is wearing clothing covering the lower half of their body, they must use a maneuver once to pull that clothing up before they can move.
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
 
-> ⭐️ **Rat Race (5 Malice)**
+> ⭐️ **Rat Race (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Each radenwight in the encounter shifts up to their speed. If a radenwight ends this shift adjacent to one or more radenwights, they can make a melee free strike against each enemy adjacent to them.
+> Each radenwight in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. If a radenwight ends this shift [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more radenwights, they can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
-> 🔳 **Rally the Rodents (7 Malice)**
+> 🔳 **Rally the Rodents (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block line of effect for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 Stamina.
+> A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 >
 > If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map makes an Intuition test.
 >

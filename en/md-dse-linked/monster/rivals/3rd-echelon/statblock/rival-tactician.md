@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🏹 **Command From the Back (Signature Ability)**
+> 🏹 **Command From the Back ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -41,12 +41,12 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 13 damage
-> - **12-16:** 18 damage; A < 3 prone
-> - **17+:** 22 damage; A < 4 prone
+> - **12-16:** 18 damage; A < 3 [prone](../../../../condition/prone.md)
+> - **17+:** 22 damage; A < 4 [prone](../../../../condition/prone.md)
 >
-> **4 Malice:** Two allies within distance move up to their speed and can use a signature ability.
+> **4 [Malice](../../../../rule/monster/malice.md):** Two allies within distance move up to their speed and can use a [signature ability](../../../../rule/combat/signature-ability.md).
 
-> 🏹 **Safeguard (3 Malice)**
+> 🏹 **Safeguard (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -54,11 +54,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; M < 2 weakened (save ends)
-> - **12-16:** 21 damage; M < 3 weakened (save ends)
-> - **17+:** 26 damage; M < 4 weakened (save ends)
+> - **≤11:** 15 damage; M < 2 [weakened](../../../../condition/weakened.md) (save ends)
+> - **12-16:** 21 damage; M < 3 [weakened](../../../../condition/weakened.md) (save ends)
+> - **17+:** 26 damage; M < 4 [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **Effect:** Two allies adjacent to the target each regain 7 Stamina.
+> **Effect:** Two allies [adjacent](../../../../rule/combat/adjacent.md) to the target each regain 7 [Stamina](../../../../rule/health/stamina.md).
 
 > ❗️ **Quickshot**
 >
@@ -68,8 +68,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician uses a signature ability against the target.
+> **Effect:** At any point during the movement, the tactician uses a [signature ability](../../../../rule/combat/signature-ability.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

@@ -39,7 +39,7 @@ type: statblock
 > - **12-16:** 4 damage; pull 2
 > - **17+:** 5 damage; pull 3
 >
-> **Effect:** If this forced movement triggers a trap that uses a power roll, that roll has a double edge.
+> **Effect:** If this [forced movement](../../../movement/forced-movement.md) triggers a trap that uses a power roll, that roll has a double edge.
 
 > ⭐️ **Activate Trap**
 >
@@ -49,8 +49,8 @@ type: statblock
 >
 > **Effect:** The trap or terrain object instantly triggers.
 >
-> **3 Malice:** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
+> **3 [Malice](../../../rule/monster/malice.md):** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the artifex has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the artifex has stability 1, has cover, and grants cover to allies.

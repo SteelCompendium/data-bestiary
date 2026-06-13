@@ -38,9 +38,9 @@ type: statblock
 
 > ⭐️ **Elemental Affinity**
 >
-> The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's damage immunity and the damage dealt by their abilities.
+> The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's [damage immunity](../../../rule/damage/damage-immunity.md) and the damage dealt by their abilities.
 
-> 🏹 **Elemental Discharge (Signature Ability)**
+> 🏹 **Elemental Discharge ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -48,13 +48,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; push 2, or the eye shifts up to 2 squares away from the target
-> - **12-16:** 9 damage; slide 4, or the eye shifts up to 4 squares away from the target
-> - **17+:** 12 damage; slide 6, or the eye shifts up to 6 squares away from the target
+> - **≤11:** 6 damage; [push](../../../movement/forced-movement.md) 2, or the eye [shifts](../../../movement/shifting.md) up to 2 squares away from the target
+> - **12-16:** 9 damage; [slide](../../../movement/forced-movement.md) 4, or the eye [shifts](../../../movement/shifting.md) up to 4 squares away from the target
+> - **17+:** 12 damage; [slide](../../../movement/forced-movement.md) 6, or the eye [shifts](../../../movement/shifting.md) up to 6 squares away from the target
 >
 > **Effect:** This ability deals cold, fire, or lightning damage.
 
-> 🔳 **Power Burst (3 Malice)**
+> 🔳 **Power Burst (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Magic**            |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -62,12 +62,12 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; push 2
-> - **12-16:** 5 damage; push 3
-> - **17+:** 8 damage; push 4, prone
+> - **≤11:** 3 damage; [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 5 damage; [push](../../../movement/forced-movement.md) 3
+> - **17+:** 8 damage; [push](../../../movement/forced-movement.md) 4, [prone](../../../condition/prone.md)
 >
-> **Effect:** This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has damage weakness 3 to the same damage type (save ends).
+> **Effect:** This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has [damage weakness](../../../rule/damage/damage-weakness.md) 3 to the same damage type (save ends).
 
 > ⭐️ **Relentless**
 >
-> If the eye is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the eye is reduced to 1 Stamina instead.
+> If the eye is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the eye is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.

@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> 🗡 **Pitchfork Catapult (Signature Ability)**
+> 🗡 **Pitchfork Catapult ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -36,10 +36,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 1 vertical push 2
-> - **17+:** 13 damage; A < 2 vertical slide 3
+> - **12-16:** 10 damage; A < 1 vertical [push](../../../movement/forced-movement.md) 2
+> - **17+:** 13 damage; A < 2 vertical [slide](../../../movement/forced-movement.md) 3
 >
-> **1 Malice:** Each target who has M < 1 is bleeding (save ends).
+> **1 [Malice](../../../rule/monster/malice.md):** Each target who has M < 1 is [bleeding](../../../condition/bleeding.md) (save ends).
 
 > ❇️ **Earth-Breaking Jump**
 >
@@ -52,10 +52,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; push 2; M < 1 prone
-> - **17+:** 9 damage; push 4; M < 2 prone
+> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 2; M < 1 [prone](../../../condition/prone.md)
+> - **17+:** 9 damage; [push](../../../movement/forced-movement.md) 4; M < 2 [prone](../../../condition/prone.md)
 
-> ❇️ **Horrible Bellow (2 Malice)**
+> ❇️ **Horrible Bellow (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
@@ -63,13 +63,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 frightened (save ends)
-> - **12-16:** I < 1 frightened (save ends)
-> - **17+:** I < 2 frightened (save ends)
+> - **≤11:** I < 0 [frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** I < 1 [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** I < 2 [frightened](../../../condition/frightened.md) (save ends)
 >
-> **Effect:** While a target is frightened this way, any ogre gains an edge on strikes against them.
+> **Effect:** While a target is [frightened](../../../condition/frightened.md) this way, any ogre gains an edge on strikes against them.
 
-> ❗️ **Hrraaaaaagh! (1 Malice)**
+> ❗️ **Hrraaaaaagh! (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -77,12 +77,12 @@ type: statblock
 >
 > **Trigger:** The juggernaut takes damage.
 >
-> **Effect:** The juggernaut moves up to their speed and can make a free strike.
+> **Effect:** The juggernaut moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Destructive Path**
 >
-> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are force moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
+> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are [force moved](../../../movement/forced-movement.md). They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
 
 > ⭐️ **Defiant Anger**
 >
-> While winded, the juggernaut has damage immunity 2.
+> While [winded](../../../rule/health/winded.md), the juggernaut has damage immunity 2.

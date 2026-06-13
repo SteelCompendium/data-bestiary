@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "3 cube within 5",
       "effects": [
         {
@@ -41,7 +42,7 @@
         "Ranged",
         "Weapon"
       ],
-      "name": "Sleep Grenade (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Sleep Grenade",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"

@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -38,7 +39,7 @@
       "keywords": [
         "Magic"
       ],
-      "name": "Grasping Shadow (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Grasping Shadow",
       "target": "Self",
       "type": "feature",
       "usage": "Maneuver"

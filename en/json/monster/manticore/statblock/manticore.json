@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "**End Effect:** At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.\n**Solo Turns:** The manticore can take two turns each round. They can't take turns consecutively."
+          "effect": "[**End Effect:**](scc:mcdm.monsters.v1/rule.monster/end-effect) At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The manticore can take two turns each round. They can't take turns consecutively."
         }
       ],
       "feature_type": "trait",
@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "12 damage; A \u003c 2 bleeding (save ends)",
-          "tier2": "17 damage; A \u003c 3 bleeding (save ends)",
-          "tier3": "21 damage; A \u003c 4 bleeding (save ends)"
+          "tier1": "12 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "17 damage; A \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "21 damage; A \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -53,8 +53,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "6 damage; M \u003c 2 4 poison damage",
-          "tier2": "11 damage; M \u003c 3 4 poison damage, weakened (save ends)",
-          "tier3": "14 damage; M \u003c 4 8 poison damage, weakened (save ends)"
+          "tier2": "11 damage; M \u003c 3 4 poison damage, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "14 damage; M \u003c 4 8 poison damage, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -74,9 +74,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "Slide 1; A \u003c 2 3 damage",
-          "tier2": "Slide 2; A \u003c 3 5 damage",
-          "tier3": "Slide 4; A \u003c 4 7 damage"
+          "tier1": "[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 1; A \u003c 2 3 damage",
+          "tier2": "[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; A \u003c 3 5 damage",
+          "tier3": "[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; A \u003c 4 7 damage"
         }
       ],
       "feature_type": "ability",
@@ -96,7 +96,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance deals damage to the manticore.\n**Effect:** The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target."
+          "effect": "**Trigger:** A creature within distance deals damage to the manticore.\n**Effect:** The manticore [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares into the air, then can use Tail Spike against the target."
         }
       ],
       "feature_type": "ability",
@@ -115,9 +115,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "Frightened (EoT); if the target has I \u003c 2 they are instead frightened (save ends)",
-          "tier2": "Frightened (EoT); if the target has I \u003c 3 they are instead frightened (save ends)",
-          "tier3": "Frightened (EoT); if the target has I \u003c 4 they are instead dazed (save ends)"
+          "tier1": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT); if the target has I \u003c 2 they are instead [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT); if the target has I \u003c 3 they are instead [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier3": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT); if the target has I \u003c 4 they are instead [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -136,7 +136,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability."
+          "effect": "**Effect:** The manticore [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can use Tail Spike against each enemy within distance of that ability."
         }
       ],
       "feature_type": "ability",
@@ -154,7 +154,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns."
+          "effect": "**Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against [weakened](scc:mcdm.heroes.v1/condition/weakened) creatures. Additionally, any creature [weakened](scc:mcdm.heroes.v1/condition/weakened) by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns."
         }
       ],
       "feature_type": "ability",

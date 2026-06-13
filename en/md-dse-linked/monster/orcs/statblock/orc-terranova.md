@@ -33,7 +33,7 @@ type: statblock
 | **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  |   **+1**<br>Agility    | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Earth Pillar (Signature Ability)**
+> 🏹 **Earth Pillar ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                   **Main action** |
 > |---------------------------|----------------------------------:|
@@ -41,13 +41,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; A < 0 prone and can't stand (save ends)
-> - **12-16:** 9 damage; A < 1 prone and can't stand (save ends)
-> - **17+:** 12 damage; A < 2 prone and can't stand (save ends)
+> - **≤11:** 6 damage; A < 0 [prone](../../../condition/prone.md) and can't stand (save ends)
+> - **12-16:** 9 damage; A < 1 [prone](../../../condition/prone.md) and can't stand (save ends)
+> - **17+:** 12 damage; A < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
 >
 > **Effect:** Each target must be on the ground, and the ground in each target's space rises 1 square.
 
-> ❇️ **Sinkhole (3 Malice)**
+> ❇️ **Sinkhole (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                          **Main action** |
 > |------------------|-----------------------------------------:|
@@ -55,16 +55,16 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; M < 0 restrained (save ends)
-> - **12-16:** 7 damage; M < 1 restrained (save ends)
-> - **17+:** 10 damage; M < 2 restrained (save ends)
+> - **≤11:** 4 damage; M < 0 [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 7 damage; M < 1 [restrained](../../../condition/restrained.md) (save ends)
+> - **17+:** 10 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** The area is difficult terrain.
+> **Effect:** The area is [difficult terrain](../../../movement/difficult-terrain.md).
 
 > ⭐️ **Seismic Step**
 >
-> The terranova ignores difficult terrain. Additionally, they don't need line of effect to use abilities against creatures touching the ground.
+> The terranova ignores [difficult terrain](../../../movement/difficult-terrain.md). Additionally, they don't need [line of effect](../../../rule/combat/line-of-effect.md) to use abilities against creatures touching the ground.
 
 > ⭐️ **Relentless**
 >
-> If the terranova is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the terranova is reduced to 1 Stamina instead.
+> If the terranova is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the terranova is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.

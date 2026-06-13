@@ -65,7 +65,8 @@ features:
       target: One creature or object on the ground
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The cryptic takes damage.
@@ -74,11 +75,12 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Dissipate (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Dissipate
       target: Self
       type: feature
       usage: Triggered action
-    - distance: 2 burst
+    - cost: 5 Malice
+      distance: 2 burst
       effects:
         - roll: Power Roll + 3
           tier1: 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
@@ -88,11 +90,12 @@ features:
       icon: ❗️
       keywords:
         - Area
-      name: Shatterstone (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Shatterstone
       target: Each enemy in the area
       type: feature
       usage: Triggered action
-    - distance: 10 burst
+    - cost: Villain Action 1
+      distance: 10 burst
       effects:
         - roll: ""
           tier1: '[Prone](scc:mcdm.heroes.v1/condition/prone) and can''t stand (EoT)'
@@ -102,11 +105,12 @@ features:
       icon: ☠️
       keywords:
         - Area
-      name: First Warning Quake ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: First Warning Quake
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: 5 burst
+    - cost: Villain Action 2
+      distance: 5 burst
       effects:
         - roll: ""
           tier1: 9 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
@@ -116,11 +120,12 @@ features:
       icon: ☠️
       keywords:
         - Area
-      name: Final Warning Fissure ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Final Warning Fissure
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: Ranged 10
+    - cost: Villain Action 3
+      distance: Ranged 10
       effects:
         - roll: Power Roll + 3
           tier1: 2 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
@@ -130,7 +135,7 @@ features:
       icon: ☠️
       keywords:
         - Ranged
-      name: No Escape ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: No Escape
       target: Two creatures or objects
       type: feature
       usage: '-'

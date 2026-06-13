@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "1 sonic damage",
-          "tier2": "2 sonic damage; P \u003c 1 slowed (save ends)",
-          "tier3": "3 sonic damage; P \u003c 2 slowed (save ends)"
+          "tier2": "2 sonic damage; P \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "3 sonic damage; P \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
     {
       "effects": [
         {
-          "effect": "If the glorifier is reduced to 0 Stamina, they can make a free strike before dying."
+          "effect": "If the glorifier is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying."
         }
       ],
       "feature_type": "trait",

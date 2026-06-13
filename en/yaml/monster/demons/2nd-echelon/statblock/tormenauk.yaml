@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 3 burst
+    - cost: 5 Malice
+      distance: 3 burst
       effects:
         - roll: Power Roll + 3
           tier1: 4 psychic damage; I < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
@@ -29,7 +30,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Agony Wail (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Agony Wail
       target: Each enemy in the area
       type: feature
       usage: Maneuver

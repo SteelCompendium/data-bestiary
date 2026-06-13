@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **My Spear, My Foe (Signature Ability)**
+> 🗡 **My Spear, My Foe ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -41,8 +41,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 9 damage; taunted (EoT)
-> - **17+:** 12 damage; taunted (EoT)
+> - **12-16:** 9 damage; [taunted](../../../condition/taunted.md) (EoT)
+> - **17+:** 12 damage; [taunted](../../../condition/taunted.md) (EoT)
 >
 > **Effect:** This ability has a double edge against any target who dealt damage to the rampart this round.
 
@@ -52,7 +52,7 @@ type: statblock
 > |------------------------|----------------:|
 > | **📏 Self; see below** | **🎯 One ally** |
 >
-> **Effect:** The rampart moves or shifts up to their speed adjacent to the target, then can swap places with the target.
+> **Effect:** The rampart moves or [shifts](../../../movement/shifting.md) up to their speed [adjacent](../../../rule/combat/adjacent.md) to the target, then can swap places with the target.
 
 > ❗️ **No.**
 >
@@ -60,10 +60,10 @@ type: statblock
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** A creature targets an ally adjacent to the rampart with an ability that doesn't also target the rampart.
+> **Trigger:** A creature targets an ally [adjacent](../../../rule/combat/adjacent.md) to the rampart with an ability that doesn't also target the rampart.
 >
 > **Effect:** The rampart becomes the target of the triggering ability instead.
 
 > ⭐️ **Relentless**
 >
-> If the rampart is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the rampart is reduced to 1 Stamina instead.
+> If the rampart is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the rampart is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.

@@ -45,8 +45,8 @@ with_captain: +2 bonus to Stamina
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** One ally within 3 squares of the princeps shifts up to 2 squares.
+> **Effect:** One ally within 3 squares of the princeps [shifts](../../../movement/shifting.md) up to 2 squares.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies.

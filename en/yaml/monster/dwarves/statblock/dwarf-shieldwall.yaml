@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** A creature makes a strike against an ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the shieldwall.
@@ -27,7 +28,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Intercepting Shield (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Intercepting Shield
       target: Self
       type: feature
       usage: Triggered action

@@ -32,7 +32,8 @@ features:
       target: Self or one elemental
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The crux takes damage.
@@ -41,7 +42,7 @@ features:
       icon: ❗️
       keywords:
         - Magic
-      name: Flame Jet (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Flame Jet
       target: Self
       type: feature
       usage: Triggered action

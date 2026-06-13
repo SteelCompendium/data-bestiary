@@ -64,6 +64,7 @@
       "usage": "Maneuver"
     },
     {
+      "cost": "2 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -75,7 +76,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Anyone Can Do That (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Anyone Can Do That",
       "target": "Self",
       "type": "feature",
       "usage": "Triggered action"

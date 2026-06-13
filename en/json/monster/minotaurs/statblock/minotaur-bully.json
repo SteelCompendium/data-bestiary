@@ -10,7 +10,7 @@
           "roll": "Power Roll + 4",
           "tier1": "4 damage",
           "tier2": "7 damage",
-          "tier3": "9 damage; I \u003c 4 taunted (EoT) or frightened of all minotaurs (save ends)"
+          "tier3": "9 damage; I \u003c 4 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT) or [frightened](scc:mcdm.heroes.v1/condition/frightened) of all minotaurs (save ends)"
         }
       ],
       "feature_type": "ability",

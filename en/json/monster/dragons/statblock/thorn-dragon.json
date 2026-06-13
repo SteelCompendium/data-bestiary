@@ -10,7 +10,7 @@
       ],
       "feature_type": "trait",
       "icon": "☠️",
-      "name": "[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster",
+      "name": "Solo Monster",
       "type": "feature"
     },
     {
@@ -81,6 +81,7 @@
       "type": "feature"
     },
     {
+      "cost": "5 Malice",
       "distance": "10 burst",
       "effects": [
         {
@@ -92,7 +93,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Investiture of Verdure (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Investiture of Verdure",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Maneuver"
@@ -116,6 +117,7 @@
       "usage": "Free triggered action"
     },
     {
+      "cost": "1 Malice",
       "distance": "Melee 1",
       "effects": [
         {
@@ -127,12 +129,13 @@
       "keywords": [
         "Melee"
       ],
-      "name": "Thorny Scales (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Thorny Scales",
       "target": "The triggering creature",
       "type": "feature",
       "usage": "Free triggered action"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "4 burst",
       "effects": [
         {
@@ -148,12 +151,13 @@
         "Area",
         "Magic"
       ],
-      "name": "Briar Bindings ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "Briar Bindings",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "Self",
       "effects": [
         {
@@ -165,12 +169,13 @@
       "keywords": [
         "-"
       ],
-      "name": "Thorned Armor ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Thorned Armor",
       "target": "Self",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "Special",
       "effects": [
         {
@@ -182,7 +187,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Malign Thicket ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "Malign Thicket",
       "target": "Special",
       "type": "feature",
       "usage": "-"

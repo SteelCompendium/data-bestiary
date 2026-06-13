@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  | **+2**<br>Agility |  **+4**<br>Reason  |  **0**<br>Intuition   |   **+3**<br>Presence   |
 
-> 🏹 **Forward Assault (Signature Ability)**
+> 🏹 **Forward Assault ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -41,12 +41,12 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; A < 4 prone and can't stand (EoT)
-> - **17+:** 25 damage; prone; A < 5 can't stand (EoT)
+> - **12-16:** 21 damage; A < 4 [prone](../../../../condition/prone.md) and can't stand (EoT)
+> - **17+:** 25 damage; [prone](../../../../condition/prone.md); A < 5 can't stand (EoT)
 >
-> **5 Malice:** Two allies within distance move up to their speed and can use a signature ability that has a double edge.
+> **5 [Malice](../../../../rule/monster/malice.md):** Two allies within distance move up to their speed and can use a [signature ability](../../../../rule/combat/signature-ability.md) that has a double edge.
 
-> 🔳 **Guardian From Afar (3 Malice)**
+> 🔳 **Guardian From Afar (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Ranged, Weapon** |                 **Main action** |
 > |--------------------------|--------------------------------:|
@@ -54,11 +54,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 damage; M < 3 weakened (save ends)
-> - **12-16:** 16 damage; M < 4 weakened (save ends)
-> - **17+:** 20 damage; M < 5 weakened (save ends)
+> - **≤11:** 10 damage; M < 3 [weakened](../../../../condition/weakened.md) (save ends)
+> - **12-16:** 16 damage; M < 4 [weakened](../../../../condition/weakened.md) (save ends)
+> - **17+:** 20 damage; M < 5 [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **Effect:** Each ally in the area regains 10 Stamina.
+> **Effect:** Each ally in the area regains 10 [Stamina](../../../../rule/health/stamina.md).
 
 > ❗️ **Battlefield Control**
 >
@@ -68,8 +68,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician and one ally within distance can use a signature ability against the target.
+> **Effect:** At any point during the movement, the tactician and one ally within distance can use a [signature ability](../../../../rule/combat/signature-ability.md) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

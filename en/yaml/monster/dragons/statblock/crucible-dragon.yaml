@@ -7,7 +7,7 @@ features:
             **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
       feature_type: trait
       icon: ☠️
-      name: '[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster'
+      name: Solo Monster
       type: feature
     - effects:
         - effect: The dragon's scales create a 3 aura of magnetism around them that affects large masses of metal. Any creature who enters the area for the first time in a round or starts their turn there while wearing metal or while slagged (see Slag Spew) is pulled up to 2 squares toward the dragon. A creature pulled this way who has M < 3 is unable to willingly move away from the dragon.
@@ -53,18 +53,20 @@ features:
       icon: ⭐️
       name: Heat Buffer
       type: feature
-    - distance: 2 burst
+    - cost: 1 Malice
+      distance: 2 burst
       effects:
         - effect: '**Effect:** The dragon expels blistering steam, dealing 7 fire damage to each target in the area. The dragon then [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed vertically and can [fly](scc:mcdm.heroes.v1/movement/fly) until the end of the round.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Thermodynamic Flight (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Thermodynamic Flight
       target: Each enemy in the area
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** While [flying](scc:mcdm.heroes.v1/movement/fly), the dragon starts their turn or moves.
@@ -73,11 +75,12 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Hammer and Anvil (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Hammer and Anvil
       target: Self
       type: feature
       usage: Free triggered action
-    - distance: 3 burst
+    - cost: 1 Malice
+      distance: 3 burst
       effects:
         - roll: Power Roll + 4
           tier1: Push 5
@@ -88,11 +91,12 @@ features:
       keywords:
         - Area
         - Magic
-      name: Polarize Aura (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Polarize Aura
       target: Each creature and object in the area
       type: feature
       usage: Triggered action
-    - distance: 6 burst
+    - cost: Villain Action 1
+      distance: 6 burst
       effects:
         - roll: Power Roll + 4
           tier1: 4 fire damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
@@ -103,22 +107,24 @@ features:
       keywords:
         - Area
         - Magic
-      name: Heart of the Forge ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: Heart of the Forge
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: Self
+    - cost: Villain Action 2
+      distance: Self
       effects:
         - effect: '**Effect:** Shields embedded under the dragon''s scales emerge, and the dragon gains damage immunity 6 at the start of each round until the end of the encounter. If the dragon takes any damage, they lose this immunity until the end of the current round.'
       feature_type: ability
       icon: ☠️
       keywords:
         - '-'
-      name: Subdermal Shielding ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Subdermal Shielding
       target: Self
       type: feature
       usage: '-'
-    - distance: 10 burst
+    - cost: Villain Action 3
+      distance: 10 burst
       effects:
         - roll: ""
           tier1: 16 damage; pull 10 or push 10
@@ -128,7 +134,7 @@ features:
       icon: ☠️
       keywords:
         - '-'
-      name: Polarity Chaos ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Polarity Chaos
       target: Each creature and object in the area
       type: feature
       usage: '-'

@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  | **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Reverberating Blast (Signature Ability)**
+> 🏹 **Reverberating Blast ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 psychic damage; M < 0 prone
-> - **12-16:** 10 psychic damage; push 2; M < 1 prone
-> - **17+:** 13 psychic damage; push 3; M < 2 prone
+> - **≤11:** 7 psychic damage; M < 0 [prone](../../../../condition/prone.md)
+> - **12-16:** 10 psychic damage; [push](../../../../movement/forced-movement.md) 2; M < 1 [prone](../../../../condition/prone.md)
+> - **17+:** 13 psychic damage; [push](../../../../movement/forced-movement.md) 3; M < 2 [prone](../../../../condition/prone.md)
 
-> 🏹 **Muddle the Mind (2 Malice)**
+> 🏹 **Muddle the Mind (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -47,11 +47,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** R < 0 slowed (save ends)
-> - **12-16:** R < 1 dazed (save ends)
-> - **17+:** R < 2 dazed and slowed (save ends)
+> - **≤11:** R < 0 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** R < 1 [dazed](../../../../condition/dazed.md) (save ends)
+> - **17+:** R < 2 [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
 
-> ❗️ **Precognitive Shift (1 Malice)**
+> ❗️ **Precognitive Shift (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -59,8 +59,8 @@ type: statblock
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares.
+> **Effect:** The talent halves the damage and [shifts](../../../../movement/shifting.md) up to 2 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.

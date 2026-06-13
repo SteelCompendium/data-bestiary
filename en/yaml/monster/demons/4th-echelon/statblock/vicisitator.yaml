@@ -20,7 +20,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 6 x 3 line within 1
+    - cost: 5 Malice
+      distance: 6 x 3 line within 1
       effects:
         - roll: Power Roll + 5
           tier1: 4 psychic damage; P < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
@@ -30,7 +31,7 @@ features:
       icon: "\U0001F533"
       keywords:
         - Area
-      name: Soul Flay (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Soul Flay
       target: Each enemy in the area
       type: feature
       usage: Maneuver

@@ -18,7 +18,8 @@ features:
       target: One creature
       type: feature
       usage: Main action
-    - distance: Ranged 10
+    - cost: 1 Malice
+      distance: Ranged 10
       effects:
         - roll: Power Roll + 2
           tier1: I < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
@@ -30,7 +31,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      name: Dizzying Hex (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Dizzying Hex
       target: One creature
       type: feature
       usage: Maneuver

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -37,12 +38,13 @@
       "keywords": [
         "-"
       ],
-      "name": "Bound Ahead (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Bound Ahead",
       "target": "Self",
       "type": "feature",
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "5 x 3 line within 1",
       "effects": [
         {
@@ -57,7 +59,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "Power Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Power Wing Buffet",
       "target": "Each creature or object in the area",
       "type": "feature",
       "usage": "Maneuver"

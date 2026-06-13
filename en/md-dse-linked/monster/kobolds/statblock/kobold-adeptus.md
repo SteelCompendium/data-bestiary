@@ -62,4 +62,4 @@ type: statblock
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.

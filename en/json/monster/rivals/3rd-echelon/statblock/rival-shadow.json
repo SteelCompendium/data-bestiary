@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "13 damage; A \u003c 2 bleeding (save ends)",
-          "tier2": "18 damage; A \u003c 3 bleeding (save ends)",
-          "tier3": "22 damage; A \u003c 4 bleeding and weakened (save ends)"
+          "tier1": "13 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "18 damage; A \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "22 damage; A \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The shadow coats their weapon with poison. They have a double edge on their next strike, and any potency for that strike increases by 2."
+          "effect": "**Effect:** The shadow coats their weapon with poison. They have a double edge on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike), and any [potency](scc:mcdm.heroes.v1/rule.character/potency) for that strike increases by 2."
         }
       ],
       "feature_type": "ability",
@@ -45,7 +45,7 @@
     {
       "effects": [
         {
-          "effect": "The shadow deals an extra 9 damage to any target affected by a condition."
+          "effect": "The shadow deals an extra 9 damage to any target affected by a [condition](scc:mcdm.heroes.v1/rule.combat/condition)."
         }
       ],
       "feature_type": "trait",
@@ -56,7 +56,7 @@
     {
       "effects": [
         {
-          "effect": "At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
+          "effect": "At the start of an encounter, the shadow chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
         }
       ],
       "feature_type": "trait",

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "2 burst",
       "effects": [
         {
@@ -41,7 +42,7 @@
         "Area",
         "Magic"
       ],
-      "name": "Mourning Till Dusk (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Mourning Till Dusk",
       "target": "Each ally in the area",
       "type": "feature",
       "usage": "Main action"

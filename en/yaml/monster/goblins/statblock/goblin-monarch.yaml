@@ -19,14 +19,15 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Ranged 20
+    - cost: 1 Malice
+      distance: Ranged 20
       effects:
         - effect: '**Effect:** Two goblin runners appear in unoccupied spaces within distance.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
         - Ranged
-      name: Get in Here! (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Get in Here!
       target: Special
       type: feature
       usage: Maneuver
@@ -49,43 +50,45 @@ features:
       icon: ⭐️
       name: Crafty
       type: feature
-    - cost: scc:mcdm.monsters.v1/rule.monster/end-effect
-      effects:
+    - effects:
         - effect: At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
       feature_type: trait
       icon: ⭐️
-      name: '[End Effect]'
+      name: End Effect
       type: feature
-    - distance: 10 burst
+    - cost: Villain Action 1
+      distance: 10 burst
       effects:
         - effect: '**Effect:** Each target can move up to their speed or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
       feature_type: ability
       icon: ☠️
       keywords:
         - Area
-      name: What Are You Waiting For? ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: What Are You Waiting For?
       target: Each ally in the area
       type: feature
       usage: '-'
-    - distance: Ranged 10
+    - cost: Villain Action 2
+      distance: Ranged 10
       effects:
         - effect: '**Effect:** Each ally within 10 squares of the target can move up to their speed toward the target.'
       feature_type: ability
       icon: ☠️
       keywords:
         - Ranged
-      name: Focus Fire ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Focus Fire
       target: One enemy or object
       type: feature
       usage: '-'
-    - distance: Special
+    - cost: Villain Action 3
+      distance: Special
       effects:
         - effect: '**Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.'
       feature_type: ability
       icon: ☠️
       keywords:
         - '-'
-      name: Kill! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Kill!
       target: Special
       type: feature
       usage: '-'

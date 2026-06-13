@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Melee 5",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Strike",
         "Weapon"
       ],
-      "name": "Tail Stinger (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Tail Stinger",
       "target": "One creature or object",
       "type": "feature",
       "usage": "Main action"

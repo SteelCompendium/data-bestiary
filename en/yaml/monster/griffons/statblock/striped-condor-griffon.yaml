@@ -18,18 +18,20 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 5 Malice
+      distance: Self
       effects:
         - effect: '**Effect:** The griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed along the ground in straight line. Each enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](scc:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Bound Ahead (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Bound Ahead
       target: Self
       type: feature
       usage: Main action
-    - distance: 5 x 3 line within 1
+    - cost: 3 Malice
+      distance: 5 x 3 line within 1
       effects:
         - roll: Power Roll + 2
           tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
@@ -39,7 +41,7 @@ features:
       icon: "\U0001F533"
       keywords:
         - Area
-      name: Power Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Power Wing Buffet
       target: Each creature or object in the area
       type: feature
       usage: Maneuver

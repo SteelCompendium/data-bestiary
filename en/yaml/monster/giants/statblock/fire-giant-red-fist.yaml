@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Special
+    - cost: 5 Malice
+      distance: Special
       effects:
         - roll: Power Roll + 4
           tier1: The distance is a 2 burst; 8 fire damage; M < 2 [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
@@ -28,7 +29,7 @@ features:
       icon: ❇️
       keywords:
         - Area
-      name: Caldera (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Caldera
       target: Each enemy and object in the area
       type: feature
       usage: Main action

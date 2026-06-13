@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "3 cube within 1",
       "effects": [
         {
@@ -41,7 +42,7 @@
         "Area",
         "Weapon"
       ],
-      "name": "Concussive Shockwave (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Concussive Shockwave",
       "target": "Each enemy in the area",
       "type": "feature",
       "usage": "Main action"

@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+4**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Control Synapses (Signature Ability)**
+> 🏹 **Control Synapses ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -44,9 +44,9 @@ type: statblock
 > - **12-16:** 17 psychic damage
 > - **17+:** 21 psychic damage
 >
-> **3 Malice:** Each target shifts up to their speed and can make a free strike against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
+> **3 [Malice](../../../../rule/monster/malice.md):** Each target [shifts](../../../../movement/shifting.md) up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
 
-> 🏹 **Disorientate (2 Malice)**
+> 🏹 **Disorientate (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -54,11 +54,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 8 psychic damage; R < 2 dazed (save ends)
-> - **12-16:** 8 psychic damage; R < 3 dazed and slowed (save ends)
-> - **17+:** 8 psychic damage; R < 4 dazed and slowed (save ends)
+> - **≤11:** 8 psychic damage; R < 2 [dazed](../../../../condition/dazed.md) (save ends)
+> - **12-16:** 8 psychic damage; R < 3 [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 8 psychic damage; R < 4 [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
 
-> ❗️ **Mind Requital (2 Malice)**
+> ❗️ **Mind Requital (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -66,8 +66,8 @@ type: statblock
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
+> **Effect:** The talent halves the damage and [shifts](../../../../movement/shifting.md) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.

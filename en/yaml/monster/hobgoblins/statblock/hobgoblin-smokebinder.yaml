@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 3 burst
+    - cost: 3 Malice
+      distance: 3 burst
       effects:
         - roll: ""
           tier1: 11 damage; the target has a double bane on their next power roll
@@ -29,7 +30,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Smoke Bomb (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Smoke Bomb
       target: Each enemy in the area
       type: feature
       usage: Maneuver

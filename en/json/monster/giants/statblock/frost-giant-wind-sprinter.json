@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "5 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -38,7 +39,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Blizzard Surge (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Blizzard Surge",
       "target": "Self",
       "type": "feature",
       "usage": "Main action"

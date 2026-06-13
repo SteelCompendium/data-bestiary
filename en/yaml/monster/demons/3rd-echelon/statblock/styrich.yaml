@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 4 burst
+    - cost: 5 Malice
+      distance: 4 burst
       effects:
         - roll: Power Roll + 4
           tier1: A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -28,7 +29,7 @@ features:
       icon: ❇️
       keywords:
         - Area
-      name: Tangled Nest (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Tangled Nest
       target: Each enemy in the area
       type: feature
       usage: Maneuver

@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Ranged 10
+    - cost: 5 Malice
+      distance: Ranged 10
       effects:
         - roll: Power Roll + 3
           tier1: 10 corruption damage
@@ -30,7 +31,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      name: Glare of the Old Judgments (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Glare of the Old Judgments
       target: One creature
       type: feature
       usage: Main action

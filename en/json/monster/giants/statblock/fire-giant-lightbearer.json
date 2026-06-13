@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 6",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Ranged",
         "Strike"
       ],
-      "name": "Living Blaze (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Living Blaze",
       "target": "Two creatures or objects",
       "type": "feature",
       "usage": "Main action"

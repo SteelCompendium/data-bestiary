@@ -34,14 +34,15 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 5 Malice
+      distance: Self
       effects:
         - effect: '**Effect:** The spider [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Trample (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Trample
       target: Self
       type: feature
       usage: Main action

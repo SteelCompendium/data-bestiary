@@ -28,7 +28,7 @@ with_captain: +2 bonus to speed
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
-> 🗡 **Lugged Spear (Signature Ability)**
+> 🗡 **Lugged Spear ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -40,8 +40,8 @@ with_captain: +2 bonus to speed
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** A target who starts their next turn adjacent to three or more blitzers takes 3 damage.
+> **Effect:** A target who starts their next turn [adjacent](../../../rule/combat/adjacent.md) to three or more blitzers takes 3 damage.
 
 > ⭐️ **Bloodfire Bur**
 >
-> If the blitzer is reduced to 0 Stamina, they can make a free strike before dying.
+> If the blitzer is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying.

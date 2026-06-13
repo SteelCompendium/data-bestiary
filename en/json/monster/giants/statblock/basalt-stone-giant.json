@@ -27,6 +27,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Melee 3 or ranged 12",
       "effects": [
         {
@@ -44,7 +45,7 @@
         "Strike",
         "Weapon"
       ],
-      "name": "Forked Knife (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Forked Knife",
       "target": "One creature or object",
       "type": "feature",
       "usage": "Main action"

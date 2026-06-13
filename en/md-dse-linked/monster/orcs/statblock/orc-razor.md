@@ -33,7 +33,7 @@ with_captain: +1 damage bonus to strikes
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🏹 **Boot and Blade (Signature Ability)**
+> 🏹 **Boot and Blade ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -42,11 +42,11 @@ with_captain: +1 damage bonus to strikes
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; push 3
-> - **17+:** 5 damage; push 3 or prone
+> - **12-16:** 4 damage; [push](../../../movement/forced-movement.md) 3
+> - **17+:** 5 damage; [push](../../../movement/forced-movement.md) 3 or [prone](../../../condition/prone.md)
 >
-> **Effect:** The razor gains an edge against any target affected by a condition.
+> **Effect:** The razor gains an edge against any target affected by a [condition](../../../rule/combat/condition.md).
 
 > ⭐️ **Bloodfire Burn**
 >
-> If the razor is reduced to 0 Stamina, they can make a free strike before dying.
+> If the razor is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying.

@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "1 x 2 line within 1",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Charge",
         "Weapon"
       ],
-      "name": "Thunder Rush (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Thunder Rush",
       "target": "Each enemy or object in the area",
       "type": "feature",
       "usage": "Main action"

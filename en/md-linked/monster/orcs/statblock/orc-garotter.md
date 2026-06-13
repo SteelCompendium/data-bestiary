@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Dagger Feint (Signature Ability)**
+> 🗡 **Dagger Feint ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -35,9 +35,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; the garroter can shift 1 square
-> - **12-16:** 9 damage; the garroter shifts up to 2 squares
-> - **17+:** 12 damage; the garroter shifts up to 3 squares
+> - **≤11:** 6 damage; the garroter can [shift](../../../movement/shifting.md) 1 square
+> - **12-16:** 9 damage; the garroter [shifts](../../../movement/shifting.md) up to 2 squares
+> - **17+:** 12 damage; the garroter [shifts](../../../movement/shifting.md) up to 3 squares
 >
 > **Effect:** If this ability gains an edge or has a double edge, it deals an extra 4 damage.
 
@@ -50,12 +50,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 9 damage; I < 1 dazed (save ends)
-> - **17+:** 12 damage; grabbed; I < 2 dazed (save ends)
+> - **12-16:** 9 damage; I < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 12 damage; [grabbed](../../../condition/grabbed.md); I < 2 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** While grabbed this way, a target can't communicate or use magic abilities.
+> **Effect:** While [grabbed](../../../condition/grabbed.md) this way, a target can't communicate or use magic abilities.
 
-> 👤 **Chroma Cloak (1 Malice)**
+> 👤 **Chroma Cloak (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**          |        **Maneuver** |
 > |----------------|--------------------:|
@@ -65,4 +65,4 @@ type: statblock
 
 > ⭐️ **Relentless**
 >
-> If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead.
+> If the garroter is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the garroter is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.

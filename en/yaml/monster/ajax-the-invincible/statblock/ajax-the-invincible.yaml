@@ -9,7 +9,8 @@ features:
       icon: ☠️
       name: Ajax
       type: feature
-    - distance: Melee 1
+    - ability_type: Signature Ability
+      distance: Melee 1
       effects:
         - roll: Power Roll + 5
           tier1: 16 damage; M < 4 the target loses 1d3 [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries)
@@ -23,7 +24,7 @@ features:
         - Melee
         - Strike
         - Weapon
-      name: Blade of the Gol King ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))
+      name: Blade of the Gol King
       target: Two creatures or objects
       type: feature
       usage: Main Action

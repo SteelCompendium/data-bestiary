@@ -29,7 +29,7 @@ with_captain: Gain an edge on strikes
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **+2**<br>Agility   | **+1**<br>Reason |             **0**<br>Intuition              |  **-1**<br>Presence  |
 
-> 🗡 **Rapier Flunge (Signature Ability)**
+> 🗡 **Rapier Flunge ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -37,9 +37,9 @@ with_captain: Gain an edge on strikes
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 damage; slide 1, the swiftpaw can shift 1 square
-> - **12-16:** 2 damage; slide 2, the swiftpaw shifts up to 2 squares
-> - **17+:** 3 damage; slide 3, the swiftpaw shifts up to 3 squares
+> - **≤11:** 1 damage; [slide](../../../movement/forced-movement.md) 1, the swiftpaw can [shift](../../../movement/shifting.md) 1 square
+> - **12-16:** 2 damage; [slide](../../../movement/forced-movement.md) 2, the swiftpaw [shifts](../../../movement/shifting.md) up to 2 squares
+> - **17+:** 3 damage; [slide](../../../movement/forced-movement.md) 3, the swiftpaw [shifts](../../../movement/shifting.md) up to 3 squares
 
 > ❗️ **Ready Rodent**
 >
@@ -49,4 +49,4 @@ with_captain: Gain an edge on strikes
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The swiftpaw makes a free strike against the target.
+> **Effect:** The swiftpaw makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.

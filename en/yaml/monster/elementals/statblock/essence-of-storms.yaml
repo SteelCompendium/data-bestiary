@@ -31,7 +31,8 @@ features:
       target: Self or one elemental
       type: feature
       usage: Maneuver
-    - distance: Ranged 5
+    - cost: 1 Malice
+      distance: Ranged 5
       effects:
         - effect: |-
             **Trigger:** A creature within distance deals damage to the essence.
@@ -41,7 +42,7 @@ features:
       keywords:
         - Magic
         - Ranged
-      name: Thunderclap (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Thunderclap
       target: The triggering creature
       type: feature
       usage: Triggered action

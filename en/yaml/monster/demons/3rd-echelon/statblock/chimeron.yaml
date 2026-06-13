@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The chimeron is targeted by a damage-dealing strike.
@@ -27,7 +28,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Pain Absorption (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Pain Absorption
       target: Self
       type: feature
       usage: Triggered action

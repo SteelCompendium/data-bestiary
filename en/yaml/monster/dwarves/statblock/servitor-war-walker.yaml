@@ -19,7 +19,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 3 burst
+    - cost: 3 Malice
+      distance: 3 burst
       effects:
         - roll: Power Roll + 2
           tier1: 3 lightning damage; A < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -30,7 +31,7 @@ features:
       keywords:
         - Area
         - Weapon
-      name: Stunning Blast (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Stunning Blast
       target: Each enemy in the area
       type: feature
       usage: Maneuver

@@ -33,7 +33,8 @@ features:
       target: Special
       type: feature
       usage: Maneuver
-    - distance: 3 cube within 1
+    - cost: 5 Malice
+      distance: 3 cube within 1
       effects:
         - roll: Power Roll + 2
           tier1: 4 poison damage; M < 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -44,7 +45,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Poison Fumes (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Poison Fumes
       target: Each enemy in the area
       type: feature
       usage: Main action

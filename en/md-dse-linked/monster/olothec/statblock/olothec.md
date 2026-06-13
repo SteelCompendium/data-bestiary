@@ -36,15 +36,15 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> [**End Effect:**](../../../rule/monster/end-effect.md) At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The olothec can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Gelatinosis**
 >
-> A creature permanently devolves into a slime servant if they spend 1 continuous minute weakened by Devolving Tentacles, they are reduced to 0 Stamina by the psychic damage from Devolving Tentacles, or they suffer all three transformations from Oozing Transformation.
+> A creature permanently devolves into a slime servant if they spend 1 continuous minute [weakened](../../../condition/weakened.md) by Devolving Tentacles, they are reduced to 0 [Stamina](../../../rule/health/stamina.md) by the psychic damage from Devolving Tentacles, or they suffer all three transformations from Oozing Transformation.
 
-> 🗡 **Devolving Tentacles (Signature Ability)**
+> 🗡 **Devolving Tentacles ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -52,9 +52,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; M < 2 weakened or the target is slimed (save ends)
-> - **12-16:** 17 damage; M < 3 weakened or the target is slimed (save ends)
-> - **17+:** 20 damage; M < 4 weakened and the target is slimed (save ends)
+> - **≤11:** 11 damage; M < 2 [weakened](../../../condition/weakened.md) or the target is slimed (save ends)
+> - **12-16:** 17 damage; M < 3 [weakened](../../../condition/weakened.md) or the target is slimed (save ends)
+> - **17+:** 20 damage; M < 4 [weakened](../../../condition/weakened.md) and the target is slimed (save ends)
 >
 > **Effect:** A slimed target takes 4 psychic damage whenever they make a power roll.
 
@@ -66,15 +66,15 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 acid damage; A < 2 push special
-> - **12-16:** 10 acid damage; A < 3 push special
-> - **17+:** 13 acid damage; A < 4 push special and prone
+> - **≤11:** 6 acid damage; A < 2 [push](../../../movement/forced-movement.md) special
+> - **12-16:** 10 acid damage; A < 3 [push](../../../movement/forced-movement.md) special
+> - **17+:** 13 acid damage; A < 4 [push](../../../movement/forced-movement.md) special and [prone](../../../condition/prone.md)
 >
-> **Effect:** Each creature pushed this way is pushed to an unoccupied space in the area as far as possible from the olothec.
+> **Effect:** Each creature [pushed](../../../movement/forced-movement.md) this way is pushed to an unoccupied space in the area as far as possible from the olothec.
 >
-> **1 Malice:** The area is difficult terrain. Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked prone.
+> **1 [Malice](../../../rule/monster/malice.md):** The area is [difficult terrain](../../../movement/difficult-terrain.md). Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked [prone](../../../condition/prone.md).
 
-> 🏹 **Oozing Transformation (2 Malice)**
+> 🏹 **Oozing Transformation (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Strike** |     **Main action** |
 > |-----------------------------|--------------------:|
@@ -90,9 +90,9 @@ type: statblock
 >
 > **Head:** The target's head becomes a ball of slime. They can't communicate and have line of effect only within 3 squares.
 >
-> **Legs:** The target's legs become pillars of ooze. They are slowed while on land and can automatically swim at full speed while moving.
+> **Legs:** The target's legs become pillars of ooze. They are [slowed](../../../condition/slowed.md) while on land and can automatically swim at full speed while moving.
 >
-> **Torso:** The target's arms become gelatinous. They can't benefit from edges or double edges and can't gain or use surges.
+> **Torso:** The target's arms become gelatinous. They can't benefit from edges or double edges and can't gain or use [surges](../../../rule/resource/surge.md).
 
 > 👤 **Jaunt**
 >
@@ -100,7 +100,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The olothec teleports to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.
+> **Effect:** The olothec [teleports](../../../movement/teleport.md) to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.
 
 > ❗️ **Liquify**
 >
@@ -114,13 +114,13 @@ type: statblock
 
 > ⭐️ **Primordial Mind**
 >
-> The olothec can't be made frightened or taunted.
+> The olothec can't be made [frightened](../../../condition/frightened.md) or [taunted](../../../condition/taunted.md).
 
 > ⭐️ **Slime Sense**
 >
 > A slimed or transformed creature can't have concealment from or be hidden from the olothec.
 
-> ☠️ **Horrifying Form (Villain Action 1)**
+> ☠️ **Horrifying Form ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Psionic, Ranged, Strike** |             **-** |
 > |-----------------------------|------------------:|
@@ -128,21 +128,21 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 10 psychic damage; P < 2 frightened (save ends)
-> - **12-16:** 14 psychic damage; P < 3 frightened (save ends)
-> - **17+:** 17 psychic damage; P < 4 frightened (save ends)
+> - **≤11:** 10 psychic damage; P < 2 [frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** 14 psychic damage; P < 3 [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** 17 psychic damage; P < 4 [frightened](../../../condition/frightened.md) (save ends)
 >
-> **Effect:** While frightened this way, a target can't make saving throws to end any other effects.
+> **Effect:** While [frightened](../../../condition/frightened.md) this way, a target can't make [saving throws](../../../rule/general/saving-throw.md) to end any other effects.
 
-> ☠️ **Psychic Pulse (Villain Action 2)**
+> ☠️ **Psychic Pulse ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Psionic** |                            **-** |
 > |-------------------|---------------------------------:|
 > | **📏 10 burst**   | **🎯 Each creature in the area** |
 >
-> **Effect:** The olothec slides each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are weakened and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.
+> **Effect:** The olothec [slides](../../../movement/forced-movement.md) each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are [weakened](../../../condition/weakened.md) and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.
 
-> ☠️ **Return to Perfection (Villain Action 3)**
+> ☠️ **Return to Perfection ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Psionic** |                            **-** |
 > |-------------------|---------------------------------:|

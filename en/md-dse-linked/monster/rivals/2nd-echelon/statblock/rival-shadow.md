@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+3**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🗡 **Ambuscade (Signature Ability)**
+> 🗡 **Ambuscade ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -41,10 +41,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; A < 2 bleeding (save ends)
-> - **17+:** 18 damage; A < 3 bleeding (save ends)
+> - **12-16:** 15 damage; A < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 18 damage; A < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 6 squares, then can attempt to hide.
+> **1 [Malice](../../../../rule/monster/malice.md):** The shadow can [teleport](../../../../movement/teleport.md) up to 6 squares, then can attempt to hide.
 
 > 👤 **Poison the Blade**
 >
@@ -52,12 +52,12 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next strike, and any potency for that strike increases by 1.
+> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](../../../../rule/combat/strike.md), and any [potency](../../../../rule/character/potency.md) for that strike increases by 1.
 
 > ⭐️ **Exploit Opening**
 >
-> The shadow deals an extra 7 damage to any bleeding target.
+> The shadow deals an extra 7 damage to any [bleeding](../../../../condition/bleeding.md) target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.

@@ -40,21 +40,21 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < 2 grabbed and the target takes a bane on the Escape Grab maneuver
+> - **17+:** 12 damage; M < 2 [grabbed](../../../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver
 >
-> **Effect:** A target who is already grabbed takes an extra 2 damage.
+> **Effect:** A target who is already [grabbed](../../../condition/grabbed.md) takes an extra 2 damage.
 
-> 🗡 **Throw (1 Malice)**
+> 🗡 **Throw (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee**      |                               **Maneuver** |
 > |----------------|-------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the brawler** |
 >
-> **Effect:** The brawler pushes the target up to 5 squares.
+> **Effect:** The brawler [pushes](../../../movement/forced-movement.md) the target up to 5 squares.
 
 > ⭐️ **Shoot the Hostage**
 >
-> The brawler halves the damage from any strike if they have a creature or object grabbed of size 1S or larger. The grabbed creature or object takes the remaining damage.
+> The brawler halves the damage from any strike if they have a creature or object [grabbed](../../../condition/grabbed.md) of size 1S or larger. The [grabbed](../../../condition/grabbed.md) creature or object takes the remaining damage.
 
 > ⭐️ **Supernatural Insight**
 >

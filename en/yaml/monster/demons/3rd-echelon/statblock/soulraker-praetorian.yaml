@@ -18,7 +18,8 @@ features:
       target: One creature
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 2 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** A creature ends the praetorian's [grab](scc:mcdm.heroes.v1/condition/grabbed).
@@ -27,7 +28,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Stinging Departure (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Stinging Departure
       target: The triggering creature
       type: feature
       usage: Triggered action

@@ -26,7 +26,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Go. (Signature Ability)**
+> 🏹 **Go. ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged**       | **Main action** |
 > |------------------|----------------:|
@@ -34,9 +34,9 @@ type: statblock
 >
 > **Effect:** The target moves up to their speed and can use a main action.
 >
-> **1 Malice:** The warleader targets two allies.
+> **1 [Malice](../../../rule/monster/malice.md):** The warleader targets two allies.
 >
-> **3 Malice:** The warleader targets one ally and a minion squad.
+> **3 [Malice](../../../rule/monster/malice.md):** The warleader targets one ally and a [minion](../../../rule/organization/minion.md) [squad](../../../rule/monster/squad.md).
 
 > 🗡 **Mace Lariat**
 >
@@ -46,17 +46,17 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; push 1; M < 1 dazed (save ends)
-> - **12-16:** 10 damage; push 3; M < 2 dazed (save ends)
-> - **17+:** 13 damage; push 5; M < 3 dazed (save ends)
+> - **≤11:** 7 damage; [push](../../../movement/forced-movement.md) 1; M < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 10 damage; [push](../../../movement/forced-movement.md) 3; M < 2 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 13 damage; [push](../../../movement/forced-movement.md) 5; M < 3 [dazed](../../../condition/dazed.md) (save ends)
 
-> 🏹 **Lockdown (3 Malice)**
+> 🏹 **Lockdown (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Ranged**                |                 **Maneuver** |
 > |---------------------------|-----------------------------:|
 > | **📏 Self and ranged 10** | **🎯 Self and three allies** |
 >
-> **Effect:** Each target moves up to their speed and can use the Grab maneuver, which gains an edge.
+> **Effect:** Each target moves up to their speed and can use the [Grab](../../../feature/common/maneuvers/grab.md) maneuver, which gains an edge.
 
 > ❗️ **Courtesy Call**
 >
@@ -68,38 +68,38 @@ type: statblock
 >
 > **Effect:** The target has a double edge on their next power roll before the end of the encounter.
 
-> ☠️ **Close In (Villain Action 1)**
+> ☠️ **Close In ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area**       |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target moves up to their speed. Each enemy adjacent to a target after this move makes an Intuition test.
+> **Effect:** Each target moves up to their speed. Each enemy [adjacent](../../../rule/combat/adjacent.md) to a target after this move makes an Intuition test.
 >
-> - **≤11:** Frightened of the warleader (save ends)
-> - **12-16:** Frightened of the warleader (EoT)
+> - **≤11:** [Frightened](../../../condition/frightened.md) of the warleader (save ends)
+> - **12-16:** [Frightened](../../../condition/frightened.md) of the warleader (EoT)
 > - **17+:** No effect
 
-> ☠️ **Familial Reinforcements (Villain Action 2)**
+> ☠️ **Familial Reinforcements ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Ranged**       |       **-** |
 > |------------------|------------:|
 > | **📏 Ranged 10** | **🎯 Self** |
 >
-> **Effect:** The warleader shifts up to their speed, and four orc blitzers appear in unoccupied spaces within distance.
+> **Effect:** The warleader [shifts](../../../movement/shifting.md) up to their speed, and four orc blitzers appear in unoccupied spaces within distance.
 
-> ☠️ **I'll Do This Myself (Villain Action 3)**
+> ☠️ **I'll Do This Myself ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** Three times in succession, the warleader shifts up to their speed and can use Mace Lariat.
+> **Effect:** Three times in succession, the warleader [shifts](../../../movement/shifting.md) up to their speed and can use Mace Lariat.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../../../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Relentless**
 >
-> If the warleader is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the warleader is reduced to 1 Stamina instead.
+> If the warleader is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the warleader is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.

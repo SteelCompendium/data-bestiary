@@ -45,9 +45,9 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage; A < 2 bleeding (save ends)
 >
-> **Effect:** If the scaletooth has the target grabbed, the potency of this ability increases by 1.
+> **Effect:** If the scaletooth has the target [grabbed](../../../condition/grabbed.md), the [potency](../../../rule/character/potency.md) of this ability increases by 1.
 
-> 🗡 **Tail Whip (2 Malice)**
+> 🗡 **Tail Whip (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -55,10 +55,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; slide 1
-> - **12-16:** 8 damage; slide 2; M < 1 grabbed if within 2 squares of the scaletooth
-> - **17+:** 10 damage; slide 3; M < 2 grabbed if within 2 squares of the scaletooth
+> - **≤11:** 5 damage; [slide](../../../movement/forced-movement.md) 1
+> - **12-16:** 8 damage; [slide](../../../movement/forced-movement.md) 2; M < 1 [grabbed](../../../condition/grabbed.md) if within 2 squares of the scaletooth
+> - **17+:** 10 damage; [slide](../../../movement/forced-movement.md) 3; M < 2 [grabbed](../../../condition/grabbed.md) if within 2 squares of the scaletooth
 
 > ⭐️ **Reptilian Escape**
 >
-> While the scaletooth has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the scaletooth has a tail, whenever they are [grabbed](../../../condition/grabbed.md), [prone](../../../condition/prone.md), [slowed](../../../condition/slowed.md), or [weakened](../../../condition/weakened.md), they can lose their tail to immediately end that condition, then [shift](../../../movement/shifting.md) up to 2 squares.

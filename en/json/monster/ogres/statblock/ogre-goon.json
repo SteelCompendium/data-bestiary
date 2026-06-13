@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; push 2",
-          "tier2": "11 damage; push 4",
-          "tier3": "14 damage; push 6, prone"
+          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4",
+          "tier3": "14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 6, [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -32,8 +32,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
-          "tier2": "11 damage; grabbed",
-          "tier3": "14 damage; grabbed"
+          "tier2": "11 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "14 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -56,7 +56,7 @@
           "roll": "Power Roll + 2",
           "tier1": "5 damage",
           "tier2": "9 damage",
-          "tier3": "12 damage; prone"
+          "tier3": "12 damage; [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -74,7 +74,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A creature or object within distance moves or shifts away from the goon.\n**Effect:** The goon slides the target up to 5 squares."
+          "effect": "**Trigger:** A creature or object within distance moves or [shifts](scc:mcdm.heroes.v1/movement/shifting) away from the goon.\n**Effect:** The goon [slides](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares."
         }
       ],
       "feature_type": "ability",
@@ -90,7 +90,7 @@
     {
       "effects": [
         {
-          "effect": "While winded, the goon has damage immunity 2."
+          "effect": "While [winded](scc:mcdm.heroes.v1/rule.health/winded), the goon has damage immunity 2."
         }
       ],
       "feature_type": "trait",

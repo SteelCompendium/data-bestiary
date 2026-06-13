@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "2 Malice",
       "distance": "2 cube of unoccupied space within 10",
       "effects": [
         {
@@ -42,7 +43,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Noxious Bubble (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Noxious Bubble",
       "target": "Special",
       "type": "feature",
       "usage": "Main action"

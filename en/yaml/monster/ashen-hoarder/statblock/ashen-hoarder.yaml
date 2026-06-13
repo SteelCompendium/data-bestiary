@@ -69,7 +69,8 @@ features:
       target: Self
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 2 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The ashen hoarder takes damage.
@@ -78,7 +79,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Armor of Corpses (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Armor of Corpses
       target: Self
       type: feature
       usage: Triggered action

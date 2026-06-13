@@ -34,7 +34,7 @@ with_captain: +1 damage bonus to strikes
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+2**<br>Agility   | **0**<br>Reason  |              **+1**<br>Intuition               |  **0**<br>Presence   |
 
-> ⚔️ **Dagger Dance (Signature Ability)**
+> ⚔️ **Dagger Dance ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                **Main action** |
 > |-----------------------------------|-------------------------------:|
@@ -56,4 +56,4 @@ with_captain: +1 damage bonus to strikes
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The mischiever makes a free strike against the target.
+> **Effect:** The mischiever makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.

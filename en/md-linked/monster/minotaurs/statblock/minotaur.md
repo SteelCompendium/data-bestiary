@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+2**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Flail and Blade (Signature Ability)**
+> 🗡 **Flail and Blade ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -36,13 +36,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; push 2
-> - **17+:** 14 damage; push 3
+> - **≤11:** 7 damage; [push](../../../movement/forced-movement.md) 1
+> - **12-16:** 11 damage; [push](../../../movement/forced-movement.md) 2
+> - **17+:** 14 damage; [push](../../../movement/forced-movement.md) 3
 >
-> **Effect:** The minotaur shifts up to 3 squares.
+> **Effect:** The minotaur [shifts](../../../movement/shifting.md) up to 3 squares.
 
-> 👤 **Primal Bay (3 Malice)**
+> 👤 **Primal Bay (3 [Malice](../../../rule/monster/malice.md))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
@@ -50,7 +50,7 @@ type: statblock
 >
 > **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver.
 
-> 🗡 **Goring Horns (5 Malice)**
+> 🗡 **Goring Horns (5 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                  **Maneuver** |
 > |-----------------------------------|------------------------------:|
@@ -58,11 +58,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; I < 0 dazed (save ends)
-> - **12-16:** 8 damage; I < 1 dazed (save ends)
-> - **17+:** 9 damage; I < 2 dazed (save ends)
+> - **≤11:** 5 damage; I < 0 [dazed](../../../condition/dazed.md) (save ends)
+> - **12-16:** 8 damage; I < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 9 damage; I < 2 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** If this ability is used as part of the Charge main action, its potency increases by 1.
+> **Effect:** If this ability is used as part of the Charge main action, its [potency](../../../rule/character/potency.md) increases by 1.
 
 > ❗️ **Retaliatory Strike**
 >

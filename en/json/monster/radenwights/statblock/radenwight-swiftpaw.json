@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "1 damage; slide 1, the swiftpaw can shift 1 square",
-          "tier2": "2 damage; slide 2, the swiftpaw shifts up to 2 squares",
-          "tier3": "3 damage; slide 3, the swiftpaw shifts up to 3 squares"
+          "tier1": "1 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1, the swiftpaw can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier2": "2 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2, the swiftpaw [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares",
+          "tier3": "3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3, the swiftpaw [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The swiftpaw makes a free strike against the target."
+          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The swiftpaw makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
         }
       ],
       "feature_type": "ability",

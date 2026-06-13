@@ -18,25 +18,27 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: Ranged 5
+    - cost: 3 Malice
+      distance: Ranged 5
       effects:
         - effect: '**Effect:** Two abyssal hyenas claw up from the ground in unoccupied spaces within distance.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
         - Ranged
-      name: Call Abyssal Hyenas (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Call Abyssal Hyenas
       target: Special
       type: feature
       usage: Maneuver
-    - distance: 2 burst
+    - cost: 4 Malice
+      distance: 2 burst
       effects:
         - effect: '**Effect:** One abyssal hyena target turns into a gnoll marauder, keeping their current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
       feature_type: ability
       icon: ❇️
       keywords:
         - Area
-      name: Summoner's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Summoner's Cackletongue
       target: Each ally in the area
       type: feature
       usage: Maneuver

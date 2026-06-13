@@ -24,7 +24,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Ranged 20
+    - cost: 3 Malice
+      distance: Ranged 20
       effects:
         - roll: Power Roll + 5
           tier1: 15 psychic damage; P < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
@@ -36,18 +37,19 @@ features:
         - Magic
         - Ranged
         - Strike
-      name: Covetous Bolts (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Covetous Bolts
       target: Two creatures
       type: feature
       usage: Main action
-    - distance: Ranged 10
+    - cost: 2 Malice
+      distance: Ranged 10
       effects:
         - effect: '**Effect:** Aurumvas chooses a supernatural treasure or an item made of gold and [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to that object, then ends one effect on him that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw).'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
         - Ranged
-      name: Greed Is Good (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Greed Is Good
       target: Special
       type: feature
       usage: Maneuver

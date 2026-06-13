@@ -39,13 +39,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; M < 1 weakened (save ends)
-> - **12-16:** 10 damage; M < 1 weakened (save ends)
-> - **17+:** 13 damage; M < 1 weakened (save ends)
+> - **≤11:** 7 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **12-16:** 10 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+> - **17+:** 13 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
 >
-> **Effect:** Each ally adjacent to a target can make a free strike against that target.
+> **Effect:** Each ally [adjacent](../../../rule/combat/adjacent.md) to a target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.
 >
-> **3 Malice:** While weakened this way, a target is also restrained.
+> **3 [Malice](../../../rule/monster/malice.md):** While [weakened](../../../condition/weakened.md) this way, a target is also [restrained](../../../condition/restrained.md).
 
 > 🏹 **Concentrate All Fire on That Hero!**
 >
@@ -63,36 +63,36 @@ type: statblock
 >
 > **Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.
 >
-> **Effect:** Each target shifts up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
+> **Effect:** Each target [shifts](../../../movement/shifting.md) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../../../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> ☠️ **Firetail Pilum (Villain Action 1)**
+> ☠️ **Firetail Pilum ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **-**          |          **-** |
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** The centurion moves up to their speed, ignoring difficult terrain, and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While weakened by that ability, each target takes 2 fire damage at the start of each of their turns.
+> **Effect:** The centurion moves up to their speed, ignoring [difficult terrain](../../../movement/difficult-terrain.md), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](../../../condition/weakened.md) by that ability, each target takes 2 fire damage at the start of each of their turns.
 
-> ☠️ **Boom Pilum! (Villain Action 2)**
+> ☠️ **Boom Pilum! ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Weapon, Ranged** |                         **-** |
 > |--------------------------|------------------------------:|
 > | **📏 5 cube within 10**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then pushed up to 3 squares.
+> **Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](../../../movement/forced-movement.md) up to 3 squares.
 
-> ☠️ **Are You Not Entertained?! (Villain Action 3)**
+> ☠️ **Are You Not Entertained?! ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area**        |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** A target who has P < 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2.
+> **Effect:** A target who has P < 2 is [taunted](../../../condition/taunted.md) (save ends). Each ally within distance can make a [free strike](../../../feature/common/main-actions/free-strike.md). Additionally, until the end of the encounter, the centurion has damage immunity 2.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies.

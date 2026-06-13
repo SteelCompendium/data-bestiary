@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "1 Malice",
       "distance": "Ranged 10",
       "effects": [
         {
@@ -38,7 +39,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Burning Legion (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Burning Legion",
       "target": "Three creatures",
       "type": "feature",
       "usage": "Maneuver"

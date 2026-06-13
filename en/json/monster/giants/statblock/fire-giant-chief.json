@@ -49,6 +49,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "3 cube within 10",
       "effects": [
         {
@@ -64,12 +65,13 @@
         "Area",
         "Ranged"
       ],
-      "name": "Lava Pillar (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Lava Pillar",
       "target": "Each enemy and object in the area",
       "type": "feature",
       "usage": "Maneuver"
     },
     {
+      "cost": "1 Malice",
       "distance": "Ranged 12",
       "effects": [
         {
@@ -81,12 +83,13 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Fuel the Fire (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Fuel the Fire",
       "target": "The triggering ally",
       "type": "feature",
       "usage": "Triggered action"
     },
     {
+      "cost": "Villain Action 1",
       "distance": "10 burst",
       "effects": [
         {
@@ -98,12 +101,13 @@
       "keywords": [
         "Area"
       ],
-      "name": "Forward! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)",
+      "name": "Forward!",
       "target": "Self and each ally in the area",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 2",
       "distance": "Ranged 15",
       "effects": [
         {
@@ -115,12 +119,13 @@
       "keywords": [
         "Ranged"
       ],
-      "name": "Burning Legion ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)",
+      "name": "Burning Legion",
       "target": "Special",
       "type": "feature",
       "usage": "-"
     },
     {
+      "cost": "Villain Action 3",
       "distance": "10 burst",
       "effects": [
         {
@@ -135,7 +140,7 @@
       "keywords": [
         "Area"
       ],
-      "name": "All to Cinders ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)",
+      "name": "All to Cinders",
       "target": "Self and each fire giant ally in the area",
       "type": "feature",
       "usage": "-"

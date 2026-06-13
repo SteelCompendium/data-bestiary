@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "7 damage; M \u003c 1 weakened (save ends)",
-          "tier2": "10 damage; M \u003c 1 weakened (save ends)",
-          "tier3": "13 damage; M \u003c 1 weakened (save ends)"
+          "tier1": "7 damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "10 damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "13 damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -47,7 +47,7 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.\n**Effect:** Each target shifts up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability."
+          "effect": "**Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.\n**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability."
         }
       ],
       "feature_type": "ability",
@@ -63,7 +63,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -76,7 +76,7 @@
       "distance": "Special",
       "effects": [
         {
-          "effect": "**Effect:** The centurion moves up to their speed, ignoring difficult terrain, and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While weakened by that ability, each target takes 2 fire damage at the start of each of their turns."
+          "effect": "**Effect:** The centurion moves up to their speed, ignoring [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](scc:mcdm.heroes.v1/condition/weakened) by that ability, each target takes 2 fire damage at the start of each of their turns."
         }
       ],
       "feature_type": "ability",
@@ -94,7 +94,7 @@
       "distance": "5 cube within 10",
       "effects": [
         {
-          "effect": "**Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then pushed up to 3 squares."
+          "effect": "**Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares."
         }
       ],
       "feature_type": "ability",
@@ -114,7 +114,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** A target who has P \u003c 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2."
+          "effect": "**Effect:** A target who has P \u003c 2 is [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends). Each ally within distance can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). Additionally, until the end of the encounter, the centurion has damage immunity 2."
         }
       ],
       "feature_type": "ability",
@@ -130,7 +130,7 @@
     {
       "effects": [
         {
-          "effect": "While adjacent to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies."
+          "effect": "While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies."
         }
       ],
       "feature_type": "trait",

@@ -7,7 +7,7 @@ features:
             **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
       feature_type: trait
       icon: ☠️
-      name: '[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster'
+      name: Solo Monster
       type: feature
     - effects:
         - effect: The dragon's scales create a 3 aura of dark supernatural fog around them that feeds on their victims' fears and provides concealment to the dragon only. Each enemy who starts their turn in the area takes 2 psychic damage. Additionally, whenever one or more enemies is in the area, the dragon's abilities deal an extra 3 psychic damage.
@@ -55,7 +55,8 @@ features:
       icon: ⭐️
       name: Shadow Skulk
       type: feature
-    - distance: 10 burst
+    - cost: 5 Malice
+      distance: 10 burst
       effects:
         - effect: '**Effect:** Each target must be dragonsealed. Each target takes 3 psychic damage, and if they have I < 3 they immediately make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one ally of the dragon''s choice.'
       feature_type: ability
@@ -63,11 +64,12 @@ features:
       keywords:
         - Area
         - Magic
-      name: Visions in the Dark (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Visions in the Dark
       target: Each enemy in the area
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** A creature within 10 squares moves.
@@ -76,11 +78,12 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Encroaching Darkness (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Encroaching Darkness
       target: Self
       type: feature
       usage: Free triggered action
-    - distance: 5 burst
+    - cost: Villain Action 1
+      distance: 5 burst
       effects:
         - roll: Power Roll + 4
           tier1: Pull 2; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT)
@@ -91,11 +94,12 @@ features:
       keywords:
         - Area
         - Magic
-      name: Enveloping Umbrage ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)
+      name: Enveloping Umbrage
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: 10 burst
+    - cost: Villain Action 2
+      distance: 10 burst
       effects:
         - roll: Power Roll + 4
           tier1: 6 psychic damage
@@ -106,18 +110,19 @@ features:
       keywords:
         - Area
         - Magic
-      name: Pall of Nightmares ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)
+      name: Pall of Nightmares
       target: Each enemy in the area
       type: feature
       usage: '-'
-    - distance: Special
+    - cost: Villain Action 3
+      distance: Special
       effects:
         - effect: '**Effect:** The dragon disappears from the encounter map. The dragon and three hallucinatory illusions of themself then immediately reappear in unoccupied spaces on the encounter map, and the dragon and each illusion uses Breath of Brume. Each illusion is indistinguishable from the dragon except by supernatural means, has 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and has the dragon''s speed. An illusion acts on the dragon''s turns but can take only move actions. Once per round before or after using an ability, the dragon can trade places with any duplicate.'
       feature_type: ability
       icon: ☠️
       keywords:
         - '-'
-      name: Absence of All Light ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)
+      name: Absence of All Light
       target: Special
       type: feature
       usage: '-'

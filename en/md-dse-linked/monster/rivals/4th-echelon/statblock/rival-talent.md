@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+5**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence   |
 
-> 🏹 **Override (Signature Ability)**
+> 🏹 **Override ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -44,9 +44,9 @@ type: statblock
 > - **12-16:** 20 psychic damage
 > - **17+:** 24 psychic damage
 >
-> **4 Malice:** Each target moves up to their speed and can make a free strike against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
+> **4 [Malice](../../../../rule/monster/malice.md):** Each target moves up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
 
-> 🏹 **Steal Time (3 Malice)**
+> 🏹 **Steal Time (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Chronopathy, Psionic, Ranged** |                  **Maneuver** |
 > |----------------------------------|------------------------------:|
@@ -54,13 +54,13 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** R < 3 slowed (save ends)
-> - **12-16:** R < 4 restrained (save ends)
-> - **17+:** R < 5 restrained (save ends)
+> - **≤11:** R < 3 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** R < 4 [restrained](../../../../condition/restrained.md) (save ends)
+> - **17+:** R < 5 [restrained](../../../../condition/restrained.md) (save ends)
 >
 > **Effect:** One ally within distance can use an additional main action on their next turn.
 
-> ❗️ **Psionic Retribution (2 Malice)**
+> ❗️ **Psionic Retribution (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Psionic**            | **Triggered action** |
 > |------------------------|---------------------:|
@@ -68,8 +68,8 @@ type: statblock
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is pushed up to 5 squares.
+> **Effect:** The talent halves the damage and [shifts](../../../../movement/shifting.md) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](../../../../movement/forced-movement.md) up to 5 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](../../../../rule/combat/line-of-effect.md). Both the talent and the creature can add a d3 roll to power rolls they make against each other.

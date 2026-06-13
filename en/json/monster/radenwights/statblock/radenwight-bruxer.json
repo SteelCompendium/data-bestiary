@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "6 damage",
           "tier2": "9 damage",
-          "tier3": "12 damage; grabbed"
+          "tier3": "12 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "3 damage; A \u003c 0 bleeding (save ends)",
-          "tier2": "5 damage; A \u003c 1 bleeding (save ends)",
-          "tier3": "8 damage; A \u003c 2 bleeding (save ends)"
+          "tier1": "3 damage; A \u003c 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "5 damage; A \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "8 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The bruxer makes a free strike against the target."
+          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The bruxer makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
     {
       "effects": [
         {
-          "effect": "Any enemy who shifts adjacent to the bruxer has that shift end. Additionally, any enemy adjacent to the bruxer can't shift."
+          "effect": "Any enemy who [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer has that shift end. Additionally, any enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer can't [shift](scc:mcdm.heroes.v1/movement/shifting)."
         }
       ],
       "feature_type": "trait",

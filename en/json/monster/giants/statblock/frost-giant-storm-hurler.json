@@ -26,6 +26,7 @@
       "usage": "Main action"
     },
     {
+      "cost": "3 Malice",
       "distance": "Ranged 15",
       "effects": [
         {
@@ -41,7 +42,7 @@
         "Magic",
         "Ranged"
       ],
-      "name": "Flower of Frost (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Flower of Frost",
       "target": "Special",
       "type": "feature",
       "usage": "Main action"

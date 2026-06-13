@@ -20,7 +20,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 3 cube within 5
+    - cost: 3 Malice
+      distance: 3 cube within 5
       effects:
         - roll: ""
           tier1: 7 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
@@ -32,7 +33,7 @@ features:
         - Area
         - Ranged
         - Weapon
-      name: Steam-Powered Snare (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Steam-Powered Snare
       target: Each enemy in the area
       type: feature
       usage: Maneuver

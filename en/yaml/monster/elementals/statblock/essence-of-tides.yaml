@@ -32,7 +32,8 @@ features:
       target: Self or one elemental
       type: feature
       usage: Maneuver
-    - distance: Melee 1
+    - cost: 1 Malice
+      distance: Melee 1
       effects:
         - effect: |-
             **Trigger:** An ally deals rolled damage to the target.
@@ -41,7 +42,7 @@ features:
       icon: ❗️
       keywords:
         - Melee
-      name: Sea-Salted Wounds (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Sea-Salted Wounds
       target: One enemy
       type: feature
       usage: Triggered action

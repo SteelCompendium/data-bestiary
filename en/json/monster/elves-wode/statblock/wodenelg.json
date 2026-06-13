@@ -38,6 +38,7 @@
       "type": "feature"
     },
     {
+      "cost": "3 Malice",
       "distance": "Self",
       "effects": [
         {
@@ -49,7 +50,7 @@
       "keywords": [
         "-"
       ],
-      "name": "Where I End the Woods Begin (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))",
+      "name": "Where I End the Woods Begin",
       "target": "Self",
       "type": "feature",
       "usage": "Maneuver"

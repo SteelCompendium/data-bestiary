@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "While adjacent to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies."
+          "effect": "While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies."
         }
       ],
       "feature_type": "trait",

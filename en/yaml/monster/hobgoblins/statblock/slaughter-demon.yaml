@@ -18,7 +18,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Melee 5
+    - cost: 3 Malice
+      distance: Melee 5
       effects:
         - roll: Power Roll + 3
           tier1: 10 poison damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -30,7 +31,7 @@ features:
         - Melee
         - Strike
         - Weapon
-      name: Tail Stinger (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Tail Stinger
       target: One creature or object
       type: feature
       usage: Main action

@@ -34,7 +34,8 @@ features:
       target: Each enemy in the area
       type: feature
       usage: Maneuver
-    - distance: 4 x 2 line within 1
+    - cost: 3 Malice
+      distance: 4 x 2 line within 1
       effects:
         - roll: Power Roll + 2
           tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
@@ -44,11 +45,12 @@ features:
       icon: "\U0001F533"
       keywords:
         - Area
-      name: Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Wing Buffet
       target: Each creature or object in the area
       type: feature
       usage: Maneuver
-    - distance: Self
+    - cost: 1 Malice
+      distance: Self
       effects:
         - effect: |-
             **Trigger:** The griffon takes damage.
@@ -57,7 +59,7 @@ features:
       icon: ❗️
       keywords:
         - '-'
-      name: Zephyr Feint (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Zephyr Feint
       target: Self
       type: feature
       usage: Triggered action

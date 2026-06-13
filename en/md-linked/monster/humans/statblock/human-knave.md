@@ -42,15 +42,15 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage; M < 2 the target has a double bane on their next power roll
 >
-> **Effect:** The target is taunted (EoT).
+> **Effect:** The target is [taunted](../../../condition/taunted.md) (EoT).
 
 > ⭐️ **I'm Your Enemy**
 >
-> Whenever an adjacent creature the knave has taunted deals damage to a creature other than the knave, the knave can make a free strike against them.
+> Whenever an [adjacent](../../../rule/combat/adjacent.md) creature the knave has [taunted](../../../condition/taunted.md) deals damage to a creature other than the knave, the knave can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
 
 > ⭐️ **Overwhelm**
 >
-> An enemy who starts their turn adjacent to the knave can't shift.
+> An enemy who starts their turn [adjacent](../../../rule/combat/adjacent.md) to the knave can't [shift](../../../movement/shifting.md).
 
 > ⭐️ **Supernatural Insight**
 >

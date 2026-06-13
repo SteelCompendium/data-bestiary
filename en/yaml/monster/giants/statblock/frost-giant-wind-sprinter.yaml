@@ -19,14 +19,15 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: Self
+    - cost: 5 Malice
+      distance: Self
       effects:
         - effect: '**Effect:** The wind sprinter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
         - '-'
-      name: Blizzard Surge (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Blizzard Surge
       target: Self
       type: feature
       usage: Main action

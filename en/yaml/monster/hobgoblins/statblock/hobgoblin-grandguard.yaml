@@ -18,7 +18,8 @@ features:
       target: One creature or object
       type: feature
       usage: Main action
-    - distance: 1 x 2 line within 1
+    - cost: 3 Malice
+      distance: 1 x 2 line within 1
       effects:
         - roll: Power Roll + 3
           tier1: 6 damage
@@ -30,7 +31,7 @@ features:
         - Area
         - Charge
         - Weapon
-      name: Thunder Rush (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Thunder Rush
       target: Each enemy or object in the area
       type: feature
       usage: Main action

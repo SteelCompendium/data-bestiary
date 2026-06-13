@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; taunted (EoT)
-> - **12-16:** 4 damage; taunted (EoT)
-> - **17+:** 5 damage; taunted (EoT)
+> - **≤11:** 3 damage; [taunted](../../../condition/taunted.md) (EoT)
+> - **12-16:** 4 damage; [taunted](../../../condition/taunted.md) (EoT)
+> - **17+:** 5 damage; [taunted](../../../condition/taunted.md) (EoT)
 >
-> **3 Malice:** If the legionary is acting as a captain, they and each member of their squad shift up to 2 squares before this ability is used.
+> **3 [Malice](../../../rule/monster/malice.md):** If the legionary is acting as a [captain](../../../rule/monster/captain.md), they and each member of their [squad](../../../rule/monster/squad.md) [shift](../../../movement/shifting.md) up to 2 squares before this ability is used.
 
 > 🗡 **Shield Bash**
 >
@@ -49,10 +49,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; push 1; M < 0 prone
-> - **12-16:** 3 damage; push 1; M < 1 prone
-> - **17+:** 4 damage; push 1; M < 2 prone
+> - **≤11:** 2 damage; [push](../../../movement/forced-movement.md) 1; M < 0 [prone](../../../condition/prone.md)
+> - **12-16:** 3 damage; [push](../../../movement/forced-movement.md) 1; M < 1 [prone](../../../condition/prone.md)
+> - **17+:** 4 damage; [push](../../../movement/forced-movement.md) 1; M < 2 [prone](../../../condition/prone.md)
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.
+> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.

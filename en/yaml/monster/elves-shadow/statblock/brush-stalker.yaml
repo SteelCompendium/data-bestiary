@@ -19,7 +19,8 @@ features:
       target: Two creatures or objects
       type: feature
       usage: Main action
-    - distance: 2 burst
+    - cost: 2 Malice
+      distance: 2 burst
       effects:
         - roll: Power Roll + 3
           tier1: 4 corruption damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -30,7 +31,7 @@ features:
       keywords:
         - Area
         - Magic
-      name: Reclamation (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))
+      name: Reclamation
       target: Each enemy in the area
       type: feature
       usage: Main action
