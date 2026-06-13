@@ -45,11 +45,11 @@ type: statblock
 > - **12-16:** 5 fire damage
 > - **17+:** 7 fire damage
 >
-> **Effect:** If the weatherwise targets their mentor, the mentor ignores the damage and instead gains temporary Stamina equal to the damage dealt.
+> **Effect:** If the weatherwise targets their mentor, the mentor ignores the damage and instead gains [temporary Stamina](../../rule/health/temporary-stamina.md) equal to the damage dealt.
 
 > ⭐️ **Otherworldly Grace**
 >
-> At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+> At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a [saving throw](../../rule/general/saving-throw.md). That effect instead ends at the end of their turn.
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -61,11 +61,11 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 3 cold damage; push 2
-> - **12-16:** 5 cold damage; push 3
-> - **17+:** 8 cold damage; push 5
+> - **≤11:** 3 cold damage; [push](../../movement/forced-movement.md) 2
+> - **12-16:** 5 cold damage; [push](../../movement/forced-movement.md) 3
+> - **17+:** 8 cold damage; [push](../../movement/forced-movement.md) 5
 >
-> **Effect:** The weatherwise can teleport up to 5 squares before or after using this ability.
+> **Effect:** The weatherwise can [teleport](../../movement/teleport.md) up to 5 squares before or after using this ability.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -75,7 +75,7 @@ type: statblock
 > |-----------------|-----------------------------:|
 > | **📏 3 burst**  | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can spend a Recovery, and can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+> **Effect:** Each target can spend a [Recovery](../../rule/health/recoveries.md), and can choose one effect on them that can be ended by a [saving throw](../../rule/general/saving-throw.md). That effect instead ends at the end of their turn.
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -87,6 +87,6 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 corruption damage; P < WEAK prone and can't stand (save ends)
-> - **12-16:** 10 corruption damage; P < AVERAGE prone and can't stand (save ends)
-> - **17+:** 14 corruption damage; P < STRONG prone and can't stand (save ends)
+> - **≤11:** 6 corruption damage; P < WEAK [prone](../../condition/prone.md) and can't stand ([save](../../rule/general/saving-throw.md) ends)
+> - **12-16:** 10 corruption damage; P < AVERAGE [prone](../../condition/prone.md) and can't stand ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** 14 corruption damage; P < STRONG [prone](../../condition/prone.md) and can't stand ([save](../../rule/general/saving-throw.md) ends)

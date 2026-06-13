@@ -24,7 +24,7 @@ features:
         - roll: Power Roll + 3
           tier1: 2 corruption damage
           tier2: 4 corruption damage
-          tier3: 5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one target
+          tier3: 5 corruption damage; one ally in the area can end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw), and can give that effect to one target
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -42,7 +42,7 @@ features:
       name: Persistent Pain
       type: feature
     - effects:
-        - effect: When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+        - effect: When the tormentite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
       feature_type: trait
       icon: ⭐️
       name: Loyalty Collar

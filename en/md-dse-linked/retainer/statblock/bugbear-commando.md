@@ -46,7 +46,7 @@ type: statblock
 > - **12-16:** 6 damage
 > - **17+:** 11 damage
 >
-> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 surge that can be used immediately.
+> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 [surge](../../rule/resource/surge.md) that can be used immediately.
 
 > 🗡 **Throw**
 >
@@ -54,9 +54,9 @@ type: statblock
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the commando.
+> **Special:** The target must be [grabbed](../../condition/grabbed.md) by the commando.
 >
-> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way.
+> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](../../movement/forced-movement.md) this way.
 
 > ❗️ **Catcher**
 >
@@ -64,9 +64,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is grabbed by the commando.
+> **Effect:** The target is [grabbed](../../condition/grabbed.md) by the commando.
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -78,11 +78,11 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 damage; M < WEAK grabbed
-> - **12-16:** 9 damage; M < AVERAGE grabbed
-> - **17+:** 13 damage; M < STRONG grabbed
+> - **≤11:** 6 damage; M < WEAK [grabbed](../../condition/grabbed.md)
+> - **12-16:** 9 damage; M < AVERAGE [grabbed](../../condition/grabbed.md)
+> - **17+:** 13 damage; M < STRONG [grabbed](../../condition/grabbed.md)
 >
-> **Effect:** While the target is grabbed this way, they can't communicate and all creatures and objects have concealment from them.
+> **Effect:** While the target is [grabbed](../../condition/grabbed.md) this way, they can't communicate and all creatures and objects have concealment from them.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -99,7 +99,7 @@ type: statblock
 > - **12-16:** Pull 10
 > - **17+:** Pull 12
 >
-> **Effect:** The target takes 1 damage for each square they are pulled.
+> **Effect:** The target takes 1 damage for each square they are [pulled](../../movement/forced-movement.md).
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -115,4 +115,4 @@ type: statblock
 > - **12-16:** 18 damage
 > - **17+:** 24 damage
 >
-> **Effect:** The target takes 15 damage, they are no longer grabbed, and they fall prone.
+> **Effect:** The target takes 15 damage, they are no longer [grabbed](../../condition/grabbed.md), and they fall [prone](../../condition/prone.md).

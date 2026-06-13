@@ -32,7 +32,7 @@ type: statblock
 |    **-**<br>Immunity     | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+3**<br>Might      | **+1**<br>Agility |  **-2**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Four-Way Grasp (Signature Ability)**
+> 🗡 **Four-Way Grasp ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                  **Main action** |
 > |---------------------------|---------------------------------:|
@@ -41,12 +41,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 2 grabbed
-> - **17+:** 11 damage; A < 3 grabbed
+> - **12-16:** 10 damage; A < 2 [grabbed](../../../condition/grabbed.md)
+> - **17+:** 11 damage; A < 3 [grabbed](../../../condition/grabbed.md)
 >
-> **Special:** The hulking brain can have up to four size 1 creatures grabbed.
+> **Special:** The hulking brain can have up to four size 1 creatures [grabbed](../../../condition/grabbed.md).
 >
-> **2 Malice:** The potency increases by 1.
+> **2 Malice:** The [potency](../../../rule/character/potency.md) increases by 1.
 
 > 🗡 **Cerebral Suplex**
 >
@@ -54,7 +54,7 @@ type: statblock
 > |-------------------|------------------:|
 > | **📏 Melee 1**    | **🎯 Each enemy** |
 >
-> **Effect:** A target must be grabbed by the hulking brain, and is no longer grabbed after the power roll is resolved.
+> **Effect:** A target must be [grabbed](../../../condition/grabbed.md) by the hulking brain, and is no longer [grabbed](../../../condition/grabbed.md) after the power roll is resolved.
 >
 > **Power Roll + 3:**
 >
@@ -68,7 +68,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The hulking brain shifts up to 4 squares, ignoring difficu terrain.
+> **Effect:** The hulking brain [shifts](../../../movement/shifting.md) up to 4 squares, ignoring difficu terrain.
 
 > ❗️ **Brawny Buffe (1 Malice)**
 >
@@ -78,14 +78,14 @@ type: statblock
 >
 > **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
 >
-> **Effect:** The hulking brain shifts adjacent to the ally and becomes the new target of the ability.
+> **Effect:** The hulking brain [shifts](../../../movement/shifting.md) [adjacent](../../../rule/combat/adjacent.md) to the ally and becomes the new target of the ability.
 >
-> **2 Malice:** The enemy is knocked prone.
+> **2 Malice:** The enemy is knocked [prone](../../../condition/prone.md).
 
 > ⭐️ **Biceps to Spare**
 >
-> The hulking brain can carry up to four size 1 creatures they have grabbed, and takes no penalty to their speed while doing so.
+> The hulking brain can carry up to four size 1 creatures they have [grabbed](../../../condition/grabbed.md), and takes no penalty to their speed while doing so.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
+> Whenever a non-[minion](../../../rule/organization/minion.md) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.

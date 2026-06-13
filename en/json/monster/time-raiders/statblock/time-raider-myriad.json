@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "3 damage; slide 1",
-          "tier2": "5 damage; slide 2",
-          "tier3": "6 damage; slide 3, prone"
+          "tier1": "3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "5 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",

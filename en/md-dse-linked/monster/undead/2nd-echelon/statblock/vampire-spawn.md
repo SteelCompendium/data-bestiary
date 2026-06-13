@@ -36,7 +36,7 @@ type: statblock
 | **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             |   **+3**<br>Agility   | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Exsanguinating Bite (Signature Ability)**
+> 🗡 **Exsanguinating Bite ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -45,12 +45,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 7 corruption damage; M < 2 bleeding (save ends)
-> - **17+:** 9 corruption damage; M < 3 bleeding (save ends)
+> - **12-16:** 7 corruption damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 9 corruption damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** The vampire spawn regains Stamina equal to any corruption damage dealt.
+> **Effect:** The vampire spawn regains [Stamina](../../../../rule/health/stamina.md) equal to any corruption damage dealt.
 >
-> **1 Malice:** The target takes an additional 3 corruption damage.
+> **1 [Malice](../../../../rule/monster/malice.md):** The target takes an additional 3 corruption damage.
 
 > 👤 **Vampiric Celerity**
 >
@@ -58,8 +58,8 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The vampire spawn can shift 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.
+> **Effect:** The vampire spawn can [shift](../../../../movement/shifting.md) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The vampire spawn has speed 10 while any creature within 10 squares of them is bleeding. The vampire spawn must use Exsanguinating Bite against a bleeding creature on their turn if they are able to.
+> The vampire spawn has speed 10 while any creature within 10 squares of them is [bleeding](../../../../condition/bleeding.md). The vampire spawn must use Exsanguinating Bite against a [bleeding](../../../../condition/bleeding.md) creature on their turn if they are able to.

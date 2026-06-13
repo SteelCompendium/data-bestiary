@@ -33,7 +33,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> ⚔️ **Fuse-Iron Knives (Signature Ability)**
+> ⚔️ **Fuse-Iron Knives ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |      **Main action** |
 > |-----------------------------------|---------------------:|
@@ -53,9 +53,9 @@ type: statblock
 > |-----------------|------------------------------------:|
 > | **📏 Ranged 3** | **🎯 One ally or dazzled creature** |
 >
-> **Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a free strike before or after being swapped.
+> **Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a [free strike](../../../../feature/common/main-actions/free-strike.md) before or after being swapped.
 >
-> **2 Malice:** The mischievite can use this ability as a triggered action when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.
+> **2 [Malice](../../../../rule/monster/malice.md):** The mischievite can use this ability as a [triggered action](../../../../rule/combat/triggered-action.md) when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.
 
 > ⭐️ **Crafty**
 >
@@ -63,4 +63,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the mischievite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the mischievite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

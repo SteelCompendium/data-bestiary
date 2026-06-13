@@ -34,7 +34,7 @@ with_captain: +4 damage bonus to strikes
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+1**<br>Might       | **+5**<br>Agility | **+3**<br>Reason  |              **+5**<br>Intuition               |   **+2**<br>Presence   |
 
-> 🏹 **Fuse-Iron Rocket (Signature Ability)**
+> 🏹 **Fuse-Iron Rocket ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -42,12 +42,12 @@ with_captain: +4 damage bonus to strikes
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 8 damage; push 3
-> - **17+:** 10 damage; push 4
+> - **≤11:** 5 damage; [push](../../../../movement/forced-movement.md) 2
+> - **12-16:** 8 damage; [push](../../../../movement/forced-movement.md) 3
+> - **17+:** 10 damage; [push](../../../../movement/forced-movement.md) 4
 >
-> **Effect:** Each enemy adjacent to the target before the forced movement takes 5 fire damage.
+> **Effect:** Each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target before the [forced movement](../../../../movement/forced-movement.md) takes 5 fire damage.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the hunter-killer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the hunter-killer is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

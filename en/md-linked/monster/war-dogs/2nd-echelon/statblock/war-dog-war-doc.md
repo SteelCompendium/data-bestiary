@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+1**<br>Agility | **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **Syringe Crossbow (Signature Ability)**
+> 🏹 **Syringe Crossbow ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -38,9 +38,9 @@ type: statblock
 >
 > - **≤11:** 6 poison damage
 > - **12-16:** 8 poison damage
-> - **17+:** 9 poison damage; M < 3 weakened (save ends)
+> - **17+:** 9 poison damage; M < 3 [weakened](../../../../condition/weakened.md) (save ends)
 >
-> **Effect:** A target enemy is subject to this ability's power roll. A target ally instead gains 5 temporary Stamina and can make a free strike.
+> **Effect:** A target enemy is subject to this ability's power roll. A target ally instead gains 5 temporary [Stamina](../../../../rule/health/stamina.md) and can make a [free strike](../../../../feature/common/main-actions/free-strike.md).
 
 > 🏹 **Posthumous Promotion**
 >
@@ -48,9 +48,9 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
 
-> ❗️ **Sanguine Stimulants (1 Malice)**
+> ❗️ **Sanguine Stimulants (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** | **Triggered action** |
 > |-------------------|---------------------:|
@@ -58,8 +58,8 @@ type: statblock
 >
 > **Trigger:** One ally within distance dies.
 >
-> **Effect:** Each ally adjacent to the dead ally deals an extra 6 damage on their next strike.
+> **Effect:** Each ally [adjacent](../../../../rule/combat/adjacent.md) to the dead ally deals an extra 6 damage on their next strike.
 
 > ⭐️ **Body Bank Branch Manager**
 >
-> If the war doc uses the Reconstitute war dog Malice feature, it costs 1 Malice less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute).
+> If the war doc uses the Reconstitute war dog [Malice](../../../../rule/monster/malice.md) feature, it costs 1 [Malice](../../../../rule/monster/malice.md) less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute).

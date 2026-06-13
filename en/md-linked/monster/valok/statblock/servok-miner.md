@@ -30,7 +30,7 @@ type: statblock
 |         **-**<br>Immunity          | **Burrow, climb**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |          **+4**<br>Might           |       **-2**<br>Agility       |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence  |
 
-> 🗡 **Drill Press (Signature Ability)**
+> 🗡 **Drill Press ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -38,11 +38,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; M < 2 restrained (save ends) and prone
-> - **12-16:** 18 damage; M < 3 restrained (save ends) and prone
-> - **17+:** 22 damage; prone; M < 4 restrained (save ends)
+> - **≤11:** 13 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends) and [prone](../../../condition/prone.md)
+> - **12-16:** 18 damage; M < 3 [restrained](../../../condition/restrained.md) (save ends) and [prone](../../../condition/prone.md)
+> - **17+:** 22 damage; [prone](../../../condition/prone.md); M < 4 [restrained](../../../condition/restrained.md) (save ends)
 >
-> **Effect:** In suitably soft ground, a target restrained this way is etrenched in a 1-square-deep hole.
+> **Effect:** In suitably soft ground, a target [restrained](../../../condition/restrained.md) this way is etrenched in a 1-square-deep hole.
 
 > 🔳 **Unload Rocks (3 Malice)**
 >
@@ -52,11 +52,11 @@ type: statblock
 >
 > **Effect:** Each target makes an **Agility test**.
 >
-> - **≤11:** 14 damage; slide 4; the miner's allies have concealment from the target (save ends)
-> - **12-16:** 11 damage; slide 2
+> - **≤11:** 14 damage; [slide](../../../movement/forced-movement.md) 4; the miner's allies have concealment from the target (save ends)
+> - **12-16:** 11 damage; [slide](../../../movement/forced-movement.md) 2
 > - **17+:** 7 damage
 >
-> The area is difficult terrain.
+> The area is [difficult terrain](../../../movement/difficult-terrain.md).
 
 > 🔳 **Break Ground (5 Malice)**
 >
@@ -64,15 +64,15 @@ type: statblock
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
-> **Effect:** A 5-square-deep fissure opens along the ground in the area. Each ally in the area can shift into the nearest unoccupied space outside the fissure. Each target makes an **Agility test**.
+> **Effect:** A 5-square-deep fissure opens along the ground in the area. Each ally in the area can [shift](../../../movement/shifting.md) into the nearest unoccupied space outside the fissure. Each target makes an **Agility test**.
 >
-> - **≤11:** 14 damage; the target falls into the fissure, and is prone and can't stand (EoT)
-> - **12-16:** 11 damage; the target is prone and hanging onto the edge of the fissure
-> - **17+:** 7 damage; the target can shift into the nearest unoccupied space outside the fissure
+> - **≤11:** 14 damage; the target falls into the fissure, and is [prone](../../../condition/prone.md) and can't stand (EoT)
+> - **12-16:** 11 damage; the target is [prone](../../../condition/prone.md) and hanging onto the edge of the fissure
+> - **17+:** 7 damage; the target can [shift](../../../movement/shifting.md) into the nearest unoccupied space outside the fissure
 
 > ❗️ **Miner Inconvenience (2 Malice)**
 >
-> | **Area**    | **Triggered action** |
+> | **Area**    | **[Triggered Action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -86,7 +86,7 @@ type: statblock
 
 > ⭐️ **Servok Siege Machine**
 >
-> The miner ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+> The miner ignores [difficult terrain](../../../movement/difficult-terrain.md), and their abilities deal an extra 15 damage to objects.
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -94,4 +94,4 @@ type: statblock
 
 > ⭐️ **Valiar Might**
 >
-> While the miner isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the miner isn't [bleeding](../../../condition/bleeding.md), [weakened](../../../condition/weakened.md), or [winded](../../../rule/health/winded.md), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.

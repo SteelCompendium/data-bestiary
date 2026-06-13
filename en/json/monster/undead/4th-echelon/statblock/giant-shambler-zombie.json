@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "5 damage; push 2",
-          "tier2": "8 damage; push 4",
-          "tier3": "10 damage; push 6"
+          "tier1": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4",
+          "tier3": "10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 6"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Each ally adjacent to the shambler has damage immunity 3."
+          "effect": "Each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the shambler has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 3."
         }
       ],
       "feature_type": "trait",

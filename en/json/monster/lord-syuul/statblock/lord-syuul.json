@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "**End Effect:** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.\n**Solo Turns:** Lord Syuul can take two turns each round. He can't take turns consecutively."
+          "effect": "**[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** Lord Syuul can take two turns each round. He can't take turns consecutively."
         }
       ],
       "feature_type": "trait",
@@ -19,9 +19,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "11 damage; A \u003c 2 grabbed",
-          "tier2": "17 damage; A \u003c 3 grabbed",
-          "tier3": "20 damage; A \u003c 4 grabbed"
+          "tier1": "11 damage; A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "17 damage; A \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "20 damage; A \u003c 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -85,7 +85,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "Lord Syuul can teleport up to 5 squares along with each creature and object he has grabbed. He can release grabbed creatures and objects before or after teleporting."
+          "effect": "Lord Syuul can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares along with each creature and object he has [grabbed](scc:mcdm.heroes.v1/condition/grabbed). He can release [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creatures and objects before or after teleporting."
         }
       ],
       "feature_type": "ability",
@@ -113,7 +113,7 @@
       "name": "Adaptability",
       "target": "Self",
       "type": "feature",
-      "usage": "Triggered action"
+      "usage": "Triggered Action"
     },
     {
       "effects": [
@@ -153,7 +153,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears."
+          "effect": "**Effect:** Lord Syuul becomes invisible, can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears."
         }
       ],
       "feature_type": "ability",

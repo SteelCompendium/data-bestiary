@@ -34,7 +34,7 @@ with_captain: +3 damage bonus to strikes
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+4**<br>Might       | **+1**<br>Agility | **-2**<br>Reason  |              **-1**<br>Intuition               |  **+2**<br>Presence   |
 
-> 🗡 **Greatsword and Roar (Signature Ability)**
+> 🗡 **Greatsword and Roar ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -46,8 +46,8 @@ with_captain: +3 damage bonus to strikes
 > - **12-16:** 4 damage, 3 psychic damage
 > - **17+:** 4 damage, 4 psychic damage; the target must move their speed in a straight line away from the draconite
 >
-> **Effect:** If this damage leaves the target winded, they are frightened of the draconite until the end of the target's next turn.
+> **Effect:** If this damage leaves the target [winded](../../../../rule/health/winded.md), they are [frightened](../../../../condition/frightened.md) of the draconite until the end of the target's next turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the draconite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the draconite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

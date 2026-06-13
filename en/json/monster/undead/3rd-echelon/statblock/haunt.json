@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "7 damage; slide 2",
-          "tier2": "10 damage; slide 3",
-          "tier3": "11 damage; slide 5"
+          "tier1": "7 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "10 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "11 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "3 damage; I \u003c 2 prone",
-          "tier2": "6 damage; I \u003c 3 prone",
-          "tier3": "7 damage; I \u003c 4 prone"
+          "tier1": "3 damage; I \u003c 2 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier2": "6 damage; I \u003c 3 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "7 damage; I \u003c 4 [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being force moved into objects."
+          "effect": "The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects."
         }
       ],
       "feature_type": "trait",

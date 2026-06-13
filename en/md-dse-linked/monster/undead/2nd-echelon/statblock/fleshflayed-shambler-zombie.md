@@ -36,7 +36,7 @@ with_captain: +2 damage bonus to strikes
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Bone Carvers (Signature Ability)**
+> 🗡 **Bone Carvers ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -48,8 +48,8 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** If this ability gains an edge or has a double edge, the target is bleeding (save ends).
+> **Effect:** If this ability gains an edge or has a double edge, the target is [bleeding](../../../../condition/bleeding.md) (save ends).
 
 > ⭐️ **Fleshfused Spines**
 >
-> Any adjacent enemy who grabs the fleshflayed shambler or uses melee ability against them takes 2 damage.
+> Any [adjacent](../../../../rule/combat/adjacent.md) enemy who [grabs](../../../../condition/grabbed.md) the fleshflayed shambler or uses melee ability against them takes 2 damage.

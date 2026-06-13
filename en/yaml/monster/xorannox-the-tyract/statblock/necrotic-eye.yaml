@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 4
           tier1: 11 corruption damage
-          tier2: 17 corruption damage; M < 3 bleeding (save ends)
-          tier3: 20 corruption damage; M < 4 bleeding (save ends)
+          tier2: 17 corruption damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 20 corruption damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -31,7 +31,7 @@ with_captain: +2 damage bonus to strikes
 | **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **-1**<br>Might      |     **+3**<br>Agility      | **+1**<br>Reason |              **+1**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Eager Claws (Signature Ability)**
+> 🗡 **Eager Claws ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -45,14 +45,14 @@ with_captain: +2 damage bonus to strikes
 
 > ❗️ **Feast**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered Action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** The whelp reduces a non-minion creature to 0 Stamina.
+> **Trigger:** The whelp reduces a non-[minion](../../../rule/organization/minion.md) creature to 0 [Stamina](../../../rule/health/stamina.md).
 >
-> **Effect:** The whelp transforms into a mindkiller whose Stamina equals their squad's Stamina pool before transforming. The Stamina pool then loses the whelp's Stamina.
+> **Effect:** The whelp transforms into a mindkiller whose [Stamina](../../../rule/health/stamina.md) equals their squad's [Stamina](../../../rule/health/stamina.md) pool before transforming. The [Stamina](../../../rule/health/stamina.md) pool then loses the whelp's [Stamina](../../../rule/health/stamina.md).
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.
+> Whenever a non-[minion](../../../rule/organization/minion.md) voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.

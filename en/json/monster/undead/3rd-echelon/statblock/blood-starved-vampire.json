@@ -10,7 +10,7 @@
           "roll": "Power Roll + 4",
           "tier1": "3 damage",
           "tier2": "6 damage",
-          "tier3": "7 damage; M \u003c 4 bleeding (EoT)"
+          "tier3": "7 damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The blood-starved vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must use Feeding Frenzy against a bleeding creature on their turn if they are able to."
+          "effect": "The blood-starved vampire has speed 10 while any creature within 10 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). The vampire must use Feeding Frenzy against a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to."
         }
       ],
       "feature_type": "trait",

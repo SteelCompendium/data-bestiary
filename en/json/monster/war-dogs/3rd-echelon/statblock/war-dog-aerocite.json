@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "7 damage",
-          "tier2": "10 damage; vertical slide 2",
-          "tier3": "12 damage; vertical slide 3"
+          "tier2": "10 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "12 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "2 acid damage; M \u003c 2 slowed (save ends)",
-          "tier2": "4 acid damage; M \u003c 3 slowed (save ends)",
-          "tier3": "6 acid damage; M \u003c 4 slowed (save ends)"
+          "tier1": "2 acid damage; M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "4 acid damage; M \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "6 acid damage; M \u003c 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -62,7 +62,7 @@
     {
       "effects": [
         {
-          "effect": "When the aerocite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
+          "effect": "When the aerocite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

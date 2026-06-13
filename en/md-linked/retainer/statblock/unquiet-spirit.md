@@ -41,7 +41,7 @@ type: statblock
 >
 > - **≤11:** 3 cold damage
 > - **12-16:** 5 cold damage
-> - **17+:** 7 cold damage; P < STRONG slowed (EoT)
+> - **17+:** 7 cold damage; P < STRONG [slowed](../../condition/slowed.md) (EoT)
 
 > 👤 **Spirit Meld**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
+> **Effect:** While [adjacent](../../rule/combat/adjacent.md) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](../../rule/combat/adjacent.md) space.
 
 > ⭐️ **Corruptive Phasing**
 >
@@ -69,7 +69,7 @@ type: statblock
 > - **12-16:** 10 corruption damage; the target has 2 levels of drain
 > - **17+:** 14 corruption damage; the target has 3 levels of drain
 >
-> **Effect:** The next creature to make a strike against the target gains 1 surge for each level of drain, which must be used on that strike.
+> **Effect:** The next creature to make a [strike](../../rule/combat/strike.md) against the target gains 1 [surge](../../rule/resource/surge.md) for each level of drain, which must be used on that [strike](../../rule/combat/strike.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -81,9 +81,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** A < WEAK slowed and weakened (save ends)
-> - **12-16:** A < AVERAGE slowed and weakened (save ends)
-> - **17+:** A < STRONG slowed and weakened (save ends)
+> - **≤11:** A < WEAK [slowed](../../condition/slowed.md) and [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **12-16:** A < AVERAGE [slowed](../../condition/slowed.md) and [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** A < STRONG [slowed](../../condition/slowed.md) and [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
 
 **Level 10 Retainer Advancement Ability**
 
@@ -93,4 +93,4 @@ type: statblock
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >
-> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can fly. They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's potency can choose to automatically be affected.
+> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](../../movement/fly.md). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](../../rule/character/potency.md) can choose to automatically be affected.

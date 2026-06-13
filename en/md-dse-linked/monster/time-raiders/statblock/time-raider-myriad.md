@@ -35,7 +35,7 @@ with_captain: +1 damage bonus to strikes
 | **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+1**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **+1**<br>Presence   |
 
-> 🗡 **Fifth Fist (Signature Ability)**
+> 🗡 **Fifth Fist ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
 > |------------------------------------|-----------------------------------------:|
@@ -43,9 +43,9 @@ with_captain: +1 damage bonus to strikes
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; slide 1
-> - **12-16:** 5 damage; slide 2
-> - **17+:** 6 damage; slide 3, prone
+> - **≤11:** 3 damage; [slide](../../../movement/forced-movement.md) 1
+> - **12-16:** 5 damage; [slide](../../../movement/forced-movement.md) 2
+> - **17+:** 6 damage; [slide](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
 
 > ⭐️ **Foresight**
 >

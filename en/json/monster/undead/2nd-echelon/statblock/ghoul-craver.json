@@ -29,7 +29,7 @@
     {
       "effects": [
         {
-          "effect": "Any enemy adjacent to three or more ghoul cravers can't shift."
+          "effect": "Any enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to three or more ghoul cravers can't [shift](scc:mcdm.heroes.v1/movement/shifting)."
         }
       ],
       "feature_type": "trait",

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "11 psychic damage; R \u003c 2 slowed (save ends)",
-          "tier2": "16 psychic damage; R \u003c 3 slowed (save ends)",
-          "tier3": "19 psychic damage; R \u003c 4 slowed (save ends)"
+          "tier1": "11 psychic damage; R \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "16 psychic damage; R \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "19 psychic damage; R \u003c 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The evolutionist teleports to swap places with the target."
+          "effect": "**Effect:** The evolutionist [teleports](scc:mcdm.heroes.v1/movement/teleport) to swap places with the target."
         }
       ],
       "feature_type": "ability",
@@ -59,12 +59,12 @@
       "name": "Adaptability",
       "target": "Self",
       "type": "feature",
-      "usage": "Triggered action"
+      "usage": "Triggered Action"
     },
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the evolutionist can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the evolutionist can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -75,7 +75,7 @@
     {
       "effects": [
         {
-          "effect": "The evolutionist has any trait of the Director's choice from any ally minion in the encounter."
+          "effect": "The evolutionist has any trait of the Director's choice from any ally [minion](scc:mcdm.monsters.v1/rule.organization/minion) in the encounter."
         }
       ],
       "feature_type": "trait",
@@ -89,9 +89,9 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "The target uses a signature ability against the nearest enemy within distance.",
-          "tier2": "The target makes a free strike against the nearest enemy within distance.",
-          "tier3": "Frightened (save ends)"
+          "tier1": "The target uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against the nearest enemy within distance.",
+          "tier2": "The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the nearest enemy within distance.",
+          "tier3": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -110,7 +110,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The evolutionist teleports eight minions of level 4 or lower into unoccupied spaces within distance. All eight minions can be of any monster type but must share the same name."
+          "effect": "**Effect:** The evolutionist [teleports](scc:mcdm.heroes.v1/movement/teleport) eight [minions](scc:mcdm.monsters.v1/rule.organization/minion) of level 4 or lower into unoccupied spaces within distance. All eight [minions](scc:mcdm.monsters.v1/rule.organization/minion) can be of any monster type but must share the same name."
         }
       ],
       "feature_type": "ability",

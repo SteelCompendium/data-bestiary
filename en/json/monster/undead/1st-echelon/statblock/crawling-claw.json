@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Allies can't flank with the crawling claw."
+          "effect": "Allies can't [flank](scc:mcdm.heroes.v1/rule.combat/flanking) with the crawling claw."
         }
       ],
       "feature_type": "trait",

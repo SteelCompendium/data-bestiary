@@ -22,8 +22,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 2 psychic damage
-          tier2: 3 psychic damage; I < 2 frightened (save ends)
-          tier3: 4 psychic damage; I < 3 frightened (save ends)
+          tier2: 3 psychic damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 4 psychic damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -34,7 +34,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone.
+        - effect: The first time the mournling is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
       feature_type: trait
       icon: ⭐️
       name: Arise

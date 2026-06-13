@@ -29,7 +29,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Soulstealer Longsword (Signature Ability)**
+> 🗡 **Soulstealer Longsword ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -38,19 +38,19 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 4 corruption damage; M < 1 slowed (save ends)
-> - **17+:** 5 corruption damage; M < 2 slowed and weakened (save ends)
+> - **12-16:** 4 corruption damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 5 corruption damage; M < 2 [slowed](../../../../condition/slowed.md) and [weakened](../../../../condition/weakened.md) (save ends)
 >
 > **Effect:** The target appears to rapidly age each time they take damage from this ability. The target regains their former appearance when the soulwight is destroyed.
 
-> 🏹 **Stolen Vitality (3 Malice)**
+> 🏹 **Stolen Vitality (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |    **Maneuver** |
 > |-------------------|----------------:|
 > | **📏 Ranged 5**   | **🎯 One ally** |
 >
-> **Effect:** The target regains 10 Stamina. The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
+> **Effect:** The target regains 10 [Stamina](../../../../rule/health/stamina.md). The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
 
 > ⭐️ **Arise**
 >
-> The first time the soulwight is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone.
+> The first time the soulwight is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).

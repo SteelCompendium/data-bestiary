@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "13 corruption damage; M \u003c 3 bleeding (save ends)",
-          "tier2": "21 corruption damage; M \u003c 4 bleeding (save ends)",
-          "tier3": "24 corruption damage; M \u003c 5 bleeding (save ends)"
+          "tier1": "13 corruption damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "21 corruption damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "24 corruption damage; M \u003c 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** A creature makes a strike against the vampire.\n**Effect:** The target becomes the new target of the strike."
+          "effect": "**Trigger:** A creature makes a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against the vampire.\n**Effect:** The target becomes the new target of the [strike](scc:mcdm.heroes.v1/rule.combat/strike)."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "The vampire has speed 15 and an edge on power rolls while any creature within 20 squares of them is bleeding. Any bleeding creature within 5 squares of the vampire can't hide."
+          "effect": "The vampire has speed 15 and an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on power rolls while any creature within 20 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). Any [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature within 5 squares of the vampire can't hide."
         }
       ],
       "feature_type": "trait",
@@ -78,7 +78,7 @@
       "distance": "20 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target who has P \u003c 4 is now bleeding (save ends)."
+          "effect": "**Effect:** Each target who has P \u003c 4 is now [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)."
         }
       ],
       "feature_type": "ability",

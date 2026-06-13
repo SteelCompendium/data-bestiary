@@ -32,7 +32,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **-2**<br>Agility | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Biokinetic Ballista (Signature Ability)**
+> 🏹 **Biokinetic Ballista ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -40,19 +40,19 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 10 damage; push 3
-> - **17+:** 11 damage; push 5
+> - **≤11:** 7 damage; [push](../../../../movement/forced-movement.md) 1
+> - **12-16:** 10 damage; [push](../../../../movement/forced-movement.md) 3
+> - **17+:** 11 damage; [push](../../../../movement/forced-movement.md) 5
 >
-> **Effect:** Any target pushed into an obstacle is knocked prone, and if they have M < 3 they are restrained (save ends).
+> **Effect:** Any target [pushed](../../../../movement/forced-movement.md) into an obstacle is knocked [prone](../../../../condition/prone.md), and if they have M < 3 they are [restrained](../../../../condition/restrained.md) (save ends).
 
-> 🔳 **Kill Zone (3 Malice)**
+> 🔳 **Kill Zone (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |   **Maneuver** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 12** | **🎯 Special** |
 >
-> **Effect:** Until the start of the ballistite's next turn, the area is difficult terrain, and any ranged ability targeting an enemy in the area deals an extra 8 damage.
+> **Effect:** Until the start of the ballistite's next turn, the area is [difficult terrain](../../../../movement/difficult-terrain.md), and any ranged ability targeting an enemy in the area deals an extra 8 damage.
 
 > ⭐️ **Set Up and Tear Down**
 >
@@ -60,4 +60,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the ballistite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the ballistite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

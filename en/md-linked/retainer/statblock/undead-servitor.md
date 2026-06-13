@@ -41,7 +41,7 @@ type: statblock
 
 > ⭐️ **Arise**
 >
-> The first time in an encounter that the servitor is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their Stamina maximum and fall prone.
+> The first time in an encounter that the servitor is reduced to 0 [Stamina](../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their [Stamina](../../rule/health/stamina.md) maximum and fall [prone](../../condition/prone.md).
 
 **Level 4 Retainer Advancement Ability**
 
@@ -53,9 +53,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 damage; M < WEAK grabbed
-> - **12-16:** 11 damage; M < AVERAGE grabbed
-> - **17+:** 16 damage; M < STRONG grabbed
+> - **≤11:** 7 damage; M < WEAK [grabbed](../../condition/grabbed.md)
+> - **12-16:** 11 damage; M < AVERAGE [grabbed](../../condition/grabbed.md)
+> - **17+:** 16 damage; M < STRONG [grabbed](../../condition/grabbed.md)
 
 ########Level 7 Retainer Advancement Ability
 
@@ -67,11 +67,11 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 corruption damage; P < WEAK weakened (save ends)
-> - **12-16:** 13 corruption damage; P < AVERAGE weakened (save ends)
-> - **17+:** 17 corruption damage; P < STRONG weakened (save ends)
+> - **≤11:** 8 corruption damage; P < WEAK [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **12-16:** 13 corruption damage; P < AVERAGE [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** 17 corruption damage; P < STRONG [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
 >
-> **Effect:** Before making the strike, the servitor can teleport up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
+> **Effect:** Before making the [strike](../../rule/combat/strike.md), the servitor can [teleport](../../movement/teleport.md) up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -81,7 +81,7 @@ type: statblock
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
-> **Trigger:** The servitor is reduced to 0 Stamina.
+> **Trigger:** The servitor is reduced to 0 [Stamina](../../rule/health/stamina.md).
 >
 > **Effect:** The servitor explodes.
 >

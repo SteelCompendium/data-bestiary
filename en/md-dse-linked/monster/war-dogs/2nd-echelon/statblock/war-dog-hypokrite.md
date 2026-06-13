@@ -33,7 +33,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🗡 **Needle-Knife (Signature Ability)**
+> 🗡 **Needle-Knife ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -42,12 +42,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 8 damage; A < 2 bleeding (save ends)
-> - **17+:** 10 damage; A < 3 bleeding and weakened (save ends)
+> - **12-16:** 8 damage; A < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 10 damage; A < 3 [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
 >
 > **Effect:** This ability deals an extra 6 damage if the hypokrite is hidden or disguised.
 
-> ❗️ **Feign Death (2 Malice)**
+> ❗️ **Feign Death (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Ranged**       | **Triggered action** |
 > |------------------|---------------------:|
@@ -55,12 +55,12 @@ type: statblock
 >
 > **Trigger:** The hypokrite takes damage.
 >
-> **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each adjacent enemy, but teleports to an unoccupied space adjacent to an ally within distance and remains alive.
+> **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy, but [teleports](../../../../movement/teleport.md) to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to an ally within distance and remains alive.
 
 > ⭐️ **Face in the Crowd**
 >
-> The hypokrite is invisible while adjacent to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect.
+> The hypokrite is invisible while [adjacent](../../../../rule/combat/adjacent.md) to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the hypokrite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the hypokrite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

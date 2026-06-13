@@ -7,7 +7,7 @@ features:
         - roll: ""
           tier1: 5 damage
           tier2: 5 damage, 3 corruption damage
-          tier3: 5 damage, 6 corruption damage; M < STRONG bleeding (save ends)
+          tier3: 5 damage, 6 corruption damage; M < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,7 +21,7 @@ features:
     - cost: Encounter
       distance: Self
       effects:
-        - effect: '**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can fly. The vampire rebel then shifts up to their speed, then regains their true form. If they can''t fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.'
+        - effect: '**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](scc:mcdm.heroes.v1/movement/fly). The vampire rebel then [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then regains their true form. If they can''t fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -31,7 +31,7 @@ features:
       type: feature
       usage: Move Action
     - effects:
-        - effect: The vampire rebel has speed 10 while any creature within 10 squares of them is bleeding. If the vampire rebel is able to deal damage to a bleeding creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
+        - effect: The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). If the vampire rebel is able to deal damage to a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
       feature_type: trait
       icon: ⭐️
       name: Agonizing Bloodthirst
@@ -40,9 +40,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 7 damage; M < WEAK bleeding (save ends)
-          tier2: 11 damage; M < AVERAGE bleeding (save ends)
-          tier3: 16 damage; M < STRONG bleeding (save ends)
+          tier1: 7 damage; M < WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 11 damage; M < AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 16 damage; M < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -57,9 +57,9 @@ features:
       distance: 3 cube within 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 7 corruption damage; M < WEAK bleeding (save ends)
-          tier2: 11 corruption damage; M < AVERAGE bleeding (save ends)
-          tier3: 16 corruption damage; M < STRONG bleeding (save ends)
+          tier1: 7 corruption damage; M < WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 11 corruption damage; M < AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 16 corruption damage; M < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:

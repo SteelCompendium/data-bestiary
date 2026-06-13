@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 4
-          tier1: 10 corruption damage; I < 2 bleeding (save ends)
-          tier2: 14 corruption damage; I < 3 bleeding (save ends)
-          tier3: 17 corruption damage; I < 4 bleeding (save ends)
+          tier1: 10 corruption damage; I < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 14 corruption damage; I < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 17 corruption damage; I < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: Ranged 20
       effects:
         - roll: Power Roll + 4
-          tier1: 7 corruption damage; I < 2 frightened (save ends)
-          tier2: 12 corruption damage; I < 3 frightened (save ends)
-          tier3: 16 corruption damage; I < 4 frightened (save ends)
+          tier1: 7 corruption damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 12 corruption damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 16 corruption damage; I < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -38,7 +38,7 @@ features:
       distance: Ranged 10
       effects:
         - effect: |-
-            **Trigger:** The mummy lord is made winded for the first time in the encounter.
+            **Trigger:** The mummy lord is made [winded](scc:mcdm.heroes.v1/rule.health/winded) for the first time in the encounter.
             **Effect:** One mummy or four ghoul cravers appear within distance.
       feature_type: ability
       icon: ❗️
@@ -50,8 +50,8 @@ features:
       usage: Triggered action
     - effects:
         - effect: |-
-            At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-            **5 Malice:** The effect that is ended is transferred to another creature within 10 squares.
+            At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+            **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The effect that is ended is transferred to another creature within 10 squares.
       feature_type: trait
       icon: ⭐️
       name: Cursed Transference
@@ -76,8 +76,8 @@ features:
       distance: Self
       effects:
         - roll: ""
-          tier1: Prone and can't stand (EoT)
-          tier2: Prone
+          tier1: '[Prone](scc:mcdm.heroes.v1/condition/prone) and can''t stand (EoT)'
+          tier2: '[Prone](scc:mcdm.heroes.v1/condition/prone)'
           tier3: No effect
       feature_type: ability
       icon: ☠️
@@ -91,9 +91,9 @@ features:
       distance: 5 burst
       effects:
         - roll: Power Roll + 4
-          tier1: 5 corruption damage; I < 2 frightened (save ends)
-          tier2: 8 corruption damage; I < 3 frightened (save ends)
-          tier3: 10 corruption damage; I < 4 frightened and restrained (save ends)
+          tier1: 5 corruption damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 8 corruption damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 10 corruption damage; I < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: ☠️
       keywords:

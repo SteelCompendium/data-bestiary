@@ -25,7 +25,7 @@ features:
       name: Tethered
       type: feature
     - effects:
-        - effect: When the tetherite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+        - effect: When the tetherite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
       feature_type: trait
       icon: ⭐️
       name: Loyalty Collar

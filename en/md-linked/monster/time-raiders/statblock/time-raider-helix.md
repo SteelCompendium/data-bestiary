@@ -30,7 +30,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |  **+2**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Blaster Volley (Signature Ability)**
+> 🏹 **Blaster Volley ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Weapon** |                 **Main action** |
 > |-------------------------------------|--------------------------------:|
@@ -38,9 +38,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 corruption damage; push 2
-> - **12-16:** 8 corruption damage; push 4
-> - **17+:** 11 corruption damage; push 6, prone
+> - **≤11:** 6 corruption damage; [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 8 corruption damage; [push](../../../movement/forced-movement.md) 4
+> - **17+:** 11 corruption damage; [push](../../../movement/forced-movement.md) 6, [prone](../../../condition/prone.md)
 
 > 🔳 **Kinetic Lane**
 >
@@ -48,9 +48,9 @@ type: statblock
 > |-----------------------------|---------------:|
 > | **📏 4 x 2 line within 10** | **🎯 Special** |
 >
-> **Effect:** The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there slides 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
+> **Effect:** The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there [slides](../../../movement/forced-movement.md) 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
 >
-> **3 Malice:** The helix creates a second kinetic lane.
+> **3 [Malice](../../../rule/monster/malice.md):** The helix creates a second kinetic lane.
 
 > ⭐️ **Foresight**
 >

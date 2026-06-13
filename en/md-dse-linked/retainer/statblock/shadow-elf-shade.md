@@ -46,7 +46,7 @@ type: statblock
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 >
-> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 surge.
+> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 [surge](../../rule/resource/surge.md).
 
 > 🔳 **Duskfall (Encounter)**
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > ⭐️ **Of the Umbra**
 >
-> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have damage weakness 3. While the shade has concealment, they have damage immunity 3.
+> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](../../rule/damage/damage-weakness.md) 3. While the shade has concealment, they have [damage immunity](../../rule/damage/damage-immunity.md) 3.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -70,9 +70,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 poison damage; weakened (save ends)
-> - **12-16:** 12 poison damage; weakened (save ends)
-> - **17+:** 16 poison damage; weakened (save ends)
+> - **≤11:** 8 poison damage; [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **12-16:** 12 poison damage; [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** 16 poison damage; [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends)
 >
 > **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
 

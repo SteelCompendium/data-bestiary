@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 3
           tier1: 3 damage
           tier2: 5 damage
-          tier3: 7 damage; M < 3 bleeding (save ends)
+          tier3: 7 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The hollowbone launcher explodes when they are reduced to 0 Stamina, dealing 2 damage to each adjacent creature.
+        - effect: The hollowbone launcher explodes when they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), dealing 2 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature.
       feature_type: trait
       icon: ⭐️
       name: Brittle Revenge

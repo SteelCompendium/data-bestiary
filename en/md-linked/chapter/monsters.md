@@ -16908,7 +16908,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 Rich soil squelches under every footstep. Curtains of menacing vines block the way, and muffled groans echo distantly under the darkening canopy. But by the time a hapless explorer realizes the ground is moving, it's too late—the shambling mound has devoured them.
 
-Found in overgrown swamps, stinking marshes, dense wodes, and dark, damp rainforests, the shambling mound is a wandering mass of vegetation that feeds on everything in their path.
+Found in overgrown swamps, stinking marshes, dense wodes, and dark, damp rainforests, the [shambling mound](../monster/group/shambling-mound.md) is a wandering mass of vegetation that feeds on everything in their path.
 
 ### Noxious Origins
 
@@ -16945,27 +16945,27 @@ One must also be wary of the area around a shambling mound. Their vines reach ou
 
 ###### Shambling Mound Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.shambling-mound/shambling-mound-malice"}
 
-At the start of a shambling mound's turn, you can spend Malice to activate one of the following features.
+At the start of a shambling mound's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 👤 **Poisoned Vines (3 Malice)**
+> 👤 **Poisoned Vines (3 [Malice](../rule/monster/malice.md))**
 >
 > The shambling mound seeps noxious residue from their vines. The next time they use their Vine Lash ability before the end of their next turn, they deal an extra 12 poison damage to each target.
 
-> ❇️ **Frenzy Lash (5 Malice)**
+> ❇️ **Frenzy Lash (5 [Malice](../rule/monster/malice.md))**
 >
 > The shambling mound lashes out at each enemy within 10 squares of them, driving them back or into the air. Each target makes an **Agility test**.
 >
-> - **≤11:** 7 damage; push 7 or vertical push 3; restrained (save ends)
-> - **12-16:** 6 damage; push 5 or vertical push 2
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 7 or vertical push 3; [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 6 damage; [push](../movement/forced-movement.md) 5 or vertical push 2
 > - **17+:** 3 damage
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](../rule/monster/malice.md))**
 >
-> The shambling mound takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The shambling mound takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
-> ❇️ **Leeching Wilds (7 Malice)**
+> ❇️ **Leeching Wilds (7 [Malice](../rule/monster/malice.md))**
 >
-> Until the end of the shambling mound's next turn, the area within 10 squares of them is difficult terrain for enemies, and any enemy in the area takes a bane on power rolls. Any enemy who starts their turn in the area takes 4 acid damage, and the shambling mound regains an equal amount of Stamina.
+> Until the end of the shambling mound's next turn, the area within 10 squares of them is [difficult terrain](../movement/difficult-terrain.md) for enemies, and any enemy in the area takes a bane on power rolls. Any enemy who starts their turn in the area takes 4 acid damage, and the shambling mound regains an equal amount of [Stamina](../rule/health/stamina.md).
 
 ###### Shambling Mound {data-scc="mcdm.monsters.v1/monster.shambling-mound.statblock/shambling-mound"}
 
@@ -16977,15 +16977,15 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the shambling mound can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of their turns, the shambling mound can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The shambling mound can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Engulfing Sac**
 >
-> The shambling mound has a vegetative sack on their body where they carry engulfed creatures. The sack has 30 Stamina, damage immunity 5, and fire weakness 10. Destroying the sack frees creatures trapped by the shambling mound's Engulf ability. The shambling mound regrows a destroyed sack at the start of their next turn.
+> The shambling mound has a vegetative sack on their body where they carry engulfed creatures. The sack has 30 [Stamina](../rule/health/stamina.md), damage immunity 5, and fire weakness 10. Destroying the sack frees creatures trapped by the shambling mound's Engulf ability. The shambling mound regrows a destroyed sack at the start of their next turn.
 
-> 🗡 **Vine Lash (Signature Ability)**
+> 🗡 **Vine Lash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -16993,13 +16993,13 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; A < 3 grabbed
-> - **12-16:** 16 damage; A < 4 grabbed
-> - **17+:** 19 damage; grabbed
+> - **≤11:** 11 damage; A < 3 [grabbed](../condition/grabbed.md)
+> - **12-16:** 16 damage; A < 4 [grabbed](../condition/grabbed.md)
+> - **17+:** 19 damage; [grabbed](../condition/grabbed.md)
 >
-> **2 Malice:** The shambling mound can slide each target up to 6 squares.
+> **2 [Malice](../rule/monster/malice.md):** The shambling mound can [slide](../movement/forced-movement.md) each target up to 6 squares.
 >
-> **3 Malice:** Each target takes 7 poison damage.
+> **3 [Malice](../rule/monster/malice.md):** Each target takes 7 poison damage.
 
 > ❇️ **Seismic Slam**
 >
@@ -17009,19 +17009,19 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 4 damage; M < 2 dazed (save ends)
-> - **12-16:** 6 damage; M < 3 dazed (save ends)
-> - **17+:** 7 damage; M < 4 dazed (save ends)
+> - **≤11:** 4 damage; M < 2 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 6 damage; M < 3 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 7 damage; M < 4 [dazed](../condition/dazed.md) (save ends)
 
-> 🗡 **Engulf (2 Malice)**
+> 🗡 **Engulf (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee**      |               **Main action** |
 > |----------------|------------------------------:|
 > | **📏 Melee 6** | **🎯 One creature or object** |
 >
-> **Effect:** The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A < 3, they are engulfed into the shambling mound's sack. If the target is grabbed by the shambling mound, the potency increases by 1. An engulfed creature is restrained, takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.
+> **Effect:** The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A < 3, they are engulfed into the shambling mound's sack. If the target is [grabbed](../condition/grabbed.md) by the shambling mound, the [potency](../rule/character/potency.md) increases by 1. An engulfed creature is [restrained](../condition/restrained.md), takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.
 >
-> **2+ Malice:** The shambling mound can engulf one additional target for each 2 Malice spent.
+> **2+ [Malice](../rule/monster/malice.md):** The shambling mound can engulf one additional target for each 2 [Malice](../rule/monster/malice.md) spent.
 
 > 👤 **Leech**
 >
@@ -17029,7 +17029,7 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary Stamina for each creature who takes damage this way.
+> **Effect:** Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary [Stamina](../rule/health/stamina.md) for each creature who takes damage this way.
 
 > ❗️ **Tether Down**
 >
@@ -17041,9 +17041,9 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; M < 2 restrained (EoT)
-> - **12-16:** 12 damage; M < 3 restrained (EoT)
-> - **17+:** 15 damage; M < 4 restrained (EoT)
+> - **≤11:** 7 damage; M < 2 [restrained](../condition/restrained.md) (EoT)
+> - **12-16:** 12 damage; M < 3 [restrained](../condition/restrained.md) (EoT)
+> - **17+:** 15 damage; M < 4 [restrained](../condition/restrained.md) (EoT)
 
 > ⭐️ **False Appearance**
 >
@@ -17051,9 +17051,9 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 
 > ⭐️ **Frothing Flora**
 >
-> The area within 6 squares of the shambling mound is difficult terrain.
+> The area within 6 squares of the shambling mound is [difficult terrain](../movement/difficult-terrain.md).
 
-> ☠️ **Ravenous Overgrowth (Villain Action 1)**
+> ☠️ **Ravenous Overgrowth ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Weapon**            |                            **-** |
 > |-----------------------------|---------------------------------:|
@@ -17061,19 +17061,19 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage, pull 3
-> - **12-16:** 12 damage; pull 4; the target has poison weakness 3 until the end of the encounter
-> - **17+:** 15 damage; pull 6; the target has poison weakness 5 until the end of the encounter
+> - **≤11:** 7 damage, [pull](../movement/forced-movement.md) 3
+> - **12-16:** 12 damage; [pull](../movement/forced-movement.md) 4; the target has poison weakness 3 until the end of the encounter
+> - **17+:** 15 damage; [pull](../movement/forced-movement.md) 6; the target has poison weakness 5 until the end of the encounter
 
-> ☠️ **Composting (Villain Action 2)**
+> ☠️ **Composting ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Melee**      |             **-** |
 > |----------------|------------------:|
 > | **📏 Melee 6** | **🎯 Each enemy** |
 >
-> **Effect:** The shambling mound uses Engulf against each target without spending Malice.
+> **Effect:** The shambling mound uses Engulf against each target without spending [Malice](../rule/monster/malice.md).
 
-> ☠️ **Exposed Crux (Villain Action 3)**
+> ☠️ **Exposed Crux ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Melee**   |       **-** |
 > |-------------|------------:|
@@ -17083,17 +17083,17 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 
 ## Time Raiders {data-scc="mcdm.monsters.v1/monster.group/time-raiders"}
 
-Genetic rebels, the space punks known as the time raiders (called the *kuran'zoi* among themselves) scour the Sea of Stars, the Sea Between Worlds, for heavily laden ships of any type. But they prefer the ships of UNISOL and other empires, for they love raiding the frigates of powerful governments who think their money and imperious nature can buy security.
+Genetic rebels, the space punks known as the [time raiders](../monster/group/time-raiders.md) (called the *kuran'zoi* among themselves) scour the Sea of Stars, the Sea Between Worlds, for heavily laden ships of any type. But they prefer the ships of UNISOL and other empires, for they love raiding the frigates of powerful governments who think their money and imperious nature can buy security.
 
 ### Veterans of the Psychic Wars
 
-Thousands of years ago, the synlirii—those powerful and evil psionic horrors more commonly known as voiceless talkers—created the kuran'zoi as soldiers. But as the synlirii experimented with and enhanced these warriors' psionic potential, the kuran'zoi came to understand the true nature of their progenitors. They rebelled against the synlirii and fled to the Sea of Stars, becoming nomads of the timescape.
+Thousands of years ago, the synlirii—those powerful and evil psionic horrors more commonly known as [voiceless talkers](../monster/group/voiceless-talkers.md)—created the kuran'zoi as soldiers. But as the synlirii experimented with and enhanced these warriors' psionic potential, the kuran'zoi came to understand the true nature of their progenitors. They rebelled against the synlirii and fled to the Sea of Stars, becoming nomads of the timescape.
 
 ### Hardened-Vision Hexapods
 
 Kuran'zoi possess resilient ocular sensors that allow them to see in the dark. Knowing these sensors would also defend them against the hardlight storms of the Astral Sea, the escaping kuran'zoi chose the Sea of Stars as their home. They thrive where the winds of limbo roar.
 
-Time raiders also have two sets of arms, allowing them to wield melee weapons at the same time as ranged weapons. A single well-trained kuran'zoi is like a squad unto themself.
+Time raiders also have two sets of arms, allowing them to wield melee weapons at the same time as ranged weapons. A single well-trained kuran'zoi is like a [squad](../rule/monster/squad.md) unto themself.
 
 ### Psi-Tech
 
@@ -17117,26 +17117,26 @@ Most time raiders speak Caelian and Voll. Because of the number of worlds they'v
 
 ###### Time Raider Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.time-raiders/time-raider-malice"}
 
-At the start of any time raider's turn, you can spend Malice to activate one of the following features.
+At the start of any time raider's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 🔳 **Gravity Well (3 Malice)**
+> 🔳 **Gravity Well (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Psionic, Ranged, Weapon** |   **Maneuver** |
 > |-----------------------------------|---------------:|
 > | **📏 5 cube within 3**            | **🎯 Special** |
 >
-> **Effect:** A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature adjacent to the well uses a maneuver to deactivate it. The area is difficult terrain for enemies. Any enemy who ends their turn in the area is pulled up to 4 squares toward the well.
+> **Effect:** A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature [adjacent](../rule/combat/adjacent.md) to the well uses a maneuver to deactivate it. The area is [difficult terrain](../movement/difficult-terrain.md) for enemies. Any enemy who ends their turn in the area is [pulled](../movement/forced-movement.md) up to 4 squares toward the well.
 
-> ⭐️ **Recall Module (5 Malice)**
+> ⭐️ **Recall Module (5 [Malice](../rule/monster/malice.md))**
 >
-> Until the end of the round, each time raider gains a +3 bonus to speed, and can teleport up to their speed as a move action.
+> Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](../movement/teleport.md) up to their speed as a move action.
 
-> 🌀 **Psi-Cage (10 Malice)**
+> 🌀 **Psi-Cage (10 [Malice](../rule/monster/malice.md))**
 >
-> All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest Stamina maximum drops to 0 Stamina or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
+> All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](../rule/health/stamina.md) maximum drops to 0 [Stamina](../rule/health/stamina.md) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
 >
-> - **≤11:** 10 psychic damage; slowed (EoT)
-> - **12-16:** 7 psychic damage; slowed (EoT)
+> - **≤11:** 10 psychic damage; [slowed](../condition/slowed.md) (EoT)
+> - **12-16:** 7 psychic damage; [slowed](../condition/slowed.md) (EoT)
 > - **17+:** No effect.
 
 ###### Time Raider Archon {data-scc="mcdm.monsters.v1/monster.time-raiders.statblock/time-raider-archon"}
@@ -17147,7 +17147,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+2**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **-1**<br>Presence   |
 
-> 🗡 **Brutal Flail (Signature Ability)**
+> 🗡 **Brutal Flail ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
 > |------------------------------------|-----------------------------------------:|
@@ -17157,7 +17157,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; one ally can make a free strike against the target
+> - **17+:** 5 damage; one ally can make a [free strike](../feature/common/main-actions/free-strike.md) against the target
 
 > ⭐️ **Foresight**
 >
@@ -17171,7 +17171,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+1**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **+1**<br>Presence   |
 
-> 🗡 **Fifth Fist (Signature Ability)**
+> 🗡 **Fifth Fist ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
 > |------------------------------------|-----------------------------------------:|
@@ -17179,9 +17179,9 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; slide 1
-> - **12-16:** 5 damage; slide 2
-> - **17+:** 6 damage; slide 3, prone
+> - **≤11:** 3 damage; [slide](../movement/forced-movement.md) 1
+> - **12-16:** 5 damage; [slide](../movement/forced-movement.md) 2
+> - **17+:** 6 damage; [slide](../movement/forced-movement.md) 3, [prone](../condition/prone.md)
 
 > ⭐️ **Foresight**
 >
@@ -17195,7 +17195,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Serrated Saber (Signature Ability)**
+> 🗡 **Serrated Saber ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |               **Main action** |
 > |------------------------------------|------------------------------:|
@@ -17205,9 +17205,9 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage
-> - **17+:** 13 damage; R < 2 weakened (save ends)
+> - **17+:** 13 damage; R < 2 [weakened](../condition/weakened.md) (save ends)
 >
-> **2 Malice:** A creature weakened this way is also bleeding.
+> **2 [Malice](../rule/monster/malice.md):** A creature [weakened](../condition/weakened.md) this way is also [bleeding](../condition/bleeding.md).
 
 > ❗️ **Shared Sickness**
 >
@@ -17215,7 +17215,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 20**    | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature deals damage to any ally of the armiger who the armiger has line of effect to.
+> **Trigger:** A creature deals damage to any ally of the armiger who the armiger has [line of effect](../rule/combat/line-of-effect.md) to.
 >
 > **Power Roll + 2:**
 >
@@ -17229,7 +17229,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 
 > ⭐️ **Kuran'zoi Heraldry**
 >
-> Any time raider who starts their turn with line of effect to the armiger can end one condition affecting the.
+> Any time raider who starts their turn with [line of effect](../rule/combat/line-of-effect.md) to the armiger can end one condition affecting the.
 
 ###### Time Raider Cannonfall {data-scc="mcdm.monsters.v1/monster.time-raiders.statblock/time-raider-cannonfall"}
 
@@ -17239,7 +17239,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🔳 **Sunderbuss (Signature Ability)**
+> 🔳 **Sunderbuss ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic, Ranged, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -17249,11 +17249,11 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > - **≤11:** 4 sonic damage
 > - **12-16:** 7 sonic damage
-> - **17+:** 10 sonic damage; prone; M < 2 slowed (save ends)
+> - **17+:** 10 sonic damage; [prone](../condition/prone.md); M < 2 [slowed](../condition/slowed.md) (save ends)
 >
 > **Effect:** A layer of ground beneath the area that is 1 square deep is destroyed.
 
-> ❗️ **Buss Buffe (1 Malice)**
+> ❗️ **Buss Buffe (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Psionic** |             **Free triggered action** |
 > |-------------------|--------------------------------------:|
@@ -17275,7 +17275,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |  **+2**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Blaster Volley (Signature Ability)**
+> 🏹 **Blaster Volley ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Weapon** |                 **Main action** |
 > |-------------------------------------|--------------------------------:|
@@ -17283,9 +17283,9 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 corruption damage; push 2
-> - **12-16:** 8 corruption damage; push 4
-> - **17+:** 11 corruption damage; push 6, prone
+> - **≤11:** 6 corruption damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 8 corruption damage; [push](../movement/forced-movement.md) 4
+> - **17+:** 11 corruption damage; [push](../movement/forced-movement.md) 6, [prone](../condition/prone.md)
 
 > 🔳 **Kinetic Lane**
 >
@@ -17293,9 +17293,9 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 > |-----------------------------|---------------:|
 > | **📏 4 x 2 line within 10** | **🎯 Special** |
 >
-> **Effect:** The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there slides 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
+> **Effect:** The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there [slides](../movement/forced-movement.md) 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
 >
-> **3 Malice:** The helix creates a second kinetic lane.
+> **3 [Malice](../rule/monster/malice.md):** The helix creates a second kinetic lane.
 
 > ⭐️ **Foresight**
 >
@@ -17309,7 +17309,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Golden Sickles (Signature Ability)**
+> 🗡 **Golden Sickles ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |     **Main action** |
 > |------------------------------------|--------------------:|
@@ -17319,9 +17319,9 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; A < 2 bleeding (save ends)
+> - **17+:** 14 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** The hijack is hidden from any creature who is bleeding from this ability until that condition ends.
+> **Effect:** The hijack is hidden from any creature who is [bleeding](../condition/bleeding.md) from this ability until that condition ends.
 
 > 🏹 **Psi-Sickle**
 >
@@ -17329,7 +17329,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 > |-----------------------------|------------------------------:|
 > | **📏 Ranged 5**             | **🎯 One creature or object** |
 >
-> **Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves adjacent to the target. Otherwise, the target is pulled up to 4 squares toward the hijack.
+> **Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](../rule/combat/adjacent.md) to the target. Otherwise, the target is [pulled](../movement/forced-movement.md) up to 4 squares toward the hijack.
 
 > ⭐️ **Foresight**
 >
@@ -17343,7 +17343,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Repelling Psihander (Signature Ability)**
+> 🗡 **Repelling Psihander ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                             **Main action** |
 > |------------------------------------|--------------------------------------------:|
@@ -17352,12 +17352,12 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 8 damage; M < 1 dazed (save ends)
-> - **17+:** 11 damage; M < 2 dazed (save ends)
+> - **12-16:** 8 damage; M < 1 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 11 damage; M < 2 [dazed](../condition/dazed.md) (save ends)
 >
-> **Effect:** A target who ends their next turn adjacent to the other target falls prone.
+> **Effect:** A target who ends their next turn [adjacent](../rule/combat/adjacent.md) to the other target falls [prone](../condition/prone.md).
 
-> ❇️ **Mindpunk (2 Malice)**
+> ❇️ **Mindpunk (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Psionic** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -17365,9 +17365,9 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 psychic damage; R < 0 prone
-> - **12-16:** 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
-> - **17+:** 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
+> - **≤11:** 4 psychic damage; R < 0 [prone](../condition/prone.md)
+> - **12-16:** 6 psychic damage; [push](../movement/forced-movement.md) 1; R < 1 [prone](../condition/prone.md) and can't stand (save ends)
+> - **17+:** 9 psychic damage; [push](../movement/forced-movement.md) 2; R < 2 [prone](../condition/prone.md) and can't stand (save ends)
 
 > ⭐️ **Foresight**
 >
@@ -17381,7 +17381,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |  **+2**<br>Agility  | **+2**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Golden Scythe (Signature Ability)**
+> 🗡 **Golden Scythe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |               **Main action** |
 > |------------------------------------|------------------------------:|
@@ -17389,13 +17389,13 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; pull 1
-> - **12-16:** 10 damage; pull 2
-> - **17+:** 13 damage; pull 3; A < 2 restrained (save ends)
+> - **≤11:** 7 damage; [pull](../movement/forced-movement.md) 1
+> - **12-16:** 10 damage; [pull](../movement/forced-movement.md) 2
+> - **17+:** 13 damage; [pull](../movement/forced-movement.md) 3; A < 2 [restrained](../condition/restrained.md) (save ends)
 >
 > **Effect:** This ability can target creatures on parallel planes of existence and pull them onto the nemesis's plane.
 
-> 🏹 **Kinetic Crush (2 Malice)**
+> 🏹 **Kinetic Crush (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged, Strike** |     **Main action** |
 > |-----------------------------|--------------------:|
@@ -17403,11 +17403,11 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 psychic damage; M < 0 slowed (save ends)
-> - **12-16:** 10 psychic damage; M < 1 slowed (save ends)
-> - **17+:** 13 psychic damage; M < 2 slowed (save ends)
+> - **≤11:** 7 psychic damage; M < 0 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 10 psychic damage; M < 1 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 13 psychic damage; M < 2 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** Any creature slowed this way takes 2 damage for each square they move or are force moved until that condition ends.
+> **Effect:** Any creature [slowed](../condition/slowed.md) this way takes 2 damage for each square they move or are [force moved](../movement/forced-movement.md) until that condition ends.
 
 > ⭐️ **Foresight**
 >
@@ -17421,7 +17421,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |     **+1**<br>Agility      | **+2**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Psionic Slam (Signature Ability)**
+> 🗡 **Psionic Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -17435,13 +17435,13 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Effect:** Any power roll made against the target gains an edge until the start of the vertex's next turn.
 
-> 🔳 **Split Space (5 Malice)**
+> 🔳 **Split Space (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Psionic, Ranged** | **Main action** |
 > |---------------------------|----------------:|
 > | **📏 2 cube within 10**   |  **🎯 Special** |
 >
-> **Effect:** A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly teleported to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.
+> **Effect:** A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly [teleported](../movement/teleport.md) to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.
 
 > ❇️ **Invigorated March**
 >
@@ -17449,7 +17449,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 > |-------------------|-----------------------------:|
 > | **📏 4 burst**    | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target shifts up to half their speed.
+> **Effect:** Each target [shifts](../movement/shifting.md) up to half their speed.
 
 > ⭐️ **Foresight**
 >
@@ -17463,7 +17463,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 | **Psychic 5**<br>Immunity | **Hover, teleport**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+3**<br>Reason   |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> ⚔️ **Gatling Blaster (Signature Ability)**
+> ⚔️ **Gatling Blaster ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Ranged, Strike, Weapon** |                 **Main action** |
 > |--------------------------------------------|--------------------------------:|
@@ -17477,13 +17477,13 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Effect:** Each target takes a −2 penalty to speed until the start of the tyrannis's next turn.
 
-> 🏹 **Air Raid! (3 Malice)**
+> 🏹 **Air Raid! (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged** |              **Maneuver** |
 > |---------------------|--------------------------:|
 > | **📏 Ranged 10**    | **🎯 Three time raiders** |
 >
-> **Effect:** Each target can fly up to their speed and make a free strike. If a target doesn't land in an unoccupied space, they fall.
+> **Effect:** Each target can [fly](../movement/fly.md) up to their speed and make a [free strike](../feature/common/main-actions/free-strike.md). If a target doesn't land in an unoccupied space, they fall.
 
 > ❗️ **Precog Reflexes**
 >
@@ -17493,27 +17493,27 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Trigger:** A creature within distance makes a strike against the tyrannis.
 >
-> **Effect:** The strike takes a bane. After the strike resolves, the tyrannis can make a free strike against the target.
+> **Effect:** The strike takes a bane. After the strike resolves, the tyrannis can make a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 >
-> **2 Malice:** The strike has a double bane instead.
+> **2 [Malice](../rule/monster/malice.md):** The strike has a double bane instead.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Foresight**
 >
 > The tyrannis doesn't take a bane on strikes against creatures with concealment.
 
-> ☠️ **We Will Won! (Villain Action 1)**
+> ☠️ **We Will Won! ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Psionic, Ranged** |                        **-** |
 > |---------------------|-----------------------------:|
 > | **📏 Ranged 10**    | **🎯 Self and three allies** |
 >
-> **Effect:** Each target gains 15 temporary Stamina, and has their speed doubled until the end of their next turn.
+> **Effect:** Each target gains 15 temporary [Stamina](../rule/health/stamina.md), and has their speed doubled until the end of their next turn.
 
-> ☠️ **Stick to the Plan! (Villain Action 2)**
+> ☠️ **Stick to the Plan! ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
@@ -17521,7 +17521,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > **Effect:** Each target can end one effect on them or can move up to their speed.
 
-> ☠️ **Armageddon (Villain Action 3)**
+> ☠️ **Armageddon ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area**       |          **-** |
 > |----------------|---------------:|
@@ -17531,7 +17531,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 
 ## Trolls {data-scc="mcdm.monsters.v1/monster.group/trolls"}
 
-Ravenous trolls rampage through the wild to quell their fathomless hunger, leaving only destruction in their wake. Tall and gangly, they have mottled green skin covered by a mane of matted hair that runs down their neck and back. In many ways, they resemble massive humanoids, but their exaggerated features belie this comparison. A troll's lower jaw hangs unhinged and distended, and their long arms end in claws that drag along the ground as they walk.
+Ravenous [trolls](../monster/group/trolls.md) rampage through the wild to quell their fathomless hunger, leaving only destruction in their wake. Tall and gangly, they have mottled green skin covered by a mane of matted hair that runs down their neck and back. In many ways, they resemble massive [humanoids](../rule/keyword/humanoid.md), but their exaggerated features belie this comparison. A troll's lower jaw hangs unhinged and distended, and their long arms end in claws that drag along the ground as they walk.
 
 ### Hypermetabolism
 
@@ -17543,7 +17543,7 @@ Fortunately for the ecosystems they inhabit, trolls can't be active all the time
 
 ### Strange Mutations
 
-Trolls prefer to prey upon humanoids and animals, but stories tell of them feeding on fetid demons and undead, assimilating those creatures' flesh to magnificent and horrifying effect. A troll with loose hanging skin, curling nails, or exposed bone might be in better health than their appearance would suggest.
+Trolls prefer to prey upon [humanoids](../rule/keyword/humanoid.md) and animals, but stories tell of them feeding on fetid [demons](../monster/group/demons.md) and [undead](../rule/keyword/undead.md), assimilating those creatures' flesh to magnificent and horrifying effect. A troll with loose hanging skin, curling nails, or exposed bone might be in better health than their appearance would suggest.
 
 ### Limbjumbles
 
@@ -17551,7 +17551,7 @@ When a suitably large piece of a troll is torn off in battle, it does its very b
 
 > **Mutating Your Trolls**
 >
-> At the Director's discretion, a troll can mutate after consuming the flesh of any creature and gain some of their damage immunities, traits, abilities, and movement options. For instance, a troll who devours the carcass of a dead draconian might grow wings and gain their signature ability!
+> At the Director's discretion, a troll can mutate after consuming the flesh of any creature and gain some of their damage immunities, traits, abilities, and movement options. For instance, a troll who devours the carcass of a dead [draconian](../monster/group/draconians.md) might grow wings and gain their [signature ability](../rule/combat/signature-ability.md)!
 >
 > Be aware that this can increase the difficulty category of an encounter while one or more of these mutated trolls are present—especially if their mutations enable them to deal more damage than normal or grant them an acid or fire damage immunity.
 
@@ -17561,23 +17561,23 @@ Most trolls speak High Kuric or Variac, while a few also know Caelian. Trolls ar
 
 ###### Troll Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.trolls/troll-malice"}
 
-At the start of any troll's turn, you can spend Malice to activate one of the following features.
+At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 🔳 **Foul Spew (3 Malice)**
+> 🔳 **Foul Spew (3 [Malice](../rule/monster/malice.md))**
 >
-> One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 Stamina. Each enemy in the area makes a **Might test**.
+> One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 [Stamina](../rule/health/stamina.md). Each enemy in the area makes a **Might test**.
 >
-> - **≤11:** 12 acid damage; dazed (EoT)
-> - **12-16:** 10 acid damage; weakened (EoT)
+> - **≤11:** 12 acid damage; [dazed](../condition/dazed.md) (EoT)
+> - **12-16:** 10 acid damage; [weakened](../condition/weakened.md) (EoT)
 > - **17+:** 6 acid damage
 
-> 🗡 **Emergency Meal (5 Malice)**
+> 🗡 **Emergency Meal (5 [Malice](../rule/monster/malice.md))**
 >
-> Each troll in the encounter can make a free strike against a creature adjacent to them, and regains Stamina equal to the damage dealt.
+> Each troll in the encounter can make a [free strike](../feature/common/main-actions/free-strike.md) against a creature [adjacent](../rule/combat/adjacent.md) to them, and regains [Stamina](../rule/health/stamina.md) equal to the damage dealt.
 
-> ❇️ **Bloody Banquet (7 Malice)**
+> ❇️ **Bloody Banquet (7 [Malice](../rule/monster/malice.md))**
 >
-> Each winded troll in the encounter disgorges the contents of their stomach onto the ground around them, creating a 1 burst of foul vomitus that lasts until the end of the encounter. Each non-troll who enters this area for the first time in a round or starts their turn there takes 5 acid damage. Each troll in the area has a double edge on power rolls.
+> Each [winded](../rule/health/winded.md) troll in the encounter disgorges the contents of their stomach onto the ground around them, creating a 1 burst of foul vomitus that lasts until the end of the encounter. Each non-troll who enters this area for the first time in a round or starts their turn there takes 5 acid damage. Each troll in the area has a double edge on power rolls.
 
 ###### Troll Limbjumble {data-scc="mcdm.monsters.v1/monster.trolls.statblock/troll-limbjumble"}
 
@@ -17587,7 +17587,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 | **-**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **Acid 8, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility | **-2**<br>Reason |             **-1**<br>Intuition             |       **-1**<br>Presence        |
 
-> 🗡 **Arm and a Leg (Signature Ability)**
+> 🗡 **Arm and a Leg ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -17595,15 +17595,15 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; A < 2 prone
-> - **12-16:** 5 damage; A < 3 prone
-> - **17+:** 6 damage; prone
+> - **≤11:** 3 damage; A < 2 [prone](../condition/prone.md)
+> - **12-16:** 5 damage; A < 3 [prone](../condition/prone.md)
+> - **17+:** 6 damage; [prone](../condition/prone.md)
 >
-> **Effect:** If a target made prone this way is already prone, they are grabbed instead.
+> **Effect:** If a target made [prone](../condition/prone.md) this way is already [prone](../condition/prone.md), they are [grabbed](../condition/grabbed.md) instead.
 
 > ⭐️ **Hyper-Regeneration**
 >
-> At the start of each of the limbjumble's squad's turns, the squad's Stamina pool increases as if each limbjumble were at full Stamina.
+> At the start of each of the limbjumble's [squad](../rule/monster/squad.md)'s turns, the squad's [Stamina](../rule/health/stamina.md) pool increases as if each limbjumble were at full [Stamina](../rule/health/stamina.md).
 
 ###### Troll Whelp {data-scc="mcdm.monsters.v1/monster.trolls.statblock/troll-whelp"}
 
@@ -17613,7 +17613,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition               |        **0**<br>Presence        |
 
-> 🗡 **Jaws and Claws (Signature Ability)**
+> 🗡 **Jaws and Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -17622,12 +17622,12 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; slide 1
-> - **17+:** 7 damage; slide 2; M < 2 bleeding (save ends)
+> - **12-16:** 6 damage; [slide](../movement/forced-movement.md) 1
+> - **17+:** 7 damage; [slide](../movement/forced-movement.md) 2; M < 2 [bleeding](../condition/bleeding.md) (save ends)
 
 > ⭐️ **Lingering Hunger**
 >
-> Whenever two or more whelps are simultaneously reduced to 0 Stamina by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 Stamina.
+> Whenever two or more whelps are simultaneously reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 [Stamina](../rule/health/stamina.md).
 
 ###### Troll Butcher {data-scc="mcdm.monsters.v1/monster.trolls.statblock/troll-butcher"}
 
@@ -17637,7 +17637,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |        **0**<br>Presence        |
 
-> 🗡 **Savoring Bite (Signature Ability)**
+> 🗡 **Savoring Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -17645,11 +17645,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; M < 1 bleeding (save ends)
-> - **12-16:** 14 damage; M < 2 bleeding (save ends)
-> - **17+:** 17 damage; M < 3 bleeding (save ends)
+> - **≤11:** 9 damage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 14 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 17 damage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **1 Malice:** The butcher regains Stamina equal to the damage dealt.
+> **1 [Malice](../rule/monster/malice.md):** The butcher regains [Stamina](../rule/health/stamina.md) equal to the damage dealt.
 
 > 🔳 **Rotten Scraps**
 >
@@ -17659,19 +17659,19 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 poison damage; M < 1 weakened (save ends)
-> - **12-16:** 9 poison damage; M < 2 weakened (save ends)
-> - **17+:** 11 poison damage; M < 3 weakened (save ends)
+> - **≤11:** 5 poison damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 9 poison damage; M < 2 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 11 poison damage; M < 3 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Each troll in the area ignores the damage and instead regains 3 Stamina.
+> **Effect:** Each troll in the area ignores the damage and instead regains 3 [Stamina](../rule/health/stamina.md).
 
-> 👤 **Gourmet Flesh (2 Malice)**
+> 👤 **Gourmet Flesh (2 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and dazed, acid damage and restrained, or lightning damage and frightened.
+> **Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](../condition/dazed.md), acid damage and [restrained](../condition/restrained.md), or lightning damage and [frightened](../condition/frightened.md).
 
 > ❗️ **Acquired Taste**
 >
@@ -17679,9 +17679,9 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a surge.
+> **Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a [surge](../rule/resource/surge.md).
 >
-> **Effect:** The butcher makes a free strike against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.
+> **Effect:** The butcher makes a [free strike](../feature/common/main-actions/free-strike.md) against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.
 
 > ⭐️ **Bloody Feast**
 >
@@ -17689,7 +17689,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 > ⭐️ **Relentless Hunger**
 >
-> The butcher dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina.
+> The butcher dies only if they are reduced to 0 [Stamina](../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../rule/health/stamina.md).
 
 ###### Troll Glutton {data-scc="mcdm.monsters.v1/monster.trolls.statblock/troll-glutton"}
 
@@ -17699,7 +17699,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition   |       **+1**<br>Presence        |
 
-> 🗡 **Voracious Mastication (Signature Ability)**
+> 🗡 **Voracious Mastication ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -17708,18 +17708,18 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 2 slowed (save ends)
-> - **17+:** 18 damage; M < 3 slowed (save ends)
+> - **12-16:** 15 damage; M < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 18 damage; M < 3 [slowed](../condition/slowed.md) (save ends)
 >
-> **1 Malice:** The glutton regains Stamina equal to the damage dealt.
+> **1 [Malice](../rule/monster/malice.md):** The glutton regains [Stamina](../rule/health/stamina.md) equal to the damage dealt.
 
-> 👤 **Crash Through (3 Malice)**
+> 👤 **Crash Through (3 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** The glutton shifts up to their speed in a straight line, ignoring difficult terrain. The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall prone instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature prone or destroy the object, the glutton's movement ends and they are dazed until the end of their next turn.
+> **Effect:** The glutton [shifts](../movement/shifting.md) up to their speed in a straight line, ignoring [difficult terrain](../movement/difficult-terrain.md). The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall [prone](../condition/prone.md) instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature [prone](../condition/prone.md) or destroy the object, the glutton's movement ends and they are [dazed](../condition/dazed.md) until the end of their next turn.
 
 > 👤 **Food Frenzy**
 >
@@ -17729,23 +17729,23 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 >
 > **Effect:** Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge.
 
-> ❗️ **Spiteful Retort (1 Malice)**
+> ❗️ **Spiteful Retort (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee**      |      **Free triggered action** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
-> **Trigger:** The glutton is reduced to 0 Stamina but doesn't die.
+> **Trigger:** The glutton is reduced to 0 [Stamina](../rule/health/stamina.md) but doesn't die.
 >
-> **Effect:** The glutton uses Voracious Mastication against an adjacent creature.
+> **Effect:** The glutton uses Voracious Mastication against an [adjacent](../rule/combat/adjacent.md) creature.
 
 > ⭐️ **Insatiable Appetite**
 >
-> Once per turn, the glutton can use the Charge main actionas a free maneuver if they target a winded creature.
+> Once per turn, the glutton can use the Charge main action as a free maneuver if they target a [winded](../rule/health/winded.md) creature.
 
 > ⭐️ **Relentless Hunger**
 >
-> The glutton dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina.
+> The glutton dies only if they are reduced to 0 [Stamina](../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../rule/health/stamina.md).
 
 ###### Troll Crack Trooper {data-scc="mcdm.monsters.v1/monster.trolls.statblock/troll-crack-trooper"}
 
@@ -17755,7 +17755,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to Stamina**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |           **0**<br>Intuition            |       **+2**<br>Presence        |
 
-> 🗡 **Charging Chomp (Signature Ability)**
+> 🗡 **Charging Chomp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -17763,15 +17763,15 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 7 damage; push 3; A < 3 3 damage
-> - **17+:** 9 damage; push 4; A < 4 5 damage
+> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 7 damage; [push](../movement/forced-movement.md) 3; A < 3 3 damage
+> - **17+:** 9 damage; [push](../movement/forced-movement.md) 4; A < 4 5 damage
 >
-> **Effect:** The crack trooper's squad's Stamina pool regains Stamina equal to half the damage dealt.
+> **Effect:** The crack trooper's [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
 > ⭐️ **Group Appetite**
 >
-> The crack trooper dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina.
+> The crack trooper dies only if their [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool is reduced to 0 [Stamina](../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../rule/health/stamina.md) in their [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool, or if they take acid or fire damage while their [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool is at 0 [Stamina](../rule/health/stamina.md).
 
 ###### Troll Ravager {data-scc="mcdm.monsters.v1/monster.trolls.statblock/troll-ravager"}
 
@@ -17781,7 +17781,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |       **+1**<br>Presence        |
 
-> 🗡 **Dine and Dash (Signature Ability)**
+> 🗡 **Dine and Dash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -17789,21 +17789,21 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 4 damage; the ravager can shift 1 square
-> - **12-16:** 6 damage; the ravager shifts up to 2 squares
-> - **17+:** 8 damage; the ravager shifts up to 3 squares
+> - **≤11:** 4 damage; the ravager can [shift](../movement/shifting.md) 1 square
+> - **12-16:** 6 damage; the ravager [shifts](../movement/shifting.md) up to 2 squares
+> - **17+:** 8 damage; the ravager [shifts](../movement/shifting.md) up to 3 squares
 >
-> **Effect:** The ravager's squad's Stamina pool regains Stamina equal to half the damage dealt.
+> **Effect:** The ravager's [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
 > ⭐️ **Group Appetite**
 >
-> The ravager dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina.
+> The ravager dies only if their [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool is reduced to 0 [Stamina](../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../rule/health/stamina.md) in their [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool, or if they take acid or fire damage while their [squad](../rule/monster/squad.md)'s [Stamina](../rule/health/stamina.md) pool is at 0 [Stamina](../rule/health/stamina.md).
 
 ## Undead {data-scc="mcdm.monsters.v1/monster.group/undead"}
 
-Some serve as mindless soldiers and workers under the control of a necromancer. Others rise when they die a bitter death in a place infused with cursed magic. For a few, it was a choice to become something beyond mortal. However they arose, all undead were once living creatures who now walk the land after death in defiance of the natural order.
+Some serve as mindless soldiers and workers under the control of a necromancer. Others rise when they die a bitter death in a place infused with cursed magic. For a few, it was a choice to become something beyond mortal. However they arose, all [undead](../monster/group/undead.md) were once living creatures who now walk the land after death in defiance of the natural order.
 
-Rotting zombies, seductive vampires, wailing wraiths, and more undead stalk the widespread horror stories nobles and commoners alike tell each another around low-burning hearths. Even the most isolated hermits know that the dead can rise, eager to kill. These popular tales fuel many people's fears of the undead. Mere rumors of a nearby ghoul pack can send an entire community into a panic. When open graves appear in the churchyard or a translucent spirit is spotted on the street, local leaders are quick to hire adventurers to deal with the threat.
+Rotting zombies, seductive vampires, wailing wraiths, and more [undead](../rule/keyword/undead.md) stalk the widespread horror stories nobles and commoners alike tell each another around low-burning hearths. Even the most isolated hermits know that the dead can rise, eager to kill. These popular tales fuel many people's fears of the undead. Mere rumors of a nearby ghoul pack can send an entire community into a panic. When open graves appear in the churchyard or a translucent spirit is spotted on the street, local leaders are quick to hire adventurers to deal with the threat.
 
 > **Content Warning: Body Horror**
 >
@@ -17862,7 +17862,7 @@ Undead are often encountered in groups that include more than just a single kind
 
 At their most innocuous, corporeal undead are a mockery of life, a body hoisted and dragged along by unnatural strings. At their worst, they are a violent scourge hungry for slaughter, and a perverse reflection of the mortal desire to exist for eternity. Ghouls, skeletons, soulwights, and zombies number among the lesser corporeal undead. Many lack a soul, and many can't think beyond the orders of their creators—unlike more powerful corporeal undead such as liches and vampires. Those who aren't controlled by others typically have a singular focus: the destruction of all living things.
 
-The magic that animates a corpse removes the need for air, sleep, and sustenance. This magic also halts decay, preserving the undead at the stage of deterioration before they were animated. While most corporeal undead are brought to unlife by a creator, tales abound of zombies suddenly rising from graveyards during rare astronomical occurrences, skeletal soldiers emerging from mass graves on the anniversary of their death, and other seemingly spontaneous acts of necromancy.
+The magic that animates a corpse removes the need for air, sleep, and sustenance. This magic also halts decay, preserving the [undead](../rule/keyword/undead.md) at the stage of deterioration before they were animated. While most corporeal undead are brought to unlife by a creator, tales abound of zombies suddenly rising from graveyards during rare astronomical occurrences, skeletal soldiers emerging from mass graves on the anniversary of their death, and other seemingly spontaneous acts of necromancy.
 
 ### Spectral Undead
 
@@ -17884,29 +17884,29 @@ It's rare you fight a single zombie. Low-level undead most often appear in huge 
 
 ###### Undead Malice (Level 1+ Malice Features) {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon/undead-malice-level-1-malice-features"}
 
-At the start of any undead's turn, you can spend Malice to activate one of the following features.
+At the start of any undead's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> 🌀 **Ravenous Horde (2 Malice)**
+> 🌀 **Ravenous Horde (2 [Malice](../rule/monster/malice.md))**
 >
-> At the end of this round, each hero not already adjacent to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is winded. This feature can't be used two rounds in a row.
+> At the end of this round, each hero not already [adjacent](../rule/combat/adjacent.md) to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is [winded](../rule/health/winded.md). This feature can't be used two rounds in a row.
 
-> 🌀 **Paranormal Fling (3 Malice)**
+> 🌀 **Paranormal Fling (3 [Malice](../rule/monster/malice.md))**
 >
-> Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.
+> Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then [pulled](../movement/forced-movement.md) 5 squares toward the nearest enemy within 3 squares of the object.
 
-> 🔳 **The Grasping, the Hungry (5 Malice)**
+> 🔳 **The Grasping, the Hungry (5 [Malice](../rule/monster/malice.md))**
 >
-> Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an **Agility test**.
+> Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn [adjacent](../rule/combat/adjacent.md) to an affected square makes an **Agility test**.
 >
-> - **≤11:** 5 damage; restrained (save ends)
-> - **12-16:** 5 damage; restrained (EoT)
+> - **≤11:** 5 damage; [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 5 damage; [restrained](../condition/restrained.md) (EoT)
 > - **17+:** 5 damage
 >
-> **Effect:** While restrained this way, a creature takes 1d6 damage at the start of each of their turns.
+> **Effect:** While [restrained](../condition/restrained.md) this way, a creature takes 1d6 damage at the start of each of their turns.
 
-> ⭐️ **Dread March (7+ Malice)**
+> ⭐️ **Dread March (7+ [Malice](../rule/monster/malice.md))**
 >
-> Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.
+> Up to four undead in the encounter move up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md). The number of undead affected increases by 1 for each additional [Malice](../rule/monster/malice.md) spent on this feature. If an undead is reduced to 0 [Stamina](../rule/health/stamina.md) during this dread march, they don't die until the march is resolved.
 
 ###### Crawling Claw {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/crawling-claw"}
 
@@ -17916,7 +17916,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might             |   **+2**<br>Agility   | **-5**<br>Reason |          **-1**<br>Intuition          |  **-1**<br>Presence   |
 
-> 🗡 **Fingernails (Signature Ability)**
+> 🗡 **Fingernails ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -17928,11 +17928,11 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** The crawling claw shifts up to a number of squares equal to the damage dealt.
+> **Effect:** The crawling claw [shifts](../movement/shifting.md) up to a number of squares equal to the damage dealt.
 
 > ⭐️ **Disorganized**
 >
-> Allies can't flank with the crawling claw.
+> Allies can't [flank](../rule/combat/flanking.md) with the crawling claw.
 
 ###### Decrepit Skeleton {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/decrepit-skeleton"}
 
@@ -17942,7 +17942,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **-2**<br>Reason |             **0**<br>Intuition              |  **-2**<br>Presence   |
 
-> 🏹 **Bone Bow (Signature Ability)**
+> 🏹 **Bone Bow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -17958,7 +17958,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Bonetrops**
 >
-> When the decrepit skeleton is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy enters this space, the take 1 damage and the effect end.
+> When the decrepit skeleton is reduced to 0 [Stamina](../rule/health/stamina.md), their space is [difficult terrain](../movement/difficult-terrain.md). The first time any enemy enters this space, the take 1 damage and the effect end.
 
 ###### Rotting Zombie {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/rotting-zombie"}
 
@@ -17968,7 +17968,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+2**<br>Might             | **-2**<br>Agility | **-5**<br>Reason |              **-2**<br>Intuition               |  **-3**<br>Presence   |
 
-> 🗡 **Rotting Fist (Signature Ability)**
+> 🗡 **Rotting Fist ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -17978,11 +17978,11 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 prone if size 1, or slowed (save ends) otherwise
+> - **17+:** 5 damage; M < 2 [prone](../condition/prone.md) if size 1, or [slowed](../condition/slowed.md) (save ends) otherwise
 
 > ⭐️ **Death Grasp**
 >
-> When the rotting zombie is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy who has M < 2 enters this space, they are slowed (save ends) and the effect ends.
+> When the rotting zombie is reduced to 0 [Stamina](../rule/health/stamina.md), their space is [difficult terrain](../movement/difficult-terrain.md). The first time any enemy who has M < 2 enters this space, they are [slowed](../condition/slowed.md) (save ends) and the effect ends.
 
 ###### Shade {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/shade"}
 
@@ -17992,7 +17992,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **-5**<br>Might             |     **+1**<br>Agility      | **0**<br>Reason  |          **0**<br>Intuition           |  **+2**<br>Presence   |
 
-> 🗡 **Life Drain (Signature Ability)**
+> 🗡 **Life Drain ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -18006,7 +18006,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Shadow Phasing**
 >
-> The shade can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the shade moves through a creature, that creature takes 1 corruption damage. The shade doesn't take damage from being force moved into objects.
+> The shade can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the shade moves through a creature, that creature takes 1 corruption damage. The shade doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Ghoul {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/ghoul"}
 
@@ -18016,7 +18016,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **-2**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> 🗡 **Razor Claws (Signature Ability)**
+> 🗡 **Razor Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -18026,7 +18026,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > - **≤11:** 3 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 bleeding (save ends)
+> - **17+:** 5 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
 
 > 👤 **Leap**
 >
@@ -18034,11 +18034,11 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul can make a free strike against them.
+> **Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](../condition/prone.md) and the ghoul can make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
 > ⭐️ **Arise**
 >
-> The first time the ghoul is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone.
+> The first time the ghoul is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 > ⭐️ **Hunger**
 >
@@ -18052,7 +18052,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> ⚔️ **Bone Shards (Signature Ability)**
+> ⚔️ **Bone Shards ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -18066,7 +18066,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > **Effect:** Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn.
 
-> ❇️ **Bone Spur (2 Malice)**
+> ❇️ **Bone Spur (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                  **Maneuver** |
 > |------------------|------------------------------:|
@@ -18074,15 +18074,15 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 damage; M < 0 bleeding (save ends)
-> - **12-16:** 2 damage; M < 1 bleeding (save ends)
-> - **17+:** 3 damage; M < 2 bleeding (save ends)
+> - **≤11:** 1 damage; M < 0 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 2 damage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 3 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
 > **Effect:** Each target takes a bane on their next strike.
 
 > ⭐️ **Arise**
 >
-> The first time the skeleton is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone.
+> The first time the skeleton is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 ###### Specter {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/specter"}
 
@@ -18092,7 +18092,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-5**<br>Might             |     **+1**<br>Agility      | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Decaying Touch (Signature Ability)**
+> 🗡 **Decaying Touch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Strike** |     **Main action** |
 > |--------------------------|--------------------:|
@@ -18100,11 +18100,11 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 corruption damage; P < 0 weakened (save ends)
-> - **12-16:** 4 corruption damage; P < 1 weakened (save ends)
-> - **17+:** 5 corruption damage; P < 2 weakened (save ends)
+> - **≤11:** 3 corruption damage; P < 0 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 4 corruption damage; P < 1 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 5 corruption damage; P < 2 [weakened](../condition/weakened.md) (save ends)
 >
-> **2 Malice:** The potency increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control.
+> **2 [Malice](../rule/monster/malice.md):** The [potency](../rule/character/potency.md) increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control.
 
 > 👤 **Hidden Movement**
 >
@@ -18116,7 +18116,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Corruptive Phasing**
 >
-> The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being force moved into objects.
+> The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Soulwight {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/soulwight"}
 
@@ -18126,7 +18126,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Soulstealer Longsword (Signature Ability)**
+> 🗡 **Soulstealer Longsword ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18135,22 +18135,22 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 4 corruption damage; M < 1 slowed (save ends)
-> - **17+:** 5 corruption damage; M < 2 slowed and weakened (save ends)
+> - **12-16:** 4 corruption damage; M < 1 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 5 corruption damage; M < 2 [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) (save ends)
 >
 > **Effect:** The target appears to rapidly age each time they take damage from this ability. The target regains their former appearance when the soulwight is destroyed.
 
-> 🏹 **Stolen Vitality (3 Malice)**
+> 🏹 **Stolen Vitality (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |    **Maneuver** |
 > |-------------------|----------------:|
 > | **📏 Ranged 5**   | **🎯 One ally** |
 >
-> **Effect:** The target regains 10 Stamina. The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
+> **Effect:** The target regains 10 [Stamina](../rule/health/stamina.md). The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
 
 > ⭐️ **Arise**
 >
-> The first time the soulwight is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone.
+> The first time the soulwight is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 ###### Umbral Stalker {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/umbral-stalker"}
 
@@ -18160,7 +18160,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Chilling Grasp (Signature Ability)**
+> 🗡 **Chilling Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Strike** |               **Main action** |
 > |--------------------------|------------------------------:|
@@ -18169,10 +18169,10 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 cold damage
-> - **12-16:** 6 cold damage; the stalker can shift 1 square
-> - **17+:** 7 cold damage; the stalker shifts up to 2 squares
+> - **12-16:** 6 cold damage; the stalker can [shift](../movement/shifting.md) 1 square
+> - **17+:** 7 cold damage; the stalker [shifts](../movement/shifting.md) up to 2 squares
 
-> 🔳 **Freezing Dark (3 Malice)**
+> 🔳 **Freezing Dark (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic**        |               **Main action** |
 > |------------------------|------------------------------:|
@@ -18184,19 +18184,19 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > - **12-16:** 3 cold damage
 > - **17+:** 4 cold damage
 >
-> **Effect:** Until the end of the stalker's next turn, the area provides concealment, and blocks line of effect for enemies.
+> **Effect:** Until the end of the stalker's next turn, the area provides concealment, and blocks [line of effect](../rule/combat/line-of-effect.md) for enemies.
 
-> 👤 **Shadow Jump (1 Malice)**
+> 👤 **Shadow Jump (1 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Free maneuver** |
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >
-> The umbral stalker teleports to an unoccupied space in an area of concealment within 10 squares.
+> The umbral stalker [teleports](../movement/teleport.md) to an unoccupied space in an area of concealment within 10 squares.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being force moved into objects.
+> The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Zombie {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/zombie"}
 
@@ -18206,7 +18206,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility | **-5**<br>Reason  |  **-2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Clobber and Clutch (Signature Ability)**
+> 🗡 **Clobber and Clutch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18216,27 +18216,27 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > - **≤11:** 4 damage
 > - **12-16:** 6 damage
-> - **17+:** 7 damage; grabbed
+> - **17+:** 7 damage; [grabbed](../condition/grabbed.md)
 >
-> **Effect:** A target who starts their turn grabbed by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.
+> **Effect:** A target who starts their turn [grabbed](../condition/grabbed.md) by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.
 
-> ❇️ **Zombie Dust (3 Malice)**
+> ❇️ **Zombie Dust (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The zombie falls prone, expelling a wave of rot and dust.
+> **Effect:** The zombie falls [prone](../condition/prone.md), expelling a wave of rot and dust.
 >
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 corruption damage
-> - **12-16:** 3 corruption damage; M < 1 weakened (save ends)
-> - **17+:** 4 corruption damage; M < 2 dazed (save ends)
+> - **12-16:** 3 corruption damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 4 corruption damage; M < 2 [dazed](../condition/dazed.md) (save ends)
 
 > ⭐️ **Endless Knight**
 >
-> The first time the zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone.
+> The first time the zombie is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 ###### Ghost {data-scc="mcdm.monsters.v1/monster.undead.1st-echelon.statblock/ghost"}
 
@@ -18246,7 +18246,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 | **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+2**<br>Agility      |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
-> 🏹 **Heat Death (Signature Ability)**
+> 🏹 **Heat Death ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |      **Main action** |
 > |---------------------------|---------------------:|
@@ -18254,9 +18254,9 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 cold damage; P < 1 slowed (save ends)
-> - **12-16:** 10 cold damage; P < 2 slowed (save ends)
-> - **17+:** 13 cold damage; P < 3 slowed (save ends)
+> - **≤11:** 7 cold damage; P < 1 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 10 cold damage; P < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 13 cold damage; P < 3 [slowed](../condition/slowed.md) (save ends)
 >
 > **Effect:** The next strike made against the target gains an edge.
 
@@ -18266,11 +18266,11 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > |-----------------|---------------------------------------------:|
 > | **📏 Ranged 8** | **🎯 Self or one ally with a Phasing trait** |
 >
-> **Effect:** The target shifts up to their speed.
+> **Effect:** The target [shifts](../movement/shifting.md) up to their speed.
 >
-> **2 Malice:** The ghost chooses one additional target.
+> **2 [Malice](../rule/monster/malice.md):** The ghost chooses one additional target.
 
-> ❗️ **Shriek (1 Malice)**
+> ❗️ **Shriek (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Melee** |           **Triggered action** |
 > |------------------|-------------------------------:|
@@ -18282,17 +18282,17 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Phantom Flow**
 >
-> Each undead with a Phasing trait within 10 squares of the ghost can't be made slowed or weakened.
+> Each undead with a Phasing trait within 10 squares of the ghost can't be made [slowed](../condition/slowed.md) or [weakened](../condition/weakened.md).
 
-> ☠️ **Paranormal Activity (Villain Action 1)**
+> ☠️ **Paranormal Activity ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                                            **-** |
 > |-----------------|-------------------------------------------------:|
 > | **📏 5 burst**  | **🎯 Each size 3 or smaller object in the area** |
 >
-> **Effect:** Each target rises 1 square into the air and is vertically pulled up to 5 squares toward the nearest enemy within 3 squares of the target.
+> **Effect:** Each target rises 1 square into the air and is vertically [pulled](../movement/forced-movement.md) up to 5 squares toward the nearest enemy within 3 squares of the target.
 
-> ☠️ **Spirited Away (Villain Action 2)**
+> ☠️ **Spirited Away ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -18304,9 +18304,9 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > - **12-16:** P < 2 the target is levitated (EoT)
 > - **17+:** P < 3 the target is levitated until the end of the encounter
 >
-> **Effect:** A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already fly, they can fly but are slowed and weakened while flying this way.
+> **Effect:** A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already [fly](../movement/fly.md), they can [fly](../movement/fly.md) but are [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) while flying this way.
 
-> ☠️ **Awful Wail (Villain Action 3)**
+> ☠️ **Awful Wail ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -18318,11 +18318,11 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > - **12-16:** 5 sonic damage
 > - **17+:** 8 sonic damage
 >
-> **Effect:** A target who has P < 2 is reduced to 1 Stamina if they are winded after taking this damage.
+> **Effect:** A target who has P < 2 is reduced to 1 [Stamina](../rule/health/stamina.md) if they are [winded](../rule/health/winded.md) after taking this damage.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The ghost can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the ghost moves through a creature, that creature takes 2 corruption damage. The ghost doesn't take damage from being force moved into objects.
+> The ghost can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the ghost moves through a creature, that creature takes 2 corruption damage. The ghost doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ### Undead-2nd Echelon
 
@@ -18340,21 +18340,21 @@ Though vampires are fundamentally changed from their living forms, they retain t
 
 #### Mournlings
 
-Powered by sorrow and rage, these hulking amalgamations of dirt or flesh defend the homes of their creators, brutally attacking intruders while sobbing uncontrollably. Mournlings express far more emotion than many other undead guardians, for their makers imbued them with sadness and loss. Though their druidic creators are long-dead, some original mournlings still defend forests, mead ows, and other natural places they were built to protect.
+Powered by sorrow and rage, these hulking amalgamations of dirt or flesh defend the homes of their creators, brutally attacking intruders while sobbing uncontrollably. [Mournlings](../monster/group/undead.md) express far more emotion than many other undead guardians, for their makers imbued them with sadness and loss. Though their druidic creators are long-dead, some original mournlings still defend forests, mead ows, and other natural places they were built to protect.
 
 Outside of battle, mournlings patrol for interlopers in a trance-like state. When an unknown creature creates a disturbance or approaches them, the mournling unleashes a primal cry that conveys the very essence of suffering, then bursts into violence. They continue to sob and moan even as they viciously beat their enemies to a pulp.
 
 ###### Undead Malice (Level 4+ Malice Features) {data-scc="mcdm.monsters.v1/monster.undead.2nd-echelon/undead-malice-level-4-malice-features"}
 
-At the start of any level 4 or higher undead's turn, you can spend Malice to activate one of the following features.
+At the start of any level 4 or higher undead's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (2-7+ Malice)**
+> ⭐️ **Prior Malice Features (2-7+ [Malice](../rule/monster/malice.md))**
 >
-> The undead activates a Malice feature available to undead of level 3 or lower.
+> The undead activates a [Malice](../rule/monster/malice.md) feature available to undead of level 3 or lower.
 
-> 🌀 **Blood Hunger (5 Malice)**
+> 🌀 **Blood Hunger (5 [Malice](../rule/monster/malice.md))**
 >
-> One undead acting this turn uses a signature ability against a creature who is bleeding. As a free triggered action, each undead within 5 squares of the first undead moves up to their speed and can make a free strike against the same target.
+> One undead acting this turn uses a [signature ability](../rule/combat/signature-ability.md) against a creature who is [bleeding](../condition/bleeding.md). As a free triggered action, each undead within 5 squares of the first undead moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) against the same target.
 
 ###### Fleshflayed Shambler Zombie {data-scc="mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/fleshflayed-shambler-zombie"}
 
@@ -18364,7 +18364,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Bone Carvers (Signature Ability)**
+> 🗡 **Bone Carvers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -18376,11 +18376,11 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** If this ability gains an edge or has a double edge, the target is bleeding (save ends).
+> **Effect:** If this ability gains an edge or has a double edge, the target is [bleeding](../condition/bleeding.md) (save ends).
 
 > ⭐️ **Fleshfused Spines**
 >
-> Any adjacent enemy who grabs the fleshflayed shambler or uses melee ability against them takes 2 damage.
+> Any [adjacent](../rule/combat/adjacent.md) enemy who [grabs](../condition/grabbed.md) the fleshflayed shambler or uses melee ability against them takes 2 damage.
 
 ###### Ghoul Craver {data-scc="mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/ghoul-craver"}
 
@@ -18390,7 +18390,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             |   **+2**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Taste (Signature Ability)**
+> 🗡 **Taste ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -18402,11 +18402,11 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > - **12-16:** 4 damage
 > - **17+:** 6 damage
 >
-> **Effect:** This ability has a double edge against a bleeding target.
+> **Effect:** This ability has a double edge against a [bleeding](../condition/bleeding.md) target.
 
 > ⭐️ **Ever So Hungry**
 >
-> Any enemy adjacent to three or more ghoul cravers can't shift.
+> Any enemy [adjacent](../rule/combat/adjacent.md) to three or more ghoul cravers can't [shift](../movement/shifting.md).
 
 > ⭐️ **Hunger**
 >
@@ -18420,7 +18420,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |            **-2**<br>Might             | **+3**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
-> 🏹 **Hollowbone Slug (Signature Ability)**
+> 🏹 **Hollowbone Slug ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -18430,13 +18430,13 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > - **≤11:** 3 damage
 > - **12-16:** 5 damage
-> - **17+:** 7 damage; M < 3 bleeding (save ends)
+> - **17+:** 7 damage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** Each creature adjacent to the target takes 2 damage.
+> **Effect:** Each creature [adjacent](../rule/combat/adjacent.md) to the target takes 2 damage.
 
 > ⭐️ **Brittle Revenge**
 >
-> The hollowbone launcher explodes when they are reduced to 0 Stamina, dealing 2 damage to each adjacent creature.
+> The hollowbone launcher explodes when they are reduced to 0 [Stamina](../rule/health/stamina.md), dealing 2 damage to each [adjacent](../rule/combat/adjacent.md) creature.
 
 ###### Flesh Mournling {data-scc="mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/flesh-mournling"}
 
@@ -18446,7 +18446,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Multiarm Strike (Signature Ability)**
+> 🗡 **Multiarm Strike ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18458,9 +18458,9 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > - **12-16:** 7 damage
 > - **17+:** 9 damage
 >
-> **Effect:** The target can't shift until the end of their next turn.
+> **Effect:** The target can't [shift](../movement/shifting.md) until the end of their next turn.
 >
-> **1 Malice:** This ability targets one additional target.
+> **1 [Malice](../rule/monster/malice.md):** This ability targets one additional target.
 
 > ❇️ **Horrid Wail**
 >
@@ -18471,14 +18471,14 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > **Power Roll + 3:**
 >
 > - **≤11:** 2 psychic damage
-> - **12-16:** 3 psychic damage; I < 2 frightened (save ends)
-> - **17+:** 4 psychic damage; I < 3 frightened (save ends)
+> - **12-16:** 3 psychic damage; I < 2 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 4 psychic damage; I < 3 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** A target who is still frightened this way at the end of the encounter can't take a respite activity during their next respite.
+> **Effect:** A target who is still [frightened](../condition/frightened.md) this way at the end of the encounter can't take a respite activity during their next respite.
 
 > ⭐️ **Arise**
 >
-> The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone.
+> The first time the mournling is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 > ⭐️ **Immutable Form**
 >
@@ -18492,7 +18492,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Rotten Smash (Signature Ability)**
+> 🗡 **Rotten Smash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -18501,22 +18501,22 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; A < 2 grabbed
-> - **17+:** 17 damage; A < 3 grabbed
+> - **12-16:** 14 damage; A < 2 [grabbed](../condition/grabbed.md)
+> - **17+:** 17 damage; A < 3 [grabbed](../condition/grabbed.md)
 
-> ❗️ **Knocking Heads (1 Malice)**
+> ❗️ **Knocking Heads (1 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       |   **Triggered action** |
 > |-------------|-----------------------:|
 > | **📏 Self** | **🎯 Self; see below** |
 >
-> **Trigger:** The giant zombie grabs two creatures or objects, or starts their turn with two creatures or objects grabbed.
+> **Trigger:** The giant zombie [grabs](../condition/grabbed.md) two creatures or objects, or starts their turn with two creatures or objects [grabbed](../condition/grabbed.md).
 >
 > **Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge.
 
 > ⭐️ **Endless Knight**
 >
-> The first time the giant zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 Stamina and fall prone.
+> The first time the giant zombie is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 > ⭐️ **Negative Nerves**
 >
@@ -18530,7 +18530,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **Fire 5**<br>Weakness  |
 |            **+3**<br>Might             | **-1**<br>Agility | **+1**<br>Reason  |  **+3**<br>Intuition  |    **0**<br>Presence     |
 
-> 🗡 **Accursed Bindings (Signature Ability)**
+> 🗡 **Accursed Bindings ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18538,13 +18538,13 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 corruption damage; pull 1
-> - **12-16:** 8 corruption damage; pull 2
-> - **17+:** 10 corruption damage; pull 2; M < 3 restrained (save ends)
+> - **≤11:** 6 corruption damage; [pull](../movement/forced-movement.md) 1
+> - **12-16:** 8 corruption damage; [pull](../movement/forced-movement.md) 2
+> - **17+:** 10 corruption damage; [pull](../movement/forced-movement.md) 2; M < 3 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** The next ability the mummy uses against the target has any potency increased by 1 for the target.
+> **Effect:** The next ability the mummy uses against the target has any [potency](../rule/character/potency.md) increased by 1 for the target.
 
-> 🏹 **Eldritch Curse (3 Malice)**
+> 🏹 **Eldritch Curse (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |     **Main action** |
 > |-------------------|--------------------:|
@@ -18556,15 +18556,15 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > - **12-16:** 5 corruption damage; I < 2 the target is cursed (save ends)
 > - **17+:** 7 corruption damage; I < 3 the target is cursed (save ends)
 >
-> **Effect:** A cursed target is bleeding and weakened, and allies gain an edge on strikes made against them.
+> **Effect:** A cursed target is [bleeding](../condition/bleeding.md) and [weakened](../condition/weakened.md), and allies gain an edge on strikes made against them.
 
-> ❗️ **Blast of Mummy Dust (1 Malice)**
+> ❗️ **Blast of Mummy Dust (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |           **Triggered action** |
 > |----------------|-------------------------------:|
 > | **📏 1 burst** | **🎯 The triggering creature** |
 >
-> **Trigger:** The mummy comes within distance of a restrained creature or starts their turn within distance of one.
+> **Trigger:** The mummy comes within distance of a [restrained](../condition/restrained.md) creature or starts their turn within distance of one.
 >
 > **Effect:** The target takes 8 poison damage.
 
@@ -18576,7 +18576,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             |   **+3**<br>Agility   | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Exsanguinating Bite (Signature Ability)**
+> 🗡 **Exsanguinating Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18585,12 +18585,12 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 7 corruption damage; M < 2 bleeding (save ends)
-> - **17+:** 9 corruption damage; M < 3 bleeding (save ends)
+> - **12-16:** 7 corruption damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 9 corruption damage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** The vampire spawn regains Stamina equal to any corruption damage dealt.
+> **Effect:** The vampire spawn regains [Stamina](../rule/health/stamina.md) equal to any corruption damage dealt.
 >
-> **1 Malice:** The target takes an additional 3 corruption damage.
+> **1 [Malice](../rule/monster/malice.md):** The target takes an additional 3 corruption damage.
 
 > 👤 **Vampiric Celerity**
 >
@@ -18598,11 +18598,11 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The vampire spawn can shift 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.
+> **Effect:** The vampire spawn can [shift](../movement/shifting.md) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The vampire spawn has speed 10 while any creature within 10 squares of them is bleeding. The vampire spawn must use Exsanguinating Bite against a bleeding creature on their turn if they are able to.
+> The vampire spawn has speed 10 while any creature within 10 squares of them is [bleeding](../condition/bleeding.md). The vampire spawn must use Exsanguinating Bite against a [bleeding](../condition/bleeding.md) creature on their turn if they are able to.
 
 ###### Wraith {data-scc="mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/wraith"}
 
@@ -18612,7 +18612,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 4, poison 4**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+2**<br>Agility      | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🗡 **Chilling Gravetouch (Signature Ability)**
+> 🗡 **Chilling Gravetouch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Strike, Weapon** |               **Main action** |
 > |----------------------------------|------------------------------:|
@@ -18620,9 +18620,9 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 cold damage; P < 1 slowed (save ends)
-> - **12-16:** 7 cold damage; P < 2 slowed (save ends)
-> - **17+:** 9 cold damage; P < 3 slowed (save ends)
+> - **≤11:** 5 cold damage; P < 1 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 7 cold damage; P < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 9 cold damage; P < 3 [slowed](../condition/slowed.md) (save ends)
 >
 > **Effect:** Any living creature who dies from this damage rises at the start of the next round as a ghoul craver under the Director's control.
 
@@ -18634,19 +18634,19 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Effect:** The wraith turns invisible, moves up to their speed, and is visible again.
 
-> ❗️ **Stolen Vitality (1 Malice)**
+> ❗️ **Stolen Vitality (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |      **Free triggered action** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
-> **Trigger:** An enemy within distance regains Stamina.
+> **Trigger:** An enemy within distance regains [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The target regains only half the Stamina, and the wraith regains the remaining Stamina.
+> **Effect:** The target regains only half the [Stamina](../rule/health/stamina.md), and the wraith regains the remaining [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Agonizing Phasing**
 >
-> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects.
+> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Mummy Lord {data-scc="mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/mummy-lord"}
 
@@ -18656,7 +18656,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 | **Corruption 6, poison 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **Fire 5**<br>Weakness  |
 |            **+4**<br>Might             | **0**<br>Agility  |  **+2**<br>Reason  |  **+4**<br>Intuition  |    **+2**<br>Presence    |
 
-> 🗡 **Accursed Slam (Signature Ability)**
+> 🗡 **Accursed Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -18664,13 +18664,13 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 10 corruption damage; I < 2 bleeding (save ends)
-> - **12-16:** 14 corruption damage; I < 3 bleeding (save ends)
-> - **17+:** 17 corruption damage; I < 4 bleeding (save ends)
+> - **≤11:** 10 corruption damage; I < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 14 corruption damage; I < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 17 corruption damage; I < 4 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** While the target is bleeding this way, the potency of any ability used against them increases by 1 for the target.
+> **Effect:** While the target is [bleeding](../condition/bleeding.md) this way, the [potency](../rule/character/potency.md) of any ability used against them increases by 1 for the target.
 
-> 🏹 **Binding Curse (1 Malice)**
+> 🏹 **Binding Curse (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |     **Main action** |
 > |-------------------|--------------------:|
@@ -18678,31 +18678,31 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 corruption damage; I < 2 frightened (save ends)
-> - **12-16:** 12 corruption damage; I < 3 frightened (save ends)
-> - **17+:** 16 corruption damage; I < 4 frightened (save ends)
+> - **≤11:** 7 corruption damage; I < 2 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 12 corruption damage; I < 3 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 16 corruption damage; I < 4 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** While frightened this way, a target takes 4 psychic damage whenever they use a move action.
+> **Effect:** While [frightened](../condition/frightened.md) this way, a target takes 4 psychic damage whenever they use a move action.
 >
-> **2+ Malice:** This ability targets one additional target for each 2 Malice spent.
+> **2+ [Malice](../rule/monster/malice.md):** This ability targets one additional target for each 2 [Malice](../rule/monster/malice.md) spent.
 
-> ❗️ **Summon My Guard (2 Malice)**
+> ❗️ **Summon My Guard (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged**       | **Triggered action** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |       **🎯 Special** |
 >
-> **Trigger:** The mummy lord is made winded for the first time in the encounter.
+> **Trigger:** The mummy lord is made [winded](../rule/health/winded.md) for the first time in the encounter.
 >
 > **Effect:** One mummy or four ghoul cravers appear within distance.
 
 > ⭐️ **Cursed Transference**
 >
-> At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
-> **5 Malice:** The effect that is ended is transferred to another creature within 10 squares.
+> **5 [Malice](../rule/monster/malice.md):** The effect that is ended is transferred to another creature within 10 squares.
 
-> ☠️ **Plague of Flies (Villain Action 1)**
+> ☠️ **Plague of Flies ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -18716,7 +18716,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Effect:** Each target takes a bane on their next strike.
 
-> ☠️ **Land's Guardian (Villain Action 2)**
+> ☠️ **Land's Guardian ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
@@ -18724,11 +18724,11 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Effect:** The mummy lord gains a +2 bonus to speed and can automatically burrow at full speed while moving. They can then use the Dig maneuver. The next time the mummy lord breaches the surface, each enemy within 2 squares of the mummy lord makes an **Agility test**.
 >
-> - **≤11:** Prone and can't stand (EoT)
-> - **12-16:** Prone
+> - **≤11:** [Prone](../condition/prone.md) and can't stand (EoT)
+> - **12-16:** [Prone](../condition/prone.md)
 > - **17+:** No effect
 
-> ☠️ **Unbound Horrors (Villain Action 3)**
+> ☠️ **Unbound Horrors ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -18736,9 +18736,9 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 5 corruption damage; I < 2 frightened (save ends)
-> - **12-16:** 8 corruption damage; I < 3 frightened (save ends)
-> - **17+:** 10 corruption damage; I < 4 frightened and restrained (save ends)
+> - **≤11:** 5 corruption damage; I < 2 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 8 corruption damage; I < 3 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 10 corruption damage; I < 4 [frightened](../condition/frightened.md) and [restrained](../condition/restrained.md) (save ends)
 
 ### Undead-3rd Echelon
 
@@ -18764,15 +18764,15 @@ The term "vampire lord" thus refers not to a specific age or threshold of physic
 
 ###### Undead Malice (Level 7+ Malice Features) {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon/undead-malice-level-7-malice-features"}
 
-At the start of any level 7 or higher undead's turn, you can spend Malice to activate one of the following features.
+At the start of any level 7 or higher undead's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (2-7+ Malice)**
+> ⭐️ **Prior Malice Features (2-7+ [Malice](../rule/monster/malice.md))**
 >
-> The undead activates a Malice feature available to undead of level 6 or lower.
+> The undead activates a [Malice](../rule/monster/malice.md) feature available to undead of level 6 or lower.
 
-> 🌀 **Necrotic Rupture (5 Malice)**
+> 🌀 **Necrotic Rupture (5 [Malice](../rule/monster/malice.md))**
 >
-> Until the end of the round, whenever an undead is reduced to 0 Stamina, they deal 8 corruption damage to each enemy within 3 squares of them.
+> Until the end of the round, whenever an undead is reduced to 0 [Stamina](../rule/health/stamina.md), they deal 8 corruption damage to each enemy within 3 squares of them.
 
 ###### Blood-Starved Vampire {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/blood-starved-vampire"}
 
@@ -18782,7 +18782,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+1**<br>Agility   | **-3**<br>Reason  |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
-> 🗡 **Feeding Frenzy (Signature Ability)**
+> 🗡 **Feeding Frenzy ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -18792,13 +18792,13 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
-> - **17+:** 7 damage; M < 4 bleeding (EoT)
+> - **17+:** 7 damage; M < 4 [bleeding](../condition/bleeding.md) (EoT)
 >
-> **Effect:** If a target made bleeding this way is already bleeding, they are instead knocked prone and can't stand until the end of their next turn.
+> **Effect:** If a target made [bleeding](../condition/bleeding.md) this way is already [bleeding](../condition/bleeding.md), they are instead knocked [prone](../condition/prone.md) and can't stand until the end of their next turn.
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The blood-starved vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must use Feeding Frenzy against a bleeding creature on their turn if they are able to.
+> The blood-starved vampire has speed 10 while any creature within 10 squares of them is [bleeding](../condition/bleeding.md). The vampire must use Feeding Frenzy against a [bleeding](../condition/bleeding.md) creature on their turn if they are able to.
 
 ###### Faded Echo Spirit {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/faded-echo-spirit"}
 
@@ -18808,7 +18808,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **-3**<br>Might             |     **+4**<br>Agility      | **-5**<br>Reason  |             **+1**<br>Intuition             |  **-3**<br>Presence   |
 
-> 🗡 **Hollow Grasp (Signature Ability)**
+> 🗡 **Hollow Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -18817,14 +18817,14 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 6 corruption damage; P < 3 weakened
-> - **17+:** 7 corruption damage; P < 4 weakened
+> - **12-16:** 6 corruption damage; P < 3 [weakened](../condition/weakened.md)
+> - **17+:** 7 corruption damage; P < 4 [weakened](../condition/weakened.md)
 >
-> **Effect:** This weakened condition ends if an affected target ends their turn with no spirit within 5 squares of them.
+> **Effect:** This [weakened](../condition/weakened.md) condition ends if an affected target ends their turn with no spirit within 5 squares of them.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects.
+> The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Mummy Rotwrap {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/mummy-rotwrap"}
 
@@ -18834,7 +18834,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to melee distance**<br>With Captain |  **Fire 5**<br>Weakness  |
 |            **+4**<br>Might             | **-2**<br>Agility | **-2**<br>Reason  |              **+1**<br>Intuition               |    **-2**<br>Presence    |
 
-> 🗡 **Fetid Wrappings (Signature Ability)**
+> 🗡 **Fetid Wrappings ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -18843,10 +18843,10 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; pull 1
-> - **17+:** 8 damage; pull 3
+> - **12-16:** 7 damage; [pull](../movement/forced-movement.md) 1
+> - **17+:** 8 damage; [pull](../movement/forced-movement.md) 3
 >
-> **Effect:** Each ally gains an edge on strikes made against the target until the end of the round.
+> **Effect:** Each ally gains an [edge](../rule/dice/edge.md) on [strikes](../rule/combat/strike.md) made against the target until the end of the round.
 
 ###### Dirt Mournling {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/dirt-mournling"}
 
@@ -18856,7 +18856,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **Burrow, climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             |       **+1**<br>Agility       | **-2**<br>Reason  |  **+1**<br>Intuition  |  **-3**<br>Presence  |
 
-> 🗡 **Mudslide (Signature Ability)**
+> 🗡 **Mudslide ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18864,13 +18864,13 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; M < 3 grabbed
-> - **12-16:** 10 damage; M < 4 grabbed
-> - **17+:** 11 damage; grabbed
+> - **≤11:** 7 damage; M < 3 [grabbed](../condition/grabbed.md)
+> - **12-16:** 10 damage; M < 4 [grabbed](../condition/grabbed.md)
+> - **17+:** 11 damage; [grabbed](../condition/grabbed.md)
 >
-> **Effect:** A 3-cube area of ground centered on the target is difficult terrain for enemies.
+> **Effect:** A 3-[cube](../rule/combat/cube.md) area of ground centered on the target is [difficult terrain](../movement/difficult-terrain.md) for enemies.
 
-> ❇️ **Mourning Cry (3 Malice)**
+> ❇️ **Mourning Cry (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -18878,15 +18878,15 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 corruption damage; I < 2 frightened (save ends)
-> - **12-16:** 6 corruption damage; I < 3 frightened (save ends)
-> - **17+:** 7 corruption damage; I < 4 frightened (save ends)
+> - **≤11:** 3 corruption damage; I < 2 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 6 corruption damage; I < 3 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 7 corruption damage; I < 4 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed.
+> **Effect:** A target [frightened](../condition/frightened.md) this way is [frightened](../condition/frightened.md) of all [undead](../rule/keyword/undead.md). This effect ends early if the mournling is destroyed.
 
 > ⭐️ **Arise**
 >
-> The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 15 Stamina and fall prone.
+> The first time the mournling is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 15 [Stamina](../rule/health/stamina.md) and fall [prone](../condition/prone.md).
 
 > ⭐️ **Immutable Form**
 >
@@ -18894,7 +18894,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 
 > ⭐️ **Rupture**
 >
-> Whenever the mournling uses the Dig maneuver to breach the surface, they make a free strike against each adjacent enemy.
+> Whenever the mournling uses the Dig maneuver to breach the surface, they make a [free strike](../feature/common/main-actions/free-strike.md) against each [adjacent](../rule/combat/adjacent.md) enemy.
 
 ###### Haunt {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/haunt"}
 
@@ -18904,7 +18904,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+4**<br>Agility      | **-1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Lash Out (Signature Ability)**
+> 🗡 **Lash Out ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18912,13 +18912,13 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; slide 2
-> - **12-16:** 10 damage; slide 3
-> - **17+:** 11 damage; slide 5
+> - **≤11:** 7 damage; [slide](../movement/forced-movement.md) 2
+> - **12-16:** 10 damage; [slide](../movement/forced-movement.md) 3
+> - **17+:** 11 damage; [slide](../movement/forced-movement.md) 5
 >
-> **Effect:** If the target is force moved into another creature's space, that creature takes an additional 4 damage and the haunt slides them up to 2 squares.
+> **Effect:** If the target is [force moved](../movement/forced-movement.md) into another creature's space, that creature takes an additional 4 damage and the haunt [slides](../movement/forced-movement.md) them up to 2 squares.
 
-> ❇️ **Crushing Despair (3 Malice)**
+> ❇️ **Crushing Despair (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -18926,15 +18926,15 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; I < 2 prone
-> - **12-16:** 6 damage; I < 3 prone
-> - **17+:** 7 damage; I < 4 prone
+> - **≤11:** 3 damage; I < 2 [prone](../condition/prone.md)
+> - **12-16:** 6 damage; I < 3 [prone](../condition/prone.md)
+> - **17+:** 7 damage; I < 4 [prone](../condition/prone.md)
 >
-> **Effect:** A target knocked prone this way can't use the Stand Up maneuver on themself while any haunt is within 20 squares of them.
+> **Effect:** A target knocked [prone](../condition/prone.md) this way can't use the [Stand Up](../feature/common/maneuvers/stand-up.md) maneuver on themself while any haunt is within 20 squares of them.
 
 > ⭐️ **Invisible Horror**
 >
-> The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being force moved into objects.
+> The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Koptourok {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/koptourok"}
 
@@ -18944,7 +18944,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Choking Grasp (Signature Ability)**
+> 🗡 **Choking Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -18952,13 +18952,13 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; M < 2 grabbed
-> - **12-16:** 10 damage; M < 3 grabbed
-> - **17+:** 11 damage; M < 4 grabbed
+> - **≤11:** 7 damage; M < 2 [grabbed](../condition/grabbed.md)
+> - **12-16:** 10 damage; M < 3 [grabbed](../condition/grabbed.md)
+> - **17+:** 11 damage; M < 4 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** A creature grabbed this way is suffocating. The koptourok can have up to two creatures grabbed at once.
+> **Effect:** A creature [grabbed](../condition/grabbed.md) this way is [suffocating](../rule/health/suffocating.md). The koptourok can have up to two creatures [grabbed](../condition/grabbed.md) at once.
 
-> ❇️ **Inhale (3 Malice)**
+> ❇️ **Inhale (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -18966,15 +18966,15 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Pull 3; M < 2 5 corruption damage
-> - **12-16:** Pull 5; M < 3 5 corruption damage
-> - **17+:** Pull 7; M < 4 5 corruption damage
+> - **≤11:** [Pull](../movement/forced-movement.md) 3; M < 2 5 corruption damage
+> - **12-16:** [Pull](../movement/forced-movement.md) 5; M < 3 5 corruption damage
+> - **17+:** [Pull](../movement/forced-movement.md) 7; M < 4 5 corruption damage
 >
-> **Effect:** This ability gains an edge against any target grabbed by the koptourok. If one or more targets are pulled adjacent to the koptourok, the koptourok can fly until the end of the encounter.
+> **Effect:** This ability gains an [edge](../rule/dice/edge.md) against any target [grabbed](../condition/grabbed.md) by the koptourok. If one or more targets are pulled [adjacent](../rule/combat/adjacent.md) to the koptourok, the koptourok can [fly](../movement/fly.md) until the end of the encounter.
 
 > ⭐️ **Exhale**
 >
-> The first time the koptourok is made winded by damage that isn't fire damage or holy damage, each enemy within 3 squares of them takes 8 corruption damage. Any enemy who takes this damage and has M < 3 is also weakened (save ends)
+> The first time the koptourok is made [winded](../rule/health/winded.md) by damage that isn't fire damage or holy damage, each enemy within 3 squares of them takes 8 corruption damage. Any enemy who takes this damage and has M < 3 is also [weakened](../condition/weakened.md) (save ends)
 
 ###### Waxen {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/waxen"}
 
@@ -18984,7 +18984,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             | **-2**<br>Agility | **-4**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
 
-> 🏹 **Wax Fling (Signature Ability)**
+> 🏹 **Wax Fling ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -18994,27 +18994,27 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > - **≤11:** 8 damage
 > - **12-16:** 11 damage
-> - **17+:** 12 damage; A < 4 slowed (save ends)
+> - **17+:** 12 damage; A < 4 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** If a target made slowed this way is already slowed, they are instead restrained (save ends).
+> **Effect:** If a target made [slowed](../condition/slowed.md) this way is already [slowed](../condition/slowed.md), they are instead [restrained](../condition/restrained.md) (save ends).
 
-> ❇️ **Erupt (3 Malice)**
+> ❇️ **Erupt (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** If the waxen is ignited (see Burn Bright), they shift up to their speed before using this ability. Each target makes an **Agility test**.
+> **Effect:** If the waxen is ignited (see Burn Bright), they [shift](../movement/shifting.md) up to their speed before using this ability. Each target makes an **Agility test**.
 >
 > - **≤11:** 10 damage
 > - **12-16:** 8 damage
 > - **17+:** 5 damage
 >
-> The waxen is then destroyed and the area is difficult terrain for enemies.
+> The waxen is then destroyed and the area is [difficult terrain](../movement/difficult-terrain.md) for enemies.
 
 > ⭐️ **Burn Bright**
 >
-> If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damage.
+> If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their [strikes](../rule/combat/strike.md) deal an extra 4 fire damage.
 
 ###### Vampire {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/vampire"}
 
@@ -19024,7 +19024,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+2**<br>Agility   | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Exsanguinating Bite (Signature Ability)**
+> 🗡 **Exsanguinating Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -19032,13 +19032,13 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; M < 2 bleeding (save ends)
-> - **12-16:** 10 corruption damage; M < 3 5 corruption damage and bleeding (save ends)
-> - **17+:** 11 corruption damage; M < 4 7 corruption damage and bleeding (save ends)
+> - **≤11:** 7 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 10 corruption damage; M < 3 5 corruption damage and [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 11 corruption damage; M < 4 7 corruption damage and [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** The vampire regains Stamina equal to any corruption damage dealt.
+> **Effect:** The vampire regains [Stamina](../rule/health/stamina.md) equal to any corruption damage dealt.
 
-> 🗡 **Vicious Pursuit (3 Malice)**
+> 🗡 **Vicious Pursuit (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -19046,25 +19046,25 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; A < 2 slowed (save ends)
-> - **12-16:** 10 damage; A < 3 slowed (save ends)
-> - **17+:** 11 damage; A < 4 slowed (save ends)
+> - **≤11:** 7 damage; A < 2 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 10 damage; A < 3 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 11 damage; A < 4 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** If the target is bleeding, the vampire shifts up to their speed before using this ability.
+> **Effect:** If the target is [bleeding](../condition/bleeding.md), the vampire [shifts](../movement/shifting.md) up to their speed before using this ability.
 
-> ❗️ **Reactive Charm (2 Malice)**
+> ❗️ **Reactive Charm (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Triggered action** |
+> | **Magic, Ranged** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Ranged 5**   |     **🎯 One enemy** |
 >
-> **Trigger:** A creature makes a strike against the vampire.
+> **Trigger:** A creature makes a [strike](../rule/combat/strike.md) against the vampire.
 >
-> **Effect:** The target becomes the new target of the strike.
+> **Effect:** The target becomes the new target of the [strike](../rule/combat/strike.md).
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must make a strike against a bleeding creature on their turn if they are able to.
+> The vampire has speed 10 while any creature within 10 squares of them is [bleeding](../condition/bleeding.md). The vampire must make a [strike](../rule/combat/strike.md) against a [bleeding](../condition/bleeding.md) creature on their turn if they are able to.
 
 ###### Vampire Lord {data-scc="mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/vampire-lord"}
 
@@ -19074,7 +19074,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 | **Corruption 9, poison 9**<br>Immunity | **Climb, hover, teleport**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             |           **+5**<br>Agility            |  **+1**<br>Reason   |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Crimson Embrace (Signature Ability)**
+> 🗡 **Crimson Embrace ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -19082,15 +19082,15 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 corruption damage; M < 3 bleeding (save ends)
-> - **12-16:** 21 corruption damage; M < 4 bleeding (save ends)
-> - **17+:** 24 corruption damage; M < 5 bleeding (save ends)
+> - **≤11:** 13 corruption damage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 21 corruption damage; M < 4 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 24 corruption damage; M < 5 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw.
+> **Effect:** The vampire regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt, and can end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md).
 >
-> **2+ Malice:** The vampire shifts 3 after striking the last target, and can target one additional creature for every 2 malice spent.
+> **2+ [Malice](../rule/monster/malice.md):** The vampire [shifts](../movement/shifting.md) 3 after striking the last target, and can target one additional creature for every 2 malice spent.
 
-> 🏹 **Arise, My Children (2 Malice)**
+> 🏹 **Arise, My Children (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
@@ -19098,29 +19098,29 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Effect:** Two blood-starved vampires appear in unoccupied spaces within distance.
 
-> ❗️ **Redirected Charm (3 Malice)**
+> ❗️ **Redirected Charm (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Free triggered action** |
+> | **Magic, Ranged** | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|--------------------------:|
 > | **📏 Ranged 5**   |          **🎯 One enemy** |
 >
-> **Trigger:** A creature makes a strike against the vampire.
+> **Trigger:** A creature makes a [strike](../rule/combat/strike.md) against the vampire.
 >
-> **Effect:** The target becomes the new target of the strike.
+> **Effect:** The target becomes the new target of the [strike](../rule/combat/strike.md).
 
 > ⭐️ **Lord's Bloodthirst**
 >
-> The vampire has speed 15 and an edge on power rolls while any creature within 20 squares of them is bleeding. Any bleeding creature within 5 squares of the vampire can't hide.
+> The vampire has speed 15 and an [edge](../rule/dice/edge.md) on power rolls while any creature within 20 squares of them is [bleeding](../condition/bleeding.md). Any [bleeding](../condition/bleeding.md) creature within 5 squares of the vampire can't hide.
 
-> ☠️ **Let Us Feast! (Villain Action 1)**
+> ☠️ **Let Us Feast! ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Ranged**      |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 20 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target who has P < 4 is now bleeding (save ends).
+> **Effect:** Each target who has P < 4 is now [bleeding](../condition/bleeding.md) (save ends).
 
-> ☠️ **Red Mist Rising (Villain Action 2)**
+> ☠️ **Red Mist Rising ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -19134,7 +19134,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Effect:** The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round.
 
-> ☠️ **Sacrifice (Villain Action 3)**
+> ☠️ **Sacrifice ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Magic, Ranged** |                   **-** |
 > |-------------------|------------------------:|
@@ -19148,7 +19148,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > |-----------------|------------------------------:|
 > | **📏 20 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action.
+> **Effect:** Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice [villain action](../rule/monster/villain-action.md).
 >
 > - **≤11:** 11 corruption damage
 > - **12-16:** 8 corruption damage
@@ -19162,11 +19162,11 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 >
 > **Creature of the Night**
 >
-> If the vampire starts their turn in concealment created by darkness, they regain Stamina equal to one-quarter of their Stamina maximum.
+> If the vampire starts their turn in [concealment](../rule/combat/concealment.md) created by darkness, they regain [Stamina](../rule/health/stamina.md) equal to one-quarter of their [Stamina](../rule/health/stamina.md) maximum.
 >
 > **Curse of Day**
 >
-> If the vampire is exposed to direct sunlight, they have damage weakness 5 until they start their turn in concealment created by darkness.
+> If the vampire is exposed to direct sunlight, they have [damage weakness](../rule/damage/damage-weakness.md) 5 until they start their turn in [concealment](../rule/combat/concealment.md) created by darkness.
 
 ### Undead-4th Echelon
 
@@ -19182,23 +19182,23 @@ Every mage who lives long enough eventually contends with the fact that their kn
 
 ###### Undead Malice (Level 10 Malice Features) {data-scc="mcdm.monsters.v1/monster.undead.4th-echelon/undead-malice-level-10-malice-features"}
 
-At the start of any level 10 undead's turn, you can spend Malice to activate one of the following features.
+At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (2-7+ Malice)**
+> ⭐️ **Prior [Malice](../rule/monster/malice.md) Features (2-7+ [Malice](../rule/monster/malice.md))**
 >
-> The undead activates a Malice feature available to undead of level 9 or lower.
+> The [undead](../rule/keyword/undead.md) activates a [Malice](../rule/monster/malice.md) feature available to [undead](../rule/keyword/undead.md) of level 9 or lower.
 
-> ❇️ **Death Tax (7 Malice)**
+> ❇️ **Death Tax (7 [Malice](../rule/monster/malice.md))**
 >
-> The undead attempts to rend the vitality of their foes. Each enemy within 5 squares of the undead makes a **Might test**.
+> The [undead](../rule/keyword/undead.md) attempts to rend the vitality of their foes. Each enemy within 5 squares of the [undead](../rule/keyword/undead.md) makes a **Might test**.
 >
-> - **≤11:** 10 corruption damage; the target loses 2 Recoveries
-> - **12-16:** 8 corruption damage; the target loses 1 Recovery
+> - **≤11:** 10 corruption damage; the target loses 2 [Recoveries](../rule/health/recoveries.md)
+> - **12-16:** 8 corruption damage; the target loses 1 [Recovery](../rule/health/recoveries.md)
 > - **17+:** 5 corruption damage
 >
-> **Effect:** A target who has fewer Recoveries than they would lose is also weakened (save ends).
+> **Effect:** A target who has fewer [Recoveries](../rule/health/recoveries.md) than they would lose is also [weakened](../condition/weakened.md) (save ends).
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](../rule/organization/minion.md).
 
 ###### Giant Shambler Zombie {data-scc="mcdm.monsters.v1/monster.undead.4th-echelon.statblock/giant-shambler-zombie"}
 
@@ -19208,7 +19208,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 | **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+5**<br>Might              | **-3**<br>Agility | **-3**<br>Reason  |              **+1**<br>Intuition               |   **-2**<br>Presence   |
 
-> 🗡 **Rotten Kick (Signature Ability)**
+> 🗡 **Rotten Kick ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -19216,13 +19216,13 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 8 damage; push 4
-> - **17+:** 10 damage; push 6
+> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 8 damage; [push](../movement/forced-movement.md) 4
+> - **17+:** 10 damage; [push](../movement/forced-movement.md) 6
 
 > ⭐️ **Meat Shield**
 >
-> Each ally adjacent to the shambler has damage immunity 3.
+> Each ally [adjacent](../rule/combat/adjacent.md) to the shambler has [damage immunity](../rule/damage/damage-immunity.md) 3.
 
 ###### Skeleton Knight {data-scc="mcdm.monsters.v1/monster.undead.4th-echelon.statblock/skeleton-knight"}
 
@@ -19232,7 +19232,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 | **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+3**<br>Might              | **+5**<br>Agility | **-2**<br>Reason  |             **+4**<br>Intuition             |   **-2**<br>Presence   |
 
-> 🗡 **Four Swords Swing (Signature Ability)**
+> 🗡 **Four Swords Swing ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -19242,15 +19242,15 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; the target can't shift (EoT)
+> - **17+:** 9 damage; the target can't [shift](../movement/shifting.md) ([EoT](../rule/combat/end-of-turn.md))
 
 > ⭐️ **Bitter Bones**
 >
-> If the knight is reduced to 0 Stamina, their bones collapse to fill their space with an impassable barrier. Any enemy who comes adjacent to the barrier for the first time in a round or starts their turn there takes 5 damage.
+> If the knight is reduced to 0 [Stamina](../rule/health/stamina.md), their bones collapse to fill their space with an impassable barrier. Any enemy who comes [adjacent](../rule/combat/adjacent.md) to the barrier for the first time in a round or starts their turn there takes 5 damage.
 
 > ⭐️ **More Swings**
 >
-> Whenever the knight makes a free strike, they can make two free strikes instead.
+> Whenever the knight makes a [free strike](../feature/common/main-actions/free-strike.md), they can make two [free strikes](../feature/common/main-actions/free-strike.md) instead.
 
 ###### Wraith Skulker {data-scc="mcdm.monsters.v1/monster.undead.4th-echelon.statblock/wraith-skulker"}
 
@@ -19260,7 +19260,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 | **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |             **-2**<br>Might              |     **+3**<br>Agility      | **+1**<br>Reason  |          **+1**<br>Intuition          |   **+5**<br>Presence   |
 
-> 🗡 **Draining Rake (Signature Ability)**
+> 🗡 **Draining Rake ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -19268,15 +19268,15 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 4 cold damage; the wraith can shift 1 square
-> - **12-16:** 7 cold damage; the wraith shifts up to 2 square
-> - **17+:** 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3 squares
+> - **≤11:** 4 cold damage; the wraith can [shift](../movement/shifting.md) 1 square
+> - **12-16:** 7 cold damage; the wraith [shifts](../movement/shifting.md) up to 2 square
+> - **17+:** 9 cold damage; P < 5 [slowed](../condition/slowed.md) (save ends); the wraith [shifts](../movement/shifting.md) up to 3 squares
 >
 > **Effect:** The wraith turns invisible until the start of their next turn.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being force moved into objects.
+> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being [force moved](../movement/forced-movement.md) into objects.
 
 ###### Bonecage {data-scc="mcdm.monsters.v1/monster.undead.4th-echelon.statblock/bonecage"}
 
@@ -19286,7 +19286,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 | **Corruption 10, poison 10**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+5**<br>Might              |   **-2**<br>Agility   | **-2**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Ribcage Chomp (Signature Ability)**
+> 🗡 **Ribcage Chomp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -19294,15 +19294,15 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 9 damage; M < 4 grabbed
-> - **12-16:** 12 damage; M < 5 grabbed
-> - **17+:** 14 damage; grabbed
+> - **≤11:** 9 damage; M < 4 [grabbed](../condition/grabbed.md)
+> - **12-16:** 12 damage; M < 5 [grabbed](../condition/grabbed.md)
+> - **17+:** 14 damage; [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The bonecage can have up to four size 1 targets grabbed at once. Any creature grabbed by the bonecage takes a bane on the Escape Grab maneuver, and the bonecage has damage immunity 5 against that creature's abilities. When the bonecage is force moved, any creature or object they have grabbed moves with them.
+> **Effect:** The bonecage can have up to four [size](../rule/character/size.md) 1 targets [grabbed](../condition/grabbed.md) at once. Any creature [grabbed](../condition/grabbed.md) by the bonecage takes a [bane](../rule/dice/bane.md) on the [Escape Grab](../feature/common/maneuvers/escape-grab.md) maneuver, and the bonecage has [damage immunity](../rule/damage/damage-immunity.md) 5 against that creature's abilities. When the bonecage is [force moved](../movement/forced-movement.md), any creature or object they have [grabbed](../condition/grabbed.md) moves with them.
 >
-> **3 Malice:** While grabbed this way, a target can't teleport or be teleported.
+> **3 [Malice](../rule/monster/malice.md):** While [grabbed](../condition/grabbed.md) this way, a target can't [teleport](../movement/teleport.md) or be [teleported](../movement/teleport.md).
 
-> 🔳 **Labyrinth of Bone (5 Malice)**
+> 🔳 **Labyrinth of Bone (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged**           |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -19314,7 +19314,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 > - **12-16:** 7 damage
 > - **17+:** 4 damage
 >
-> **Effect:** The area is difficult terrain for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.
 
 ###### Lithgekh {data-scc="mcdm.monsters.v1/monster.undead.4th-echelon.statblock/lithgekh"}
 
@@ -19324,7 +19324,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 | **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |              **0**<br>Might              |     **+1**<br>Agility      | **+5**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Heartstopper (Signature Ability)**
+> 🏹 **Heartstopper ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -19332,25 +19332,25 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 9 corruption damage; I < 3 frightened (save ends)
-> - **12-16:** 12 corruption damage; I < 4 frightened (save ends)
-> - **17+:** 14 corruption damage; I < 5 frightened (save ends)
+> - **≤11:** 9 corruption damage; I < 3 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 12 corruption damage; I < 4 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 14 corruption damage; I < 5 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** A creature frightened this way takes a bane on any ability that targets undead.
+> **Effect:** A creature [frightened](../condition/frightened.md) this way takes a [bane](../rule/dice/bane.md) on any ability that targets [undead](../rule/keyword/undead.md).
 
-> ❗️ **Mystic Battery (1 Malice)**
+> ❗️ **Mystic Battery (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 20**  | **🎯 The triggering creature** |
 >
 > **Trigger:** A creature within distance uses a magic ability.
 >
-> **Effect:** Any damage dealt by or Stamina regained from the ability is halved. The lithgekh regains Stamina equal to the remaining damage dealt or Stamina gained.
+> **Effect:** Any damage dealt by or [Stamina](../rule/health/stamina.md) regained from the ability is halved. The lithgekh regains [Stamina](../rule/health/stamina.md) equal to the remaining damage dealt or [Stamina](../rule/health/stamina.md) gained.
 
 > ⭐️ **Devour Magic**
 >
-> Each ally within 10 squares of the lithgekh gains an edge on magic abilities.
+> Each ally within 10 squares of the lithgekh gains an [edge](../rule/dice/edge.md) on magic abilities.
 
 ## Count Rhodar Von Glauer {data-scc="mcdm.monsters.v1/monster.group/count-rhodar-von-glauer"}
 
@@ -19396,15 +19396,15 @@ Rhodar speaks Caelian and Vaslorian.
 
 ###### Rhodar's Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.count-rhodar-von-glauer/rhodars-malice"}
 
-At the start of Rhodar's turn, you can spend Malice to activate one of the following features.
+At the start of Rhodar's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 👤 **Slip (3 Malice)**
 >
-> During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being force moved.
+> During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being [force moved](../movement/forced-movement.md).
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> Rhodar takes an additional main action on his turn. He can use this feature even if he is dazed.
+> Rhodar takes an additional main action on his turn. He can use this feature even if he is [dazed](../condition/dazed.md).
 
 > 🔳 **Suffocating Dark (5 Malice)**
 >
@@ -19412,7 +19412,7 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 
 > 🏹 **The Mirror Lies (7 Malice)**
 >
-> Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately teleport to swap places. Any enemy teleported by this feature who has I < 5 is dazed until the end of their next turn.
+> Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately [teleport](../movement/teleport.md) to swap places. Any enemy teleported by this feature who has I < 5 is [dazed](../condition/dazed.md) until the end of their next turn.
 
 ###### Count Rhodar von Glauer {data-scc="mcdm.monsters.v1/monster.count-rhodar-von-glauer.statblock/count-rhodar-von-glauer"}
 
@@ -19424,7 +19424,7 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** Rhodar can take two turns each round. He can't take turns consecutively.
 
@@ -19434,9 +19434,9 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 
 > ⭐️ **Thin the Blood**
 >
-> Each enemy within 10 squares of Rhodar takes a -2 penalty to saving throws.
+> Each enemy within 10 squares of Rhodar takes a -2 penalty to [saving throws](../rule/general/saving-throw.md).
 
-> ⚔️ **Spear of the Damned (Signature Ability)**
+> ⚔️ **Spear of the Damned ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike, Weapon** |                   **Main action** |
 > |------------------------------------------|----------------------------------:|
@@ -19444,11 +19444,11 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 damage; A < 4 restrained (save ends)
-> - **12-16:** 18 damage; A < 5 restrained (save ends)
-> - **17+:** 21 damage; A < 6 restrained (save ends)
+> - **≤11:** 13 damage; A < 4 [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 18 damage; A < 5 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** 21 damage; A < 6 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** A target restrained this way is impaled by a spear. Rhodar has four spears, each of which can be used to impale a target. At the start of each of his turns, Rhodar can summon any of his spears back to himself, ending the restrained condition on an impaled target.
+> **Effect:** A target [restrained](../condition/restrained.md) this way is impaled by a spear. Rhodar has four spears, each of which can be used to impale a target. At the start of each of his turns, Rhodar can summon any of his spears back to himself, ending the [restrained](../condition/restrained.md) condition on an impaled target.
 
 > ❇️ **Disarming Glare**
 >
@@ -19458,11 +19458,11 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Effect:** Each target makes an Intuition test.
 >
-> - **≤11:** 16 corruption damage; frightened (save ends)
-> - **12-16:** 13 corruption damage; frightened (EoT)
+> - **≤11:** 16 corruption damage; [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 13 corruption damage; [frightened](../condition/frightened.md) (EoT)
 > - **17+:** 8 corruption damage
 >
-> While a target is frightened this way, Rhodar ignores banes and double banes on abilities used against them.
+> While a target is [frightened](../condition/frightened.md) this way, Rhodar ignores banes and double banes on abilities used against them.
 
 > 🗡 **Vermilion Fangs (3 Malice)**
 >
@@ -19472,11 +19472,11 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 17 corruption damage; M < 4 bleeding (save ends) and prone
-> - **12-16:** 24 corruption damage; prone; M < 5 bleeding (save ends)
-> - **17+:** 30 corruption damage; prone; M < 6 the target is bleeding until the end of the encounter
+> - **≤11:** 17 corruption damage; M < 4 [bleeding](../condition/bleeding.md) (save ends) and [prone](../condition/prone.md)
+> - **12-16:** 24 corruption damage; [prone](../condition/prone.md); M < 5 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 30 corruption damage; [prone](../condition/prone.md); M < 6 the target is [bleeding](../condition/bleeding.md) until the end of the encounter
 >
-> **Effect:** Rhodar regains Stamina equal to half the damage dealt.
+> **Effect:** Rhodar regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
 > ❇️ **Sanguineous Flourish (5 Malice)**
 >
@@ -19486,11 +19486,11 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 6 damage, 2 corruption damage; push 2; M < 4 bleeding (save ends)
-> - **12-16:** 6 damage, 7 corruption damage; push 5; M < 5 bleeding (save ends)
-> - **17+:** 6 damage, 10 corruption damage; push 7; M < 6 bleeding (save ends)
+> - **≤11:** 6 damage, 2 corruption damage; [push](../movement/forced-movement.md) 2; M < 4 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 6 damage, 7 corruption damage; [push](../movement/forced-movement.md) 5; M < 5 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 6 damage, 10 corruption damage; [push](../movement/forced-movement.md) 7; M < 6 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** Rhodar shifts up to his speed before or after using this ability. He regains Stamina equal to half the total corruption damage dealt.
+> **Effect:** Rhodar [shifts](../movement/shifting.md) up to his speed before or after using this ability. He regains [Stamina](../rule/health/stamina.md) equal to half the total corruption damage dealt.
 
 > 🔳 **Vengeance of Rhöl (2 Malice)**
 >
@@ -19498,23 +19498,23 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 > |-----------------------------|---------------:|
 > | **📏 Two 3 cubes within 5** | **🎯 Special** |
 >
-> **Effect:** Each area is saturated with vengeful spirits until the end of the round. Any enemy who enters the area for the first time in a round or starts their turn there takes 5 corruption damage. At the end of the round, the spirits violently disperse. Each enemy within 2 squares of an area and has P < 5 is weakened (save ends).
+> **Effect:** Each area is saturated with vengeful spirits until the end of the round. Any enemy who enters the area for the first time in a round or starts their turn there takes 5 corruption damage. At the end of the round, the spirits violently disperse. Each enemy within 2 squares of an area and has P < 5 is [weakened](../condition/weakened.md) (save ends).
 
 > ❗️ **Reactive Rebuke (2 Malice)**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 10**  | **🎯 The triggering creature** |
 >
 > **Trigger:** A creature within distance makes a strike against Rhodar.
 >
-> **Effect:** A target who has I < 5 is frightened. This effect ends if the target is 11 or more squares from Rhodar.
+> **Effect:** A target who has I < 5 is [frightened](../condition/frightened.md). This effect ends if the target is 11 or more squares from Rhodar.
 
 > ⭐️ **Lord's Bloodthirst**
 >
-> Rhodar has speed 15 and an edge on power rolls while any creature within 20 squares of him is bleeding. Any bleeding creature within 10 squares of Rhodar can't hide.
+> Rhodar has speed 15 and an edge on power rolls while any creature within 20 squares of him is [bleeding](../condition/bleeding.md). Any [bleeding](../condition/bleeding.md) creature within 10 squares of Rhodar can't hide.
 
-> ☠️ **Red Tide (Villain Action 1)**
+> ☠️ **Red Tide ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic, Ranged** |                         **-** |
 > |-------------------------|------------------------------:|
@@ -19528,7 +19528,7 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Effect:** While a creature is blood soaked, Rhodar has a double edge on abilities used against them.
 
-> ☠️ **Sanguine Mist (Villain Action 2)**
+> ☠️ **Sanguine Mist ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -19536,13 +19536,13 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Effect:** Each target makes a Presence test.
 >
-> - **≤11:** 16 corruption damage; the target is bleeding until the end of the encounter
-> - **12-16:** 13 corruption damage; bleeding (save ends)
+> - **≤11:** 16 corruption damage; the target is [bleeding](../condition/bleeding.md) until the end of the encounter
+> - **12-16:** 13 corruption damage; [bleeding](../condition/bleeding.md) (save ends)
 > - **17+:** 8 corruption damage
 >
-> **Effect:** Rhodar teleports to an unoccupied space in the area. If he has lost the damage immunity from his Grave Ward trait, he regains it.
+> **Effect:** Rhodar [teleports](../movement/teleport.md) to an unoccupied space in the area. If he has lost the damage immunity from his Grave Ward trait, he regains it.
 
-> ☠️ **Fires of Dracul (Villain Action 3)**
+> ☠️ **Fires of Dracul ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic**             |                         **-** |
 > |-----------------------------|------------------------------:|
@@ -19550,11 +19550,11 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 fire damage; R < 4 weakened (save ends)
-> - **12-16:** 16 fire damage; R < 5 weakened (save ends)
-> - **17+:** 20 fire damage; R < 6 weakened (save ends)
+> - **≤11:** 10 fire damage; R < 4 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 16 fire damage; R < 5 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 20 fire damage; R < 6 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** Rhodar teleports to an unoccupied space adjacent to one target after the ability resolve.
+> **Effect:** Rhodar [teleports](../movement/teleport.md) to an unoccupied space [adjacent](../rule/combat/adjacent.md) to one target after the ability resolve.
 
 ## Lich {data-scc="mcdm.monsters.v1/monster.group/lich"}
 
@@ -19586,29 +19586,29 @@ A lich speaks the languages they knew in life, and might also pick up Anjali, Pr
 
 ###### Lich Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.lich/lich-malice"}
 
-At the start of a lich's turn, you can spend Malice to activate one of the following features.
+At the start of a lich's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 👤 **Soul Sip (3 Malice)**
 >
-> The lich makes a free strike against one enemy within 20 squares. They then gain an edge on their next power roll.
+> The lich makes a [free strike](../feature/common/main-actions/free-strike.md) against one enemy within 20 squares. They then gain an edge on their next power roll.
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> The lich takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The lich takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
 > 👤 **Spirit Shell (5 Malice)**
 >
 > The lich summons a swirling cloud of angry spirits to surround them until the start of the next round. Any creature who deals damage to the lich with a melee strike while the spirit shell is active makes a **Presence test**.
 >
-> - **≤11:** 16 psychic damage, dazed (save ends)
-> - **12-16:** Dazed (save ends)
+> - **≤11:** 16 psychic damage, [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** [Dazed](../condition/dazed.md) (save ends)
 > - **17+:** No effect.
 
 > 🌀 **Cloud of Deceit (7 Malice)**
 >
 > The lich summons a mind-altering mist, turns invisible until the start of their next turn, and moves up to half their speed. Each enemy within 20 squares of the lich's starting point who has I < 4 is deceived. While deceived, a creature perceives all allies and enemies as the lich, and perceives the environment as an unfamiliar wasteland corrupted by necrotic blight. If other creatures attempt to communicate with a deceived creature, that creature interprets their words as ghastly taunts in the lich's voice.
 >
-> This effect lasts until an affected creature takes damage or an ally uses a main action to shake them out of it. Each time this feature is used during an encounter, the distance of the effect decreases by 5 squares (to a minimum of 5 squares) and the potency increases by 1.
+> This effect lasts until an affected creature takes damage or an ally uses a main action to shake them out of it. Each time this feature is used during an encounter, the distance of the effect decreases by 5 squares (to a minimum of 5 squares) and the [potency](../rule/character/potency.md) increases by 1.
 
 ###### Lich {data-scc="mcdm.monsters.v1/monster.lich.statblock/lich"}
 
@@ -19620,11 +19620,11 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the lich can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of their turns, the lich can take 20 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The lich can take two turns each round. They can't take turns consecutively.
 
-> 🏹 **Conflagration (Signature Ability)**
+> 🏹 **Conflagration ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -19650,9 +19650,9 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 > - **12-16:** 13 corruption damage; P < 5 the target is hopeless (save ends)
 > - **17+:** 16 corruption damage; P < 6 the target is hopeless (save ends)
 >
-> **Effect:** A hopeless creature can't benefit from edges or double edges, can't gain or use surges, and can't gain temporary Stamina.
+> **Effect:** A hopeless creature can't benefit from edges or double edges, can't gain or use [surges](../rule/resource/surge.md), and can't gain temporary [Stamina](../rule/health/stamina.md).
 >
-> **3 Malice:** The distance of this ability increases to a 20 burst and its potency increases by 1.
+> **3 Malice:** The distance of this ability increases to a 20 burst and its [potency](../rule/character/potency.md) increases by 1.
 
 > 🏹 **Pain Unending (2 Malice)**
 >
@@ -19670,7 +19670,7 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 >
 > **3 Malice:** The lich chooses one additional target.
 >
-> **2+ Malice:** Each creature wracked with pain gains one of the following conditions of the lich's choice for each 2 Malice spent: bleeding, slowed, or prone and can't stand. These conditions end when a creature is no longer wracked with pain.
+> **2+ Malice:** Each creature wracked with pain gains one of the following conditions of the lich's choice for each 2 Malice spent: [bleeding](../condition/bleeding.md), [slowed](../condition/slowed.md), or [prone](../condition/prone.md) and can't stand. These conditions end when a creature is no longer wracked with pain.
 
 > 👤 **Necrotic Form**
 >
@@ -19678,11 +19678,11 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 > 
-> **Effect:** The lich becomes spectral, moves up to their speed, and becomes corporeal again. While spectral, the lich automatically ends the grabbed or restrained conditions, has damage immunity 5, can move through solid matter, and ignores difficult terrain. If the lich ends this movement inside solid matter, they are shunted out into the space from which they entered it.
+> **Effect:** The lich becomes spectral, moves up to their speed, and becomes corporeal again. While spectral, the lich automatically ends the [grabbed](../condition/grabbed.md) or [restrained](../condition/restrained.md) conditions, has damage immunity 5, can move through solid matter, and ignores [difficult terrain](../movement/difficult-terrain.md). If the lich ends this movement inside solid matter, they are shunted out into the space from which they entered it.
 
 > ❗️ **Baleful Swap (2 Malice)**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |     **🎯 One enemy** |
 >
@@ -19692,23 +19692,23 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 
 > ⭐️ **Herald of Oblivion**
 >
-> In the lich's presence, death's call is stronger. Any winded creature within 5 squares of the lich is bleeding and can't use the Catch Breath maneuver.
+> In the lich's presence, death's call is stronger. Any [winded](../rule/health/winded.md) creature within 5 squares of the lich is [bleeding](../condition/bleeding.md) and can't use the Catch Breath maneuver.
 
 > ⭐️ **Glare of Undeath**
 >
-> At the start of each round, the lich chooses a creature within 10 squares. If that creature has R < 4, they are restrained until the end of the lich's next turn. The lich can't choose the same creature two rounds in a row.
+> At the start of each round, the lich chooses a creature within 10 squares. If that creature has R < 4, they are [restrained](../condition/restrained.md) until the end of the lich's next turn. The lich can't choose the same creature two rounds in a row.
 
 > ⭐️ **Rejuvenation**
 >
-> The lich has a soulstone, which has 50 Stamina and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.
+> The lich has a soulstone, which has 50 [Stamina](../rule/health/stamina.md) and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.
 >
 > A creature who touches an inhabited soulstone makes a **Might test** that takes a bane.
 >
-> - **≤11:** The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with full Stamina.
-> - **12-16:** The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with 300 Stamina.
-> - **17+:** The creature has their Stamina reduced to their winded value unless it is already lower, and the lich manifests adjacent to the soulstone with 100 Stamina.
+> - **≤11:** The creature is reduced to 0 [Stamina](../rule/health/stamina.md) and the lich manifests [adjacent](../rule/combat/adjacent.md) to the soulstone with full [Stamina](../rule/health/stamina.md).
+> - **12-16:** The creature is reduced to 0 [Stamina](../rule/health/stamina.md) and the lich manifests [adjacent](../rule/combat/adjacent.md) to the soulstone with 300 [Stamina](../rule/health/stamina.md).
+> - **17+:** The creature has their [Stamina](../rule/health/stamina.md) reduced to their [winded](../rule/health/winded.md) value unless it is already lower, and the lich manifests [adjacent](../rule/combat/adjacent.md) to the soulstone with 100 [Stamina](../rule/health/stamina.md).
 
-> ☠️ **Cages of Wasting (Villain Action 1)**
+> ☠️ **Cages of Wasting ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic, Ranged**      |                            **-** |
 > |------------------------------|---------------------------------:|
@@ -19716,13 +19716,13 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 >
 > **Effect:** Each target makes an Agility test.
 >
-> - **≤11:** 10 corruption damage; restrained (save ends)
-> - **12-16:** 16 corruption damage; restrained (EoT)
+> - **≤11:** 10 corruption damage; [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** 16 corruption damage; [restrained](../condition/restrained.md) (EoT)
 > - **17+:** 20 corruption damage
 >
-> **Effect:** The lich deals an additional 10 corruption damage to each creature restrained this way.
+> **Effect:** The lich deals an additional 10 corruption damage to each creature [restrained](../condition/restrained.md) this way.
 
-> ☠️ **My Power Alone (Villain Action 2)**
+> ☠️ **My Power Alone ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -19730,7 +19730,7 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 >
 > **Effect:** A target can't use heroic abilities until the start of the lich's next turn.
 
-> ☠️ **Arms of Necrosis (Villain Action 3)**
+> ☠️ **Arms of Necrosis ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -19738,11 +19738,11 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 corruption damage; A < 4 frightened (save ends)
-> - **12-16:** 13 corruption damage; A < 5 frightened (save ends)
-> - **17+:** 16 corruption damage; A < 6 frightened (save ends)
+> - **≤11:** 8 corruption damage; A < 4 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 13 corruption damage; A < 5 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 16 corruption damage; A < 6 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** At the end of each of the lich's turns, they regain 10 Stamina for each creature frightened this way.
+> **Effect:** At the end of each of the lich's turns, they regain 10 [Stamina](../rule/health/stamina.md) for each creature [frightened](../condition/frightened.md) this way.
 
 ## Valok {data-scc="mcdm.monsters.v1/monster.group/valok"}
 
@@ -19768,7 +19768,7 @@ Ruined valok litter the deepest ruins of the steel dwarves, and without the stee
 
 ###### Valok Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.valok/valok-malice"}
 
-At the start of any valok's turn, you can spend Malice to activate one of the following features.
+At the start of any valok's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 👤 **Repeater (3 Malice)**
 >
@@ -19776,11 +19776,11 @@ At the start of any valok's turn, you can spend Malice to activate one of the fo
 
 > 🌀 **I Was Not Commanded to Wait (5 Malice)**
 >
-> At the end of each turn until the end of the round, one valok can either shift up to 2 squares or make a free strike.
+> At the end of each turn until the end of the round, one valok can either [shift](../movement/shifting.md) up to 2 squares or make a [free strike](../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Rapid Logic Overdrive (7 Malice)**
 >
-> Each valok in the encounter can end one effect on them that can be ended by a saving throw, and can move up to their speed (making use of the bonus below). Additionally, until the end of the encounter, all valok deal an extra 5 damage on strikes and gain a +5 bonus to speed. This feature can be activated multiples times, stacking the effects.
+> Each valok in the encounter can end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md), and can move up to their speed (making use of the bonus below). Additionally, until the end of the encounter, all valok deal an extra 5 damage on strikes and gain a +5 bonus to speed. This feature can be activated multiples times, stacking the effects.
 
 ### Servok
 
@@ -19810,7 +19810,7 @@ Most valok communicate exclusively in Rallarian.
 |          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |           **+4**<br>Might            | **0**<br>Agility  |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-4**<br>Presence  |
 
-> 🏹 **Gatling Bolt Gun (Signature Ability)**
+> 🏹 **Gatling Bolt Gun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -19820,7 +19820,7 @@ Most valok communicate exclusively in Rallarian.
 >
 > - **≤11:** 13 damage
 > - **12-16:** 18 damage
-> - **17+:** 22 damage; A < 4 bleeding (save ends)
+> - **17+:** 22 damage; A < 4 [bleeding](../condition/bleeding.md) (save ends)
 
 > 🗡 **Valiar Axe (3 Malice)**
 >
@@ -19830,9 +19830,9 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; M < 2 weakened (save ends)
-> - **12-16:** 21 damage; M < 3 weakened (save ends)
-> - **17+:** 26 damage; prone; M < 4 weakened (save ends)
+> - **≤11:** 15 damage; M < 2 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 21 damage; M < 3 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 26 damage; [prone](../condition/prone.md); M < 4 [weakened](../condition/weakened.md) (save ends)
 >
 > **Effect:** The bodyguard has a double edge on this ability if it was previously used against the same target in this encounter.
 
@@ -19844,11 +19844,11 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Special:** This ability targets only metal-clad enemies and metal objects of size 3 or smaller.
 >
-> **Effect:** Each target is pulled up to 8 squares, or if they have M < 3, they are pulled up to 15 squares. The bodyguard can make a free strike against each target who ends this forced movement adjacent to them.
+> **Effect:** Each target is [pulled](../movement/forced-movement.md) up to 8 squares, or if they have M < 3, they are [pulled](../movement/forced-movement.md) up to 15 squares. The bodyguard can make a [free strike](../feature/common/main-actions/free-strike.md) against each target who ends this [forced movement](../movement/forced-movement.md) [adjacent](../rule/combat/adjacent.md) to them.
 
 > ❗️ **Valiar Cloak**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 2** |          **🎯 Self** |
 >
@@ -19858,7 +19858,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Multivok Maintenance**
 >
-> At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 Stamina.
+> At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -19866,7 +19866,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Valiar Might**
 >
-> While the bodyguard isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the bodyguard isn't [bleeding](../condition/bleeding.md), [weakened](../condition/weakened.md), or [winded](../rule/health/winded.md), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
 
 ###### Multivok Chief {data-scc="mcdm.monsters.v1/monster.valok.statblock/multivok-chief"}
 
@@ -19876,7 +19876,7 @@ Most valok communicate exclusively in Rallarian.
 |          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |           **+4**<br>Might            | **+1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-3**<br>Presence  |
 
-> 🗡 **Pneumatic Punch (Signature Ability)**
+> 🗡 **Pneumatic Punch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -19884,9 +19884,9 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; push 3
-> - **12-16:** 18 damage; push 5
-> - **17+:** 22 damage; push 8
+> - **≤11:** 13 damage; [push](../movement/forced-movement.md) 3
+> - **12-16:** 18 damage; [push](../movement/forced-movement.md) 5
+> - **17+:** 22 damage; [push](../movement/forced-movement.md) 8
 
 > 🏹 **Targeting Beam (3 Malice)**
 >
@@ -19896,11 +19896,11 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; A < 2 slowed (save ends)
-> - **12-16:** 21 damage; A < 3 slowed (save ends)
-> - **17+:** 26 damage; A < 4 slowed (save ends)
+> - **≤11:** 15 damage; A < 2 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 21 damage; A < 3 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 26 damage; A < 4 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** This damage can't be reduced in any way. While a target is slowed this way, any strike against them has a double edge.
+> **Effect:** This damage can't be reduced in any way. While a target is [slowed](../condition/slowed.md) this way, any strike against them has a double edge.
 
 > 🏹 **Chief's Command**
 >
@@ -19908,21 +19908,21 @@ Most valok communicate exclusively in Rallarian.
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >
-> **Effect:** The target shifts up to their speed and can use a main action.
+> **Effect:** The target [shifts](../movement/shifting.md) up to their speed and can use a main action.
 
 > ❗️ **Quick Shield**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
-> **Trigger:** The chief or an ally within distance is subject to an effect that can be ended by a saving throw or that ends at the end of their turn.
+> **Trigger:** The chief or an ally within distance is subject to an effect that can be ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their turn.
 >
-> **Effect:** The target gains 15 temporary Stamina. Each time this triggered action is used, the amount of temporary Stamina received decreases by 3 (to a minimum of 0).
+> **Effect:** The target gains 15 temporary [Stamina](../rule/health/stamina.md). Each time this triggered action is used, the amount of temporary [Stamina](../rule/health/stamina.md) received decreases by 3 (to a minimum of 0).
 
 > ⭐️ **Multivok Maintenance**
 >
-> At the start of the chief's turn, each servok within 2 squares of them regains 15 Stamina.
+> At the start of the chief's turn, each servok within 2 squares of them regains 15 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -19930,7 +19930,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Valiar Might**
 >
-> While the chief isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the chief isn't [bleeding](../condition/bleeding.md), [weakened](../condition/weakened.md), or [winded](../rule/health/winded.md), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
 
 ###### Servok Builder {data-scc="mcdm.monsters.v1/monster.valok.statblock/servok-builder"}
 
@@ -19940,7 +19940,7 @@ Most valok communicate exclusively in Rallarian.
 |         **-**<br>Immunity          | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |          **+4**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason   |  **-1**<br>Intuition  |   **-5**<br>Presence  |
 
-> 🔳 **Wrecking Ball (Signature Ability)**
+> 🔳 **Wrecking Ball ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Ranged, Weapon** |                          **Main action** |
 > |--------------------------|-----------------------------------------:|
@@ -19948,8 +19948,8 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Effect:** Each target must make either an Agility test or an **Intuition test**.
 >
-> - **≤11:** 15 damage; push 5, prone
-> - **12-16:** 12 damage; push 3
+> - **≤11:** 15 damage; [push](../movement/forced-movement.md) 5, [prone](../condition/prone.md)
+> - **12-16:** 12 damage; [push](../movement/forced-movement.md) 3
 > - **17+:** 8 damage
 
 > 🗡 **Construction Arm**
@@ -19961,8 +19961,8 @@ Most valok communicate exclusively in Rallarian.
 > **Power Roll + 4:**
 >
 > - **≤11:** 16 damage
-> - **12-16:** 23 damage; grabbed
-> - **17+:** 28 damage; grabbed; M < 4 vertical push 5
+> - **12-16:** 23 damage; [grabbed](../condition/grabbed.md)
+> - **17+:** 28 damage; [grabbed](../condition/grabbed.md); M < 4 vertical [push](../movement/forced-movement.md) 5
 
 > 🔳 **Lay the Foundation (3 Malice)**
 >
@@ -19970,10 +19970,10 @@ Most valok communicate exclusively in Rallarian.
 > |----------------------------|----------------:|
 > | **📏 6 x 3 line within 1** |  **🎯 Special** |
 >
-> **Effect:** The area is covered in wet concrete and is difficult terrain. An enemy who starts their turn in the concrete makes a **Might test**.
+> **Effect:** The area is covered in wet concrete and is [difficult terrain](../movement/difficult-terrain.md). An enemy who starts their turn in the concrete makes a **Might test**.
 >
-> - **≤11:** Restrained (EoT)
-> - **12-16:** Slowed (EoT)
+> - **≤11:** [Restrained](../condition/restrained.md) (EoT)
+> - **12-16:** [Slowed](../condition/slowed.md) (EoT)
 > - **17+:** No effect
 
 > 🔳 **Build Wall**
@@ -19994,15 +19994,15 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** A < 2 restrained (save ends)
-> - **12-16:** A < 3 restrained (save ends)
-> - **17+:** A < 4 restrained (save ends)
+> - **≤11:** A < 2 [restrained](../condition/restrained.md) (save ends)
+> - **12-16:** A < 3 [restrained](../condition/restrained.md) (save ends)
+> - **17+:** A < 4 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** While a creature is restrained this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer restrained leaves squares of wet concrete behind.
+> **Effect:** While a creature is [restrained](../condition/restrained.md) this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer [restrained](../condition/restrained.md) leaves squares of wet concrete behind.
 
 > ⭐️ **Servok Siege Machine**
 >
-> The builder ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+> The builder ignores [difficult terrain](../movement/difficult-terrain.md), and their abilities deal an extra 15 damage to objects.
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -20010,7 +20010,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Valiar Might**
 >
-> While the builder isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the builder isn't [bleeding](../condition/bleeding.md), [weakened](../condition/weakened.md), or [winded](../rule/health/winded.md), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
 
 ###### Servok Miner {data-scc="mcdm.monsters.v1/monster.valok.statblock/servok-miner"}
 
@@ -20020,7 +20020,7 @@ Most valok communicate exclusively in Rallarian.
 |         **-**<br>Immunity          | **Burrow, climb**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |          **+4**<br>Might           |       **-2**<br>Agility       |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence  |
 
-> 🗡 **Drill Press (Signature Ability)**
+> 🗡 **Drill Press ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -20028,11 +20028,11 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; M < 2 restrained (save ends) and prone
-> - **12-16:** 18 damage; M < 3 restrained (save ends) and prone
-> - **17+:** 22 damage; prone; M < 4 restrained (save ends)
+> - **≤11:** 13 damage; M < 2 [restrained](../condition/restrained.md) (save ends) and [prone](../condition/prone.md)
+> - **12-16:** 18 damage; M < 3 [restrained](../condition/restrained.md) (save ends) and [prone](../condition/prone.md)
+> - **17+:** 22 damage; [prone](../condition/prone.md); M < 4 [restrained](../condition/restrained.md) (save ends)
 >
-> **Effect:** In suitably soft ground, a target restrained this way is etrenched in a 1-square-deep hole.
+> **Effect:** In suitably soft ground, a target [restrained](../condition/restrained.md) this way is etrenched in a 1-square-deep hole.
 
 > 🔳 **Unload Rocks (3 Malice)**
 >
@@ -20042,11 +20042,11 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Effect:** Each target makes an **Agility test**.
 >
-> - **≤11:** 14 damage; slide 4; the miner's allies have concealment from the target (save ends)
-> - **12-16:** 11 damage; slide 2
+> - **≤11:** 14 damage; [slide](../movement/forced-movement.md) 4; the miner's allies have concealment from the target (save ends)
+> - **12-16:** 11 damage; [slide](../movement/forced-movement.md) 2
 > - **17+:** 7 damage
 >
-> The area is difficult terrain.
+> The area is [difficult terrain](../movement/difficult-terrain.md).
 
 > 🔳 **Break Ground (5 Malice)**
 >
@@ -20054,15 +20054,15 @@ Most valok communicate exclusively in Rallarian.
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
-> **Effect:** A 5-square-deep fissure opens along the ground in the area. Each ally in the area can shift into the nearest unoccupied space outside the fissure. Each target makes an **Agility test**.
+> **Effect:** A 5-square-deep fissure opens along the ground in the area. Each ally in the area can [shift](../movement/shifting.md) into the nearest unoccupied space outside the fissure. Each target makes an **Agility test**.
 >
-> - **≤11:** 14 damage; the target falls into the fissure, and is prone and can't stand (EoT)
-> - **12-16:** 11 damage; the target is prone and hanging onto the edge of the fissure
-> - **17+:** 7 damage; the target can shift into the nearest unoccupied space outside the fissure
+> - **≤11:** 14 damage; the target falls into the fissure, and is [prone](../condition/prone.md) and can't stand (EoT)
+> - **12-16:** 11 damage; the target is [prone](../condition/prone.md) and hanging onto the edge of the fissure
+> - **17+:** 7 damage; the target can [shift](../movement/shifting.md) into the nearest unoccupied space outside the fissure
 
 > ❗️ **Miner Inconvenience (2 Malice)**
 >
-> | **Area**    | **Triggered action** |
+> | **Area**    | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -20076,7 +20076,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Servok Siege Machine**
 >
-> The miner ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+> The miner ignores [difficult terrain](../movement/difficult-terrain.md), and their abilities deal an extra 15 damage to objects.
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -20084,7 +20084,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Valiar Might**
 >
-> While the miner isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the miner isn't [bleeding](../condition/bleeding.md), [weakened](../condition/weakened.md), or [winded](../rule/health/winded.md), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
 
 ###### Servok War Engine {data-scc="mcdm.monsters.v1/monster.valok.statblock/servok-war-engine"}
 
@@ -20094,7 +20094,7 @@ Most valok communicate exclusively in Rallarian.
 |         **-**<br>Immunity          | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |          **+5**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason   |  **-1**<br>Intuition  |   **-5**<br>Presence  |
 
-> 🗡 **Blade Rake (Signature Ability)**
+> 🗡 **Blade Rake ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -20103,8 +20103,8 @@ Most valok communicate exclusively in Rallarian.
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; pull 3
-> - **17+:** 25 damage; pull 6
+> - **12-16:** 21 damage; [pull](../movement/forced-movement.md) 3
+> - **17+:** 25 damage; [pull](../movement/forced-movement.md) 6
 
 > 🏹 **Prismacore Cannon**
 >
@@ -20115,8 +20115,8 @@ Most valok communicate exclusively in Rallarian.
 > **Power Roll + 5:**
 >
 > - **≤11:** 22 damage
-> - **12-16:** 29 damage; I < 4 dazed (save ends)
-> - **17+:** 34 damage; I < 5 dazed (save ends)
+> - **12-16:** 29 damage; I < 4 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 34 damage; I < 5 [dazed](../condition/dazed.md) (save ends)
 >
 > **Effect:** This damage can't be reduced in any way. This ability can't be used again until the start of the next round.
 
@@ -20126,7 +20126,7 @@ Most valok communicate exclusively in Rallarian.
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall prone or take 10 damage.
+> **Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall [prone](../condition/prone.md) or take 10 damage.
 
 > 🔳 **Burning Oil (3 Malice)**
 >
@@ -20140,7 +20140,7 @@ Most valok communicate exclusively in Rallarian.
 > - **12-16:** 12 fire damage; the target is burning (EoT)
 > - **17+:** 8 fire damage
 >
-> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter.
+> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is [difficult terrain](../movement/difficult-terrain.md) and any enemy takes 3 fire damage for each square of the area they enter.
 
 > ❗️ **Quick Blast (1 Malice)**
 >
@@ -20152,15 +20152,15 @@ Most valok communicate exclusively in Rallarian.
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 damage; push 2
-> - **12-16:** 12 damage; push 5
-> - **17+:** 16 damage; push 8
+> - **≤11:** 8 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 12 damage; [push](../movement/forced-movement.md) 5
+> - **17+:** 16 damage; [push](../movement/forced-movement.md) 8
 >
 > **Effect:** This damage can't be reduced in any way.
 
 > ⭐️ **Servok Siege Machine**
 >
-> The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+> The war engine ignores [difficult terrain](../movement/difficult-terrain.md), and their abilities deal an extra 15 damage to objects.
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -20168,7 +20168,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ⭐️ **Valiar Might**
 >
-> While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the war engine isn't [bleeding](../condition/bleeding.md), [weakened](../condition/weakened.md), or [winded](../rule/health/winded.md), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
 
 ## Voiceless Talkers {data-scc="mcdm.monsters.v1/monster.group/voiceless-talkers"}
 
@@ -20214,11 +20214,11 @@ Most voiceless talkers communicate telepathically using Mindspeech and speak Var
 
 ###### Voiceless Talker Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.voiceless-talkers/voiceless-talker-malice"}
 
-At the start of any voiceless talker's turn, you can spend Malice to activate one of the following features.
+At the start of any voiceless talker's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 👤 **Guise (3 Malice)**
 >
-> One non-minion voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
+> One non-[minion](../rule/organization/minion.md) voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
 
 > 🏹 **Memory Thief (5 Malice)**
 >
@@ -20232,11 +20232,11 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > - **12-16:** 10 psychic damage; R < 2 the target perceives their allies as enemies (save ends)
 > - **17+:** 13 psychic damage; R < 3 the target perceives their allies as enemies (save ends)
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](../rule/organization/minion.md).
 
 > 🌀 **Evolutionary Circuit (10 Malice)**
 >
-> All voiceless talkers link their minds, creating a circuit that empowers them while two or more voiceless talkers remain in the encounter. While this circuit is active, any psionic strike made by a voiceless talker deals an extra 5 damage. Additionally, when a non-minion voiceless talker takes damage, they can use a free triggered action to swap places with any voiceless talker minion on the encounter map. The minion takes the damage instead.
+> All voiceless talkers link their minds, creating a circuit that empowers them while two or more voiceless talkers remain in the encounter. While this circuit is active, any psionic strike made by a voiceless talker deals an extra 5 damage. Additionally, when a non-[minion](../rule/organization/minion.md) voiceless talker takes damage, they can use a free triggered action to swap places with any voiceless talker [minion](../rule/organization/minion.md) on the encounter map. The [minion](../rule/organization/minion.md) takes the damage instead.
 
 ###### Mindkiller Whelp {data-scc="mcdm.monsters.v1/monster.voiceless-talkers.statblock/mindkiller-whelp"}
 
@@ -20246,7 +20246,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **-1**<br>Might      |     **+3**<br>Agility      | **+1**<br>Reason |              **+1**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Eager Claws (Signature Ability)**
+> 🗡 **Eager Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -20260,17 +20260,17 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 
 > ❗️ **Feast**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** The whelp reduces a non-minion creature to 0 Stamina.
+> **Trigger:** The whelp reduces a non-[minion](../rule/organization/minion.md) creature to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The whelp transforms into a mindkiller whose Stamina equals their squad's Stamina pool before transforming. The Stamina pool then loses the whelp's Stamina.
+> **Effect:** The whelp transforms into a mindkiller whose [Stamina](../rule/health/stamina.md) equals their squad's [Stamina](../rule/health/stamina.md) pool before transforming. The [Stamina](../rule/health/stamina.md) pool then loses the whelp's [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.
+> Whenever a non-[minion](../rule/organization/minion.md) voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.
 
 ###### Voiceless Talker Graywarper {data-scc="mcdm.monsters.v1/monster.voiceless-talkers.statblock/voiceless-talker-graywarper"}
 
@@ -20280,7 +20280,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 |    **-**<br>Immunity     | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
 |     **-1**<br>Might      | **0**<br>Agility  | **+3**<br>Reason |           **+1**<br>Intuition           |  **+1**<br>Presence   |
 
-> 🏹 **Phase Chant (Signature Ability)**
+> 🏹 **Phase Chant ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike** |                          **Main action** |
 > |-----------------------------|-----------------------------------------:|
@@ -20289,12 +20289,12 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 psychic damage
-> - **12-16:** 5 psychic damage; slide 2
-> - **17+:** 7 psychic damage; slide 4
+> - **12-16:** 5 psychic damage; [slide](../movement/forced-movement.md) 2
+> - **17+:** 7 psychic damage; [slide](../movement/forced-movement.md) 4
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.
+> Whenever a non-[minion](../rule/organization/minion.md) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.
 
 ###### Hulking Brain {data-scc="mcdm.monsters.v1/monster.voiceless-talkers.statblock/hulking-brain"}
 
@@ -20304,7 +20304,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 |    **-**<br>Immunity     | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+3**<br>Might      | **+1**<br>Agility |  **-2**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Four-Way Grasp (Signature Ability)**
+> 🗡 **Four-Way Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                  **Main action** |
 > |---------------------------|---------------------------------:|
@@ -20313,12 +20313,12 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Power Roll + 3:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 2 grabbed
-> - **17+:** 11 damage; A < 3 grabbed
+> - **12-16:** 10 damage; A < 2 [grabbed](../condition/grabbed.md)
+> - **17+:** 11 damage; A < 3 [grabbed](../condition/grabbed.md)
 >
-> **Special:** The hulking brain can have up to four size 1 creatures grabbed.
+> **Special:** The hulking brain can have up to four size 1 creatures [grabbed](../condition/grabbed.md).
 >
-> **2 Malice:** The potency increases by 1.
+> **2 Malice:** The [potency](../rule/character/potency.md) increases by 1.
 
 > 🗡 **Cerebral Suplex**
 >
@@ -20326,7 +20326,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > |-------------------|------------------:|
 > | **📏 Melee 1**    | **🎯 Each enemy** |
 >
-> **Effect:** A target must be grabbed by the hulking brain, and is no longer grabbed after the power roll is resolved.
+> **Effect:** A target must be [grabbed](../condition/grabbed.md) by the hulking brain, and is no longer [grabbed](../condition/grabbed.md) after the power roll is resolved.
 >
 > **Power Roll + 3:**
 >
@@ -20340,7 +20340,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The hulking brain shifts up to 4 squares, ignoring difficu terrain.
+> **Effect:** The hulking brain [shifts](../movement/shifting.md) up to 4 squares, ignoring difficu terrain.
 
 > ❗️ **Brawny Buffe (1 Malice)**
 >
@@ -20350,17 +20350,17 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 >
 > **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
 >
-> **Effect:** The hulking brain shifts adjacent to the ally and becomes the new target of the ability.
+> **Effect:** The hulking brain [shifts](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to the ally and becomes the new target of the ability.
 >
-> **2 Malice:** The enemy is knocked prone.
+> **2 Malice:** The enemy is knocked [prone](../condition/prone.md).
 
 > ⭐️ **Biceps to Spare**
 >
-> The hulking brain can carry up to four size 1 creatures they have grabbed, and takes no penalty to their speed while doing so.
+> The hulking brain can carry up to four size 1 creatures they have [grabbed](../condition/grabbed.md), and takes no penalty to their speed while doing so.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
+> Whenever a non-[minion](../rule/organization/minion.md) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
 
 ###### Mindkiller {data-scc="mcdm.monsters.v1/monster.voiceless-talkers.statblock/mindkiller"}
 
@@ -20372,9 +20372,9 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 
 > ⭐️ **Brain Latch**
 >
-> The mindkiller can grab creatures who are size 4 or smaller, using their Reason score in place of Might. A creature grabbed by the mindkiller takes a bane on ability rolls made to escape the grab.
+> The mindkiller can [grab](../condition/grabbed.md) creatures who are size 4 or smaller, using their Reason score in place of Might. A creature [grabbed](../condition/grabbed.md) by the mindkiller takes a bane on ability rolls made to escape the grab.
 
-> 🗡 **Killer Claws (Signature Ability)**
+> 🗡 **Killer Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -20383,8 +20383,8 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Power Roll + 3:**
 >
 > - **≤11:** 11 damage
-> - **12-16:** 17 damage; A < 2 grabbed
-> - **17+:** 21 damage; A < 3 grabbed
+> - **12-16:** 17 damage; A < 2 [grabbed](../condition/grabbed.md)
+> - **17+:** 21 damage; A < 3 [grabbed](../condition/grabbed.md)
 
 > 🏹 **Concealing Strike (2 Malice)**
 >
@@ -20404,23 +20404,23 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > |----------------------------|--------------------:|
 > | **📏 Melee 1**             | **🎯 One creature** |
 >
-> **Effect:** The target must be grabbed by the mindkiller. If the target has R < 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter.
+> **Effect:** The target must be [grabbed](../condition/grabbed.md) by the mindkiller. If the target has R < 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter.
 
 > ❗️ **Meat Shield**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
 > **Trigger:** The mindkiller takes damage.
 >
-> **Effect:** The mindkiller halves the damage. If the mindkiller has a creature grabbed, that creature takes the other half of the damage.
+> **Effect:** The mindkiller halves the damage. If the mindkiller has a creature [grabbed](../condition/grabbed.md), that creature takes the other half of the damage.
 >
-> **3 Malice:** A grabbed creature takes the damage instead of the mindkiller.
+> **3 Malice:** A [grabbed](../condition/grabbed.md) creature takes the damage instead of the mindkiller.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space.
+> Whenever a non-[minion](../rule/organization/minion.md) voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space.
 
 > ⭐️ **Nimble**
 >
@@ -20434,7 +20434,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🏹 **Psionic Rifle Burst (Signature Ability)**
+> 🏹 **Psionic Rifle Burst ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike, Weapon** |               **Main action** |
 > |-------------------------------------|------------------------------:|
@@ -20459,8 +20459,8 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Power Roll + 3:**
 >
 > - **≤11:** 6 lightning damage
-> - **12-16:** 10 lightning damage; I < 2 slowed (save ends)
-> - **17+:** 13 lightning damage; I < 3 slowed (save ends)
+> - **12-16:** 10 lightning damage; I < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 13 lightning damage; I < 3 [slowed](../condition/slowed.md) (save ends)
 
 > 🏹 **In Our Sights**
 >
@@ -20472,17 +20472,17 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 
 > ❗️ **Tactical Reposition (1 Malice)**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
 > **Trigger:** The artillerist takes damage.
 >
-> **Effect:** The artillerist can teleport up to 5 squares and ignores any effects associated with the damage.
+> **Effect:** The artillerist can [teleport](../movement/teleport.md) up to 5 squares and ignores any effects associated with the damage.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space.
+> Whenever a non-[minion](../rule/organization/minion.md) voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space.
 
 > ⭐️ **Locked On**
 >
@@ -20496,7 +20496,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might      |        **+1**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Tentacle (Signature Ability)**
+> 🗡 **Tentacle ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -20505,8 +20505,8 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 2 grabbed
-> - **17+:** 18 damage; M < 3 grabbed
+> - **12-16:** 15 damage; M < 2 [grabbed](../condition/grabbed.md)
+> - **17+:** 18 damage; M < 3 [grabbed](../condition/grabbed.md)
 
 > ❇️ **Psionic Boom (3 Malice)**
 >
@@ -20516,9 +20516,9 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 psychic damage; R < 1 push 2
-> - **12-16:** 10 psychic damage; R < 2 push 3
-> - **17+:** 12 psychic damage; R < 3 push 4 and prone
+> - **≤11:** 6 psychic damage; R < 1 [push](../movement/forced-movement.md) 2
+> - **12-16:** 10 psychic damage; R < 2 [push](../movement/forced-movement.md) 3
+> - **17+:** 12 psychic damage; R < 3 [push](../movement/forced-movement.md) 4 and [prone](../condition/prone.md)
 >
 > **2 Malice:** The size of the burst increases to 5.
 
@@ -20528,27 +20528,27 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > |--------------------|--------------------:|
 > | **📏 Melee 1**     | **🎯 One creature** |
 >
-> **Effect:** The target must be grabbed by the invader.
+> **Effect:** The target must be [grabbed](../condition/grabbed.md) by the invader.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; vertical slide 2
-> - **12-16:** 10 damage; vertical slide 2
-> - **17+:** 12 damage; vertical slide 3
+> - **≤11:** 6 damage; vertical [slide](../movement/forced-movement.md) 2
+> - **12-16:** 10 damage; vertical [slide](../movement/forced-movement.md) 2
+> - **17+:** 12 damage; vertical [slide](../movement/forced-movement.md) 3
 
 > ❗️ **Brain Drain**
 >
-> | **Melee, Psionic** |           **Triggered action** |
+> | **Melee, Psionic** |           **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Special**     | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature grabbed by the invader resists an ability's potency.
+> **Trigger:** A creature [grabbed](../condition/grabbed.md) by the invader resists an ability's [potency](../rule/character/potency.md).
 >
-> **Effect:** The potency increases by 2.
+> **Effect:** The [potency](../rule/character/potency.md) increases by 2.
 
 > ⭐️ **Psionic Amplifier**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.
+> Whenever a non-[minion](../rule/organization/minion.md) voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.
 
 ###### Voiceless Talker Evolutionist {data-scc="mcdm.monsters.v1/monster.voiceless-talkers.statblock/voiceless-talker-evolutionist"}
 
@@ -20558,7 +20558,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | **Psychic 8**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+4**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Psionic Intrusion (Signature Ability)**
+> ⚔️ **Psionic Intrusion ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
 > |------------------------------------|--------------------------------:|
@@ -20566,9 +20566,9 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 psychic damage; R < 2 slowed (save ends)
-> - **12-16:** 16 psychic damage; R < 3 slowed (save ends)
-> - **17+:** 19 psychic damage; R < 4 slowed (save ends)
+> - **≤11:** 11 psychic damage; R < 2 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 16 psychic damage; R < 3 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 19 psychic damage; R < 4 [slowed](../condition/slowed.md) (save ends)
 
 > 🏹 **Carpe Quadratum**
 >
@@ -20576,11 +20576,11 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > |---------------------|--------------------:|
 > | **📏 Ranged 5**     | **🎯 One creature** |
 >
-> **Effect:** The evolutionist teleports to swap places with the target.
+> **Effect:** The evolutionist [teleports](../movement/teleport.md) to swap places with the target.
 
 > ❗️ **Adaptability**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -20588,15 +20588,15 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 >
 > **Effect:** Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the evolutionist can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the evolutionist can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Witness Evolutionary Superiority**
 >
-> The evolutionist has any trait of the Director's choice from any ally minion in the encounter.
+> The evolutionist has any trait of the Director's choice from any ally [minion](../rule/organization/minion.md) in the encounter.
 
-> ☠️ **Show Me Who You Are (Villain Action 1)**
+> ☠️ **Show Me Who You Are ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Psionic**     |               **-** |
 > |-----------------------------|------------------------------:|
@@ -20604,19 +20604,19 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 >
 > **Effect:** Each target makes an Intuition test.
 >
-> - **≤11:** The target uses a signature ability against the nearest enemy within distance.
-> - **12-16:** The target makes a free strike against the nearest enemy within distance.
-> - **17+:** Frightened (save ends)
+> - **≤11:** The target uses a [signature ability](../rule/combat/signature-ability.md) against the nearest enemy within distance.
+> - **12-16:** The target makes a [free strike](../feature/common/main-actions/free-strike.md) against the nearest enemy within distance.
+> - **17+:** [Frightened](../condition/frightened.md) (save ends)
 
-> ☠️ **Release the Thralls (Villain Action 2)**
+> ☠️ **Release the Thralls ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Psionic, Ranged** |          **-** |
 > |---------------------|---------------:|
 > | **📏 Ranged 5**     | **🎯 Special** |
 >
-> **Effect:** The evolutionist teleports eight minions of level 4 or lower into unoccupied spaces within distance. All eight minions can be of any monster type but must share the same name.
+> **Effect:** The evolutionist [teleports](../movement/teleport.md) eight [minions](../rule/organization/minion.md) of level 4 or lower into unoccupied spaces within distance. All eight [minions](../rule/organization/minion.md) can be of any monster type but must share the same name.
 
-> ☠️ **Brainstorm (Villain Action 3)**
+> ☠️ **Brainstorm ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Psionic** |                         **-** |
 > |-------------------|------------------------------:|
@@ -20628,7 +20628,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > - **12-16:** 12 lightning damage
 > - **17+:** 15 lightning damage
 >
-> **Effect:** Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is difficult terrain for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage.
+> **Effect:** Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is [difficult terrain](../movement/difficult-terrain.md) for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage.
 
 ## Lord Syuul {data-scc="mcdm.monsters.v1/monster.group/lord-syuul"}
 
@@ -20666,7 +20666,7 @@ Lord Syuul communicates telepathically using Mindspeech and speaks Variac.
 
 ###### Lord Syuul's Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.lord-syuul/lord-syuuls-malice"}
 
-At the start of Lord Syuul's turn, you can spend Malice to activate one of the following features.
+At the start of Lord Syuul's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 👤 **Guise (3 Malice)**
 >
@@ -20676,13 +20676,13 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 >
 > Lord Syuul psionically plunders the minds of each creature within 2 squares of him. Each such creature makes a **Reason test**.
 >
-> - **≤11:** 13 psychic damage; the target uses a signature ability against a creature of Lord Syuul's choice
-> - **12-16:** 10 psychic damage; the target makes a free strike against a creature of Lord Syuul's choice
+> - **≤11:** 13 psychic damage; the target uses a [signature ability](../rule/combat/signature-ability.md) against a creature of Lord Syuul's choice
+> - **12-16:** 10 psychic damage; the target makes a [free strike](../feature/common/main-actions/free-strike.md) against a creature of Lord Syuul's choice
 > - **17+:** No effect.
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> Lord Syuul takes an additional main action on his turn. He can use this feature even if he is dazed.
+> Lord Syuul takes an additional main action on his turn. He can use this feature even if he is [dazed](../condition/dazed.md).
 
 > 🌀 **Overpower (7 Malice)**
 >
@@ -20712,11 +20712,11 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** Lord Syuul can take two turns each round. He can't take turns consecutively.
 
-> 🗡 **Tentacle Grab (Signature Ability)**
+> 🗡 **Tentacle Grab ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -20724,11 +20724,11 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; A < 2 grabbed
-> - **12-16:** 17 damage; A < 3 grabbed
-> - **17+:** 20 damage; A < 4 grabbed
+> - **≤11:** 11 damage; A < 2 [grabbed](../condition/grabbed.md)
+> - **12-16:** 17 damage; A < 3 [grabbed](../condition/grabbed.md)
+> - **17+:** 20 damage; A < 4 [grabbed](../condition/grabbed.md)
 >
-> **2 Malice:** The distance of this ability increases to melee 10. Each target grabbed by Lord Syuul is pulled up to 10 squares.
+> **2 Malice:** The distance of this ability increases to melee 10. Each target [grabbed](../condition/grabbed.md) by Lord Syuul is [pulled](../movement/forced-movement.md) up to 10 squares.
 
 > 🔳 **Dampening Grenade**
 >
@@ -20756,7 +20756,7 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 > - **12-16:** 20 damage
 > - **17+:** 24 damage
 >
-> **Effect:** If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them.
+> **Effect:** If this action reduces the target to 0 [Stamina](../rule/health/stamina.md) and they have a brain, their brain explodes, instantly killing them.
 
 > 👤 **You Come With Me**
 >
@@ -20764,11 +20764,11 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> Lord Syuul can teleport up to 5 squares along with each creature and object he has grabbed. He can release grabbed creatures and objects before or after teleporting.
+> Lord Syuul can [teleport](../movement/teleport.md) up to 5 squares along with each creature and object he has [grabbed](../condition/grabbed.md). He can release [grabbed](../condition/grabbed.md) creatures and objects before or after teleporting.
 
 > ❗️ **Adaptability**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered Action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -20780,7 +20780,7 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 >
 > Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability.
 
-> ☠️ **See Only Me (Villain Action 1)**
+> ☠️ **See Only Me ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Psionic** |                         **-** |
 > |-------------------|------------------------------:|
@@ -20792,15 +20792,15 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 > - **12-16:** 13 psychic damage; the target has no line of effect to any creature except Lord Syuul (save ends)
 > - **17+:** 7 psychic damage
 
-> ☠️ **Phantom Pain (Villain Action 2)**
+> ☠️ **Phantom Pain ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Psionic** |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears.
+> **Effect:** Lord Syuul becomes invisible, can [teleport](../movement/teleport.md) up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears.
 
-> ☠️ **Mindshatter (Villain Action 3)**
+> ☠️ **Mindshatter ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Psionic** |                            **-** |
 > |-------------------|---------------------------------:|
@@ -20816,7 +20816,7 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 
 ## War Dogs {data-scc="mcdm.monsters.v1/monster.group/war-dogs"}
 
-Ajax's war dogs—brutal patchwork soldiers—owe their new lives to the Iron Saint and fight for him fanatically. War dog minions are the freshest recruits, possessing minimal patchwork qualities and generally treated as disposable. Those who survive a battle are rewarded with gifts from the Body Banks. Those who don't survive become recycled back into the Body Banks to be reborn.
+Ajax's war dogs—brutal patchwork soldiers—owe their new lives to the Iron Saint and fight for him fanatically. War dog [minions](../rule/organization/minion.md) are the freshest recruits, possessing minimal patchwork qualities and generally treated as disposable. Those who survive a battle are rewarded with gifts from the Body Banks. Those who don't survive become recycled back into the Body Banks to be reborn.
 
 ##### War Dog Stat Block List
 
@@ -20878,13 +20878,13 @@ Body Bank technology stolen from the upper worlds allows for the storage, manipu
 
 ### Soulless Soldiers
 
-War dogs aren't undead. They still have minds, wills, and drives that separate them from zombies and mournlings. But one thing they share in common with the undead is the lack of a soul. Any remnants of a soul that didn't escape the shattered remains of their constituent parts are irrevocably damaged beyond repair in the process of making a war dog. War dogs are thus metaphysically unstable, incapable of higher spiritual functions such as empathy or love, and their personalities and beliefs are highly malleable. This makes them the ideal disposable soldier for a discerning tyrant.
+War dogs aren't [undead](../rule/keyword/undead.md). They still have minds, wills, and drives that separate them from zombies and mournlings. But one thing they share in common with the [undead](../rule/keyword/undead.md) is the lack of a soul. Any remnants of a soul that didn't escape the shattered remains of their constituent parts are irrevocably damaged beyond repair in the process of making a war dog. War dogs are thus metaphysically unstable, incapable of higher spiritual functions such as empathy or love, and their personalities and beliefs are highly malleable. This makes them the ideal disposable soldier for a discerning tyrant.
 
 > **War Dog Tactics**
 >
-> War dogs have a heavy focus on minion frontlines backed by captains with powerful control or support abilities. Those captains' tactics reflect the replaceability of their low-ranking troops, who they throw into the fray without caution. Once a squad of minions is reduced to a few stragglers, a captain will order them into position for maximum effect and manually detonate their loyalty collars.
+> War dogs have a heavy focus on [minion](../rule/organization/minion.md) frontlines backed by captains with powerful control or support abilities. Those captains' tactics reflect the replaceability of their low-ranking troops, who they throw into the fray without caution. Once a squad of [minions](../rule/organization/minion.md) is reduced to a few stragglers, a captain will order them into position for maximum effect and manually detonate their loyalty collars.
 >
-> War dog captains are intelligent, well trained, and focused on prioritizing threats to their mission. Defensive and support units focus on tying up and slowing down high-Stamina threats while offensive units try their best to bully low-Stamina backline heroes. Unless ordered, retreat is not an option for war dogs.
+> War dog captains are intelligent, well trained, and focused on prioritizing threats to their mission. Defensive and support units focus on tying up and slowing down high-[Stamina](../rule/health/stamina.md) threats while offensive units try their best to bully low-[Stamina](../rule/health/stamina.md) backline heroes. Unless ordered, retreat is not an option for war dogs.
 >
 > **War Dog Sample Encounters**
 >
@@ -20917,11 +20917,11 @@ The vast majority of war dogs are simple amalgams of humanoids fused, stitched, 
 
 ###### War Dog Malice (Level 1+ Malice Features) {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon/war-dog-malice-level-1-malice-features"}
 
-At the start of any war dog's turn, you can spend Malice to activate one of the following features.
+At the start of any war dog's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 👤 **Reconstitute (3 Malice)**
 >
-> One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains Stamina equal to 5 times their level.
+> One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](../rule/health/stamina.md) equal to 5 times their level.
 
 > 🔳 **Fire for Effect (5 Malice)**
 >
@@ -20931,13 +20931,13 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Effect:** Each target makes an **Agility test**. The same condition is imposed on each affected target.
 >
-> - **≤11:** 5 fire damage; slowed or weakened (save ends)
-> - **12-16:** 5 fire damage; slowed or weakened (EoT)
+> - **≤11:** 5 fire damage; [slowed](../condition/slowed.md) or [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 5 fire damage; [slowed](../condition/slowed.md) or [weakened](../condition/weakened.md) (EoT)
 > - **17+:** 5 fire damage
 
 > ⭐️ **Fodder Run (7 Malice)**
 >
-> Each war dog minion in the encounter shifts up to their speed and can make a free strike. A minion who does so is then reduced to 0 Stamina.
+> Each war dog [minion](../rule/organization/minion.md) in the encounter [shifts](../movement/shifting.md) up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md). A [minion](../rule/organization/minion.md) who does so is then reduced to 0 [Stamina](../rule/health/stamina.md).
 
 ###### War Dog Commando {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-commando"}
 
@@ -20947,7 +20947,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> ⚔️ **Daggers (Signature Ability)**
+> ⚔️ **Daggers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -20963,7 +20963,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Loyalty Collar**
 >
-> When the commando is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+> When the commando is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Conscript {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-conscript"}
 
@@ -20973,7 +20973,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> ⚔️ **Blade (Signature Ability)**
+> ⚔️ **Blade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-------------------------------------------|-----------------------------------------:|
@@ -20989,7 +20989,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Loyalty Collar**
 >
-> When the conscript is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+> When the conscript is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Sharpshooter {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-sharpshooter"}
 
@@ -20999,7 +20999,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
-> 🏹 **Bolt Launcher (Signature Ability)**
+> 🏹 **Bolt Launcher ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -21015,7 +21015,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Loyalty Collar**
 >
-> When the sharpshooter is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+> When the sharpshooter is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Tetherite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-tetherite"}
 
@@ -21025,7 +21025,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  | **0**<br>Reason  |             **0**<br>Intuition              |   **0**<br>Presence   |
 
-> 🗡 **Banded Dagger (Signature Ability)**
+> 🗡 **Banded Dagger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -21043,7 +21043,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Loyalty Collar**
 >
-> When the tetherite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+> When the tetherite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Amalgamite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-amalgamite"}
 
@@ -21053,7 +21053,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Several Arms (Signature Ability)**
+> 🗡 **Several Arms ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -21062,12 +21062,12 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 5 damage; A < 1 grabbed
-> - **17+:** 6 damage; A < 2 grabbed
+> - **12-16:** 5 damage; A < 1 [grabbed](../condition/grabbed.md)
+> - **17+:** 6 damage; A < 2 [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The amalgamite can have up to four targets grabbed at once.
+> **Effect:** The amalgamite can have up to four targets [grabbed](../condition/grabbed.md) at once.
 >
-> **3 Malice:** The amalgamite deals 3 damage to each creature grabbed this way or who they already have grabbed, and regains Stamina equal to the damage dealt.
+> **3 [Malice](../rule/monster/malice.md):** The amalgamite deals 3 damage to each creature [grabbed](../condition/grabbed.md) this way or who they already have [grabbed](../condition/grabbed.md), and regains [Stamina](../rule/health/stamina.md) equal to the damage dealt.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21075,11 +21075,11 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the amalgamite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the amalgamite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Crucibite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-crucibite"}
 
@@ -21089,7 +21089,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |   **Fire 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🔳 **Flamebelcher (Signature Ability)**
+> 🔳 **Flamebelcher ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Weapon**           |                             **Main action** |
 > |----------------------------|--------------------------------------------:|
@@ -21103,7 +21103,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Effect:** The area is covered in sticky fire until the start of the crucibite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
 >
-> **3 Malice:** The area becomes a 10 x 1 line, and if any ally of the crucibite is in the area when it is created, the ability deals an extra 2 damage to each target.
+> **3 [Malice](../rule/monster/malice.md):** The area becomes a 10 x 1 line, and if any ally of the crucibite is in the area when it is created, the ability deals an extra 2 damage to each target.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21111,11 +21111,11 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the crucibite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the crucibite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Eviscerite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-eviscerite"}
 
@@ -21125,7 +21125,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Chainsaw Whip (Signature Ability)**
+> 🗡 **Chainsaw Whip ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                **Main action** |
 > |---------------------------|-------------------------------:|
@@ -21134,10 +21134,10 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 4 damage; pull 1
-> - **17+:** 5 damage; pull 2
+> - **12-16:** 4 damage; [pull](../movement/forced-movement.md) 1
+> - **17+:** 5 damage; [pull](../movement/forced-movement.md) 2
 >
-> **Effect:** The eviscerite can automatically grab a target pulled adjacent to them this way.
+> **Effect:** The eviscerite can automatically [grab](../condition/grabbed.md) a target [pulled](../movement/forced-movement.md) [adjacent](../rule/combat/adjacent.md) to them this way.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21145,11 +21145,11 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the eviscerite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the eviscerite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Neuronite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-neuronite"}
 
@@ -21159,7 +21159,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |  **Psychic 2**<br>Immunity  | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+1**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> ❇️ **Synlirii Grafts (Signature Ability)**
+> ❇️ **Synlirii Grafts ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -21167,9 +21167,9 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 psychic damage; vertical slide 1
-> - **12-16:** 2 psychic damage; vertical slide 2
-> - **17+:** 3 psychic damage; vertical slide 3
+> - **≤11:** 1 psychic damage; vertical [slide](../movement/forced-movement.md) 1
+> - **12-16:** 2 psychic damage; vertical [slide](../movement/forced-movement.md) 2
+> - **17+:** 3 psychic damage; vertical [slide](../movement/forced-movement.md) 3
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21177,9 +21177,9 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
-> ❇️ **The Voice (1 Malice)**
+> ❇️ **The Voice (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Psionic** |                  **Maneuver** |
 > |-------------------|------------------------------:|
@@ -21189,7 +21189,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Loyalty Collar**
 >
-> When the neuronite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the neuronite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Pestilite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-pestilite"}
 
@@ -21199,7 +21199,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |  **Poison 3**<br>Immunity   | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🔳 **Plaguecaster (Signature Ability)**
+> 🔳 **Plaguecaster ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Magic, Ranged** |                  **Main action** |
 > |-------------------------|---------------------------------:|
@@ -21207,9 +21207,9 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 poison damage; I < 0 frightened (save ends)
-> - **12-16:** 4 poison damage; I < 1 frightened (save ends)
-> - **17+:** 5 poison damage; I < 2 frightened (save ends)
+> - **≤11:** 2 poison damage; I < 0 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** 4 poison damage; I < 1 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 5 poison damage; I < 2 [frightened](../condition/frightened.md) (save ends)
 >
 > **Effect:** The area is filled with a cloud of pestilence that lasts until the start of the pestilite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage.
 
@@ -21219,11 +21219,11 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the pestilite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the pestilite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Phosphorite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-phosphorite"}
 
@@ -21233,7 +21233,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |   **Acid 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🏹 **Caustic Detonator (Signature Ability)**
+> 🏹 **Caustic Detonator ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -21243,11 +21243,11 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 acid damage; M < 0 bleeding (save ends)
-> - **12-16:** 6 acid damage; M < 1 bleeding (save ends)
-> - **17+:** 10 acid damage; M < 2 bleeding (save ends)
+> - **≤11:** 4 acid damage; M < 0 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 6 acid damage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 10 acid damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Special:** A creature adjacent to the target can attempt an **Agility test** as a maneuver to remove the detonator.
+> **Special:** A creature [adjacent](../rule/combat/adjacent.md) to the target can attempt an **Agility test** as a maneuver to remove the detonator.
 >
 > - **≤11:** No effect.
 > - **12-16:** The detonator is disarmed and destroyed.
@@ -21259,11 +21259,11 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the phosphorite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the phosphorite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Subcommander {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-subcommander"}
 
@@ -21273,7 +21273,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Command Saber (Signature Ability)**
+> 🗡 **Command Saber ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -21285,7 +21285,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** One ally within 5 squares of the subcommander can make a free strike against the target.
+> **Effect:** One ally within 5 squares of the subcommander can make a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21293,7 +21293,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **The Iron Saint Does Not Recognize Retreat**
 >
@@ -21301,7 +21301,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 
 > ⭐️ **Loyalty Collar**
 >
-> When the subcommander is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the subcommander is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Teletalite {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-teletalite"}
 
@@ -21311,7 +21311,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |    **+2**<br>Agility     |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> ⚔️ **Corrupted Ash Daggers (Signature Ability)**
+> ⚔️ **Corrupted Ash Daggers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -21319,13 +21319,13 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; slide 1
-> - **12-16:** 6 damage; slide 2
-> - **17+:** 7 damage; slide 3
+> - **≤11:** 4 damage; [slide](../movement/forced-movement.md) 1
+> - **12-16:** 6 damage; [slide](../movement/forced-movement.md) 2
+> - **17+:** 7 damage; [slide](../movement/forced-movement.md) 3
 >
-> **Effect:** The teletalite gains an edge on this ability if any ally is adjacent to the target.
+> **Effect:** The teletalite gains an edge on this ability if any ally is [adjacent](../rule/combat/adjacent.md) to the target.
 >
-> **1 Malice:** The teletalite teleports the target 3 squares before sliding them.
+> **1 [Malice](../rule/monster/malice.md):** The teletalite [teleports](../movement/teleport.md) the target 3 squares before sliding them.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21333,19 +21333,19 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
-> 👤 **Corrupted Ash Teleport (1 Malice)**
+> 👤 **Corrupted Ash Teleport (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic**   | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The teletalite can teleport up to 5 squares and gains an edge on strikes until the end of their turn.
+> **Effect:** The teletalite can [teleport](../movement/teleport.md) up to 5 squares and gains an edge on strikes until the end of their turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the teletalite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the teletalite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Ground Commander {data-scc="mcdm.monsters.v1/monster.war-dogs.1st-echelon.statblock/war-dog-ground-commander"}
 
@@ -21355,7 +21355,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Conditioning Spear (Signature Ability)**
+> ⚔️ **Conditioning Spear ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
 > |------------------------------------|--------------------------------:|
@@ -21363,13 +21363,13 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; pull 1
-> - **12-16:** 12 damage; pull 2
-> - **17+:** 15 damage; pull 3
+> - **≤11:** 8 damage; [pull](../movement/forced-movement.md) 1
+> - **12-16:** 12 damage; [pull](../movement/forced-movement.md) 2
+> - **17+:** 15 damage; [pull](../movement/forced-movement.md) 3
 >
-> **Effect:** One ally within 10 squares of the ground commander can make a free strike.
+> **Effect:** One ally within 10 squares of the ground commander can make a [free strike](../feature/common/main-actions/free-strike.md).
 >
-> **1 Malice:** A target who has I < 2 and who is adjacent to the ground commander after this ability is resolved is grabbed (save ends). This grab can't be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.
+> **1 [Malice](../rule/monster/malice.md):** A target who has I < 2 and who is [adjacent](../rule/combat/adjacent.md) to the ground commander after this ability is resolved is [grabbed](../condition/grabbed.md) (save ends). This grab can't be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.
 
 > ❇️ **Highest Posthumous Promotion**
 >
@@ -21377,7 +21377,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-----------------|--------------------------------:|
 > | **📏 10 burst** | **🎯 Each war dog in the area** |
 >
-> **Effect:** Any target who has a loyalty collar is reduced to 0 Stamina.
+> **Effect:** Any target who has a loyalty collar is reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ❗️ **Final Orders**
 >
@@ -21385,41 +21385,41 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > |-------------------|---------------------:|
 > | **📏 Ranged 10**  |      **🎯 One ally** |
 >
-> **Trigger:** The target takes damage, is force moved, or is reduced to 0 Stamina.
+> **Trigger:** The target takes damage, is [forced moved](../movement/forced-movement.md), or is reduced to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** Even if reduced to 0 Stamina, the target moves up to their speed and can make a free strike after the triggering effect is resolved. The target then immediately dies.
+> **Effect:** Even if reduced to 0 [Stamina](../rule/health/stamina.md), the target moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) after the triggering effect is resolved. The target then immediately dies.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the ground commander is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the ground commander is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
-> ☠️ **Combined Arms (Villain Action 1)**
+> ☠️ **Combined Arms ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can make a ranged free strike, then immediately use the Charge main action.
+> **Effect:** Each target can make a ranged [free strike](../feature/common/main-actions/free-strike.md), then immediately use the Charge main action.
 
-> ☠️ **Make an Example of Them (Villain Action 2)**
+> ☠️ **Make an Example of Them ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Magic, Ranged** |            **-** |
 > |-------------------|-----------------:|
 > | **📏 Ranged 10**  | **🎯 One enemy** |
 >
-> **Effect:** Each ally within 5 squares of the target moves up to their speed and can make a free strike against the target. If the target has I < 2, they are frightened of the ground commander (save ends).
+> **Effect:** Each ally within 5 squares of the target moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) against the target. If the target has I < 2, they are [frightened](../condition/frightened.md) of the ground commander (save ends).
 
-> ☠️ **Claim Them for the Body Banks (Villain Action 3)**
+> ☠️ **Claim Them for the Body Banks ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
 > | **📏 10 burst** | **🎯 Each creature in the area** |
 >
-> **Effect:** Each target ally shifts up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver.
+> **Effect:** Each target ally [shifts](../movement/shifting.md) up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver.
 
 ### War Dogs-2nd Echelon
 
@@ -21439,23 +21439,23 @@ Insubordinate war dogs are usually punished with a trip back to the Body Banks, 
 
 ###### War Dog Malice (Level 4+ Malice Features) {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon/war-dog-malice-level-4-malice-features"}
 
-At the start of any level 4 or higher war dog's turn, you can spend Malice to activate one of the following features.
+At the start of any level 4 or higher war dog's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (3-7 Malice)**
+> ⭐️ **Prior [Malice](../rule/monster/malice.md) Features (3-7 [Malice](../rule/monster/malice.md))**
 >
-> The war dog activates a Malice feature available to war dogs of level 3 or lower.
+> The war dog activates a [Malice](../rule/monster/malice.md) feature available to war dogs of level 3 or lower.
 
-> 🏹 **Loyalty Unto Death (5 Malice)**
+> 🏹 **Loyalty Unto Death (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** |        **Maneuver** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 Two war dogs** |
 >
-> **Effect:** Each target who has a loyalty collar shifts up to their speed, then is reduced to 0 Stamina. After each target's Loyalty Collar trait is resolved, each enemy adjacent to either target makes a Presence test.
+> **Effect:** Each target who has a loyalty collar [shifts](../movement/shifting.md) up to their speed, then is reduced to 0 [Stamina](../rule/health/stamina.md). After each target's Loyalty Collar trait is resolved, each enemy [adjacent](../rule/combat/adjacent.md) to either target makes a Presence test.
 >
-> - **≤11:** Push 4; the enemy is frightened of the nearest non-minion war dog (save ends)
-> - **12-16:** Push 2; the enemy is frightened of the nearest non-minion war dog (EoT)
-> - **17+:** Push 2
+> - **≤11:** [Push](../movement/forced-movement.md) 4; the enemy is [frightened](../condition/frightened.md) of the nearest non-[minion](../rule/organization/minion.md) war dog (save ends)
+> - **12-16:** [Push](../movement/forced-movement.md) 2; the enemy is [frightened](../condition/frightened.md) of the nearest non-[minion](../rule/organization/minion.md) war dog (EoT)
+> - **17+:** [Push](../movement/forced-movement.md) 2
 
 ###### War Dog Sparkslinger {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-sparkslinger"}
 
@@ -21465,7 +21465,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | **Lightning 4**<br>Immunity | **-**<br>Movement |        -         | **Lightning spread increases by 1 square**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **0**<br>Agility  | **+3**<br>Reason |                     **0**<br>Intuition                     |  **+2**<br>Presence   |
 
-> 🏹 **Galvanic Arc (Signature Ability)**
+> 🏹 **Galvanic Arc ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -21481,7 +21481,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the sparkslinger is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the sparkslinger is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Sweeper {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-sweeper"}
 
@@ -21491,7 +21491,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+3**<br>Agility | **0**<br>Reason  |             **+2**<br>Intuition             |   **0**<br>Presence   |
 
-> ⚔️ **Shrikegun Shot (Signature Ability)**
+> ⚔️ **Shrikegun Shot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -21500,14 +21500,14 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > **Power Roll + 3:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; push 1
-> - **17+:** 6 damage; push 3
+> - **12-16:** 4 damage; [push](../movement/forced-movement.md) 1
+> - **17+:** 6 damage; [push](../movement/forced-movement.md) 3
 >
 > **Effect:** Any target within 2 squares of the sweeper takes an extra 3 damage.
 
 > ⭐️ **Shrapnel-Laced Loyalty Collar**
 >
-> When the sweeper is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them.
+> When the sweeper is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them.
 
 ###### War Dog War Frog {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-war-frog"}
 
@@ -21517,7 +21517,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |  **Poison 4**<br>Immunity   | **Climb, swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |       **-1**<br>Might       |      **+3**<br>Agility      | **0**<br>Reason  |          **+2**<br>Intuition          |   **0**<br>Presence   |
 
-> ⚔️ **Poisoned Dagger (Signature Ability)**
+> ⚔️ **Poisoned Dagger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                **Main action** |
 > |-----------------------------------|-------------------------------:|
@@ -21533,7 +21533,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the war frog is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the war frog is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Arachnite {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-arachnite"}
 
@@ -21543,7 +21543,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |  **Psychic 6**<br>Immunity  | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |   **+3**<br>Agility   | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🏹 **Longarm Shrikegun (Signature Ability)**
+> 🏹 **Longarm Shrikegun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -21553,11 +21553,11 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > - **≤11:** 7 damage
 > - **12-16:** 9 damage
-> - **17+:** 11 damage; A < 3 bleeding (save ends)
+> - **17+:** 11 damage; A < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
 > **Effect:** This ability ignores cover and concealment. The arachnite chooses one of the following damage types when making the strike: acid, cold, fire, lightning, poison, psychic, or sonic.
 >
-> **2 Malice:** The arachnite can use this ability as if they were in the space of any ally within distance.
+> **2 [Malice](../rule/monster/malice.md):** The arachnite can use this ability as if they were in the space of any ally within distance.
 
 > 🔳 **Web Vial**
 >
@@ -21565,7 +21565,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > |-------------------------|---------------:|
 > | **📏 2 cube within 10** | **🎯 Special** |
 >
-> **Effect:** The area is difficult terrain until the end of the encounter.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) until the end of the encounter.
 
 > ⭐️ **Eight-Eyed Sight**
 >
@@ -21573,7 +21573,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the arachnite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the arachnite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Doomthief {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-doomthief"}
 
@@ -21583,7 +21583,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **-1**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🔳 **Ripper Shrikegun (Signature Ability)**
+> 🔳 **Ripper Shrikegun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Weapon**            |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -21591,9 +21591,9 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; push 1
-> - **12-16:** 5 damage; push 3
-> - **17+:** 6 damage; push 5; A < 3 slowed (save ends)
+> - **≤11:** 3 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 5 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 6 damage; [push](../movement/forced-movement.md) 5; A < 3 [slowed](../condition/slowed.md) (save ends)
 >
 > **Effect:** The doomthief can't willingly move on the same turn they use this ability.
 
@@ -21601,7 +21601,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > The doomthief emits a 3 aura of warped fate that blocks line of effect for any enemy ability that doesn't include them as a target.
 
-> 👤 **Expanding Doom (4 Malice)**
+> 👤 **Expanding Doom (4 [Malice](../rule/monster/malice.md))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
@@ -21611,7 +21611,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the doomthief is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Equivite {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-equivite"}
 
@@ -21621,7 +21621,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+3**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Fuse-Iron Lance (Signature Ability)**
+> 🗡 **Fuse-Iron Lance ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -21631,11 +21631,11 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > - **≤11:** 6 damage
 > - **12-16:** 8 damage
-> - **17+:** 10 damage; I < 3 frightened (save ends)
+> - **17+:** 10 damage; I < 3 [frightened](../condition/frightened.md) (save ends)
 >
 > **Effect:** This ability gains an edge while charging.
 >
-> **2 Malice:** The ability deals an extra 3 fire damage to the target and each enemy adjacent to the target.
+> **2 [Malice](../rule/monster/malice.md):** The ability deals an extra 3 fire damage to the target and each enemy [adjacent](../rule/combat/adjacent.md) to the target.
 
 > 🗡 **Blazing Charge**
 >
@@ -21643,17 +21643,17 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > |---------------------------|---------------:|
 > | **📏 Special; see below** | **🎯 Special** |
 >
-> **Effect:** The equivite moves up to their speed and ignores difficult terrain. Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
+> **Effect:** The equivite moves up to their speed and ignores [difficult terrain](../movement/difficult-terrain.md). Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 2 damage; push 1
-> - **12-16:** 4 damage; push 2
-> - **17+:** 5 damage; push 3; M < 3 prone
+> - **≤11:** 2 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 4 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 5 damage; [push](../movement/forced-movement.md) 3; M < 3 [prone](../condition/prone.md)
 
 > ⭐️ **Loyalty Collar**
 >
-> When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the equivite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Hypokrite {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-hypokrite"}
 
@@ -21663,7 +21663,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🗡 **Needle-Knife (Signature Ability)**
+> 🗡 **Needle-Knife ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -21672,12 +21672,12 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > **Power Roll + 3:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 8 damage; A < 2 bleeding (save ends)
-> - **17+:** 10 damage; A < 3 bleeding and weakened (save ends)
+> - **12-16:** 8 damage; A < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 10 damage; A < 3 [bleeding](../condition/bleeding.md) and [weakened](../condition/weakened.md) (save ends)
 >
 > **Effect:** This ability deals an extra 6 damage if the hypokrite is hidden or disguised.
 
-> ❗️ **Feign Death (2 Malice)**
+> ❗️ **Feign Death (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged**       | **Triggered action** |
 > |------------------|---------------------:|
@@ -21685,15 +21685,15 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > **Trigger:** The hypokrite takes damage.
 >
-> **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each adjacent enemy, but teleports to an unoccupied space adjacent to an ally within distance and remains alive.
+> **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy, but [teleports](../movement/teleport.md) to an unoccupied space [adjacent](../rule/combat/adjacent.md) to an ally within distance and remains alive.
 
 > ⭐️ **Face in the Crowd**
 >
-> The hypokrite is invisible while adjacent to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect.
+> The hypokrite is invisible while [adjacent](../rule/combat/adjacent.md) to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the hypokrite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the hypokrite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Mischievite {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-mischievite"}
 
@@ -21703,7 +21703,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> ⚔️ **Fuse-Iron Knives (Signature Ability)**
+> ⚔️ **Fuse-Iron Knives ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |      **Main action** |
 > |-----------------------------------|---------------------:|
@@ -21723,9 +21723,9 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > |-----------------|------------------------------------:|
 > | **📏 Ranged 3** | **🎯 One ally or dazzled creature** |
 >
-> **Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a free strike before or after being swapped.
+> **Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a [free strike](../feature/common/main-actions/free-strike.md) before or after being swapped.
 >
-> **2 Malice:** The mischievite can use this ability as a triggered action when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.
+> **2 [Malice](../rule/monster/malice.md):** The mischievite can use this ability as a [triggered action](../rule/combat/triggered-action.md) when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.
 
 > ⭐️ **Crafty**
 >
@@ -21733,7 +21733,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the mischievite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the mischievite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Thanatite {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-thanatite"}
 
@@ -21743,7 +21743,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+1**<br>Agility | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🏹 **Snaking Entrails (Signature Ability)**
+> 🏹 **Snaking Entrails ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged** | **Main action** |
 > |-------------------|----------------:|
@@ -21753,11 +21753,11 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 corruption damage; A < 1 slowed (save ends)
-> - **12-16:** 5 corruption damage; A < 2 slowed (save ends)
-> - **17+:** 7 corruption damage; A < 3 restrained (save ends)
+> - **≤11:** 3 corruption damage; A < 1 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 5 corruption damage; A < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 7 corruption damage; A < 3 [restrained](../condition/restrained.md) (save ends)
 >
-> **3 Malice:** If an affected enemy is adjacent to any corpse, they are frightened of the thanatite (save ends).
+> **3 [Malice](../rule/monster/malice.md):** If an affected enemy is [adjacent](../rule/combat/adjacent.md) to any corpse, they are [frightened](../condition/frightened.md) of the thanatite (save ends).
 
 > 🔳 **Wall of Flesh**
 >
@@ -21765,11 +21765,11 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > |--------------------------|------------------:|
 > | **📏 10 wall within 10** | **🎯 One corpse** |
 >
-> **Effect:** The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically slides up to 2 squares and is knocked prone. Each square of the wall has 3 Stamina.
+> **Effect:** The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically [slides](../movement/forced-movement.md) up to 2 squares and is knocked [prone](../condition/prone.md). Each square of the wall has 3 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the thanatite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the thanatite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Tormentite {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-tormentite"}
 
@@ -21779,7 +21779,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **0**<br>Agility  | **+2**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **Mark of Agony (Signature Ability)**
+> 🏹 **Mark of Agony ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -21793,7 +21793,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > **Effect:** Strikes made against a target marked this way gain an edge. Additionally, whenever the tormentite takes damage, each target marked by them takes 3 damage.
 
-> 🔳 **Vortex of Pain (3 Malice)**
+> 🔳 **Vortex of Pain (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -21803,9 +21803,9 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > - **≤11:** 2 corruption damage
 > - **12-16:** 4 corruption damage
-> - **17+:** 5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one target
+> - **17+:** 5 corruption damage; one ally in the area can end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md), and can give that effect to one target
 >
-> **Effect:** The tormentite regains 2 Stamina for each creature targeted by this ability.
+> **Effect:** The tormentite regains 2 [Stamina](../rule/health/stamina.md) for each creature targeted by this ability.
 
 > ⭐️ **Persistent Pain**
 >
@@ -21813,7 +21813,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the tormentite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog War Doc {data-scc="mcdm.monsters.v1/monster.war-dogs.2nd-echelon.statblock/war-dog-war-doc"}
 
@@ -21823,7 +21823,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+1**<br>Agility | **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **Syringe Crossbow (Signature Ability)**
+> 🏹 **Syringe Crossbow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -21833,9 +21833,9 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > - **≤11:** 6 poison damage
 > - **12-16:** 8 poison damage
-> - **17+:** 9 poison damage; M < 3 weakened (save ends)
+> - **17+:** 9 poison damage; M < 3 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** A target enemy is subject to this ability's power roll. A target ally instead gains 5 temporary Stamina and can make a free strike.
+> **Effect:** A target enemy is subject to this ability's power roll. A target ally instead gains 5 temporary [Stamina](../rule/health/stamina.md) and can make a [free strike](../feature/common/main-actions/free-strike.md).
 
 > 🏹 **Posthumous Promotion**
 >
@@ -21843,9 +21843,9 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
-> ❗️ **Sanguine Stimulants (1 Malice)**
+> ❗️ **Sanguine Stimulants (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Magic, Ranged** | **Triggered action** |
 > |-------------------|---------------------:|
@@ -21853,11 +21853,11 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 >
 > **Trigger:** One ally within distance dies.
 >
-> **Effect:** Each ally adjacent to the dead ally deals an extra 6 damage on their next strike.
+> **Effect:** Each ally [adjacent](../rule/combat/adjacent.md) to the dead ally deals an extra 6 damage on their next strike.
 
 > ⭐️ **Body Bank Branch Manager**
 >
-> If the war doc uses the Reconstitute war dog Malice feature, it costs 1 Malice less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute).
+> If the war doc uses the Reconstitute war dog [Malice](../rule/monster/malice.md) feature, it costs 1 [Malice](../rule/monster/malice.md) less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute).
 
 ##### No Loyalty Collar?
 
@@ -21871,7 +21871,7 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+4**<br>Presence  |
 
-> ⚔️ **Houndblade (Signature Ability)**
+> ⚔️ **Houndblade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Ranged, Strike, Weapon** |                 **Main action** |
 > |-------------------------------------------|--------------------------------:|
@@ -21885,15 +21885,15 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 >
 > **Effect:** A creature taunted this way takes a bane on strikes.
 >
-> **3 Malice:** Each target loses 1d3 Recoveries.
+> **3 [Malice](../rule/monster/malice.md):** Each target loses 1d3 Recoveries.
 
-> 🏹 **Get Them, You Dolts! (1 Malice per target)**
+> 🏹 **Get Them, You Dolts! (1 [Malice](../rule/monster/malice.md) per target)**
 >
 > | **Ranged**       |           **Maneuver** |
 > |------------------|-----------------------:|
 > | **📏 Ranged 10** | **🎯 Three creatures** |
 >
-> **Effect:** Each target shifts up to their speed and can make a free strike. If the free strike targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
+> **Effect:** Each target [shifts](../movement/shifting.md) up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md). If the [free strike](../feature/common/main-actions/free-strike.md) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
 
 > ❗️ **Sneering Disregard**
 >
@@ -21903,13 +21903,13 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 >
 > **Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.
 >
-> **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is frightened of the tetrarch (save ends).
+> **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](../condition/frightened.md) of the tetrarch (save ends).
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> ☠️ **Enter the Fray (Villain Action 1)**
+> ☠️ **Enter the Fray ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -21919,11 +21919,11 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Push 2; I < 2 frightened (save ends)
-> - **12-16:** Push 4; I < 3 frightened (save ends)
-> - **17+:** Push 5; I < 4 frightened (save ends)
+> - **≤11:** [Push](../movement/forced-movement.md) 2; I < 2 [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** [Push](../movement/forced-movement.md) 4; I < 3 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** [Push](../movement/forced-movement.md) 5; I < 4 [frightened](../condition/frightened.md) (save ends)
 
-> ☠️ **Lay Waste (Villain Action 2)**
+> ☠️ **Lay Waste ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Ranged, Weapon**      |                                       **-** |
 > |-------------------------------|--------------------------------------------:|
@@ -21931,13 +21931,13 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 fire damage; A < 2 slowed (EoT)
-> - **12-16:** 13 fire damage; A < 3 slowed (save ends)
-> - **17+:** 16 fire damage; A < 4 slowed (save ends)
+> - **≤11:** 7 fire damage; A < 2 [slowed](../condition/slowed.md) (EoT)
+> - **12-16:** 13 fire damage; A < 3 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 16 fire damage; A < 4 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** The area is set ablaze until the end of the encounter. While ablaze, the area is difficult terrain, and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
+> **Effect:** The area is set ablaze until the end of the encounter. While ablaze, the area is [difficult terrain](../movement/difficult-terrain.md), and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
 
-> ☠️ **You Would Dare?! (Villain Action 3)**
+> ☠️ **You Would Dare?! ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
@@ -21961,18 +21961,18 @@ These monstrous war dogs are developed to fulfill specific roles and combat nich
 
 ###### War Dog Malice (Level 7+ Malice Features) {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon/war-dog-malice-level-7-malice-features"}
 
-At the start of any level 7 or higher war dog's turn, you can spend Malice to activate one of the following features.
+At the start of any level 7 or higher war dog's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (3-7 Malice)**
+> ⭐️ **Prior [Malice](../rule/monster/malice.md) Features (3-7 [Malice](../rule/monster/malice.md))**
 >
-> The war dog activates a Malice feature available to war dogs of level 6 or lower.
+> The war dog activates a [Malice](../rule/monster/malice.md) feature available to war dogs of level 6 or lower.
 
-> 🌀 **Alchemical Cloud (7 Malice)**
+> 🌀 **Alchemical Cloud (7 [Malice](../rule/monster/malice.md))**
 >
 > A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
 >
-> - **≤11:** 8 poison damage; dazed (EoT)
-> - **12-16:** 7 poison damage; weakened (EoT)
+> - **≤11:** 8 poison damage; [dazed](../condition/dazed.md) (EoT)
+> - **12-16:** 7 poison damage; [weakened](../condition/weakened.md) (EoT)
 > - **17+:** 4 poison damage
 
 ###### War Dog Draconite {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-draconite"}
@@ -21983,7 +21983,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+4**<br>Might       | **+1**<br>Agility | **-2**<br>Reason  |              **-1**<br>Intuition               |  **+2**<br>Presence   |
 
-> 🗡 **Greatsword and Roar (Signature Ability)**
+> 🗡 **Greatsword and Roar ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -21995,11 +21995,11 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > - **12-16:** 4 damage, 3 psychic damage
 > - **17+:** 4 damage, 4 psychic damage; the target must move their speed in a straight line away from the draconite
 >
-> **Effect:** If this damage leaves the target winded, they are frightened of the draconite until the end of the target's next turn.
+> **Effect:** If this damage leaves the target [winded](../rule/health/winded.md), they are [frightened](../condition/frightened.md) of the draconite until the end of the target's next turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the draconite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the draconite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Saboteur {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-saboteur"}
 
@@ -22009,7 +22009,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |       **-1**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |               **+3**<br>Intuition               |  **+1**<br>Presence   |
 
-> 🏹 **Fuse-Iron Bomb (Signature Ability)**
+> 🏹 **Fuse-Iron Bomb ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Weapon** |                          **Main action** |
 > |--------------------|-----------------------------------------:|
@@ -22018,14 +22018,14 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 fire damage
-> - **12-16:** 7 fire damage; push 1
-> - **17+:** 8 fire damage; push 3
+> - **12-16:** 7 fire damage; [push](../movement/forced-movement.md) 1
+> - **17+:** 8 fire damage; [push](../movement/forced-movement.md) 3
 >
 > **Effect:** The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the saboteur is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Shriketroop {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-shriketroop"}
 
@@ -22035,7 +22035,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+1**<br>Might       | **+4**<br>Agility | **+3**<br>Reason  |             **+1**<br>Intuition             |  **+1**<br>Presence   |
 
-> 🏹 **Canis Shrikegun (Signature Ability)**
+> 🏹 **Canis Shrikegun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -22045,13 +22045,13 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 8 damage; I < 3 the target is frightened of all shriketroops (EoT)
+> - **17+:** 8 damage; I < 3 the target is [frightened](../condition/frightened.md) of all shriketroops (EoT)
 >
 > **Effect:** The target must move their speed in a straight line away from the shriketroop.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the shriketroop is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the shriketroop is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Aerocite {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-aerocite"}
 
@@ -22061,7 +22061,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+4**<br>Agility  | **+1**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Dive Bomb (Signature Ability)**
+> 🗡 **Dive Bomb ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -22070,12 +22070,12 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; vertical slide 2
-> - **17+:** 12 damage; vertical slide 3
+> - **12-16:** 10 damage; vertical [slide](../movement/forced-movement.md) 2
+> - **17+:** 12 damage; vertical [slide](../movement/forced-movement.md) 3
 >
-> **1 Malice:** An enemy force moved by this ability is grabbed instead.
+> **1 [Malice](../rule/monster/malice.md):** An enemy [forced moved](../movement/forced-movement.md) by this ability is [grabbed](../condition/grabbed.md) instead.
 
-> 🔳 **Caustic Paste Bomb (2 Malice)**
+> 🔳 **Caustic Paste Bomb (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                               **Maneuver** |
 > |-------------------------|-------------------------------------------:|
@@ -22083,11 +22083,11 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 2 acid damage; M < 2 slowed (save ends)
-> - **12-16:** 4 acid damage; M < 3 slowed (save ends)
-> - **17+:** 6 acid damage; M < 4 slowed (save ends)
+> - **≤11:** 2 acid damage; M < 2 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 4 acid damage; M < 3 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 6 acid damage; M < 4 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** The area is difficult terrain.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md).
 
 > ⭐️ **Jetwing Agility**
 >
@@ -22095,7 +22095,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the aerocite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the aerocite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Ballistite {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-ballistite"}
 
@@ -22105,7 +22105,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **-2**<br>Agility | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🏹 **Biokinetic Ballista (Signature Ability)**
+> 🏹 **Biokinetic Ballista ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -22113,19 +22113,19 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 10 damage; push 3
-> - **17+:** 11 damage; push 5
+> - **≤11:** 7 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 10 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 11 damage; [push](../movement/forced-movement.md) 5
 >
-> **Effect:** Any target pushed into an obstacle is knocked prone, and if they have M < 3 they are restrained (save ends).
+> **Effect:** Any target [pushed](../movement/forced-movement.md) into an obstacle is knocked [prone](../condition/prone.md), and if they have M < 3 they are [restrained](../condition/restrained.md) (save ends).
 
-> 🔳 **Kill Zone (3 Malice)**
+> 🔳 **Kill Zone (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |   **Maneuver** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 12** | **🎯 Special** |
 >
-> **Effect:** Until the start of the ballistite's next turn, the area is difficult terrain, and any ranged ability targeting an enemy in the area deals an extra 8 damage.
+> **Effect:** Until the start of the ballistite's next turn, the area is [difficult terrain](../movement/difficult-terrain.md), and any ranged ability targeting an enemy in the area deals an extra 8 damage.
 
 > ⭐️ **Set Up and Tear Down**
 >
@@ -22133,7 +22133,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the ballistite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the ballistite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Blackcap {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-blackcap"}
 
@@ -22143,7 +22143,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |    **+4**<br>Agility     | **+4**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> ⚔️ **Flesh-Eater Knife (Signature Ability)**
+> ⚔️ **Flesh-Eater Knife ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |------------------------------------------|------------------------------:|
@@ -22153,9 +22153,9 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > - **≤11:** 8 damage
 > - **12-16:** 11 damage
-> - **17+:** 12 damage; M < 4 bleeding and weakened (save ends)
+> - **17+:** 12 damage; M < 4 [bleeding](../condition/bleeding.md) and [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** The blackcap can teleport up to their speed before using this ability, creating an ash clone (see below) in their original square.
+> **Effect:** The blackcap can [teleport](../movement/teleport.md) up to their speed before using this ability, creating an ash clone (see below) in their original square.
 
 > 🏹 **Ashes to Ashes**
 >
@@ -22163,15 +22163,15 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > |------------------|------------------------------:|
 > | **📏 Ranged 20** | **🎯 Up to three ash clones** |
 >
-> **Effect:** Each target makes a free strike.
+> **Effect:** Each target makes a [free strike](../feature/common/main-actions/free-strike.md).
 
 > ⭐️ **Ash Clones**
 >
-> An ash clone created by the blackcap has the blackcap's statistics but has 1 Stamina. Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves.
+> An ash clone created by the blackcap has the blackcap's statistics but has 1 [Stamina](../rule/health/stamina.md). Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves.
 
 > ⭐️ **Duplicating Loyalty Collar**
 >
-> When the blackcap or any of their ash clones is reduced to 0 Stamina, that creature's loyalty collar explodes, dealing 3d6 poison damage to each adjacent enemy and object. If any adjacent enemy has A < 3 they are also weakened (save ends)
+> When the blackcap or any of their ash clones is reduced to 0 [Stamina](../rule/health/stamina.md), that creature's loyalty collar explodes, dealing 3d6 poison damage to each [adjacent](../rule/combat/adjacent.md) enemy and object. If any [adjacent](../rule/combat/adjacent.md) enemy has A < 3 they are also [weakened](../condition/weakened.md) (save ends)
 
 ###### War Dog Breaker {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-breaker"}
 
@@ -22181,7 +22181,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+2**<br>Agility |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🗡 **Pile Bunker Gauntlet (Signature Ability)**
+> 🗡 **Pile Bunker Gauntlet ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -22189,9 +22189,9 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; push 4; prone
-> - **12-16:** 17 damage; slide 4; prone or M < 3 dazed (save ends)
-> - **17+:** 21 damage; slide 4; prone; M < 4 dazed (save ends)
+> - **≤11:** 12 damage; [push](../movement/forced-movement.md) 4; [prone](../condition/prone.md)
+> - **12-16:** 17 damage; [slide](../movement/forced-movement.md) 4; [prone](../condition/prone.md) or M < 3 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 21 damage; [slide](../movement/forced-movement.md) 4; [prone](../condition/prone.md); M < 4 [dazed](../condition/dazed.md) (save ends)
 
 > 👤 **Surging Power**
 >
@@ -22199,15 +22199,15 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all potency effect.
+> **Effect:** Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all [potency](../rule/character/potency.md) effect.
 
 > ⭐️ **Breaking Point**
 >
-> When the breaker would be reduced to 0 Stamina, they delay that effect as they end any conditions affecting them and immediately take a turn, regardless of whether they have already taken a turn this round. The breaker's abilities deal an extra 5 damage during this turn, at the end of which they are reduced to 0 Stamina.
+> When the breaker would be reduced to 0 [Stamina](../rule/health/stamina.md), they delay that effect as they end any conditions affecting them and immediately take a turn, regardless of whether they have already taken a turn this round. The breaker's abilities deal an extra 5 damage during this turn, at the end of which they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the breaker is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the breaker is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Firestarter {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-firestarter"}
 
@@ -22217,7 +22217,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |   **Fire 8**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **+3**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🔳 **Twin Flamebelchers (Signature Ability)**
+> 🔳 **Twin Flamebelchers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Weapon**            |                             **Main action** |
 > |-----------------------------|--------------------------------------------:|
@@ -22229,7 +22229,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > - **12-16:** 6 fire damage; A < 3 the target is seared (save ends)
 > - **17+:** 8 fire damage; A < 4 the target is seared (save ends)
 >
-> **Effect:** A seared creature takes a bane on strikes and has damage weakness 5. If this ability obtains a tier 3 outcome against one or more creatures who are already seared, the firestarter can use Enflame as a free triggered action.
+> **Effect:** A seared creature takes a bane on strikes and has damage weakness 5. If this ability obtains a tier 3 outcome against one or more creatures who are already seared, the firestarter can use Enflame as a free [triggered action](../rule/combat/triggered-action.md).
 
 > 🏹 **Enflame**
 >
@@ -22247,7 +22247,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the firestarter is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the firestarter is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Geomancer {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-geomancer"}
 
@@ -22257,7 +22257,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       |   **+1**<br>Agility    | **+4**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🔳 **Earthwave (Signature Ability)**
+> 🔳 **Earthwave ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Magic, Ranged**     |                  **Main action** |
 > |-----------------------------|---------------------------------:|
@@ -22265,13 +22265,13 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; M < 2 push (see effect)
-> - **12-16:** 6 damage; M < 3 push
-> - **17+:** 8 damage; M < 4 push, prone
+> - **≤11:** 3 damage; M < 2 [push](../movement/forced-movement.md) (see effect)
+> - **12-16:** 6 damage; M < 3 [push](../movement/forced-movement.md)
+> - **17+:** 8 damage; M < 4 [push](../movement/forced-movement.md), [prone](../condition/prone.md)
 >
-> **Effect:** This ability ignores stability. The geomancer declares a direction for the area, and any creature pushed by this ability is pushed to the last space in the area in the chosen direction.
+> **Effect:** This ability ignores stability. The geomancer declares a direction for the area, and any creature [pushed](../movement/forced-movement.md) by this ability is pushed to the last space in the area in the chosen direction.
 >
-> **2 Malice:** The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
+> **2 [Malice](../rule/monster/malice.md):** The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
 
 > 🔳 **Siegeworks**
 >
@@ -22279,7 +22279,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > |-------------------------|---------------:|
 > | **📏 5 wall within 10** | **🎯 Special** |
 >
-> **Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while adjacent to it.
+> **Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](../rule/combat/adjacent.md) to it.
 
 > ⭐️ **Dust Cloud**
 >
@@ -22287,7 +22287,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Loyalty Collar**
 >
-> When the geomancer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the geomancer is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Iron Priest {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-iron-priest"}
 
@@ -22297,7 +22297,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **+1**<br>Agility | **+1**<br>Reason  |  **+4**<br>Intuition  |  **+4**<br>Presence  |
 
-> 🔳 **Houndcannon (Signature Ability)**
+> 🔳 **Houndcannon ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Weapon**           |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -22306,18 +22306,18 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; P < 3 bleeding (save ends)
-> - **17+:** 8 damage; P < 4 the target loses 1 Recovery and is bleeding (save ends)
+> - **12-16:** 6 damage; P < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 8 damage; P < 4 the target loses 1 Recovery and is [bleeding](../condition/bleeding.md) (save ends)
 >
 > **Effect:** Any ally within 2 squares of the iron priest gains an edge on their next strike. If any target lost a Recovery, any affected ally has a double edge instead.
 
-> ❇️ **Iron Banner (2+ Malice)**
+> ❇️ **Iron Banner (2+ [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |                    **Maneuver** |
 > |-----------------|--------------------------------:|
 > | **📏 4 aura**   | **🎯 Each war dog in the area** |
 >
-> **Effect:** For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn.
+> **Effect:** For every 2 [Malice](../rule/monster/malice.md) spent, each target gains one of the following effects until the start of the iron priest's next turn.
 >
 > - The target has damage immunity 2.
 > - The target's strikes deal an extra 3 holy damage.
@@ -22325,7 +22325,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 
 > ⭐️ **Chosen of the Iron Saint**
 >
-> The Director gains 1 Malice whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll.
+> The Director gains 1 [Malice](../rule/monster/malice.md) whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll.
 
 ###### War Dog Prismite {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-prismite"}
 
@@ -22335,7 +22335,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | **-**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  |      **0**<br>Agility      | **+4**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
-> ❇️ **Grasping Tonguetacles (Signature Ability)**
+> ❇️ **Grasping Tonguetacles ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -22344,8 +22344,8 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 psychic damage
-> - **12-16:** 6 psychic damage; R < 3 grabbed, pull 2
-> - **17+:** 8 psychic damage; R < 4 grabbed and the target takes a bane on the Escape Grab maneuver, pull 2
+> - **12-16:** 6 psychic damage; R < 3 [grabbed](../condition/grabbed.md), [pull](../movement/forced-movement.md) 2
+> - **17+:** 8 psychic damage; R < 4 [grabbed](../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver, [pull](../movement/forced-movement.md) 2
 
 > 🔳 **Hard Light Field**
 >
@@ -22355,7 +22355,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Effect:** Until the start of the prismite's next turn, each target has cover and gains a +2 bonus to stability.
 
-> ❗️ **Tractor Beam (1 Malice)**
+> ❗️ **Tractor Beam (1 [Malice](../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged** |        **Triggered action** |
 > |---------------------|----------------------------:|
@@ -22363,11 +22363,11 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Trigger:** An enemy within distance uses a melee ability against an ally.
 >
-> **Effect:** The target is pulled up to 5 squares toward the prismite and any damage from the triggering ability is halved.
+> **Effect:** The target is [pulled](../movement/forced-movement.md) up to 5 squares toward the prismite and any damage from the triggering ability is halved.
 
 > ⭐️ **Prismacore Detonation**
 >
-> When the prismite is reduced to 0 Stamina, they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them.
+> When the prismite is reduced to 0 [Stamina](../rule/health/stamina.md), they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them.
 
 ###### War Dog Taxiarch {data-scc="mcdm.monsters.v1/monster.war-dogs.3rd-echelon.statblock/war-dog-taxiarch"}
 
@@ -22377,7 +22377,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |    **+3**<br>Agility     |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🏹 **Stunning Surge (Signature Ability)**
+> 🏹 **Stunning Surge ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -22385,21 +22385,21 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 lightning damage; the lightning spreads 1 square; I < 3 dazed (save ends)
-> - **12-16:** 19 lightning damage; the lightning spreads 2 squares; I < 4 dazed (save ends)
-> - **17+:** 23 lightning damage; the lightning spreads 3 squares; I < 5 dazed (save ends)
+> - **≤11:** 14 lightning damage; the lightning spreads 1 square; I < 3 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 19 lightning damage; the lightning spreads 2 squares; I < 4 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 23 lightning damage; the lightning spreads 3 squares; I < 5 [dazed](../condition/dazed.md) (save ends)
 >
 > **Effect:** The spread is the distance the charge arcs from a target to nearby enemies. Each enemy within spread takes 5 lightning damage.
 >
-> **2 Malice:** The lighting spread increases by 2 squares. Additionally, any creature who takes lightning damage from this ability and who has M < 4 is slowed until the end of their next turn.
+> **2 [Malice](../rule/monster/malice.md):** The lighting spread increases by 2 squares. Additionally, any creature who takes lightning damage from this ability and who has M < 4 is [slowed](../condition/slowed.md) until the end of their next turn.
 
-> 🔳 **Overcharge (2 Malice)**
+> 🔳 **Overcharge (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                    **Maneuver** |
 > |-------------------------|--------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each war dog in the area** |
 >
-> **Effect:** Each target shifts up to their speed and can make a free strike that deals an extra 5 lightning damage.
+> **Effect:** Each target [shifts](../movement/shifting.md) up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) that deals an extra 5 lightning damage.
 
 > ❗️ **Thunderstruck**
 >
@@ -22409,29 +22409,29 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 >
 > **Trigger:** An enemy within distance deals damage to the taxiarch.
 >
-> **Effect:** After the ability is resolved, the target is teleported up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them.
+> **Effect:** After the ability is resolved, the target is [teleported](../movement/teleport.md) up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the taxiarch can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the taxiarch can take 15 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> ☠️ **Magnetic Trickery (Villain Action 1)**
+> ☠️ **Magnetic Trickery ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Slide 5, and if the the target has M < 4, they fall prone.
+> **Effect:** [Slide](../movement/forced-movement.md) 5, and if the the target has M < 4, they fall [prone](../condition/prone.md).
 
-> ☠️ **Conductor of Combat (Villain Action 2)**
+> ☠️ **Conductor of Combat ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                           **-** |
 > |-----------------|--------------------------------:|
 > | **📏 5 burst**  | **🎯 Each war dog in the area** |
 >
-> **Effect:** Each target shifts up to their speed, then can make a free strike or use a maneuver.
+> **Effect:** Each target [shifts](../movement/shifting.md) up to their speed, then can make a [free strike](../feature/common/main-actions/free-strike.md) or use a maneuver.
 
-> ☠️ **Unlimited Power! (Villain Action 3)**
+> ☠️ **Unlimited Power! ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -22471,13 +22471,13 @@ Leader of the Legion Alkestis and one of the most brilliant commanders ever to b
 
 ###### War Dog Malice (Level 10+ Malice Features) {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon/war-dog-malice-level-10-malice-features"}
 
-At the start of any level 10 or higher war dog's turn, you can spend Malice to activate one of the following features.
+At the start of any level 10 or higher war dog's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (3-7 Malice)**
+> ⭐️ **Prior [Malice](../rule/monster/malice.md) Features (3-7 [Malice](../rule/monster/malice.md))**
 >
-> The war dog activates a Malice feature available to war dogs of level 9 or lower.
+> The war dog activates a [Malice](../rule/monster/malice.md) feature available to war dogs of level 9 or lower.
 
-> ❇️ **Cry Havoc (7 Malice)**
+> ❇️ **Cry Havoc (7 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
@@ -22486,12 +22486,12 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > **Power Roll + 5:**
 >
 > - **≤11:** 7 psychic damage
-> - **12-16:** 11 psychic damage; P < 4 frightened (save ends)
-> - **17+:** 14 psychic damage; P < 5 frightened (save ends)
+> - **12-16:** 11 psychic damage; P < 4 [frightened](../condition/frightened.md) (save ends)
+> - **17+:** 14 psychic damage; P < 5 [frightened](../condition/frightened.md) (save ends)
 >
-> **Effect:** Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a saving throw or that ends at the end of their turn, then shift up to their speed and can make a free strike.
+> **Effect:** Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their turn, then [shift](../movement/shifting.md) up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md).
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](../rule/organization/minion.md).
 
 ###### War Dog Blood Jumper {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/war-dog-blood-jumper"}
 
@@ -22501,7 +22501,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 |      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+5**<br>Might       |  **+4**<br>Agility  | **+2**<br>Reason  |          **+3**<br>Intuition          |   **+2**<br>Presence   |
 
-> 🗡 **Jumplance (Signature Ability)**
+> 🗡 **Jumplance ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -22511,15 +22511,15 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; A < 4 bleeding (save ends)
+> - **17+:** 9 damage; A < 4 [bleeding](../condition/bleeding.md) (save ends)
 
 > ⭐️ **Drop Troop**
 >
-> If the jumper doesn't end their turn on the ground, they fall prone.
+> If the jumper doesn't end their turn on the ground, they fall [prone](../condition/prone.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the jumper is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the jumper is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Hunter-Killer {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/war-dog-hunter-killer"}
 
@@ -22529,7 +22529,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+1**<br>Might       | **+5**<br>Agility | **+3**<br>Reason  |              **+5**<br>Intuition               |   **+2**<br>Presence   |
 
-> 🏹 **Fuse-Iron Rocket (Signature Ability)**
+> 🏹 **Fuse-Iron Rocket ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -22537,15 +22537,15 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 8 damage; push 3
-> - **17+:** 10 damage; push 4
+> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 8 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 10 damage; [push](../movement/forced-movement.md) 4
 >
-> **Effect:** Each enemy adjacent to the target before the forced movement takes 5 fire damage.
+> **Effect:** Each enemy [adjacent](../rule/combat/adjacent.md) to the target before the [forced movement](../movement/forced-movement.md) takes 5 fire damage.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the hunter-killer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the hunter-killer is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### War Dog Socialite {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/war-dog-socialite"}
 
@@ -22555,7 +22555,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | **Psychic 10**<br>Immunity  | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+2**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |             **+3**<br>Intuition             |   **+5**<br>Presence   |
 
-> 🏹 **Call to Self-Sabotage (Signature Ability)**
+> 🏹 **Call to Self-Sabotage ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike** |                **Main action** |
 > |-----------------------------|-------------------------------:|
@@ -22563,15 +22563,15 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** The target makes a free strike (tier 1 result) against themself
-> - **12-16:** The target makes a free strike (tier 2 result) against themself
-> - **17+:** The target makes a free strike (tier 3 result) against themself
+> - **≤11:** The target makes a [free strike](../feature/common/main-actions/free-strike.md) (tier 1 result) against themself
+> - **12-16:** The target makes a [free strike](../feature/common/main-actions/free-strike.md) (tier 2 result) against themself
+> - **17+:** The target makes a [free strike](../feature/common/main-actions/free-strike.md) (tier 3 result) against themself
 >
-> **Effect:** The target takes an extra 5 damage for each surge they have.
+> **Effect:** The target takes an extra 5 damage for each [surge](../rule/resource/surge.md) they have.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the socialite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the socialite is reduced to 0 [Stamina](../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object.
 
 ###### Castellan Hoplon {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/castellan-hoplon"}
 
@@ -22581,7 +22581,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 |  **Damage 3**<br>Immunity   | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+5**<br>Might       | **+2**<br>Agility |  **+4**<br>Reason   |  **+3**<br>Intuition  |   **+4**<br>Presence  |
 
-> 🗡 **Inspiring Strike (Signature Ability)**
+> 🗡 **Inspiring Strike ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -22590,20 +22590,20 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 20 damage; push 3
-> - **17+:** 24 damage; push 5
+> - **12-16:** 20 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 24 damage; [push](../movement/forced-movement.md) 5
 >
-> **Effect:** Two allies within 10 squares of Hoplon each shift up to their speed, then can take the Defend main action or make a free strike.
+> **Effect:** Two allies within 10 squares of Hoplon each [shift](../movement/shifting.md) up to their speed, then can take the Defend main action or make a [free strike](../feature/common/main-actions/free-strike.md).
 
-> 🏹 **Summon the Onyx Tower (5 Malice)**
+> 🏹 **Summon the Onyx Tower (5 [Malice](../rule/monster/malice.md))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
 > | **📏 Ranged 15** | **🎯 Special** |
 >
-> **Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or adjacent to the tower has damage immunity 2 and regains 5 Stamina at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter.
+> **Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or [adjacent](../rule/combat/adjacent.md) to the tower has damage immunity 2 and regains 5 [Stamina](../rule/health/stamina.md) at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter.
 
-> ❇️ **Shield Warden (2 Malice)**
+> ❇️ **Shield Warden (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
@@ -22625,7 +22625,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Trigger:** An enemy within 10 squares targets an ally with an ability.
 >
-> **Effect:** Hoplon teleports to an unoccupied space adjacent to the enemy and becomes the new target of the ability. He can then make a free strike against the enemy, and if that enemy has R < 4 they are taunted until the end of their next turn.
+> **Effect:** Hoplon [teleports](../movement/teleport.md) to an unoccupied space [adjacent](../rule/combat/adjacent.md) to the enemy and becomes the new target of the ability. He can then make a [free strike](../feature/common/main-actions/free-strike.md) against the enemy, and if that enemy has R < 4 they are taunted until the end of their next turn.
 
 > ⭐️ **Hold the Line**
 >
@@ -22633,7 +22633,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 
 > ⭐️ **Last Stand**
 >
-> The first time in an encounter that Hoplon is reduced to 0 Stamina, he instead has 1 Stamina and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 Stamina again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter.
+> The first time in an encounter that Hoplon is reduced to 0 [Stamina](../rule/health/stamina.md), he instead has 1 [Stamina](../rule/health/stamina.md) and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 [Stamina](../rule/health/stamina.md) again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter.
 
 ###### Iron Champion Doru {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/iron-champion-doru"}
 
@@ -22643,7 +22643,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 |      **-**<br>Immunity      | **-**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+5**<br>Might       | **+4**<br>Agility |  **+1**<br>Reason   |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Houndaxe (Signature Ability)**
+> 🗡 **Houndaxe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -22652,14 +22652,14 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; Doru gains an edge on his next power roll; M < 4 slide 3
-> - **17+:** 25 damage; Doru has a double edge on his next power roll; M < 5 slide 5
+> - **12-16:** 21 damage; Doru gains an edge on his next power roll; M < 4 [slide](../movement/forced-movement.md) 3
+> - **17+:** 25 damage; Doru has a double edge on his next power roll; M < 5 [slide](../movement/forced-movement.md) 5
 >
 > **Effect:** The damage from this ability can't be reduced in any way.
 >
-> **3 Malice:** This ability targets one additional target.
+> **3 [Malice](../rule/monster/malice.md):** This ability targets one additional target.
 
-> ❇️ **Bloody Whirlwind (2 Malice)**
+> ❇️ **Bloody Whirlwind (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                             **Main action** |
 > |------------------|--------------------------------------------:|
@@ -22667,11 +22667,11 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; A < 3 bleeding (save ends)
-> - **12-16:** 11 damage; A < 4 bleeding (save ends)
-> - **17+:** 15 damage; A < 5 bleeding (save ends)
+> - **≤11:** 5 damage; A < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 11 damage; A < 4 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 15 damage; A < 5 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** This ability deals an extra 5 damage for each winded target in the area.
+> **Effect:** This ability deals an extra 5 damage for each [winded](../rule/health/winded.md) target in the area.
 
 > 🏹 **Hunting Leap**
 >
@@ -22679,7 +22679,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > |-----------------|------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object** |
 >
-> **Effect:** Doru jumps to an unoccupied space adjacent to the target, then can make a free strike against them. If the target is bleeding or winded, the distance of the ability becomes Ranged 10 and the free strike deals an extra 5 damage.
+> **Effect:** Doru jumps to an unoccupied space [adjacent](../rule/combat/adjacent.md) to the target, then can make a [free strike](../feature/common/main-actions/free-strike.md) against them. If the target is [bleeding](../condition/bleeding.md) or [winded](../rule/health/winded.md), the distance of the ability becomes Ranged 10 and the [free strike](../feature/common/main-actions/free-strike.md) deals an extra 5 damage.
 
 > ❗️ **Laugh It Off**
 >
@@ -22693,15 +22693,15 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 
 > ⭐️ **Iron Juggernaut**
 >
-> Doru can't be made slowed or restrained. Additionally, he can move while grabbed, and a creature grabbing him moves along with him unless they let go.
+> Doru can't be made [slowed](../condition/slowed.md) or [restrained](../condition/restrained.md). Additionally, he can move while [grabbed](../condition/grabbed.md), and a creature grabbing him moves along with him unless they let go.
 
 > ⭐️ **The Scarless**
 >
-> Doru regains 10 Stamina at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whenever he regains Stamina this way, the Director can spend 2 Malice to end one effect on Doru that can be ended by a saving throw.
+> Doru regains 10 [Stamina](../rule/health/stamina.md) at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whenever he regains [Stamina](../rule/health/stamina.md) this way, the Director can spend 2 [Malice](../rule/monster/malice.md) to end one effect on Doru that can be ended by a [saving throw](../rule/general/saving-throw.md).
 
 > ⭐️ **Champion's Loyalty Collar**
 >
-> When Doru is reduced to 0 Stamina, his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him.
+> When Doru is reduced to 0 [Stamina](../rule/health/stamina.md), his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him.
 
 ###### Logostician Vesper {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/logostician-vesper"}
 
@@ -22711,25 +22711,25 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🔳 **Portal to the Firing Line (Signature Ability)**
+> 🔳 **Portal to the Firing Line ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Ranged, Weapon**    |                             **Main action** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 5 x 3 line within 15** | **🎯 Each creature and object in the area** |
 >
-> **Special:** This ability targets only non-prone creatures.
+> **Special:** This ability targets only non-[prone](../condition/prone.md) creatures.
 >
 > **Power Roll + 5:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 12 damage; I < 4 slowed (save ends)
-> - **17+:** 15 damage; I < 5 slowed (save ends)
+> - **12-16:** 12 damage; I < 4 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 15 damage; I < 5 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** A target creature can choose to drop prone, in which case the ability takes a bane against them.
+> **Effect:** A target creature can choose to drop [prone](../condition/prone.md), in which case the ability takes a bane against them.
 >
-> **2 Malice:** The area remains active until Vesper is reduced to 0 Stamina or until the end of the encounter. Any non-prone enemy who enters the area for the first time in a round or starts their turn there takes 15 damage, or 7 damage if they choose to fall prone.
+> **2 [Malice](../rule/monster/malice.md):** The area remains active until Vesper is reduced to 0 [Stamina](../rule/health/stamina.md) or until the end of the encounter. Any non-[prone](../condition/prone.md) enemy who enters the area for the first time in a round or starts their turn there takes 15 damage, or 7 damage if they choose to fall [prone](../condition/prone.md).
 
-> 🔳 **Portal to the Mantle (3 Malice)**
+> 🔳 **Portal to the Mantle (3 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                             **Main action** |
 > |-------------------------|--------------------------------------------:|
@@ -22741,7 +22741,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > - **12-16:** 12 fire damage
 > - **17+:** 15 fire damage
 >
-> **Effect:** The area is difficult terrain. Any creature who enters the area for the first time in a round or starts their turn there takes 10 fir damage. Until the end of the encounter, the size of the area increases by 1 at the start of each round.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md). Any creature who enters the area for the first time in a round or starts their turn there takes 10 fir damage. Until the end of the encounter, the size of the area increases by 1 at the start of each round.
 
 > 🔳 **Portal to the Void**
 >
@@ -22751,13 +22751,13 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** A < 4 pull 3 toward the center of the area
-> - **12-16:** A < 5 pull 3 toward the center of the area
-> - **17+:** Pull 3 toward the center of the area
+> - **≤11:** A < 4 [pull](../movement/forced-movement.md) 3 toward the center of the area
+> - **12-16:** A < 5 [pull](../movement/forced-movement.md) 3 toward the center of the area
+> - **17+:** [Pull](../movement/forced-movement.md) 3 toward the center of the area
 >
 > **Effect:** A portal appears at the center of the area. Any creature at the center of the area when this ability is used or who is pulled into the center for the first time in a round takes 10 sonic damage.
 >
-> **2 Malice:** The area remains active and deals its damage until Vesper is reduced to 0 Stamina or until the end of the encounter. Any creature who enters the area and has A < 4 is pulled 3 squares toward the center of the area. Any creature who starts their turn in the area and has M < 4 is slowed until the end of their turn.
+> **2 [Malice](../rule/monster/malice.md):** The area remains active and deals its damage until Vesper is reduced to 0 [Stamina](../rule/health/stamina.md) or until the end of the encounter. Any creature who enters the area and has A < 4 is [pulled](../movement/forced-movement.md) 3 squares toward the center of the area. Any creature who starts their turn in the area and has M < 4 is [slowed](../condition/slowed.md) until the end of their turn.
 
 > ❗️ **Portal to the Sky**
 >
@@ -22767,15 +22767,15 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Trigger:** The target moves within distance of Vesper.
 >
-> **Effect:** The target is dropped through a portal, which teleports them up to 7 squares above a space within 15 squares.
+> **Effect:** The target is dropped through a portal, which [teleports](../movement/teleport.md) them up to 7 squares above a space within 15 squares.
 
 > ⭐️ **Living Logistics Network**
 >
-> Each ally who starts their turn within 10 squares of Vesper can teleport whenever they willingly move until the end of their turn. Whenever an affected ally teleports, they deal an extra 5 damage on their next strike.
+> Each ally who starts their turn within 10 squares of Vesper can [teleport](../movement/teleport.md) whenever they willingly move until the end of their turn. Whenever an affected ally [teleports](../movement/teleport.md), they deal an extra 5 damage on their next strike.
 
 > ⭐️ **Crash and Burn**
 >
-> When Vesper is reduced to 0 Stamina, they move up to their speed and then explode, dealing 4d6 damage to each adjacent enemy and object. Any enemy who takes more than 14 damage this way vertically slides 5 squares.
+> When Vesper is reduced to 0 [Stamina](../rule/health/stamina.md), they move up to their speed and then explode, dealing 4d6 damage to each [adjacent](../rule/combat/adjacent.md) enemy and object. Any enemy who takes more than 14 damage this way vertically [slides](../movement/forced-movement.md) 5 squares.
 
 ###### Soulbinder Psyche {data-scc="mcdm.monsters.v1/monster.war-dogs.4th-echelon.statblock/soulbinder-psyche"}
 
@@ -22785,7 +22785,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 |      **-**<br>Immunity      | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+1**<br>Might       |     **+3**<br>Agility      |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **+5**<br>Presence   |
 
-> 🏹 **Soulbind (Signature Ability)**
+> 🏹 **Soulbind ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -22797,9 +22797,9 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > - **12-16:** 20 holy damage; R < 4 the target is soulbound (save ends)
 > - **17+:** 24 holy damage; R < 5 the target is soulbound (save ends)
 >
-> **Effect:** A soulbound creature can't benefit from edges or double edges, and can't gain or use surges.
+> **Effect:** A soulbound creature can't benefit from edges or double edges, and can't gain or use [surges](../rule/resource/surge.md).
 
-> 🔳 **Soulstorm (2 Malice)**
+> 🔳 **Soulstorm (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -22807,13 +22807,13 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 corruption damage; P < 3 weakened (EoT)
-> - **12-16:** 12 corruption damage; P < 4 weakened (EoT)
-> - **17+:** 15 corruption damage; P < 5 weakened (EoT)
+> - **≤11:** 8 corruption damage; P < 3 [weakened](../condition/weakened.md) (EoT)
+> - **12-16:** 12 corruption damage; P < 4 [weakened](../condition/weakened.md) (EoT)
+> - **17+:** 15 corruption damage; P < 5 [weakened](../condition/weakened.md) (EoT)
 >
-> **Effect:** The area is difficult terrain until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to maintain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to maintain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.
 >
-> **1 Malice:** Until the start of Psyche's next turn, if this ability makes a creature weakened, that creature is also soulbound (save ends; see Soulbind above).
+> **1 [Malice](../rule/monster/malice.md):** Until the start of Psyche's next turn, if this ability makes a creature [weakened](../condition/weakened.md), that creature is also soulbound (save ends; see Soulbind above).
 
 > ❇️ **Command the Awakened**
 >
@@ -22821,7 +22821,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > |-------------------|----------------------------------------:|
 > | **📏 5 burst**    | **🎯 Each soulbound enemy in the area** |
 >
-> **Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche slides them up to 5 squares.
+> **Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](../movement/forced-movement.md) them up to 5 squares.
 
 > ❗️ **Spirit Form**
 >
@@ -22831,7 +22831,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Trigger:** An enemy moves within 2 squares of Psyche.
 >
-> **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores difficult terrain during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
+> **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](../movement/difficult-terrain.md) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
 
 > ❗️ **Vengeance for the Slain**
 >
@@ -22839,15 +22839,15 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > |------------------|--------------------------:|
 > | **📏 Ranged 10** |          **🎯 One enemy** |
 >
-> **Trigger:** A war dog within distance is made winded or reduced to 0 Stamina.
+> **Trigger:** A war dog within distance is made [winded](../rule/health/winded.md) or reduced to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The target loses all their surges and takes 5 corruption damage.
+> **Effect:** The target loses all their [surges](../rule/resource/surge.md) and takes 5 corruption damage.
 >
-> **1 Malice:** The target also takes a bane on their next strike.
+> **1 [Malice](../rule/monster/malice.md):** The target also takes a bane on their next strike.
 
 > ⭐️ **Immortal Soul**
 >
-> When Psyche is reduced to 0 Stamina, her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
+> When Psyche is reduced to 0 [Stamina](../rule/health/stamina.md), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
 
 > 🏹 **Immortal Flare**
 >
@@ -22865,7 +22865,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 |      **-**<br>Immunity      | **-**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+4**<br>Agility |  **+5**<br>Reason   |  **+5**<br>Intuition  |  **+5**<br>Presence  |
 
-> ⚔️ **Houndgun and Houndblade (Signature Ability)**
+> ⚔️ **Houndgun and Houndblade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -22873,13 +22873,13 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; M < 4 bleeding (save ends)
-> - **12-16:** 21 damage; M < 5 bleeding (save ends)
-> - **17+:** 25 damage; M < 6 bleeding (save ends)
+> - **≤11:** 15 damage; M < 4 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 21 damage; M < 5 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 25 damage; M < 6 [bleeding](../condition/bleeding.md) (save ends)
 >
 > **Effect:** Each target loses 1d3 Recoveries.
 >
-> **2 Malice:** When a target is made bleeding this way, each ally adjacent to them can make a free strike against the target.
+> **2 [Malice](../rule/monster/malice.md):** When a target is made [bleeding](../condition/bleeding.md) this way, each ally [adjacent](../rule/combat/adjacent.md) to them can make a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 > 🏹 **Focus Fire**
 >
@@ -22889,31 +22889,31 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Effect:** Until the start of Alkestis's next turn, any effect that reduces the damage taken by the target has no effect.
 
-> ❗️ **Artillery Enfilade (2 Malice)**
+> ❗️ **Artillery Enfilade (2 [Malice](../rule/monster/malice.md))**
 >
 > | **Area, Ranged, Weapon**    |                        **Triggered action** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 7 x 3 line within 10** | **🎯 Each creature and object in the area** |
 >
-> **Trigger:** An ally is reduced to 0 Stamina within 10 squares of Alkestis.
+> **Trigger:** An ally is reduced to 0 [Stamina](../rule/health/stamina.md) within 10 squares of Alkestis.
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 damage; A < 4 slowed (save ends)
-> - **12-16:** 13 damage; A < 5 slowed (save ends)
-> - **17+:** 16 damage; A < 6 slowed (save ends)
+> - **≤11:** 8 damage; A < 4 [slowed](../condition/slowed.md) (save ends)
+> - **12-16:** 13 damage; A < 5 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 16 damage; A < 6 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** The area is difficult terrain until the start of the next round.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) until the start of the next round.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../rule/monster/end-effect.md)**
 >
-> At the end of each of her turns, Alkestis can take 20 damage to end one effect on her that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of her turns, Alkestis can take 20 damage to end one effect on her that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
 > ⭐️ **Tactical Brilliance**
 >
-> At the start of each of Alkestis's turns, the Director gains 2 Malice. While Alkestis is alive and in the encounter, the Director also gains 1 Malice whenever a war dog in the encounter obtains a tier 3 outcome on a power roll.
+> At the start of each of Alkestis's turns, the Director gains 2 [Malice](../rule/monster/malice.md). While Alkestis is alive and in the encounter, the Director also gains 1 [Malice](../rule/monster/malice.md) whenever a war dog in the encounter obtains a tier 3 outcome on a power roll.
 
-> ☠️ **Fog of War (Villain Action 1)**
+> ☠️ **Fog of War ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **-**          |                             **-** |
 > |----------------|----------------------------------:|
@@ -22921,27 +22921,27 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > **Effect:** Each target can disappear, then reappear anywhere on the encounter map 3 or more squares away from any enemy. Additionally, each target has a double edge on their next power roll.
 
-> ☠️ **Send in the Second Wave (Villain Action 2)**
+> ☠️ **Send in the Second Wave ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **Ranged**       |          **-** |
 > |------------------|---------------:|
 > | **📏 Ranged 15** | **🎯 Special** |
 >
-> **Effect:** For each war dog reduced to 0 Stamina in the encounter, a war dog shriketrooper appears in an unoccupied space within distance.
+> **Effect:** For each war dog reduced to 0 [Stamina](../rule/health/stamina.md) in the encounter, a war dog shriketrooper appears in an unoccupied space within distance.
 
-> ☠️ **The Silver Wolf's Final Stratagem (Villain Action 3)**
+> ☠️ **The Silver Wolf's Final Stratagem ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
 > | **📏 5 burst**  | **🎯 Each creature in the area** |
 >
-> **Effect:** Until the start of the next round, each target enemy who has I < 4 is dazed, each target enemy who has M < 4 is restrained, and each target enemy who has A < 4 can't use triggered actions. Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.
+> **Effect:** Until the start of the next round, each target enemy who has I < 4 is [dazed](../condition/dazed.md), each target enemy who has M < 4 is [restrained](../condition/restrained.md), and each target enemy who has A < 4 can't use [triggered actions](../rule/combat/triggered-action.md). Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.
 
 ## Werewolf {data-scc="mcdm.monsters.v1/monster.group/werewolf"}
 
 A wolf howls and your bowels freeze. Terror overcomes you. Sweat makes your skin slick, your senses sharpened. The moon is high but you feel hot. You're burning up. There's blood in your mouth and a corpse at your feet. Where did that come from?! That animal... that *thing* that almost clawed you to death last week... was it a wolf ? Was it *just* a wolf ?
 
-Werewolves are shapeshifters filled with a need to rend and tear. They used to be ordinary humans, elves, polders, and the like. But when their feral compulsion takes control, their eyes turn blood red and they change into massive wolves or abominable hybrid beasts.
+Werewolves are shapeshifters filled with a need to rend and tear. They used to be ordinary [humans](../monster/group/humans.md), elves, polders, and the like. But when their feral compulsion takes control, their eyes turn blood red and they change into massive wolves or abominable hybrid beasts.
 
 #### Howling Primordial Chaos
 
@@ -22949,17 +22949,17 @@ Werewolves are swirling conductors of the Primordial Chaos. Their bodies overflo
 
 #### Brokered or Cursed
 
-The curse of the werewolf is actively sought out by terrible nobles and rulers looking to extend their power and instill fear into their people. They secure deals with devils who can tap into the Primordial Chaos and unleash their beast, usually in exchange for relinquishing their legacy after they pass.
+The curse of the werewolf is actively sought out by terrible nobles and rulers looking to extend their power and instill fear into their people. They secure deals with [devils](../monster/group/devils.md) who can tap into the Primordial Chaos and unleash their beast, usually in exchange for relinquishing their legacy after they pass.
 
 Laypeople don't have the luxury of a legacy, nor do they have councils that can help temper a werewolf. They know full well the horror of losing oneself to the beast, and take action to rout out the threat of a werewolf among them. Fear leaves people submissive to the demands of cursed kings, yet oppressive to their own accursed kin.
 
 #### On Wights and Weres
 
-The powers that created the werewolves were also harnessed and cultivated under the traditions of the stormwight fury. A werewolf's accursed rage can't overcome the stormwight's ferocity, nor can ferocity overpower rage. It's not uncommon for werewolves to subconsciously treat encounters with stormwight furies as if they were sport.
+The powers that created the werewolves were also harnessed and cultivated under the traditions of the stormwight [fury](../class/fury.md). A werewolf's accursed rage can't overcome the stormwight's ferocity, nor can ferocity overpower rage. It's not uncommon for werewolves to subconsciously treat encounters with stormwight furies as if they were sport.
 
 > **Shared Ferocity**
 >
-> Thanks to their entwined origins, the werewolf is filled with an unbridled power when they witness someone harnessing ferocity. The Director gains 1d3 Malice the first time a creature uses an ability that costs ferocity while within the werewolf's line of effect.
+> Thanks to their entwined origins, the werewolf is filled with an unbridled power when they witness someone harnessing ferocity. The Director gains 1d3 [Malice](../rule/monster/malice.md) the first time a creature uses an ability that costs ferocity while within the werewolf's line of effect.
 
 #### Werewolf Languages
 
@@ -22967,15 +22967,15 @@ Werewolves can speak any language they knew before they were cursed. A werewolf 
 
 ###### Werewolf Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.werewolf/werewolf-malice"}
 
-At the start of a werewolf's turn, you can spend Malice to activate one of the following features.
+At the start of a werewolf's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > ⭐️ **Blood In Their Eyes (3 Malice)**
 >
-> The werewolf gains 10 temporary Stamina and a +3 bonus to speed until the end of their turn. The werewolf can't use this feature if they took any holy damage since ending their last turn.
+> The werewolf gains 10 temporary [Stamina](../rule/health/stamina.md) and a +3 bonus to speed until the end of their turn. The werewolf can't use this feature if they took any holy damage since ending their last turn.
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> The werewolf takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The werewolf takes an additional main action on their turn. They can use this feature even if they are [dazed](../condition/dazed.md).
 
 > 🌀 **Moonfall (10 Malice)**
 >
@@ -22991,13 +22991,13 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the werewolf can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of their turns, the werewolf can take 5 damage to end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The werewolf can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Accursed Rage**
 >
-> The werewolf's ferocity is expressed through rage, and their abilities can inflict rage points on any enemy except a stormwight fury. A creature who starts their turn with 10 or more rage expends their rage. Then before taking their turn, they must shift up to their speed toward the nearest creature and make a melee free strike against them. A creature who takes damage from this free strike gains 1 rage. Accumulated rage disappears after a character finishes a respite.
+> The werewolf's ferocity is expressed through rage, and their abilities can inflict rage points on any enemy except a stormwight [fury](../class/fury.md). A creature who starts their turn with 10 or more rage expends their rage. Then before taking their turn, they must [shift](../movement/shifting.md) up to their speed toward the nearest creature and make a melee [free strike](../feature/common/main-actions/free-strike.md) against them. A creature who takes damage from this [free strike](../feature/common/main-actions/free-strike.md) gains 1 rage. Accumulated rage disappears after a character finishes a respite.
 
 > ⭐️ **Shapeshifter**
 >
@@ -23005,9 +23005,9 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Vukenstep**
 >
-> The werewolf ignores difficult terrain.
+> The werewolf ignores [difficult terrain](../movement/difficult-terrain.md).
 
-> 🗡 **Accursed Bite (Signature Ability)**
+> 🗡 **Accursed Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -23019,7 +23019,7 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 > - **12-16:** 13 damage; the target gains 4 rage
 > - **17+:** 16 damage; the target gains 5 rage
 >
-> **2 Malice:** If the target has P < 0, they are afflicted with lycanthpy. Each time the target is unaffected by the potency effect, the potency increases by 1 the next time the werewolf uses the ability against the same target. A creature afflicted with lycanthropy gains 2 rage at the end of each of their turns whenever they're in combat. Their rage doesn't disappear after finishing a respite and they must complete the Find a Cure downtime project in "Draw Steel: Heroes" to end this effect.
+> **2 Malice:** If the target has P < 0, they are afflicted with lycanthpy. Each time the target is unaffected by the [potency](../rule/character/potency.md) effect, the [potency](../rule/character/potency.md) increases by 1 the next time the werewolf uses the ability against the same target. A creature afflicted with lycanthropy gains 2 rage at the end of each of their turns whenever they're in combat. Their rage doesn't disappear after finishing a respite and they must complete the Find a Cure downtime project in "Draw Steel: Heroes" to end this effect.
 
 > 🗡 **Ripping Claws**
 >
@@ -23029,9 +23029,9 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; M < 1 bleeding (save ends)
-> - **12-16:** 11 damage; the target gains 1 rage; M < 2 bleeding (save ends)
-> - **17+:** 14 damage; the target gains 3 rage; M < 3 bleeding (save ends)
+> - **≤11:** 8 damage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 11 damage; the target gains 1 rage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 14 damage; the target gains 3 rage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
 
 > ❇️ **Berserker Slash (3 Malice)**
 >
@@ -23041,11 +23041,11 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 damage; push 2
-> - **12-16:** 6 damage; push 3; the target gains 1 rage
-> - **17+:** 7 damage; slide 3; the target gains 3 rage
+> - **≤11:** 4 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 6 damage; [push](../movement/forced-movement.md) 3; the target gains 1 rage
+> - **17+:** 7 damage; [slide](../movement/forced-movement.md) 3; the target gains 3 rage
 >
-> **Effect:** The werewolf shifts up to their speed before using this ability.
+> **Effect:** The werewolf [shifts](../movement/shifting.md) up to their speed before using this ability.
 
 > 👤 **Wall Leap**
 >
@@ -23053,7 +23053,7 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The werewolf jumps up to 4 squares. If they end this jump at a wall, the werewolf jumps off the wall up to 4 squares and can make a melee free strike. If the target of the free strike has M < 2, they are knocked prone.
+> **Effect:** The werewolf jumps up to 4 squares. If they end this jump at a wall, the werewolf jumps off the wall up to 4 squares and can make a melee [free strike](../feature/common/main-actions/free-strike.md). If the target of the [free strike](../feature/common/main-actions/free-strike.md) has M < 2, they are knocked [prone](../condition/prone.md).
 
 > ❗️ **Facepalm and Head Slam (2 Malice)**
 >
@@ -23063,9 +23063,9 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 >
 > **Trigger:** A creature within distance targets the werewolf with a melee ability after charging or moving 2 or more squares in a straight line toward them.
 >
-> **Effect:** The target is knocked prone and takes 5 damage before the triggering ability is resolved.
+> **Effect:** The target is knocked [prone](../condition/prone.md) and takes 5 damage before the [triggered action](../rule/combat/triggered-action.md) is resolved.
 
-> ☠️ **Howl (Villain Action 1)**
+> ☠️ **Howl ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -23073,21 +23073,21 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 >
 > **Effect:** Each target makes an Intuition test.
 >
-> - **≤11:** The target must move their speed in a straight line away from the werewolf; frightened (save ends)
-> - **12-16:** Frightened (EoT)
+> - **≤11:** The target must move their speed in a straight line away from the werewolf; [frightened](../condition/frightened.md) (save ends)
+> - **12-16:** [Frightened](../condition/frightened.md) (EoT)
 > - **17+:** No effect
 >
 > **Effect:** Any enemy in the encounter who has 1 or more rage gains 4 rage and howls along with the werewolf.
 
-> ☠️ **Full Wolf (Villain Action 2)**
+> ☠️ **Full Wolf ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The werewolf transforms into a massive wolf of size 3 until they die or until the end of the encounter. They move to a space that can accommodate their new size and push adjacent creatures out of their way. While in wolf form, they have speed 10 and stability 2, their strikes gain a +2 damage bonus and bestow an additional 1 rage, and the potency of Accursed Bite increases by 1.
+> **Effect:** The werewolf transforms into a massive wolf of size 3 until they die or until the end of the encounter. They move to a space that can accommodate their new size and [push](../movement/forced-movement.md) [adjacent](../rule/combat/adjacent.md) creatures out of their way. While in wolf form, they have speed 10 and stability 2, their strikes gain a +2 damage bonus and bestow an additional 1 rage, and the [potency](../rule/character/potency.md) of Accursed Bite increases by 1.
 
-> ☠️ **Rampage (Villain Action 3)**
+> ☠️ **Rampage ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Weapon** |                             **-** |
 > |------------------|----------------------------------:|
@@ -23095,17 +23095,17 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 damage; the target gains 2 rage; M < 1 bleeding (save ends)
-> - **12-16:** 8 damage; the target gains 4 rage; M < 2 bleeding (save ends)
-> - **17+:** 11 damage; the target gains 8 rage; M < 3 bleeding (save ends)
+> - **≤11:** 5 damage; the target gains 2 rage; M < 1 [bleeding](../condition/bleeding.md) (save ends)
+> - **12-16:** 8 damage; the target gains 4 rage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 11 damage; the target gains 8 rage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** The werewolf shifts up to their speed before and after using this ability.
+> **Effect:** The werewolf [shifts](../movement/shifting.md) up to their speed before and after using this ability.
 
 ## Wyverns {data-scc="mcdm.monsters.v1/monster.group/wyverns"}
 
 The sight of a wyvern perched high atop a rotting tree or lit upon the jagged peak of a shadowy mountain marks the boundary between the known lands and forest primeval. There are raw, ancient sorceries in the wilderness that imbue those lands with power and hate older than roads and carts.
 
-Though they superficially resemble dragons, wyverns are not dragons or dragon-kin. Distant relatives of the terror lizards of Ix, wyverns sport tough, leathery skin with hues running from brown to red to black depending on their native terrain. They are solitary creatures who track their prey by following the smell of fear they create.
+Though they superficially resemble [dragons](../monster/group/dragons.md), wyverns are not [dragons](../monster/group/dragons.md) or dragon-kin. Distant relatives of the terror lizards of Ix, wyverns sport tough, leathery skin with hues running from brown to red to black depending on their native terrain. They are solitary creatures who track their prey by following the smell of fear they create.
 
 #### Mountain Hunters
 
@@ -23125,22 +23125,22 @@ Wyverns are unable to speak. However, a clever hero carrying a feast of fresh me
 
 ###### Wyvern Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.wyverns/wyvern-malice"}
 
-At the start of any wyvern's turn, you can spend Malice to activate one of the following features.
+At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice.md) to activate one of the following features.
 
 > 🗡 **Simmering Anger (3 Malice)**
 >
-> One wyvern in the encounter can make a free strike against each enemy adjacent to them.
+> One wyvern in the encounter can make a [free strike](../feature/common/main-actions/free-strike.md) against each enemy [adjacent](../rule/combat/adjacent.md) to them.
 
 > ⭐️ **Boiling Fury (5 Malice)**
 >
-> Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their signature ability instead of a free strike when making opportunity attacks.
+> Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their [signature ability](../rule/combat/signature-ability.md) instead of a [free strike](../feature/common/main-actions/free-strike.md) when making opportunity attacks.
 
 > 🌀 **Overflowing Rage (7 Malice)**
 >
 > Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.
 >
-> - **≤11:** The target is taunted by the nearest creature or object (save ends). While the target is taunted this way, power rolls against them have a double edge.
-> - **12-16:** The target is taunted by the nearest creature or object (save ends).
+> - **≤11:** The target is [taunted](../condition/taunted.md) by the nearest creature or object (save ends). While the target is [taunted](../condition/taunted.md) this way, power rolls against them have a double edge.
+> - **12-16:** The target is [taunted](../condition/taunted.md) by the nearest creature or object (save ends).
 > - **17+:** No effect.
 
 ###### Wyvern Lurker {data-scc="mcdm.monsters.v1/monster.wyverns.statblock/wyvern-lurker"}
@@ -23151,7 +23151,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 | **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+2**<br>Might     |  **+3**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Agonizing Stinger (Signature Ability)**
+> 🗡 **Agonizing Stinger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -23160,8 +23160,8 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; M < 2 bleeding (save ends)
-> - **17+:** 17 damage; M < 3 bleeding (save ends)
+> - **12-16:** 14 damage; M < 2 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 17 damage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
 >
 > **1 Malice:** One target hidden from the lurker takes an extra 6 acid damage.
 
@@ -23173,11 +23173,11 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 acid damage; M < 1 weakened (save ends)
-> - **12-16:** 16 acid damage; M < 2 weakened (save ends)
-> - **17+:** 20 acid damage; M < 3 weakened (save ends)
+> - **≤11:** 10 acid damage; M < 1 [weakened](../condition/weakened.md) (save ends)
+> - **12-16:** 16 acid damage; M < 2 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 20 acid damage; M < 3 [weakened](../condition/weakened.md) (save ends)
 >
-> **Effect:** A target weakened this way takes 1d4 acid damage at the start of each of their turns.
+> **Effect:** A target [weakened](../condition/weakened.md) this way takes 1d4 acid damage at the start of each of their turns.
 
 > 👤 **Swooping Torment**
 >
@@ -23185,7 +23185,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The lurker flies up to their speed, then can attempt to hide. Each enemy the lurker moves adjacent to during this movement can choose to take 3 sonic damage or fall prone.
+> **Effect:** The lurker [flies](../movement/fly.md) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](../rule/combat/adjacent.md) to during this movement can choose to take 3 sonic damage or fall [prone](../condition/prone.md).
 
 > ❗️ **Retaliatory Dive**
 >
@@ -23195,7 +23195,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 >
 > **Trigger:** A creature within distance deals damage to the lurker with a ranged ability.
 >
-> **Effect:** The lurker flies adjacent to the target and can make a free strike against them.
+> **Effect:** The lurker [flies](../movement/fly.md) [adjacent](../rule/combat/adjacent.md) to the target and can make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
 > ⭐️ **Ruthless Rage**
 >
@@ -23213,7 +23213,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 | **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+3**<br>Might     |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Sedating Stinger (Signature Ability)**
+> 🗡 **Sedating Stinger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Magic, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -23222,10 +23222,10 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; M < 2 slowed (save ends)
-> - **17+:** 17 damage; M < 3 slowed (save ends)
+> - **12-16:** 14 damage; M < 2 [slowed](../condition/slowed.md) (save ends)
+> - **17+:** 17 damage; M < 3 [slowed](../condition/slowed.md) (save ends)
 >
-> **Effect:** If a target slowed this way is already slowed, they are instead restrained (save ends).
+> **Effect:** If a target [slowed](../condition/slowed.md) this way is already [slowed](../condition/slowed.md), they are instead [restrained](../condition/restrained.md) (save ends).
 
 > 🔳 **Tail Sweep**
 >
@@ -23249,9 +23249,9 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; A < 1 grabbed
-> - **12-16:** 14 damage; A < 2 grabbed
-> - **17+:** 17 damage; A < 3 grabbed and the target takes a bane on the Escape Grab maneuver
+> - **≤11:** 9 damage; A < 1 [grabbed](../condition/grabbed.md)
+> - **12-16:** 14 damage; A < 2 [grabbed](../condition/grabbed.md)
+> - **17+:** 17 damage; A < 3 [grabbed](../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver
 
 > ❗️ **Deterring Sting (1 Malice)**
 >
@@ -23261,11 +23261,11 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 >
 > **Trigger:** A creature within distance deals damage to the predator with a melee ability.
 >
-> **Effect:** The predator uses Sedating Stinger against the target, then shifts up to 3 squares.
+> **Effect:** The predator uses Sedating Stinger against the target, then [shifts](../movement/shifting.md) up to 3 squares.
 
 > ⭐️ **Stubborn Rage**
 >
-> While winded or within 10 squares of another wyvern, the predator can't be made dazed or frightened.
+> While [winded](../rule/health/winded.md) or within 10 squares of another wyvern, the predator can't be made [dazed](../condition/dazed.md) or [frightened](../condition/frightened.md).
 
 > ⭐️ **Tenacious Hunter**
 >
@@ -23273,7 +23273,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 
 ## Xorannox the Tyract {data-scc="mcdm.monsters.v1/monster.group/xorannox-the-tyract"}
 
-Xorannox the Tyract is an overmind. Formally known by their endonym, vaurath (plural: vaurathi), overminds plot and scheme against their chief rivals, the synlirii and the olothec, for control of the World Below.
+Xorannox the Tyract is an overmind. Formally known by their endonym, vaurath (plural: vaurathi), overminds plot and scheme against their chief rivals, the synlirii and the [olothec](../monster/group/olothec.md), for control of the World Below.
 
 #### Psionic Eyes
 
@@ -23285,15 +23285,15 @@ Like their rivals, overminds are loremasters of supreme intellect. They aren't u
 
 #### Overmind Lairs
 
-Thanks to their innate flight, overminds prefer to build (or rather, have their thralls build) towers with no doors or entrances anywhere near the bottom.
+Thanks to their innate [flight](../movement/fly.md), overminds prefer to build (or rather, have their thralls build) towers with no doors or entrances anywhere near the bottom.
 
 #### Rivalries and Negotiations
 
-Unlike the synlirii and the olothec, overminds have an intense hatred of their own kind and never work together. However, overminds often enjoy diplomacy with other species, seeking to form alliances and build secret networks of agents throughout the World Below.
+Unlike the synlirii and the [olothec](../monster/group/olothec.md), overminds have an intense hatred of their own kind and never work together. However, overminds often enjoy diplomacy with other species, seeking to form alliances and build secret networks of agents throughout the World Below.
 
 #### Smelly Eggs
 
-Overmind procreation involves one horror laying a single egg in a slime pool and leaving it behind. When another overmind later detects the distinct smell of the egg, they spray their inseminating fluid into the pool. These actions are compelled by biological necessity, a compulsion even the overminds can't ignore.
+Overmind procreation involves one [horror](../rule/keyword/horror.md) laying a single egg in a slime pool and leaving it behind. When another overmind later detects the distinct smell of the egg, they spray their inseminating fluid into the pool. These actions are compelled by biological necessity, a compulsion even the overminds can't ignore.
 
 Unwitting explorers sometimes accidentally abscond with an egg. If unfertilized, its bearer is likely to attract the attention of other overminds and synlirii that use the eggs in genetic experiments to create psionic creatures. If the egg is fertilized, the explorer could find themselves becoming a newly hatched overmind's first victim.
 
@@ -23301,9 +23301,9 @@ Unwitting explorers sometimes accidentally abscond with an egg. If unfertilized,
 
 Xorannox (*ZOR-ah-nocks*) rules as Lord of the White Tower, an isolated, multilevel finger of alabaster stone connecting to the World Below. He is commonly known as the Tyract, an ancient Za'hariax word that literally translates as "a king who rules with his teeth"-and the overmind indeed consumes those who displease him.
 
-Xorannox is chief of the Grasp, a secret organization that seeks to overthrow the voiceless talkers' great empire and place Xorannox above all, first as king, then as god. The Tyract is a master strategist, always one step ahead of his enemies. Heroes may be surprised to discover their allies are members of the Grasp. When they meet Xorannox, he's delighted! He loves treating with humanoids! They have the same enemies, after all.
+Xorannox is chief of the Grasp, a secret organization that seeks to overthrow the [voiceless talkers](../monster/group/voiceless-talkers.md)' great empire and place Xorannox above all, first as king, then as god. The Tyract is a master strategist, always one step ahead of his enemies. Heroes may be surprised to discover their allies are members of the Grasp. When they meet Xorannox, he's delighted! He loves treating with humanoids! They have the same enemies, after all.
 
-Unfortunately, no matter how useful or dependable a party of heroes might be, Xorannox is nearly incapable of resisting the urge to betray his allies. He assumes, as do most vaurathi, that the natural end of all alliances is betrayal. Thus when the gauntlet is thrown and his life is in danger, the only minions he can truly trust are his own six eyes.
+Unfortunately, no matter how useful or dependable a party of heroes might be, Xorannox is nearly incapable of resisting the urge to betray his allies. He assumes, as do most vaurathi, that the natural end of all alliances is betrayal. Thus when the gauntlet is thrown and his life is in danger, the only [minions](../rule/organization/minion.md) he can truly trust are his own six eyes.
 
 #### Xorannox's Languages
 
@@ -23319,15 +23319,15 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../rule/monster/end-effect.md):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** Xorannox can take two turns each round. He can't take turns consecutively.
 
 > 🌀 **Eyes of the Tyract**
 >
-> Six unique eyestalks float around Xorannox, acting on his turn at his command until they are reduced to 0 Stamina. On each of Xorannox's turns, he directs one eyestalk to move and use a signature ability.
+> Six unique eyestalks float around Xorannox, acting on his turn at his command until they are reduced to 0 [Stamina](../rule/health/stamina.md). On each of Xorannox's turns, he directs one eyestalk to move and use a [signature ability](../rule/combat/signature-ability.md).
 
-> 🗡 **Toothful Thrashing (Signature Ability)**
+> 🗡 **Toothful Thrashing ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                **Main action** |
 > |---------------------------|-------------------------------:|
@@ -23335,9 +23335,9 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; slide 2; M < 2 bleeding (EoT)
-> - **12-16:** 20 damage; slide 3; M < 3 bleeding (EoT)
-> - **17+:** 23 damage; vertical slide 3; M < 4 bleeding (EoT)
+> - **≤11:** 12 damage; [slide](../movement/forced-movement.md) 2; M < 2 [bleeding](../condition/bleeding.md) (EoT)
+> - **12-16:** 20 damage; [slide](../movement/forced-movement.md) 3; M < 3 [bleeding](../condition/bleeding.md) (EoT)
+> - **17+:** 23 damage; vertical [slide](../movement/forced-movement.md) 3; M < 4 [bleeding](../condition/bleeding.md) (EoT)
 
 > ❇️ **Grav Spike**
 >
@@ -23347,11 +23347,11 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Vertical push 3
-> - **12-16:** Vertical push 5
-> - **17+:** Vertical push 7
+> - **≤11:** Vertical [push](../movement/forced-movement.md) 3
+> - **12-16:** Vertical [push](../movement/forced-movement.md) 5
+> - **17+:** Vertical [push](../movement/forced-movement.md) 7
 >
-> **Effect:** Xorannox shifts up to his speed before or after using this ability.
+> **Effect:** Xorannox [shifts](../movement/shifting.md) up to his speed before or after using this ability.
 
 > 👤 **Optical Collusion**
 >
@@ -23377,17 +23377,17 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 >
 > **Trigger:** A creature within distance deals damage to Xorannox.
 >
-> **Effect:** If the target has I < 3 they are frightened (save ends)
+> **Effect:** If the target has I < 3 they are [frightened](../condition/frightened.md) (save ends)
 
 > ⭐️ **Above It All**
 >
-> Xorannox can't be made frightened or knocked prone, and he can't be flanked.
+> Xorannox can't be made [frightened](../condition/frightened.md) or knocked [prone](../condition/prone.md), and he can't be flanked.
 
 > ⭐️ **Natural Enemies**
 >
-> If Xorannox perceives another overmind or a voiceless talker on the encounter map, he targets that threat one or more times on each of his turns.
+> If Xorannox perceives another overmind or a [voiceless talker](../monster/group/voiceless-talkers.md) on the encounter map, he targets that threat one or more times on each of his turns.
 
-> ☠️ **Disruption Beam (Villain Action 1)**
+> ☠️ **Disruption Beam ([Villain Action](../rule/monster/villain-action.md) 1)**
 >
 > | **Psionic, Ranged, Strike** |                  **-** |
 > |-----------------------------|-----------------------:|
@@ -23395,25 +23395,25 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 psychic damage; R < 2 dazed (save ends)
-> - **12-16:** 17 psychic damage; R < 3 dazed (save ends)
-> - **17+:** 20 psychic damage; R < 4 dazed (save ends)
+> - **≤11:** 11 psychic damage; R < 2 [dazed](../condition/dazed.md) (save ends)
+> - **12-16:** 17 psychic damage; R < 3 [dazed](../condition/dazed.md) (save ends)
+> - **17+:** 20 psychic damage; R < 4 [dazed](../condition/dazed.md) (save ends)
 
-> ☠️ **All Eyes, All Rise (Villain Action 2)**
+> ☠️ **All Eyes, All Rise ([Villain Action](../rule/monster/villain-action.md) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full Stamina.
+> **Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](../rule/health/stamina.md).
 
-> ☠️ **Panoptibeam (Villain Action 3)**
+> ☠️ **Panoptibeam ([Villain Action](../rule/monster/villain-action.md) 3)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Xorannox directs each of his eyestalks to use a signature ability against any target.
+> **Effect:** Xorannox directs each of his eyestalks to use a [signature ability](../rule/combat/signature-ability.md) against any target.
 
 ###### Compulsion Eye {data-scc="mcdm.monsters.v1/monster.xorannox-the-tyract.statblock/compulsion-eye"}
 
@@ -23423,7 +23423,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Compulsion Beam (Signature Ability)**
+> 🏹 **Compulsion Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike** |     **Main action** |
 > |-----------------------------|--------------------:|
@@ -23435,7 +23435,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 > - **12-16:** I < 3 the target is charmed
 > - **17+:** I < 4 the target is charmed
 >
-> **Effect:** As a free triggered action, a charmed target immediately moves up to their speed and can make a free strike against an enemy of Xorannox's choice. The target is then no longer charmed.
+> **Effect:** As a free [triggered action](../rule/combat/triggered-action.md), a charmed target immediately moves up to their speed and can make a [free strike](../feature/common/main-actions/free-strike.md) against an enemy of Xorannox's choice. The target is then no longer charmed.
 
 > ⭐️ **Psionic Barrier**
 >
@@ -23449,7 +23449,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🔳 **Explosion (Signature Ability)**
+> 🔳 **Explosion ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike** |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -23458,8 +23458,8 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 fire damage
-> - **12-16:** 10 fire damage; M < 3 prone
-> - **17+:** 13 fire damage; M < 4 prone
+> - **12-16:** 10 fire damage; M < 3 [prone](../condition/prone.md)
+> - **17+:** 13 fire damage; M < 4 [prone](../condition/prone.md)
 
 > ⭐️ **Psionic Barrier**
 >
@@ -23473,7 +23473,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Telekinetic Beam (Signature Ability)**
+> 🏹 **Telekinetic Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike** |                 **Main action** |
 > |-----------------------------|--------------------------------:|
@@ -23481,9 +23481,9 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; slide 4
-> - **12-16:** 17 damage; slide 5
-> - **17+:** 20 damage; slide 6
+> - **≤11:** 11 damage; [slide](../movement/forced-movement.md) 4
+> - **12-16:** 17 damage; [slide](../movement/forced-movement.md) 5
+> - **17+:** 20 damage; [slide](../movement/forced-movement.md) 6
 
 > ⭐️ **Psionic Barrier**
 >
@@ -23497,7 +23497,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Necro Beam (Signature Ability)**
+> 🏹 **Necro Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Psionic, Ranged, Strike** |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -23506,10 +23506,10 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 > **Power Roll + 4:**
 >
 > - **≤11:** 11 corruption damage
-> - **12-16:** 17 corruption damage; M < 3 bleeding (save ends)
-> - **17+:** 20 corruption damage; M < 4 bleeding (save ends)
+> - **12-16:** 17 corruption damage; M < 3 [bleeding](../condition/bleeding.md) (save ends)
+> - **17+:** 20 corruption damage; M < 4 [bleeding](../condition/bleeding.md) (save ends)
 >
-> **Effect:** If this damage or the Stamina loss from bleeding this way reduces a target creature's Stamina to 0, that creature dies.
+> **Effect:** If this damage or the [Stamina](../rule/health/stamina.md) loss from [bleeding](../condition/bleeding.md) this way reduces a target creature's [Stamina](../rule/health/stamina.md) to 0, that creature dies.
 
 > ⭐️ **Psionic Barrier**
 >
@@ -23523,7 +23523,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🔳 **Toxic Vapors (Signature Ability)**
+> 🔳 **Toxic Vapors ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic, Ranged** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -23532,8 +23532,8 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 poison damage
-> - **12-16:** 10 poison damage; M < 3 weakened (save ends)
-> - **17+:** 13 poison damage; M < 4 weakened (save ends)
+> - **12-16:** 10 poison damage; M < 3 [weakened](../condition/weakened.md) (save ends)
+> - **17+:** 13 poison damage; M < 4 [weakened](../condition/weakened.md) (save ends)
 
 > ⭐️ **Psionic Barrier**
 >
@@ -23547,7 +23547,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |   **-**<br>Weakness  |
 |      **-1**<br>Might       |     **+1**<br>Agility      |  **+4**<br>Reason |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🔳 **Lightning Beam (Signature Ability)**
+> 🔳 **Lightning Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic**           |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -23559,7 +23559,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 > - **12-16:** 10 lightning damage
 > - **17+:** 13 lightning damage
 >
-> **Effect:** Each target loses all their surges.
+> **Effect:** Each target loses all their [surges](../rule/resource/surge.md).
 
 > ⭐️ **Psionic Barrier**
 >
@@ -23567,12 +23567,12 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 ###### Xorannox's Malice (Malice Features) {data-scc="mcdm.monsters.v1/monster.xorannox-the-tyract/xorannoxs-malice"}
 
-At the start of Xorannox's turn, you can spend Malice to activate one
+At the start of Xorannox's turn, you can spend [Malice](../rule/monster/malice.md) to activate one
 of the following features.
 
 > ❇️ **Gas Belch (3 Malice)**
 >
-> Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is weakened (save ends).
+> Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is [weakened](../condition/weakened.md) (save ends).
 
 > ⭐️ **Slime Trail (5 Malice)**
 >
@@ -23580,8 +23580,8 @@ of the following features.
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed.
+> Xorannox takes an additional main action on his turn. He can use this feature even if he is [dazed](../condition/dazed.md).
 
 > 🌀 **Mind Over Matter (7 Malice)**
 >
-> Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is force moved, they are pulled 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.
+> Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is [force moved](../movement/forced-movement.md), they are [pulled](../movement/forced-movement.md) 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.

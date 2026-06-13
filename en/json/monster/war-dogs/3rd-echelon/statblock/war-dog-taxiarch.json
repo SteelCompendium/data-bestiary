@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "14 lightning damage; the lightning spreads 1 square; I \u003c 3 dazed (save ends)",
-          "tier2": "19 lightning damage; the lightning spreads 2 squares; I \u003c 4 dazed (save ends)",
-          "tier3": "23 lightning damage; the lightning spreads 3 squares; I \u003c 5 dazed (save ends)"
+          "tier1": "14 lightning damage; the lightning spreads 1 square; I \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "19 lightning damage; the lightning spreads 2 squares; I \u003c 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "23 lightning damage; the lightning spreads 3 squares; I \u003c 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "4 cube within 10",
       "effects": [
         {
-          "effect": "**Effect:** Each target shifts up to their speed and can make a free strike that deals an extra 5 lightning damage."
+          "effect": "**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals an extra 5 lightning damage."
         }
       ],
       "feature_type": "ability",
@@ -49,7 +49,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An enemy within distance deals damage to the taxiarch.\n**Effect:** After the ability is resolved, the target is teleported up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them."
+          "effect": "**Trigger:** An enemy within distance deals damage to the taxiarch.\n**Effect:** After the ability is resolved, the target is [teleported](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them."
         }
       ],
       "feature_type": "ability",
@@ -66,7 +66,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the taxiarch can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the taxiarch can take 15 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -79,7 +79,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Slide 5, and if the the target has M \u003c 4, they fall prone."
+          "effect": "**Effect:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 5, and if the the target has M \u003c 4, they fall [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -98,7 +98,7 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target shifts up to their speed, then can make a free strike or use a maneuver."
+          "effect": "**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use a maneuver."
         }
       ],
       "feature_type": "ability",

@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "6 fire damage",
-          "tier2": "10 fire damage; M \u003c 3 prone",
-          "tier3": "13 fire damage; M \u003c 4 prone"
+          "tier2": "10 fire damage; M \u003c 3 [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier3": "13 fire damage; M \u003c 4 [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",

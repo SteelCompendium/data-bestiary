@@ -30,7 +30,7 @@ type: statblock
 |   **Acid 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🏹 **Caustic Detonator (Signature Ability)**
+> 🏹 **Caustic Detonator ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -40,11 +40,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 acid damage; M < 0 bleeding (save ends)
-> - **12-16:** 6 acid damage; M < 1 bleeding (save ends)
-> - **17+:** 10 acid damage; M < 2 bleeding (save ends)
+> - **≤11:** 4 acid damage; M < 0 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 6 acid damage; M < 1 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 10 acid damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
 >
-> **Special:** A creature adjacent to the target can attempt an **Agility test** as a maneuver to remove the detonator.
+> **Special:** A creature [adjacent](../../../../rule/combat/adjacent.md) to the target can attempt an **Agility test** as a maneuver to remove the detonator.
 >
 > - **≤11:** No effect.
 > - **12-16:** The detonator is disarmed and destroyed.
@@ -56,8 +56,8 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the phosphorite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the phosphorite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

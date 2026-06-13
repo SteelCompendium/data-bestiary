@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Chainsaw Whip (Signature Ability)**
+> 🗡 **Chainsaw Whip ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                **Main action** |
 > |---------------------------|-------------------------------:|
@@ -37,10 +37,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 4 damage; pull 1
-> - **17+:** 5 damage; pull 2
+> - **12-16:** 4 damage; [pull](../../../../movement/forced-movement.md) 1
+> - **17+:** 5 damage; [pull](../../../../movement/forced-movement.md) 2
 >
-> **Effect:** The eviscerite can automatically grab a target pulled adjacent to them this way.
+> **Effect:** The eviscerite can automatically [grab](../../../../condition/grabbed.md) a target [pulled](../../../../movement/forced-movement.md) [adjacent](../../../../rule/combat/adjacent.md) to them this way.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -48,8 +48,8 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the eviscerite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the eviscerite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

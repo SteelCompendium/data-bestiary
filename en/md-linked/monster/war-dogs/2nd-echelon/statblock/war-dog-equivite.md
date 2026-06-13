@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+3**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Fuse-Iron Lance (Signature Ability)**
+> 🗡 **Fuse-Iron Lance ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -37,11 +37,11 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 8 damage
-> - **17+:** 10 damage; I < 3 frightened (save ends)
+> - **17+:** 10 damage; I < 3 [frightened](../../../../condition/frightened.md) (save ends)
 >
 > **Effect:** This ability gains an edge while charging.
 >
-> **2 Malice:** The ability deals an extra 3 fire damage to the target and each enemy adjacent to the target.
+> **2 [Malice](../../../../rule/monster/malice.md):** The ability deals an extra 3 fire damage to the target and each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target.
 
 > 🗡 **Blazing Charge**
 >
@@ -49,14 +49,14 @@ type: statblock
 > |---------------------------|---------------:|
 > | **📏 Special; see below** | **🎯 Special** |
 >
-> **Effect:** The equivite moves up to their speed and ignores difficult terrain. Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
+> **Effect:** The equivite moves up to their speed and ignores [difficult terrain](../../../../movement/difficult-terrain.md). Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 2 damage; push 1
-> - **12-16:** 4 damage; push 2
-> - **17+:** 5 damage; push 3; M < 3 prone
+> - **≤11:** 2 damage; [push](../../../../movement/forced-movement.md) 1
+> - **12-16:** 4 damage; [push](../../../../movement/forced-movement.md) 2
+> - **17+:** 5 damage; [push](../../../../movement/forced-movement.md) 3; M < 3 [prone](../../../../condition/prone.md)
 
 > ⭐️ **Loyalty Collar**
 >
-> When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the equivite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

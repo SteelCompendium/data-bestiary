@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 4
           tier1: 3 corruption damage
-          tier2: 6 corruption damage; P < 3 weakened
-          tier3: 7 corruption damage; P < 4 weakened
+          tier2: 6 corruption damage; P < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened)
+          tier3: 7 corruption damage; P < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects.
+        - effect: The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
       feature_type: trait
       icon: ⭐️
       name: Corruptive Phasing

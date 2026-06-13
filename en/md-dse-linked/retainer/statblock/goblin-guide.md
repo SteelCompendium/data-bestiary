@@ -65,7 +65,7 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **Effect:** The guide shifts up to their speed before and after the strike.
+> **Effect:** The guide [shifts](../../movement/shifting.md) up to their speed before and after the [strike](../../rule/combat/strike.md).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -79,7 +79,7 @@ type: statblock
 >
 > - **≤11:** 8 damage
 > - **12-16:** 12 damage; the guide and their mentor can each move up to their speed
-> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to hide
+> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to [hide](../../feature/common/maneuvers/hide.md)
 >
 > **Effect:** If the guide is hidden from the target, this ability has a double edge.
 
@@ -91,4 +91,4 @@ type: statblock
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >
-> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon strike, the strike deals an extra 10 poison damage, and if the target has M <v, they are weakened (save ends). If the guide is adjacent to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon [strike](../../rule/combat/strike.md), the [strike](../../rule/combat/strike.md) deals an extra 10 poison damage, and if the target has M < AVERAGE, they are [weakened](../../condition/weakened.md) ([save](../../rule/general/saving-throw.md) ends). If the guide is [adjacent](../../rule/combat/adjacent.md) to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.

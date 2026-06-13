@@ -60,7 +60,7 @@
         "Ranged"
       ],
       "name": "Quid Pro Quo",
-      "target": "One ally or [frightened](scc:mcdm.heroes.v1/condition/frightened) creature",
+      "target": "One ally or frightened creature",
       "type": "feature",
       "usage": "Maneuver"
     },

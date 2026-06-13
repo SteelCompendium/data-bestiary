@@ -34,7 +34,7 @@ type: statblock
 |      **-**<br>Immunity      | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       |   **+1**<br>Agility    | **+4**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🔳 **Earthwave (Signature Ability)**
+> 🔳 **Earthwave ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Area, Magic, Ranged**     |                  **Main action** |
 > |-----------------------------|---------------------------------:|
@@ -42,13 +42,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; M < 2 push (see effect)
-> - **12-16:** 6 damage; M < 3 push
-> - **17+:** 8 damage; M < 4 push, prone
+> - **≤11:** 3 damage; M < 2 [push](../../../../movement/forced-movement.md) (see effect)
+> - **12-16:** 6 damage; M < 3 [push](../../../../movement/forced-movement.md)
+> - **17+:** 8 damage; M < 4 [push](../../../../movement/forced-movement.md), [prone](../../../../condition/prone.md)
 >
-> **Effect:** This ability ignores stability. The geomancer declares a direction for the area, and any creature pushed by this ability is pushed to the last space in the area in the chosen direction.
+> **Effect:** This ability ignores stability. The geomancer declares a direction for the area, and any creature [pushed](../../../../movement/forced-movement.md) by this ability is pushed to the last space in the area in the chosen direction.
 >
-> **2 Malice:** The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
+> **2 [Malice](../../../../rule/monster/malice.md):** The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
 
 > 🔳 **Siegeworks**
 >
@@ -56,7 +56,7 @@ type: statblock
 > |-------------------------|---------------:|
 > | **📏 5 wall within 10** | **🎯 Special** |
 >
-> **Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while adjacent to it.
+> **Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](../../../../rule/combat/adjacent.md) to it.
 
 > ⭐️ **Dust Cloud**
 >
@@ -64,4 +64,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the geomancer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the geomancer is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

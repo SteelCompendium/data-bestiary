@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 | **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+3**<br>Might              | **+5**<br>Agility | **-2**<br>Reason  |             **+4**<br>Intuition             |   **-2**<br>Presence   |
 
-> 🗡 **Four Swords Swing (Signature Ability)**
+> 🗡 **Four Swords Swing ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -41,12 +41,12 @@ with_captain: Gain an edge on strikes
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; the target can't shift (EoT)
+> - **17+:** 9 damage; the target can't [shift](../../../../movement/shifting.md) ([EoT](../../../../rule/combat/end-of-turn.md))
 
 > ⭐️ **Bitter Bones**
 >
-> If the knight is reduced to 0 Stamina, their bones collapse to fill their space with an impassable barrier. Any enemy who comes adjacent to the barrier for the first time in a round or starts their turn there takes 5 damage.
+> If the knight is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their bones collapse to fill their space with an impassable barrier. Any enemy who comes [adjacent](../../../../rule/combat/adjacent.md) to the barrier for the first time in a round or starts their turn there takes 5 damage.
 
 > ⭐️ **More Swings**
 >
-> Whenever the knight makes a free strike, they can make two free strikes instead.
+> Whenever the knight makes a [free strike](../../../../feature/common/main-actions/free-strike.md), they can make two [free strikes](../../../../feature/common/main-actions/free-strike.md) instead.

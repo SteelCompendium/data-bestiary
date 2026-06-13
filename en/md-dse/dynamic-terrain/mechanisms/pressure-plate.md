@@ -1,18 +1,48 @@
 ---
-ev: "2"
+features:
+    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
+      icon: "\U0001F300"
+      name: Deactivate
+      power_roll:
+        tiers:
+            high: The pressure plate is deactivated and doesn't trigger.
+            low: The creature triggers the pressure plate.
+            mid: The pressure plate is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+    - body: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
+      icon: ❕
+      name: Activate
+      sections:
+        - label: Effect
+          text: The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.
+    - body: '**Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.'
+      icon: ⭐️
+      name: Upgrade
+    - body: The pressure plate is hidden until triggered or detected.
+      icon: ⭐️
+      name: Hidden
 file_basename: pressure-plate
 file_dpath: dynamic-terrain/mechanisms
+flavor: This mechanism acts as a trigger for another linked mechanism, and is skillfully hidden from view in the floor.
 item_id: pressure-plate
 item_name: Pressure Plate
-level: "1"
-link: A pressure plate is linked to another mechanism that it activates when triggered.
+level: 1
 name: Pressure Plate
+role: Support
 scc: mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate
-size: Any area
 source: mcdm.monsters.v1
-stamina: '-'
+stats:
+    - name: EV
+      value: "2"
+    - name: Stamina
+      value: '-'
+    - name: Size
+      value: Any area
+    - name: Typical Space
+      value: One square, up to a 4 x 4-square area
+    - name: Link
+      value: A pressure plate is linked to another mechanism that it activates when triggered.
+terrain_type: Trigger
 type: dynamic-terrain
-typical_space: One square, up to a 4 x 4-square area
 ---
 
 This mechanism acts as a trigger for another linked mechanism, and is skillfully hidden from view in the floor.
@@ -25,10 +55,10 @@ This mechanism acts as a trigger for another linked mechanism, and is skillfully
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature adjacent to a pressure plate can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
 >
 > - **≤11:** The creature triggers the pressure plate.
-> - **12-16:** The pressure plate is deactivated but the creature is slowed (EoT).
+> - **12-16:** The pressure plate is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The pressure plate is deactivated and doesn't trigger.
 
 > ❕ **Activate**

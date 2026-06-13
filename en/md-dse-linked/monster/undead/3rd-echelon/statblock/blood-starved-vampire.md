@@ -37,7 +37,7 @@ with_captain: +3 bonus to speed
 | **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+1**<br>Agility   | **-3**<br>Reason  |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
-> 🗡 **Feeding Frenzy (Signature Ability)**
+> 🗡 **Feeding Frenzy ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -47,10 +47,10 @@ with_captain: +3 bonus to speed
 >
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
-> - **17+:** 7 damage; M < 4 bleeding (EoT)
+> - **17+:** 7 damage; M < 4 [bleeding](../../../../condition/bleeding.md) (EoT)
 >
-> **Effect:** If a target made bleeding this way is already bleeding, they are instead knocked prone and can't stand until the end of their next turn.
+> **Effect:** If a target made [bleeding](../../../../condition/bleeding.md) this way is already [bleeding](../../../../condition/bleeding.md), they are instead knocked [prone](../../../../condition/prone.md) and can't stand until the end of their next turn.
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The blood-starved vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must use Feeding Frenzy against a bleeding creature on their turn if they are able to.
+> The blood-starved vampire has speed 10 while any creature within 10 squares of them is [bleeding](../../../../condition/bleeding.md). The vampire must use Feeding Frenzy against a [bleeding](../../../../condition/bleeding.md) creature on their turn if they are able to.

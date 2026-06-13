@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "3 damage; push 1",
-          "tier2": "5 damage; push 3",
-          "tier3": "6 damage; push 5; A \u003c 3 slowed (save ends)"
+          "tier1": "3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -56,7 +56,7 @@
     {
       "effects": [
         {
-          "effect": "When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+          "effect": "When the doomthief is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

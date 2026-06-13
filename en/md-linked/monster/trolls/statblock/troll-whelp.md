@@ -31,7 +31,7 @@ with_captain: +2 damage bonus to strikes
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition               |        **0**<br>Presence        |
 
-> 🗡 **Jaws and Claws (Signature Ability)**
+> 🗡 **Jaws and Claws ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -40,9 +40,9 @@ with_captain: +2 damage bonus to strikes
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; slide 1
-> - **17+:** 7 damage; slide 2; M < 2 bleeding (save ends)
+> - **12-16:** 6 damage; [slide](../../../movement/forced-movement.md) 1
+> - **17+:** 7 damage; [slide](../../../movement/forced-movement.md) 2; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
 
 > ⭐️ **Lingering Hunger**
 >
-> Whenever two or more whelps are simultaneously reduced to 0 Stamina by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 Stamina.
+> Whenever two or more whelps are simultaneously reduced to 0 [Stamina](../../../rule/health/stamina.md) by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 [Stamina](../../../rule/health/stamina.md).

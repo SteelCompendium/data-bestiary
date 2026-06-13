@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "15 damage; M \u003c 4 bleeding (save ends)",
-          "tier2": "21 damage; M \u003c 5 bleeding (save ends)",
-          "tier3": "25 damage; M \u003c 6 bleeding (save ends)"
+          "tier1": "15 damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "21 damage; M \u003c 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "25 damage; M \u003c 6 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -49,9 +49,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "8 damage; A \u003c 4 slowed (save ends)",
-          "tier2": "13 damage; A \u003c 5 slowed (save ends)",
-          "tier3": "16 damage; A \u003c 6 slowed (save ends)"
+          "tier1": "8 damage; A \u003c 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "13 damage; A \u003c 5 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "16 damage; A \u003c 6 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -69,7 +69,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of her turns, Alkestis can take 20 damage to end one effect on her that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of her turns, Alkestis can take 20 damage to end one effect on her that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -80,7 +80,7 @@
     {
       "effects": [
         {
-          "effect": "At the start of each of Alkestis's turns, the Director gains 2 Malice. While Alkestis is alive and in the encounter, the Director also gains 1 Malice whenever a war dog in the encounter obtains a tier 3 outcome on a power roll."
+          "effect": "At the start of each of Alkestis's turns, the Director gains 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice). While Alkestis is alive and in the encounter, the Director also gains 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) whenever a war dog in the encounter obtains a tier 3 outcome on a power roll."
         }
       ],
       "feature_type": "trait",
@@ -111,7 +111,7 @@
       "distance": "Ranged 15",
       "effects": [
         {
-          "effect": "**Effect:** For each war dog reduced to 0 Stamina in the encounter, a war dog shriketrooper appears in an unoccupied space within distance."
+          "effect": "**Effect:** For each war dog reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) in the encounter, a war dog shriketrooper appears in an unoccupied space within distance."
         }
       ],
       "feature_type": "ability",
@@ -129,7 +129,7 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** Until the start of the next round, each target enemy who has I \u003c 4 is dazed, each target enemy who has M \u003c 4 is restrained, and each target enemy who has A \u003c 4 can't use triggered actions. Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes."
+          "effect": "**Effect:** Until the start of the next round, each target enemy who has I \u003c 4 is [dazed](scc:mcdm.heroes.v1/condition/dazed), each target enemy who has M \u003c 4 is [restrained](scc:mcdm.heroes.v1/condition/restrained), and each target enemy who has A \u003c 4 can't use [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action). Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes."
         }
       ],
       "feature_type": "ability",

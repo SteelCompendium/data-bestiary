@@ -30,7 +30,7 @@ type: statblock
 | **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might      |        **+1**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Tentacle (Signature Ability)**
+> 🗡 **Tentacle ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,8 +39,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 2 grabbed
-> - **17+:** 18 damage; M < 3 grabbed
+> - **12-16:** 15 damage; M < 2 [grabbed](../../../condition/grabbed.md)
+> - **17+:** 18 damage; M < 3 [grabbed](../../../condition/grabbed.md)
 
 > ❇️ **Psionic Boom (3 Malice)**
 >
@@ -50,9 +50,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 psychic damage; R < 1 push 2
-> - **12-16:** 10 psychic damage; R < 2 push 3
-> - **17+:** 12 psychic damage; R < 3 push 4 and prone
+> - **≤11:** 6 psychic damage; R < 1 [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 10 psychic damage; R < 2 [push](../../../movement/forced-movement.md) 3
+> - **17+:** 12 psychic damage; R < 3 [push](../../../movement/forced-movement.md) 4 and [prone](../../../condition/prone.md)
 >
 > **2 Malice:** The size of the burst increases to 5.
 
@@ -62,24 +62,24 @@ type: statblock
 > |--------------------|--------------------:|
 > | **📏 Melee 1**     | **🎯 One creature** |
 >
-> **Effect:** The target must be grabbed by the invader.
+> **Effect:** The target must be [grabbed](../../../condition/grabbed.md) by the invader.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; vertical slide 2
-> - **12-16:** 10 damage; vertical slide 2
-> - **17+:** 12 damage; vertical slide 3
+> - **≤11:** 6 damage; vertical [slide](../../../movement/forced-movement.md) 2
+> - **12-16:** 10 damage; vertical [slide](../../../movement/forced-movement.md) 2
+> - **17+:** 12 damage; vertical [slide](../../../movement/forced-movement.md) 3
 
 > ❗️ **Brain Drain**
 >
-> | **Melee, Psionic** |           **Triggered action** |
+> | **Melee, Psionic** |           **[Triggered Action](../../../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Special**     | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature grabbed by the invader resists an ability's potency.
+> **Trigger:** A creature [grabbed](../../../condition/grabbed.md) by the invader resists an ability's [potency](../../../rule/character/potency.md).
 >
-> **Effect:** The potency increases by 2.
+> **Effect:** The [potency](../../../rule/character/potency.md) increases by 2.
 
 > ⭐️ **Psionic Amplifier**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.
+> Whenever a non-[minion](../../../rule/organization/minion.md) voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.

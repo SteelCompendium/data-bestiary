@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 3
-          tier1: 5 cold damage; P < 1 slowed (save ends)
-          tier2: 7 cold damage; P < 2 slowed (save ends)
-          tier3: 9 cold damage; P < 3 slowed (save ends)
+          tier1: 5 cold damage; P < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 7 cold damage; P < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 9 cold damage; P < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -34,8 +34,8 @@ features:
       distance: Ranged 5
       effects:
         - effect: |-
-            **Trigger:** An enemy within distance regains Stamina.
-            **Effect:** The target regains only half the Stamina, and the wraith regains the remaining Stamina.
+            **Trigger:** An enemy within distance regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+            **Effect:** The target regains only half the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and the wraith regains the remaining [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
       feature_type: ability
       icon: ❗️
       keywords:
@@ -46,7 +46,7 @@ features:
       type: feature
       usage: Free triggered action
     - effects:
-        - effect: The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects.
+        - effect: The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
       feature_type: trait
       icon: ⭐️
       name: Agonizing Phasing

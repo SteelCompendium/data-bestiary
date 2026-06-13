@@ -44,7 +44,7 @@ type: statblock
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** This ability ignores cover and bypasses temporary Stamina.
+> **Effect:** This ability ignores [cover](../../rule/combat/cover.md) and bypasses [temporary Stamina](../../rule/health/temporary-stamina.md).
 
 > ⭐️ **Voice Rune**
 >
@@ -58,7 +58,7 @@ type: statblock
 > |---------------------------|------------------------------:|
 > | **📏 Special; see below** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't hide or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+> **Effect:** The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't [hide](../../feature/common/maneuvers/hide.md) or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
 >
 > **Power Roll + highest characteristic:**
 >
@@ -76,9 +76,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 damage; I < WEAK dazed (save ends
-> - **12-16:** 12 damage; I < AVERAGE dazed (save ends)
-> - **17+:** 16 damage; I < STRONG dazed (save ends) and prone
+> - **≤11:** 8 damage; I < WEAK [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends
+> - **12-16:** 12 damage; I < AVERAGE [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; I < STRONG [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends) and [prone](../../condition/prone.md)
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -90,8 +90,8 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 damage; P < WEAK frightened
-> - **12-16:** 9 damage; P < AVERAGE frightened
-> - **17+:** 13 damage; P < STRONG frightened
+> - **≤11:** 6 damage; P < WEAK [frightened](../../condition/frightened.md)
+> - **12-16:** 9 damage; P < AVERAGE [frightened](../../condition/frightened.md)
+> - **17+:** 13 damage; P < STRONG [frightened](../../condition/frightened.md)
 >
-> **Effect:** Until the start of the mortar's next turn, strikes made against the mortar or any ally adjacent to them take a bane.
+> **Effect:** Until the start of the mortar's next turn, [strikes](../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../rule/combat/adjacent.md) to them take a bane.

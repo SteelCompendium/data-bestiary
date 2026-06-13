@@ -38,7 +38,7 @@ type: statblock
 >
 > - **≤11:** 5 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < STRONG prone
+> - **17+:** 12 damage; M < STRONG [prone](../../condition/prone.md)
 
 > ❗️ **Retaliatory Strike**
 >
@@ -48,7 +48,7 @@ type: statblock
 >
 > **Trigger:** A creature within distance deals damage to the gorer.
 >
-> **Effect:** The gorer uses the Charge main action and Gore against the target.
+> **Effect:** The gorer uses the [Charge](../../feature/common/main-actions/charge.md) main action and Gore against the target.
 
 > ⭐️ **Minotaur Sense**
 >
@@ -64,7 +64,7 @@ type: statblock
 >
 > **Trigger:** The gorer damages a creature within distance using Gore.
 >
-> **Effect:** The target is pushed up to 3 squares. If the target has stability 0, they are also knocked prone.
+> **Effect:** The target is pushed up to 3 squares. If the target has [stability](../../rule/character/stability.md) 0, they are also knocked [prone](../../condition/prone.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -74,7 +74,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The gorer gains 3 surges, and until the start of the gorer's next turn, strikes made against them and their mentor take a bane.
+> **Effect:** The gorer gains 3 [surges](../../rule/resource/surge.md), and until the start of the gorer's next turn, [strikes](../../rule/combat/strike.md) made against them and their mentor take a bane.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -86,6 +86,6 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 11 damage; M < WEAK bleeding (save ends)
-> - **12-16:** 16 damage; M < AVERAGE bleeding (save ends)
-> - **17+:** 21 damage; M < STRONG prone and can't stand (save ends).
+> - **≤11:** 11 damage; M < WEAK [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **12-16:** 16 damage; M < AVERAGE [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** 21 damage; M < STRONG [prone](../../condition/prone.md) and can't stand ([save](../../rule/general/saving-throw.md) ends).

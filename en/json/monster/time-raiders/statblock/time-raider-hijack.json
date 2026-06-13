@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
           "tier2": "11 damage",
-          "tier3": "14 damage; A \u003c 2 bleeding (save ends)"
+          "tier3": "14 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves adjacent to the target. Otherwise, the target is pulled up to 4 squares toward the hijack."
+          "effect": "**Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target. Otherwise, the target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares toward the hijack."
         }
       ],
       "feature_type": "ability",

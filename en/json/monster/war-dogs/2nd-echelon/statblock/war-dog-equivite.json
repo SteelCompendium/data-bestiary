@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "6 damage",
           "tier2": "8 damage",
-          "tier3": "10 damage; I \u003c 3 frightened (save ends)"
+          "tier3": "10 damage; I \u003c 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "2 damage; push 1",
-          "tier2": "4 damage; push 2",
-          "tier3": "5 damage; push 3; M \u003c 3 prone"
+          "tier1": "2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 3 [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+          "effect": "When the equivite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

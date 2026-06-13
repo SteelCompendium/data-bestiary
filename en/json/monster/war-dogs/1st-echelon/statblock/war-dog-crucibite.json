@@ -28,7 +28,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina."
+          "effect": "**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "ability",
@@ -45,7 +45,7 @@
     {
       "effects": [
         {
-          "effect": "When the crucibite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+          "effect": "When the crucibite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

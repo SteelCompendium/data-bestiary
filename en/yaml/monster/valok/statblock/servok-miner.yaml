@@ -5,9 +5,9 @@ features:
       distance: Melee 2
       effects:
         - roll: Power Roll + 4
-          tier1: 13 damage; M < 2 restrained (save ends) and prone
-          tier2: 18 damage; M < 3 restrained (save ends) and prone
-          tier3: 22 damage; prone; M < 4 restrained (save ends)
+          tier1: 13 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends) and [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier2: 18 damage; M < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends) and [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier3: 22 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,8 +22,8 @@ features:
       distance: 4 cube within 1
       effects:
         - roll: ""
-          tier1: 14 damage; slide 4; the miner's allies have concealment from the target (save ends)
-          tier2: 11 damage; slide 2
+          tier1: 14 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; the miner's allies have concealment from the target (save ends)
+          tier2: 11 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 7 damage
       feature_type: ability
       icon: "\U0001F533"
@@ -37,9 +37,9 @@ features:
       distance: 20 x 1 line within 1
       effects:
         - roll: ""
-          tier1: 14 damage; the target falls into the fissure, and is prone and can't stand (EoT)
-          tier2: 11 damage; the target is prone and hanging onto the edge of the fissure
-          tier3: 7 damage; the target can shift into the nearest unoccupied space outside the fissure
+          tier1: 14 damage; the target falls into the fissure, and is [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
+          tier2: 11 damage; the target is [prone](scc:mcdm.heroes.v1/condition/prone) and hanging onto the edge of the fissure
+          tier3: 7 damage; the target can [shift](scc:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the fissure
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -61,7 +61,7 @@ features:
       name: Miner Inconvenience
       target: Self
       type: feature
-      usage: Triggered action
+      usage: Triggered Action
     - effects:
         - effect: The miner can burrow through stone and metal. When the miner burrows, they create a stable size 2 tunnel in their wake.
       feature_type: trait
@@ -69,7 +69,7 @@ features:
       name: Valiar Tunneler
       type: feature
     - effects:
-        - effect: The miner ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+        - effect: The miner ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects.
       feature_type: trait
       icon: ⭐️
       name: Servok Siege Machine
@@ -81,7 +81,7 @@ features:
       name: Crafted to Perfection
       type: feature
     - effects:
-        - effect: While the miner isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+        - effect: While the miner isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
       feature_type: trait
       icon: ⭐️
       name: Valiar Might

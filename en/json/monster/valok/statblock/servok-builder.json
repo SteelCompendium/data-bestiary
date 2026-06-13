@@ -8,8 +8,8 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "15 damage; push 5, prone",
-          "tier2": "12 damage; push 3",
+          "tier1": "15 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc:mcdm.heroes.v1/condition/prone)",
+          "tier2": "12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
           "tier3": "8 damage"
         }
       ],
@@ -31,8 +31,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "16 damage",
-          "tier2": "23 damage; grabbed",
-          "tier3": "28 damage; grabbed; M \u003c 4 vertical push 5"
+          "tier2": "23 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "28 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed); M \u003c 4 vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 5"
         }
       ],
       "feature_type": "ability",
@@ -53,8 +53,8 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "Restrained (EoT)",
-          "tier2": "Slowed (EoT)",
+          "tier1": "[Restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier2": "[Slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)",
           "tier3": "No effect"
         }
       ],
@@ -92,9 +92,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "A \u003c 2 restrained (save ends)",
-          "tier2": "A \u003c 3 restrained (save ends)",
-          "tier3": "A \u003c 4 restrained (save ends)"
+          "tier1": "A \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "A \u003c 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "A \u003c 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -110,7 +110,7 @@
     {
       "effects": [
         {
-          "effect": "The builder ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
+          "effect": "The builder ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects."
         }
       ],
       "feature_type": "trait",
@@ -132,7 +132,7 @@
     {
       "effects": [
         {
-          "effect": "While the builder isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
+          "effect": "While the builder isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ],
       "feature_type": "trait",

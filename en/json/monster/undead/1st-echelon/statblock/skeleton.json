@@ -32,9 +32,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "1 damage; M \u003c 0 bleeding (save ends)",
-          "tier2": "2 damage; M \u003c 1 bleeding (save ends)",
-          "tier3": "3 damage; M \u003c 2 bleeding (save ends)"
+          "tier1": "1 damage; M \u003c 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "2 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "3 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
     {
       "effects": [
         {
-          "effect": "The first time the skeleton is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
+          "effect": "The first time the skeleton is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "trait",

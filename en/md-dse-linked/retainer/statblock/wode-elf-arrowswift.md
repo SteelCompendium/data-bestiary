@@ -65,7 +65,7 @@ type: statblock
 > - **12-16:** 11 damage
 > - **17+:** 16 damage
 >
-> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 surges that can be used immediately.
+> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 [surges](../../rule/resource/surge.md) that can be used immediately.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -75,7 +75,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged strike, the strike gains an edge and the arrowswift gains 1 surge that must be used immediately. While the arrowswift's mentor is adjacent to them, the mentor also gains this benefit.
+> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](../../rule/combat/strike.md), the [strike](../../rule/combat/strike.md) gains an edge and the arrowswift gains 1 [surge](../../rule/resource/surge.md) that must be used immediately. While the arrowswift's mentor is [adjacent](../../rule/combat/adjacent.md) to them, the mentor also gains this benefit.
 
 ######## Level 10 Retainer Advancement Ability
 

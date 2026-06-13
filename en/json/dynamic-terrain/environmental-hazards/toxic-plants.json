@@ -1,10 +1,79 @@
 {
-  "content": "Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.\n\n- **EV:** 2 per 10 x 10 field\n- **Stamina:** 3 per square\n- **Size:** One or more squares\n\n\u003e 🌀 **Deactivate**\n\u003e\n\u003e Each square of plants must be individually destroyed.\n\n\u003e ❕ **Activate**\n\u003e\n\u003e A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.\n\u003e\n\u003e **Effect:** The **Sleep Spores** ability.\n\n\u003e ❗️ **Sleep Spores**\n\u003e\n\u003e | **Magic, Melee, Strike** |      **Free triggered action** |\n\u003e |--------------------------|-------------------------------:|\n\u003e | **📏 Melee 0**           | **🎯 The triggering creature** |\n\u003e\n\u003e **Trigger:** A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.\n\u003e\n\u003e **Power Roll + 2:**\n\u003e\n\u003e - **≤11:** M \u003c 0 dazed (save ends)\n\u003e - **12-16:** M \u003c 1 dazed (save ends)\n\u003e - **17+:** M \u003c 2 dazed (save ends)\n\u003e\n\u003e **Effect:** While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.\n\n\u003e ⭐️ **Upgrades**\n\u003e\n\u003e **Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.\n\u003e\n\u003e **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.",
-  "ev": "2 per 10 x 10 field",
-  "level": "2",
+  "features": [
+    {
+      "body": "Each square of plants must be individually destroyed.",
+      "icon": "🌀",
+      "name": "Deactivate"
+    },
+    {
+      "body": "A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc:mcdm.heroes.v1/movement/shifting).",
+      "icon": "❕",
+      "name": "Activate",
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "The **Sleep Spores** ability."
+        }
+      ]
+    },
+    {
+      "distance": "Melee 0",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "name": "Sleep Spores",
+      "power_roll": {
+        "formula": "+ 2",
+        "tiers": {
+          "high": "M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "low": "M \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "mid": "M \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+        }
+      },
+      "sections": [
+        {
+          "label": "Trigger",
+          "text": "A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc:mcdm.heroes.v1/movement/shifting)."
+        },
+        {
+          "label": "Effect",
+          "text": "While [dazed](scc:mcdm.heroes.v1/condition/dazed) this way, a target who starts their turn in the area of the toxic plants falls [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand."
+        }
+      ],
+      "target": "The triggering creature",
+      "usage": "Free triggered action"
+    },
+    {
+      "body": "**Poisonous Spores (+2 EV)** Any creature [dazed](scc:mcdm.heroes.v1/condition/dazed) by this hazard takes 1d6 poison damage at the start of each of their turns.\n\n**Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn [prone](scc:mcdm.heroes.v1/condition/prone) in the area takes 4 acid damage.",
+      "icon": "⭐️",
+      "name": "Upgrades"
+    }
+  ],
+  "flavor": "Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.",
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/dynamic-terrain.environmental-hazards/toxic-plants",
+    "source": "mcdm.monsters.v1"
+  },
   "name": "Toxic Plants",
-  "scc": "mcdm.monsters.v1/dynamic-terrain.environmental-hazards/toxic-plants",
-  "size": "One or more squares",
-  "stamina": "3 per square",
+  "role": "Hexer",
+  "stats": [
+    {
+      "name": "EV",
+      "value": "2 per 10 x 10 field"
+    },
+    {
+      "name": "Stamina",
+      "value": "3 per square"
+    },
+    {
+      "name": "Size",
+      "value": "One or more squares"
+    }
+  ],
+  "terrain_type": "Hazard",
   "type": "dynamic-terrain"
 }

@@ -31,7 +31,7 @@ type: statblock
 | **Corruption 10, poison 10**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+5**<br>Might              |   **-2**<br>Agility   | **-2**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Ribcage Chomp (Signature Ability)**
+> 🗡 **Ribcage Chomp ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,15 +39,15 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 9 damage; M < 4 grabbed
-> - **12-16:** 12 damage; M < 5 grabbed
-> - **17+:** 14 damage; grabbed
+> - **≤11:** 9 damage; M < 4 [grabbed](../../../../condition/grabbed.md)
+> - **12-16:** 12 damage; M < 5 [grabbed](../../../../condition/grabbed.md)
+> - **17+:** 14 damage; [grabbed](../../../../condition/grabbed.md)
 >
-> **Effect:** The bonecage can have up to four size 1 targets grabbed at once. Any creature grabbed by the bonecage takes a bane on the Escape Grab maneuver, and the bonecage has damage immunity 5 against that creature's abilities. When the bonecage is force moved, any creature or object they have grabbed moves with them.
+> **Effect:** The bonecage can have up to four [size](../../../../rule/character/size.md) 1 targets [grabbed](../../../../condition/grabbed.md) at once. Any creature [grabbed](../../../../condition/grabbed.md) by the bonecage takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../../feature/common/maneuvers/escape-grab.md) maneuver, and the bonecage has [damage immunity](../../../../rule/damage/damage-immunity.md) 5 against that creature's abilities. When the bonecage is [force moved](../../../../movement/forced-movement.md), any creature or object they have [grabbed](../../../../condition/grabbed.md) moves with them.
 >
-> **3 Malice:** While grabbed this way, a target can't teleport or be teleported.
+> **3 [Malice](../../../../rule/monster/malice.md):** While [grabbed](../../../../condition/grabbed.md) this way, a target can't [teleport](../../../../movement/teleport.md) or be [teleported](../../../../movement/teleport.md).
 
-> 🔳 **Labyrinth of Bone (5 Malice)**
+> 🔳 **Labyrinth of Bone (5 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged**           |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -59,4 +59,4 @@ type: statblock
 > - **12-16:** 7 damage
 > - **17+:** 4 damage
 >
-> **Effect:** The area is difficult terrain for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.
+> **Effect:** The area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.

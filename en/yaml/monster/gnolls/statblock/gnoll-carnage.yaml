@@ -86,7 +86,7 @@ features:
         - Area
         - Magic
       name: Deepest Wounds
-      target: Each [winded](scc:mcdm.heroes.v1/rule.health/winded) enemy in the area
+      target: Each winded enemy in the area
       type: feature
       usage: '-'
 free_strike: 5

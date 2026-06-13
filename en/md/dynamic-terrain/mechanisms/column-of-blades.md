@@ -1,10 +1,81 @@
 ---
-ev: "3"
-level: "3"
+features:
+    - body: The column of blades must be completely destroyed.
+      icon: "\U0001F300"
+      name: Deactivate
+    - body: A creature or object moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
+      icon: ❕
+      name: Activate
+      sections:
+        - label: Effect
+          text: The **Spinning Blades** ability.
+    - distance: Melee 1
+      icon: ❗️
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Spinning Blades
+      power_roll:
+        formula: + 2
+        tiers:
+            high: 9 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: 4 damage
+            mid: 6 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+      sections:
+        - label: Trigger
+          text: A creature or object moves within distance of the column.
+      target: The triggering creature or object
+      usage: Free triggered action
+    - body: |-
+        **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+
+        **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+
+        **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
+
+        **Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.
+      icon: ⭐️
+      name: Upgrades
+    - distance: Melee 2
+      icon: ❗️
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Whirling Flails
+      power_roll:
+        tiers:
+            high: 11 damage; M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: 5 damage
+            mid: 8 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+      sections:
+        - label: Trigger
+          text: A creature or object moves within distance of the column.
+      target: The triggering creature or object
+      usage: Free triggered action
+    - body: Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
+      icon: ⭐️
+      name: Allied Awareness
+      power_roll:
+        formula: + 2
+        tiers:
+            high: The creature doesn't trigger the column.
+            low: The creature triggers the column and the column's ability gains an edge.
+            mid: The creature triggers the column.
+flavor: A spinning wooden column is affixed with sharp blades to slash the unwary.
+level: 3
 name: Column of Blades
+role: Defender
 scc: mcdm.monsters.v1/dynamic-terrain.mechanisms/column-of-blades
-size: 1L
-stamina: "5"
+stats:
+    - name: EV
+      value: "3"
+    - name: Stamina
+      value: "5"
+    - name: Size
+      value: 1L
+terrain_type: Fortification
 type: dynamic-terrain
 ---
 
@@ -20,7 +91,7 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 
 > ❕ **Activate**
 >
-> A creature or object moves adjacent to the column of blades.
+> A creature or object moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
 >
 > **Effect:** The **Spinning Blades** ability.
 
@@ -35,14 +106,14 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 2 bleeding (save ends)
-> - **17+:** 9 damage; M < 3 bleeding (save ends)
+> - **12-16:** 6 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 9 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 > ⭐️ **Upgrades**
 >
-> **Stone Column (+1 EV)** The column is made of stone and has 8 Stamina.
+> **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Metal Column (+1 EV)** The column is made of metal and has 11 Stamina.
+> **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 >
 > **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
 >
@@ -57,12 +128,12 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 > **Trigger:** A creature or object moves within distance of the column.
 >
 > - **≤11:** 5 damage
-> - **12-16:** 8 damage; M < 2 dazed (save ends)
-> - **17+:** 11 damage; M < 3 dazed (save ends)
+> - **12-16:** 8 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 11 damage; M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 > ⭐️ **Allied Awareness**
 >
-> Allies who shift don't trigger the column. A creature observing an ally shift this way can make an **Intuition test** to shift in imitation of their movements.
+> Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
 >
 > **Power Roll + 2:**
 >

@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 4
           tier1: 4 fire damage
-          tier2: 7 fire damage; push 1
-          tier3: 8 fire damage; push 3
+          tier2: 7 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 8 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -18,7 +18,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+        - effect: When the saboteur is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
       feature_type: trait
       icon: ⭐️
       name: Loyalty Collar

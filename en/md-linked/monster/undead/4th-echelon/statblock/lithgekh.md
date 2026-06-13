@@ -31,7 +31,7 @@ type: statblock
 | **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |              **0**<br>Might              |     **+1**<br>Agility      | **+5**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Heartstopper (Signature Ability)**
+> 🏹 **Heartstopper ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -39,22 +39,22 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 9 corruption damage; I < 3 frightened (save ends)
-> - **12-16:** 12 corruption damage; I < 4 frightened (save ends)
-> - **17+:** 14 corruption damage; I < 5 frightened (save ends)
+> - **≤11:** 9 corruption damage; I < 3 [frightened](../../../../condition/frightened.md) (save ends)
+> - **12-16:** 12 corruption damage; I < 4 [frightened](../../../../condition/frightened.md) (save ends)
+> - **17+:** 14 corruption damage; I < 5 [frightened](../../../../condition/frightened.md) (save ends)
 >
-> **Effect:** A creature frightened this way takes a bane on any ability that targets undead.
+> **Effect:** A creature [frightened](../../../../condition/frightened.md) this way takes a [bane](../../../../rule/dice/bane.md) on any ability that targets [undead](../../../../rule/keyword/undead.md).
 
-> ❗️ **Mystic Battery (1 Malice)**
+> ❗️ **Mystic Battery (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 20**  | **🎯 The triggering creature** |
 >
 > **Trigger:** A creature within distance uses a magic ability.
 >
-> **Effect:** Any damage dealt by or Stamina regained from the ability is halved. The lithgekh regains Stamina equal to the remaining damage dealt or Stamina gained.
+> **Effect:** Any damage dealt by or [Stamina](../../../../rule/health/stamina.md) regained from the ability is halved. The lithgekh regains [Stamina](../../../../rule/health/stamina.md) equal to the remaining damage dealt or [Stamina](../../../../rule/health/stamina.md) gained.
 
 > ⭐️ **Devour Magic**
 >
-> Each ally within 10 squares of the lithgekh gains an edge on magic abilities.
+> Each ally within 10 squares of the lithgekh gains an [edge](../../../../rule/dice/edge.md) on magic abilities.

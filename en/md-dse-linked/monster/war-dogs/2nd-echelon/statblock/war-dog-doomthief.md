@@ -33,7 +33,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **-1**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🔳 **Ripper Shrikegun (Signature Ability)**
+> 🔳 **Ripper Shrikegun ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Area, Weapon**            |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -41,9 +41,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; push 1
-> - **12-16:** 5 damage; push 3
-> - **17+:** 6 damage; push 5; A < 3 slowed (save ends)
+> - **≤11:** 3 damage; [push](../../../../movement/forced-movement.md) 1
+> - **12-16:** 5 damage; [push](../../../../movement/forced-movement.md) 3
+> - **17+:** 6 damage; [push](../../../../movement/forced-movement.md) 5; A < 3 [slowed](../../../../condition/slowed.md) (save ends)
 >
 > **Effect:** The doomthief can't willingly move on the same turn they use this ability.
 
@@ -51,7 +51,7 @@ type: statblock
 >
 > The doomthief emits a 3 aura of warped fate that blocks line of effect for any enemy ability that doesn't include them as a target.
 
-> 👤 **Expanding Doom (4 Malice)**
+> 👤 **Expanding Doom (4 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
@@ -61,4 +61,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the doomthief is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

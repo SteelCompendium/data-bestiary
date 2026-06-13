@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |    **+2**<br>Agility     |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> ⚔️ **Corrupted Ash Daggers (Signature Ability)**
+> ⚔️ **Corrupted Ash Daggers ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -37,13 +37,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; slide 1
-> - **12-16:** 6 damage; slide 2
-> - **17+:** 7 damage; slide 3
+> - **≤11:** 4 damage; [slide](../../../../movement/forced-movement.md) 1
+> - **12-16:** 6 damage; [slide](../../../../movement/forced-movement.md) 2
+> - **17+:** 7 damage; [slide](../../../../movement/forced-movement.md) 3
 >
-> **Effect:** The teletalite gains an edge on this ability if any ally is adjacent to the target.
+> **Effect:** The teletalite gains an edge on this ability if any ally is [adjacent](../../../../rule/combat/adjacent.md) to the target.
 >
-> **1 Malice:** The teletalite teleports the target 3 squares before sliding them.
+> **1 [Malice](../../../../rule/monster/malice.md):** The teletalite [teleports](../../../../movement/teleport.md) the target 3 squares before sliding them.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -51,16 +51,16 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
 
-> 👤 **Corrupted Ash Teleport (1 Malice)**
+> 👤 **Corrupted Ash Teleport (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Magic**   | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The teletalite can teleport up to 5 squares and gains an edge on strikes until the end of their turn.
+> **Effect:** The teletalite can [teleport](../../../../movement/teleport.md) up to 5 squares and gains an edge on strikes until the end of their turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the teletalite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the teletalite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

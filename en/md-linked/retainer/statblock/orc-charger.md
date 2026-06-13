@@ -41,7 +41,7 @@ type: statblock
 
 > ⭐️ **Relentless**
 >
-> If the charger is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the charger is reduced to 1 Stamina instead.
+> If the charger is reduced to 0 [Stamina](../../rule/health/stamina.md), they can make a [free strike](../../feature/common/main-actions/free-strike.md) before dying. If the target of the [free strike](../../feature/common/main-actions/free-strike.md) is reduced to 0 [Stamina](../../rule/health/stamina.md), the charger is reduced to 1 [Stamina](../../rule/health/stamina.md) instead.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -51,7 +51,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have temporary Stamina equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
+> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have [temporary Stamina](../../rule/health/temporary-stamina.md) equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -61,7 +61,7 @@ type: statblock
 > |------------------------|----------------:|
 > | **📏 Self; See below** |     **🎯 Self** |
 >
-> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy free strikes, and they can make a melee free strike against any creature they move adjacent to.
+> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy [free strikes](../../feature/common/main-actions/free-strike.md), and they can make a melee [free strike](../../feature/common/main-actions/free-strike.md) against any creature they move [adjacent](../../rule/combat/adjacent.md) to.
 
 **Level 10 Retainer Advancement Ability**
 

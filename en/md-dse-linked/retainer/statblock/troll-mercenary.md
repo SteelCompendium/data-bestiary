@@ -47,7 +47,7 @@ weaknesses:
 > - **12-16:** 11 damage
 > - **17+:** 14 damage
 >
-> **Effect:** The mercenary regains Stamina equal to half the damage dealt.
+> **Effect:** The mercenary regains [Stamina](../../rule/health/stamina.md) equal to half the damage dealt.
 
 > ❇️ **Troll Roar (Encounter)**
 >
@@ -57,13 +57,13 @@ weaknesses:
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** P < WEAK frightened (save ends)
-> - **12-16:** P < AVERAGE frightened (save ends)
-> - **17+:** P < STRONG frightened (save ends), push 3, prone
+> - **≤11:** P < WEAK [frightened](../../condition/frightened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **12-16:** P < AVERAGE [frightened](../../condition/frightened.md) ([save](../../rule/general/saving-throw.md) ends)
+> - **17+:** P < STRONG [frightened](../../condition/frightened.md) ([save](../../rule/general/saving-throw.md) ends), push 3, [prone](../../condition/prone.md)
 
 > ⭐️ **Relentless Hunger**
 >
-> The mercenary dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina.
+> The mercenary dies only if they are reduced to 0 [Stamina](../../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../../rule/health/stamina.md).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -73,7 +73,7 @@ weaknesses:
 > |----------------|-----------------------:|
 > | **📏 Melee 1** | **🎯 Three creatures** |
 >
-> **Effect:** The mercenary must be winded to use this ability. The mercenary uses Big Bite against each target.
+> **Effect:** The mercenary must be [winded](../../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
 
 ######## Level 10 Retainer Advancement Ability
 

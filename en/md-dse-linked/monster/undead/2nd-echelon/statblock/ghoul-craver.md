@@ -36,7 +36,7 @@ with_captain: +2 damage bonus to strikes
 | **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             |   **+2**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Taste (Signature Ability)**
+> 🗡 **Taste ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -48,11 +48,11 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 4 damage
 > - **17+:** 6 damage
 >
-> **Effect:** This ability has a double edge against a bleeding target.
+> **Effect:** This ability has a double edge against a [bleeding](../../../../condition/bleeding.md) target.
 
 > ⭐️ **Ever So Hungry**
 >
-> Any enemy adjacent to three or more ghoul cravers can't shift.
+> Any enemy [adjacent](../../../../rule/combat/adjacent.md) to three or more ghoul cravers can't [shift](../../../../movement/shifting.md).
 
 > ⭐️ **Hunger**
 >

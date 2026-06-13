@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 4
           tier1: 8 damage
           tier2: 11 damage
-          tier3: 12 damage; A < 4 slowed (save ends)
+          tier3: 12 damage; A < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -35,7 +35,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damage.
+        - effect: If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their [strikes](scc:mcdm.heroes.v1/rule.combat/strike) deal an extra 4 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Burn Bright

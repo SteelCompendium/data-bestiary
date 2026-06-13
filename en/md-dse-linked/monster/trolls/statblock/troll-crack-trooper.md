@@ -36,7 +36,7 @@ with_captain: +3 bonus to Stamina
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to Stamina**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |           **0**<br>Intuition            |       **+2**<br>Presence        |
 
-> 🗡 **Charging Chomp (Signature Ability)**
+> 🗡 **Charging Chomp ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -44,12 +44,12 @@ with_captain: +3 bonus to Stamina
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 7 damage; push 3; A < 3 3 damage
-> - **17+:** 9 damage; push 4; A < 4 5 damage
+> - **≤11:** 5 damage; [push](../../../movement/forced-movement.md) 2
+> - **12-16:** 7 damage; [push](../../../movement/forced-movement.md) 3; A < 3 3 damage
+> - **17+:** 9 damage; [push](../../../movement/forced-movement.md) 4; A < 4 5 damage
 >
-> **Effect:** The crack trooper's squad's Stamina pool regains Stamina equal to half the damage dealt.
+> **Effect:** The crack trooper's [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
 
 > ⭐️ **Group Appetite**
 >
-> The crack trooper dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina.
+> The crack trooper dies only if their [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool is reduced to 0 [Stamina](../../../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../../../rule/health/stamina.md) in their [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool, or if they take acid or fire damage while their [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool is at 0 [Stamina](../../../rule/health/stamina.md).

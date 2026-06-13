@@ -33,7 +33,7 @@ with_captain: +3 bonus to melee distance
 | **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to melee distance**<br>With Captain |  **Fire 5**<br>Weakness  |
 |            **+4**<br>Might             | **-2**<br>Agility | **-2**<br>Reason  |              **+1**<br>Intuition               |    **-2**<br>Presence    |
 
-> 🗡 **Fetid Wrappings (Signature Ability)**
+> 🗡 **Fetid Wrappings ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -42,7 +42,7 @@ with_captain: +3 bonus to melee distance
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; pull 1
-> - **17+:** 8 damage; pull 3
+> - **12-16:** 7 damage; [pull](../../../../movement/forced-movement.md) 1
+> - **17+:** 8 damage; [pull](../../../../movement/forced-movement.md) 3
 >
-> **Effect:** Each ally gains an edge on strikes made against the target until the end of the round.
+> **Effect:** Each ally gains an [edge](../../../../rule/dice/edge.md) on [strikes](../../../../rule/combat/strike.md) made against the target until the end of the round.

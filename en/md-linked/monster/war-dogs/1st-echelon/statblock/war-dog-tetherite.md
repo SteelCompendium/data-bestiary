@@ -29,7 +29,7 @@ with_captain: Gain an edge on strikes
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  | **0**<br>Reason  |             **0**<br>Intuition              |   **0**<br>Presence   |
 
-> 🗡 **Banded Dagger (Signature Ability)**
+> 🗡 **Banded Dagger ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -47,4 +47,4 @@ with_captain: Gain an edge on strikes
 
 > ⭐️ **Loyalty Collar**
 >
-> When the tetherite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+> When the tetherite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

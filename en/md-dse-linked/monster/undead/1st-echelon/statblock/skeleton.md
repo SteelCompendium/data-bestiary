@@ -35,7 +35,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> ⚔️ **Bone Shards (Signature Ability)**
+> ⚔️ **Bone Shards ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -49,7 +49,7 @@ type: statblock
 >
 > **Effect:** Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn.
 
-> ❇️ **Bone Spur (2 Malice)**
+> ❇️ **Bone Spur (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Weapon** |                  **Maneuver** |
 > |------------------|------------------------------:|
@@ -57,12 +57,12 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 damage; M < 0 bleeding (save ends)
-> - **12-16:** 2 damage; M < 1 bleeding (save ends)
-> - **17+:** 3 damage; M < 2 bleeding (save ends)
+> - **≤11:** 1 damage; M < 0 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 2 damage; M < 1 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 3 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
 >
 > **Effect:** Each target takes a bane on their next strike.
 
 > ⭐️ **Arise**
 >
-> The first time the skeleton is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone.
+> The first time the skeleton is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).

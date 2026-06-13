@@ -30,7 +30,7 @@ with_captain: +3 bonus to speed
 |      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+5**<br>Might       |  **+4**<br>Agility  | **+2**<br>Reason  |          **+3**<br>Intuition          |   **+2**<br>Presence   |
 
-> 🗡 **Jumplance (Signature Ability)**
+> 🗡 **Jumplance ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -40,12 +40,12 @@ with_captain: +3 bonus to speed
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; A < 4 bleeding (save ends)
+> - **17+:** 9 damage; A < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
 
 > ⭐️ **Drop Troop**
 >
-> If the jumper doesn't end their turn on the ground, they fall prone.
+> If the jumper doesn't end their turn on the ground, they fall [prone](../../../../condition/prone.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the jumper is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the jumper is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

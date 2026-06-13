@@ -37,7 +37,7 @@ with_captain: +2 bonus to speed
 | **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might             |   **+2**<br>Agility   | **-5**<br>Reason |          **-1**<br>Intuition          |  **-1**<br>Presence   |
 
-> 🗡 **Fingernails (Signature Ability)**
+> 🗡 **Fingernails ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -49,8 +49,8 @@ with_captain: +2 bonus to speed
 > - **12-16:** 2 damage
 > - **17+:** 3 damage
 >
-> **Effect:** The crawling claw shifts up to a number of squares equal to the damage dealt.
+> **Effect:** The crawling claw [shifts](../../../../movement/shifting.md) up to a number of squares equal to the damage dealt.
 
 > ⭐️ **Disorganized**
 >
-> Allies can't flank with the crawling claw.
+> Allies can't [flank](../../../../rule/combat/flanking.md) with the crawling claw.

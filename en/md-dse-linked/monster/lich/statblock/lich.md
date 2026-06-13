@@ -38,11 +38,11 @@ weaknesses:
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the lich can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the lich can take 20 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The lich can take two turns each round. They can't take turns consecutively.
 
-> 🏹 **Conflagration (Signature Ability)**
+> 🏹 **Conflagration ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -68,9 +68,9 @@ weaknesses:
 > - **12-16:** 13 corruption damage; P < 5 the target is hopeless (save ends)
 > - **17+:** 16 corruption damage; P < 6 the target is hopeless (save ends)
 >
-> **Effect:** A hopeless creature can't benefit from edges or double edges, can't gain or use surges, and can't gain temporary Stamina.
+> **Effect:** A hopeless creature can't benefit from edges or double edges, can't gain or use [surges](../../../rule/resource/surge.md), and can't gain temporary [Stamina](../../../rule/health/stamina.md).
 >
-> **3 Malice:** The distance of this ability increases to a 20 burst and its potency increases by 1.
+> **3 Malice:** The distance of this ability increases to a 20 burst and its [potency](../../../rule/character/potency.md) increases by 1.
 
 > 🏹 **Pain Unending (2 Malice)**
 >
@@ -88,7 +88,7 @@ weaknesses:
 >
 > **3 Malice:** The lich chooses one additional target.
 >
-> **2+ Malice:** Each creature wracked with pain gains one of the following conditions of the lich's choice for each 2 Malice spent: bleeding, slowed, or prone and can't stand. These conditions end when a creature is no longer wracked with pain.
+> **2+ Malice:** Each creature wracked with pain gains one of the following conditions of the lich's choice for each 2 Malice spent: [bleeding](../../../condition/bleeding.md), [slowed](../../../condition/slowed.md), or [prone](../../../condition/prone.md) and can't stand. These conditions end when a creature is no longer wracked with pain.
 
 > 👤 **Necrotic Form**
 >
@@ -96,11 +96,11 @@ weaknesses:
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 > 
-> **Effect:** The lich becomes spectral, moves up to their speed, and becomes corporeal again. While spectral, the lich automatically ends the grabbed or restrained conditions, has damage immunity 5, can move through solid matter, and ignores difficult terrain. If the lich ends this movement inside solid matter, they are shunted out into the space from which they entered it.
+> **Effect:** The lich becomes spectral, moves up to their speed, and becomes corporeal again. While spectral, the lich automatically ends the [grabbed](../../../condition/grabbed.md) or [restrained](../../../condition/restrained.md) conditions, has damage immunity 5, can move through solid matter, and ignores [difficult terrain](../../../movement/difficult-terrain.md). If the lich ends this movement inside solid matter, they are shunted out into the space from which they entered it.
 
 > ❗️ **Baleful Swap (2 Malice)**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered Action](../../../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |     **🎯 One enemy** |
 >
@@ -110,23 +110,23 @@ weaknesses:
 
 > ⭐️ **Herald of Oblivion**
 >
-> In the lich's presence, death's call is stronger. Any winded creature within 5 squares of the lich is bleeding and can't use the Catch Breath maneuver.
+> In the lich's presence, death's call is stronger. Any [winded](../../../rule/health/winded.md) creature within 5 squares of the lich is [bleeding](../../../condition/bleeding.md) and can't use the Catch Breath maneuver.
 
 > ⭐️ **Glare of Undeath**
 >
-> At the start of each round, the lich chooses a creature within 10 squares. If that creature has R < 4, they are restrained until the end of the lich's next turn. The lich can't choose the same creature two rounds in a row.
+> At the start of each round, the lich chooses a creature within 10 squares. If that creature has R < 4, they are [restrained](../../../condition/restrained.md) until the end of the lich's next turn. The lich can't choose the same creature two rounds in a row.
 
 > ⭐️ **Rejuvenation**
 >
-> The lich has a soulstone, which has 50 Stamina and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.
+> The lich has a soulstone, which has 50 [Stamina](../../../rule/health/stamina.md) and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.
 >
 > A creature who touches an inhabited soulstone makes a **Might test** that takes a bane.
 >
-> - **≤11:** The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with full Stamina.
-> - **12-16:** The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with 300 Stamina.
-> - **17+:** The creature has their Stamina reduced to their winded value unless it is already lower, and the lich manifests adjacent to the soulstone with 100 Stamina.
+> - **≤11:** The creature is reduced to 0 [Stamina](../../../rule/health/stamina.md) and the lich manifests [adjacent](../../../rule/combat/adjacent.md) to the soulstone with full [Stamina](../../../rule/health/stamina.md).
+> - **12-16:** The creature is reduced to 0 [Stamina](../../../rule/health/stamina.md) and the lich manifests [adjacent](../../../rule/combat/adjacent.md) to the soulstone with 300 [Stamina](../../../rule/health/stamina.md).
+> - **17+:** The creature has their [Stamina](../../../rule/health/stamina.md) reduced to their [winded](../../../rule/health/winded.md) value unless it is already lower, and the lich manifests [adjacent](../../../rule/combat/adjacent.md) to the soulstone with 100 [Stamina](../../../rule/health/stamina.md).
 
-> ☠️ **Cages of Wasting (Villain Action 1)**
+> ☠️ **Cages of Wasting ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Magic, Ranged**      |                            **-** |
 > |------------------------------|---------------------------------:|
@@ -134,13 +134,13 @@ weaknesses:
 >
 > **Effect:** Each target makes an Agility test.
 >
-> - **≤11:** 10 corruption damage; restrained (save ends)
-> - **12-16:** 16 corruption damage; restrained (EoT)
+> - **≤11:** 10 corruption damage; [restrained](../../../condition/restrained.md) (save ends)
+> - **12-16:** 16 corruption damage; [restrained](../../../condition/restrained.md) (EoT)
 > - **17+:** 20 corruption damage
 >
-> **Effect:** The lich deals an additional 10 corruption damage to each creature restrained this way.
+> **Effect:** The lich deals an additional 10 corruption damage to each creature [restrained](../../../condition/restrained.md) this way.
 
-> ☠️ **My Power Alone (Villain Action 2)**
+> ☠️ **My Power Alone ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -148,7 +148,7 @@ weaknesses:
 >
 > **Effect:** A target can't use heroic abilities until the start of the lich's next turn.
 
-> ☠️ **Arms of Necrosis (Villain Action 3)**
+> ☠️ **Arms of Necrosis ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -156,8 +156,8 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 corruption damage; A < 4 frightened (save ends)
-> - **12-16:** 13 corruption damage; A < 5 frightened (save ends)
-> - **17+:** 16 corruption damage; A < 6 frightened (save ends)
+> - **≤11:** 8 corruption damage; A < 4 [frightened](../../../condition/frightened.md) (save ends)
+> - **12-16:** 13 corruption damage; A < 5 [frightened](../../../condition/frightened.md) (save ends)
+> - **17+:** 16 corruption damage; A < 6 [frightened](../../../condition/frightened.md) (save ends)
 >
-> **Effect:** At the end of each of the lich's turns, they regain 10 Stamina for each creature frightened this way.
+> **Effect:** At the end of each of the lich's turns, they regain 10 [Stamina](../../../rule/health/stamina.md) for each creature [frightened](../../../condition/frightened.md) this way.

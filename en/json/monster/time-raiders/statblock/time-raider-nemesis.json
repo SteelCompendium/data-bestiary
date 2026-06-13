@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; pull 1",
-          "tier2": "10 damage; pull 2",
-          "tier3": "13 damage; pull 3; A \u003c 2 restrained (save ends)"
+          "tier1": "7 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "10 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "13 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -32,9 +32,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 psychic damage; M \u003c 0 slowed (save ends)",
-          "tier2": "10 psychic damage; M \u003c 1 slowed (save ends)",
-          "tier3": "13 psychic damage; M \u003c 2 slowed (save ends)"
+          "tier1": "7 psychic damage; M \u003c 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "10 psychic damage; M \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "13 psychic damage; M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",

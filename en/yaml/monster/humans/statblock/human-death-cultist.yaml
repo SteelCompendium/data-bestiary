@@ -29,7 +29,7 @@ features:
       keywords:
         - Area
       name: Rise, My Minions
-      target: Each dead [minion](scc:mcdm.monsters.v1/rule.organization/minion) in the area
+      target: Each dead minion in the area
       type: feature
       usage: Maneuver
     - effects:

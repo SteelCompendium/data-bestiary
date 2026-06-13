@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 4
           tier1: 13 damage
           tier2: 18 damage
-          tier3: 22 damage; A < 4 bleeding (save ends)
+          tier3: 22 damage; A < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: Melee 2
       effects:
         - roll: Power Roll + 4
-          tier1: 15 damage; M < 2 weakened (save ends)
-          tier2: 21 damage; M < 3 weakened (save ends)
-          tier3: 26 damage; prone; M < 4 weakened (save ends)
+          tier1: 15 damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 21 damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 26 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -39,7 +39,7 @@ features:
       effects:
         - effect: |-
             **Special:** This ability targets only metal-clad enemies and metal objects of size 3 or smaller.
-            **Effect:** Each target is pulled up to 8 squares, or if they have M < 3, they are pulled up to 15 squares. The bodyguard can make a free strike against each target who ends this forced movement adjacent to them.
+            **Effect:** Each target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 8 squares, or if they have M < 3, they are [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 15 squares. The bodyguard can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each target who ends this [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -60,9 +60,9 @@ features:
       name: Valiar Cloak
       target: Self
       type: feature
-      usage: Triggered action
+      usage: Triggered Action
     - effects:
-        - effect: At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 Stamina.
+        - effect: At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
       feature_type: trait
       icon: ⭐️
       name: Multivok Maintenance
@@ -74,7 +74,7 @@ features:
       name: Crafted to Perfection
       type: feature
     - effects:
-        - effect: While the bodyguard isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+        - effect: While the bodyguard isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
       feature_type: trait
       icon: ⭐️
       name: Valiar Might

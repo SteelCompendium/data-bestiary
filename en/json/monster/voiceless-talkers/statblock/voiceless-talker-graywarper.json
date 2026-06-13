@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "3 psychic damage",
-          "tier2": "5 psychic damage; slide 2",
-          "tier3": "7 psychic damage; slide 4"
+          "tier2": "5 psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "7 psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-minion voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space."
+          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space."
         }
       ],
       "feature_type": "trait",

@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+4**<br>Agility  | **+1**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Dive Bomb (Signature Ability)**
+> 🗡 **Dive Bomb ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -38,12 +38,12 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; vertical slide 2
-> - **17+:** 12 damage; vertical slide 3
+> - **12-16:** 10 damage; vertical [slide](../../../../movement/forced-movement.md) 2
+> - **17+:** 12 damage; vertical [slide](../../../../movement/forced-movement.md) 3
 >
-> **1 Malice:** An enemy force moved by this ability is grabbed instead.
+> **1 [Malice](../../../../rule/monster/malice.md):** An enemy [forced moved](../../../../movement/forced-movement.md) by this ability is [grabbed](../../../../condition/grabbed.md) instead.
 
-> 🔳 **Caustic Paste Bomb (2 Malice)**
+> 🔳 **Caustic Paste Bomb (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Magic, Ranged** |                               **Maneuver** |
 > |-------------------------|-------------------------------------------:|
@@ -51,11 +51,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 2 acid damage; M < 2 slowed (save ends)
-> - **12-16:** 4 acid damage; M < 3 slowed (save ends)
-> - **17+:** 6 acid damage; M < 4 slowed (save ends)
+> - **≤11:** 2 acid damage; M < 2 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** 4 acid damage; M < 3 [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 6 acid damage; M < 4 [slowed](../../../../condition/slowed.md) (save ends)
 >
-> **Effect:** The area is difficult terrain.
+> **Effect:** The area is [difficult terrain](../../../../movement/difficult-terrain.md).
 
 > ⭐️ **Jetwing Agility**
 >
@@ -63,4 +63,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the aerocite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the aerocite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

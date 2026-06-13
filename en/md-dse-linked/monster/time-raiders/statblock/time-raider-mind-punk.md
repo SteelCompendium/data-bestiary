@@ -34,7 +34,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Repelling Psihander (Signature Ability)**
+> 🗡 **Repelling Psihander ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                             **Main action** |
 > |------------------------------------|--------------------------------------------:|
@@ -43,12 +43,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 8 damage; M < 1 dazed (save ends)
-> - **17+:** 11 damage; M < 2 dazed (save ends)
+> - **12-16:** 8 damage; M < 1 [dazed](../../../condition/dazed.md) (save ends)
+> - **17+:** 11 damage; M < 2 [dazed](../../../condition/dazed.md) (save ends)
 >
-> **Effect:** A target who ends their next turn adjacent to the other target falls prone.
+> **Effect:** A target who ends their next turn [adjacent](../../../rule/combat/adjacent.md) to the other target falls [prone](../../../condition/prone.md).
 
-> ❇️ **Mindpunk (2 Malice)**
+> ❇️ **Mindpunk (2 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Psionic** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -56,9 +56,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 psychic damage; R < 0 prone
-> - **12-16:** 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
-> - **17+:** 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
+> - **≤11:** 4 psychic damage; R < 0 [prone](../../../condition/prone.md)
+> - **12-16:** 6 psychic damage; [push](../../../movement/forced-movement.md) 1; R < 1 [prone](../../../condition/prone.md) and can't stand (save ends)
+> - **17+:** 9 psychic damage; [push](../../../movement/forced-movement.md) 2; R < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
 
 > ⭐️ **Foresight**
 >

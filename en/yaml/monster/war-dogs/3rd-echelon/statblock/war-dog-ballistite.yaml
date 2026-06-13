@@ -5,9 +5,9 @@ features:
       distance: Ranged 15
       effects:
         - roll: Power Roll + 4
-          tier1: 7 damage; push 1
-          tier2: 10 damage; push 3
-          tier3: 11 damage; push 5
+          tier1: 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -21,7 +21,7 @@ features:
     - cost: 3 Malice
       distance: 3 cube within 12
       effects:
-        - effect: '**Effect:** Until the start of the ballistite''s next turn, the area is difficult terrain, and any ranged ability targeting an enemy in the area deals an extra 8 damage.'
+        - effect: '**Effect:** Until the start of the ballistite''s next turn, the area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and any ranged ability targeting an enemy in the area deals an extra 8 damage.'
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -39,7 +39,7 @@ features:
       name: Set Up and Tear Down
       type: feature
     - effects:
-        - effect: When the ballistite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+        - effect: When the ballistite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
       feature_type: trait
       icon: ⭐️
       name: Loyalty Collar

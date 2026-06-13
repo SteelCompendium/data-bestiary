@@ -56,7 +56,7 @@ type: statblock
 
 > ⭐️ **Infernal Ichor**
 >
-> When the flameslinger is reduced to 0 Stamina, they spray buring blood. Each creature adjacent to the flameslinger takes 3 fire damage.
+> When the flameslinger is reduced to 0 [Stamina](../../rule/health/stamina.md), they spray buring blood. Each creature [adjacent](../../rule/combat/adjacent.md) to the flameslinger takes 3 fire damage.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -72,7 +72,7 @@ type: statblock
 > - **12-16:** 12 damage; pull 2
 > - **17+:** 16 damage, pull 4
 >
-> **Effect:** A target who is pulled adjacent to the flameslinger and who has P < AVERAGE is knocked prone.
+> **Effect:** A target who is pulled [adjacent](../../rule/combat/adjacent.md) to the flameslinger and who has P < AVERAGE is knocked [prone](../../condition/prone.md).
 
 **Level 10 Retainer Advancement Ability**
 
@@ -84,8 +84,8 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 damage; push 2
-> - **12-16:** 12 damage; push 3
-> - **17+:** 16 damage; push 5
+> - **≤11:** 8 damage; [push](../../movement/forced-movement.md) 2
+> - **12-16:** 12 damage; [push](../../movement/forced-movement.md) 3
+> - **17+:** 16 damage; [push](../../movement/forced-movement.md) 5
 >
 > **Effect:** If the flameslinger's mentor is within 10 squares of the flameslinger, the mentor can be the source of the burst instead of the flameslinger.

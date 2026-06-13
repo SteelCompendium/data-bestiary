@@ -7,7 +7,7 @@ type: chapter
 
 A retainer is a type of NPC follower who fights alongside the heroes. Retainer creatures can gain levels just as heroes do, so their battlefield contributions remain relevant as the heroes grow in status and power. A lowly level 1 goblin guide can advance up to level 10 if they adventure with a heroic party for long enough!
 
-The stat blocks in this chapter have the Retainer type next to their level and role. For example, a goblin guide is a level 1 harrier retainer. Some retainers, such as the human warrior or the time raider mind healer, are members of playable ancestries. Others, such as the minotaur gorer, are more monstrous in nature. Additionally, the rules in this chapter allow for the creation of new retainers using nearly any monster as a base creature.
+The stat blocks in this chapter have the Retainer type next to their level and role. For example, a goblin guide is a level 1 [harrier](../rule/role/harrier.md) retainer. Some retainers, such as the human warrior or the time raider mind healer, are members of playable ancestries. Others, such as the minotaur gorer, are more monstrous in nature. Additionally, the rules in this chapter allow for the creation of new retainers using nearly any monster as a base creature.
 
 A retainer is a follower of a specific hero. This hero is called the retainer's mentor, and their player controls that retainer in battle. Each player can control only one retainer at a time. If a hero ever acquires more than one retainer, all but one of those are considered to be working at the party's stronghold or performing some function at the periphery of any battle, not contributing meaningfully to its outcome.
 
@@ -42,10 +42,10 @@ When using retainers in combat, a number of special rules should be kept in mind
 - **Hero Can't Act:** If a hero can't act on their turn (because they are unconscious, for example), their player can still control the hero's retainer.
 - **Retainer Action Economy:** On their turn, a retainer can take a move action, a maneuver, and a main action, just like a hero.
 
-Recoveries: A retainer has 6 Recoveries.
+Recoveries: A retainer has 6 [Recoveries](../rule/health/recoveries.md).
 
-- **Death:** A retainer can become dying at 0 Stamina and die at negative half their Stamina, just like a hero.
-- **Surges:** Whenever a retainer gains surges, those surges are gained by their mentor, with the mentor and retainer sharing surges. The retainer spends surges the same way a hero can, but the extra damage granted to them by spending a surge is equal to their mentor's highest characteristic score.
+- **Death:** A retainer can become dying at 0 [Stamina](../rule/health/stamina.md) and die at negative half their [Stamina](../rule/health/stamina.md), just like a hero.
+- **Surges:** Whenever a retainer gains [surges](../rule/resource/surge.md), those [surges](../rule/resource/surge.md) are gained by their mentor, with the mentor and retainer sharing [surges](../rule/resource/surge.md). The retainer spends [surges](../rule/resource/surge.md) the same way a hero can, but the extra damage granted to them by spending a [surge](../rule/resource/surge.md) is equal to their mentor's highest characteristic score.
 
 #### Retainer Advancement
 
@@ -55,23 +55,23 @@ If a character somehow acquires a retainer with a level higher than their own, t
 
 #### Advancement Features
 
-A retainer creature's stat block includes characteristics, a level, a role, one or more abilities including a signature ability, and other standard monster features. This stat block represents the retainer's statistics at their lowest level. The retainer's statistics improve as they gain levels, as shown on the Retainer Advancement table.
+A retainer creature's stat block includes characteristics, a level, a role, one or more abilities including a [signature ability](../rule/combat/signature-ability.md), and other standard monster features. This stat block represents the retainer's statistics at their lowest level. The retainer's statistics improve as they gain levels, as shown on the Retainer Advancement table.
 
 The number of levels a retainer can gain depends on their starting level. For instance, a devil defector starts at level 5, and so can gain only 5 levels before reaching level 10. If the level noted in a retainer's stat block is higher than 1, they don't gain advancement benefits for any levels up to and including their starting level. As a higher-level creature, similar bonuses are already baked into their statistics.
 
 Retainer advancement benefits are broken out as follows:
 
 - **Characteristic Increase:** At level 2, a retainer increases one of their characteristic scores by 1 (to a maximum of 2). At level 5, they increase each of their characteristic scores by 1 (to a maximum of 3), and at level 8, they increase one characteristic score by 1 (to a maximum of 4). For each single-characteristic increase, the player of the retainer's mentor chooses which characteristic to use.
-- **Free Strike Damage Bonus:** The retainer gains a +2 damage bonus to free strikes at level 3, at level 6, and at level 9.
+- **Free Strike Damage Bonus:** The retainer gains a +2 damage bonus to [free strikes](../feature/common/main-actions/free-strike.md) at level 3, at level 6, and at level 9.
 - **Advancement Abilities:** A retainer gains new abilities at levels 4, 7, and 10 (unless the retainer's starting level is that level or higher). Each retainer stat block is accompanied by retainer advancement abilities specific to that retainer. Whenever a retainer would gain a new advancement ability, instead of choosing their retainer ability, the player of their mentor can instead choose a role advancement ability that matches their role and level. (Advancement abilities for each type of creature role are detailed in the next section.)
-- **Stamina Bonus:** At each level, a retainer gains a +9 bonus to Stamina.
-- **Signature Ability Damage Increase:** A retainer's signature ability is unique in that it grows stronger as the retainer advances in level. Only the retainer's signature ability improves this way! The table features two columns for a retainer's signature ability damage bonus—one for a tier 1 power roll outcome and one for a tier 2 or tier 3 outcome. A retainer's signature ability gains a +1 damage bonus every second level for a tier 1 outcome, and every level for a tier 2 or tier 3 outcome.
+- **Stamina Bonus:** At each level, a retainer gains a +9 bonus to [Stamina](../rule/health/stamina.md).
+- **Signature Ability Damage Increase:** A retainer's [signature ability](../rule/combat/signature-ability.md) is unique in that it grows stronger as the retainer advances in level. Only the retainer's [signature ability](../rule/combat/signature-ability.md) improves this way! The table features two columns for a retainer's [signature ability](../rule/combat/signature-ability.md) damage bonus—one for a tier 1 power roll outcome and one for a tier 2 or tier 3 outcome. A retainer's [signature ability](../rule/combat/signature-ability.md) gains a +1 damage bonus every second level for a tier 1 outcome, and every level for a tier 2 or tier 3 outcome.
 
 ##### Advancement Example
 
-A 4th-level hero convinces a goblin guide, a level 1 harrier retainer, to join the party. The goblin guide immediately jumps to level 4. For level 2, the guide increases their Agility by 1. For level 3, the guide gains a +2 damage bonus to their free strikes. For level 4, the guide chooses between the level 4 retainer advancement ability Weaving Knives or the level 4 harrier advancement ability Tackle (see below).
+A 4th-level hero convinces a goblin guide, a level 1 [harrier](../rule/role/harrier.md) retainer, to join the party. The goblin guide immediately jumps to level 4. For level 2, the guide increases their Agility by 1. For level 3, the guide gains a +2 damage bonus to their [free strikes](../feature/common/main-actions/free-strike.md). For level 4, the guide chooses between the level 4 retainer advancement ability Weaving Knives or the level 4 [harrier](../rule/role/harrier.md) advancement ability Tackle (see below).
 
-Additionally, for jumping from level 1 to level 4, the guide gains a +27 bonus to Stamina, giving them Stamina 48. Their signature ability gains a +2 damage bonus on a tier 1 outcome (for a total of 5 damage), and a +3 bonus on a tier 2 outcome (8 damage) or a tier 3 outcome (10 damage).
+Additionally, for jumping from level 1 to level 4, the guide gains a +27 bonus to [Stamina](../rule/health/stamina.md), giving them [Stamina](../rule/health/stamina.md) 48. Their [signature ability](../rule/combat/signature-ability.md) gains a +2 damage bonus on a tier 1 outcome (for a total of 5 damage), and a +3 bonus on a tier 2 outcome (8 damage) or a tier 3 outcome (10 damage).
 
 #### Encounter Abilities
 
@@ -79,17 +79,17 @@ Some retainer abilities have the Encounter keyword. Once a retainer uses an enco
 
 #### Custom Retainers
 
-This book includes more than a dozen retainer stat blocks with advancement information. But most creature stat blocks can be turned into retainers, provided a creature isn't a minion, a leader, or a solo. You have the final say over whether a player can choose a specific creature as a custom retainer.
+This book includes more than a dozen retainer stat blocks with advancement information. But most creature stat blocks can be turned into retainers, provided a creature isn't a [minion](../rule/organization/minion.md), a [leader](../rule/organization/leader.md), or a [solo](../rule/organization/solo.md). You have the final say over whether a player can choose a specific creature as a custom retainer.
 
-To turn a creature into a custom retainer, start with the creature's stat block. Instead of the Stamina noted in the stat block, a custom retainer has 21 Stamina at level 1. Then use the Retainer Advancement table as a guide to adjusting the creature's statistics as they increase in level, including starting at higher than level 1.
+To turn a creature into a custom retainer, start with the creature's stat block. Instead of the [Stamina](../rule/health/stamina.md) noted in the stat block, a custom retainer has 21 [Stamina](../rule/health/stamina.md) at level 1. Then use the Retainer Advancement table as a guide to adjusting the creature's statistics as they increase in level, including starting at higher than level 1.
 
-If the creature's signature ability affects an area or targets more than one creature or object, the ability now only affects one target within distance. A custom retainer has no retainer advancement abilities, so they must take the role advancement ability specific to their level and role. Custom retainers can't use any abilities or effects that require Malice.
+If the creature's [signature ability](../rule/combat/signature-ability.md) affects an area or targets more than one creature or object, the ability now only affects one target within distance. A custom retainer has no retainer advancement abilities, so they must take the role advancement ability specific to their level and role. Custom retainers can't use any abilities or effects that require [Malice](../rule/monster/malice.md).
 
 ##### Advancement Example
 
-A 4th-level hero trains a striped condor griffon, a level 2 elite brute, gaining that noble creature as a retainer. The griffon starts as a level 2 retainer. They have Stamina 30 (21 for level 1 and a +9 bonus for being level 2). Because they started at level 2, they don't gain any level 2 benefits or advancement features from the Retainer Advancement table.
+A 4th-level hero trains a striped condor griffon, a level 2 [elite](../rule/organization/elite.md) [brute](../rule/role/brute.md), gaining that noble creature as a retainer. The griffon starts as a level 2 retainer. They have [Stamina](../rule/health/stamina.md) 30 (21 for level 1 and a +9 bonus for being level 2). Because they started at level 2, they don't gain any level 2 benefits or advancement features from the Retainer Advancement table.
 
-At level 3, the griffon gains a +2 damage bonus to their free strikes, a +9 bonus to Stamina (giving them Stamina 39), and a +1 damage bonus to their signature ability for a tier 2 or tier 3 outcome. At level 4, the griffon gains the level 4 brute ability Big Windup (see Big Windup), another + 9 bonus to Stamina (for Stamina 48), and a +1 damage bonus to their signature ability for all tier outcomes. This gives them a total damage bonus to their signature ability of +1 for tier 1 outcomes and +2 for tier 2 and tier 3 outcomes.
+At level 3, the griffon gains a +2 damage bonus to their [free strikes](../feature/common/main-actions/free-strike.md), a +9 bonus to [Stamina](../rule/health/stamina.md) (giving them [Stamina](../rule/health/stamina.md) 39), and a +1 damage bonus to their [signature ability](../rule/combat/signature-ability.md) for a tier 2 or tier 3 outcome. At level 4, the griffon gains the level 4 [brute](../rule/role/brute.md) ability Big Windup (see Big Windup), another + 9 bonus to [Stamina](../rule/health/stamina.md) (for [Stamina](../rule/health/stamina.md) 48), and a +1 damage bonus to their [signature ability](../rule/combat/signature-ability.md) for all tier outcomes. This gives them a total damage bonus to their [signature ability](../rule/combat/signature-ability.md) of +1 for tier 1 outcomes and +2 for tier 2 and tier 3 outcomes.
 
 #### Role Advancement Abilities
 
@@ -123,11 +123,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 damage; M < WEAK bleeding (save ends)
-> - **12-16:** 9 damage; M < AVERAGE bleeding (save ends)
-> - **17+:** 12 damage; M < STRONG bleeding (save ends)
+> - **≤11:** 5 damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
 >
-> **Effect:** If the target is grabbed or the retainer had an edge on the power roll, the retainer gains 2 surges.
+> **Effect:** If the target is [grabbed](../condition/grabbed.md) or the retainer had an edge on the power roll, the retainer gains 2 [surges](../rule/resource/surge.md).
 
 **Level 7 Role Advancement Ability**
 
@@ -139,9 +139,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 damage; M < WEAK slowed (EoT)
-> - **12-16:** 10 damage; M < AVERAGE slowed (save ends)
-> - **17+:** 15 damage; M < STRONG slowed and the target can't used triggered actions (save ends)
+> - **≤11:** 7 damage; M < WEAK [slowed](../condition/slowed.md) (EoT)
+> - **12-16:** 10 damage; M < AVERAGE [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 15 damage; M < STRONG [slowed](../condition/slowed.md) and the target can't used triggered actions ([save](../rule/general/saving-throw.md) ends)
 >
 > **Effect:** The retainer and their mentor can each move up to their speed.
 
@@ -155,11 +155,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 11 damage; a size 1 or smaller target who has M < WEAK is grabbed
-> - **12-16:** 16 damage; a size 1 or smaller target who has M < AVERAGE is grabbed
-> - **17+:** 21 damage; a size 1 or smaller target who has M < STRONG is grabbed
+> - **≤11:** 11 damage; a size 1 or smaller target who has M < WEAK is [grabbed](../condition/grabbed.md)
+> - **12-16:** 16 damage; a size 1 or smaller target who has M < AVERAGE is [grabbed](../condition/grabbed.md)
+> - **17+:** 21 damage; a size 1 or smaller target who has M < STRONG is [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The retainer gains 2 surges when any creature makes a strike against a target grabbed this way.
+> **Effect:** The retainer gains 2 [surges](../rule/resource/surge.md) when any creature makes a strike against a target [grabbed](../condition/grabbed.md) this way.
 
 ##### Artillery Abilities
 
@@ -173,7 +173,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** The retainer's mentor makes a strike against a creature within distance.
 >
-> **Effect:** The retainer makes a ranged free strike against the target.
+> **Effect:** The retainer makes a ranged [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 **Level 7 Role Advancement Ability**
 
@@ -185,9 +185,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 damage; M < WEAK prone
-> - **12-16:** 11 damage; M < AVERAGE prone
-> - **17+:** 16 damage; M < STRONG prone
+> - **≤11:** 7 damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 11 damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 16 damage; M < STRONG [prone](../condition/prone.md)
 
 **Level 10 Role Advancement Ability**
 
@@ -215,7 +215,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of the retainer's next turn, strikes made against the retainer gain an edge. At the start of the retainer's next turn, they gain 2 surges, and any ability they use before the end of their turn that force moves a creature can move that creature 2 additional squares.
+> **Effect:** Until the start of the retainer's next turn, strikes made against the retainer gain an edge. At the start of the retainer's next turn, they gain 2 [surges](../rule/resource/surge.md), and any ability they use before the end of their turn that [force moves](../movement/forced-movement.md) a creature can move that creature 2 additional squares.
 
 **Level 7 Role Advancement Ability**
 
@@ -228,10 +228,10 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > **Power Roll + highest characteristic:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 13 damage; push 2
-> - **17+:** 16 damage; push 3; M < STRONG prone
+> - **12-16:** 13 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 16 damage; [push](../movement/forced-movement.md) 3; M < STRONG [prone](../condition/prone.md)
 >
-> **Effect:** If the target ends any forced movement from this ability in a square adjacent to the retainer's mentor, the mentor can make a melee free strike against them.
+> **Effect:** If the target ends any [forced movement](../movement/forced-movement.md) from this ability in a square [adjacent](../rule/combat/adjacent.md) to the retainer's mentor, the mentor can make a melee [free strike](../feature/common/main-actions/free-strike.md) against them.
 
 **Level 10 Role Advancement Ability**
 
@@ -243,11 +243,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 10 damage; push 1
-> - **12-16:** 14 damage; push 2
-> - **17+:** 20 damage; push 4
+> - **≤11:** 10 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 14 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 20 damage; [push](../movement/forced-movement.md) 4
 >
-> **Effect:** The retainer is dazed until the end of their next turn.
+> **Effect:** The retainer is [dazed](../condition/dazed.md) until the end of their next turn.
 
 ##### Controller Abilities
 
@@ -261,9 +261,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 4 damage; push 2
-> - **12-16:** 6 damage; push 3
-> - **17+:** 10 damage; push 5
+> - **≤11:** 4 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 6 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 10 damage; [push](../movement/forced-movement.md) 5
 >
 > **Effect:** When the retainer uses this ability, they can choose for it to deal one of the following damage types: acid, cold, fire, lightning, poison, or sonic.
 
@@ -277,11 +277,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 poison damage; M < WEAK prone
-> - **12-16:** 8 poison damage; M < AVERAGE prone
-> - **17+:** 11 poison damage; M < STRONG prone
+> - **≤11:** 5 poison damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 8 poison damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 11 poison damage; M < STRONG [prone](../condition/prone.md)
 >
-> **Effect:** The area is difficult terrain for enemies. Any enemy has fire weakness 5 while in the area, and any enemy who ends their turn in the area and has no movement remaining falls prone.
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) for enemies. Any enemy has fire weakness 5 while in the area, and any enemy who ends their turn in the area and has no movement remaining falls [prone](../condition/prone.md).
 
 **Level 10 Role Advancement Ability**
 
@@ -299,7 +299,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 11 damage
 > - **17+:** 16 damage
 >
-> **Effect:** The area within 2 squares of the target is difficult terrain, and each enemy in the area takes the same damage the object took.
+> **Effect:** The area within 2 squares of the target is [difficult terrain](../movement/difficult-terrain.md), and each enemy in the area takes the same damage the object took.
 
 ##### Defender Abilities
 
@@ -313,7 +313,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** The target takes damage from a strike.
 >
-> **Effect:** The retainer pushes the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect.
+> **Effect:** The retainer [pushes](../movement/forced-movement.md) the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect.
 
 **Level 7 Role Advancement Ability**
 
@@ -325,9 +325,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 damage; taunted (EoT)
-> - **12-16:** 11 damage; taunted (save ends)
-> - **17+:** 16 damage; taunted (save ends)
+> - **≤11:** 7 damage; [taunted](../condition/taunted.md) (EoT)
+> - **12-16:** 11 damage; [taunted](../condition/taunted.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; [taunted](../condition/taunted.md) ([save](../rule/general/saving-throw.md) ends)
 
 **Level 10 Role Advancement Ability**
 
@@ -343,7 +343,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 13 damage
 > - **17+:** 17 damage
 >
-> **Effect:** The retainer and their mentor each gain 10 temporary Stamina. Additionally, each winded ally within 2 squares of the retainer can spend a Recovery.
+> **Effect:** The retainer and their mentor each gain 10 [temporary Stamina](../rule/health/temporary-stamina.md). Additionally, each [winded](../rule/health/winded.md) ally within 2 squares of the retainer can spend a [Recovery](../rule/health/recoveries.md).
 
 ##### Harrier Abilities
 
@@ -357,9 +357,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-----------------------------------|-----------------:|
 > | **📏 Melee 1**                    | **🎯 One enemy** |
 >
-> - **≤11:** 5 damage; push 1
-> - **12-16:** 9 damage; push 2
-> - **17+:** 12 damage; push 4
+> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 9 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 12 damage; [push](../movement/forced-movement.md) 4
 
 **Level 7 Role Advancement Ability**
 
@@ -375,7 +375,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 10 damage
 > - **17+:** 15 damage
 >
-> **Effect:** Before or after the strike, the retainer and their mentor can each shift up to their speed.
+> **Effect:** Before or after the strike, the retainer and their mentor can each [shift](../movement/shifting.md) up to their speed.
 
 **Level 10 Role Advancement Ability**
 
@@ -387,11 +387,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 11 damage; one target who has M < WEAK is grabbed
-> - **12-16:** 16 damage; one target who has M < AVERAGE is grabbed
-> - **17+:** 21 damage; one target who has M < STRONG is grabbed
+> - **≤11:** 11 damage; one target who has M < WEAK is [grabbed](../condition/grabbed.md)
+> - **12-16:** 16 damage; one target who has M < AVERAGE is [grabbed](../condition/grabbed.md)
+> - **17+:** 21 damage; one target who has M < STRONG is [grabbed](../condition/grabbed.md)
 >
-> **Effect:** The retainer shifts up to 2 squares, and can move a creature grabbed using this ability with them.
+> **Effect:** The retainer [shifts](../movement/shifting.md) up to 2 squares, and can move a creature [grabbed](../condition/grabbed.md) using this ability with them.
 
 ##### Hexer Abilities
 
@@ -422,11 +422,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 damage; M < WEAK slowed (save ends)
-> - **12-16:** 9 damage; M < AVERAGE slowed (save ends)
-> - **17+:** 12 damage; M < STRONG slowed (save ends)
+> - **≤11:** 5 damage; M < WEAK [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 damage; M < AVERAGE [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 damage; M < STRONG [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
 >
-> **Effect:** While the target is slowed this way, if they end their turn without moving on that turn, they are no longer slowed and are restrained (save ends).
+> **Effect:** While the target is [slowed](../condition/slowed.md) this way, if they end their turn without moving on that turn, they are no longer [slowed](../condition/slowed.md) and are [restrained](../condition/restrained.md) ([save](../rule/general/saving-throw.md) ends).
 
 **Level 10 Role Advancement Ability**
 
@@ -442,7 +442,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 11 damage; if the target has M < AVERAGE they are mazed (save ends)
 > - **17+:** 16 damage; if the target has M < STRONG they are mazed (save ends)
 >
-> **Effect:** While mazed, the target is dazed. Additionally, at the end of each of the mazed target's turns, the retainer can cause the target to move up to their speed in a straight line in a direction of the retainer's choice. This is not forced movement, and the movement ends if it would cause the target to enter difficult or damaging terrain.
+> **Effect:** While mazed, the target is [dazed](../condition/dazed.md). Additionally, at the end of each of the mazed target's turns, the retainer can cause the target to move up to their speed in a straight line in a direction of the retainer's choice. This is not [forced movement](../movement/forced-movement.md), and the movement ends if it would cause the target to enter [difficult](../movement/difficult-terrain.md) or damaging terrain.
 
 ##### Mount Abilities
 
@@ -460,7 +460,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 8 damage
 > - **17+:** 11 damage
 >
-> **Effect:** If this ability is used as part of the Charge main action, the mount's rider can use a free triggered action to make a melee free strike against the same target.
+> **Effect:** If this ability is used as part of the [Charge](../feature/common/main-actions/charge.md) main action, the mount's rider can use a free triggered action to make a melee [free strike](../feature/common/main-actions/free-strike.md) against the same target.
 
 **Level 7 Role Advancement Ability**
 
@@ -470,7 +470,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|----------------:|
 > | **📏 Range 5** |     **🎯 Self** |
 >
-> **Effect:** The mount shifts twice their speed. They can jump as part of this movement.
+> **Effect:** The mount [shifts](../movement/shifting.md) twice their speed. They can jump as part of this movement.
 
 **Level 10 Role Advancement Ability**
 
@@ -482,11 +482,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 10 damage; M < WEAK prone
-> - **12-16:** 15 damage; M < AVERAGE prone
-> - **17+:** 21 damage; M < STRONG prone
+> - **≤11:** 10 damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 15 damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 21 damage; M < STRONG [prone](../condition/prone.md)
 >
-> **Effect:** A target knocked prone this way or who is already prone takes an extra 5 damage.
+> **Effect:** A target knocked [prone](../condition/prone.md) this way or who is already [prone](../condition/prone.md) takes an extra 5 damage.
 
 ##### Support Abilities
 
@@ -498,7 +498,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
-> **Effect:** The target spends a Recovery, and ability rolls against the target take a bane until the start of the retainer's next turn.
+> **Effect:** The target spends a [Recovery](../rule/health/recoveries.md), and ability rolls against the target take a bane until the start of the retainer's next turn.
 
 **Level 7 Role Advancement Ability**
 
@@ -514,7 +514,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 13 damage
 > - **17+:** 18 damage
 >
-> **Effect:** One ally within distance gains 2 surges.
+> **Effect:** One ally within distance gains 2 [surges](../rule/resource/surge.md).
 
 **Level 10 Role Advancement Ability**
 
@@ -524,7 +524,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|----------------:|
 > | **📏 Melee 1** | **🎯 One ally** |
 >
-> **Effect:** If the target is at or below 0 Stamina, or if they have died due to Stamina loss since the end of the retainer's last turn, the target is alive with 1 Stamina and can spend a Recovery.
+> **Effect:** If the target is at or below 0 [Stamina](../rule/health/stamina.md), or if they have died due to [Stamina](../rule/health/stamina.md) loss since the end of the retainer's last turn, the target is alive with 1 [Stamina](../rule/health/stamina.md) and can spend a [Recovery](../rule/health/recoveries.md).
 
 #### Retainer Statblocks
 
@@ -548,11 +548,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** Before or after making this strike, the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
+> **Effect:** Before or after making this [strike](../rule/combat/strike.md), the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
+> Whenever an [adjacent](../rule/combat/adjacent.md) enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -564,11 +564,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 damage; M <w, prone
-> - **12-16:** 9 damage; M <v, prone
-> - **17+:** 12 damage; M <s, prone
+> - **≤11:** 5 damage; M < WEAK, [prone](../condition/prone.md)
+> - **12-16:** 9 damage; M < AVERAGE, [prone](../condition/prone.md)
+> - **17+:** 12 damage; M < STRONG, [prone](../condition/prone.md)
 >
-> **Effect:** The hopper can jump up to their speed in a straight line before the strike without provoking opportunity attacks. If they jump 2 or more squares this way, they gain 1 surge.
+> **Effect:** The hopper can jump up to their speed in a straight line before the [strike](../rule/combat/strike.md) without provoking [opportunity attacks](../rule/combat/opportunity-attack.md). If they jump 2 or more squares this way, they gain 1 [surge](../rule/resource/surge.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -580,9 +580,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 poison damage; M < WEAK, weakened (save ends)
-> - **12-16:** 9 poison damage; M < AVERAGE, slowed and weakened (save ends)
-> - **17+:** 12 poison damage; M < STRONG, dazed, slowed, and weakened (save ends)
+> - **≤11:** 5 poison damage; M < WEAK, [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE, [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 poison damage; M < STRONG, [dazed](../condition/dazed.md), [slowed](../condition/slowed.md), and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
 
 **Level 10 Retainer Advancement Ability**
 
@@ -594,7 +594,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** A creature moves within distance.
 >
-> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked prone, and one ally within distance gains 2 surges.
+> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked [prone](../condition/prone.md), and one ally within distance gains 2 [surges](../rule/resource/surge.md).
 
 ###### Bugbear Commando {data-scc="mcdm.monsters.v1/retainer.statblock/bugbear-commando"}
 
@@ -616,7 +616,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 6 damage
 > - **17+:** 11 damage
 >
-> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 surge that can be used immediately.
+> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 [surge](../rule/resource/surge.md) that can be used immediately.
 
 > 🗡 **Throw**
 >
@@ -624,9 +624,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the commando.
+> **Special:** The target must be [grabbed](../condition/grabbed.md) by the commando.
 >
-> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way.
+> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](../movement/forced-movement.md) this way.
 
 > ❗️ **Catcher**
 >
@@ -634,9 +634,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is grabbed by the commando.
+> **Effect:** The target is [grabbed](../condition/grabbed.md) by the commando.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -648,11 +648,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 damage; M < WEAK grabbed
-> - **12-16:** 9 damage; M < AVERAGE grabbed
-> - **17+:** 13 damage; M < STRONG grabbed
+> - **≤11:** 6 damage; M < WEAK [grabbed](../condition/grabbed.md)
+> - **12-16:** 9 damage; M < AVERAGE [grabbed](../condition/grabbed.md)
+> - **17+:** 13 damage; M < STRONG [grabbed](../condition/grabbed.md)
 >
-> **Effect:** While the target is grabbed this way, they can't communicate and all creatures and objects have concealment from them.
+> **Effect:** While the target is [grabbed](../condition/grabbed.md) this way, they can't communicate and all creatures and objects have concealment from them.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -669,7 +669,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** Pull 10
 > - **17+:** Pull 12
 >
-> **Effect:** The target takes 1 damage for each square they are pulled.
+> **Effect:** The target takes 1 damage for each square they are [pulled](../movement/forced-movement.md).
 
 **Level 10 Retainer Advancement Ability**
 
@@ -685,7 +685,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 18 damage
 > - **17+:** 24 damage
 >
-> **Effect:** The target takes 15 damage, they are no longer grabbed, and they fall prone.
+> **Effect:** The target takes 15 damage, they are no longer [grabbed](../condition/grabbed.md), and they fall [prone](../condition/prone.md).
 
 ###### Devil Defector {data-scc="mcdm.monsters.v1/retainer.statblock/devil-defector"}
 
@@ -713,9 +713,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 10**   | **🎯 The triggering creature** |
 >
-> **Trigger:** A sapient enemy is reduced to 0 Stamina.
+> **Trigger:** A sapient enemy is reduced to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The defector makes an offer to keep the target alive. If the target accepts, they are reduced to 1 Stamina instead. On the target's next turn, the defector controls their move action and the target must use a signature ability against a creature of the defector's choice or immediately die. To have the target turn down the offer, the Diretor must spend 3 Malice.
+> **Effect:** The defector makes an offer to keep the target alive. If the target accepts, they are reduced to 1 [Stamina](../rule/health/stamina.md) instead. On the target's next turn, the defector controls their move action and the target must use a [signature ability](../rule/combat/signature-ability.md) against a creature of the defector's choice or immediately die. To have the target turn down the offer, the Diretor must spend 3 [Malice](../rule/monster/malice.md).
 
 > ⭐️ **True Name**
 >
@@ -745,7 +745,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------------------|----------------:|
 > | **📏 5 cube within 10** |  **🎯 Special** |
 >
-> **Effect:** The area burns with infernal fire until the end of the devil's next turn. Any enemy of the defector who ends their turn in the area takes 10 fire damage, and if they have P < AVERAGE they are frightened (save ends).
+> **Effect:** The area burns with infernal fire until the end of the devil's next turn. Any enemy of the defector who ends their turn in the area takes 10 fire damage, and if they have P < AVERAGE they are [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends).
 
 ###### The Nameless {data-scc="mcdm.monsters.v1/retainer.statblock/the-nameless"}
 
@@ -765,7 +765,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 6 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; push 2
+> - **17+:** 14 damage; [push](../movement/forced-movement.md) 2
 
 > 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
 >
@@ -773,7 +773,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|-----------------------------:|
 > | **📏 Melee 1** | **🎯 The Nameless's mentor** |
 >
-> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an adjacent space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
+> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](../rule/combat/adjacent.md) space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
 
 > ⭐️ **Wing Block**
 >
@@ -789,9 +789,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 corruption damage; I < WEAK weakened (save ends)
-> - **12-16:** 9 corruption damage; I < AVERAGE weakened (save ends)
-> - **17+:** 12 corruption damage; I < STRONG weakened (save ends)
+> - **≤11:** 5 corruption damage; I < WEAK [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 corruption damage; I < AVERAGE [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 corruption damage; I < STRONG [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
 >
 > **Effect:** If the Nameless's mentor is in the area, ability rolls against the mentor have a double bane until the start of their next turn.
 
@@ -805,13 +805,13 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> **Special:** The Nameless must be winded to use this ability.
+> **Special:** The Nameless must be [winded](../rule/health/winded.md) to use this ability.
 >
 > - **≤11:** 11 corruption damage
 > - **12-16:** 16 corruption damage
 > - **17+:** 21 corruption damage
 >
-> **Effect:** Any living minions reduced to 0 Stamina by this ability regain all their Stamina and become corporeal undead under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
+> **Effect:** Any living [minions](../rule/organization/minion.md) reduced to 0 [Stamina](../rule/health/stamina.md) by this ability regain all their [Stamina](../rule/health/stamina.md) and become corporeal [undead](../rule/keyword/undead.md) under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
 
 ###### Dwarf Mortar {data-scc="mcdm.monsters.v1/retainer.statblock/dwarf-mortar"}
 
@@ -833,7 +833,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** This ability ignores cover and bypasses temporary Stamina.
+> **Effect:** This ability ignores [cover](../rule/combat/cover.md) and bypasses [temporary Stamina](../rule/health/temporary-stamina.md).
 
 > ⭐️ **Voice Rune**
 >
@@ -847,7 +847,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |---------------------------|------------------------------:|
 > | **📏 Special; see below** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't hide or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+> **Effect:** The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't [hide](../feature/common/maneuvers/hide.md) or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
 >
 > **Power Roll + highest characteristic:**
 >
@@ -865,9 +865,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 damage; I < WEAK dazed (save ends
-> - **12-16:** 12 damage; I < AVERAGE dazed (save ends)
-> - **17+:** 16 damage; I < STRONG dazed (save ends) and prone
+> - **≤11:** 8 damage; I < WEAK [dazed](../condition/dazed.md) ([save](../rule/general/saving-throw.md) ends
+> - **12-16:** 12 damage; I < AVERAGE [dazed](../condition/dazed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; I < STRONG [dazed](../condition/dazed.md) ([save](../rule/general/saving-throw.md) ends) and [prone](../condition/prone.md)
 
 **Level 7 Retainer Advancement Ability**
 
@@ -879,11 +879,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 damage; P < WEAK frightened
-> - **12-16:** 9 damage; P < AVERAGE frightened
-> - **17+:** 13 damage; P < STRONG frightened
+> - **≤11:** 6 damage; P < WEAK [frightened](../condition/frightened.md)
+> - **12-16:** 9 damage; P < AVERAGE [frightened](../condition/frightened.md)
+> - **17+:** 13 damage; P < STRONG [frightened](../condition/frightened.md)
 >
-> **Effect:** Until the start of the mortar's next turn, strikes made against the mortar or any ally adjacent to them take a bane.
+> **Effect:** Until the start of the mortar's next turn, [strikes](../rule/combat/strike.md) made against the mortar or any ally [adjacent](../rule/combat/adjacent.md) to them take a bane.
 
 ###### High Elf Weatherwise {data-scc="mcdm.monsters.v1/retainer.statblock/high-elf-weatherwise"}
 
@@ -905,11 +905,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 5 fire damage
 > - **17+:** 7 fire damage
 >
-> **Effect:** If the weatherwise targets their mentor, the mentor ignores the damage and instead gains temporary Stamina equal to the damage dealt.
+> **Effect:** If the weatherwise targets their mentor, the mentor ignores the damage and instead gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to the damage dealt.
 
 > ⭐️ **Otherworldly Grace**
 >
-> At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+> At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). That effect instead ends at the end of their turn.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -921,11 +921,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 3 cold damage; push 2
-> - **12-16:** 5 cold damage; push 3
-> - **17+:** 8 cold damage; push 5
+> - **≤11:** 3 cold damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 5 cold damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 8 cold damage; [push](../movement/forced-movement.md) 5
 >
-> **Effect:** The weatherwise can teleport up to 5 squares before or after using this ability.
+> **Effect:** The weatherwise can [teleport](../movement/teleport.md) up to 5 squares before or after using this ability.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -935,7 +935,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-----------------|-----------------------------:|
 > | **📏 3 burst**  | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can spend a Recovery, and can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+> **Effect:** Each target can spend a [Recovery](../rule/health/recoveries.md), and can choose one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). That effect instead ends at the end of their turn.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -947,9 +947,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 corruption damage; P < WEAK prone and can't stand (save ends)
-> - **12-16:** 10 corruption damage; P < AVERAGE prone and can't stand (save ends)
-> - **17+:** 14 corruption damage; P < STRONG prone and can't stand (save ends)
+> - **≤11:** 6 corruption damage; P < WEAK [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 10 corruption damage; P < AVERAGE [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 14 corruption damage; P < STRONG [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends)
 
 ###### Shadow Elf Shade {data-scc="mcdm.monsters.v1/retainer.statblock/shadow-elf-shade"}
 
@@ -971,7 +971,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 >
-> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 surge.
+> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 [surge](../rule/resource/surge.md).
 
 > 🔳 **Duskfall (Encounter)**
 >
@@ -983,7 +983,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⭐️ **Of the Umbra**
 >
-> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have damage weakness 3. While the shade has concealment, they have damage immunity 3.
+> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](../rule/damage/damage-weakness.md) 3. While the shade has concealment, they have [damage immunity](../rule/damage/damage-immunity.md) 3.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -995,9 +995,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 poison damage; weakened (save ends)
-> - **12-16:** 12 poison damage; weakened (save ends)
-> - **17+:** 16 poison damage; weakened (save ends)
+> - **≤11:** 8 poison damage; [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 12 poison damage; [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 poison damage; [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
 >
 > **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
 
@@ -1057,7 +1057,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 11 damage
 > - **17+:** 16 damage
 >
-> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 surges that can be used immediately.
+> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 [surges](../rule/resource/surge.md) that can be used immediately.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1067,7 +1067,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged strike, the strike gains an edge and the arrowswift gains 1 surge that must be used immediately. While the arrowswift's mentor is adjacent to them, the mentor also gains this benefit.
+> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](../rule/combat/strike.md), the [strike](../rule/combat/strike.md) gains an edge and the arrowswift gains 1 [surge](../rule/resource/surge.md) that must be used immediately. While the arrowswift's mentor is [adjacent](../rule/combat/adjacent.md) to them, the mentor also gains this benefit.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1101,11 +1101,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 10 damage; M < STRONG bleeding (save ends)
+> - **17+:** 10 damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 7 squares of the gnasher is reduced to 0 Stamina, the gnasher moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](../rule/organization/minion.md) ally within 7 squares of the gnasher is reduced to 0 [Stamina](../rule/health/stamina.md), the gnasher moves up to their speed and can make a melee [free strike](../feature/common/main-actions/free-strike.md).
 
 **Level 4 Retainer Advancement Ability**
 
@@ -1115,9 +1115,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** An enemy within 5 squares is reduced to 0 Stamina.
+> **Trigger:** An enemy within 5 squares is reduced to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The gnasher moves up to their speed and can use their signature ability.
+> **Effect:** The gnasher moves up to their speed and can use their [signature ability](../rule/combat/signature-ability.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1141,9 +1141,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Trigger:** The gnasher reduces a creature to 0 Stamina.
+> **Trigger:** The gnasher reduces a creature to 0 [Stamina](../rule/health/stamina.md).
 >
-> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a Recovery, and each enemy within 5 squares of the gnasher who has I < AVERAGE is frightened (save ends).
+> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a [Recovery](../rule/health/recoveries.md), and each enemy within 5 squares of the gnasher who has I < AVERAGE is [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends).
 
 ###### Goblin Guide {data-scc="mcdm.monsters.v1/retainer.statblock/goblin-guide"}
 
@@ -1185,7 +1185,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **Effect:** The guide shifts up to their speed before and after the strike.
+> **Effect:** The guide [shifts](../movement/shifting.md) up to their speed before and after the [strike](../rule/combat/strike.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1199,7 +1199,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 8 damage
 > - **12-16:** 12 damage; the guide and their mentor can each move up to their speed
-> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to hide
+> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to [hide](../feature/common/maneuvers/hide.md)
 >
 > **Effect:** If the guide is hidden from the target, this ability has a double edge.
 
@@ -1211,7 +1211,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >
-> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon strike, the strike deals an extra 10 poison damage, and if the target has M <v, they are weakened (save ends). If the guide is adjacent to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon [strike](../rule/combat/strike.md), the [strike](../rule/combat/strike.md) deals an extra 10 poison damage, and if the target has M < AVERAGE, they are [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends). If the guide is [adjacent](../rule/combat/adjacent.md) to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
 
 ###### Hobgoblin Flameslinger {data-scc="mcdm.monsters.v1/retainer.statblock/hobgoblin-flameslinger"}
 
@@ -1246,7 +1246,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⭐️ **Infernal Ichor**
 >
-> When the flameslinger is reduced to 0 Stamina, they spray buring blood. Each creature adjacent to the flameslinger takes 3 fire damage.
+> When the flameslinger is reduced to 0 [Stamina](../rule/health/stamina.md), they spray buring blood. Each creature [adjacent](../rule/combat/adjacent.md) to the flameslinger takes 3 fire damage.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1262,7 +1262,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 12 damage; pull 2
 > - **17+:** 16 damage, pull 4
 >
-> **Effect:** A target who is pulled adjacent to the flameslinger and who has P < AVERAGE is knocked prone.
+> **Effect:** A target who is pulled [adjacent](../rule/combat/adjacent.md) to the flameslinger and who has P < AVERAGE is knocked [prone](../condition/prone.md).
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1274,9 +1274,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 damage; push 2
-> - **12-16:** 12 damage; push 3
-> - **17+:** 16 damage; push 5
+> - **≤11:** 8 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 12 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 16 damage; [push](../movement/forced-movement.md) 5
 >
 > **Effect:** If the flameslinger's mentor is within 10 squares of the flameslinger, the mentor can be the source of the burst instead of the flameslinger.
 
@@ -1300,7 +1300,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** If the warrior is adjacent to their mentor, this ability gains an edge.
+> **Effect:** If the warrior is [adjacent](../rule/combat/adjacent.md) to their mentor, this ability gains an edge.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -1332,7 +1332,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 11 damage
 > - **17+:** 16 damage
 >
-> **Effect:** Until the start of the warrior's next turn, ability rolls against the warrior or any ally adjacent to the warrior have a double bane.
+> **Effect:** Until the start of the warrior's next turn, ability rolls against the warrior or any ally [adjacent](../rule/combat/adjacent.md) to the warrior have a double bane.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1366,11 +1366,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 3 damage
 > - **12-16:** 5 damage
-> - **17+:** 7 damage; taunted (EoT)
+> - **17+:** 7 damage; [taunted](../condition/taunted.md) (EoT)
 
 > ⭐️ **Shield, Boss?**
 >
-> While the shieldbearer is adjacent to their mentor, both have a +1 bonus to stability, have cover, and grant cover to allies.
+> While the shieldbearer is [adjacent](../rule/combat/adjacent.md) to their mentor, both have a +1 bonus to [stability](../rule/character/stability.md), have [cover](../rule/combat/cover.md), and grant [cover](../rule/combat/cover.md) to allies.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -1382,7 +1382,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** The mentor takes damage from a strike while within distance.
 >
-> **Effect:** The shieldbearer blocks the strike (if adjacent to the mentor) or throws their shield into the mentor's space. The triggering strike's damage is halved and the potency of any potency effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand.
+> **Effect:** The shieldbearer blocks the [strike](../rule/combat/strike.md) (if [adjacent](../rule/combat/adjacent.md) to the mentor) or throws their shield into the mentor's space. The triggering [strike](../rule/combat/strike.md)'s damage is halved and the [potency](../rule/character/potency.md) of any [potency](../rule/character/potency.md) effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1392,7 +1392,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|---------------------------------:|
 > | **📏 Melee 1** | **🎯 The shieldbearer's mentor** |
 >
-> **Effect:** The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 temporary Stamina and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is force moved away from their mentor or knocked prone. If the shieldbearer is still in their mentor's space when the effect ends, they move into an adjacent unoccupied space of their choice.
+> **Effect:** The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 [temporary Stamina](../rule/health/temporary-stamina.md) and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is [force moved](../movement/forced-movement.md) away from their mentor or knocked [prone](../condition/prone.md). If the shieldbearer is still in their mentor's space when the effect ends, they move into an [adjacent](../rule/combat/adjacent.md) unoccupied space of their choice.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1404,11 +1404,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 damage; M < WEAK prone
-> - **12-16:** 10 damage; M < AVERAGE prone
-> - **17+:** 14 damage; M < STRONG prone
+> - **≤11:** 6 damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 10 damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 14 damage; M < STRONG [prone](../condition/prone.md)
 >
-> **Effect:** If this ability is used as part of the Charge main action, the shieldbearer gains 2 surges that can be used immediately.
+> **Effect:** If this ability is used as part of the [Charge](../feature/common/main-actions/charge.md) main action, the shieldbearer gains 2 [surges](../rule/resource/surge.md) that can be used immediately.
 
 ###### Minotaur Gorer {data-scc="mcdm.monsters.v1/retainer.statblock/minotaur-gorer"}
 
@@ -1428,7 +1428,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 5 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < STRONG prone
+> - **17+:** 12 damage; M < STRONG [prone](../condition/prone.md)
 
 > ❗️ **Retaliatory Strike**
 >
@@ -1438,7 +1438,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** A creature within distance deals damage to the gorer.
 >
-> **Effect:** The gorer uses the Charge main action and Gore against the target.
+> **Effect:** The gorer uses the [Charge](../feature/common/main-actions/charge.md) main action and Gore against the target.
 
 > ⭐️ **Minotaur Sense**
 >
@@ -1454,7 +1454,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** The gorer damages a creature within distance using Gore.
 >
-> **Effect:** The target is pushed up to 3 squares. If the target has stability 0, they are also knocked prone.
+> **Effect:** The target is pushed up to 3 squares. If the target has [stability](../rule/character/stability.md) 0, they are also knocked [prone](../condition/prone.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1464,7 +1464,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The gorer gains 3 surges, and until the start of the gorer's next turn, strikes made against them and their mentor take a bane.
+> **Effect:** The gorer gains 3 [surges](../rule/resource/surge.md), and until the start of the gorer's next turn, [strikes](../rule/combat/strike.md) made against them and their mentor take a bane.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1476,9 +1476,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 11 damage; M < WEAK bleeding (save ends)
-> - **12-16:** 16 damage; M < AVERAGE bleeding (save ends)
-> - **17+:** 21 damage; M < STRONG prone and can't stand (save ends).
+> - **≤11:** 11 damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 16 damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 21 damage; M < STRONG [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends).
 
 ###### Orc Charger {data-scc="mcdm.monsters.v1/retainer.statblock/orc-charger"}
 
@@ -1502,7 +1502,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⭐️ **Relentless**
 >
-> If the charger is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the charger is reduced to 1 Stamina instead.
+> If the charger is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the [free strike](../feature/common/main-actions/free-strike.md) is reduced to 0 [Stamina](../rule/health/stamina.md), the charger is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -1512,7 +1512,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have temporary Stamina equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
+> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have [temporary Stamina](../rule/health/temporary-stamina.md) equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1522,7 +1522,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |------------------------|----------------:|
 > | **📏 Self; See below** |     **🎯 Self** |
 >
-> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy free strikes, and they can make a melee free strike against any creature they move adjacent to.
+> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy [free strikes](../feature/common/main-actions/free-strike.md), and they can make a melee [free strike](../feature/common/main-actions/free-strike.md) against any creature they move [adjacent](../rule/combat/adjacent.md) to.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1568,7 +1568,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The sidekick makes a free strike against the target.
+> **Effect:** The sidekick makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
 
 **Level 4 Retainer Advancement Ability**
 
@@ -1578,7 +1578,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** If the sidekick's mentor moves adjacent to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
+> **Effect:** If the sidekick's mentor moves [adjacent](../rule/combat/adjacent.md) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1590,9 +1590,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 poison damage; M < WEAK weakened (save ends)
-> - **12-16:** 9 poison damage; M < AVERAGE weakened (save ends)
-> - **17+:** 13 poison damage; M < STRONG weakened (save ends)
+> - **≤11:** 6 poison damage; M < WEAK [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 13 poison damage; M < STRONG [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1602,7 +1602,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > | --- | ---:|
 > | **📏 Ranged 10** | **🎯 Self and each ally** |
 >
-> **Effect:** Each target can spend a Recovery, and ends the dazed, frightened, and weakened conditions on themself.
+> **Effect:** Each target can spend a [Recovery](../rule/health/recoveries.md), and ends the [dazed](../condition/dazed.md), [frightened](../condition/frightened.md), and [weakened](../condition/weakened.md) conditions on themself.
 
 ###### Time Raider Mind Healer {data-scc="mcdm.monsters.v1/retainer.statblock/time-raider-mind-healer"}
 
@@ -1624,7 +1624,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 8 fire damage
 > - **17+:** 11 fire damage
 >
-> **Effect:** If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a saving throw or that ends at the end of their turn.
+> **Effect:** If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their turn.
 
 > ⭐️ **Foresight**
 >
@@ -1638,7 +1638,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-----------------|--------------------:|
 > | **📏 Ranged 3** | **🎯 One creature** |
 >
-> **Effect:** The target can spend 1 Recovery, and has their speed doubled until the end of their next turn.
+> **Effect:** The target can spend 1 [Recovery](../rule/health/recoveries.md), and has their speed doubled until the end of their next turn.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1650,9 +1650,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 psychic damage; R < WEAK frightened (save ends)
-> - **12-16:** 13 psychic damage; R < AVERAGE frightened (save ends)
-> - **17+:** 17 psychic damage; R < STRONG frightened (save ends)
+> - **≤11:** 8 psychic damage; R < WEAK [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 13 psychic damage; R < AVERAGE [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 17 psychic damage; R < STRONG [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1668,7 +1668,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 16 psychic damage
 > - **17+:** 21 psychic damage
 >
-> **Effect:** If the mind healer is dazed, frightened, or taunted, they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is dazed, frightened, or taunted.
+> **Effect:** If the mind healer is [dazed](../condition/dazed.md), [frightened](../condition/frightened.md), or [taunted](../condition/taunted.md), they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is [dazed](../condition/dazed.md), [frightened](../condition/frightened.md), or [taunted](../condition/taunted.md).
 
 ###### Troll Mercenary {data-scc="mcdm.monsters.v1/retainer.statblock/troll-mercenary"}
 
@@ -1690,7 +1690,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 11 damage
 > - **17+:** 14 damage
 >
-> **Effect:** The mercenary regains Stamina equal to half the damage dealt.
+> **Effect:** The mercenary regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
 
 > ❇️ **Troll Roar (Encounter)**
 >
@@ -1700,13 +1700,13 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** P < WEAK frightened (save ends)
-> - **12-16:** P < AVERAGE frightened (save ends)
-> - **17+:** P < STRONG frightened (save ends), push 3, prone
+> - **≤11:** P < WEAK [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** P < AVERAGE [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** P < STRONG [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends), push 3, [prone](../condition/prone.md)
 
 > ⭐️ **Relentless Hunger**
 >
-> The mercenary dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina.
+> The mercenary dies only if they are reduced to 0 [Stamina](../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../rule/health/stamina.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1716,7 +1716,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|-----------------------:|
 > | **📏 Melee 1** | **🎯 Three creatures** |
 >
-> **Effect:** The mercenary must be winded to use this ability. The mercenary uses Big Bite against each target.
+> **Effect:** The mercenary must be [winded](../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1752,7 +1752,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⭐️ **Arise**
 >
-> The first time in an encounter that the servitor is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their Stamina maximum and fall prone.
+> The first time in an encounter that the servitor is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their [Stamina](../rule/health/stamina.md) maximum and fall [prone](../condition/prone.md).
 
 **Level 4 Retainer Advancement Ability**
 
@@ -1764,9 +1764,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 damage; M < WEAK grabbed
-> - **12-16:** 11 damage; M < AVERAGE grabbed
-> - **17+:** 16 damage; M < STRONG grabbed
+> - **≤11:** 7 damage; M < WEAK [grabbed](../condition/grabbed.md)
+> - **12-16:** 11 damage; M < AVERAGE [grabbed](../condition/grabbed.md)
+> - **17+:** 16 damage; M < STRONG [grabbed](../condition/grabbed.md)
 
 ########Level 7 Retainer Advancement Ability
 
@@ -1778,11 +1778,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 corruption damage; P < WEAK weakened (save ends)
-> - **12-16:** 13 corruption damage; P < AVERAGE weakened (save ends)
-> - **17+:** 17 corruption damage; P < STRONG weakened (save ends)
+> - **≤11:** 8 corruption damage; P < WEAK [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 13 corruption damage; P < AVERAGE [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 17 corruption damage; P < STRONG [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
 >
-> **Effect:** Before making the strike, the servitor can teleport up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
+> **Effect:** Before making the [strike](../rule/combat/strike.md), the servitor can [teleport](../movement/teleport.md) up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1792,7 +1792,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
-> **Trigger:** The servitor is reduced to 0 Stamina.
+> **Trigger:** The servitor is reduced to 0 [Stamina](../rule/health/stamina.md).
 >
 > **Effect:** The servitor explodes.
 >
@@ -1820,7 +1820,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 3 cold damage
 > - **12-16:** 5 cold damage
-> - **17+:** 7 cold damage; P < STRONG slowed (EoT)
+> - **17+:** 7 cold damage; P < STRONG [slowed](../condition/slowed.md) (EoT)
 
 > 👤 **Spirit Meld**
 >
@@ -1828,7 +1828,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
+> **Effect:** While [adjacent](../rule/combat/adjacent.md) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](../rule/combat/adjacent.md) space.
 
 > ⭐️ **Corruptive Phasing**
 >
@@ -1848,7 +1848,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 10 corruption damage; the target has 2 levels of drain
 > - **17+:** 14 corruption damage; the target has 3 levels of drain
 >
-> **Effect:** The next creature to make a strike against the target gains 1 surge for each level of drain, which must be used on that strike.
+> **Effect:** The next creature to make a [strike](../rule/combat/strike.md) against the target gains 1 [surge](../rule/resource/surge.md) for each level of drain, which must be used on that [strike](../rule/combat/strike.md).
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1860,9 +1860,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** A < WEAK slowed and weakened (save ends)
-> - **12-16:** A < AVERAGE slowed and weakened (save ends)
-> - **17+:** A < STRONG slowed and weakened (save ends)
+> - **≤11:** A < WEAK [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** A < AVERAGE [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** A < STRONG [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1872,7 +1872,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >
-> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can fly. They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's potency can choose to automatically be affected.
+> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](../movement/fly.md). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](../rule/character/potency.md) can choose to automatically be affected.
 
 ###### Vampire Rebel {data-scc="mcdm.monsters.v1/retainer.statblock/vampire-rebel"}
 
@@ -1892,9 +1892,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > - **≤11:** 5 damage
 > - **12-16:** 5 damage, 3 corruption damage
-> - **17+:** 5 damage, 6 corruption damage; M < STRONG bleeding (save ends)
+> - **17+:** 5 damage, 6 corruption damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
 >
-> **Effect:** The vampire rebel gains temporary Stamina equal to any corruption damage dealt.
+> **Effect:** The vampire rebel gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to any corruption damage dealt.
 
 > 👤 **Bat Form (Encounter)**
 >
@@ -1902,11 +1902,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can fly. The vampire rebel then shifts up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.
+> **Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](../movement/fly.md). The vampire rebel then [shifts](../movement/shifting.md) up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.
 
 > ⭐️ **Agonizing Bloodthirst**
 >
-> The vampire rebel has speed 10 while any creature within 10 squares of them is bleeding. If the vampire rebel is able to deal damage to a bleeding creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
+> The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](../condition/bleeding.md). If the vampire rebel is able to deal damage to a [bleeding](../condition/bleeding.md) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
 
 **Level 7 Retainer Advancement Ability**
 
@@ -1918,11 +1918,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 damage; M < WEAK bleeding (save ends)
-> - **12-16:** 11 damage; M < AVERAGE bleeding (save ends)
-> - **17+:** 16 damage; M < STRONG bleeding (save ends)
+> - **≤11:** 7 damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 11 damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
 >
-> **Effect:** Before the strike, the vampire rebel shifts up to their speed. If the vampire rebel has temporary Stamina, they can expend it, dealing an extra 2 corruption damage for each point of temporary Stamina expended this way.
+> **Effect:** Before the [strike](../rule/combat/strike.md), the vampire rebel [shifts](../movement/shifting.md) up to their speed. If the vampire rebel has [temporary Stamina](../rule/health/temporary-stamina.md), they can expend it, dealing an extra 2 corruption damage for each point of [temporary Stamina](../rule/health/temporary-stamina.md) expended this way.
 
 **Level 10 Retainer Advancement Ability**
 
@@ -1934,6 +1934,6 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 7 corruption damage; M < WEAK bleeding (save ends)
-> - **12-16:** 11 corruption damage; M < AVERAGE bleeding (save ends)
-> - **17+:** 16 corruption damage; M < STRONG bleeding (save ends)
+> - **≤11:** 7 corruption damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 11 corruption damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 corruption damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)

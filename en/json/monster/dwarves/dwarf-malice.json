@@ -1,6 +1,55 @@
 {
-  "content": "At the start of any dwarf's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.\n\n\u003e 👤 **Breaching Charge (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**\n\u003e\n\u003e A dwarf can destroy one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) object or square of wall for each 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent. Each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).\n\n\u003e ⭐️ **Rappelling Barrage (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**\n\u003e\n\u003e Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).\n\n\u003e 🔳 **Snaring Line (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**\n\u003e\n\u003e | **Area, Magic, Ranged**      |               **Main action** |\n\u003e |------------------------------|------------------------------:|              \n\u003e | **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |\n\u003e\n\u003e **Effect:** Each target makes an **Agility test**.\n\u003e\n\u003e - **≤11:** 8 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)\n\u003e - **12-16:** 6 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)\n\u003e - **17+:** No effect.\n\u003e\n\u003e The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.\n\u003e\n\u003e **Special:** This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).",
+  "features": [
+    {
+      "body": "A dwarf can destroy one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) object or square of wall for each 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent. Each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).",
+      "cost": "3 Malice",
+      "icon": "👤",
+      "name": "Breaching Charge"
+    },
+    {
+      "body": "Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).",
+      "cost": "5 Malice",
+      "icon": "⭐️",
+      "name": "Rappelling Barrage"
+    },
+    {
+      "cost": "7 Malice",
+      "distance": "10 x 1 line within 10",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Snaring Line",
+      "power_roll": {
+        "tiers": {
+          "high": "No effect.",
+          "low": "8 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "mid": "6 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)"
+        }
+      },
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "Each target makes an **Agility test**."
+        },
+        {
+          "label": "Special",
+          "text": "This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion)."
+        }
+      ],
+      "target": "Each enemy in the area",
+      "trailing": "The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.",
+      "usage": "Main action"
+    }
+  ],
+  "flavor": "At the start of any dwarf's turn, you can spend Malice to activate one of the following features.",
+  "kind": "malice",
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.dwarves/dwarf-malice",
+    "source": "mcdm.monsters.v1"
+  },
   "name": "Dwarf Malice",
-  "scc": "mcdm.monsters.v1/monster.dwarves/dwarf-malice",
   "type": "featureblock"
 }

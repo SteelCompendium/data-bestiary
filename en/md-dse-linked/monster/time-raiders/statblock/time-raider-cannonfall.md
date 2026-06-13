@@ -34,7 +34,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🔳 **Sunderbuss (Signature Ability)**
+> 🔳 **Sunderbuss ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic, Ranged, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -44,11 +44,11 @@ type: statblock
 >
 > - **≤11:** 4 sonic damage
 > - **12-16:** 7 sonic damage
-> - **17+:** 10 sonic damage; prone; M < 2 slowed (save ends)
+> - **17+:** 10 sonic damage; [prone](../../../condition/prone.md); M < 2 [slowed](../../../condition/slowed.md) (save ends)
 >
 > **Effect:** A layer of ground beneath the area that is 1 square deep is destroyed.
 
-> ❗️ **Buss Buffe (1 Malice)**
+> ❗️ **Buss Buffe (1 [Malice](../../../rule/monster/malice.md))**
 >
 > | **Area, Psionic** |             **Free triggered action** |
 > |-------------------|--------------------------------------:|

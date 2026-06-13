@@ -33,7 +33,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+1**<br>Agility | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🏹 **Snaking Entrails (Signature Ability)**
+> 🏹 **Snaking Entrails ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Magic, Ranged** | **Main action** |
 > |-------------------|----------------:|
@@ -43,11 +43,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 corruption damage; A < 1 slowed (save ends)
-> - **12-16:** 5 corruption damage; A < 2 slowed (save ends)
-> - **17+:** 7 corruption damage; A < 3 restrained (save ends)
+> - **≤11:** 3 corruption damage; A < 1 [slowed](../../../../condition/slowed.md) (save ends)
+> - **12-16:** 5 corruption damage; A < 2 [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 7 corruption damage; A < 3 [restrained](../../../../condition/restrained.md) (save ends)
 >
-> **3 Malice:** If an affected enemy is adjacent to any corpse, they are frightened of the thanatite (save ends).
+> **3 [Malice](../../../../rule/monster/malice.md):** If an affected enemy is [adjacent](../../../../rule/combat/adjacent.md) to any corpse, they are [frightened](../../../../condition/frightened.md) of the thanatite (save ends).
 
 > 🔳 **Wall of Flesh**
 >
@@ -55,8 +55,8 @@ type: statblock
 > |--------------------------|------------------:|
 > | **📏 10 wall within 10** | **🎯 One corpse** |
 >
-> **Effect:** The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically slides up to 2 squares and is knocked prone. Each square of the wall has 3 Stamina.
+> **Effect:** The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically [slides](../../../../movement/forced-movement.md) up to 2 squares and is knocked [prone](../../../../condition/prone.md). Each square of the wall has 3 [Stamina](../../../../rule/health/stamina.md).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the thanatite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the thanatite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

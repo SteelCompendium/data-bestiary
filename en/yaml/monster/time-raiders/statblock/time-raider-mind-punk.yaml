@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 6 damage
-          tier2: 8 damage; M < 1 dazed (save ends)
-          tier3: 11 damage; M < 2 dazed (save ends)
+          tier2: 8 damage; M < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 11 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -23,9 +23,9 @@ features:
       distance: 3 burst
       effects:
         - roll: Power Roll + 2
-          tier1: 4 psychic damage; R < 0 prone
-          tier2: 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
-          tier3: 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
+          tier1: 4 psychic damage; R < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier2: 6 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; R < 1 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+          tier3: 9 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; R < 2 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
       feature_type: ability
       icon: ❇️
       keywords:

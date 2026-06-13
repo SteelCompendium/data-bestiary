@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Any adjacent enemy who grabs the fleshflayed shambler or uses melee ability against them takes 2 damage.
+        - effect: Any [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy who [grabs](scc:mcdm.heroes.v1/condition/grabbed) the fleshflayed shambler or uses melee ability against them takes 2 damage.
       feature_type: trait
       icon: ⭐️
       name: Fleshfused Spines

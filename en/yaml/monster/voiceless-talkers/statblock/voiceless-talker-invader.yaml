@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 10 damage
-          tier2: 15 damage; M < 2 grabbed
-          tier3: 18 damage; M < 3 grabbed
+          tier2: 15 damage; M < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier3: 18 damage; M < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: 3 burst
       effects:
         - roll: Power Roll + 3
-          tier1: 6 psychic damage; R < 1 push 2
-          tier2: 10 psychic damage; R < 2 push 3
-          tier3: 12 psychic damage; R < 3 push 4 and prone
+          tier1: 6 psychic damage; R < 1 [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 10 psychic damage; R < 2 [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 12 psychic damage; R < 3 [push](scc:mcdm.heroes.v1/movement/forced-movement) 4 and [prone](scc:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -37,9 +37,9 @@ features:
     - distance: Melee 1
       effects:
         - roll: Power Roll + 3
-          tier1: 6 damage; vertical slide 2
-          tier2: 10 damage; vertical slide 2
-          tier3: 12 damage; vertical slide 3
+          tier1: 6 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 10 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 12 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,8 +52,8 @@ features:
     - distance: Special
       effects:
         - effect: |-
-            **Trigger:** A creature grabbed by the invader resists an ability's potency.
-            **Effect:** The potency increases by 2.
+            **Trigger:** A creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the invader resists an ability's [potency](scc:mcdm.heroes.v1/rule.character/potency).
+            **Effect:** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 2.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -62,9 +62,9 @@ features:
       name: Brain Drain
       target: The triggering creature
       type: feature
-      usage: Triggered action
+      usage: Triggered Action
     - effects:
-        - effect: Whenever a non-minion voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.
+        - effect: Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.
       feature_type: trait
       icon: ⭐️
       name: Psionic Amplifier

@@ -5,9 +5,9 @@ features:
       distance: Melee 2
       effects:
         - roll: Power Roll + 4
-          tier1: 7 damage; M < 3 grabbed
-          tier2: 10 damage; M < 4 grabbed
-          tier3: 11 damage; grabbed
+          tier1: 7 damage; M < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier2: 10 damage; M < 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier3: 11 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: 3 burst
       effects:
         - roll: Power Roll + 4
-          tier1: 3 corruption damage; I < 2 frightened (save ends)
-          tier2: 6 corruption damage; I < 3 frightened (save ends)
-          tier3: 7 corruption damage; I < 4 frightened (save ends)
+          tier1: 3 corruption damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 6 corruption damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 7 corruption damage; I < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -35,7 +35,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 15 Stamina and fall prone.
+        - effect: The first time the mournling is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
       feature_type: trait
       icon: ⭐️
       name: Arise
@@ -47,7 +47,7 @@ features:
       name: Immutable Form
       type: feature
     - effects:
-        - effect: Whenever the mournling uses the Dig maneuver to breach the surface, they make a free strike against each adjacent enemy.
+        - effect: Whenever the mournling uses the Dig maneuver to breach the surface, they make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy.
       feature_type: trait
       icon: ⭐️
       name: Rupture

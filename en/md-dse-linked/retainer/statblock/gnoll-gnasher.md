@@ -42,11 +42,11 @@ type: statblock
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 10 damage; M < STRONG bleeding (save ends)
+> - **17+:** 10 damage; M < STRONG [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends)
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 7 squares of the gnasher is reduced to 0 Stamina, the gnasher moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](../../rule/organization/minion.md) ally within 7 squares of the gnasher is reduced to 0 [Stamina](../../rule/health/stamina.md), the gnasher moves up to their speed and can make a melee [free strike](../../feature/common/main-actions/free-strike.md).
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -56,9 +56,9 @@ type: statblock
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** An enemy within 5 squares is reduced to 0 Stamina.
+> **Trigger:** An enemy within 5 squares is reduced to 0 [Stamina](../../rule/health/stamina.md).
 >
-> **Effect:** The gnasher moves up to their speed and can use their signature ability.
+> **Effect:** The gnasher moves up to their speed and can use their [signature ability](../../rule/combat/signature-ability.md).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -82,6 +82,6 @@ type: statblock
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Trigger:** The gnasher reduces a creature to 0 Stamina.
+> **Trigger:** The gnasher reduces a creature to 0 [Stamina](../../rule/health/stamina.md).
 >
-> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a Recovery, and each enemy within 5 squares of the gnasher who has I < AVERAGE is frightened (save ends).
+> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a [Recovery](../../rule/health/recoveries.md), and each enemy within 5 squares of the gnasher who has I < AVERAGE is [frightened](../../condition/frightened.md) ([save](../../rule/general/saving-throw.md) ends).

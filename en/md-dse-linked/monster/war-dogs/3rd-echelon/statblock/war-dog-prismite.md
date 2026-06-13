@@ -33,7 +33,7 @@ type: statblock
 | **-**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  |      **0**<br>Agility      | **+4**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
-> ❇️ **Grasping Tonguetacles (Signature Ability)**
+> ❇️ **Grasping Tonguetacles ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -42,8 +42,8 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 psychic damage
-> - **12-16:** 6 psychic damage; R < 3 grabbed, pull 2
-> - **17+:** 8 psychic damage; R < 4 grabbed and the target takes a bane on the Escape Grab maneuver, pull 2
+> - **12-16:** 6 psychic damage; R < 3 [grabbed](../../../../condition/grabbed.md), [pull](../../../../movement/forced-movement.md) 2
+> - **17+:** 8 psychic damage; R < 4 [grabbed](../../../../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver, [pull](../../../../movement/forced-movement.md) 2
 
 > 🔳 **Hard Light Field**
 >
@@ -53,7 +53,7 @@ type: statblock
 >
 > **Effect:** Until the start of the prismite's next turn, each target has cover and gains a +2 bonus to stability.
 
-> ❗️ **Tractor Beam (1 Malice)**
+> ❗️ **Tractor Beam (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Psionic, Ranged** |        **Triggered action** |
 > |---------------------|----------------------------:|
@@ -61,8 +61,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance uses a melee ability against an ally.
 >
-> **Effect:** The target is pulled up to 5 squares toward the prismite and any damage from the triggering ability is halved.
+> **Effect:** The target is [pulled](../../../../movement/forced-movement.md) up to 5 squares toward the prismite and any damage from the triggering ability is halved.
 
 > ⭐️ **Prismacore Detonation**
 >
-> When the prismite is reduced to 0 Stamina, they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them.
+> When the prismite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them.

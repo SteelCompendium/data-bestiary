@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "6 corruption damage; pull 1",
-          "tier2": "8 corruption damage; pull 2",
-          "tier3": "10 corruption damage; pull 2; M \u003c 3 restrained (save ends)"
+          "tier1": "6 corruption damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "8 corruption damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "10 corruption damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -52,7 +52,7 @@
       "distance": "1 burst",
       "effects": [
         {
-          "effect": "**Trigger:** The mummy comes within distance of a restrained creature or starts their turn within distance of one.\n**Effect:** The target takes 8 poison damage."
+          "effect": "**Trigger:** The mummy comes within distance of a [restrained](scc:mcdm.heroes.v1/condition/restrained) creature or starts their turn within distance of one.\n**Effect:** The target takes 8 poison damage."
         }
       ],
       "feature_type": "ability",

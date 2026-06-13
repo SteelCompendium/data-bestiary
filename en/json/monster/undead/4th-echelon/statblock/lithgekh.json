@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "9 corruption damage; I \u003c 3 frightened (save ends)",
-          "tier2": "12 corruption damage; I \u003c 4 frightened (save ends)",
-          "tier3": "14 corruption damage; I \u003c 5 frightened (save ends)"
+          "tier1": "9 corruption damage; I \u003c 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "12 corruption damage; I \u003c 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier3": "14 corruption damage; I \u003c 5 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Ranged 20",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance uses a magic ability.\n**Effect:** Any damage dealt by or Stamina regained from the ability is halved. The lithgekh regains Stamina equal to the remaining damage dealt or Stamina gained."
+          "effect": "**Trigger:** A creature within distance uses a magic ability.\n**Effect:** Any damage dealt by or [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) regained from the ability is halved. The lithgekh regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the remaining damage dealt or [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) gained."
         }
       ],
       "feature_type": "ability",
@@ -47,7 +47,7 @@
     {
       "effects": [
         {
-          "effect": "Each ally within 10 squares of the lithgekh gains an edge on magic abilities."
+          "effect": "Each ally within 10 squares of the lithgekh gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on magic abilities."
         }
       ],
       "feature_type": "trait",

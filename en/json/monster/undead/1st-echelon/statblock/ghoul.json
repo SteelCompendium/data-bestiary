@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "3 damage",
           "tier2": "4 damage",
-          "tier3": "5 damage; M \u003c 2 bleeding (save ends)"
+          "tier3": "5 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul can make a free strike against them."
+          "effect": "**Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](scc:mcdm.heroes.v1/condition/prone) and the ghoul can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "The first time the ghoul is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
+          "effect": "The first time the ghoul is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "trait",

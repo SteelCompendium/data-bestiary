@@ -35,7 +35,7 @@ type: statblock
 | **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+4**<br>Agility      | **-1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Lash Out (Signature Ability)**
+> 🗡 **Lash Out ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -43,13 +43,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; slide 2
-> - **12-16:** 10 damage; slide 3
-> - **17+:** 11 damage; slide 5
+> - **≤11:** 7 damage; [slide](../../../../movement/forced-movement.md) 2
+> - **12-16:** 10 damage; [slide](../../../../movement/forced-movement.md) 3
+> - **17+:** 11 damage; [slide](../../../../movement/forced-movement.md) 5
 >
-> **Effect:** If the target is force moved into another creature's space, that creature takes an additional 4 damage and the haunt slides them up to 2 squares.
+> **Effect:** If the target is [force moved](../../../../movement/forced-movement.md) into another creature's space, that creature takes an additional 4 damage and the haunt [slides](../../../../movement/forced-movement.md) them up to 2 squares.
 
-> ❇️ **Crushing Despair (3 Malice)**
+> ❇️ **Crushing Despair (3 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -57,12 +57,12 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; I < 2 prone
-> - **12-16:** 6 damage; I < 3 prone
-> - **17+:** 7 damage; I < 4 prone
+> - **≤11:** 3 damage; I < 2 [prone](../../../../condition/prone.md)
+> - **12-16:** 6 damage; I < 3 [prone](../../../../condition/prone.md)
+> - **17+:** 7 damage; I < 4 [prone](../../../../condition/prone.md)
 >
-> **Effect:** A target knocked prone this way can't use the Stand Up maneuver on themself while any haunt is within 20 squares of them.
+> **Effect:** A target knocked [prone](../../../../condition/prone.md) this way can't use the [Stand Up](../../../../feature/common/maneuvers/stand-up.md) maneuver on themself while any haunt is within 20 squares of them.
 
 > ⭐️ **Invisible Horror**
 >
-> The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being force moved into objects.
+> The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being [force moved](../../../../movement/forced-movement.md) into objects.

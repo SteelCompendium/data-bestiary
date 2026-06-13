@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "4 cold damage; the wraith can shift 1 square",
-          "tier2": "7 cold damage; the wraith shifts up to 2 square",
-          "tier3": "9 cold damage; P \u003c 5 slowed (save ends); the wraith shifts up to 3 squares"
+          "tier1": "4 cold damage; the wraith can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier2": "7 cold damage; the wraith [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 square",
+          "tier3": "9 cold damage; P \u003c 5 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends); the wraith [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being force moved into objects."
+          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects."
         }
       ],
       "feature_type": "trait",

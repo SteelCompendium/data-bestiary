@@ -10,7 +10,7 @@
           "roll": "Power Roll + highest characteristic",
           "tier1": "4 damage",
           "tier2": "7 damage",
-          "tier3": "10 damage; M \u003c STRONG bleeding (save ends)"
+          "tier3": "10 damage; M \u003c STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-minion ally within 7 squares of the gnasher is reduced to 0 Stamina, the gnasher moves up to their speed and can make a melee free strike."
+          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the gnasher is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the gnasher moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "trait",
@@ -41,7 +41,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** An enemy within 5 squares is reduced to 0 Stamina.\n**Effect:** The gnasher moves up to their speed and can use their signature ability."
+          "effect": "**Trigger:** An enemy within 5 squares is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).\n**Effect:** The gnasher moves up to their speed and can use their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability)."
         }
       ],
       "feature_type": "ability",
@@ -82,7 +82,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The gnasher reduces a creature to 0 Stamina.\n**Effect:** The gnasher consumes part of the target's body. The gnasher can spend a Recovery, and each enemy within 5 squares of the gnasher who has I \u003c AVERAGE is frightened (save ends)."
+          "effect": "**Trigger:** The gnasher reduces a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).\n**Effect:** The gnasher consumes part of the target's body. The gnasher can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and each enemy within 5 squares of the gnasher who has I \u003c AVERAGE is [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)."
         }
       ],
       "feature_type": "ability",

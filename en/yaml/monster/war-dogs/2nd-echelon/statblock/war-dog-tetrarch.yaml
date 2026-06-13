@@ -23,7 +23,7 @@ features:
     - cost: 1 Malice per target
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target shifts up to their speed and can make a free strike. If the free strike targets an enemy taunted by the tetrarch, it deals an extra 4 damage.'
+        - effect: '**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -36,7 +36,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.
-            **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is frightened of the tetrarch (save ends).
+            **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the tetrarch (save ends).
       feature_type: ability
       icon: ❗️
       keywords:
@@ -46,7 +46,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+        - effect: At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
       feature_type: trait
       icon: ⭐️
       name: End Effect
@@ -55,9 +55,9 @@ features:
       distance: 2 burst
       effects:
         - roll: Power Roll + 4
-          tier1: Push 2; I < 2 frightened (save ends)
-          tier2: Push 4; I < 3 frightened (save ends)
-          tier3: Push 5; I < 4 frightened (save ends)
+          tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)'
+          tier2: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)'
+          tier3: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 5; I < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -70,9 +70,9 @@ features:
       distance: Five 2 cubes within 20
       effects:
         - roll: Power Roll + 4
-          tier1: 7 fire damage; A < 2 slowed (EoT)
-          tier2: 13 fire damage; A < 3 slowed (save ends)
-          tier3: 16 fire damage; A < 4 slowed (save ends)
+          tier1: 7 fire damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier2: 13 fire damage; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 16 fire damage; A < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: ☠️
       keywords:

@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "3 damage",
-          "tier2": "6 damage; P \u003c 3 bleeding (save ends)",
-          "tier3": "8 damage; P \u003c 4 the target loses 1 Recovery and is bleeding (save ends)"
+          "tier2": "6 damage; P \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "8 damage; P \u003c 4 the target loses 1 Recovery and is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "4 aura",
       "effects": [
         {
-          "effect": "**Effect:** For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn.\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed."
+          "effect": "**Effect:** For every 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent, each target gains one of the following effects until the start of the iron priest's next turn.\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "The Director gains 1 Malice whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll."
+          "effect": "The Director gains 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll."
         }
       ],
       "feature_type": "trait",

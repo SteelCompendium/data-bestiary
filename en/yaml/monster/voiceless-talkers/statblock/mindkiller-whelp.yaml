@@ -21,8 +21,8 @@ features:
     - distance: Self
       effects:
         - effect: |-
-            **Trigger:** The whelp reduces a non-minion creature to 0 Stamina.
-            **Effect:** The whelp transforms into a mindkiller whose Stamina equals their squad's Stamina pool before transforming. The Stamina pool then loses the whelp's Stamina.
+            **Trigger:** The whelp reduces a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+            **Effect:** The whelp transforms into a mindkiller whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equals their squad's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool before transforming. The [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool then loses the whelp's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
       feature_type: ability
       icon: ❗️
       keywords:
@@ -30,9 +30,9 @@ features:
       name: Feast
       target: Self
       type: feature
-      usage: Triggered action
+      usage: Triggered Action
     - effects:
-        - effect: Whenever a non-minion voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.
+        - effect: Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.
       feature_type: trait
       icon: ⭐️
       name: Psionic Conductor

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "5 cold damage; P \u003c 1 slowed (save ends)",
-          "tier2": "7 cold damage; P \u003c 2 slowed (save ends)",
-          "tier3": "9 cold damage; P \u003c 3 slowed (save ends)"
+          "tier1": "5 cold damage; P \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "7 cold damage; P \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "9 cold damage; P \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** An enemy within distance regains Stamina.\n**Effect:** The target regains only half the Stamina, and the wraith regains the remaining Stamina."
+          "effect": "**Trigger:** An enemy within distance regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).\n**Effect:** The target regains only half the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and the wraith regains the remaining [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects."
+          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects."
         }
       ],
       "feature_type": "trait",

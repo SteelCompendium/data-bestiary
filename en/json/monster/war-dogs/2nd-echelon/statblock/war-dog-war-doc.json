@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "6 poison damage",
           "tier2": "8 poison damage",
-          "tier3": "9 poison damage; M \u003c 3 weakened (save ends)"
+          "tier3": "9 poison damage; M \u003c 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina."
+          "effect": "**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Ranged 15",
       "effects": [
         {
-          "effect": "**Trigger:** One ally within distance dies.\n**Effect:** Each ally adjacent to the dead ally deals an extra 6 damage on their next strike."
+          "effect": "**Trigger:** One ally within distance dies.\n**Effect:** Each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the dead ally deals an extra 6 damage on their next strike."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "If the war doc uses the Reconstitute war dog Malice feature, it costs 1 Malice less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute)."
+          "effect": "If the war doc uses the Reconstitute war dog [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature, it costs 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute)."
         }
       ],
       "feature_type": "trait",

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "8 damage; pull 1",
-          "tier2": "12 damage; pull 2",
-          "tier3": "15 damage; pull 3"
+          "tier1": "8 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "12 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "15 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Any target who has a loyalty collar is reduced to 0 Stamina."
+          "effect": "**Effect:** Any target who has a loyalty collar is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** The target takes damage, is force moved, or is reduced to 0 Stamina.\n**Effect:** Even if reduced to 0 Stamina, the target moves up to their speed and can make a free strike after the triggering effect is resolved. The target then immediately dies."
+          "effect": "**Trigger:** The target takes damage, is [forced moved](scc:mcdm.heroes.v1/movement/forced-movement), or is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).\n**Effect:** Even if reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) after the triggering effect is resolved. The target then immediately dies."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -76,7 +76,7 @@
     {
       "effects": [
         {
-          "effect": "When the ground commander is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+          "effect": "When the ground commander is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",
@@ -89,7 +89,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target can make a ranged free strike, then immediately use the Charge main action."
+          "effect": "**Effect:** Each target can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), then immediately use the Charge main action."
         }
       ],
       "feature_type": "ability",
@@ -107,7 +107,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Each ally within 5 squares of the target moves up to their speed and can make a free strike against the target. If the target has I \u003c 2, they are frightened of the ground commander (save ends)."
+          "effect": "**Effect:** Each ally within 5 squares of the target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the target has I \u003c 2, they are [frightened](scc:mcdm.heroes.v1/condition/frightened) of the ground commander (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -126,7 +126,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target ally shifts up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver."
+          "effect": "**Effect:** Each target ally [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver."
         }
       ],
       "feature_type": "ability",

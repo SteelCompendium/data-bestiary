@@ -36,7 +36,7 @@ type: statblock
 |  **Psychic 2**<br>Immunity  | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+1**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> ❇️ **Synlirii Grafts (Signature Ability)**
+> ❇️ **Synlirii Grafts ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Area, Psionic** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -44,9 +44,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 psychic damage; vertical slide 1
-> - **12-16:** 2 psychic damage; vertical slide 2
-> - **17+:** 3 psychic damage; vertical slide 3
+> - **≤11:** 1 psychic damage; vertical [slide](../../../../movement/forced-movement.md) 1
+> - **12-16:** 2 psychic damage; vertical [slide](../../../../movement/forced-movement.md) 2
+> - **17+:** 3 psychic damage; vertical [slide](../../../../movement/forced-movement.md) 3
 
 > 🏹 **Posthumous Promotion**
 >
@@ -54,9 +54,9 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
 
-> ❇️ **The Voice (1 Malice)**
+> ❇️ **The Voice (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Area, Psionic** |                  **Maneuver** |
 > |-------------------|------------------------------:|
@@ -66,4 +66,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the neuronite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the neuronite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.

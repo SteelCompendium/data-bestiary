@@ -36,7 +36,7 @@ with_captain: +4 damage bonus to strikes
 | **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+5**<br>Might              | **-3**<br>Agility | **-3**<br>Reason  |              **+1**<br>Intuition               |   **-2**<br>Presence   |
 
-> 🗡 **Rotten Kick (Signature Ability)**
+> 🗡 **Rotten Kick ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -44,10 +44,10 @@ with_captain: +4 damage bonus to strikes
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 8 damage; push 4
-> - **17+:** 10 damage; push 6
+> - **≤11:** 5 damage; [push](../../../../movement/forced-movement.md) 2
+> - **12-16:** 8 damage; [push](../../../../movement/forced-movement.md) 4
+> - **17+:** 10 damage; [push](../../../../movement/forced-movement.md) 6
 
 > ⭐️ **Meat Shield**
 >
-> Each ally adjacent to the shambler has damage immunity 3.
+> Each ally [adjacent](../../../../rule/combat/adjacent.md) to the shambler has [damage immunity](../../../../rule/damage/damage-immunity.md) 3.

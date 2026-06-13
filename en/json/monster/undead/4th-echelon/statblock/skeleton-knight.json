@@ -10,7 +10,7 @@
           "roll": "Power Roll + 5",
           "tier1": "4 damage",
           "tier2": "7 damage",
-          "tier3": "9 damage; the target can't shift (EoT)"
+          "tier3": "9 damage; the target can't [shift](scc:mcdm.heroes.v1/movement/shifting) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "If the knight is reduced to 0 Stamina, their bones collapse to fill their space with an impassable barrier. Any enemy who comes adjacent to the barrier for the first time in a round or starts their turn there takes 5 damage."
+          "effect": "If the knight is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their bones collapse to fill their space with an impassable barrier. Any enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the barrier for the first time in a round or starts their turn there takes 5 damage."
         }
       ],
       "feature_type": "trait",
@@ -39,7 +39,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever the knight makes a free strike, they can make two free strikes instead."
+          "effect": "Whenever the knight makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), they can make two [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) instead."
         }
       ],
       "feature_type": "trait",

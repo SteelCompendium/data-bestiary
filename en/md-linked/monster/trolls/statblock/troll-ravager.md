@@ -31,7 +31,7 @@ with_captain: +2 bonus to speed
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |       **+1**<br>Presence        |
 
-> 🗡 **Dine and Dash (Signature Ability)**
+> 🗡 **Dine and Dash ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -39,12 +39,12 @@ with_captain: +2 bonus to speed
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 4 damage; the ravager can shift 1 square
-> - **12-16:** 6 damage; the ravager shifts up to 2 squares
-> - **17+:** 8 damage; the ravager shifts up to 3 squares
+> - **≤11:** 4 damage; the ravager can [shift](../../../movement/shifting.md) 1 square
+> - **12-16:** 6 damage; the ravager [shifts](../../../movement/shifting.md) up to 2 squares
+> - **17+:** 8 damage; the ravager [shifts](../../../movement/shifting.md) up to 3 squares
 >
-> **Effect:** The ravager's squad's Stamina pool regains Stamina equal to half the damage dealt.
+> **Effect:** The ravager's [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
 
 > ⭐️ **Group Appetite**
 >
-> The ravager dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina.
+> The ravager dies only if their [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool is reduced to 0 [Stamina](../../../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../../../rule/health/stamina.md) in their [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool, or if they take acid or fire damage while their [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool is at 0 [Stamina](../../../rule/health/stamina.md).

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "9 damage; M \u003c 1 bleeding (save ends)",
-          "tier2": "14 damage; M \u003c 2 bleeding (save ends)",
-          "tier3": "17 damage; M \u003c 3 bleeding (save ends)"
+          "tier1": "9 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "14 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "17 damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "5 poison damage; M \u003c 1 weakened (save ends)",
-          "tier2": "9 poison damage; M \u003c 2 weakened (save ends)",
-          "tier3": "11 poison damage; M \u003c 3 weakened (save ends)"
+          "tier1": "5 poison damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "9 poison damage; M \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "11 poison damage; M \u003c 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and dazed, acid damage and restrained, or lightning damage and frightened."
+          "effect": "**Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](scc:mcdm.heroes.v1/condition/dazed), acid damage and [restrained](scc:mcdm.heroes.v1/condition/restrained), or lightning damage and [frightened](scc:mcdm.heroes.v1/condition/frightened)."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a surge.\n**Effect:** The butcher makes a free strike against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes."
+          "effect": "**Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a [surge](scc:mcdm.heroes.v1/rule.resource/surge).\n**Effect:** The butcher makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes."
         }
       ],
       "feature_type": "ability",
@@ -95,7 +95,7 @@
     {
       "effects": [
         {
-          "effect": "The butcher dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina."
+          "effect": "The butcher dies only if they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "trait",

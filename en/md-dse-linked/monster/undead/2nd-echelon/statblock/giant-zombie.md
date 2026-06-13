@@ -35,7 +35,7 @@ type: statblock
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Rotten Smash (Signature Ability)**
+> 🗡 **Rotten Smash ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -44,22 +44,22 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; A < 2 grabbed
-> - **17+:** 17 damage; A < 3 grabbed
+> - **12-16:** 14 damage; A < 2 [grabbed](../../../../condition/grabbed.md)
+> - **17+:** 17 damage; A < 3 [grabbed](../../../../condition/grabbed.md)
 
-> ❗️ **Knocking Heads (1 Malice)**
+> ❗️ **Knocking Heads (1 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **-**       |   **Triggered action** |
 > |-------------|-----------------------:|
 > | **📏 Self** | **🎯 Self; see below** |
 >
-> **Trigger:** The giant zombie grabs two creatures or objects, or starts their turn with two creatures or objects grabbed.
+> **Trigger:** The giant zombie [grabs](../../../../condition/grabbed.md) two creatures or objects, or starts their turn with two creatures or objects [grabbed](../../../../condition/grabbed.md).
 >
 > **Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge.
 
 > ⭐️ **Endless Knight**
 >
-> The first time the giant zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 Stamina and fall prone.
+> The first time the giant zombie is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).
 
 > ⭐️ **Negative Nerves**
 >

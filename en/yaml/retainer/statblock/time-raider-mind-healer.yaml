@@ -27,7 +27,7 @@ features:
     - cost: Encounter
       distance: Ranged 3
       effects:
-        - effect: '**Effect:** The target can spend 1 Recovery, and has their speed doubled until the end of their next turn.'
+        - effect: '**Effect:** The target can spend 1 [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and has their speed doubled until the end of their next turn.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -40,9 +40,9 @@ features:
       distance: Ranged 3
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 8 psychic damage; R < WEAK frightened (save ends)
-          tier2: 13 psychic damage; R < AVERAGE frightened (save ends)
-          tier3: 17 psychic damage; R < STRONG frightened (save ends)
+          tier1: 8 psychic damage; R < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 13 psychic damage; R < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 17 psychic damage; R < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "9 damage; M \u003c 4 grabbed",
-          "tier2": "12 damage; M \u003c 5 grabbed",
-          "tier3": "14 damage; grabbed"
+          "tier1": "9 damage; M \u003c 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "12 damage; M \u003c 5 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "14 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",

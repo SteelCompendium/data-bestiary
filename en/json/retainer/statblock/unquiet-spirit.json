@@ -10,7 +10,7 @@
           "roll": "Power Roll + highest characteristic",
           "tier1": "3 cold damage",
           "tier2": "5 cold damage",
-          "tier3": "7 cold damage; P \u003c STRONG slowed (EoT)"
+          "tier3": "7 cold damage; P \u003c STRONG [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space."
+          "effect": "**Effect:** While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space."
         }
       ],
       "feature_type": "ability",
@@ -82,9 +82,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "A \u003c WEAK slowed and weakened (save ends)",
-          "tier2": "A \u003c AVERAGE slowed and weakened (save ends)",
-          "tier3": "A \u003c STRONG slowed and weakened (save ends)"
+          "tier1": "A \u003c WEAK [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "A \u003c AVERAGE [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "A \u003c STRONG [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       ],
       "feature_type": "ability",
@@ -103,7 +103,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** If the target has P \u003c STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can fly. They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's potency can choose to automatically be affected."
+          "effect": "**Effect:** If the target has P \u003c STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](scc:mcdm.heroes.v1/movement/fly). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](scc:mcdm.heroes.v1/rule.character/potency) can choose to automatically be affected."
         }
       ],
       "feature_type": "ability",

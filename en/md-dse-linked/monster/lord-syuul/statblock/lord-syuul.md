@@ -36,11 +36,11 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 >
 > **Solo Turns:** Lord Syuul can take two turns each round. He can't take turns consecutively.
 
-> 🗡 **Tentacle Grab (Signature Ability)**
+> 🗡 **Tentacle Grab ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -48,11 +48,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; A < 2 grabbed
-> - **12-16:** 17 damage; A < 3 grabbed
-> - **17+:** 20 damage; A < 4 grabbed
+> - **≤11:** 11 damage; A < 2 [grabbed](../../../condition/grabbed.md)
+> - **12-16:** 17 damage; A < 3 [grabbed](../../../condition/grabbed.md)
+> - **17+:** 20 damage; A < 4 [grabbed](../../../condition/grabbed.md)
 >
-> **2 Malice:** The distance of this ability increases to melee 10. Each target grabbed by Lord Syuul is pulled up to 10 squares.
+> **2 Malice:** The distance of this ability increases to melee 10. Each target [grabbed](../../../condition/grabbed.md) by Lord Syuul is [pulled](../../../movement/forced-movement.md) up to 10 squares.
 
 > 🔳 **Dampening Grenade**
 >
@@ -80,7 +80,7 @@ type: statblock
 > - **12-16:** 20 damage
 > - **17+:** 24 damage
 >
-> **Effect:** If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them.
+> **Effect:** If this action reduces the target to 0 [Stamina](../../../rule/health/stamina.md) and they have a brain, their brain explodes, instantly killing them.
 
 > 👤 **You Come With Me**
 >
@@ -88,11 +88,11 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> Lord Syuul can teleport up to 5 squares along with each creature and object he has grabbed. He can release grabbed creatures and objects before or after teleporting.
+> Lord Syuul can [teleport](../../../movement/teleport.md) up to 5 squares along with each creature and object he has [grabbed](../../../condition/grabbed.md). He can release [grabbed](../../../condition/grabbed.md) creatures and objects before or after teleporting.
 
 > ❗️ **Adaptability**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered Action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -104,7 +104,7 @@ type: statblock
 >
 > Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability.
 
-> ☠️ **See Only Me (Villain Action 1)**
+> ☠️ **See Only Me ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area, Psionic** |                         **-** |
 > |-------------------|------------------------------:|
@@ -116,15 +116,15 @@ type: statblock
 > - **12-16:** 13 psychic damage; the target has no line of effect to any creature except Lord Syuul (save ends)
 > - **17+:** 7 psychic damage
 
-> ☠️ **Phantom Pain (Villain Action 2)**
+> ☠️ **Phantom Pain ([Villain Action](../../../rule/monster/villain-action.md) 2)**
 >
 > | **Psionic** |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears.
+> **Effect:** Lord Syuul becomes invisible, can [teleport](../../../movement/teleport.md) up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears.
 
-> ☠️ **Mindshatter (Villain Action 3)**
+> ☠️ **Mindshatter ([Villain Action](../../../rule/monster/villain-action.md) 3)**
 >
 > | **Area, Psionic** |                            **-** |
 > |-------------------|---------------------------------:|

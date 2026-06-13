@@ -10,7 +10,7 @@
           "roll": "Power Roll + highest characteristic",
           "tier1": "5 damage",
           "tier2": "9 damage",
-          "tier3": "12 damage; M \u003c STRONG prone"
+          "tier3": "12 damage; M \u003c STRONG [prone](scc:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Ranged 6",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance deals damage to the gorer.\n**Effect:** The gorer uses the Charge main action and Gore against the target."
+          "effect": "**Trigger:** A creature within distance deals damage to the gorer.\n**Effect:** The gorer uses the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action and Gore against the target."
         }
       ],
       "feature_type": "ability",
@@ -58,7 +58,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** The gorer damages a creature within distance using Gore.\n**Effect:** The target is pushed up to 3 squares. If the target has stability 0, they are also knocked prone."
+          "effect": "**Trigger:** The gorer damages a creature within distance using Gore.\n**Effect:** The target is pushed up to 3 squares. If the target has [stability](scc:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -76,7 +76,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The gorer gains 3 surges, and until the start of the gorer's next turn, strikes made against them and their mentor take a bane."
+          "effect": "**Effect:** The gorer gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane."
         }
       ],
       "feature_type": "ability",
@@ -95,9 +95,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "11 damage; M \u003c WEAK bleeding (save ends)",
-          "tier2": "16 damage; M \u003c AVERAGE bleeding (save ends)",
-          "tier3": "21 damage; M \u003c STRONG prone and can't stand (save ends)."
+          "tier1": "11 damage; M \u003c WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "16 damage; M \u003c AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "21 damage; M \u003c STRONG [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)."
         }
       ],
       "feature_type": "ability",

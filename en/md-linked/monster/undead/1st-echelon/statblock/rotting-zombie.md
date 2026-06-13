@@ -31,7 +31,7 @@ with_captain: +1 damage bonus to strikes
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+2**<br>Might             | **-2**<br>Agility | **-5**<br>Reason |              **-2**<br>Intuition               |  **-3**<br>Presence   |
 
-> 🗡 **Rotting Fist (Signature Ability)**
+> 🗡 **Rotting Fist ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -41,8 +41,8 @@ with_captain: +1 damage bonus to strikes
 >
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 prone if size 1, or slowed (save ends) otherwise
+> - **17+:** 5 damage; M < 2 [prone](../../../../condition/prone.md) if size 1, or [slowed](../../../../condition/slowed.md) (save ends) otherwise
 
 > ⭐️ **Death Grasp**
 >
-> When the rotting zombie is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy who has M < 2 enters this space, they are slowed (save ends) and the effect ends.
+> When the rotting zombie is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their space is [difficult terrain](../../../../movement/difficult-terrain.md). The first time any enemy who has M < 2 enters this space, they are [slowed](../../../../condition/slowed.md) (save ends) and the effect ends.

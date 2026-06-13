@@ -27,7 +27,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+4**<br>Presence  |
 
-> ⚔️ **Houndblade (Signature Ability)**
+> ⚔️ **Houndblade ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Charge, Melee, Ranged, Strike, Weapon** |                 **Main action** |
 > |-------------------------------------------|--------------------------------:|
@@ -41,15 +41,15 @@ type: statblock
 >
 > **Effect:** A creature taunted this way takes a bane on strikes.
 >
-> **3 Malice:** Each target loses 1d3 Recoveries.
+> **3 [Malice](../../../../rule/monster/malice.md):** Each target loses 1d3 Recoveries.
 
-> 🏹 **Get Them, You Dolts! (1 Malice per target)**
+> 🏹 **Get Them, You Dolts! (1 [Malice](../../../../rule/monster/malice.md) per target)**
 >
 > | **Ranged**       |           **Maneuver** |
 > |------------------|-----------------------:|
 > | **📏 Ranged 10** | **🎯 Three creatures** |
 >
-> **Effect:** Each target shifts up to their speed and can make a free strike. If the free strike targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
+> **Effect:** Each target [shifts](../../../../movement/shifting.md) up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md). If the [free strike](../../../../feature/common/main-actions/free-strike.md) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
 
 > ❗️ **Sneering Disregard**
 >
@@ -59,13 +59,13 @@ type: statblock
 >
 > **Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.
 >
-> **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is frightened of the tetrarch (save ends).
+> **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](../../../../condition/frightened.md) of the tetrarch (save ends).
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](../../../../rule/monster/end-effect.md)**
 >
-> At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
 
-> ☠️ **Enter the Fray (Villain Action 1)**
+> ☠️ **Enter the Fray ([Villain Action](../../../../rule/monster/villain-action.md) 1)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -75,11 +75,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Push 2; I < 2 frightened (save ends)
-> - **12-16:** Push 4; I < 3 frightened (save ends)
-> - **17+:** Push 5; I < 4 frightened (save ends)
+> - **≤11:** [Push](../../../../movement/forced-movement.md) 2; I < 2 [frightened](../../../../condition/frightened.md) (save ends)
+> - **12-16:** [Push](../../../../movement/forced-movement.md) 4; I < 3 [frightened](../../../../condition/frightened.md) (save ends)
+> - **17+:** [Push](../../../../movement/forced-movement.md) 5; I < 4 [frightened](../../../../condition/frightened.md) (save ends)
 
-> ☠️ **Lay Waste (Villain Action 2)**
+> ☠️ **Lay Waste ([Villain Action](../../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Ranged, Weapon**      |                                       **-** |
 > |-------------------------------|--------------------------------------------:|
@@ -87,13 +87,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 fire damage; A < 2 slowed (EoT)
-> - **12-16:** 13 fire damage; A < 3 slowed (save ends)
-> - **17+:** 16 fire damage; A < 4 slowed (save ends)
+> - **≤11:** 7 fire damage; A < 2 [slowed](../../../../condition/slowed.md) (EoT)
+> - **12-16:** 13 fire damage; A < 3 [slowed](../../../../condition/slowed.md) (save ends)
+> - **17+:** 16 fire damage; A < 4 [slowed](../../../../condition/slowed.md) (save ends)
 >
-> **Effect:** The area is set ablaze until the end of the encounter. While ablaze, the area is difficult terrain, and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
+> **Effect:** The area is set ablaze until the end of the encounter. While ablaze, the area is [difficult terrain](../../../../movement/difficult-terrain.md), and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
 
-> ☠️ **You Would Dare?! (Villain Action 3)**
+> ☠️ **You Would Dare?! ([Villain Action](../../../../rule/monster/villain-action.md) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|

@@ -1,10 +1,49 @@
 {
-  "content": "This thicket features close-growing vines tipped with sharp thorns.\n\n- **EV:** 1 per 10 x 10 thicket\n- **Stamina:** 3 per square\n- **Size:** One or more squares of difficult terrain\n\n\u003e 🌀 **Deactivate**\n\u003e\n\u003e Each square of brambles must be individually destroyed.\n\n\u003e ❕ **Activate**\n\u003e\n\u003e A creature enters a square of brambles without shifting.\n\u003e\n\u003e **Effect:** A creature takes 1 damage per square of brambles they enter.\n\n\u003e ⭐️ **Upgrade**\n\u003e\n\u003e **Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends).",
-  "ev": "1 per 10 x 10 thicket",
-  "level": "1",
+  "features": [
+    {
+      "body": "Each square of brambles must be individually destroyed.",
+      "icon": "🌀",
+      "name": "Deactivate"
+    },
+    {
+      "body": "A creature enters a square of brambles without [shifting](scc:mcdm.heroes.v1/movement/shifting).",
+      "icon": "❕",
+      "name": "Activate",
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "A creature takes 1 damage per square of brambles they enter."
+        }
+      ]
+    },
+    {
+      "body": "**Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).",
+      "icon": "⭐️",
+      "name": "Upgrade"
+    }
+  ],
+  "flavor": "This thicket features close-growing vines tipped with sharp thorns.",
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/dynamic-terrain.environmental-hazards/brambles",
+    "source": "mcdm.monsters.v1"
+  },
   "name": "Brambles",
-  "scc": "mcdm.monsters.v1/dynamic-terrain.environmental-hazards/brambles",
-  "size": "One or more squares of difficult terrain",
-  "stamina": "3 per square",
+  "role": "Defender",
+  "stats": [
+    {
+      "name": "EV",
+      "value": "1 per 10 x 10 thicket"
+    },
+    {
+      "name": "Stamina",
+      "value": "3 per square"
+    },
+    {
+      "name": "Size",
+      "value": "One or more squares of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)"
+    }
+  ],
+  "terrain_type": "Hazard",
   "type": "dynamic-terrain"
 }

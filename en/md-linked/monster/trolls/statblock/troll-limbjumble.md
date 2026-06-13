@@ -30,7 +30,7 @@ with_captain: Gain an edge on strikes
 | **-**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **Acid 8, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility | **-2**<br>Reason |             **-1**<br>Intuition             |       **-1**<br>Presence        |
 
-> 🗡 **Arm and a Leg (Signature Ability)**
+> 🗡 **Arm and a Leg ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -38,12 +38,12 @@ with_captain: Gain an edge on strikes
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; A < 2 prone
-> - **12-16:** 5 damage; A < 3 prone
-> - **17+:** 6 damage; prone
+> - **≤11:** 3 damage; A < 2 [prone](../../../condition/prone.md)
+> - **12-16:** 5 damage; A < 3 [prone](../../../condition/prone.md)
+> - **17+:** 6 damage; [prone](../../../condition/prone.md)
 >
-> **Effect:** If a target made prone this way is already prone, they are grabbed instead.
+> **Effect:** If a target made [prone](../../../condition/prone.md) this way is already [prone](../../../condition/prone.md), they are [grabbed](../../../condition/grabbed.md) instead.
 
 > ⭐️ **Hyper-Regeneration**
 >
-> At the start of each of the limbjumble's squad's turns, the squad's Stamina pool increases as if each limbjumble were at full Stamina.
+> At the start of each of the limbjumble's [squad](../../../rule/monster/squad.md)'s turns, the squad's [Stamina](../../../rule/health/stamina.md) pool increases as if each limbjumble were at full [Stamina](../../../rule/health/stamina.md).

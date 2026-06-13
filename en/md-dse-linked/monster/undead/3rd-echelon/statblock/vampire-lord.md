@@ -35,7 +35,7 @@ type: statblock
 | **Corruption 9, poison 9**<br>Immunity | **Climb, hover, teleport**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             |           **+5**<br>Agility            |  **+1**<br>Reason   |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Crimson Embrace (Signature Ability)**
+> 🗡 **Crimson Embrace ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -43,15 +43,15 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 corruption damage; M < 3 bleeding (save ends)
-> - **12-16:** 21 corruption damage; M < 4 bleeding (save ends)
-> - **17+:** 24 corruption damage; M < 5 bleeding (save ends)
+> - **≤11:** 13 corruption damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 21 corruption damage; M < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 24 corruption damage; M < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
 >
-> **Effect:** The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw.
+> **Effect:** The vampire regains [Stamina](../../../../rule/health/stamina.md) equal to half the damage dealt, and can end one effect on them that can be ended by a [saving throw](../../../../rule/general/saving-throw.md).
 >
-> **2+ Malice:** The vampire shifts 3 after striking the last target, and can target one additional creature for every 2 malice spent.
+> **2+ [Malice](../../../../rule/monster/malice.md):** The vampire [shifts](../../../../movement/shifting.md) 3 after striking the last target, and can target one additional creature for every 2 malice spent.
 
-> 🏹 **Arise, My Children (2 Malice)**
+> 🏹 **Arise, My Children (2 [Malice](../../../../rule/monster/malice.md))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
@@ -59,29 +59,29 @@ type: statblock
 >
 > **Effect:** Two blood-starved vampires appear in unoccupied spaces within distance.
 
-> ❗️ **Redirected Charm (3 Malice)**
+> ❗️ **Redirected Charm (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Free triggered action** |
+> | **Magic, Ranged** | **Free [triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------------|--------------------------:|
 > | **📏 Ranged 5**   |          **🎯 One enemy** |
 >
-> **Trigger:** A creature makes a strike against the vampire.
+> **Trigger:** A creature makes a [strike](../../../../rule/combat/strike.md) against the vampire.
 >
-> **Effect:** The target becomes the new target of the strike.
+> **Effect:** The target becomes the new target of the [strike](../../../../rule/combat/strike.md).
 
 > ⭐️ **Lord's Bloodthirst**
 >
-> The vampire has speed 15 and an edge on power rolls while any creature within 20 squares of them is bleeding. Any bleeding creature within 5 squares of the vampire can't hide.
+> The vampire has speed 15 and an [edge](../../../../rule/dice/edge.md) on power rolls while any creature within 20 squares of them is [bleeding](../../../../condition/bleeding.md). Any [bleeding](../../../../condition/bleeding.md) creature within 5 squares of the vampire can't hide.
 
-> ☠️ **Let Us Feast! (Villain Action 1)**
+> ☠️ **Let Us Feast! ([Villain Action](../../../../rule/monster/villain-action.md) 1)**
 >
 > | **Ranged**      |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 20 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target who has P < 4 is now bleeding (save ends).
+> **Effect:** Each target who has P < 4 is now [bleeding](../../../../condition/bleeding.md) (save ends).
 
-> ☠️ **Red Mist Rising (Villain Action 2)**
+> ☠️ **Red Mist Rising ([Villain Action](../../../../rule/monster/villain-action.md) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -95,7 +95,7 @@ type: statblock
 >
 > **Effect:** The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round.
 
-> ☠️ **Sacrifice (Villain Action 3)**
+> ☠️ **Sacrifice ([Villain Action](../../../../rule/monster/villain-action.md) 3)**
 >
 > | **Magic, Ranged** |                   **-** |
 > |-------------------|------------------------:|
@@ -109,7 +109,7 @@ type: statblock
 > |-----------------|------------------------------:|
 > | **📏 20 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action.
+> **Effect:** Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice [villain action](../../../../rule/monster/villain-action.md).
 >
 > - **≤11:** 11 corruption damage
 > - **12-16:** 8 corruption damage

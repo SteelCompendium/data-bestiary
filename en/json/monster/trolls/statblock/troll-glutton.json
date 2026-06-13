@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "10 damage",
-          "tier2": "15 damage; M \u003c 2 slowed (save ends)",
-          "tier3": "18 damage; M \u003c 3 slowed (save ends)"
+          "tier2": "15 damage; M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "18 damage; M \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The glutton shifts up to their speed in a straight line, ignoring difficult terrain. The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall prone instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature prone or destroy the object, the glutton's movement ends and they are dazed until the end of their next turn."
+          "effect": "**Effect:** The glutton [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed in a straight line, ignoring [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall [prone](scc:mcdm.heroes.v1/condition/prone) instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature [prone](scc:mcdm.heroes.v1/condition/prone) or destroy the object, the glutton's movement ends and they are [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** The glutton is reduced to 0 Stamina but doesn't die.\n**Effect:** The glutton uses Voracious Mastication against an adjacent creature."
+          "effect": "**Trigger:** The glutton is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) but doesn't die.\n**Effect:** The glutton uses Voracious Mastication against an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature."
         }
       ],
       "feature_type": "ability",
@@ -81,7 +81,7 @@
     {
       "effects": [
         {
-          "effect": "Once per turn, the glutton can use the Charge main actionas a free maneuver if they target a winded creature."
+          "effect": "Once per turn, the glutton can use the Charge main action as a free maneuver if they target a [winded](scc:mcdm.heroes.v1/rule.health/winded) creature."
         }
       ],
       "feature_type": "trait",
@@ -92,7 +92,7 @@
     {
       "effects": [
         {
-          "effect": "The glutton dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina."
+          "effect": "The glutton dies only if they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "trait",

@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 5
           tier1: 15 damage
-          tier2: 21 damage; pull 3
-          tier3: 25 damage; pull 6
+          tier2: 21 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 25 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 6
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,8 +22,8 @@ features:
       effects:
         - roll: Power Roll + 5
           tier1: 22 damage
-          tier2: 29 damage; I < 4 dazed (save ends)
-          tier3: 34 damage; I < 5 dazed (save ends)
+          tier2: 29 damage; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 34 damage; I < 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -36,7 +36,7 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature''s space during this movement, that creature can choose to either fall prone or take 10 damage.'
+        - effect: '**Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature''s space during this movement, that creature can choose to either fall [prone](scc:mcdm.heroes.v1/condition/prone) or take 10 damage.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -64,9 +64,9 @@ features:
       distance: Ranged 20
       effects:
         - roll: Power Roll + 5
-          tier1: 8 damage; push 2
-          tier2: 12 damage; push 5
-          tier3: 16 damage; push 8
+          tier1: 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+          tier3: 16 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 8
       feature_type: ability
       icon: ❗️
       keywords:
@@ -78,7 +78,7 @@ features:
       type: feature
       usage: Free triggered action
     - effects:
-        - effect: The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+        - effect: The war engine ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects.
       feature_type: trait
       icon: ⭐️
       name: Servok Siege Machine
@@ -90,7 +90,7 @@ features:
       name: Crafted to Perfection
       type: feature
     - effects:
-        - effect: While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+        - effect: While the war engine isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
       feature_type: trait
       icon: ⭐️
       name: Valiar Might
