@@ -1,7 +1,7 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to the black obelisk can make a **Reason test**.
-      icon: "\U0001F300"
+    - icon: "\U0001F300"
+      intro: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to the black obelisk can make a **Reason test**.
       name: Deactivate
       power_roll:
         tiers:

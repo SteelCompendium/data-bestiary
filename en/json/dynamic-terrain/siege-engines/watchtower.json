@@ -11,8 +11,8 @@
       "name": "High Ground and Cover"
     },
     {
-      "body": "A creature outside and [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the watchtower can gain access to the interior by climbing it as an **Agility test** or breaking into it with a **Might test**.",
       "icon": "🌀",
+      "intro": "A creature outside and [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the watchtower can gain access to the interior by climbing it as an **Agility test** or breaking into it with a **Might test**.",
       "name": "Getting Inside",
       "power_roll": {
         "tiers": {

@@ -73,8 +73,8 @@
       "usage": "Free triggered action"
     },
     {
-      "body": "Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.",
       "icon": "⭐️",
+      "intro": "Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.",
       "name": "Allied Awareness",
       "power_roll": {
         "formula": "+ 2",

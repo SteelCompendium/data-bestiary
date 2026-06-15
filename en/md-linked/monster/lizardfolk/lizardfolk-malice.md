@@ -1,8 +1,8 @@
 ---
 features:
-    - body: "**Area, Ranged, Weapon** |   **Maneuver** | |--------------------------|---------------:| | **\U0001F4CF 1 cube within 3**   | **\U0001F3AF Special** |"
-      cost: 3 Malice
+    - cost: 3 Malice
       icon: "\U0001F533"
+      intro: "**Area, Ranged, Weapon** |   **Maneuver** | |--------------------------|---------------:| | **\U0001F4CF 1 cube within 3**   | **\U0001F3AF Special** |"
       name: Net Trap
       power_roll:
         tiers:
@@ -14,9 +14,9 @@ features:
           text: A lizardfolk acting this turn sets up a net trap into the area. The first time an enemy steps into a square with a net trap, they make an **Agility test**. If the creature was unaware of the trap, they take a bane on the test.
         - label: Effect
           text: Any creature not also [restrained](../../condition/restrained.md) by a net trap who is [adjacent](../../rule/combat/adjacent.md) to a creature [restrained](../../condition/restrained.md) by the trap can free them as a maneuver.
-    - body: A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary [Stamina](../../rule/health/stamina.md), regrows their tail if applicable, and ends one effect on them that can be ended by a [saving throw](../../rule/general/saving-throw.md). While [adjacent](../../rule/combat/adjacent.md) to the pit, any creature who can [burrow](../../movement/burrow.md) or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary [Stamina](../../rule/health/stamina.md), regrows their tail if applicable, and ends one effect on them that can be ended by a [saving throw](../../rule/general/saving-throw.md). While [adjacent](../../rule/combat/adjacent.md) to the pit, any creature who can [burrow](../../movement/burrow.md) or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
       name: Water Pit
       power_roll:
         tiers:

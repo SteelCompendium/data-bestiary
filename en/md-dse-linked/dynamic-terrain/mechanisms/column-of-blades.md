@@ -54,8 +54,8 @@ features:
           text: A creature or object moves within distance of the column.
       target: The triggering creature or object
       usage: Free triggered action
-    - body: Allies who [shift](../../movement/shifting.md) don't trigger the column. A creature observing an ally [shift](../../movement/shifting.md) this way can make an **Intuition test** to [shift](../../movement/shifting.md) in imitation of their movements.
-      icon: ⭐️
+    - icon: ⭐️
+      intro: Allies who [shift](../../movement/shifting.md) don't trigger the column. A creature observing an ally [shift](../../movement/shifting.md) this way can make an **Intuition test** to [shift](../../movement/shifting.md) in imitation of their movements.
       name: Allied Awareness
       power_roll:
         formula: + 2

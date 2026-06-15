@@ -25,12 +25,12 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Rat Race
-    - body: |-
+    - cost: 7 Malice
+      icon: "\U0001F533"
+      intro: |-
         A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block [line of effect](../../rule/combat/line-of-effect.md) for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 [Stamina](../../rule/health/stamina.md).
 
         If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map makes an Intuition test.
-      cost: 7 Malice
-      icon: "\U0001F533"
       name: Rally the Rodents
       power_roll:
         tiers:

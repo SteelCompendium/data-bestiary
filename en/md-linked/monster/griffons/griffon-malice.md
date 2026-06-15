@@ -11,9 +11,9 @@ features:
           text: The griffon flies up to their speed, and can make a [free strike](../../feature/common/main-actions/free-strike.md) against each creature who makes an [opportunity attack](../../rule/combat/opportunity-attack.md) against them during this movement.
       target: Self
       usage: Maneuver
-    - body: A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: ❇️
+      intro: A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.
       name: Piercing Cry
       power_roll:
         tiers:

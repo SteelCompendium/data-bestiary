@@ -6,8 +6,8 @@ features:
     - body: Creatures who have access to the watchtower's interior ladders or stairs have [high ground](../../movement/high-ground.md) and [cover](../../rule/combat/cover.md) against creatures outside the watchtower.
       icon: ⭐️
       name: High Ground and Cover
-    - body: A creature outside and [adjacent](../../rule/combat/adjacent.md) to the watchtower can gain access to the interior by climbing it as an **Agility test** or breaking into it with a **Might test**.
-      icon: "\U0001F300"
+    - icon: "\U0001F300"
+      intro: A creature outside and [adjacent](../../rule/combat/adjacent.md) to the watchtower can gain access to the interior by climbing it as an **Agility test** or breaking into it with a **Might test**.
       name: Getting Inside
       power_roll:
         tiers:

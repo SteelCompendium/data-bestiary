@@ -54,9 +54,9 @@
       "usage": "Main action"
     },
     {
-      "body": "The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) by the medusa's Petrify ability has a double bane on the test.",
       "cost": "7 Malice",
       "icon": "🔳",
+      "intro": "The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) by the medusa's Petrify ability has a double bane on the test.",
       "name": "Shatter Victims",
       "power_roll": {
         "tiers": {

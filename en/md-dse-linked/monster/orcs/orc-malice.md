@@ -1,8 +1,8 @@
 ---
 features:
-    - body: Each orc [shifts](../../movement/shifting.md) up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
-      cost: 3 Malice
+    - cost: 3 Malice
       icon: ⭐️
+      intro: Each orc [shifts](../../movement/shifting.md) up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
       name: Overwhelming March
       power_roll:
         tiers:
@@ -13,9 +13,9 @@ features:
       cost: 5 Malice
       icon: "\U0001F533"
       name: Mohler Trench
-    - body: The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is [difficult terrain](../../movement/difficult-terrain.md). Each orc in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F533"
+      intro: The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is [difficult terrain](../../movement/difficult-terrain.md). Each orc in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
       name: Mohler Cavity
       power_roll:
         tiers:
