@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Until the end of the round, each rival can impose a bane on a [strike](scc:mcdm.heroes.v1/rule.combat/strike) made against an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) rival as a free triggered action.
+    - body: Until the end of the round, each rival can impose a bane on a [strike](../../rule/combat/strike.md) made against an [adjacent](../../rule/combat/adjacent.md) rival as a free triggered action.
       cost: 3 Malice
       icon: ⭐️
       name: Work as One
@@ -8,7 +8,7 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: We Just Do It Better
-    - body: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc:mcdm.heroes.v1/condition/frightened).'
+    - body: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](../../condition/dazed.md), poison damage and [weakened](../../condition/weakened.md), or fire damage and [frightened](../../condition/frightened.md).'
       cost: 5 Malice
       icon: "\U0001F533"
       name: Check Out Our Loot
@@ -17,11 +17,11 @@ features:
             high: 5 damage
             low: 11 damage; the condition affects the target (save ends)
             mid: 8 damage; the condition affects the target (EoT)
-    - body: Each rival regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to that enemy can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+    - body: Each rival regains 10 [Stamina](../../rule/health/stamina.md). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](../../rule/combat/adjacent.md) to that enemy can make a [free strike](../../feature/common/main-actions/free-strike.md) against them.
       cost: 7 Malice
       icon: ⭐️
       name: Calling the Shots
-    - body: Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
+    - body: Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](../../rule/monster/malice.md).
       cost: 10 Malice
       icon: ⭐️
       name: Coordinated Takedown

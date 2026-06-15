@@ -1,6 +1,6 @@
 ---
 features:
-    - body: One non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
+    - body: One non-[minion](../../rule/organization/minion.md) voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
       cost: 3 Malice
       icon: "\U0001F464"
       name: Guise
@@ -19,10 +19,10 @@ features:
             mid: 10 psychic damage; R < 2 the target perceives their allies as enemies (save ends)
       sections:
         - label: Special
-          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
+          text: This ability can't be used by a [minion](../../rule/organization/minion.md).
       target: One creature
       usage: Maneuver
-    - body: All voiceless talkers link their minds, creating a circuit that empowers them while two or more voiceless talkers remain in the encounter. While this circuit is active, any psionic strike made by a voiceless talker deals an extra 5 damage. Additionally, when a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker takes damage, they can use a free triggered action to swap places with any voiceless talker [minion](scc:mcdm.monsters.v1/rule.organization/minion) on the encounter map. The [minion](scc:mcdm.monsters.v1/rule.organization/minion) takes the damage instead.
+    - body: All voiceless talkers link their minds, creating a circuit that empowers them while two or more voiceless talkers remain in the encounter. While this circuit is active, any psionic strike made by a voiceless talker deals an extra 5 damage. Additionally, when a non-[minion](../../rule/organization/minion.md) voiceless talker takes damage, they can use a free triggered action to swap places with any voiceless talker [minion](../../rule/organization/minion.md) on the encounter map. The [minion](../../rule/organization/minion.md) takes the damage instead.
       cost: 10 Malice
       icon: "\U0001F300"
       name: Evolutionary Circuit

@@ -18,14 +18,14 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: M < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            mid: M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: M < 2 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+            low: M < 0 [slowed](../../condition/slowed.md) ([save](../../rule/general/saving-throw.md) ends)
+            mid: M < 1 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
           text: A creature or object enters the quicksand or starts their turn there.
         - label: Effect
-          text: This ability takes a bane if a triggering creature [shifted](scc:mcdm.heroes.v1/movement/shifting) into the quicksand. A character who starts their turn [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is [suffocating](scc:mcdm.heroes.v1/rule.health/suffocating).
+          text: This ability takes a bane if a triggering creature [shifted](../../movement/shifting.md) into the quicksand. A character who starts their turn [restrained](../../condition/restrained.md) this way is [suffocating](../../rule/health/suffocating.md).
       target: The triggering creature or object
       usage: Free triggered action
     - body: The quicksand is hidden until triggered or detected.

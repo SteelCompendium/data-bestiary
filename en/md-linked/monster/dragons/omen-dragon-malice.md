@@ -1,10 +1,10 @@
 ---
 features:
-    - body: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+    - body: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](../../rule/dice/bane.md).
       cost: 3 Malice
       icon: ⭐️
       name: Black Skies
-    - body: The dragon [flies](scc:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
+    - body: The dragon [flies](../../movement/fly.md) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](../../rule/monster/monster-trait.md) makes a **Presence test**.
       cost: 5 Malice
       icon: ❇️
       name: Rise and Fall
@@ -13,7 +13,7 @@ features:
             high: Vertical pull 4
             low: Vertical pull 10
             mid: Vertical pull 6
-    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action

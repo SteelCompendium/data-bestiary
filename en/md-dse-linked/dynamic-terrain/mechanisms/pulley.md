@@ -1,20 +1,20 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pulley can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pulley can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The pulley is deactivated and doesn't trigger.
             low: The creature triggers the pulley.
-            mid: The pulley is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
-    - body: A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the pulley uses a maneuver to release the pulley.
+            mid: The pulley is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+    - body: A creature [adjacent](../../rule/combat/adjacent.md) to the pulley uses a maneuver to release the pulley.
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The triggering creature is lifted to the top of the structure the pulley is attached to. The pulley must be manually reset.
-    - body: A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.
+    - body: A creature [adjacent](../../rule/combat/adjacent.md) to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.
       icon: ⭐️
       name: Climbable
     - body: '**Looped Chain (+1 EV)** Instead of a rope and pulley, the system uses a counterweighted looped chain. A looped chain automatically resets and can be triggered repeatedly.'

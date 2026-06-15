@@ -1,10 +1,10 @@
 ---
 features:
-    - body: During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
+    - body: During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being [force moved](../../movement/forced-movement.md).
       cost: 3 Malice
       icon: "\U0001F464"
       name: Slip
-    - body: Rhodar takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: Rhodar takes an additional main action on his turn. He can use this feature even if he is [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -12,7 +12,7 @@ features:
       cost: 5 Malice
       icon: "\U0001F533"
       name: Suffocating Dark
-    - body: Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places. Any enemy teleported by this feature who has I < 5 is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
+    - body: Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately [teleport](../../movement/teleport.md) to swap places. Any enemy teleported by this feature who has I < 5 is [dazed](../../condition/dazed.md) until the end of their next turn.
       cost: 7 Malice
       icon: "\U0001F3F9"
       name: The Mirror Lies

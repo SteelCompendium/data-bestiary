@@ -1,14 +1,14 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a switch can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a switch can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The switch is deactivated and doesn't trigger.
             low: The creature triggers the switch.
-            mid: The switch is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
-    - body: A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the switch uses a maneuver to trigger it.
+            mid: The switch is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+    - body: A creature [adjacent](../../rule/combat/adjacent.md) to the switch uses a maneuver to trigger it.
       icon: ❕
       name: Activate
       sections:

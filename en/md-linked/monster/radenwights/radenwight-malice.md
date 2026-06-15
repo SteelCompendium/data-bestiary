@@ -11,22 +11,22 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5, [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
-            low: 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-            mid: 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3, [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+            high: 13 damage; [push](../../movement/forced-movement.md) 5, [taunted](../../condition/taunted.md) (EoT)
+            low: 7 damage; [push](../../movement/forced-movement.md) 3
+            mid: 10 damage; [push](../../movement/forced-movement.md) 3, [taunted](../../condition/taunted.md) (EoT)
       sections:
         - label: Effect
           text: If the target is wearing clothing covering the lower half of their body, they must use a maneuver once to pull that clothing up before they can move.
         - label: Special
-          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
+          text: This ability can't be used by a [minion](../../rule/organization/minion.md).
       target: One creature
       usage: Main action
-    - body: Each radenwight in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. If a radenwight ends this shift [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more radenwights, they can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
+    - body: Each radenwight in the encounter [shifts](../../movement/shifting.md) up to their speed. If a radenwight ends this shift [adjacent](../../rule/combat/adjacent.md) to one or more radenwights, they can make a melee [free strike](../../feature/common/main-actions/free-strike.md) against each enemy [adjacent](../../rule/combat/adjacent.md) to them.
       cost: 5 Malice
       icon: ⭐️
       name: Rat Race
     - body: |-
-        A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        A radenwight uses music to coordinate living rats, forming a 10 wall of rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn't block [line of effect](../../rule/combat/line-of-effect.md) for radenwights and their allies, but it does for other creatures as the rats coordinate their movements with the radenwights. Each square of the wall has 10 [Stamina](../../rule/health/stamina.md).
 
         If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map makes an Intuition test.
       cost: 7 Malice

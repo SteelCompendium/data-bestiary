@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a field ballista can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The field ballista is deactivated and can't be used.
             low: The creature accidentally activates the **Release Bolt** ability.
-            mid: The field ballista is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The field ballista is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - distance: Ranged 20
       icon: "\U0001F3F9"
       keywords:
@@ -69,9 +69,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 10 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 10 damage; M < 2 [slowed](../../condition/slowed.md) ([save](../../rule/general/saving-throw.md) ends)
             low: 4 damage
-            mid: 7 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 7 damage; M < 1 [slowed](../../condition/slowed.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Effect
           text: This ability can't be used again until the field ballista is reloaded.
@@ -92,9 +92,9 @@ features:
             mid: Pull
       sections:
         - label: Special
-          text: The target must be [slowed](scc:mcdm.heroes.v1/condition/slowed) by the field ballista.
+          text: The target must be [slowed](../../condition/slowed.md) by the field ballista.
         - label: Effect
-          text: This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack).
+          text: This [forced movement](../../movement/forced-movement.md) triggers [opportunity attacks](../../rule/combat/opportunity-attack.md).
       target: One creature
       usage: Main action (Adjacent creature)
 file_basename: field-ballista

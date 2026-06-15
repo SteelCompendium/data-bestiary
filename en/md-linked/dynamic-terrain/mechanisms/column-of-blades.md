@@ -3,7 +3,7 @@ features:
     - body: The column of blades must be completely destroyed.
       icon: "\U0001F300"
       name: Deactivate
-    - body: A creature or object moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
+    - body: A creature or object moves [adjacent](../../rule/combat/adjacent.md) to the column of blades.
       icon: ❕
       name: Activate
       sections:
@@ -19,18 +19,18 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 9 damage; M < 3 [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends)
             low: 4 damage
-            mid: 6 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 6 damage; M < 2 [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
           text: A creature or object moves within distance of the column.
       target: The triggering creature or object
       usage: Free triggered action
     - body: |-
-        **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](../../rule/health/stamina.md).
 
-        **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](../../rule/health/stamina.md).
 
         **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
 
@@ -46,15 +46,15 @@ features:
       name: Whirling Flails
       power_roll:
         tiers:
-            high: 11 damage; M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 11 damage; M < 3 [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends)
             low: 5 damage
-            mid: 8 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 8 damage; M < 2 [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
           text: A creature or object moves within distance of the column.
       target: The triggering creature or object
       usage: Free triggered action
-    - body: Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
+    - body: Allies who [shift](../../movement/shifting.md) don't trigger the column. A creature observing an ally [shift](../../movement/shifting.md) this way can make an **Intuition test** to [shift](../../movement/shifting.md) in imitation of their movements.
       icon: ⭐️
       name: Allied Awareness
       power_roll:

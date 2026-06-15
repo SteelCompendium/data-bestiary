@@ -1,6 +1,6 @@
 ---
 features:
-    - body: The war dog activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 6 or lower.
+    - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 6 or lower.
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
@@ -11,8 +11,8 @@ features:
       power_roll:
         tiers:
             high: 4 poison damage
-            low: 8 poison damage; [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT)
-            mid: 7 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
+            low: 8 poison damage; [dazed](../../../condition/dazed.md) (EoT)
+            mid: 7 poison damage; [weakened](../../../condition/weakened.md) (EoT)
 flavor: At the start of any level 7 or higher war dog's turn, you can spend Malice to activate one of the following features.
 kind: malice
 level: 7

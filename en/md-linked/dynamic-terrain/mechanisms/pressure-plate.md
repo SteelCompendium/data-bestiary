@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pressure plate can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The pressure plate is deactivated and doesn't trigger.
             low: The creature triggers the pressure plate.
-            mid: The pressure plate is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The pressure plate is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
       icon: ❕
       name: Activate

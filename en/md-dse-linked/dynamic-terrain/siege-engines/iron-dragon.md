@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an iron dragon can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to an iron dragon can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The iron dragon is deactivated and can't be used.
             low: The creature accidentally activates the **Gout of Flame** ability.
-            mid: The iron dragon is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The iron dragon is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - distance: 8 x 2 line within 1
       icon: "\U0001F533"
       keywords:
@@ -17,9 +17,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 13 fire damage; A < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 6 fire damage; A < 0 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            mid: 10 fire damage; A < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 13 fire damage; A < 2 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+            low: 6 fire damage; A < 0 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+            mid: 10 fire damage; A < 1 the target is burning ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Effect
           text: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the iron dragon is reloaded.

@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a catapult can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The catapult is deactivated and can't be used.
             low: The creature accidentally activates the **Arcing Shot** ability.
-            mid: The catapult is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The catapult is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - distance: 3 cube within 20
       icon: "\U0001F533"
       keywords:

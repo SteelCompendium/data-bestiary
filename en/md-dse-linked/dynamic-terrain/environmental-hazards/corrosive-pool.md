@@ -17,9 +17,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 fire damage; M < 3 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 3 fire damage; M < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            mid: 6 fire damage; M < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 9 fire damage; M < 3 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+            low: 3 fire damage; M < 1 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+            mid: 6 fire damage; M < 2 the target is burning ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
           text: The pool takes fire damage.
@@ -46,7 +46,7 @@ stats:
     - name: Stamina
       value: 12 per square
     - name: Size
-      value: One or more squares of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)
+      value: One or more squares of [difficult terrain](../../movement/difficult-terrain.md)
     - name: Immunity
       value: 20 to all damage except cold or fire damage
 terrain_type: Hazard

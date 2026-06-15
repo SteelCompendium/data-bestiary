@@ -3,10 +3,10 @@ features:
     - body: Ajax automatically treats his initial power roll as a 17. He can still roll to determine if he scores a critical hit.
       icon: ⭐️
       name: Insurgent
-    - body: Before he uses an ability, Ajax can either [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares, or can cause one creature within line of effect to [slide](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares, ignoring stability.
+    - body: Before he uses an ability, Ajax can either [shift](../../movement/shifting.md) up to 2 squares, or can cause one creature within line of effect to [slide](../../movement/forced-movement.md) up to 2 squares, ignoring stability.
       icon: ⭐️
       name: Mastermind
-    - body: Ajax has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5. Additionally, any enemy who makes a power roll that includes Ajax as a target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the roll.
+    - body: Ajax has [damage immunity](../../rule/damage/damage-immunity.md) 5. Additionally, any enemy who makes a power roll that includes Ajax as a target has a double [bane](../../rule/dice/bane.md) on the roll.
       icon: ⭐️
       name: Vanguard
 file_basename: tactical-stance

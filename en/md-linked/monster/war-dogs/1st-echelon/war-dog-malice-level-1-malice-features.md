@@ -1,6 +1,6 @@
 ---
 features:
-    - body: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
+    - body: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](../../../rule/health/stamina.md) equal to 5 times their level.
       cost: 3 Malice
       icon: "\U0001F464"
       name: Reconstitute
@@ -15,14 +15,14 @@ features:
       power_roll:
         tiers:
             high: 5 fire damage
-            low: 5 fire damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-            mid: 5 fire damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
+            low: 5 fire damage; [slowed](../../../condition/slowed.md) or [weakened](../../../condition/weakened.md) (save ends)
+            mid: 5 fire damage; [slowed](../../../condition/slowed.md) or [weakened](../../../condition/weakened.md) (EoT)
       sections:
         - label: Effect
           text: Each target makes an **Agility test**. The same condition is imposed on each affected target.
       target: Each creature in the area
       usage: Maneuver
-    - body: Each war dog [minion](scc:mcdm.monsters.v1/rule.organization/minion) in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). A [minion](scc:mcdm.monsters.v1/rule.organization/minion) who does so is then reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+    - body: Each war dog [minion](../../../rule/organization/minion.md) in the encounter [shifts](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). A [minion](../../../rule/organization/minion.md) who does so is then reduced to 0 [Stamina](../../../rule/health/stamina.md).
       cost: 7 Malice
       icon: ⭐️
       name: Fodder Run

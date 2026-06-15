@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a spike trap can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a spike trap can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The trap is deactivated and doesn't trigger.
             low: The creature triggers the trap and is affected as if in its area.
-            mid: The trap is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The trap is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
       icon: ❕
       name: Activate
@@ -23,9 +23,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 6 damage; the target falls into the pit; A < 1 [prone](scc:mcdm.heroes.v1/condition/prone); [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 3 damage; the target [shifts](scc:mcdm.heroes.v1/movement/shifting) 1 square away from the trap
-            mid: 4 damage; the target falls into the pit; A < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
+            high: 6 damage; the target falls into the pit; A < 1 [prone](../../condition/prone.md); [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+            low: 3 damage; the target [shifts](../../movement/shifting.md) 1 square away from the trap
+            mid: 4 damage; the target falls into the pit; A < 0 [prone](../../condition/prone.md)
       sections:
         - label: Trigger
           text: A creature or object of the appropriate size enters the trap's area.

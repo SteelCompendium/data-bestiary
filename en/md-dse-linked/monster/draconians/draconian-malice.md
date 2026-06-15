@@ -1,6 +1,6 @@
 ---
 features:
-    - body: A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+    - body: A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](../../rule/combat/adjacent.md) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](../../condition/prone.md).
       cost: 3 Malice
       icon: "\U0001F464"
       name: Guarding Gale

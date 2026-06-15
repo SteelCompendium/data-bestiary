@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
+    - body: Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is [weakened](../../condition/weakened.md) (save ends).
       cost: 3 Malice
       icon: ❇️
       name: Gas Belch
@@ -8,11 +8,11 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Slime Trail
-    - body: Xorannox takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: Xorannox takes an additional main action on his turn. He can use this feature even if he is [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement), they are [pulled](scc:mcdm.heroes.v1/movement/forced-movement) 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.
+    - body: Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is [force moved](../../movement/forced-movement.md), they are [pulled](../../movement/forced-movement.md) 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.
       cost: 7 Malice
       icon: "\U0001F300"
       name: Mind Over Matter

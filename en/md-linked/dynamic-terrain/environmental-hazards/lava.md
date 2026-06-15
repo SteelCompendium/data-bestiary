@@ -3,7 +3,7 @@ features:
     - body: Each square of lava must be individually destroyed.
       icon: "\U0001F300"
       name: Deactivate
-    - body: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the lava.
+    - body: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
       icon: ❕
       name: Activate
       sections:
@@ -18,17 +18,17 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 12 fire damage; M < 3 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 5 fire damage; M < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            mid: 9 fire damage; M < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 12 fire damage; M < 3 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+            low: 5 fire damage; M < 1 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+            mid: 9 fire damage; M < 2 the target is burning ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
-          text: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the lava.
+          text: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
         - label: Effect
-          text: If the target is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          text: If the target is [adjacent](../../rule/combat/adjacent.md) to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
       target: The triggering creature or object
       usage: Free triggered action
-    - body: '**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an existing square of lava.'
+    - body: '**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](../../rule/combat/adjacent.md) to an existing square of lava.'
       icon: ⭐️
       name: Upgrade
 flavor: A patch of blisteringly hot molten rock wells up from the ground, threatening anyone who gets close to it.
@@ -42,7 +42,7 @@ stats:
     - name: Stamina
       value: 12 per square
     - name: Size
-      value: One or more squares of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)
+      value: One or more squares of [difficult terrain](../../movement/difficult-terrain.md)
     - name: Immunity
       value: 20 to all damage except cold damage
 terrain_type: Hazard

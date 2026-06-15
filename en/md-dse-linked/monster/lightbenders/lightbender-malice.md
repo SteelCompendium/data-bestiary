@@ -1,10 +1,10 @@
 ---
 features:
-    - body: Each lightbender acting this turn can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to their speed as a move action and attempt to hide as a free maneuver, all until the start of their next turn.
+    - body: Each lightbender acting this turn can [teleport](../../movement/teleport.md) up to their speed as a move action and attempt to hide as a free maneuver, all until the start of their next turn.
       cost: 3 Malice
       icon: ⭐️
       name: Silent Prowl
-    - body: Each lightbender acting this turn can create a duplicate lightbender in an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them. The duplicate is indistinguishable from the lightbender except by supernatural means, has 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and has the lightbender's speed. A duplicate acts on the lightbender's turn but can take only move actions. Once per round before or after using an ability, a lightbender can trade places with any lightbender duplicate.
+    - body: Each lightbender acting this turn can create a duplicate lightbender in an unoccupied space [adjacent](../../rule/combat/adjacent.md) to them. The duplicate is indistinguishable from the lightbender except by supernatural means, has 1 [Stamina](../../rule/health/stamina.md), and has the lightbender's speed. A duplicate acts on the lightbender's turn but can take only move actions. Once per round before or after using an ability, a lightbender can trade places with any lightbender duplicate.
       cost: 5 Malice
       icon: ⭐️
       name: Duplicate

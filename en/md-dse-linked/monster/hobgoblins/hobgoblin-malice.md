@@ -1,6 +1,6 @@
 ---
 features:
-    - body: The hobgoblin activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) Feature available to goblins.
+    - body: The hobgoblin activates a [Malice](../../rule/monster/malice.md) Feature available to goblins.
       cost: 3-7 Malice
       icon: ⭐️
       name: Goblin Malice Features
@@ -8,7 +8,7 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Operation Goblin Mode
-    - body: Each hobgoblin in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can take the Defend main action.
+    - body: Each hobgoblin in the encounter [shifts](../../movement/shifting.md) up to their speed and can take the Defend main action.
       cost: 5 Malice
       icon: ⭐️
       name: Operation Tactical Swarm

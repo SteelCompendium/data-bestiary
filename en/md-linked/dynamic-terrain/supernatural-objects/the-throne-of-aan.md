@@ -15,11 +15,11 @@ features:
       icon: ⭐️
       name: Light of the Northern Sun
     - body: |-
-        Only a creature attuned to the throne can sit on it. A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the throne can use a main action to attune to it by succeeding on a **Presence test**.
+        Only a creature attuned to the throne can sit on it. A creature [adjacent](../../rule/combat/adjacent.md) to the throne can use a main action to attune to it by succeeding on a **Presence test**.
 
         A creature seated on the throne becomes the hierophant of A'An and gains the following benefits:
 
-        - The hierophant and each of their allies within 10 squares of the throne have fire immunity 10. - The hierophant and each of their allies within 10 squares of the throne can choose to have their abilities deal fire damage instead of their usual damage. - The hierophant has a +5 bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability), and any strike made against them takes a bane unless the attacker is also attuned to the throne. - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
+        - The hierophant and each of their allies within 10 squares of the throne have fire immunity 10. - The hierophant and each of their allies within 10 squares of the throne can choose to have their abilities deal fire damage instead of their usual damage. - The hierophant has a +5 bonus to [stability](../../rule/character/stability.md), and any strike made against them takes a bane unless the attacker is also attuned to the throne. - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
       icon: ⭐️
       name: Sitting on the Throne
       power_roll:
@@ -53,9 +53,9 @@ features:
       name: Solar Accretion
       sections:
         - label: Trigger
-          text: A target within distance is made [winded](scc:mcdm.heroes.v1/rule.health/winded) or is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by fire damage.
+          text: A target within distance is made [winded](../../rule/health/winded.md) or is reduced to 0 [Stamina](../../rule/health/stamina.md) by fire damage.
         - label: Effect
-          text: If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
+          text: If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 [Malice](../../rule/monster/malice.md).
       target: One creature
       usage: Free triggered action
     - distance: 10 burst

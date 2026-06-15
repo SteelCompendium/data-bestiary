@@ -1,26 +1,26 @@
 ---
 features:
-    - body: Each orc [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
+    - body: Each orc [shifts](../../movement/shifting.md) up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
       cost: 3 Malice
       icon: ⭐️
       name: Overwhelming March
       power_roll:
         tiers:
-            high: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2'
-            low: 6 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
-            mid: 4 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
-    - body: An orc acting this turn summons 2 **mohlers** out of the ground, who dig a trench that is a 10 x 1 line within 10 squares when they appear. The trench is 2 squares deep and is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The trench can't be created directly underneath creatures.
+            high: '[Push](../../movement/forced-movement.md) 2'
+            low: 6 damage; [prone](../../condition/prone.md)
+            mid: 4 damage; [prone](../../condition/prone.md)
+    - body: An orc acting this turn summons 2 **mohlers** out of the ground, who dig a trench that is a 10 x 1 line within 10 squares when they appear. The trench is 2 squares deep and is [difficult terrain](../../movement/difficult-terrain.md). The trench can't be created directly underneath creatures.
       cost: 5 Malice
       icon: "\U0001F533"
       name: Mohler Trench
-    - body: The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). Each orc in the area can [shift](scc:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
+    - body: The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is [difficult terrain](../../movement/difficult-terrain.md). Each orc in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
       cost: 7 Malice
       icon: "\U0001F533"
       name: Mohler Cavity
       power_roll:
         tiers:
-            high: The target can [shift](scc:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the pit.
-            low: 4 damage; the target falls; [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
+            high: The target can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the pit.
+            low: 4 damage; the target falls; [prone](../../condition/prone.md) and can't stand (EoT)
             mid: 4 damage; the target falls
 flavor: At the start of any orc's turn, you can spend Malice to activate one of the following features.
 kind: malice

@@ -4,15 +4,15 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Engreen
-    - body: A ghostly size 1L stockade seeps out from under the bredbeddle's feet to fill an unoccupied square within 10 squares. When a size 1L or smaller enemy enters the stockade's square, they are [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends). When a [restrained](scc:mcdm.heroes.v1/condition/restrained) creature is no longer [restrained](scc:mcdm.heroes.v1/condition/restrained), the stockade fades away. At the start of each of the bredbeddle's turns, they can [slide](scc:mcdm.heroes.v1/movement/forced-movement) an active stockade and any creature in it up to 5 squares.
+    - body: A ghostly size 1L stockade seeps out from under the bredbeddle's feet to fill an unoccupied square within 10 squares. When a size 1L or smaller enemy enters the stockade's square, they are [restrained](../../condition/restrained.md) (save ends). When a [restrained](../../condition/restrained.md) creature is no longer [restrained](../../condition/restrained.md), the stockade fades away. At the start of each of the bredbeddle's turns, they can [slide](../../movement/forced-movement.md) an active stockade and any creature in it up to 5 squares.
       cost: 5 Malice
       icon: "\U0001F533"
       name: Shadow Stockade
-    - body: The bredbeddle takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: The bredbeddle takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle's statistics but has 24 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), corruption immunity 10, and can [fly](scc:mcdm.heroes.v1/movement/fly). The phantom bredbeddle can take one turn and use any of the bredbeddle's abilities except for villain actions. Only one phantom bredbeddle can be active at a time.
+    - body: A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle's statistics but has 24 [Stamina](../../rule/health/stamina.md), corruption immunity 10, and can [fly](../../movement/fly.md). The phantom bredbeddle can take one turn and use any of the bredbeddle's abilities except for villain actions. Only one phantom bredbeddle can be active at a time.
       cost: 7 Malice
       icon: "\U0001F300"
       name: Green Phantom

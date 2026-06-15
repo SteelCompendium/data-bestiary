@@ -1,10 +1,10 @@
 ---
 features:
-    - body: A dwarf can destroy one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) object or square of wall for each 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent. Each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
+    - body: A dwarf can destroy one [adjacent](../../rule/combat/adjacent.md) object or square of wall for each 3 [Malice](../../rule/monster/malice.md) spent. Each enemy [adjacent](../../rule/combat/adjacent.md) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
       cost: 3 Malice
       icon: "\U0001F464"
       name: Breaching Charge
-    - body: Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+    - body: Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](../../feature/common/main-actions/free-strike.md).
       cost: 5 Malice
       icon: ⭐️
       name: Rappelling Barrage
@@ -19,13 +19,13 @@ features:
       power_roll:
         tiers:
             high: No effect.
-            low: 8 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
-            mid: 6 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+            low: 8 damage; [restrained](../../condition/restrained.md) (EoT)
+            mid: 6 damage; [slowed](../../condition/slowed.md) (EoT)
       sections:
         - label: Effect
           text: Each target makes an **Agility test**.
         - label: Special
-          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
+          text: This ability can't be used by a [minion](../../rule/organization/minion.md).
       target: Each enemy in the area
       trailing: The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.
       usage: Main action

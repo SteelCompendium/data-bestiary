@@ -1,6 +1,6 @@
 ---
 features:
-    - body: The war dog activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 9 or lower.
+    - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 9 or lower.
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
@@ -14,14 +14,14 @@ features:
       power_roll:
         formula: + 5
         tiers:
-            high: 14 psychic damage; P < 5 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+            high: 14 psychic damage; P < 5 [frightened](../../../condition/frightened.md) (save ends)
             low: 7 psychic damage
-            mid: 11 psychic damage; P < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+            mid: 11 psychic damage; P < 4 [frightened](../../../condition/frightened.md) (save ends)
       sections:
         - label: Effect
-          text: Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn, then [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          text: Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn, then [shift](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
         - label: Special
-          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
+          text: This ability can't be used by a [minion](../../../rule/organization/minion.md).
       target: Each enemy in the area
       usage: Maneuver
 flavor: At the start of any level 10 or higher war dog's turn, you can spend Malice to activate one of the following features.

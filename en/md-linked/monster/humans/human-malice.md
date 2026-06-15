@@ -11,19 +11,19 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 corruption damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-            low: 4 corruption damage; A < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-            mid: 6 corruption damage; A < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+            high: 9 corruption damage; A < 2 [restrained](../../condition/restrained.md) (save ends)
+            low: 4 corruption damage; A < 0 [slowed](../../condition/slowed.md) (save ends)
+            mid: 6 corruption damage; A < 1 [slowed](../../condition/slowed.md) (save ends)
       sections:
         - label: Special
-          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
+          text: This ability can't be used by a [minion](../../rule/organization/minion.md).
       target: Each enemy and object in the area
       usage: Maneuver
     - body: Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
       cost: 5 Malice
       icon: ⭐️
       name: Exploit Opening
-    - body: Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
+    - body: Each non-[minion](../../rule/organization/minion.md) human in the encounter regains [Stamina](../../rule/health/stamina.md) equal to 5 times their level.
       cost: 7 Malice
       icon: ⭐️
       name: Staying Power

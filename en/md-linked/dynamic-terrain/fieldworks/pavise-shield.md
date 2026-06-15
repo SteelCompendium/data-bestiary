@@ -1,17 +1,17 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pavise shield controlled by another creature can make a **Might test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The creature making the test grabs the shield and takes control of it.
-            low: The creature controlling the shield retains control of it and can make an [opportunity attack](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) against the creature making the test.
+            low: The creature controlling the shield retains control of it and can make an [opportunity attack](../../rule/combat/opportunity-attack.md) against the creature making the test.
             mid: The creature controlling the shield retains control of it.
     - body: |-
-        While a creature has the pavise shield grabbed, they have [cover](scc:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
+        While a creature has the pavise shield grabbed, they have [cover](../../rule/combat/cover.md) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
 
-        While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature.
+        While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](../../condition/grabbed.md) creature.
       icon: ⭐️
       name: Controlling the Shield
 flavor: A reinforced metal shield embedded in the ground acts as cover for the creature controlling it.

@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a bear trap can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a bear trap can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The trap is deactivated and doesn't trigger.
             low: The creature triggers the trap and is affected as if in its space.
-            mid: The trap is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The trap is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The bear trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
       icon: ❕
       name: Activate
@@ -24,9 +24,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 5 damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 1 The target [shifts](scc:mcdm.heroes.v1/movement/shifting) 1 square away from the trap.
-            mid: 3 damage; A < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 5 damage; A < 2 [slowed](../../condition/slowed.md) ([save](../../rule/general/saving-throw.md) ends)
+            low: 1 The target [shifts](../../movement/shifting.md) 1 square away from the trap.
+            mid: 3 damage; A < 1 [slowed](../../condition/slowed.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
           text: A creature or object of the appropriate size enters the trap's space.
@@ -34,7 +34,7 @@ features:
           text: The bear trap must be manually reset.
       target: The triggering creature or object
       usage: Free triggered action
-    - body: '**Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made [slowed](scc:mcdm.heroes.v1/condition/slowed) by the trap is [restrained](scc:mcdm.heroes.v1/condition/restrained) instead.'
+    - body: '**Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made [slowed](../../condition/slowed.md) by the trap is [restrained](../../condition/restrained.md) instead.'
       icon: ⭐️
       name: Upgrade
     - body: The bear trap is hidden until triggered or detected.

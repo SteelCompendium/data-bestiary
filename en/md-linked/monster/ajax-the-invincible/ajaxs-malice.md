@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed [Reason](scc:mcdm.heroes.v1/rule.character/reason) test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) during the current round. Ajax can't use this feature against the same creature during the same encounter.
+    - body: Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed [Reason](../../rule/character/reason.md) test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional [triggered action](../../rule/combat/triggered-action.md) during the current round. Ajax can't use this feature against the same creature during the same encounter.
       cost: 2 Malice
       icon: "\U0001F464"
       name: Reason
@@ -10,12 +10,12 @@ features:
       name: Nexus Jewel
       sections:
         - label: Incredibly High Above the Ground
-          text: The winds whip and bluster. Any creature who can't [fly](scc:mcdm.heroes.v1/movement/fly) takes a −3 penalty to stability, and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) effects gain a +3 bonus to their distance against such creatures.
+          text: The winds whip and bluster. Any creature who can't [fly](../../movement/fly.md) takes a −3 penalty to stability, and [forced movement](../../movement/forced-movement.md) effects gain a +3 bonus to their distance against such creatures.
         - label: Swamp
-          text: The ground is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Any creature who starts and ends their turn in the same space is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+          text: The ground is [difficult terrain](../../movement/difficult-terrain.md) for enemies. Any creature who starts and ends their turn in the same space is [restrained](../../condition/restrained.md) (save ends).
         - label: Volcanic Canyon
           text: The air is stiflingly hot. Each enemy takes 5 fire damage for each square they enter.
-    - body: Ajax takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: Ajax takes an additional main action on his turn. He can use this feature even if he is [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -31,13 +31,13 @@ features:
       power_roll:
         tiers:
             high: 16 damage
-            low: 26 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-            mid: 22 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+            low: 26 damage; [bleeding](../../condition/bleeding.md) and [slowed](../../condition/slowed.md) (save ends)
+            mid: 22 damage; [bleeding](../../condition/bleeding.md) (save ends)
       sections:
         - label: Effect
           text: Each target makes a test using their highest characteristic.
       target: Each enemy and object in the area
-      trailing: Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
+      trailing: Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is [pushed](../../movement/forced-movement.md) into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
       usage: Main Action
 flavor: At the start of Ajax's turn, you can spend Malice to activate one of the following features.
 kind: malice

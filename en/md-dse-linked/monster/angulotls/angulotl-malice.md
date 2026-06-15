@@ -4,14 +4,14 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Leapfrog
-    - body: Each angulotl in the encounter puffs out their throat and starts loudly droning. Any non-angulotl adjacent to an angulotl makes an **[Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test.**
+    - body: Each angulotl in the encounter puffs out their throat and starts loudly droning. Any non-angulotl adjacent to an angulotl makes an **[Intuition](../../rule/character/intuition.md) test.**
       cost: 5 Malice
       icon: ❇️
       name: Resonating Croak
       power_roll:
         tiers:
             high: No effect.
-            low: 5 sonic damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+            low: 5 sonic damage; [slowed](../../condition/slowed.md) ([EoT](../../rule/combat/end-of-turn.md))
             mid: 4 sonic damage
     - body: An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is wet until the end of the encounter.
       cost: 7 Malice

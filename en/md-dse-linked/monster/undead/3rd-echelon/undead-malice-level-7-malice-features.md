@@ -1,10 +1,10 @@
 ---
 features:
-    - body: The undead activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to undead of level 6 or lower.
+    - body: The undead activates a [Malice](../../../rule/monster/malice.md) feature available to undead of level 6 or lower.
       cost: 2-7+ Malice
       icon: ⭐️
       name: Prior Malice Features
-    - body: Until the end of the round, whenever an undead is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they deal 8 corruption damage to each enemy within 3 squares of them.
+    - body: Until the end of the round, whenever an undead is reduced to 0 [Stamina](../../../rule/health/stamina.md), they deal 8 corruption damage to each enemy within 3 squares of them.
       cost: 5 Malice
       icon: "\U0001F300"
       name: Necrotic Rupture

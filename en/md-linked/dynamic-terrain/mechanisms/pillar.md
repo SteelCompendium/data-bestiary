@@ -3,7 +3,7 @@ features:
     - body: The pillar's linked trigger must be deactivated.
       icon: "\U0001F300"
       name: Deactivate
-    - body: The pillar is destroyed, or a [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+    - body: The pillar is destroyed, or a [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
       icon: ❕
       name: Activate
       sections:
@@ -17,18 +17,18 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 9 damage; M < 2 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
             low: 4 damage
-            mid: 6 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 6 damage; M < 1 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
-          text: The pillar is destroyed, or a [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+          text: The pillar is destroyed, or a [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
         - label: Effect
-          text: The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+          text: The area is [difficult terrain](../../movement/difficult-terrain.md).
       target: Each creature and object in the area
       usage: Free triggered action
     - body: |-
-        **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage.
+        **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](../../rule/health/stamina.md), and deals 1d6 extra damage.
 
         **Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.
       icon: ⭐️

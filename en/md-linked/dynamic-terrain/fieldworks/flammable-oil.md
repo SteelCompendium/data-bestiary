@@ -1,19 +1,19 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a patch of flammable oil can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The oil is rendered safe and can't be ignited.
             low: The creature ignites the oil and is affected as if in its area.
-            mid: The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
+            mid: The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](../../rule/general/saving-throw.md) ends).
     - body: A creature or object in a square of oil takes fire damage, or a creature or object enters a square of burning oil or starts their turn there.
       icon: ❕
       name: Activate
       sections:
         - label: Effect
-          text: The triggering creature or object takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          text: The triggering creature or object takes 3 fire damage and is burning ([save](../../rule/general/saving-throw.md) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
     - body: '**Concealed Oil (+1 EV)** The oil is hidden until it ignites.'
       icon: ⭐️
       name: Upgrade

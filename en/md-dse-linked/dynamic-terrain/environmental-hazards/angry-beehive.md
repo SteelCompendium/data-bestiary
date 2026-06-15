@@ -3,7 +3,7 @@ features:
     - body: The beehive can't be deactivated. If it takes damage or is destroyed, the hive unleashes a swarm of bees.
       icon: "\U0001F300"
       name: Deactivate
-    - body: A creature enters the hive's space or an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space without [shifting](scc:mcdm.heroes.v1/movement/shifting).
+    - body: A creature enters the hive's space or an [adjacent](../../rule/combat/adjacent.md) space without [shifting](../../movement/shifting.md).
       icon: ❕
       name: Activate
       sections:
@@ -12,7 +12,7 @@ features:
     - body: |-
         **Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.
 
-        **Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature [shifts](scc:mcdm.heroes.v1/movement/shifting) into or while [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to it, and the swarm deals 1d6 + 3 poison damage.
+        **Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature [shifts](../../movement/shifting.md) into or while [adjacent](../../rule/combat/adjacent.md) to it, and the swarm deals 1d6 + 3 poison damage.
       icon: ⭐️
       name: Upgrades
 file_basename: angry-beehive

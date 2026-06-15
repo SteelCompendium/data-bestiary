@@ -15,7 +15,7 @@ features:
         - label: Trigger
           text: The shard is destroyed.
         - label: Effect
-          text: The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
+          text: The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is [dazed](../../condition/dazed.md) until the end of their next turn.
       target: Special
       usage: Free triggered action
 file_basename: psionic-shard

@@ -1,14 +1,14 @@
 ---
 features:
-    - body: The fossil cryptic [slides](scc:mcdm.heroes.v1/movement/forced-movement) one creature on the ground up to 5 squares. If the creature is [prone](scc:mcdm.heroes.v1/condition/prone), this [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc:mcdm.heroes.v1/rule.character/stability).
+    - body: The fossil cryptic [slides](../../movement/forced-movement.md) one creature on the ground up to 5 squares. If the creature is [prone](../../condition/prone.md), this [forced movement](../../movement/forced-movement.md) ignores [stability](../../rule/character/stability.md).
       cost: 3 Malice
       icon: "\U0001F3F9"
       name: Floor Mosaic
-    - body: The fossil cryptic takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: The fossil cryptic takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: Two pillars of stone 1 square wide either thrust up out of the ground or jut down from the ceiling anywhere on the encounter map, to a height of up to 5 squares. A creature in the area of a pillar before it appears is knocked [prone](scc:mcdm.heroes.v1/condition/prone) on its surface. If the creature comes into contact with the ceiling above or the floor beneath the pillar and has M < 2 they are [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+    - body: Two pillars of stone 1 square wide either thrust up out of the ground or jut down from the ceiling anywhere on the encounter map, to a height of up to 5 squares. A creature in the area of a pillar before it appears is knocked [prone](../../condition/prone.md) on its surface. If the creature comes into contact with the ceiling above or the floor beneath the pillar and has M < 2 they are [restrained](../../condition/restrained.md) (save ends).
       cost: 5 Malice
       icon: "\U0001F533"
       name: Stone Pillars
@@ -19,8 +19,8 @@ features:
       power_roll:
         tiers:
             high: No effect.
-            low: Until the end of the enemy's next turn, their [stability](scc:mcdm.heroes.v1/rule.character/stability) is reduced to 0, and any [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) effects targeting them gain a +2 bonus to the distance moved.
-            mid: The enemy's [stability](scc:mcdm.heroes.v1/rule.character/stability) is halved (EoT).
+            low: Until the end of the enemy's next turn, their [stability](../../rule/character/stability.md) is reduced to 0, and any [forced movement](../../movement/forced-movement.md) effects targeting them gain a +2 bonus to the distance moved.
+            mid: The enemy's [stability](../../rule/character/stability.md) is halved (EoT).
 flavor: At the start of a fossil cryptic's turn, you can spend Malice to activate one of the following features.
 kind: malice
 name: Fossil Cryptic Malice

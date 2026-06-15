@@ -6,10 +6,10 @@ features:
       name: Shockwave
       power_roll:
         tiers:
-            high: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 1'
-            low: 5 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-            mid: 4 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-    - body: Each ogre in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If they can, they gang up on the same target rather than picking different targets.
+            high: '[Push](../../movement/forced-movement.md) 1'
+            low: 5 damage; vertical [push](../../movement/forced-movement.md) 3
+            mid: 4 damage; vertical [push](../../movement/forced-movement.md) 2
+    - body: Each ogre in the encounter [shifts](../../movement/shifting.md) up to their speed and can make a [free strike](../../feature/common/main-actions/free-strike.md). If they can, they gang up on the same target rather than picking different targets.
       cost: 5 Malice
       icon: "\U0001F300"
       name: Bully

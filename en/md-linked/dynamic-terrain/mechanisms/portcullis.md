@@ -1,14 +1,14 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a portcullis can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a portcullis can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The portcullis is deactivated and doesn't trigger.
             low: The creature triggers the portcullis and is affected as if in its area.
-            mid: The portcullis is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
-    - body: A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+            mid: The portcullis is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+    - body: A [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
       icon: ❕
       name: Activate
       sections:
@@ -23,12 +23,12 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 10 damage; A < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 3 damage; slide 1, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability)
-            mid: 7 damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 10 damage; A < 3 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+            low: 3 damage; slide 1, ignoring [stability](../../rule/character/stability.md)
+            mid: 7 damage; A < 2 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
       sections:
         - label: Trigger
-          text: A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+          text: A [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
         - label: Special
           text: The area of this ability is the area directly beneath the portcullis when it falls.
         - label: Effect

@@ -1,10 +1,10 @@
 ---
 features:
-    - body: The demon activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level or lower.
+    - body: The demon activates a [Malice](../../../rule/monster/malice.md) feature available to demons of level or lower.
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
-    - body: One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), can move through solid matter, and don't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.
+    - body: One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore [difficult terrain](../../../movement/difficult-terrain.md), can move through solid matter, and don't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.
       cost: 3 Malice
       icon: "\U0001F464"
       name: Abyssal Jaunt

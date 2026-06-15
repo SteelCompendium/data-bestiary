@@ -1,6 +1,6 @@
 ---
 features:
-    - body: While the dragon is [flying](scc:mcdm.heroes.v1/movement/fly), they shape themself into a blade and fall. Each creature and object in the dragon's space when they hit the ground and in a 6 x 4 line within 1 square of the dragon takes 7 damage. A creature who takes this damage and has A < 4 takes 4 extra damage per square the dragon fell and is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends). A creature not [restrained](scc:mcdm.heroes.v1/condition/restrained) this way can move into the nearest unoccupied space.
+    - body: While the dragon is [flying](../../movement/fly.md), they shape themself into a blade and fall. Each creature and object in the dragon's space when they hit the ground and in a 6 x 4 line within 1 square of the dragon takes 7 damage. A creature who takes this damage and has A < 4 takes 4 extra damage per square the dragon fell and is [restrained](../../condition/restrained.md) (save ends). A creature not [restrained](../../condition/restrained.md) this way can move into the nearest unoccupied space.
       cost: 3 Malice
       icon: "\U0001F533"
       name: Swordfall
@@ -11,9 +11,9 @@ features:
       power_roll:
         tiers:
             high: 7 damage
-            low: 16 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-            mid: 13 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
-    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
+            low: 16 damage; [bleeding](../../condition/bleeding.md) (save ends)
+            mid: 13 damage; [bleeding](../../condition/bleeding.md) (EoT)
+    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action

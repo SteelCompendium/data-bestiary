@@ -19,12 +19,12 @@ features:
             mid: 9 damage; R < 2 chosen condition (save ends)
       sections:
         - label: Effect
-          text: 'The high elf chooses a damage type and condition from one of the following combinations: cold damage and [slowed](scc:mcdm.heroes.v1/condition/slowed), poison damage and [weakened](scc:mcdm.heroes.v1/condition/weakened), or corruption damage and [frightened](scc:mcdm.heroes.v1/condition/frightened).'
+          text: 'The high elf chooses a damage type and condition from one of the following combinations: cold damage and [slowed](../../condition/slowed.md), poison damage and [weakened](../../condition/weakened.md), or corruption damage and [frightened](../../condition/frightened.md).'
         - label: Special
-          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
+          text: This ability can't be used by a [minion](../../rule/organization/minion.md).
       target: Each enemy in the area
       usage: Main action
-    - body: Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to that enemy can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+    - body: Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf [adjacent](../../rule/combat/adjacent.md) to that enemy can make a [free strike](../../feature/common/main-actions/free-strike.md) against them.
       cost: 7 Malice
       icon: "\U0001F300"
       name: In Defiance of Time
