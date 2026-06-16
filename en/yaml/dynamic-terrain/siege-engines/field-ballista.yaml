@@ -61,7 +61,7 @@ features:
     - distance: Ranged 20
       icon: "\U0001F3F9"
       keywords:
-        - '- - Ranged'
+        - Ranged
         - Strike
         - Weapon
       name: Chain Bolt
