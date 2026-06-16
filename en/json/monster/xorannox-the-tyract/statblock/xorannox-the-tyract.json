@@ -135,7 +135,7 @@
     {
       "effects": [
         {
-          "effect": "If Xorannox perceives another overmind or a [voiceless talker](scc:mcdm.monsters.v1/monster.group/voiceless-talkers) on the encounter map, he targets that threat one or more times on each of his turns."
+          "effect": "If Xorannox perceives another overmind or a [voiceless talker](scc:mcdm.monsters.v1/monster.group/voiceless-talker) on the encounter map, he targets that threat one or more times on each of his turns."
         }
       ],
       "feature_type": "trait",

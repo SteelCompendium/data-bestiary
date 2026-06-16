@@ -100,7 +100,7 @@ type: statblock
 
 > ⭐️ **Natural Enemies**
 >
-> If Xorannox perceives another overmind or a [voiceless talker](../../group/voiceless-talkers.md) on the encounter map, he targets that threat one or more times on each of his turns.
+> If Xorannox perceives another overmind or a [voiceless talker](../../group/voiceless-talker.md) on the encounter map, he targets that threat one or more times on each of his turns.
 
 > ☠️ **Disruption Beam ([Villain Action](../../../rule/monster/villain-action.md) 1)**
 >
