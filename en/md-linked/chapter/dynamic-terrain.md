@@ -1279,8 +1279,8 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > | **-**    | **Main action (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
-
-**Effect:** The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+> 
+> **Effect:** The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
 
 > ⭐️ **Move**
 >
@@ -1321,8 +1321,8 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > **Power Roll + 2:**
 >
 > - **≤11:** Pull 1
-> - **12-16:** Pull
-> - **17+:** 3 Pull 5
+> - **12-16:** Pull 3
+> - **17+:** Pull 5
 >
 > **Effect:** This [forced movement](../movement/forced-movement.md) triggers [opportunity attacks](../rule/combat/opportunity-attack.md).
 

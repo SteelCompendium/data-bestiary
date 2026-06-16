@@ -61,6 +61,12 @@
         "-"
       ],
       "name": "Spot",
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round."
+        }
+      ],
       "target": "-",
       "usage": "Main action (Adjacent creature)"
     },
@@ -123,9 +129,9 @@
       "power_roll": {
         "formula": "+ 2",
         "tiers": {
-          "high": "3 Pull 5",
+          "high": "Pull 5",
           "low": "Pull 1",
-          "mid": "Pull"
+          "mid": "Pull 3"
         }
       },
       "sections": [
