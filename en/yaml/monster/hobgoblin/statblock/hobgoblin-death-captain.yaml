@@ -21,7 +21,7 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: '**Effect:** The target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -37,7 +37,7 @@ features:
       name: Battle Ready
       type: feature
     - effects:
-        - effect: When the death captain is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the death captain takes 3 fire damage.
+        - effect: When the death captain is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the death captain takes 3 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Infernal Ichor

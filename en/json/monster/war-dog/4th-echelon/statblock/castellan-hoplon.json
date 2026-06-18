@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 5",
           "tier1": "15 damage",
-          "tier2": "20 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
-          "tier3": "24 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5"
+          "tier2": "20 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "24 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Ranged 15",
       "effects": [
         {
-          "effect": "**Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the tower has damage immunity 2 and regains 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter."
+          "effect": "**Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the tower has damage immunity 2 and regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** An enemy within 10 squares targets an ally with an ability.\n**Effect:** Hoplon [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the enemy and becomes the new target of the ability. He can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the enemy, and if that enemy has R \u003c 4 they are taunted until the end of their next turn."
+          "effect": "**Trigger:** An enemy within 10 squares targets an ally with an ability.\n**Effect:** Hoplon [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the enemy and becomes the new target of the ability. He can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the enemy, and if that enemy has R \u003c 4 they are taunted until the end of their next turn."
         }
       ],
       "feature_type": "ability",
@@ -95,7 +95,7 @@
     {
       "effects": [
         {
-          "effect": "The first time in an encounter that Hoplon is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), he instead has 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter."
+          "effect": "The first time in an encounter that Hoplon is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), he instead has 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter."
         }
       ],
       "feature_type": "trait",

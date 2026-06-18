@@ -5,9 +5,9 @@ features:
       distance: Melee 1 or ranged 5
       effects:
         - roll: Power Roll + 2
-          tier1: 1 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-          tier2: 2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-          tier3: 3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+          tier1: 1 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
       feature_type: ability
       icon: ⚔️
       keywords:

@@ -10,7 +10,7 @@
           "roll": "Power Roll + highest characteristic",
           "tier1": "3 damage",
           "tier2": "5 damage",
-          "tier3": "7 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)"
+          "tier3": "7 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "While the shieldbearer is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, both have a +1 bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability), have [cover](scc:mcdm.heroes.v1/rule.combat/cover), and grant [cover](scc:mcdm.heroes.v1/rule.combat/cover) to allies."
+          "effect": "While the shieldbearer is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, both have a +1 bonus to [stability](scc.v1:mcdm.heroes.v1/rule.character/stability), have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover), and grant [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) to allies."
         }
       ],
       "feature_type": "trait",
@@ -41,7 +41,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** The mentor takes damage from a strike while within distance.\n**Effect:** The shieldbearer blocks the [strike](scc:mcdm.heroes.v1/rule.combat/strike) (if [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the mentor) or throws their shield into the mentor's space. The triggering [strike](scc:mcdm.heroes.v1/rule.combat/strike)'s damage is halved and the [potency](scc:mcdm.heroes.v1/rule.character/potency) of any [potency](scc:mcdm.heroes.v1/rule.character/potency) effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand."
+          "effect": "**Trigger:** The mentor takes damage from a strike while within distance.\n**Effect:** The shieldbearer blocks the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) (if [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mentor) or throws their shield into the mentor's space. The triggering [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'s damage is halved and the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand."
         }
       ],
       "feature_type": "ability",
@@ -58,7 +58,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Effect:** The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) away from their mentor or knocked [prone](scc:mcdm.heroes.v1/condition/prone). If the shieldbearer is still in their mentor's space when the effect ends, they move into an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of their choice."
+          "effect": "**Effect:** The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) away from their mentor or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). If the shieldbearer is still in their mentor's space when the effect ends, they move into an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of their choice."
         }
       ],
       "feature_type": "ability",
@@ -77,9 +77,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "6 damage; M \u003c WEAK [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier2": "10 damage; M \u003c AVERAGE [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier3": "14 damage; M \u003c STRONG [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier1": "6 damage; M \u003c WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "10 damage; M \u003c AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "14 damage; M \u003c STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",

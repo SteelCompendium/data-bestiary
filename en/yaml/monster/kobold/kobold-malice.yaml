@@ -1,5 +1,5 @@
 features:
-    - body: Up to 3 kobolds make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), swaps positions with an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) kobold, and then that kobold makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+    - body: Up to 3 kobolds make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), swaps positions with an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) kobold, and then that kobold makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
       cost: 3 Malice
       icon: ⭐️
       name: Maniple Tactics

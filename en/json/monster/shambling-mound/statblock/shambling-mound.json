@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "**[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the shambling mound can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The shambling mound can take two turns each round. They can't take turns consecutively."
+          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the shambling mound can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The shambling mound can take two turns each round. They can't take turns consecutively."
         }
       ],
       "feature_type": "trait",
@@ -16,7 +16,7 @@
     {
       "effects": [
         {
-          "effect": "The shambling mound has a vegetative sack on their body where they carry engulfed creatures. The sack has 30 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), damage immunity 5, and fire weakness 10. Destroying the sack frees creatures trapped by the shambling mound's Engulf ability. The shambling mound regrows a destroyed sack at the start of their next turn."
+          "effect": "The shambling mound has a vegetative sack on their body where they carry engulfed creatures. The sack has 30 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), damage immunity 5, and fire weakness 10. Destroying the sack frees creatures trapped by the shambling mound's Engulf ability. The shambling mound regrows a destroyed sack at the start of their next turn."
         }
       ],
       "feature_type": "trait",
@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "11 damage; A \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier2": "16 damage; A \u003c 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "19 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier1": "11 damage; A \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "16 damage; A \u003c 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "19 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -52,9 +52,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "4 damage; M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "6 damage; M \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "7 damage; M \u003c 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "4 damage; M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "6 damage; M \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "7 damage; M \u003c 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -73,7 +73,7 @@
       "distance": "Melee 6",
       "effects": [
         {
-          "effect": "**Effect:** The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A \u003c 3, they are engulfed into the shambling mound's sack. If the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the shambling mound, the [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1. An engulfed creature is [restrained](scc:mcdm.heroes.v1/condition/restrained), takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.\n**2+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The shambling mound can engulf one additional target for each 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent."
+          "effect": "**Effect:** The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A \u003c 3, they are engulfed into the shambling mound's sack. If the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the shambling mound, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1. An engulfed creature is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.\n**2+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The shambling mound can engulf one additional target for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent."
         }
       ],
       "feature_type": "ability",
@@ -90,7 +90,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) for each creature who takes damage this way."
+          "effect": "**Effect:** Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) for each creature who takes damage this way."
         }
       ],
       "feature_type": "ability",
@@ -108,9 +108,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "7 damage; M \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)",
-          "tier2": "12 damage; M \u003c 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)",
-          "tier3": "15 damage; M \u003c 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)"
+          "tier1": "7 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier2": "12 damage; M \u003c 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier3": "15 damage; M \u003c 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -137,7 +137,7 @@
     {
       "effects": [
         {
-          "effect": "The area within 6 squares of the shambling mound is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
+          "effect": "The area within 6 squares of the shambling mound is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",
@@ -151,9 +151,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "7 damage, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3",
-          "tier2": "12 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 4; the target has poison weakness 3 until the end of the encounter",
-          "tier3": "15 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 6; the target has poison weakness 5 until the end of the encounter"
+          "tier1": "7 damage, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier2": "12 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; the target has poison weakness 3 until the end of the encounter",
+          "tier3": "15 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6; the target has poison weakness 5 until the end of the encounter"
         }
       ],
       "feature_type": "ability",
@@ -172,7 +172,7 @@
       "distance": "Melee 6",
       "effects": [
         {
-          "effect": "**Effect:** The shambling mound uses Engulf against each target without spending [Malice](scc:mcdm.monsters.v1/rule.monster/malice)."
+          "effect": "**Effect:** The shambling mound uses Engulf against each target without spending [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice)."
         }
       ],
       "feature_type": "ability",

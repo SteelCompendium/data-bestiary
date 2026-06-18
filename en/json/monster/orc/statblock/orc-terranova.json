@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "6 damage; A \u003c 0 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)",
-          "tier2": "9 damage; A \u003c 1 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)",
-          "tier3": "12 damage; A \u003c 2 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)"
+          "tier1": "6 damage; A \u003c 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)",
+          "tier2": "9 damage; A \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)",
+          "tier3": "12 damage; A \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "4 damage; M \u003c 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier2": "7 damage; M \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier3": "10 damage; M \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier1": "4 damage; M \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "7 damage; M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "10 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "The terranova ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). Additionally, they don't need [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to use abilities against creatures touching the ground."
+          "effect": "The terranova ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Additionally, they don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to use abilities against creatures touching the ground."
         }
       ],
       "feature_type": "trait",
@@ -61,7 +61,7 @@
     {
       "effects": [
         {
-          "effect": "If the terranova is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the terranova is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead."
+          "effect": "If the terranova is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the terranova is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead."
         }
       ],
       "feature_type": "trait",

@@ -8,8 +8,8 @@
       "power_roll": {
         "tiers": {
           "high": "No effect.",
-          "low": "[Restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).",
-          "mid": "[Restrained](scc:mcdm.heroes.v1/condition/restrained) (Eot)."
+          "low": "[Restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).",
+          "mid": "[Restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (Eot)."
         }
       },
       "sections": [
@@ -19,19 +19,19 @@
         },
         {
           "label": "Effect",
-          "text": "Any creature not also [restrained](scc:mcdm.heroes.v1/condition/restrained) by a net trap who is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature [restrained](scc:mcdm.heroes.v1/condition/restrained) by the trap can free them as a maneuver."
+          "text": "Any creature not also [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a net trap who is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a creature [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by the trap can free them as a maneuver."
         }
       ]
     },
     {
       "cost": "5 Malice",
       "icon": "🔳",
-      "intro": "A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), regrows their tail if applicable, and ends one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the pit, any creature who can [burrow](scc:mcdm.heroes.v1/movement/burrow) or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.",
+      "intro": "A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), regrows their tail if applicable, and ends one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pit, any creature who can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.",
       "name": "Water Pit",
       "power_roll": {
         "tiers": {
           "high": "The pit empties of water.",
-          "low": "The creature falls into the pit and is knocked [prone](scc:mcdm.heroes.v1/condition/prone).",
+          "low": "The creature falls into the pit and is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
           "mid": "The creature fails to empty the pit."
         }
       }

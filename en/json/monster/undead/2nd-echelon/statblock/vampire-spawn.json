@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "5 damage",
-          "tier2": "7 corruption damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "9 corruption damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier2": "7 corruption damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "9 corruption damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The vampire spawn can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge."
+          "effect": "**Effect:** The vampire spawn can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge."
         }
       ],
       "feature_type": "ability",
@@ -45,7 +45,7 @@
     {
       "effects": [
         {
-          "effect": "The vampire spawn has speed 10 while any creature within 10 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). The vampire spawn must use Exsanguinating Bite against a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to."
+          "effect": "The vampire spawn has speed 10 while any creature within 10 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). The vampire spawn must use Exsanguinating Bite against a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to."
         }
       ],
       "feature_type": "trait",

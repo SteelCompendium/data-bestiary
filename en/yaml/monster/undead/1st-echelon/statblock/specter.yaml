@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 2
-          tier1: 3 corruption damage; P < 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 4 corruption damage; P < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 5 corruption damage; P < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier1: 3 corruption damage; P < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 4 corruption damage; P < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 5 corruption damage; P < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -30,7 +30,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
+        - effect: The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.
       feature_type: trait
       icon: ⭐️
       name: Corruptive Phasing

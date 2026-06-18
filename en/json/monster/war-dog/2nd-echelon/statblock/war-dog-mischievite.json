@@ -30,7 +30,7 @@
       "distance": "Ranged 3",
       "effects": [
         {
-          "effect": "**Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before or after being swapped.\n**2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The mischievite can use this ability as a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability."
+          "effect": "**Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before or after being swapped.\n**2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The mischievite can use this ability as a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability."
         }
       ],
       "feature_type": "ability",
@@ -57,7 +57,7 @@
     {
       "effects": [
         {
-          "effect": "When the mischievite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
+          "effect": "When the mischievite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

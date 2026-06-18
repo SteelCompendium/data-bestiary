@@ -8,8 +8,8 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "14 poison damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "19 poison damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier1": "14 poison damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "19 poison damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier3": "23 poison damage; M \u003c 5 the target is implanted"
         }
       ],
@@ -31,7 +31,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+          "effect": "**Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "ability",
@@ -49,7 +49,7 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.\n**Effect:** Two soulraker [minions](scc:mcdm.monsters.v1/rule.organization/minion) appear within distance.\n**2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A soulraker praetorian also appears within distance."
+          "effect": "**Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.\n**Effect:** Two soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) appear within distance.\n**2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** A soulraker praetorian also appears within distance."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of their turn, the hivequeen can consume an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) soulraker demon to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) (no action required)."
+          "effect": "At the end of their turn, the hivequeen can consume an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) soulraker demon to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) (no action required)."
         }
       ],
       "feature_type": "trait",
@@ -76,7 +76,7 @@
     {
       "effects": [
         {
-          "effect": "Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to such creatures."
+          "effect": "Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to such creatures."
         }
       ],
       "feature_type": "trait",
@@ -89,7 +89,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target can move their speed and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If no [minions](scc:mcdm.monsters.v1/rule.organization/minion) are present, four soulraker [minions](scc:mcdm.monsters.v1/rule.organization/minion) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](scc:mcdm.monsters.v1/rule.monster/villain-action)."
+          "effect": "**Effect:** Each target can move their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If no [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are present, four soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action)."
         }
       ],
       "feature_type": "ability",
@@ -108,9 +108,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "Push 3; I \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "Push 3; I \u003c 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "11 sonic damage; push 3; I \u003c 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "Push 3; I \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "Push 3; I \u003c 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "11 sonic damage; push 3; I \u003c 5 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -129,9 +129,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "7 poison damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "11 poison damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "14 poison damage; M \u003c 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier1": "7 poison damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "11 poison damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "14 poison damage; M \u003c 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",

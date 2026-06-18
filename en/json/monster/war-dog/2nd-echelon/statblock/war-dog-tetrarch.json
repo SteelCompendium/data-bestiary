@@ -32,7 +32,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets an enemy taunted by the tetrarch, it deals an extra 4 damage."
+          "effect": "**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets an enemy taunted by the tetrarch, it deals an extra 4 damage."
         }
       ],
       "feature_type": "ability",
@@ -49,7 +49,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.\n**Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the tetrarch (save ends)."
+          "effect": "**Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.\n**Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the tetrarch (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +65,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -79,9 +79,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; I \u003c 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
-          "tier2": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; I \u003c 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
-          "tier3": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 5; I \u003c 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)"
+          "tier1": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; I \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; I \u003c 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier3": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I \u003c 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -100,9 +100,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "7 fire damage; A \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)",
-          "tier2": "13 fire damage; A \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "16 fire damage; A \u003c 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "7 fire damage; A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier2": "13 fire damage; A \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "16 fire damage; A \u003c 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",

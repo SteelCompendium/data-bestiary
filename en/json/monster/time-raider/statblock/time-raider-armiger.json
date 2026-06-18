@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
           "tier2": "10 damage",
-          "tier3": "13 damage; R \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier3": "13 damage; R \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -61,7 +61,7 @@
     {
       "effects": [
         {
-          "effect": "Any time raider who starts their turn with [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the armiger can end one condition affecting the."
+          "effect": "Any time raider who starts their turn with [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the armiger can end one condition affecting the."
         }
       ],
       "feature_type": "trait",

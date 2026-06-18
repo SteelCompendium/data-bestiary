@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 3
           tier1: 9 fire damage
           tier2: 13 fire damage
-          tier3: 16 fire damage; A < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT)
+          tier3: 16 fire damage; A < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -37,13 +37,13 @@ features:
       name: Hot to Go
       type: feature
     - effects:
-        - effect: The firerunner ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+        - effect: The firerunner ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
       feature_type: trait
       icon: ⭐️
       name: Kindlestep
       type: feature
     - effects:
-        - effect: When the firerunner is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the firerunner takes 3 fire damage.
+        - effect: When the firerunner is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the firerunner takes 3 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Infernal Ichor

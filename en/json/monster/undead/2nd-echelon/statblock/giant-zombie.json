@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "9 damage",
-          "tier2": "14 damage; A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "17 damage; A \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier2": "14 damage; A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "17 damage; A \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The giant zombie [grabs](scc:mcdm.heroes.v1/condition/grabbed) two creatures or objects, or starts their turn with two creatures or objects [grabbed](scc:mcdm.heroes.v1/condition/grabbed).\n**Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge."
+          "effect": "**Trigger:** The giant zombie [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) two creatures or objects, or starts their turn with two creatures or objects [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).\n**Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "The first time the giant zombie is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone)."
+          "effect": "The first time the giant zombie is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "trait",

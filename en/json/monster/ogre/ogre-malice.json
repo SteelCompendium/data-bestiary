@@ -7,14 +7,14 @@
       "name": "Shockwave",
       "power_roll": {
         "tiers": {
-          "high": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
-          "low": "5 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
-          "mid": "4 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 2"
+          "high": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "low": "5 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "mid": "4 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2"
         }
       }
     },
     {
-      "body": "Each ogre in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If they can, they gang up on the same target rather than picking different targets.",
+      "body": "Each ogre in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If they can, they gang up on the same target rather than picking different targets.",
       "cost": "5 Malice",
       "icon": "🌀",
       "name": "Bully"

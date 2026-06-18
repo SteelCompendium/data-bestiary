@@ -40,7 +40,7 @@ features:
         - roll: ""
           tier1: The target is charmed (save ends).
           tier2: The high judge chooses a new target for the strike.
-          tier3: The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the strike.
+          tier3: The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -57,7 +57,7 @@ features:
       name: End Effect
       type: feature
     - effects:
-        - effect: If a creature within 10 squares speaks the high judge's true name, the high judge loses their damage immunities, any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Suggestion [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) until the end of the encounter.
+        - effect: If a creature within 10 squares speaks the high judge's true name, the high judge loses their damage immunities, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Suggestion [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) until the end of the encounter.
       feature_type: trait
       icon: ⭐️
       name: True Name
@@ -81,7 +81,7 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature''s speed.'
+        - effect: '**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature''s speed.'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -93,7 +93,7 @@ features:
     - cost: Villain Action 3
       distance: Ranged 12
       effects:
-        - effect: '**Effect:** If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places. Each ally within 12 squares of the high judge can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge''s choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge''s choice.'
+        - effect: '**Effect:** If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. Each ally within 12 squares of the high judge can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge''s choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge''s choice.'
       feature_type: ability
       icon: ☠️
       keywords:

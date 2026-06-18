@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "**[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The ashen hoarder can take two turns each round. They can't take turns consecutively."
+          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The ashen hoarder can take two turns each round. They can't take turns consecutively."
         }
       ],
       "feature_type": "trait",
@@ -19,9 +19,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "10 damage; if one target has M \u003c 2 they are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A \u003c 2 they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier2": "15 damage; if one target has M \u003c 3 they are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A \u003c 3 they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "18 damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier1": "10 damage; if one target has M \u003c 2 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A \u003c 2 they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "15 damage; if one target has M \u003c 3 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A \u003c 3 they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "18 damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -41,9 +41,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "4 damage; A \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier2": "8 damage; A \u003c 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "11 damage; A \u003c 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier1": "4 damage; A \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "8 damage; A \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "11 damage; A \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -84,7 +84,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](scc:mcdm.heroes.v1/movement/forced-movement) into the nearest unoccupied space outside the path, or if they have M \u003c 3 is pushed forward until the movement ends. Any creature who is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) forward into an obstacle is [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)."
+          "effect": "**Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the nearest unoccupied space outside the path, or if they have M \u003c 3 is pushed forward until the movement ends. Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) forward into an obstacle is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -102,7 +102,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The ashen hoarder takes damage.\n**Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](scc:mcdm.monsters.v1/rule.monster/malice) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage."
+          "effect": "**Trigger:** The ashen hoarder takes damage.\n**Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage."
         }
       ],
       "feature_type": "ability",
@@ -118,7 +118,7 @@
     {
       "effects": [
         {
-          "effect": "An adjacent enemy who [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the ashen hoarder or uses a melee ability against them takes 3 damage."
+          "effect": "An adjacent enemy who [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the ashen hoarder or uses a melee ability against them takes 3 damage."
         }
       ],
       "feature_type": "trait",
@@ -129,7 +129,7 @@
     {
       "effects": [
         {
-          "effect": "When the ashen hoarder is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M \u003c 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered."
+          "effect": "When the ashen hoarder is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M \u003c 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered."
         }
       ],
       "feature_type": "trait",

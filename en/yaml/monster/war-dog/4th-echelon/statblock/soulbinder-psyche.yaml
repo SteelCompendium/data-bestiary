@@ -22,9 +22,9 @@ features:
       distance: 3 cube within 10
       effects:
         - roll: Power Roll + 5
-          tier1: 8 corruption damage; P < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
-          tier2: 12 corruption damage; P < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
-          tier3: 15 corruption damage; P < 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
+          tier1: 8 corruption damage; P < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+          tier2: 12 corruption damage; P < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+          tier3: 15 corruption damage; P < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -37,7 +37,7 @@ features:
       usage: Main action
     - distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](scc:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares.'
+        - effect: '**Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares.'
       feature_type: ability
       icon: ❇️
       keywords:
@@ -51,7 +51,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** An enemy moves within 2 squares of Psyche.
-            **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
+            **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -63,9 +63,9 @@ features:
     - distance: Ranged 10
       effects:
         - effect: |-
-            **Trigger:** A war dog within distance is made [winded](scc:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** The target loses all their [surges](scc:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.
-            **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The target also takes a bane on their next strike.
+            **Trigger:** A war dog within distance is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+            **Effect:** The target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.
+            **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The target also takes a bane on their next strike.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,7 +75,7 @@ features:
       type: feature
       usage: Free triggered action
     - effects:
-        - effect: When Psyche is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
+        - effect: When Psyche is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
       feature_type: trait
       icon: ⭐️
       name: Immortal Soul

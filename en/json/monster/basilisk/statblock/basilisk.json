@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "M \u003c 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier2": "M \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier3": "[Slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends); or if M \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier1": "M \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); or if M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -52,9 +52,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "4 poison damage; M \u003c 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier2": "6 poison damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "9 poison damage; M \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "4 poison damage; M \u003c 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "6 poison damage; M \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "9 poison damage; M \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -72,7 +72,7 @@
       "distance": "1 burst",
       "effects": [
         {
-          "effect": "**Trigger:** The basilisk takes damage from a melee ability.\n**Effect:** Each target takes 5 damage. Any target who has A \u003c 2 is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)."
+          "effect": "**Trigger:** The basilisk takes damage from a melee ability.\n**Effect:** Each target takes 5 damage. Any target who has A \u003c 2 is also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)."
         }
       ],
       "feature_type": "ability",

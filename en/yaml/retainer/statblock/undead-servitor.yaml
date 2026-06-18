@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The first time in an encounter that the servitor is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum and fall [prone](scc:mcdm.heroes.v1/condition/prone).
+        - effect: The first time in an encounter that the servitor is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) maximum and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       feature_type: trait
       icon: ⭐️
       name: Arise
@@ -28,9 +28,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 7 damage; M < WEAK [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-          tier2: 11 damage; M < AVERAGE [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-          tier3: 16 damage; M < STRONG [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier1: 7 damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 11 damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 16 damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -45,9 +45,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 8 corruption damage; P < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier2: 13 corruption damage; P < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: 17 corruption damage; P < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier1: 8 corruption damage; P < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 13 corruption damage; P < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 17 corruption damage; P < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

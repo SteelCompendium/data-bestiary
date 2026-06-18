@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "3 damage",
           "tier2": "5 damage",
-          "tier3": "7 damage; the grilp [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares"
+          "tier3": "7 damage; the grilp [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them."
+          "effect": "Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them."
         }
       ],
       "feature_type": "trait",

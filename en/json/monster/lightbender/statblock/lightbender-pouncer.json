@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
-          "tier2": "11 damage; A \u003c 1 [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier3": "14 damage; A \u003c 2 [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier2": "11 damage; A \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "14 damage; A \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -53,9 +53,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "I \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "I \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "I \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "I \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "I \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "I \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -74,7 +74,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The pouncer takes damage from a strike.\n**Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If they [teleport](scc:mcdm.heroes.v1/movement/teleport) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver."
+          "effect": "**Trigger:** The pouncer takes damage from a strike.\n**Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. If they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver."
         }
       ],
       "feature_type": "ability",
@@ -90,7 +90,7 @@
     {
       "effects": [
         {
-          "effect": "Any effect on the pouncer that would be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) instead ends automatically at the end of their next turn."
+          "effect": "Any effect on the pouncer that would be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) instead ends automatically at the end of their next turn."
         }
       ],
       "feature_type": "trait",

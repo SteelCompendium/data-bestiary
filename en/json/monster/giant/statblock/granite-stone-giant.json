@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "12 damage",
-          "tier2": "17 damage; R \u003c 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "21 damage; R \u003c 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier2": "17 damage; R \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "21 damage; R \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
-          "tier2": "10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4",
-          "tier3": "14 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 4"
+          "tier1": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
+          "tier3": "14 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement."
+          "effect": "**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement."
         }
       ],
       "feature_type": "ability",
@@ -67,7 +67,7 @@
       "distance": "Melee 3",
       "effects": [
         {
-          "effect": "**Trigger:** A creature or object within distance moves or [shifts](scc:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.\n**Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) 5 squares."
+          "effect": "**Trigger:** A creature or object within distance moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.\n**Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares."
         }
       ],
       "feature_type": "ability",
@@ -94,7 +94,7 @@
     {
       "effects": [
         {
-          "effect": "The granite stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
+          "effect": "The granite stone giant ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",
@@ -105,7 +105,7 @@
     {
       "effects": [
         {
-          "effect": "The granite stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so."
+          "effect": "The granite stone giant can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so."
         }
       ],
       "feature_type": "trait",

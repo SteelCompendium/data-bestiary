@@ -21,8 +21,8 @@ features:
     - distance: Melee 1
       effects:
         - effect: |-
-            **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commando.
-            **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way.
+            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commando.
+            **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -35,8 +35,8 @@ features:
     - distance: Melee 1
       effects:
         - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commando.
+            **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
+            **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commando.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -49,9 +49,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 6 damage; M < WEAK [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-          tier2: 9 damage; M < AVERAGE [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-          tier3: 13 damage; M < STRONG [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier1: 6 damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 9 damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 13 damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

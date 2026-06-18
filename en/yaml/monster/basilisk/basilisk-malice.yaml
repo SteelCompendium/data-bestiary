@@ -1,5 +1,5 @@
 features:
-    - body: A basilisk acting this turn can [burrow](scc:mcdm.heroes.v1/movement/burrow) until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to let the basilisk continue burrowing.
+    - body: A basilisk acting this turn can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) to let the basilisk continue burrowing.
       cost: 3+ Malice
       icon: ⭐️
       name: Stone Swim
@@ -13,9 +13,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 4 damage; A < 2 5 damage, [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+            high: 4 damage; A < 2 5 damage, [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
             low: 4 damage
-            mid: 4 damage; A < 1 2 damage, [prone](scc:mcdm.heroes.v1/condition/prone)
+            mid: 4 damage; A < 1 2 damage, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       sections:
         - label: Effect
           text: The basilisk spits up a chunk of partly digested stone.

@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "5 damage; I \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "10 damage; I \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "12 damage; I \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier1": "5 damage; I \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "10 damage; I \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "12 damage; I \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",

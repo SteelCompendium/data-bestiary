@@ -31,7 +31,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: When the flameslinger is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage.
+        - effect: When the flameslinger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Infernal Ichor
@@ -57,9 +57,9 @@ features:
       distance: 3 burst
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-          tier2: 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-          tier3: 16 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+          tier1: 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 16 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
       feature_type: ability
       icon: ❇️
       keywords:

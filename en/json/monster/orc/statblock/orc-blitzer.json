@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "If the blitzer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying."
+          "effect": "If the blitzer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying."
         }
       ],
       "feature_type": "trait",

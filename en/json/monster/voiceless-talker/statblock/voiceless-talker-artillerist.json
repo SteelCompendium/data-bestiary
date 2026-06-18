@@ -32,8 +32,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "6 lightning damage",
-          "tier2": "10 lightning damage; I \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "13 lightning damage; I \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier2": "10 lightning damage; I \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "13 lightning damage; I \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -69,7 +69,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The artillerist takes damage.\n**Effect:** The artillerist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and ignores any effects associated with the damage."
+          "effect": "**Trigger:** The artillerist takes damage.\n**Effect:** The artillerist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares and ignores any effects associated with the damage."
         }
       ],
       "feature_type": "ability",
@@ -85,7 +85,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space."
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space."
         }
       ],
       "feature_type": "trait",

@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 4
           tier1: 8 damage
           tier2: 11 damage
-          tier3: 12 damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 12 damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -22,7 +22,7 @@ features:
       usage: Main action
     - distance: Ranged 20
       effects:
-        - effect: '**Effect:** Each target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: '**Effect:** Each target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -32,13 +32,13 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: An ash clone created by the blackcap has the blackcap's statistics but has 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves.
+        - effect: An ash clone created by the blackcap has the blackcap's statistics but has 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves.
       feature_type: trait
       icon: ⭐️
       name: Ash Clones
       type: feature
     - effects:
-        - effect: When the blackcap or any of their ash clones is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), that creature's loyalty collar explodes, dealing 3d6 poison damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object. If any [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy has A < 3 they are also [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: When the blackcap or any of their ash clones is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), that creature's loyalty collar explodes, dealing 3d6 poison damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object. If any [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy has A < 3 they are also [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: trait
       icon: ⭐️
       name: Duplicating Loyalty Collar

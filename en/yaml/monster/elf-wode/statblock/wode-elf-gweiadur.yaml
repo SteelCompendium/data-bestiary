@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 7 damage
           tier2: 11 damage
-          tier3: 14 damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 14 damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -23,8 +23,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 4 damage; R < 0 the target is marked (save ends)
-          tier2: 6 damage; R < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
-          tier3: 9 damage; R < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
+          tier2: 6 damage; R < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
+          tier3: 9 damage; R < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:

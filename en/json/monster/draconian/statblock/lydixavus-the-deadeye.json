@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "10 cold damage",
-          "tier2": "16 cold damage; the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next strike",
-          "tier3": "19 cold damage; the target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next strike"
+          "tier2": "16 cold damage; the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike",
+          "tier3": "19 cold damage; the target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike"
         }
       ],
       "feature_type": "ability",
@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "7 cold damage; M \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "12 cold damage; M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "15 cold damage; M \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "7 cold damage; M \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "12 cold damage; M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "15 cold damage; M \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Lydixavus [flies](scc:mcdm.heroes.v1/movement/fly) up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the ice mine."
+          "effect": "**Effect:** Lydixavus [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ice mine."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** Lydixavus obtains a tier 1 outcome on their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability).\n**Effect:** Lydixavus uses their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) again, targeting a creature within 5 squares of the original target."
+          "effect": "**Trigger:** Lydixavus obtains a tier 1 outcome on their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).\n**Effect:** Lydixavus uses their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) again, targeting a creature within 5 squares of the original target."
         }
       ],
       "feature_type": "ability",
@@ -84,7 +84,7 @@
     {
       "effects": [
         {
-          "effect": "Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to them as long as a size 1 opening exists between Lydixavus and the target."
+          "effect": "Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to them as long as a size 1 opening exists between Lydixavus and the target."
         }
       ],
       "feature_type": "trait",

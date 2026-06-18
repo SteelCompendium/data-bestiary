@@ -23,9 +23,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + 5
-          tier1: R < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-          tier2: R < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier3: R < 5 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier1: R < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: R < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: R < 5 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -41,7 +41,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature deals damage to the talent.
-            **Effect:** The talent halves the damage and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.
+            **Effect:** The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -51,7 +51,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: At the start of an encounter, the talent chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+        - effect: At the start of an encounter, the talent chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
       feature_type: trait
       icon: ⭐️
       name: Rivalry

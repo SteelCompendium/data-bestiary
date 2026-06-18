@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "**[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the bredbeddle can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The bredbeddle can take two turns each round. They can't take turns consecutively."
+          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the bredbeddle can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The bredbeddle can take two turns each round. They can't take turns consecutively."
         }
       ],
       "feature_type": "trait",
@@ -16,7 +16,7 @@
     {
       "effects": [
         {
-          "effect": "While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.\nA creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
+          "effect": "While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.\nA creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
         }
       ],
       "feature_type": "trait",
@@ -41,9 +41,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "2 damage; A \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "4 damage; A \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "5 damage; A \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "2 damage; A \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "4 damage; A \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "5 damage; A \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -63,9 +63,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "9 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has M \u003c 1 they are beheaded",
-          "tier2": "13 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has M \u003c 2 they are beheaded",
-          "tier3": "16 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has M \u003c 3 they are beheaded"
+          "tier1": "9 damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has M \u003c 1 they are beheaded",
+          "tier2": "13 damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has M \u003c 2 they are beheaded",
+          "tier3": "16 damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has M \u003c 3 they are beheaded"
         }
       ],
       "feature_type": "ability",
@@ -85,7 +85,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** While the bredbeddle is headless, they [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can [push](scc:mcdm.heroes.v1/movement/forced-movement) that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain."
+          "effect": "**Effect:** While the bredbeddle is headless, they [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain."
         }
       ],
       "feature_type": "ability",
@@ -104,9 +104,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "9 damage; M \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "13 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "16 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "9 damage; M \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "13 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "16 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -188,9 +188,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "6 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has A \u003c 1 they are beheaded (see Lop).",
-          "tier2": "7 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has A \u003c 2 they are beheaded",
-          "tier3": "8 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has A \u003c 3 they are beheaded"
+          "tier1": "6 damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has A \u003c 1 they are beheaded (see Lop).",
+          "tier2": "7 damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has A \u003c 2 they are beheaded",
+          "tier3": "8 damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); or if the target has A \u003c 3 they are beheaded"
         }
       ],
       "feature_type": "ability",

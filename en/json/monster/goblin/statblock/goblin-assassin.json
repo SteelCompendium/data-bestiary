@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "2 corruption damage; A \u003c 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier2": "4 corruption damage; A \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier3": "5 corruption damage; A \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier1": "2 corruption damage; A \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "4 corruption damage; A \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "5 corruption damage; A \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
     {
       "effects": [
         {
-          "effect": "The assassin doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
+          "effect": "The assassin doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
         }
       ],
       "feature_type": "trait",

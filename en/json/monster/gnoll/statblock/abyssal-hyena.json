@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "3 damage",
           "tier2": "4 damage",
-          "tier3": "6 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier3": "6 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "When the abyssal hyena is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying."
+          "effect": "When the abyssal hyena is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying."
         }
       ],
       "feature_type": "trait",

@@ -23,9 +23,9 @@ features:
       distance: 3 burst
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: P < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier2: P < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: P < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends), push 3, [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier1: P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends), push 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -35,7 +35,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: The mercenary dies only if they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        - effect: The mercenary dies only if they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       feature_type: trait
       icon: ⭐️
       name: Relentless Hunger
@@ -43,7 +43,7 @@ features:
     - cost: Encounter
       distance: Melee 1
       effects:
-        - effect: '**Effect:** The mercenary must be [winded](scc:mcdm.heroes.v1/rule.health/winded) to use this ability. The mercenary uses Big Bite against each target.'
+        - effect: '**Effect:** The mercenary must be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) to use this ability. The mercenary uses Big Bite against each target.'
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

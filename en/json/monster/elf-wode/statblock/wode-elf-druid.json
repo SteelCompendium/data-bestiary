@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1",
-          "tier2": "8 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "10 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 5; M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "8 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "10 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space that has cover or concealment."
+          "effect": "**Effect:** Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space that has cover or concealment."
         }
       ],
       "feature_type": "ability",

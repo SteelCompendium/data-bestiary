@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "9 damage",
           "tier2": "13 damage",
-          "tier3": "16 damage; I \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier3": "16 damage; I \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -32,8 +32,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "5 corruption damage",
-          "tier2": "8 corruption damage; I \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "10 corruption damage; I \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier2": "8 corruption damage; I \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "10 corruption damage; I \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",

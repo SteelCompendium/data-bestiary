@@ -5,9 +5,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 2
-          tier1: 7 acid damage; A < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier2: 10 acid damage; A < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier3: 14 acid damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier1: 7 acid damage; A < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 10 acid damage; A < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 14 acid damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,7 +21,7 @@ features:
     - distance: Self
       effects:
         - effect: |-
-            **Trigger:** A creature moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the brick.
+            **Trigger:** A creature moves or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the brick.
             **Effect:** The brick uses Engulf against the triggering creature and has a double edge.
       feature_type: ability
       icon: ❗️

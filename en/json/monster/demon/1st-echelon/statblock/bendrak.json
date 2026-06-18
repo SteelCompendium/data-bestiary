@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "4 psychic damage",
-          "tier2": "5 psychic damage; P \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "7 psychic damage; P \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier2": "5 psychic damage; P \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "7 psychic damage; P \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -47,7 +47,7 @@
     {
       "effects": [
         {
-          "effect": "While the bendrak is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+          "effect": "While the bendrak is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

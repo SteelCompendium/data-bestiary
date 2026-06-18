@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "The mindkiller can [grab](scc:mcdm.heroes.v1/condition/grabbed) creatures who are size 4 or smaller, using their Reason score in place of Might. A creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the mindkiller takes a bane on ability rolls made to escape the grab."
+          "effect": "The mindkiller can [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) creatures who are size 4 or smaller, using their Reason score in place of Might. A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the mindkiller takes a bane on ability rolls made to escape the grab."
         }
       ],
       "feature_type": "trait",
@@ -20,8 +20,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "11 damage",
-          "tier2": "17 damage; A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "21 damage; A \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier2": "17 damage; A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "21 damage; A \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -63,7 +63,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Effect:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the mindkiller. If the target has R \u003c 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter."
+          "effect": "**Effect:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the mindkiller. If the target has R \u003c 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter."
         }
       ],
       "feature_type": "ability",
@@ -82,7 +82,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The mindkiller takes damage.\n**Effect:** The mindkiller halves the damage. If the mindkiller has a creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed), that creature takes the other half of the damage.\n**3 Malice:** A [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature takes the damage instead of the mindkiller."
+          "effect": "**Trigger:** The mindkiller takes damage.\n**Effect:** The mindkiller halves the damage. If the mindkiller has a creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), that creature takes the other half of the damage.\n**3 Malice:** A [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature takes the damage instead of the mindkiller."
         }
       ],
       "feature_type": "ability",
@@ -98,7 +98,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space."
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space."
         }
       ],
       "feature_type": "trait",

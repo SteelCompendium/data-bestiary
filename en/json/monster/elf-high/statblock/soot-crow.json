@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "1 damage",
           "tier2": "2 damage",
-          "tier3": "3 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)"
+          "tier3": "3 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)"
         }
       ],
       "feature_type": "ability",

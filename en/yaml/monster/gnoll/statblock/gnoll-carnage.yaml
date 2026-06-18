@@ -5,9 +5,9 @@ features:
       distance: Melee 2
       effects:
         - roll: Power Roll + 3
-          tier1: 8 damage; A < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier2: 11 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier3: 14 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier1: 8 damage; A < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 11 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 14 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -31,7 +31,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the carnage is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the carnage can move up to their speed, then can either make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against two creatures or use Shrapnel Whip against one creature.
+        - effect: Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the carnage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the carnage can move up to their speed, then can either make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against two creatures or use Shrapnel Whip against one creature.
       feature_type: trait
       icon: ⭐️
       name: Death Rampage
@@ -43,7 +43,7 @@ features:
       name: End Effect
       type: feature
     - effects:
-        - effect: If the carnage is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        - effect: If the carnage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       feature_type: trait
       icon: ⭐️
       name: Endless Hunger
@@ -64,7 +64,7 @@ features:
     - cost: Villain Action 2
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). Any creature damaged by one of these [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) who has M < 2 is knocked [prone](scc:mcdm.heroes.v1/condition/prone).'
+        - effect: '**Effect:** Each target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). Any creature damaged by one of these [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) who has M < 2 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -77,8 +77,8 @@ features:
       distance: 5 burst
       effects:
         - roll: ""
-          tier1: The target can't regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) until the end of the encounter.
-          tier2: The target can't regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) (save ends).
+          tier1: The target can't regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) until the end of the encounter.
+          tier2: The target can't regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) (save ends).
           tier3: No effect
       feature_type: ability
       icon: ☠️

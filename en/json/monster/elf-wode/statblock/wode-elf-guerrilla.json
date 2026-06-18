@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
           "tier2": "11 damage",
-          "tier3": "14 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier3": "14 damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",

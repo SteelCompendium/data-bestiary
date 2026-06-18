@@ -5,9 +5,9 @@ features:
       distance: Melee 1 or ranged 10
       effects:
         - roll: Power Roll + 3
-          tier1: 9 holy damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-          tier2: 14 holy damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-          tier3: 17 holy damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+          tier1: 9 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 14 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 17 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -22,7 +22,7 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target has a double edge on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike).'
+        - effect: '**Effect:** Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -33,13 +33,13 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: '[Strikes](scc:mcdm.heroes.v1/rule.combat/strike) made against allies [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the conduit take a bane.'
+        - effect: '[Strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the conduit take a bane.'
       feature_type: trait
       icon: ⭐️
       name: Stalwart Guardian
       type: feature
     - effects:
-        - effect: At the start of an encounter, the conduit chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+        - effect: At the start of an encounter, the conduit chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
       feature_type: trait
       icon: ⭐️
       name: Rivalry

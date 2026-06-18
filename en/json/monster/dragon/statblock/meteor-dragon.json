@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "**[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.\n**Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively."
+          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.\n**Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively."
         }
       ],
       "feature_type": "trait",
@@ -52,9 +52,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "15 holy damage; A \u003c 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier2": "21 holy damage; A \u003c 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "25 holy damage; A \u003c 6 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier1": "15 holy damage; A \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "21 holy damage; A \u003c 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "25 holy damage; A \u003c 6 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -73,7 +73,7 @@
     {
       "effects": [
         {
-          "effect": "Once per turn, the dragon chooses a target within 3 squares. The dragon can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and ignores [banes](scc:mcdm.heroes.v1/rule.dice/bane) when using abilities against the target until the start of their next turn."
+          "effect": "Once per turn, the dragon chooses a target within 3 squares. The dragon can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and ignores [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) when using abilities against the target until the start of their next turn."
         }
       ],
       "feature_type": "trait",
@@ -86,7 +86,7 @@
       "distance": "15 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target must be dragonsealed. The dragon chooses a direction and vertical slides each target 10 squares in that direction, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability). A target who strikes an obstacle takes damage as if they had fallen the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance."
+          "effect": "**Effect:** Each target must be dragonsealed. The dragon chooses a direction and vertical slides each target 10 squares in that direction, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). A target who strikes an obstacle takes damage as if they had fallen the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance."
         }
       ],
       "feature_type": "ability",
@@ -123,9 +123,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "10 psychic damage; P \u003c 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
-          "tier2": "16 psychic damage; P \u003c 5 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
-          "tier3": "20 psychic damage; P \u003c 6 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)"
+          "tier1": "10 psychic damage; P \u003c 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "16 psychic damage; P \u003c 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier3": "20 psychic damage; P \u003c 6 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -144,7 +144,7 @@
       "distance": "1-mile burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target takes 30 fire damage, and if they have M \u003c 5, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone).\n**Special:** The dragon can use this ability before the encounter begins."
+          "effect": "**Effect:** Each target takes 30 fire damage, and if they have M \u003c 5, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).\n**Special:** The dragon can use this ability before the encounter begins."
         }
       ],
       "feature_type": "ability",
@@ -163,7 +163,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Until the end of the encounter, each enemy who is dragonsealed and [weakened](scc:mcdm.heroes.v1/condition/weakened) and who the dragon has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to loses 1 of their Heroic Resource at the start of each of their turns (to a minimum of 0). The dragon then uses their Cosmic Tail Ray ability with a double [edge](scc:mcdm.heroes.v1/rule.dice/edge), targeting four creatures or objects."
+          "effect": "**Effect:** Until the end of the encounter, each enemy who is dragonsealed and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and who the dragon has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to loses 1 of their Heroic Resource at the start of each of their turns (to a minimum of 0). The dragon then uses their Cosmic Tail Ray ability with a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), targeting four creatures or objects."
         }
       ],
       "feature_type": "ability",

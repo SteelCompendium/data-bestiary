@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "8 damage",
-          "tier2": "12 damage; M \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier3": "15 damage; M \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier2": "12 damage; M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "15 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.\n**3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina."
+          "effect": "**Effect:** Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.\n**3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina."
         }
       ],
       "feature_type": "ability",
@@ -64,7 +64,7 @@
     {
       "effects": [
         {
-          "effect": "The force can't be [restrained](scc:mcdm.heroes.v1/condition/restrained), [slowed](scc:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
+          "effect": "The force can't be [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",

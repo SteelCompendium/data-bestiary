@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 8 corruption damage
-          tier2: 12 corruption damage; R < 2 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
-          tier3: 15 corruption damage; R < 3 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+          tier2: 12 corruption damage; R < 2 [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+          tier3: 15 corruption damage; R < 3 [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "4 sonic damage",
           "tier2": "7 sonic damage",
-          "tier3": "10 sonic damage; [prone](scc:mcdm.heroes.v1/condition/prone); M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier3": "10 sonic damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",

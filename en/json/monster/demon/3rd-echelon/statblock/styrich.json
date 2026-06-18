@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "7 damage; pull 1",
-          "tier2": "10 damage; pull 2, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "12 damage; pull 3, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier2": "10 damage; pull 2, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "12 damage; pull 3, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "A \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier2": "[Slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT) or A \u003c 3 3 damage and [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)",
-          "tier3": "[Restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT) or A \u003c 4 3 damage and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier1": "A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT) or A \u003c 3 3 damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier3": "[Restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT) or A \u003c 4 3 damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -49,7 +49,7 @@
     {
       "effects": [
         {
-          "effect": "While the styrich is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+          "effect": "While the styrich is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

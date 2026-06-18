@@ -1,10 +1,10 @@
 ---
 features:
-    - body: The demon activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 6 or lower.
+    - body: The demon activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 6 or lower.
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
-    - body: One demon acting this turn expels blight—digested soul juice—onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls until the start of their next turn.
+    - body: One demon acting this turn expels blight—digested soul juice—onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls until the start of their next turn.
       cost: 5 Malice
       icon: ❇️
       name: Seeping Blight
@@ -21,12 +21,12 @@ source: mcdm.monsters.v1
 type: featureblock
 ---
 
-At the start of any level 7 or higher demon's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
+At the start of any level 7 or higher demon's turn, you can spend [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (3-7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ⭐️ **Prior Malice Features (3-7 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The demon activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 6 or lower.
+> The demon activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 6 or lower.
 
-> ❇️ **Seeping Blight (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Seeping Blight (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> One demon acting this turn expels blight—digested soul juice—onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls until the start of their next turn.
+> One demon acting this turn expels blight—digested soul juice—onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls until the start of their next turn.

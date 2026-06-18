@@ -5,9 +5,9 @@ features:
       distance: Melee 1 or ranged 10
       effects:
         - roll: Power Roll + 2
-          tier1: 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-          tier2: 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
-          tier3: 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 6
+          tier1: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+          tier3: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -24,8 +24,8 @@ features:
       distance: 3 cube within 5
       effects:
         - roll: ""
-          tier1: 7 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
-          tier2: 5 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier1: 7 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
+          tier2: 5 damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
           tier3: No effect.
       feature_type: ability
       icon: "\U0001F533"

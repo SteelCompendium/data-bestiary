@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "5 damage",
           "tier2": "7 fire damage",
-          "tier3": "9 lightning damage; M \u003c 2 [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier3": "9 lightning damage; M \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -52,7 +52,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The horse vertical [slides](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall."
+          "effect": "**Effect:** The horse vertical [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall."
         }
       ],
       "feature_type": "ability",

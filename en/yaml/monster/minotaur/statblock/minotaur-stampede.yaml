@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 5
           tier1: 4 damage
-          tier2: 7 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
-          tier3: 9 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 5 can't stand (save ends)
+          tier2: 7 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 5 can't stand (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -20,7 +20,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.
+        - effect: The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.
       feature_type: trait
       icon: ⭐️
       name: Swarm

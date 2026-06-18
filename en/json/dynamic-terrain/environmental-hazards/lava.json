@@ -6,7 +6,7 @@
       "name": "Deactivate"
     },
     {
-      "body": "A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the lava.",
+      "body": "A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the lava.",
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -27,26 +27,26 @@
       "power_roll": {
         "formula": "+ 2",
         "tiers": {
-          "high": "12 fire damage; M \u003c 3 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "low": "5 fire damage; M \u003c 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "mid": "9 fire damage; M \u003c 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "high": "12 fire damage; M \u003c 3 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "low": "5 fire damage; M \u003c 1 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "mid": "9 fire damage; M \u003c 2 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       },
       "sections": [
         {
           "label": "Trigger",
-          "text": "A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the lava."
+          "text": "A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the lava."
         },
         {
           "label": "Effect",
-          "text": "If the target is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
+          "text": "If the target is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
         }
       ],
       "target": "The triggering creature or object",
       "usage": "Free triggered action"
     },
     {
-      "body": "**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an existing square of lava.",
+      "body": "**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an existing square of lava.",
       "icon": "⭐️",
       "name": "Upgrade"
     }
@@ -70,7 +70,7 @@
     },
     {
       "name": "Size",
-      "value": "One or more squares of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)"
+      "value": "One or more squares of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)"
     },
     {
       "name": "Immunity",

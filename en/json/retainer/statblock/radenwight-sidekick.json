@@ -30,7 +30,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The sidekick makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
+          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The sidekick makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** If the sidekick's mentor moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn."
+          "effect": "**Effect:** If the sidekick's mentor moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn."
         }
       ],
       "feature_type": "ability",
@@ -67,9 +67,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "6 poison damage; M \u003c WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier2": "9 poison damage; M \u003c AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier3": "13 poison damage; M \u003c STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "tier1": "6 poison damage; M \u003c WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "9 poison damage; M \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "13 poison damage; M \u003c STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       ],
       "feature_type": "ability",
@@ -88,7 +88,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Each target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and ends the [dazed](scc:mcdm.heroes.v1/condition/dazed), [frightened](scc:mcdm.heroes.v1/condition/frightened), and [weakened](scc:mcdm.heroes.v1/condition/weakened) conditions on themself."
+          "effect": "**Effect:** Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and ends the [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) conditions on themself."
         }
       ],
       "feature_type": "ability",

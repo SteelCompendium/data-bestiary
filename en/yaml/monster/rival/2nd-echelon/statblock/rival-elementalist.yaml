@@ -5,9 +5,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + 3
-          tier1: 9 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 3 acid damage
-          tier2: 14 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 5 acid damage
-          tier3: 17 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 7 acid damage
+          tier1: 9 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 3 acid damage
+          tier2: 14 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 5 acid damage
+          tier3: 17 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 7 acid damage
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -24,8 +24,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 5 damage
-          tier2: 9 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
-          tier3: 11 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 9 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
+          tier3: 11 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -41,7 +41,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** The elementalist takes damage.
-            **Effect:** The elementalist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 3 corruption damage.
+            **Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 3 corruption damage.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -52,7 +52,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+        - effect: At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
       feature_type: trait
       icon: ⭐️
       name: Rivalry

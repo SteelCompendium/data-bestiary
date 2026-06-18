@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "4 damage",
-          "tier2": "5 damage; A \u003c 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "6 damage; A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier2": "5 damage; A \u003c 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "6 damage; A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
+          "effect": "**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "When the amalgamite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
+          "effect": "When the amalgamite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

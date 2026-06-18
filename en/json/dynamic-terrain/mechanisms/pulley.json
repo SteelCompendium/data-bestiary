@@ -2,18 +2,18 @@
   "features": [
     {
       "icon": "🌀",
-      "intro": "As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pulley can make an **Agility test**.",
+      "intro": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pulley can make an **Agility test**.",
       "name": "Deactivate",
       "power_roll": {
         "tiers": {
           "high": "The pulley is deactivated and doesn't trigger.",
           "low": "The creature triggers the pulley.",
-          "mid": "The pulley is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)."
+          "mid": "The pulley is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)."
         }
       }
     },
     {
-      "body": "A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the pulley uses a maneuver to release the pulley.",
+      "body": "A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pulley uses a maneuver to release the pulley.",
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "body": "A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.",
+      "body": "A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.",
       "icon": "⭐️",
       "name": "Climbable"
     },

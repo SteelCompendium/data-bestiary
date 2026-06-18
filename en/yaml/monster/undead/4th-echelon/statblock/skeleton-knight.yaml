@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 5
           tier1: 4 damage
           tier2: 7 damage
-          tier3: 9 damage; the target can't [shift](scc:mcdm.heroes.v1/movement/shifting) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+          tier3: 9 damage; the target can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -19,13 +19,13 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: If the knight is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their bones collapse to fill their space with an impassable barrier. Any enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the barrier for the first time in a round or starts their turn there takes 5 damage.
+        - effect: If the knight is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their bones collapse to fill their space with an impassable barrier. Any enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the barrier for the first time in a round or starts their turn there takes 5 damage.
       feature_type: trait
       icon: ⭐️
       name: Bitter Bones
       type: feature
     - effects:
-        - effect: Whenever the knight makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), they can make two [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) instead.
+        - effect: Whenever the knight makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), they can make two [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) instead.
       feature_type: trait
       icon: ⭐️
       name: More Swings

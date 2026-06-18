@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 2 4 acid damage",
-          "tier2": "17 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 3 6 acid damage",
-          "tier3": "21 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 4 8 acid damage"
+          "tier1": "12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 2 4 acid damage",
+          "tier2": "17 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 3 6 acid damage",
+          "tier3": "21 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 4 8 acid damage"
         }
       ],
       "feature_type": "ability",
@@ -33,8 +33,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "6 damage",
-          "tier2": "10 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)",
-          "tier3": "14 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier2": "10 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier3": "14 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -54,7 +54,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The elementalist takes damage.\n**Effect:** The elementalist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 4 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 4 corruption damage."
+          "effect": "**Trigger:** The elementalist takes damage.\n**Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 4 corruption damage."
         }
       ],
       "feature_type": "ability",
@@ -71,7 +71,7 @@
     {
       "effects": [
         {
-          "effect": "At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
         }
       ],
       "feature_type": "trait",

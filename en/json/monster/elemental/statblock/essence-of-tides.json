@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1",
-          "tier2": "11 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2",
-          "tier3": "14 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3"
+          "tier1": "7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "11 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "14 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** Until the start of the essence's next turn, the target has cold immunity 5.\n**3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the ground within 1 square of the target is a pool of water that is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has M \u003c 2 is [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)."
+          "effect": "**Effect:** Until the start of the essence's next turn, the target has cold immunity 5.\n**3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the ground within 1 square of the target is a pool of water that is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has M \u003c 2 is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally deals rolled damage to the target.\n**Effect:** The essence makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
+          "effect": "**Trigger:** An ally deals rolled damage to the target.\n**Effect:** The essence makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
         }
       ],
       "feature_type": "ability",
@@ -64,7 +64,7 @@
     {
       "effects": [
         {
-          "effect": "The essence can't be [restrained](scc:mcdm.heroes.v1/condition/restrained), [slowed](scc:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
+          "effect": "The essence can't be [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",
@@ -75,7 +75,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever the essence starts their turn in a space containing water, they can [fly](scc:mcdm.heroes.v1/movement/fly) until the end of their turn. While flying, the essence doesn't provoke opportunity attacks."
+          "effect": "Whenever the essence starts their turn in a space containing water, they can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of their turn. While flying, the essence doesn't provoke opportunity attacks."
         }
       ],
       "feature_type": "trait",

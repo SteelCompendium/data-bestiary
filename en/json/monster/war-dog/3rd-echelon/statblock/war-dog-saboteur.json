@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "4 fire damage",
-          "tier2": "7 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
-          "tier3": "8 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3"
+          "tier2": "7 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier3": "8 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
         }
       ],
       "feature_type": "ability",
@@ -27,7 +27,7 @@
     {
       "effects": [
         {
-          "effect": "When the saboteur is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
+          "effect": "When the saboteur is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

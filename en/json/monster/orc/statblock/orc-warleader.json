@@ -7,7 +7,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** The target moves up to their speed and can use a main action.\n**1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The warleader targets two allies.\n**3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The warleader targets one ally and a [minion](scc:mcdm.monsters.v1/rule.organization/minion) [squad](scc:mcdm.monsters.v1/rule.monster/squad)."
+          "effect": "**Effect:** The target moves up to their speed and can use a main action.\n**1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The warleader targets two allies.\n**3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The warleader targets one ally and a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad)."
         }
       ],
       "feature_type": "ability",
@@ -25,9 +25,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; M \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; M \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -47,7 +47,7 @@
       "distance": "Self and ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Each target moves up to their speed and can use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver, which gains an edge."
+          "effect": "**Effect:** Each target moves up to their speed and can use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver, which gains an edge."
         }
       ],
       "feature_type": "ability",
@@ -83,8 +83,8 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) of the warleader (save ends)",
-          "tier2": "[Frightened](scc:mcdm.heroes.v1/condition/frightened) of the warleader (EoT)",
+          "tier1": "[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the warleader (save ends)",
+          "tier2": "[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the warleader (EoT)",
           "tier3": "No effect"
         }
       ],
@@ -103,7 +103,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** The warleader [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and four orc blitzers appear in unoccupied spaces within distance."
+          "effect": "**Effect:** The warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and four orc blitzers appear in unoccupied spaces within distance."
         }
       ],
       "feature_type": "ability",
@@ -121,7 +121,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Three times in succession, the warleader [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can use Mace Lariat."
+          "effect": "**Effect:** Three times in succession, the warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use Mace Lariat."
         }
       ],
       "feature_type": "ability",
@@ -137,7 +137,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -148,7 +148,7 @@
     {
       "effects": [
         {
-          "effect": "If the warleader is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the warleader is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead."
+          "effect": "If the warleader is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the warleader is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead."
         }
       ],
       "feature_type": "trait",

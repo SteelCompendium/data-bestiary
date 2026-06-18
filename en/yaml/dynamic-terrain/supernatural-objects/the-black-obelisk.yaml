@@ -1,6 +1,6 @@
 features:
     - icon: "\U0001F300"
-      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the black obelisk can make a **Reason test**.
+      intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the black obelisk can make a **Reason test**.
       name: Deactivate
       power_roll:
         tiers:
@@ -22,9 +22,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: P < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
-            low: P < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
-            mid: P < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
+            high: P < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+            low: P < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+            mid: P < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
       sections:
         - label: Trigger
           text: A new round starts.

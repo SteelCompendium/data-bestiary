@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The sniper doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
+          "effect": "The sniper doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
         }
       ],
       "feature_type": "trait",

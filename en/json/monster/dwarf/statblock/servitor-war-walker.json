@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "6 damage",
           "tier2": "9 damage",
-          "tier3": "12 damage; M \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier3": "12 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -32,9 +32,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "3 lightning damage; A \u003c 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier2": "6 lightning damage; A \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "7 lightning damage; A \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "3 lightning damage; A \u003c 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "6 lightning damage; A \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "7 lightning damage; A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -62,7 +62,7 @@
     {
       "effects": [
         {
-          "effect": "Any [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the war walker is automatically [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends) and takes a bane on power rolls. A creature [restrained](scc:mcdm.heroes.v1/condition/restrained) this way moves with the war walker."
+          "effect": "Any [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the war walker is automatically [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends) and takes a bane on power rolls. A creature [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way moves with the war walker."
         }
       ],
       "feature_type": "trait",

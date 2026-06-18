@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
-          "tier2": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
-          "tier3": "8 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed); M \u003c 2 the target takes a bane on the Escape Grab maneuver"
+          "tier1": "5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "8 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); M \u003c 2 the target takes a bane on the Escape Grab maneuver"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "2 burst",
       "effects": [
         {
-          "effect": "**Effect:** Up to three targets can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+          "effect": "**Effect:** Up to three targets can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the bonesplitter is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the bonesplitter moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the bonesplitter is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the bonesplitter moves up to their speed and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "trait",

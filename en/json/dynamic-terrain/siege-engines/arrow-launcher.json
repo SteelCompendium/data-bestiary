@@ -2,13 +2,13 @@
   "features": [
     {
       "icon": "🌀",
-      "intro": "As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.",
+      "intro": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.",
       "name": "Deactivate",
       "power_roll": {
         "tiers": {
           "high": "The arrow launcher is deactivated and can't be used.",
           "low": "The creature accidentally activates the **Arrow Storm** ability.",
-          "mid": "The arrow launcher is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)."
+          "mid": "The arrow launcher is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)."
         }
       }
     },
@@ -103,9 +103,9 @@
       "power_roll": {
         "formula": "+ 2",
         "tiers": {
-          "high": "11 damage; R \u003c 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "low": "5 damage; R \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "mid": "8 damage; R \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "high": "11 damage; R \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "low": "5 damage; R \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "mid": "8 damage; R \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       },
       "sections": [

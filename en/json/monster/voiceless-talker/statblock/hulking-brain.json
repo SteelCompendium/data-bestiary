@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 3",
           "tier1": "7 damage",
-          "tier2": "10 damage; A \u003c 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "11 damage; A \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier2": "10 damage; A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "11 damage; A \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The hulking brain [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain."
+          "effect": "**Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.\n**Effect:** The hulking brain [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.\n**2 Malice:** The enemy is knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
+          "effect": "**Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.\n**Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.\n**2 Malice:** The enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -84,7 +84,7 @@
     {
       "effects": [
         {
-          "effect": "The hulking brain can carry up to four size 1 creatures they have [grabbed](scc:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so."
+          "effect": "The hulking brain can carry up to four size 1 creatures they have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so."
         }
       ],
       "feature_type": "trait",
@@ -95,7 +95,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space."
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space."
         }
       ],
       "feature_type": "trait",

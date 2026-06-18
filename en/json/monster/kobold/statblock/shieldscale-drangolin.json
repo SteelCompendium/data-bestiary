@@ -30,7 +30,7 @@
       "distance": "Self; see below",
       "effects": [
         {
-          "effect": "**Effect:** The drangolin [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Fiery Claws against each creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The drangolin makes one power roll against all targets."
+          "effect": "**Effect:** The drangolin [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Fiery Claws against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The drangolin makes one power roll against all targets."
         }
       ],
       "feature_type": "ability",
@@ -49,9 +49,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; A \u003c 0 [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier2": "8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 0 [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier3": "11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A \u003c 0 [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier1": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; A \u003c 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; A \u003c 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
     {
       "effects": [
         {
-          "effect": "Any ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the drangolin has concealment."
+          "effect": "Any ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the drangolin has concealment."
         }
       ],
       "feature_type": "trait",
@@ -79,7 +79,7 @@
     {
       "effects": [
         {
-          "effect": "When the drangolin burrows, each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) size 1S or smaller ally can move with them."
+          "effect": "When the drangolin burrows, each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) size 1S or smaller ally can move with them."
         }
       ],
       "feature_type": "trait",

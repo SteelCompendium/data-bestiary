@@ -37,7 +37,7 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and [teleports](scc:mcdm.heroes.v1/movement/teleport) in a plume of smoke to swap places with the other target.'
+        - effect: '**Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) in a plume of smoke to swap places with the other target.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -61,13 +61,13 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore [stability](scc:mcdm.heroes.v1/rule.character/stability).
+        - effect: Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
       feature_type: trait
       icon: ⭐️
       name: Healing Heat
       type: feature
     - effects:
-        - effect: Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/condition/grabbed) the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage.
+        - effect: Whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Searing Skin

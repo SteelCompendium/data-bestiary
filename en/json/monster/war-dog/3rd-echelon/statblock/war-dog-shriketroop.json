@@ -10,7 +10,7 @@
           "roll": "Power Roll + 4",
           "tier1": "4 damage",
           "tier2": "7 damage",
-          "tier3": "8 damage; I \u003c 3 the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of all shriketroops (EoT)"
+          "tier3": "8 damage; I \u003c 3 the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of all shriketroops (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "When the shriketroop is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
+          "effect": "When the shriketroop is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
         }
       ],
       "feature_type": "trait",

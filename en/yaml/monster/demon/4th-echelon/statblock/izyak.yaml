@@ -5,9 +5,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + 5
-          tier1: 9 psychic damage; R < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier2: 12 psychic damage; R < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier3: 14 psychic damage; R < 5 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier1: 9 psychic damage; R < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 12 psychic damage; R < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 14 psychic damage; R < 5 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: 4 cube within 10
       effects:
         - roll: Power Roll + 5
-          tier1: 4 psychic damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier2: 7 psychic damage; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier3: 9 psychic damage; I < 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier1: 4 psychic damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 7 psychic damage; I < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 9 psychic damage; I < 5 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -36,7 +36,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: While the izyak is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+        - effect: While the izyak is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

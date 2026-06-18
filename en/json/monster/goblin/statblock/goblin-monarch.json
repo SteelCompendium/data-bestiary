@@ -64,7 +64,7 @@
     {
       "effects": [
         {
-          "effect": "The monarch doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
+          "effect": "The monarch doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
         }
       ],
       "feature_type": "trait",
@@ -88,7 +88,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target can move up to their speed or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+          "effect": "**Effect:** Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "ability",
@@ -124,7 +124,7 @@
       "distance": "Special",
       "effects": [
         {
-          "effect": "**Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them."
+          "effect": "**Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them."
         }
       ],
       "feature_type": "ability",

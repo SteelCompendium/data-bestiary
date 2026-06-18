@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "9 damage",
           "tier2": "14 damage",
-          "tier3": "17 damage; [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier3": "17 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -62,7 +62,7 @@
     {
       "effects": [
         {
-          "effect": "When the grandguard is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the grandguard takes 3 fire damage."
+          "effect": "When the grandguard is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the grandguard takes 3 fire damage."
         }
       ],
       "feature_type": "trait",

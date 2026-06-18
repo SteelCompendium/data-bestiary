@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "4 psychic damage; I \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier2": "7 psychic damage; I \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "10 psychic damage; I \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "4 psychic damage; I \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "7 psychic damage; I \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "10 psychic damage; I \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability)."
+          "effect": "**Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)."
         }
       ],
       "feature_type": "ability",
@@ -62,7 +62,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -73,7 +73,7 @@
     {
       "effects": [
         {
-          "effect": "While the chorogaunt is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+          "effect": "While the chorogaunt is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",
@@ -97,7 +97,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)."
+          "effect": "**Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -115,7 +115,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](scc:mcdm.monsters.v1/rule.monster/malice) equal to the number of heroes in the encounter."
+          "effect": "**Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) equal to the number of heroes in the encounter."
         }
       ],
       "feature_type": "ability",
@@ -134,7 +134,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The chorogaunt [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, uses Agonizing Harmony, [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and then uses Agonizing Harmony again."
+          "effect": "**Effect:** The chorogaunt [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, uses Agonizing Harmony, [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and then uses Agonizing Harmony again."
         }
       ],
       "feature_type": "ability",

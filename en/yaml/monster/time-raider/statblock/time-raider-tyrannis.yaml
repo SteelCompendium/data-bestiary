@@ -23,7 +23,7 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target can [fly](scc:mcdm.heroes.v1/movement/fly) up to their speed and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target doesn''t land in an unoccupied space, they fall.'
+        - effect: '**Effect:** Each target can [fly](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target doesn''t land in an unoccupied space, they fall.'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -37,8 +37,8 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature within distance makes a strike against the tyrannis.
-            **Effect:** The strike takes a bane. After the strike resolves, the tyrannis can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
-            **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The strike has a double bane instead.
+            **Effect:** The strike takes a bane. After the strike resolves, the tyrannis can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+            **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The strike has a double bane instead.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -49,7 +49,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+        - effect: At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
       feature_type: trait
       icon: ⭐️
       name: End Effect
@@ -63,7 +63,7 @@ features:
     - cost: Villain Action 1
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target gains 15 temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and has their speed doubled until the end of their next turn.'
+        - effect: '**Effect:** Each target gains 15 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and has their speed doubled until the end of their next turn.'
       feature_type: ability
       icon: ☠️
       keywords:

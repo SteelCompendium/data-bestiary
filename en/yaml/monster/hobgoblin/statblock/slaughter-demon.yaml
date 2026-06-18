@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 9 damage
-          tier2: 14 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier3: 17 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 14 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 17 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: Melee 5
       effects:
         - roll: Power Roll + 3
-          tier1: 10 poison damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 16 poison damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 20 poison damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier1: 10 poison damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 16 poison damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 20 poison damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -36,7 +36,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The slaughter demon can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) as part of using the Dig maneuver. If the target of the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and take a bane on the Escape Grab maneuver.
+        - effect: The slaughter demon can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) as part of using the Dig maneuver. If the target of the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and take a bane on the Escape Grab maneuver.
       feature_type: trait
       icon: ⭐️
       name: Drag Below
@@ -62,7 +62,7 @@ features:
       name: Soulsight
       type: feature
     - effects:
-        - effect: While the slaughter demon is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.
+        - effect: While the slaughter demon is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

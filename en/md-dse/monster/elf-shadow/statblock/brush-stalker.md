@@ -45,7 +45,7 @@ type: statblock
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 
-> ❇️ **Reclamation (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Reclamation (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -53,9 +53,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 corruption damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 7 corruption damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 10 corruption damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 4 corruption damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 7 corruption damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 10 corruption damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 
 > ⭐️ **Suneater**
 >
@@ -63,4 +63,4 @@ type: statblock
 
 > ⭐️ **Wyrd Dyr**
 >
-> While they have line of effect to the brush stalker, any animal except another brush stalker is [frightened](scc:mcdm.heroes.v1/condition/frightened).
+> While they have line of effect to the brush stalker, any animal except another brush stalker is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).

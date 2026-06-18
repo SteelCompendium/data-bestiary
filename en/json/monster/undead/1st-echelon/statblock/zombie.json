@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "4 damage",
           "tier2": "6 damage",
-          "tier3": "7 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier3": "7 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -32,8 +32,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "2 corruption damage",
-          "tier2": "3 corruption damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "4 corruption damage; M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier2": "3 corruption damage; M \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "4 corruption damage; M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -49,7 +49,7 @@
     {
       "effects": [
         {
-          "effect": "The first time the zombie is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone)."
+          "effect": "The first time the zombie is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "trait",

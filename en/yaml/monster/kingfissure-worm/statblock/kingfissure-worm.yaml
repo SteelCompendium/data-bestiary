@@ -3,14 +3,14 @@ ev: "108"
 features:
     - effects:
         - effect: |-
-            **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the kingfissure worm can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the kingfissure worm can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
             **Solo Turns:** The kingfissure worm can take two turns each round. They can't take turns consecutively.
       feature_type: trait
       icon: ☠️
       name: Solo Monster
       type: feature
     - effects:
-        - effect: The kingfissure worm has three tongues. Each tongue is a 5 x 1 line within 1 square of the kingfissure worm, has 35 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and psychic immunity all, and can't be [force moved](scc:mcdm.heroes.v1/movement/forced-movement). Each tongue enables the kingfissure worm to [grab](scc:mcdm.heroes.v1/condition/grabbed) one size 3 or smaller creature or object. A tongue can be targeted by abilities only while it has a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
+        - effect: The kingfissure worm has three tongues. Each tongue is a 5 x 1 line within 1 square of the kingfissure worm, has 35 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and psychic immunity all, and can't be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). Each tongue enables the kingfissure worm to [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) one size 3 or smaller creature or object. A tongue can be targeted by abilities only while it has a target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
       feature_type: trait
       icon: ⭐️
       name: Multiple Tongues
@@ -19,9 +19,9 @@ features:
       distance: Melee 5
       effects:
         - roll: Power Roll + 5
-          tier1: 13 damage; M < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-          tier2: 18 damage; M < 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-          tier3: 22 damage; M < 5 [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
+          tier1: 13 damage; M < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 18 damage; M < 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 22 damage; M < 5 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -35,8 +35,8 @@ features:
     - distance: Melee 1
       effects:
         - roll: Power Roll + 5
-          tier1: 15 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-          tier2: 20 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier1: 15 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier2: 20 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 25 damage; the target is swallowed (see Swallowed)
       feature_type: ability
       icon: "\U0001F5E1"
@@ -63,7 +63,7 @@ features:
       usage: Main action
     - distance: Melee 5 or ranged 10
       effects:
-        - effect: '**Effect:** The kingfissure worm can use this maneuver only while they have a creature or object [grabbed](scc:mcdm.heroes.v1/condition/grabbed). The worm slams the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature or object is released.'
+        - effect: '**Effect:** The kingfissure worm can use this maneuver only while they have a creature or object [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). The worm slams the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature or object is released.'
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -78,8 +78,8 @@ features:
     - distance: Self
       effects:
         - effect: |-
-            **Trigger:** A tongue takes damage that doesn't reduce it to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** The kingfissure worm deals 5 damage to the creature or object the tongue had [grabbed](scc:mcdm.heroes.v1/condition/grabbed), releases that creature or object, then pulls the damaged tongue back into their mouth.
+            **Trigger:** A tongue takes damage that doesn't reduce it to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+            **Effect:** The kingfissure worm deals 5 damage to the creature or object the tongue had [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), releases that creature or object, then pulls the damaged tongue back into their mouth.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -95,19 +95,19 @@ features:
       name: Seismic King
       type: feature
     - effects:
-        - effect: A creature swallowed by the kingfissure worm is [restrained](scc:mcdm.heroes.v1/condition/restrained) and takes 1d6 acid damage at the start of every turn. If the worm takes 25 or more damage in a single round from swallowed creatures, they immediately regurgitate all creatures they have swallowed, who land [prone](scc:mcdm.heroes.v1/condition/prone) in unoccupied spaces within 3 squares of the kingfissure worm.
+        - effect: A creature swallowed by the kingfissure worm is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) and takes 1d6 acid damage at the start of every turn. If the worm takes 25 or more damage in a single round from swallowed creatures, they immediately regurgitate all creatures they have swallowed, who land [prone](scc.v1:mcdm.heroes.v1/condition/prone) in unoccupied spaces within 3 squares of the kingfissure worm.
       feature_type: trait
       icon: ⭐️
       name: Swallowed
       type: feature
     - effects:
-        - effect: The kingfissure worm can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone. When the worm burrows, they create a stable size 3 tunnel in the squares they move through.
+        - effect: The kingfissure worm can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) through stone. When the worm burrows, they create a stable size 3 tunnel in the squares they move through.
       feature_type: trait
       icon: ⭐️
       name: Titanic Tunneler
       type: feature
     - effects:
-        - effect: The kingfissure worm can't be [frightened](scc:mcdm.heroes.v1/condition/frightened) or knocked [prone](scc:mcdm.heroes.v1/condition/prone). While the worm is [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed), they take a −2 penalty to speed instead of suffering those conditions' usual effects on speed.
+        - effect: The kingfissure worm can't be [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). While the worm is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), they take a −2 penalty to speed instead of suffering those conditions' usual effects on speed.
       feature_type: trait
       icon: ⭐️
       name: Unstoppable Crawler
@@ -116,9 +116,9 @@ features:
       distance: 20 x 4 line within 1
       effects:
         - roll: ""
-          tier1: 10 damage; the target falls into the fissure, lands [prone](scc:mcdm.heroes.v1/condition/prone), and can't stand (EoT)
-          tier2: 10 damage; the target is knocked [prone](scc:mcdm.heroes.v1/condition/prone) and left hanging at the edge of the area
-          tier3: The target [shifts](scc:mcdm.heroes.v1/movement/shifting) to the nearest unoccupied space outside the area.
+          tier1: 10 damage; the target falls into the fissure, lands [prone](scc.v1:mcdm.heroes.v1/condition/prone), and can't stand (EoT)
+          tier2: 10 damage; the target is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and left hanging at the edge of the area
+          tier3: The target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) to the nearest unoccupied space outside the area.
       feature_type: ability
       icon: ☠️
       keywords:
@@ -131,7 +131,7 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked [prone](scc:mcdm.heroes.v1/condition/prone). Any creature who is made [winded](scc:mcdm.heroes.v1/rule.health/winded) by this damage is swallowed (see Swallowed).'
+        - effect: '**Effect:** The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). Any creature who is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this damage is swallowed (see Swallowed).'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -144,9 +144,9 @@ features:
       distance: 5 burst
       effects:
         - roll: Power Roll + 5
-          tier1: 8 acid damage; P < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 13 acid damage; P < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 17 acid damage; P < 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier1: 8 acid damage; P < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 13 acid damage; P < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 17 acid damage; P < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: ☠️
       keywords:

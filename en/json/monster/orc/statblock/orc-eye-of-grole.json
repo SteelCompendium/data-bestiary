@@ -5,7 +5,7 @@
     {
       "effects": [
         {
-          "effect": "The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) and the damage dealt by their abilities."
+          "effect": "The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) and the damage dealt by their abilities."
         }
       ],
       "feature_type": "trait",
@@ -19,9 +19,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2, or the eye [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target",
-          "tier2": "9 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4, or the eye [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target",
-          "tier3": "12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 6, or the eye [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 6 squares away from the target"
+          "tier1": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target",
+          "tier2": "9 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target",
+          "tier3": "12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares away from the target"
         }
       ],
       "feature_type": "ability",
@@ -42,9 +42,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
-          "tier2": "5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
-          "tier3": "8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4, [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier1": "3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -61,7 +61,7 @@
     {
       "effects": [
         {
-          "effect": "If the eye is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the eye is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead."
+          "effect": "If the eye is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the eye is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead."
         }
       ],
       "feature_type": "trait",

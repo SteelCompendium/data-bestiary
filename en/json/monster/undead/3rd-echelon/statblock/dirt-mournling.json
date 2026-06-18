@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "7 damage; M \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier2": "10 damage; M \u003c 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "11 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier1": "7 damage; M \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "10 damage; M \u003c 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "11 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "3 corruption damage; I \u003c 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
-          "tier2": "6 corruption damage; I \u003c 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)",
-          "tier3": "7 corruption damage; I \u003c 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)"
+          "tier1": "3 corruption damage; I \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "6 corruption damage; I \u003c 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier3": "7 corruption damage; I \u003c 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
     {
       "effects": [
         {
-          "effect": "The first time the mournling is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone)."
+          "effect": "The first time the mournling is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 15 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "trait",
@@ -72,7 +72,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever the mournling uses the Dig maneuver to breach the surface, they make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy."
+          "effect": "Whenever the mournling uses the Dig maneuver to breach the surface, they make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy."
         }
       ],
       "feature_type": "trait",

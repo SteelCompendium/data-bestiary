@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "2 damage",
           "tier2": "4 damage",
-          "tier3": "5 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier3": "5 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",

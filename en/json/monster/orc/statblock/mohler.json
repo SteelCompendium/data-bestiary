@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The mohler doesn't need [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to use abilities against creatures or objects touching the ground."
+          "effect": "The mohler doesn't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to use abilities against creatures or objects touching the ground."
         }
       ],
       "feature_type": "trait",
@@ -39,7 +39,7 @@
     {
       "effects": [
         {
-          "effect": "The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler [burrows](scc:mcdm.heroes.v1/movement/burrow) within 1 square below the ground, the ground above where they burrow is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)."
+          "effect": "The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler [burrows](scc.v1:mcdm.heroes.v1/movement/burrow) within 1 square below the ground, the ground above where they burrow is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)."
         }
       ],
       "feature_type": "trait",

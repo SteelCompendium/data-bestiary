@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "15 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4",
-          "tier2": "21 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5",
-          "tier3": "25 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 6"
+          "tier1": "15 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
+          "tier2": "21 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
+          "tier3": "25 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "15 damage; M \u003c 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier2": "21 damage; M \u003c 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "25 damage; M \u003c 5 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier1": "15 damage; M \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "21 damage; M \u003c 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "25 damage; M \u003c 5 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
     {
       "effects": [
         {
-          "effect": "Once per turn, when the fury [force moves](scc:mcdm.heroes.v1/movement/forced-movement) a creature or object, or [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature or object, they can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against that creature or object that has a double edge."
+          "effect": "Once per turn, when the fury [force moves](scc.v1:mcdm.heroes.v1/movement/forced-movement) a creature or object, or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a creature or object, they can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against that creature or object that has a double edge."
         }
       ],
       "feature_type": "trait",
@@ -62,7 +62,7 @@
     {
       "effects": [
         {
-          "effect": "At the start of an encounter, the fury chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the fury and the creature can add a d3 roll to power rolls they make against each other."
+          "effect": "At the start of an encounter, the fury chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the fury and the creature can add a d3 roll to power rolls they make against each other."
         }
       ],
       "feature_type": "trait",

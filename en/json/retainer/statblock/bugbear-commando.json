@@ -29,7 +29,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commando.\n**Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way."
+          "effect": "**Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commando.\n**Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way."
         }
       ],
       "feature_type": "ability",
@@ -47,7 +47,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commando."
+          "effect": "**Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commando."
         }
       ],
       "feature_type": "ability",
@@ -66,9 +66,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "6 damage; M \u003c WEAK [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier2": "9 damage; M \u003c AVERAGE [grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
-          "tier3": "13 damage; M \u003c STRONG [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier1": "6 damage; M \u003c WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "9 damage; M \u003c AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "13 damage; M \u003c STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",

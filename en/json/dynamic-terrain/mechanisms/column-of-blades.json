@@ -6,7 +6,7 @@
       "name": "Deactivate"
     },
     {
-      "body": "A creature or object moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.",
+      "body": "A creature or object moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.",
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -28,9 +28,9 @@
       "power_roll": {
         "formula": "+ 2",
         "tiers": {
-          "high": "9 damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "high": "9 damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
           "low": "4 damage",
-          "mid": "6 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "mid": "6 damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       },
       "sections": [
@@ -43,7 +43,7 @@
       "usage": "Free triggered action"
     },
     {
-      "body": "**Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).\n\n**Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).\n\n**Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.\n\n**Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.",
+      "body": "**Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).\n\n**Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).\n\n**Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.\n\n**Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.",
       "icon": "⭐️",
       "name": "Upgrades"
     },
@@ -58,9 +58,9 @@
       "name": "Whirling Flails",
       "power_roll": {
         "tiers": {
-          "high": "11 damage; M \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "high": "11 damage; M \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
           "low": "5 damage",
-          "mid": "8 damage; M \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "mid": "8 damage; M \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       },
       "sections": [
@@ -74,7 +74,7 @@
     },
     {
       "icon": "⭐️",
-      "intro": "Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.",
+      "intro": "Allies who [shift](scc.v1:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc.v1:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) in imitation of their movements.",
       "name": "Allied Awareness",
       "power_roll": {
         "formula": "+ 2",

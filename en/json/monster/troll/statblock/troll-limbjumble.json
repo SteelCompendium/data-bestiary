@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "3 damage; A \u003c 2 [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier2": "5 damage; A \u003c 3 [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier3": "6 damage; [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier1": "3 damage; A \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "5 damage; A \u003c 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "6 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "At the start of each of the limbjumble's [squad](scc:mcdm.monsters.v1/rule.monster/squad)'s turns, the squad's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool increases as if each limbjumble were at full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
+          "effect": "At the start of each of the limbjumble's [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad)'s turns, the squad's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool increases as if each limbjumble were at full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "trait",

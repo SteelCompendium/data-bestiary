@@ -20,7 +20,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: The wodenelg ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and doesn't provoke oppotunity attacks by moving.
+        - effect: The wodenelg ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and doesn't provoke oppotunity attacks by moving.
       feature_type: trait
       icon: ⭐️
       name: Sure-Footed

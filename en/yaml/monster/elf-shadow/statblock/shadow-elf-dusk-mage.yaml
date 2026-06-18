@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 3
           tier1: 2 damage
-          tier2: 4 damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-          tier3: 6 damage; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 4 damage; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 6 damage; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

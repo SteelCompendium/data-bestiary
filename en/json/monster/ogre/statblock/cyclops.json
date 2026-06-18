@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 5",
           "tier1": "3 damage; A \u003c 3 3 damage",
-          "tier2": "6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 4 4 damage",
-          "tier3": "7 damage; [prone](scc:mcdm.heroes.v1/condition/prone); A \u003c 5 5 damage and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier2": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 4 4 damage",
+          "tier3": "7 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A \u003c 5 5 damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",

@@ -10,7 +10,7 @@
           "roll": "",
           "tier1": "5 damage",
           "tier2": "5 damage, 3 corruption damage",
-          "tier3": "5 damage, 6 corruption damage; M \u003c STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "tier3": "5 damage, 6 corruption damage; M \u003c STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](scc:mcdm.heroes.v1/movement/fly). The vampire rebel then [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space."
+          "effect": "**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](scc.v1:mcdm.heroes.v1/movement/fly). The vampire rebel then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space."
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). If the vampire rebel is able to deal damage to a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn."
+          "effect": "The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). If the vampire rebel is able to deal damage to a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn."
         }
       ],
       "feature_type": "trait",
@@ -60,9 +60,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "7 damage; M \u003c WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier2": "11 damage; M \u003c AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier3": "16 damage; M \u003c STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "tier1": "7 damage; M \u003c WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "11 damage; M \u003c AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "16 damage; M \u003c STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       ],
       "feature_type": "ability",
@@ -83,9 +83,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "7 corruption damage; M \u003c WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier2": "11 corruption damage; M \u003c AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier3": "16 corruption damage; M \u003c STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+          "tier1": "7 corruption damage; M \u003c WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "11 corruption damage; M \u003c AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "16 corruption damage; M \u003c STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
         }
       ],
       "feature_type": "ability",

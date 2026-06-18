@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + highest characteristic
           tier1: 6 damage
           tier2: 11 damage
-          tier3: 14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,7 +22,7 @@ features:
     - cost: Encounter
       distance: Melee 1
       effects:
-        - effect: '**Effect:** The Nameless''s mentor enters the Nameless''s space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space as a free maneuver. While in the Nameless''s space, the mentor moves with them and can''t use their move action, and ability rolls against the mentor take a bane.'
+        - effect: '**Effect:** The Nameless''s mentor enters the Nameless''s space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) space as a free maneuver. While in the Nameless''s space, the mentor moves with them and can''t use their move action, and ability rolls against the mentor take a bane.'
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -41,9 +41,9 @@ features:
       distance: 1 burst
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 5 corruption damage; I < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier2: 9 corruption damage; I < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: 12 corruption damage; I < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier1: 5 corruption damage; I < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 corruption damage; I < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 corruption damage; I < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: ❇️
       keywords:

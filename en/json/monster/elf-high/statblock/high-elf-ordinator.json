@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "9 lightning damage; R \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "14 lightning damage; R \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "17 lightning damage; R \u003c 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)"
+          "tier1": "9 lightning damage; R \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "14 lightning damage; R \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "17 lightning damage; R \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +29,7 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target can move up to their speed or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). Elemental mote targets can, instead, use their Spark of Life trait."
+          "effect": "**Effect:** Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). Elemental mote targets can, instead, use their Spark of Life trait."
         }
       ],
       "feature_type": "ability",
@@ -48,7 +48,7 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.\n**3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance."
+          "effect": "**Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.\n**3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance."
         }
       ],
       "feature_type": "ability",

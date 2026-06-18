@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 2
           tier1: 3 damage
-          tier2: 4 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
-          tier3: 5 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 4 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -20,7 +20,7 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -31,7 +31,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: When the eviscerite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+        - effect: When the eviscerite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
       feature_type: trait
       icon: ⭐️
       name: Loyalty Collar

@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 7 damage
           tier2: 10 damage
-          tier3: 13 damage; one target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier3: 13 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -32,7 +32,7 @@ features:
     - cost: 5 Malice
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can use the Throw maneuver.'
+        - effect: '**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then can use the Throw maneuver.'
       feature_type: ability
       icon: ❇️
       keywords:
@@ -44,8 +44,8 @@ features:
     - distance: Melee 1
       effects:
         - effect: |-
-            **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commander.
-            **Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way.
+            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commander.
+            **Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,8 +58,8 @@ features:
     - distance: Melee 1
       effects:
         - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commander.
+            **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
+            **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commander.
       feature_type: ability
       icon: ❗️
       keywords:

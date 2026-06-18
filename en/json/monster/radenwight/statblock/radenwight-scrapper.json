@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "1 damage",
-          "tier2": "2 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)",
-          "tier3": "3 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)"
+          "tier2": "2 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)",
+          "tier3": "3 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The scrapper makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
+          "effect": "**Trigger:** An ally deals damage to the target.\n**Effect:** The scrapper makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
         }
       ],
       "feature_type": "ability",

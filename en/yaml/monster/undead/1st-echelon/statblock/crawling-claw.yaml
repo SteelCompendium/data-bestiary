@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Allies can't [flank](scc:mcdm.heroes.v1/rule.combat/flanking) with the crawling claw.
+        - effect: Allies can't [flank](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with the crawling claw.
       feature_type: trait
       icon: ⭐️
       name: Disorganized

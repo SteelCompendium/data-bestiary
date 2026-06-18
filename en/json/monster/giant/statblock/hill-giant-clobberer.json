@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "12 damage",
-          "tier2": "17 damage; [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier3": "21 damage; [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier2": "17 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "21 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -32,9 +32,9 @@
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "tier1": "14 damage; [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier2": "20 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M \u003c 3 can't stand (save ends)",
-          "tier3": "25 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M \u003c 4 can't stand (save ends)"
+          "tier1": "14 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "20 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 3 can't stand (save ends)",
+          "tier3": "25 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 4 can't stand (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -54,9 +54,9 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "6 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 3",
-          "tier2": "2 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 2",
-          "tier3": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2"
+          "tier1": "6 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier2": "2 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2"
         }
       ],
       "feature_type": "ability",
@@ -74,8 +74,8 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "[Grabbed](scc:mcdm.heroes.v1/condition/grabbed), and the target takes a bane on the Escape Grab maneuver",
-          "tier2": "[Grabbed](scc:mcdm.heroes.v1/condition/grabbed)",
+          "tier1": "[Grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and the target takes a bane on the Escape Grab maneuver",
+          "tier2": "[Grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
           "tier3": "No effect"
         }
       ],
@@ -92,7 +92,7 @@
     {
       "effects": [
         {
-          "effect": "The clobberer automatically destroys any mundane size 1 objects in their path when they move or are [forced moved](scc:mcdm.heroes.v1/movement/forced-movement). They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less."
+          "effect": "The clobberer automatically destroys any mundane size 1 objects in their path when they move or are [forced moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less."
         }
       ],
       "feature_type": "trait",

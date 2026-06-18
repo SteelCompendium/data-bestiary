@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "3 damage; M \u003c 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier2": "6 damage; M \u003c 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
-          "tier3": "8 damage; M \u003c 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "3 damage; M \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "6 damage; M \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "8 damage; M \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -44,7 +44,7 @@
     {
       "effects": [
         {
-          "effect": "At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+          "effect": "At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
         }
       ],
       "feature_type": "trait",
@@ -67,7 +67,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A creature makes a strike against the blackguard or an ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.\n**Effect:** The damage is halved."
+          "effect": "**Trigger:** A creature makes a strike against the blackguard or an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.\n**Effect:** The damage is halved."
         }
       ],
       "feature_type": "ability",
@@ -85,7 +85,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The blackguard [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. During or after this movement, they can use their Zweihander Swing twice."
+          "effect": "**Effect:** The blackguard [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. During or after this movement, they can use their Zweihander Swing twice."
         }
       ],
       "feature_type": "ability",
@@ -103,7 +103,7 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** The blackguard [slides](scc:mcdm.heroes.v1/movement/forced-movement) each target up to 5 squares."
+          "effect": "**Effect:** The blackguard [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) each target up to 5 squares."
         }
       ],
       "feature_type": "ability",
@@ -122,7 +122,7 @@
       "distance": "3 cube within 5",
       "effects": [
         {
-          "effect": "**Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target (one target per ally)."
+          "effect": "**Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target (one target per ally)."
         }
       ],
       "feature_type": "ability",

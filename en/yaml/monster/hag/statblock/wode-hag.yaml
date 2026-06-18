@@ -3,7 +3,7 @@ ev: "60"
 features:
     - effects:
         - effect: |-
-            **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the hag can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the hag can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
             **Solo Turns:** The hag can take two turns each round. They can't take turns consecutively.
       feature_type: trait
       icon: ☠️
@@ -19,9 +19,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 3
-          tier1: 9 corruption damage; A < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 13 corruption damage; A < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 16 corruption damage; A < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier1: 9 corruption damage; A < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 13 corruption damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 16 corruption damage; A < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +51,7 @@ features:
       effects:
         - effect: |-
             **Effect:** The hag alters their body to become any size 1 creature, from a house cat to a humanoid. If the hag uses this ability while outside of any enemy's line of effect, they can choose to be automatically hidden. The hag can return to their original form as a free maneuver.
-            **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The hag becomes a size 2 creature instead, from a bear to an ogre. While in this form, the hag's melee abilities gain a +1 bonus to distance and deal an extra 4 damage.
+            **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The hag becomes a size 2 creature instead, from a bear to an ogre. While in this form, the hag's melee abilities gain a +1 bonus to distance and deal an extra 4 damage.
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -64,9 +64,9 @@ features:
       distance: 1 burst
       effects:
         - roll: Power Roll + 3
-          tier1: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 the slide is vertical'
-          tier2: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; R < 2 the slide is vertical, and the target is [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)'
-          tier3: Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5; R < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+          tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 the slide is vertical'
+          tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; R < 2 the slide is vertical, and the target is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)'
+          tier3: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; R < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
       feature_type: ability
       icon: ❗️
       keywords:
@@ -95,7 +95,7 @@ features:
     - cost: Villain Action 2
       distance: 1 burst
       effects:
-        - effect: '**Effect:** Before using this [villain action](scc:mcdm.monsters.v1/rule.monster/villain-action), the hag [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. They then use Corrosive Claws against each target, [push](scc:mcdm.heroes.v1/movement/forced-movement) each target up to 2 squares, and [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed again.'
+        - effect: '**Effect:** Before using this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action), the hag [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. They then use Corrosive Claws against each target, [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each target up to 2 squares, and [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed again.'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -109,9 +109,9 @@ features:
       distance: 5 cube within 1
       effects:
         - roll: Power Roll + 3
-          tier1: 6 fire damage; A < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 10 fire damage; A < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 13 fire damage; A < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier1: 6 fire damage; A < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 10 fire damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 13 fire damage; A < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: ☠️
       keywords:

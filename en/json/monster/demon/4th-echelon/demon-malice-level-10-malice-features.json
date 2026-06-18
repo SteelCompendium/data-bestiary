@@ -1,7 +1,7 @@
 {
   "features": [
     {
-      "body": "The demon activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 9 or lower.",
+      "body": "The demon activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 9 or lower.",
       "cost": "3-7 Malice",
       "icon": "⭐️",
       "name": "Prior Malice Features"
@@ -21,7 +21,7 @@
       "sections": [
         {
           "label": "Effect",
-          "text": "The demon removes all [conditions](scc:mcdm.heroes.v1/rule.combat/condition) and effects on themself that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw), and transfers all those effects to each creature soul flensed this way."
+          "text": "The demon removes all [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) and effects on themself that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw), and transfers all those effects to each creature soul flensed this way."
         }
       ]
     }

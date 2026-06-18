@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 2
           tier1: 6 damage
           tier2: 9 damage
-          tier3: 12 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+          tier3: 12 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: 1 burst
       effects:
         - roll: Power Roll + 2
-          tier1: 3 damage; A < 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier2: 5 damage; A < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier3: 8 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier1: 3 damage; A < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 5 damage; A < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 8 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -38,7 +38,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** An ally deals damage to the target.
-            **Effect:** The bruxer makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+            **Effect:** The bruxer makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -49,7 +49,7 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: Any enemy who [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer has that shift end. Additionally, any enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer can't [shift](scc:mcdm.heroes.v1/movement/shifting).
+        - effect: Any enemy who [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer has that shift end. Additionally, any enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
       feature_type: trait
       icon: ⭐️
       name: Lockdown

@@ -21,9 +21,9 @@ features:
     - distance: 5 x 2 line within 1
       effects:
         - roll: Power Roll + 2
-          tier1: M < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier2: M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier3: '[Slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends); or if M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)'
+          tier1: M < 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: '[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); or if M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)'
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -37,9 +37,9 @@ features:
       distance: 3 cube within 1
       effects:
         - roll: Power Roll + 2
-          tier1: 4 poison damage; M < 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 6 poison damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-          tier3: 9 poison damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier1: 4 poison damage; M < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 6 poison damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 9 poison damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -53,7 +53,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** The basilisk takes damage from a melee ability.
-            **Effect:** Each target takes 5 damage. Any target who has A < 2 is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
+            **Effect:** Each target takes 5 damage. Any target who has A < 2 is also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
       feature_type: ability
       icon: ❗️
       keywords:

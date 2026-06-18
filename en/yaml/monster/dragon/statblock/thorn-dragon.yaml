@@ -3,14 +3,14 @@ ev: "48"
 features:
     - effects:
         - effect: |-
-            **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
             **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
       feature_type: trait
       icon: ☠️
       name: Solo Monster
       type: feature
     - effects:
-        - effect: The dragon's scales create a 2 aura of withering green magic around them. Any creature other than the dragon who regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) in the area regains only half the expected amount. Any [winded](scc:mcdm.heroes.v1/rule.health/winded) creature who enters the area for the first time in a round or starts their turn there takes 1d3 corruption damage.
+        - effect: The dragon's scales create a 2 aura of withering green magic around them. Any creature other than the dragon who regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) in the area regains only half the expected amount. Any [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) creature who enters the area for the first time in a round or starts their turn there takes 1d3 corruption damage.
       feature_type: trait
       icon: ❇️
       name: Withering Wyrmscale Aura
@@ -49,7 +49,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Once per turn, the dragon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares and can move through enemies' spaces at their usual speed. The first time the dragon moves through an enemy's space during this movement, the enemy takes 3 damage.
+        - effect: Once per turn, the dragon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 5 squares and can move through enemies' spaces at their usual speed. The first time the dragon moves through an enemy's space during this movement, the enemy takes 3 damage.
       feature_type: trait
       icon: ⭐️
       name: Provoking Nettles
@@ -57,7 +57,7 @@ features:
     - cost: 5 Malice
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each target pulled.'
+        - effect: '**Effect:** Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each target pulled.'
       feature_type: ability
       icon: ❇️
       keywords:
@@ -70,7 +70,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A dragonsealed creature within distance ends the dragonsealed effect.
-            **Effect:** The target is pulled up to 5 squares toward the dragon, and if they have A < 2, they are [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
+            **Effect:** The target is pulled up to 5 squares toward the dragon, and if they have A < 2, they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -85,7 +85,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature within distance deals damage to the dragon with a melee strike.
-            **Effect:** The dragon makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and if the target has M < 2, they are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
+            **Effect:** The dragon makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and if the target has M < 2, they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -98,9 +98,9 @@ features:
       distance: 4 burst
       effects:
         - roll: Power Roll + 3
-          tier1: 5 damage; A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier2: 9 damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier3: 12 damage; A < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier1: 5 damage; A < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 9 damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 12 damage; A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: ☠️
       keywords:
@@ -113,7 +113,7 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The thorns upon the dragon''s scales grow longer and sharper. Until the end of the encounter, any [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.'
+        - effect: '**Effect:** The thorns upon the dragon''s scales grow longer and sharper. Until the end of the encounter, any [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -126,8 +126,8 @@ features:
       distance: Special
       effects:
         - effect: |-
-            **Effect:** Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature [force moved](scc:mcdm.heroes.v1/movement/forced-movement) by the dragon takes 1d3 poison damage, and if they have M < 2, they are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
-            **Special:** If the Thorn Dragon's Domain [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait) is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
+            **Effect:** Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by the dragon takes 1d3 poison damage, and if they have M < 2, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
+            **Special:** If the Thorn Dragon's Domain [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
       feature_type: ability
       icon: ☠️
       keywords:

@@ -7,7 +7,7 @@ features:
         - roll: Power Roll + 3
           tier1: 3 corruption damage
           tier2: 6 corruption damage
-          tier3: 7 corruption damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 7 corruption damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -20,7 +20,7 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver).'
+        - effect: '**Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver).'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -30,7 +30,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: While the fiktin is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+        - effect: While the fiktin is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

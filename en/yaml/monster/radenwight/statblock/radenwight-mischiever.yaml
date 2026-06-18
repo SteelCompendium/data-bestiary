@@ -23,7 +23,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** An ally deals damage to the target.
-            **Effect:** The mischiever makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+            **Effect:** The mischiever makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
       feature_type: ability
       icon: ❗️
       keywords:

@@ -65,9 +65,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "8 damage; I \u003c WEAK [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends",
-          "tier2": "12 damage; I \u003c AVERAGE [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)",
-          "tier3": "16 damage; I \u003c STRONG [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends) and [prone](scc:mcdm.heroes.v1/condition/prone)"
+          "tier1": "8 damage; I \u003c WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends",
+          "tier2": "12 damage; I \u003c AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "16 damage; I \u003c STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends) and [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
         }
       ],
       "feature_type": "ability",
@@ -88,9 +88,9 @@
       "effects": [
         {
           "roll": "Power Roll + highest characteristic",
-          "tier1": "6 damage; P \u003c WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened)",
-          "tier2": "9 damage; P \u003c AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened)",
-          "tier3": "13 damage; P \u003c STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened)"
+          "tier1": "6 damage; P \u003c WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)",
+          "tier2": "9 damage; P \u003c AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)",
+          "tier3": "13 damage; P \u003c STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)"
         }
       ],
       "feature_type": "ability",

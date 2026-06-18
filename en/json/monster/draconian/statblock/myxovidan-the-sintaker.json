@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "10 damage; M \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier2": "15 damage; M \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "18 corruption damage; M \u003c 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier1": "10 damage; M \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "15 damage; M \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "18 corruption damage; M \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +50,7 @@
       "distance": "Ranged 3",
       "effects": [
         {
-          "effect": "**Effect:** Myxovidan and the target [shift](scc:mcdm.heroes.v1/movement/shifting) to swap places."
+          "effect": "**Effect:** Myxovidan and the target [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to swap places."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** An [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature damages Myxovidan with a melee ability.\n**Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice)."
+          "effect": "**Trigger:** An [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature damages Myxovidan with a melee ability.\n**Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice)."
         }
       ],
       "feature_type": "ability",
@@ -84,7 +84,7 @@
     {
       "effects": [
         {
-          "effect": "Whenever an enemy regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) while within 5 squares of Myxovidan, they regain 3 less [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)."
+          "effect": "Whenever an enemy regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while within 5 squares of Myxovidan, they regain 3 less [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
         }
       ],
       "feature_type": "trait",

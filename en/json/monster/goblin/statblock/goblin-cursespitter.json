@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "3 corruption damage; I \u003c 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier2": "4 corruption damage; I \u003c 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)",
-          "tier3": "5 corruption damage; I \u003c 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier1": "3 corruption damage; I \u003c 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "4 corruption damage; I \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "5 corruption damage; I \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -31,9 +31,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "I \u003c 0 [prone](scc:mcdm.heroes.v1/condition/prone)",
-          "tier2": "I \u003c 1 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (EoT)",
-          "tier3": "[Prone](scc:mcdm.heroes.v1/condition/prone); I \u003c 2 can't stand (save ends)"
+          "tier1": "I \u003c 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "I \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)",
+          "tier3": "[Prone](scc.v1:mcdm.heroes.v1/condition/prone); I \u003c 2 can't stand (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
     {
       "effects": [
         {
-          "effect": "The cursespitter doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
+          "effect": "The cursespitter doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
         }
       ],
       "feature_type": "trait",

@@ -2,18 +2,18 @@
   "features": [
     {
       "icon": "🌀",
-      "intro": "As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a dart trap can make an **Agility test**.",
+      "intro": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a dart trap can make an **Agility test**.",
       "name": "Deactivate",
       "power_roll": {
         "tiers": {
           "high": "The trap is deactivated and doesn’t trigger.",
           "low": "The creature triggers the trap and is targeted by it.",
-          "mid": "The trap is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)."
+          "mid": "The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)."
         }
       }
     },
     {
-      "body": "A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.",
+      "body": "A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.",
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -43,14 +43,14 @@
       "sections": [
         {
           "label": "Trigger",
-          "text": "A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated."
+          "text": "A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated."
         }
       ],
       "target": "One creature or object",
       "usage": "Free triggered action"
     },
     {
-      "body": "**Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).\n\n**Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap's attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.\n\n**Gatling Darts (+4 EV)** The dart trap is equipped with multiple barrels to launch darts at a high rate of fire. The **Dart** ability loses the Ranged and Strike and takes the Area keyword, its area becomes a 5 x 1 line within 1, and it deals an extra 1d6 damage.",
+      "body": "**Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).\n\n**Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap's attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.\n\n**Gatling Darts (+4 EV)** The dart trap is equipped with multiple barrels to launch darts at a high rate of fire. The **Dart** ability loses the Ranged and Strike and takes the Area keyword, its area becomes a 5 x 1 line within 1, and it deals an extra 1d6 damage.",
       "icon": "⭐️",
       "name": "Upgrades"
     },

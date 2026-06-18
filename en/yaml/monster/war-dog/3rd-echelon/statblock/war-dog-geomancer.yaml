@@ -5,9 +5,9 @@ features:
       distance: 7 x 2 line within 10
       effects:
         - roll: Power Roll + 4
-          tier1: 3 damage; M < 2 [push](scc:mcdm.heroes.v1/movement/forced-movement) (see effect)
-          tier2: 6 damage; M < 3 [push](scc:mcdm.heroes.v1/movement/forced-movement)
-          tier3: 8 damage; M < 4 [push](scc:mcdm.heroes.v1/movement/forced-movement), [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier1: 3 damage; M < 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) (see effect)
+          tier2: 6 damage; M < 3 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement)
+          tier3: 8 damage; M < 4 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement), [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -20,7 +20,7 @@ features:
       usage: Main action
     - distance: 5 wall within 10
       effects:
-        - effect: '**Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to it.'
+        - effect: '**Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to it.'
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -38,7 +38,7 @@ features:
       name: Dust Cloud
       type: feature
     - effects:
-        - effect: When the geomancer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+        - effect: When the geomancer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
       feature_type: trait
       icon: ⭐️
       name: Loyalty Collar

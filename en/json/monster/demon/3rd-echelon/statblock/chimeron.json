@@ -10,7 +10,7 @@
           "roll": "Power Roll + 4",
           "tier1": "9 cold, fire, or sonic damage",
           "tier2": "11 cold, fire, or sonic damage",
-          "tier3": "13 cold, fire, or sonic damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [dazed](scc:mcdm.heroes.v1/condition/dazed), or [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier3": "13 cold, fire, or sonic damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "While the chimeron is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+          "effect": "While the chimeron is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

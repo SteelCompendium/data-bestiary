@@ -32,9 +32,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 damage; M \u003c 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "6 damage; M \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "7 damage; M \u003c 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier1": "5 damage; M \u003c 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "6 damage; M \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "7 damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -52,7 +52,7 @@
     {
       "effects": [
         {
-          "effect": "The warrior doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
+          "effect": "The warrior doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
         }
       ],
       "feature_type": "trait",

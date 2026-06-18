@@ -31,7 +31,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: When the trooper is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the trooper takes 3 fire damage.
+        - effect: When the trooper is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the trooper takes 3 fire damage.
       feature_type: trait
       icon: ⭐️
       name: Infernal Ichor

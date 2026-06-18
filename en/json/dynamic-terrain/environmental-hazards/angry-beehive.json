@@ -6,7 +6,7 @@
       "name": "Deactivate"
     },
     {
-      "body": "A creature enters the hive's space or an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space without [shifting](scc:mcdm.heroes.v1/movement/shifting).",
+      "body": "A creature enters the hive's space or an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) space without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).",
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "body": "**Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.\n\n**Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature [shifts](scc:mcdm.heroes.v1/movement/shifting) into or while [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to it, and the swarm deals 1d6 + 3 poison damage.",
+      "body": "**Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.\n\n**Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) into or while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to it, and the swarm deals 1d6 + 3 poison damage.",
       "icon": "⭐️",
       "name": "Upgrades"
     }

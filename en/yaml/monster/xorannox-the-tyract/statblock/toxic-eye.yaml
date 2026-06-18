@@ -6,8 +6,8 @@ features:
       effects:
         - roll: Power Roll + 4
           tier1: 6 poison damage
-          tier2: 10 poison damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 13 poison damage; M < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 10 poison damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 13 poison damage; M < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:

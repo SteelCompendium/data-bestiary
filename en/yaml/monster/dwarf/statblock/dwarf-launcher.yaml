@@ -5,9 +5,9 @@ features:
       distance: 3 cube within 5
       effects:
         - roll: Power Roll + 2
-          tier1: 3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-          tier2: 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-          tier3: 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier1: 3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -22,9 +22,9 @@ features:
       distance: 3 cube within 5
       effects:
         - roll: Power Roll + 2
-          tier1: 3 poison damage; I < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier2: 6 poison damage; I < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier3: 8 poison damage; I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier1: 3 poison damage; I < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 6 poison damage; I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 8 poison damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:

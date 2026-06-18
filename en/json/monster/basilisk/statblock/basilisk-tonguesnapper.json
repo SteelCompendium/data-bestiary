@@ -30,9 +30,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "A \u003c 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier2": "A \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)",
-          "tier3": "[Slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends); or if A \u003c 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier1": "A \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "A \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); or if A \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -52,9 +52,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "8 corruption damage; R \u003c 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier2": "10 corruption damage; R \u003c 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)",
-          "tier3": "14 corruption damage; R \u003c 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)"
+          "tier1": "8 corruption damage; R \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "10 corruption damage; R \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "14 corruption damage; R \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -74,7 +74,7 @@
       "distance": "2 burst",
       "effects": [
         {
-          "effect": "**Trigger:** The tonguesnapper takes damage from a melee ability.\n**Effect:** Each target takes 4 acid damage. Any target who has M \u003c 2 is also [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)."
+          "effect": "**Trigger:** The tonguesnapper takes damage from a melee ability.\n**Effect:** Each target takes 4 acid damage. Any target who has M \u003c 2 is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -90,7 +90,7 @@
     {
       "effects": [
         {
-          "effect": "Any creature who starts their turn adjacent to the tonguesnapper and has M \u003c 1 is [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)."
+          "effect": "Any creature who starts their turn adjacent to the tonguesnapper and has M \u003c 1 is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
         }
       ],
       "feature_type": "trait",

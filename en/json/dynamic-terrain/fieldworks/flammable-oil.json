@@ -2,13 +2,13 @@
   "features": [
     {
       "icon": "🌀",
-      "intro": "As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.",
+      "intro": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.",
       "name": "Deactivate",
       "power_roll": {
         "tiers": {
           "high": "The oil is rendered safe and can't be ignited.",
           "low": "The creature ignites the oil and is affected as if in its area.",
-          "mid": "The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)."
+          "mid": "The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)."
         }
       }
     },
@@ -19,7 +19,7 @@
       "sections": [
         {
           "label": "Effect",
-          "text": "The triggering creature or object takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
+          "text": "The triggering creature or object takes 3 fire damage and is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
         }
       ]
     },

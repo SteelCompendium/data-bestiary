@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "7 damage",
           "tier2": "10 damage",
-          "tier3": "13 damage; R \u003c 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); I \u003c 1 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends); P \u003c 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)"
+          "tier3": "13 damage; R \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); I \u003c 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends); P \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
         }
       ],
       "feature_type": "ability",

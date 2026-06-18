@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1",
-          "tier2": "11 damage; one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares; the other target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares",
-          "tier3": "14 damage; one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares and knocked [prone](scc:mcdm.heroes.v1/condition/prone); the other target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares"
+          "tier1": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "11 damage; one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares; the other target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares",
+          "tier3": "14 damage; one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares and knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone); the other target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +30,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed along the ground in straight line. Each enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
+          "effect": "**Effect:** The griffon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed along the ground in straight line. Each enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -49,9 +49,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical",
-          "tier2": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 1 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical",
-          "tier3": "[Push](scc:mcdm.heroes.v1/movement/forced-movement) 6; M \u003c 2 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical"
+          "tier1": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 0 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical",
+          "tier2": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 1 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical",
+          "tier3": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6; M \u003c 2 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical"
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** The griffon flies directly above a creature within distance.\n**Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A \u003c 2, they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or knocked [prone](scc:mcdm.heroes.v1/condition/prone)."
+          "effect": "**Trigger:** The griffon flies directly above a creature within distance.\n**Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A \u003c 2, they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -84,7 +84,7 @@
     {
       "effects": [
         {
-          "effect": "While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver."
+          "effect": "While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver."
         }
       ],
       "feature_type": "trait",
@@ -95,7 +95,7 @@
     {
       "effects": [
         {
-          "effect": "Any power roll that could knock the griffon [prone](scc:mcdm.heroes.v1/condition/prone) takes a bane."
+          "effect": "Any power roll that could knock the griffon [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes a bane."
         }
       ],
       "feature_type": "trait",

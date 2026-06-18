@@ -10,7 +10,7 @@
           "roll": "Power Roll + 3",
           "tier1": "3 damage; pull 2",
           "tier2": "6 damage; pull 3",
-          "tier3": "7 damage; pull 4, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier3": "7 damage; pull 4, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share."
+          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share."
         }
       ],
       "feature_type": "trait",

@@ -1,7 +1,7 @@
 {
   "features": [
     {
-      "body": "A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M \u003c 2, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone).",
+      "body": "A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M \u003c 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
       "cost": "3 Malice",
       "icon": "👤",
       "name": "Guarding Gale"

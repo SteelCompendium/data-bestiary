@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 2",
           "tier1": "4 cold damage",
-          "tier2": "6 cold damage; the stalker can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square",
-          "tier3": "7 cold damage; the stalker [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares"
+          "tier2": "6 cold damage; the stalker can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier3": "7 cold damage; the stalker [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares"
         }
       ],
       "feature_type": "ability",
@@ -52,7 +52,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "The umbral stalker [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space in an area of concealment within 10 squares."
+          "effect": "The umbral stalker [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space in an area of concealment within 10 squares."
         }
       ],
       "feature_type": "ability",
@@ -68,7 +68,7 @@
     {
       "effects": [
         {
-          "effect": "The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects."
+          "effect": "The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects."
         }
       ],
       "feature_type": "trait",

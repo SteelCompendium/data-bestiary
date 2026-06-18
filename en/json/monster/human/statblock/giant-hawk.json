@@ -10,7 +10,7 @@
           "roll": "Power Roll + 2",
           "tier1": "5 damage",
           "tier2": "7 damage",
-          "tier3": "9 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)"
+          "tier3": "9 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
         }
       ],
       "feature_type": "ability",
@@ -46,7 +46,7 @@
     {
       "effects": [
         {
-          "effect": "Once per turn when the hawk moves, any creature riding the hawk can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) during or after the movement."
+          "effect": "Once per turn when the hawk moves, any creature riding the hawk can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) during or after the movement."
         }
       ],
       "feature_type": "trait",

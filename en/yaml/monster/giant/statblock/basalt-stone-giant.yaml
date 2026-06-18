@@ -5,9 +5,9 @@ features:
       distance: Melee 3
       effects:
         - roll: Power Roll + 4
-          tier1: 12 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-          tier2: 17 damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-          tier3: 21 damage; M < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier1: 12 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 17 damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 21 damage; M < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -23,9 +23,9 @@ features:
       distance: Melee 3 or ranged 12
       effects:
         - roll: Power Roll + 4
-          tier1: 10 damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier2: 16 damage; A < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-          tier3: 20 damage; [prone](scc:mcdm.heroes.v1/condition/prone); A < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier1: 10 damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 16 damage; A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 20 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -39,7 +39,7 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Giants ignore this [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).'
+        - effect: '**Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Giants ignore this [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).'
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -52,7 +52,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** The basalt stone giant takes damage.
-            **Effect:** The target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares, or if they have A < 3, they are [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 6 squares and knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+            **Effect:** The target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares, or if they have A < 3, they are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 6 squares and knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       feature_type: ability
       icon: ❗️
       keywords:
@@ -69,13 +69,13 @@ features:
       name: Stonebreaker Flesh
       type: feature
     - effects:
-        - effect: The basalt stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+        - effect: The basalt stone giant ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
       feature_type: trait
       icon: ⭐️
       name: Stone Steps
       type: feature
     - effects:
-        - effect: The basalt stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.
+        - effect: The basalt stone giant can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.
       feature_type: trait
       icon: ⭐️
       name: Stone Swim

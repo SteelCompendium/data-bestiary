@@ -33,7 +33,7 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 3. While the shade has concealment, they have [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 3.
+        - effect: The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 3. While the shade has concealment, they have [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 3.
       feature_type: trait
       icon: ⭐️
       name: Of the Umbra
@@ -42,9 +42,9 @@ features:
       distance: Ranged 5
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 8 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier2: 12 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: 16 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier1: 8 poison damage; [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 12 poison damage; [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 16 poison damage; [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

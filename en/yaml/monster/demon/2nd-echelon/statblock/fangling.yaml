@@ -22,9 +22,9 @@ features:
       distance: 8 x 3 line within 1
       effects:
         - roll: Power Roll + 2
-          tier1: 2 damage; pull 1; A < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier2: 3 damage; pull 1; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-          tier3: 4 damage; pull 1; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier1: 2 damage; pull 1; A < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 3 damage; pull 1; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 4 damage; pull 1; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -35,13 +35,13 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the fangling or uses a melee ability against the fangling, they take 2 damage.
+        - effect: Whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the fangling or uses a melee ability against the fangling, they take 2 damage.
       feature_type: trait
       icon: ⭐️
       name: Made of Teeth
       type: feature
     - effects:
-        - effect: While the fangling is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+        - effect: While the fangling is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
       feature_type: trait
       icon: ⭐️
       name: Lethe

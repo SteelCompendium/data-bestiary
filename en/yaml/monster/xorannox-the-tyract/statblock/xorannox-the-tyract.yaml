@@ -3,14 +3,14 @@ ev: "96"
 features:
     - effects:
         - effect: |-
-            **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
             **Solo Turns:** Xorannox can take two turns each round. He can't take turns consecutively.
       feature_type: trait
       icon: ☠️
       name: Solo Monster
       type: feature
     - effects:
-        - effect: Six unique eyestalks float around Xorannox, acting on his turn at his command until they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). On each of Xorannox's turns, he directs one eyestalk to move and use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability).
+        - effect: Six unique eyestalks float around Xorannox, acting on his turn at his command until they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). On each of Xorannox's turns, he directs one eyestalk to move and use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).
       feature_type: trait
       icon: "\U0001F300"
       name: Eyes of the Tyract
@@ -19,9 +19,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + 4
-          tier1: 12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
-          tier2: 20 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
-          tier3: 23 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+          tier1: 12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+          tier2: 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+          tier3: 23 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -35,9 +35,9 @@ features:
     - distance: 2 burst
       effects:
         - roll: Power Roll + 4
-          tier1: Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-          tier2: Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
-          tier3: Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 7
+          tier1: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier2: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+          tier3: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
       feature_type: ability
       icon: ❇️
       keywords:
@@ -74,7 +74,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature within distance deals damage to Xorannox.
-            **Effect:** If the target has I < 3 they are [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+            **Effect:** If the target has I < 3 they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       feature_type: ability
       icon: ❗️
       keywords:
@@ -85,13 +85,13 @@ features:
       type: feature
       usage: Triggered action
     - effects:
-        - effect: Xorannox can't be made [frightened](scc:mcdm.heroes.v1/condition/frightened) or knocked [prone](scc:mcdm.heroes.v1/condition/prone), and he can't be flanked.
+        - effect: Xorannox can't be made [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and he can't be flanked.
       feature_type: trait
       icon: ⭐️
       name: Above It All
       type: feature
     - effects:
-        - effect: If Xorannox perceives another overmind or a [voiceless talker](scc:mcdm.monsters.v1/monster.group/voiceless-talker) on the encounter map, he targets that threat one or more times on each of his turns.
+        - effect: If Xorannox perceives another overmind or a [voiceless talker](scc.v1:mcdm.monsters.v1/monster.group/voiceless-talker) on the encounter map, he targets that threat one or more times on each of his turns.
       feature_type: trait
       icon: ⭐️
       name: Natural Enemies
@@ -100,9 +100,9 @@ features:
       distance: Ranged 10
       effects:
         - roll: Power Roll + 4
-          tier1: 11 psychic damage; R < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier2: 17 psychic damage; R < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-          tier3: 20 psychic damage; R < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier1: 11 psychic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 17 psychic damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 20 psychic damage; R < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       feature_type: ability
       icon: ☠️
       keywords:
@@ -116,7 +116,7 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: '**Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
       feature_type: ability
       icon: ☠️
       keywords:
@@ -128,7 +128,7 @@ features:
     - cost: Villain Action 3
       distance: 2 burst
       effects:
-        - effect: '**Effect:** Xorannox directs each of his eyestalks to use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against any target.'
+        - effect: '**Effect:** Xorannox directs each of his eyestalks to use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against any target.'
       feature_type: ability
       icon: ☠️
       keywords:

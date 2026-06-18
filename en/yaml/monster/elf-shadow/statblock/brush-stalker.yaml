@@ -23,9 +23,9 @@ features:
       distance: 2 burst
       effects:
         - roll: Power Roll + 3
-          tier1: 4 corruption damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier2: 7 corruption damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-          tier3: 10 corruption damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier1: 4 corruption damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 7 corruption damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 10 corruption damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       feature_type: ability
       icon: ❇️
       keywords:
@@ -42,7 +42,7 @@ features:
       name: Suneater
       type: feature
     - effects:
-        - effect: While they have line of effect to the brush stalker, any animal except another brush stalker is [frightened](scc:mcdm.heroes.v1/condition/frightened).
+        - effect: While they have line of effect to the brush stalker, any animal except another brush stalker is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).
       feature_type: trait
       icon: ⭐️
       name: Wyrd Dyr

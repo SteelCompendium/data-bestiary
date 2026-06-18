@@ -45,9 +45,9 @@ features:
       distance: 3 cube within 15
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 8 damage; I < WEAK [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends
-          tier2: 12 damage; I < AVERAGE [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: 16 damage; I < STRONG [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends) and [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier1: 8 damage; I < WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends
+          tier2: 12 damage; I < AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 16 damage; I < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends) and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -62,9 +62,9 @@ features:
       distance: 10 x 1 line within 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 6 damage; P < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened)
-          tier2: 9 damage; P < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened)
-          tier3: 13 damage; P < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened)
+          tier1: 6 damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)
+          tier2: 9 damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)
+          tier3: 13 damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)
       feature_type: ability
       icon: "\U0001F533"
       keywords:

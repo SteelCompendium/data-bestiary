@@ -44,7 +44,7 @@ features:
     - cost: Encounter
       distance: Self
       effects:
-        - effect: '**Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](scc:mcdm.heroes.v1/rule.combat/strike), the [strike](scc:mcdm.heroes.v1/rule.combat/strike) gains an edge and the arrowswift gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) that must be used immediately. While the arrowswift''s mentor is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them, the mentor also gains this benefit.'
+        - effect: '**Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) gains an edge and the arrowswift gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that must be used immediately. While the arrowswift''s mentor is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, the mentor also gains this benefit.'
       feature_type: ability
       icon: "\U0001F464"
       keywords:

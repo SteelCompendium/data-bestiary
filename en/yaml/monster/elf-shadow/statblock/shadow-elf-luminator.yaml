@@ -24,7 +24,7 @@ features:
         - roll: Power Roll + 3
           tier1: The target regains 6 Stamina.
           tier2: The target regains 9 Stamina.
-          tier3: The target regains 12 Stamina and the Director gains 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
+          tier3: The target regains 12 Stamina and the Director gains 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
       feature_type: ability
       icon: ❇️
       keywords:

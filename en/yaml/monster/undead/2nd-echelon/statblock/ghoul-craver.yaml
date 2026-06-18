@@ -20,7 +20,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Any enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to three or more ghoul cravers can't [shift](scc:mcdm.heroes.v1/movement/shifting).
+        - effect: Any enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to three or more ghoul cravers can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
       feature_type: trait
       icon: ⭐️
       name: Ever So Hungry

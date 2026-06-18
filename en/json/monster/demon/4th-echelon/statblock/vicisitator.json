@@ -10,7 +10,7 @@
           "roll": "Power Roll + 5",
           "tier1": "9 damage",
           "tier2": "12 damage",
-          "tier3": "14 damage; I \u003c 5 the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)"
+          "tier3": "14 damage; I \u003c 5 the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -33,9 +33,9 @@
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "tier1": "4 psychic damage; P \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "7 psychic damage; P \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "9 psychic damage; P \u003c 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier1": "4 psychic damage; P \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "7 psychic damage; P \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "9 psychic damage; P \u003c 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -51,7 +51,7 @@
     {
       "effects": [
         {
-          "effect": "While the vicisitator is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+          "effect": "While the vicisitator is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

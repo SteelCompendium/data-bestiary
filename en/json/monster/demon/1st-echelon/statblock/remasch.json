@@ -8,9 +8,9 @@
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "tier1": "5 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares",
-          "tier2": "6 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares",
-          "tier3": "8 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares"
+          "tier1": "5 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares",
+          "tier2": "6 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares",
+          "tier3": "8 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares"
         }
       ],
       "feature_type": "ability",
@@ -31,7 +31,7 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike."
+          "effect": "**Effect:** The remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike."
         }
       ],
       "feature_type": "ability",
@@ -47,7 +47,7 @@
     {
       "effects": [
         {
-          "effect": "While the remasch is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+          "effect": "While the remasch is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
         }
       ],
       "feature_type": "trait",

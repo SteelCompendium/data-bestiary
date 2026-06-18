@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
+        - effect: Whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
       feature_type: trait
       icon: ⭐️
       name: Toxiferous
@@ -28,9 +28,9 @@ features:
       distance: Melee 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 5 damage; M < WEAK, [prone](scc:mcdm.heroes.v1/condition/prone)
-          tier2: 9 damage; M < AVERAGE, [prone](scc:mcdm.heroes.v1/condition/prone)
-          tier3: 12 damage; M < STRONG, [prone](scc:mcdm.heroes.v1/condition/prone)
+          tier1: 5 damage; M < WEAK, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 9 damage; M < AVERAGE, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 12 damage; M < STRONG, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -45,9 +45,9 @@ features:
       distance: Ranged 5
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 5 poison damage; M < WEAK, [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier2: 9 poison damage; M < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: 12 poison damage; M < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier1: 5 poison damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 poison damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 poison damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -63,7 +63,7 @@ features:
       effects:
         - effect: |-
             **Trigger:** A creature moves within distance.
-            **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone), and one ally within distance gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+            **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and one ally within distance gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
       feature_type: ability
       icon: ❗️
       keywords:

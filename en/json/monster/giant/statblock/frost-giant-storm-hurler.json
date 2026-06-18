@@ -9,8 +9,8 @@
         {
           "roll": "Power Roll + 4",
           "tier1": "13 cold damage",
-          "tier2": "18 cold damage; M \u003c 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier3": "22 cold damage; M \u003c 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)"
+          "tier2": "18 cold damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "22 cold damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
         }
       ],
       "feature_type": "ability",
@@ -31,8 +31,8 @@
       "effects": [
         {
           "roll": "",
-          "tier1": "14 cold damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)",
-          "tier2": "11 cold damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier1": "14 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "11 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
           "tier3": "7 cold damage"
         }
       ],
@@ -51,7 +51,7 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Effect:** The storm hurler and the target each [shift](scc:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+          "effect": "**Effect:** The storm hurler and the target each [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
         }
       ],
       "feature_type": "ability",
@@ -84,7 +84,7 @@
     {
       "effects": [
         {
-          "effect": "The storm hurler is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the storm hurler can't [shift](scc:mcdm.heroes.v1/movement/shifting)."
+          "effect": "The storm hurler is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the storm hurler can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting)."
         }
       ],
       "feature_type": "trait",

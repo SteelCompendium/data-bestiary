@@ -19,7 +19,7 @@ features:
       type: feature
       usage: Main action
     - effects:
-        - effect: At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn.
+        - effect: At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn.
       feature_type: trait
       icon: ⭐️
       name: Otherworldly Grace
@@ -28,9 +28,9 @@ features:
       distance: 3 cube within 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 3 cold damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-          tier2: 5 cold damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-          tier3: 8 cold damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+          tier1: 3 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 5 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 8 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -43,7 +43,7 @@ features:
     - cost: Encounter
       distance: 3 burst
       effects:
-        - effect: '**Effect:** Each target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and can choose one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn.'
+        - effect: '**Effect:** Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and can choose one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn.'
       feature_type: ability
       icon: ❇️
       keywords:
@@ -57,9 +57,9 @@ features:
       distance: 3 cube within 1
       effects:
         - roll: Power Roll + highest characteristic
-          tier1: 6 corruption damage; P < WEAK [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier2: 10 corruption damage; P < AVERAGE [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-          tier3: 14 corruption damage; P < STRONG [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier1: 6 corruption damage; P < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 10 corruption damage; P < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 14 corruption damage; P < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       feature_type: ability
       icon: "\U0001F533"
       keywords:

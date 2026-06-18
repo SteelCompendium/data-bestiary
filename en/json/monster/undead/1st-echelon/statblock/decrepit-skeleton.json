@@ -28,7 +28,7 @@
     {
       "effects": [
         {
-          "effect": "When the decrepit skeleton is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their space is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The first time any enemy enters this space, the take 1 damage and the effect end."
+          "effect": "When the decrepit skeleton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their space is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The first time any enemy enters this space, the take 1 damage and the effect end."
         }
       ],
       "feature_type": "trait",
